@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116930343-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116930343-1');
+</script>
+
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Zen of Python | Python Academy</title>
+<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+
+<!-- General -->
+<meta name="description" content="Descubra a essência do Python presente no Zen of Python!">
+
+
+
+<!-- Open Graph -->
+<meta property="fb:app_id" content="215534555859836">
+<meta property="og:site_name" content="Python Academy">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Zen of Python | Python Academy">
+<meta property="og:url" content="https://pythonacademy.com.br/zen-of-python">
+<meta property="og:description" content="Descubra a essência do Python presente no Zen of Python!">
+<meta property="og:image" content="https://pythonacademy.com.br/assets/img/og-image.png" />
+<meta property="og:image:alt" content="Zen of Python | Python Academy" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1800" />
+<meta property="og:image:height" content="942" />
+
+<!-- Twitter cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@">
+<meta name="twitter:title" content="Zen of Python | Python Academy">
+<meta name="twitter:description" content="Descubra a essência do Python presente no Zen of Python!">
+<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/img/twitter-card-image.png">
+
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://pythonacademy.com.br/zen-of-python">
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Custom Css -->
+<link rel="stylesheet" href="/assets/css/syntax.min.css?1522851627875544000">
+<link rel="stylesheet" href="/assets/css/utilities.css?1522851627875544000">
+<link rel="stylesheet" href="/assets/css/master.css?1522851627875544000">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Raleway:100,200,300,400,500,600,700,800|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic|Space+Mono:400,700|Inconsolata:400,700|Muli:200,300,400,600,700|Quicksand:300,400,500,700|Source+Serif+Pro:400,700|Roboto+Condensed:300,400,700|Roboto:300,400,500,700|Ubuntu:300,400,500,700|Oswald:300,400,500,600" rel="stylesheet">       
+    </head>
+
+    <body id="zen-of-python">
+
+        
+
+
+<header class="header">
+	
+	<nav class="navbar navbar-default">
+		<div class="container">
+	
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					onblur="hideMenu()"
+      				data-toggle="collapse"
+					data-target="#main-menu"
+					aria-expanded="true">
+					<span class="sr-only">Habilitar navegação</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" rel="home" href="https://pythonacademy.com.br">
+					<img alt="Python Academy" src="/assets/img/logo.png" data-aos-easing="ease-out" data-aos="fade-in" data-aos-duration="550">
+				</a>
+			</div>
+
+			<div id="main-menu" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="https://pythonacademy.com.br" title="Volte à página inicial">
+							Início
+						</a>
+					</li>
+					
+					<li>
+						<a href="https://pythonacademy.com.br/sliders" title="Aprenda na prática">
+							Sliders
+						</a>
+					</li>						
+
+					<li>
+						<a href="https://pythonacademy.com.br/blog" title="Aprenda com nossos artigos">
+							Blog
+						</a>
+					</li>						
+
+					<li>
+						<a href="https://pythonacademy.com.br/sobre" title="Conheça-nos">
+							Sobre
+						</a>
+					</li>						
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>    
+
+        <section class="banner zop-banner" data-aos="fade-in" data-aos-duration="800">
+            <div class="banner-wrapper">
+                <div class="banner-content">
+                    <div class="container">
+                        <h1 class="font-shadow"><i>The Zen of Python</i></h1>
+        
+                        <h2 class="font-shadow">Descubra os pilares do desenvolvimento em Python!</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="terminal-wrapper">
+            <div class="container">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <img src="/assets/img/terminal-icon.png" height="20px">
+                        <pre>zen_of_python.py</pre>
+                    </div>
+                    <div class="terminal-body">
+                        <pre class="u">usuário</pre>
+                        <pre class="s">$</pre>
+                        <pre class="n">python -i</pre>
+                        <br><br>
+                        <pre class="n">Python 3.5.2</pre><br>
+                        <pre class="n">Type "help", "copyright", "credits" or "license" for more information.</pre><br>
+                        <pre class="n">>>></pre><pre class="c"> import this</pre><br>
+                        <pre class="n">The Zen of Python, by Tim Peters</pre><br><br>
+                        <pre class="n">Beautiful is better than ugly.</pre><br>
+                        <pre class="n">Explicit is better than implicit.</pre><br>
+                        <pre class="n">Simple is better than complex.</pre><br>
+                        <pre class="n">Complex is better than complicated.</pre><br>
+                        <pre class="n">Flat is better than nested.</pre><br>
+                        <pre class="n">Sparse is better than dense.</pre><br>
+                        <pre class="n">Readability counts.</pre><br>
+                        <pre class="n">Special cases aren't special enough to break the rules.</pre><br>
+                        <pre class="n">Although practicality beats purity.</pre><br>
+                        <pre class="n">Errors should never pass silently.</pre><br>
+                        <pre class="n">Unless explicitly silenced.</pre><br>
+                        <pre class="n">In the face of ambiguity, refuse the temptation to guess.</pre><br>
+                        <pre class="n">There should be one-- and preferably only one --obvious way to do it.</pre><br>
+                        <pre class="n">Although that way may not be obvious at first unless you're Dutch.</pre><br>
+                        <pre class="n">Now is better than never.</pre><br>
+                        <pre class="n">Although never is often better than *right* now.</pre><br>
+                        <pre class="n">If the implementation is hard to explain, it's a bad idea.</pre><br>
+                        <pre class="n">If the implementation is easy to explain, it may be a good idea.</pre><br>
+                        <pre class="n">Namespaces are one honking great idea -- let's do more of those!</pre><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="zop-explanation">
+            <div class="container">
+                <h2>Agora vamos entender esse tal <i>Zen of Python</i></h2>                
+
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>Beautiful is better than ugly</b></i><br><span class="text-muted">"Bonito é melhor que feio"</span>
+                    </p>
+
+                    <div class="explanation">
+                        Se você desenvolve software, sabe que existem vários caminhos para chegar
+                        à solução. Em Python, quando isso acontece, escolhemos a "mais bonita", isto é:
+                        aquela que, visualmente, é mais elegante! Por exemplo, ao invés de fazer assim:
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">if</span> <span class="n">funcao</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">z</span> <span class="o">==</span> <span class="s">'yes'</span><span class="p">:</span></code></pre></figure>                        
+                        prefira:
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">if</span> <span class="n">funcao</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="ow">and</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">z</span> <span class="o">==</span> <span class="s">'yes'</span><span class="p">:</span></code></pre></figure>          
+                    </div>
+                </div>
+
+                <div class="blue-yellow-separator"></div>
+
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>Explicit is better than implicit</b></i><br><span class="text-muted">"Explícito é melhor que implícito"</span>
+                    </p>
+
+                    <div class="explanation">
+                        Por ser uma linguagem bastante flexível, Python te possibilita solucionar um problema de diversas maneiras.
+                        De mesmo modo, também te possibilita "esconder" determinadas partes de código (para que o mesmo fique
+                        menor, por exemplo). Em Python nós preferimos a opção mais legível, ou seja, aquela que apresenta todos os 
+                        elementos para se fazer entender (sem nada "escondido"). Por exemplo, use:
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">os</span>
+<span class="k">print</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span></code></pre></figure>  
+                        ao invés de: 
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="k">print</span> <span class="n">getcwd</span><span class="p">()</span></code></pre></figure>  
+
+                    </div>
+                </div>
+
+                <div class="blue-yellow-separator"></div>
+
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>Simple is better than complex</b></i><br><span class="text-muted">"Simples é melhor que complexo"</span>
+                    </p>
+
+                    <div class="explanation">
+                        Esse ponto é uma junção dos últimos dois: seu código Python deve primar pela beleza e legibilidade, sem perder a
+                        simplicidade! Ou seja, ao desenvolver um código Python, não busque o caminho mais complexo! Tente manter <b>simples</b>!
+                        Por exemplo, se eu lhe pedir <b>apenas</b> para escrever tais dados em disco: <code>dados = [{'peso': 10, 'cor': 'verde'},
+                        {'peso': 15, 'cor': 'azul'}]</code>. Alguém pode vir com tal solução:
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">sqlalchemy</span>
+<span class="kn">import</span> <span class="nn">sqlalchemy.types</span> <span class="kn">as</span> <span class="nn">sqltypes</span>
+
+<span class="k">def</span> <span class="nf">gravar</span><span class="p">(</span><span class="n">dados</span><span class="p">):</span>
+    <span class="n">db</span> <span class="o">=</span> <span class="n">sqlalchemy</span><span class="o">.</span><span class="n">create_engine</span><span class="p">(</span><span class="s">'sqlite:///dados.db'</span><span class="p">)</span>
+    <span class="n">db</span><span class="o">.</span><span class="n">echo</span> <span class="o">=</span> <span class="bp">False</span>
+    <span class="n">metadata</span> <span class="o">=</span> <span class="n">sqlalchemy</span><span class="o">.</span><span class="n">MetaData</span><span class="p">(</span><span class="n">db</span><span class="p">)</span>
+        <span class="n">table</span> <span class="o">=</span> <span class="n">sqlalchemy</span><span class="o">.</span><span class="n">Table</span><span class="p">(</span><span class="s">'dados'</span><span class="p">,</span> <span class="n">metadata</span><span class="p">,</span>
+        <span class="n">sqlalchemy</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="s">'id'</span><span class="p">,</span> <span class="n">sqltypes</span><span class="o">.</span><span class="n">Integer</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="bp">True</span><span class="p">),</span>
+        <span class="n">sqlalchemy</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="s">'peso'</span><span class="p">,</span> <span class="n">sqltypes</span><span class="o">.</span><span class="n">Float</span><span class="p">),</span>
+        <span class="n">sqlalchemy</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="s">'cor'</span><span class="p">,</span> <span class="n">sqltypes</span><span class="o">.</span><span class="n">String</span><span class="p">(</span><span class="mi">32</span><span class="p">)),</span>
+    <span class="p">)</span>
+    <span class="n">table</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="n">checkfirst</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">dado</span> <span class="ow">in</span> <span class="n">dados</span><span class="p">:</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="n">table</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span>
+        <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="o">**</span><span class="n">dados</span><span class="p">)</span></code></pre></figure>  
+
+                        E outro poderia vir com:
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="k">def</span> <span class="nf">gravar</span><span class="p">(</span><span class="n">dados</span><span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'dados.json'</span><span class="p">,</span> <span class="s">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">dados</span><span class="p">))</span></code></pre></figure>  
+                        Dado o requisito de apenas <b>gravar em disco</b>, qual solução é mais simples?
+                    </div>
+                </div>
+
+                <div class="blue-yellow-separator"></div>
+
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>Complex is better than complicated</b></i><br><span class="text-muted">"Complexo é melhor que complicado"</span>
+                    </p>
+
+                    <div class="explanation">
+                        Quando a alternativa simples não é possível, fuja da solução complicada! Adote, primeiro, a solução complexa. Só use a solução
+                        "complicada" (código ilegível, de difícil manutenção e "difícil de explicar") quando realmente nenhuma das anteriores for possível!<br><br>
+                        Usando o mesmo requisito do Zen anterior ("gravar dados em disco"), mas agora sendo <b>obrigatório</b> o uso de um banco de dados. Alguém 
+                        poderia vir com a mesma solução anterior (usando uma <i>framework</i> de Mapeamento Objeto Relacional - ORM - como o SQLAlchemy, por exemplo), 
+                        assim como alguém poderia dar a seguinte solução:
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">MySQLdb</span>
+
+<span class="k">def</span> <span class="nf">gravar</span><span class="p">(</span><span class="n">dados</span><span class="p">):</span>
+    <span class="n">db</span> <span class="o">=</span> <span class="n">MySQLdb</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">user</span><span class="o">=</span><span class="s">'usuario'</span><span class="p">,</span> <span class="n">passwd</span><span class="o">=</span><span class="s">"senha"</span><span class="p">,</span> <span class="n">host</span><span class="o">=</span><span class="s">'localhost'</span><span class="p">,</span> <span class="n">db</span><span class="o">=</span><span class="s">"dados"</span><span class="p">)</span>
+
+    <span class="n">c</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">"""
+        CREATE TABLE IF NOT EXISTS dados
+        id int(11) NOT NULL auto_increment,
+        peso float,
+        cor varchar(32)
+        PRIMARY KEY id
+        ENGINE=InnoDB CHARSET=utf8
+    """</span><span class="p">)</span>
+
+    <span class="n">insert_sql</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="s">"INSERT INTO dados (peso, cor) "</span>
+        <span class="s">"VALUES (</span><span class="si">%</span><span class="s">s, </span><span class="si">%</span><span class="s">s, </span><span class="si">%</span><span class="s">s)"</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">dado</span> <span class="ow">in</span> <span class="n">dados</span><span class="p">:</span>
+        <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">insert_sql</span><span class="p">,</span>
+            <span class="p">(</span><span class="n">dado</span><span class="p">[</span><span class="s">'peso'</span><span class="p">],</span> <span class="n">dado</span><span class="p">[</span><span class="s">'dor'</span><span class="p">])</span>
+        <span class="p">)</span></code></pre></figure>  
+                        Essa solução é dita <b>complicada</b> pois é extremamente acoplada, dependente de implementação, pouco manutenível e exige conhecimento não apenas da
+                        linguagem em questão (Python, no caso) mas de SQL <b>também</b>!
+                    </div>
+                </div>
+
+                <div class="blue-yellow-separator"></div>
+                
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>Flat is better than nested</b></i><br><span class="text-muted">"Linear é melhor do que aninhado"</span>
+                    </p>
+
+                    <div class="explanation">            
+                        Evite criar estruturas dentro de estruturas que estão dentro de outra estrutura (<code>dicts</code> são estruturas poderosas, mas use-os com cuidado). 
+                        Opte pela alternativa "linear", sem aninhá-las: isso resulta em um código mais legível e o acesso ao dado, mais simples. Faça:
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span> 
+    <span class="k">return</span> <span class="n">funcao</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> 
+<span class="k">elif</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> 
+    <span class="k">return</span> <span class="mi">0</span> 
+<span class="k">else</span><span class="p">:</span> 
+    <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">funcao</span><span class="p">(</span><span class="n">i</span><span class="p">)</span></code></pre></figure>  
+                        ao invés de
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">if</span> <span class="n">i</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">:</span> <span class="k">return</span> <span class="n">funcao</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> 
+<span class="k">elif</span> <span class="n">i</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span> <span class="k">return</span> <span class="mi">0</span> 
+<span class="k">else</span><span class="p">:</span> <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">funcao</span><span class="p">(</span><span class="n">i</span><span class="p">)</span></code></pre></figure>  
+                    </div>
+                </div>
+                
+                <div class="blue-yellow-separator"></div>
+
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>Sparse is better than dense</b></i><br><span class="text-muted">"Esparso é melhor que denso"</span>
+                    </p>
+
+                    <div class="explanation">                        
+                        Em outras palavras: não tente "amontoar" muito código em uma linha. Lembre-se do primeiro tópico: "bonito é melhor que feio"!
+                    </div>
+                </div>
+
+                <div class="blue-yellow-separator"></div>
+
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>Readability counts</b></i><br><span class="text-muted">"Legibilidade conta"</span>
+                    </p>
+
+                    <div class="explanation">                        
+                        Esse tópico é bem simples: ao terminar de desenvolver, olhe seu código passando o olho rapidamente: você se <b>sente bem</b> ou te <b>dá um calafrio</b>?
+                        Se te dá calafrios, tente iterar sobre ele, dando "um tapa no visual"! Um exemplo simples (em Java):
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">ClassePrincipal</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Olá pythonistas!"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span></code></pre></figure>
+                        e
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">print</span><span class="o">(</span><span class="s">"Olá pythonistas!"</span><span class="o">)</span></code></pre></figure>
+                        ...
+                    </div>
+                </div>
+
+                <div class="blue-yellow-separator"></div>
+            
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>Special cases aren't special enough to break the rules. Although practicality beats purity</b></i><br><span class="text-muted">"Casos especiais não são especiais o bastante para quebrar as regras. Ainda que praticidade vença a pureza"</span>
+                    </p>
+
+                    <div class="explanation">      
+                        Eu juntei dois tópicos para explicá-los melhor. 
+                    </div>
+                </div>
+
+                <div class="blue-yellow-separator"></div>
+
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>Errors should never pass silently. Unless explicitly silenced</b></i><br><span class="text-muted">"Erros nunca devem passar silenciosamente. A menos que sejam explicitamente silenciados"</span>
+                    </p>
+
+                    <div class="explanation">
+                        Nunca "silencie" uma exceção, a menos que a mesma seja explicitamente declarada e silenciada. Silenciar uma exceção é um erro grave de manutenção do código, pois 
+                        pode esconder um erro, as vezes inofensivo, as vezes crítico! Portanto, tenha atenção! Não faça isso:
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">try</span><span class="p">:</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">funcao</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="k">pass</span></code></pre></figure>  
+                        Faça, no mínimo:
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">try</span><span class="p">:</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">funcao</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Deu ruim!"</span><span class="p">)</span></code></pre></figure>  
+                    </div>
+                </div>
+
+                <div class="blue-yellow-separator"></div>
+
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>In the face of ambiguity, refuse the temptation to guess</b></i><br><span class="text-muted">"Diante da ambiguidade, recuse a tentação de adivinhar"</span>
+                    </p>
+
+                    <div class="explanation">
+                        Novamente, isso tem a ver com fazer seu código específico, limpo, bonito e está relacionado com o próximo Zen. Ao se deparar com um trecho de código que <b>PODE</b>
+                        dar errado <b>SE</b> tal, tal e tal condições sejam cumpridas tenha certeza de uma coisa: alguma hora essas condições <b>VÃO</b> se realizar e seu código <b>VAI</b>
+                        se comportar de maneira inesperada. 
+                    </div>
+                </div>
+
+                <div class="blue-yellow-separator"></div>
+
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>There should be one— and preferably only one —obvious way to do it. Although that way may not be obvious at first unless you’re Dutch</b></i><br>
+                        <span class="text-muted">"Deveria haver um — e preferencialmente apenas um — modo óbvio para fazer algo. Embora esse modo possa não ser óbvio a princípio a menos que você seja holandês"</span>
+                    </p>
+
+                    <div class="explanation">
+                        Diferente da forma como acontece em outras linguagens (<a href="https://en.wikipedia.org/wiki/There%27s_more_than_one_way_to_do_it">Perl</a>, por exemplo, defende exatamente o contrário),
+                        em Python se prega que <b>deve</b> existir apenas uma maneira de se chegar a uma solução do problema. Esse é um dos motivos que torna Python <b>tão simples</b>: não é difícil aprender uma linguagem quando
+                        se tem diversas maneiras de se fazer a mesma coisa? <br><br> A segunda parte faz referência ao criador do Python, Guido van Rossum - que é holandês. Por ser o criador da linguagem,
+                        faria sentido que aprender uma regra em Python seria mais fácil para ele do que qualquer outra pessoa, no geral.
+                    </div>
+                </div>         
+                
+                <div class="blue-yellow-separator"></div>
+
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>Now is better than never. Although never is often better than right now</b></i><br><span class="text-muted">"Agora é melhor que nunca. Embora nunca freqüentemente seja melhor que já."</span>
+                    </p>
+
+                    <div class="explanation">
+                        Não gaste tempo planejando demais e executando de menos! As vezes é melhor fazer uma primeira versão e iterar sobre ela até que a mesma esteja bonita, pythonicamente falando.
+                        Mas mesmo assim, não saia fazendo "qualquer coisas", apenas pelo fato de se ter algo: pense o mínimo na solução!
+                    </div>
+                </div>
+
+                <div class="blue-yellow-separator"></div>
+
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>If the implementation is hard to explain, it’s a bad idea</b></i><br><span class="text-muted">"Se a implementação é difícil de explicar, é uma má idéia"</span>
+                    </p>
+
+                    <div class="explanation">
+                        E novamente a simplicidade é pregada: se você ficou com dúvida sobre a sua própria implementação, revise-a!
+                    </div>
+                </div>
+
+                <div class="blue-yellow-separator"></div>
+
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>If the implementation is easy to explain, it may be a good idea</b></i><br><span class="text-muted">"Se a implementação é fácil de explicar, pode ser uma boa ideia"</span>
+                    </p>
+
+                    <div class="explanation">      
+                        Agora, se a a solução é simples de ser explicada, ela pode (repita comigo: <b>PODE</b>) ser uma boa ideia. Mas não necessariamente saber explicar uma implementação 
+                        precede uma <b>boa</b> implementação.
+                    </div>
+                </div>
+
+                <div class="blue-yellow-separator"></div>
+
+                <div class="explanation-box">
+                    <p class="text-center">
+                        <i><b>Namespaces are one honking great idea — let’s do more of those!</b></i><br><span class="text-muted">"Namespaces são uma grande ideia — vamos ter mais dessas!"</span>
+                    </p>
+
+                    <div class="explanation">
+                        <a href="https://pt.wikipedia.org/wiki/Espa%C3%A7o_de_nomes">Namespaces</a> são delimitadores abstratos que fornecem um contexto para aquilo que está sendo armazenado. 
+                        No caso do Python, eles servem para dar mais simplicidade ao código e deixá-lo mais legível, ou seja, uma ótima ideia. Veja o exemplo a seguir:
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">modelos.cachorro</span> <span class="kn">as</span> <span class="nn">cachorro</span>
+<span class="kn">import</span> <span class="nn">modelos.gato</span> <span class="kn">as</span> <span class="nn">gato</span>
+
+<span class="k">def</span> <span class="nf">funcao</span><span class="p">():</span>
+    <span class="n">cachorro</span><span class="o">.</span><span class="n">perseguir</span><span class="p">(</span><span class="n">gato</span><span class="p">)</span>    </code></pre></figure>
+                    </div>
+                </div>
+
+                <div class="blue-yellow-separator"></div>
+
+                <h3>Referências</h3>
+
+                <ul class="reference">
+                    <li>
+                        <a href="https://wiki.python.org.br/TheZenOfPythonExplained">Python Wiki</a>
+                    </li>
+                    <li>
+                        <a href="https://www.quora.com/What-do-different-aphorisms-in-The-Zen-of-Python-mean"><i>What do different aphorisms in The Zen of Python mean?</i></a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/@Pythonidaer/a-brief-analysis-of-the-zen-of-python-2bfd3b76edbf">A Brief Analysis of The Zen of Python</a>
+                    </li>
+                    <li>
+                        <a href="http://artifex.org/~hblanks/talks/2011/pep20_by_example.html">PEP20 by example</a>
+                    </li>
+                </ul>                                                
+            </div>
+        </section>
+
+        
+
+
+<section id="footer-signup">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<h2 class="bold">Aprenda Python de Verdade!</h2>
+				<p class="mb-32">
+					Cadastre o seu <span class="bold">melhor email</span> para receber gratuitamente conteúdos exclusivos e muito mais!
+				</p>
+			</div>
+			
+			<div class="col-xs-6 col-xs-offset-3">
+				<!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: Cadastrar = button label  -->
+
+<form action="//mavins.us14.list-manage.com/subscribe/post?u=05bb388f104fe97af9c26f686&amp;id=df10c953d1"
+        method="post" id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form"
+        class="validate"
+        target="_blank"
+        novalidate>
+    <div id="mc_embed_signup_scroll" class="input-group input-group-lg text-center">
+        <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="form-control email-input" placeholder="Email" required>
+        <span class="input-group-btn">
+            <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                <!--<span>Enviar</span>-->
+                <i class="fa fa-mail-forward fa-fw visible-xs" aria-hidden="true"></i>
+                <span class="hidden-xs">Cadastrar</span>
+            </button>
+        </span>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_05bb388f104fe97af9c26f686_df10c953d1" tabindex="-1" value=""></div>
+    </div>
+</form>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4">
+				<h2>Sobre</h2>
+
+				<ul>					
+					<li>
+						<a href="/sobre">Sobre a Python Academy</a>
+					</li>
+
+					<li>
+						<a href="/zen-of-python"><i>Zen of Python</i></a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-xs-4">
+				<h2>Conteúdo</h2>
+
+				<ul>
+					<li>
+						<a href="/blog">Blog</a>
+					</li>
+					<li>
+						<a href="/sliders">Sliders</a>
+					</li>
+					<li>
+						<a href="#"><span class="line-through">Ebooks</span> (em breve)</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-xs-4">
+				<img src="/assets/img/logo.png" alt="Aprenda Computação de Verdade!" class="footer-logo">
+
+				<p class="footer-label mt-16">
+					Existimos para levar o conhecimento de Python a todos de forma simples e inovadora!
+				</p>
+
+				<ul class="social-medias">
+					<li>
+						<a href="https://facebook.com/" target="_blank">
+							<img src="/assets/img/facebook.png" alt="Facebook" data-aos="fade-in" data-aos-delay="0" data-aos-duration="500" width="25px">
+						</a>
+					</li>
+
+					<li>
+						<a href="https://www.instagram.com/" target="_blank">
+							<img src="/assets/img/instagram.png" alt="Intagram" data-aos="fade-in" data-aos-delay="250" data-aos-duration="500" width="25px">
+						</a>
+					</li>
+
+					<li>
+						<a href="https://twitter.com/" target="_blank">
+							<img src="/assets/img/twitter.png" alt="Twitter" data-aos="fade-in" data-aos-delay="500" data-aos-duration="500" width="25px">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="footer-copyright">
+	<div class="text-center">
+		<p>
+			&copy;&nbsp;<b>2018</b>&nbsp;Python Academy <img src="/assets/img/cross.png" alt="Conheça Jesus Cristo!" height="24px" class="ml-16 mr-16"> 
+			<i>"Porque o Senhor dá a <b>sabedoria</b>, e da sua boca vem a <b>inteligência</b> e o <b>entendimento</b>" Pv 2:6</i>
+		</p>
+	</div>
+</section>
+
+<!-- Base Javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.0/parsley.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+
+<!-- Custom scripts -->
+<script src="/assets/js/script.js"></script>
+
+
+        <!-- Javascript -->     
+        <script type="text/javascript">
+            (function($) {
+                AOS.init({
+                    easing: 'linear',
+                    duration: 650
+                });
+            })(jQuery);
+        </script>
+    </body>
+</html>
