@@ -1,3 +1,6 @@
+body#post-body {
+  padding-bottom: 97px; }
+
 .main-container .post-banner .post-banner-wrapper {
   height: 500px;
   display: table;
@@ -43,12 +46,18 @@
       position: relative;
       left: 6px;
       top: 2px; }
+  @media (max-width: 767px) {
+    .main-container .post-meta {
+      bottom: 25px; }
+      .main-container .post-meta .post-meta-data {
+        padding: 8px 4px; }
+        .main-container .post-meta .post-meta-data img {
+          height: 20px; } }
 .main-container .post-container {
   padding-top: 64px; }
   .main-container .post-container .blog-post-content {
     display: block;
     max-width: 810px;
-    margin-bottom: 58px;
     font-weight: 400;
     margin-right: auto;
     margin-left: auto; }
@@ -67,7 +76,7 @@
         list-style-image: url("../img/list-style-l2.png"); }
       .main-container .post-container .blog-post-content #markdown-toc a {
         font-size: 16px; }
-    .main-container .post-container .blog-post-content p, .main-container .post-container .blog-post-content ul {
+    .main-container .post-container .blog-post-content p:not(.greeting), .main-container .post-container .blog-post-content ul {
       font-family: 'GT Walsheim', sans-serif;
       font-size: 1.8rem;
       line-height: 1.8;
@@ -90,29 +99,47 @@
       margin: 64px auto; }
   .main-container .post-container .blog-post-footer .blog-post-colophon {
     padding-bottom: 64px; }
-    .main-container .post-container .blog-post-footer .blog-post-colophon .row {
-      display: flex;
-      align-items: center; }
     .main-container .post-container .blog-post-footer .blog-post-colophon .profile-img {
       border-radius: 50%;
-      max-width: 152px; }
+      max-width: 152px;
+      margin: 8px 0; }
     .main-container .post-container .blog-post-footer .blog-post-colophon h2 {
       font-weight: 400;
       font-size: 14px; }
-    .main-container .post-container .blog-post-footer .blog-post-colophon ul li a {
-      color: #777;
-      padding: 0 30px 0 0;
-      transition: all .15s ease; }
-      .main-container .post-container .blog-post-footer .blog-post-colophon ul li a:hover {
-        background-color: inherit;
-        color: #333; }
-    .main-container .post-container .blog-post-footer .blog-post-colophon .short-description {
-      font-family: 'Quicksand', serif; }
     .main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta {
-      font-family: 'Muli', sans-serif;
-      font-size: 1.8rem; }
-      .main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta .blog-post-when {
-        font-weight: bold; }
+      margin: 7px 0; }
+      .main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta h2 {
+        margin-top: 0;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.8rem; }
+      .main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta .short-description {
+        font-family: 'Quicksand', serif;
+        line-height: 2.4rem; }
+      .main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta .author-media-label {
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #777;
+        margin: 0;
+        font-size: 1.5rem; }
+      .main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 30px; }
+        .main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta ul li {
+          display: inline; }
+          .main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta ul li a {
+            color: #777;
+            padding: 0 30px 0 0;
+            transition: all .15s ease; }
+            .main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta ul li a:hover {
+              background-color: inherit;
+              color: #333; }
+            @media (max-width: 767px) {
+              .main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta ul li a {
+                font-size: 2.3rem;
+                padding: 0 16px; } }
+      @media (max-width: 767px) {
+        .main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta {
+          text-align: center; } }
 
 .more-posts {
   background: #eef2f7 url("../svg/blog-bground-pattern.svg");

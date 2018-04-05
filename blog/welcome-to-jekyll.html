@@ -76,19 +76,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Custom Css -->
-<link rel="stylesheet" href="/assets/css/syntax.min.css?1522857115912040000">
-<link rel="stylesheet" href="/assets/css/utilities.css?1522857115912040000">
-<link rel="stylesheet" href="/assets/css/master.css?1522857115912040000">
+<link rel="stylesheet" href="/assets/css/syntax.min.css?1522968547401988000">
+<link rel="stylesheet" href="/assets/css/utilities.css?1522968547401988000">
+<link rel="stylesheet" href="/assets/css/master.css?1522968547401988000">
 
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Raleway:100,200,300,400,500,600,700,800|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic|Space+Mono:400,700|Inconsolata:400,700|Muli:200,300,400,600,700|Quicksand:300,400,500,700|Source+Serif+Pro:400,700|Roboto+Condensed:300,400,700|Roboto:300,400,500,700|Ubuntu:300,400,500,700|Oswald:300,400,500,600" rel="stylesheet">
 
 		<!-- post.css -->
-		<link rel="stylesheet" href="/assets/css/post.css?1522857115912040000">
+		<link rel="stylesheet" href="/assets/css/post.css?1522968547401988000">
 	</head>
 
-	<body>
-
+	<body id="post-body">		
 		
 
 
@@ -169,25 +168,31 @@
                     <!-- Include MailChimp email form with input and submit button -->
 <!-- Parameters: QUERO RECEBER = button label  -->
 
-<!-- Begin MailChimp Signup Form -->
 <form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" 
     method="post" id="mc-embedded-subscribe-form" 
     name="mc-embedded-subscribe-form" 
     class="validate" 
     target="_blank" 
     novalidate>
-    <div id="mc_embed_signup_scroll">        
-        <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="form-control email-input" placeholder="Email" required>        
-        <span class="input-group-btn">
-            <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
-                <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
-                <!--<span>Enviar</span>-->
-                <i class="fa fa-mail-forward fa-fw visible-xs" aria-hidden="true"></i>
-                <span class="hidden-xs">QUERO RECEBER</span>
-            </button>
-        </span>
-        
-        <input type="text" value="" name="NAME" class="required" id="mce-NAME" class="form-control email-input" placeholder="Primeiro Nome">        
+    <div id="mc_embed_signup_scroll" class="container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-4">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required>
+            </div>
+            
+            <div class="col-xs-6">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required>                
+            </div>
+
+            <div class="col-xs-2">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <i class="fa fa-mail-forward visible-xs" aria-hidden="true"></i>
+                    <span class="hidden-xs">QUERO RECEBER</span>
+                </button>        
+            </div>
+        </div>
     </div>	
 
     <div id="mce-responses" class="clear">
@@ -196,8 +201,6 @@
     </div>    
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
 </form>
     
     <!--End mc_embed_signup-->
@@ -239,11 +242,11 @@
 				<div class="container">
 					<div class="post-meta-wrapper">
 						<div class="row">
-							<div class="col-xs-6 col-xs-offset-3">
+							<div class="col-xs-12 col-sm-6 col-sm-offset-3">
 								<div class="col-xs-6">
 									<div class="post-meta-data">
 										<img src="/assets/svg/clock.svg">
-										<span>15 minutos</span>
+										<span>15 min.</span>
 									</div>
 								</div>
 
@@ -292,25 +295,31 @@
 	<div class="row">
 		<div class="col-xs-12">
 			<div class="signup-body">
-				<p class="greeting">Está gostando do artigo?</p>
-				<p class="signup-text">Então cadastre o seu email para <span class="blue">receber gratuitamente</span> mais conteúdos como este!</p>				
+				<span class="greeting">Está gostando do artigo?</span>
+				<span class="signup-text">Então cadastre o seu email para <span class="blue">receber gratuitamente</span> mais conteúdos como este!</span>
 		        <!-- Include MailChimp email form with input and submit button -->
 <!-- Parameters: Quero receber = button label  -->
 
-<!-- Begin MailChimp Signup Form -->
 <form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-    <div id="mc_embed_signup_scroll">        
-        <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="form-control email-input" placeholder="Email" required="" />        
-        <span class="input-group-btn">
-            <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
-                <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
-                <!--<span>Enviar</span>-->
-                <i class="fa fa-mail-forward fa-fw visible-xs" aria-hidden="true"></i>
-                <span class="hidden-xs">Quero receber</span>
-            </button>
-        </span>
-        
-        <input type="text" value="" name="NAME" class="form-control email-input" id="mce-NAME" placeholder="Primeiro Nome" />        
+    <div id="mc_embed_signup_scroll" class="container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-4">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="" />
+            </div>
+            
+            <div class="col-xs-6">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="" />                
+            </div>
+
+            <div class="col-xs-2">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <i class="fa fa-mail-forward visible-xs" aria-hidden="true"></i>
+                    <span class="hidden-xs">Quero receber</span>
+                </button>        
+            </div>
+        </div>
     </div>	
 
     <div id="mce-responses" class="clear">
@@ -319,8 +328,6 @@
     </div>    
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value="" /></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" /></div>
-    &lt;/div&gt;
 </form>
     
     <!--End mc_embed_signup-->
@@ -350,39 +357,43 @@
 						
 						<div class="blog-post-colophon">
 							<div class="row">
-								<div class="col-sm-3 text-right">
+								<div class="col-xs-12 col-sm-3 text-center">									
 									<img src="/assets/authors/vinicius-ramos/avatar.jpg" width="100%" alt="Autor" class="profile-img">
 								</div>
-								<div class="col-sm-9">
-									<h2 class="blog-post-meta">
-										<span class="blog-post-by">
-											Por Vinícius Ramos
-										</span>
-										<span class="blog-post-when">em
-											<time datetime="2018-03-27" pubdate>27/03/2018</time>
-										</span>
-									</h2>
 
-									<p class="short-description">"<i>O que eu ouço, eu esqueço. O que eu vejo, eu lembro. O que eu faço, eu entendo.</i>"</p>
+								<div class="col-xs-12 col-sm-9">
+									<div class="blog-post-meta">
+										<h2>
+											<span class="blog-post-by">
+												Por Vinícius Ramos
+											</span>
 
-									<ul class="nav navbar-nav">
+											<b>em <time datetime="2018-03-27" pubdate>27/03/2018</time></b>
+										</h2>
+	
+										<p class="short-description">"<i>O que eu ouço, eu esqueço. O que eu vejo, eu lembro. O que eu faço, eu entendo.</i>"</p>
+
+										<p class="author-media-label">Minhas redes:</p>
 										
-										<li><a href="mailto:vinicius.ramos@pythonacademy.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-										
-										
-										<li><a href="https://twitter.com/ViniciusAR91" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										
-										
-										<li><a href="https://facebook.com/viniciusramos91" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										
-										
-										<li><a href="https://github.com/viniciusramos91" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-										
-										
-										<li><a href="https://stackoverflow.com/users/6775679/viniciusramos91" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
-										
-										
-									</ul>
+										<ul>
+											
+											<li><a href="mailto:vinicius.ramos@pythonacademy.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+											
+											
+											<li><a href="https://twitter.com/ViniciusAR91" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											
+											
+											<li><a href="https://facebook.com/viniciusramos91" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											
+											
+											<li><a href="https://github.com/viniciusramos91" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+											
+											
+											<li><a href="https://stackoverflow.com/users/6775679/viniciusramos91" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+											
+											
+										</ul>
+									</div>
 								</div>
 							</div>				
 						</div>
@@ -437,6 +448,7 @@
 
 		<!-- Affix -->		
 		<div class="social-media-affix">
+			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
 			<ul>				
 				<li>
 					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/welcome-to-jekyll','Compartilhe no Facebook','width=600,height=400')" class="facebook-item">
@@ -479,29 +491,35 @@
 				</p>
 			</div>
 			
-			<div class="col-xs-6 col-xs-offset-3">
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
 				<!-- Include MailChimp email form with input and submit button -->
-<!-- Parameters: Cadastrar = button label  -->
+<!-- Parameters: Eu quero! = button label  -->
 
-<!-- Begin MailChimp Signup Form -->
 <form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" 
     method="post" id="mc-embedded-subscribe-form" 
     name="mc-embedded-subscribe-form" 
     class="validate" 
     target="_blank" 
     novalidate>
-    <div id="mc_embed_signup_scroll">        
-        <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="form-control email-input" placeholder="Email" required>        
-        <span class="input-group-btn">
-            <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
-                <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
-                <!--<span>Enviar</span>-->
-                <i class="fa fa-mail-forward fa-fw visible-xs" aria-hidden="true"></i>
-                <span class="hidden-xs">Cadastrar</span>
-            </button>
-        </span>
-        
-        <input type="text" value="" name="NAME" class="required" id="mce-NAME" class="form-control email-input" placeholder="Primeiro Nome">        
+    <div id="mc_embed_signup_scroll" class="container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-4">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required>
+            </div>
+            
+            <div class="col-xs-6">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required>                
+            </div>
+
+            <div class="col-xs-2">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <i class="fa fa-mail-forward visible-xs" aria-hidden="true"></i>
+                    <span class="hidden-xs">Eu quero!</span>
+                </button>        
+            </div>
+        </div>
     </div>	
 
     <div id="mce-responses" class="clear">
@@ -510,8 +528,6 @@
     </div>    
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
 </form>
     
     <!--End mc_embed_signup-->
@@ -523,62 +539,68 @@
 <section id="footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-4">
-				<h2>Sobre</h2>
-
-				<ul>					
-					<li>
-						<a href="/sobre">Sobre a Python Academy</a>
-					</li>
-
-					<li>
-						<a href="/zen-of-python"><i>Zen of Python</i></a>
-					</li>
-				</ul>
+			<div class="col-xs-12 col-sm-4">
+				<div class="footer-wrapper">
+					<h2>Sobre</h2>
+	
+					<ul>					
+						<li>
+							<a href="/sobre">Sobre a Python Academy</a>
+						</li>
+	
+						<li>
+							<a href="/zen-of-python"><i>Zen of Python</i></a>
+						</li>
+					</ul>
+				</div>
 			</div>
 
-			<div class="col-xs-4">
-				<h2>Conteúdo</h2>
-
-				<ul>
-					<li>
-						<a href="/blog">Blog</a>
-					</li>
-					<li>
-						<a href="/sliders">Sliders</a>
-					</li>
-					<li>
-						<a href="#"><span class="line-through">Ebooks</span> (em breve)</a>
-					</li>
-				</ul>
+			<div class="col-xs-12 col-sm-4">
+				<div class="footer-wrapper">
+					<h2>Conteúdo</h2>
+	
+					<ul>
+						<li>
+							<a href="/blog">Blog</a>
+						</li>
+						<li>
+							<a href="/sliders">Sliders</a>
+						</li>
+						<li>
+							<a href="#"><span class="line-through">Ebooks</span> (em breve)</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 
-			<div class="col-xs-4">
-				<img src="/assets/img/logo.png" alt="Aprenda Computação de Verdade!" class="footer-logo">
-
-				<p class="footer-label mt-16">
-					Existimos para levar o conhecimento de Python a todos de forma simples e inovadora!
-				</p>
-
-				<ul class="social-medias">
-					<li>
-						<a href="https://facebook.com/" target="_blank">
-							<img src="/assets/img/facebook.png" alt="Facebook" data-aos="fade-in" data-aos-delay="0" data-aos-duration="500" width="25px">
-						</a>
-					</li>
-
-					<li>
-						<a href="https://www.instagram.com/" target="_blank">
-							<img src="/assets/img/instagram.png" alt="Intagram" data-aos="fade-in" data-aos-delay="250" data-aos-duration="500" width="25px">
-						</a>
-					</li>
-
-					<li>
-						<a href="https://twitter.com/" target="_blank">
-							<img src="/assets/img/twitter.png" alt="Twitter" data-aos="fade-in" data-aos-delay="500" data-aos-duration="500" width="25px">
-						</a>
-					</li>
-				</ul>
+			<div class="col-sm-4 hidden-xs">
+				<div class="footer-wrapper">
+					<img src="/assets/img/logo.png" alt="Aprenda Computação de Verdade!" class="footer-logo">
+	
+					<p class="footer-label mt-16">
+						Existimos para levar o conhecimento de Python a todos de forma simples e inovadora!
+					</p>
+	
+					<ul class="social-medias">
+						<li>
+							<a href="https://facebook.com/" target="_blank">
+								<img src="/assets/img/facebook.png" alt="Facebook" data-aos="fade-in" data-aos-delay="0" data-aos-duration="500">
+							</a>
+						</li>
+	
+						<li>
+							<a href="https://www.instagram.com/" target="_blank">
+								<img src="/assets/img/instagram.png" alt="Intagram" data-aos="fade-in" data-aos-delay="250" data-aos-duration="500">
+							</a>
+						</li>
+	
+						<li>
+							<a href="https://twitter.com/" target="_blank">
+								<img src="/assets/img/twitter.png" alt="Twitter" data-aos="fade-in" data-aos-delay="500" data-aos-duration="500">
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -587,7 +609,7 @@
 <section id="footer-copyright">
 	<div class="text-center">
 		<p>
-			&copy;&nbsp;<b>2018</b>&nbsp;Python Academy <img src="/assets/img/cross.png" alt="Conheça Jesus Cristo!" height="24px" class="ml-16 mr-16"> 
+			&copy;&nbsp;<b>2018</b>&nbsp;Python Academy <img src="/assets/img/cross.png" alt="Conheça Jesus Cristo!" height="24px" class="ml-16 mr-16 hidden-xs"> <br class="visible-xs">
 			<i>"Porque o Senhor dá a <b>sabedoria</b>, e da sua boca vem a <b>inteligência</b> e o <b>entendimento</b>" Pv 2:6</i>
 		</p>
 	</div>
@@ -700,7 +722,10 @@
 					});
 				})
             });
+
         </script>
+		
+		<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"d818a1dcab21e0bb6fbe4a39b","lid":"11b4623db6"}) })</script>	
 	</body>
 </html>
 
