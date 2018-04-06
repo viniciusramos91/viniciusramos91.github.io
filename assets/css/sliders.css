@@ -307,7 +307,7 @@ html {
 
 .slider-control {
   position: absolute;
-  top: 116px;
+  top: 108px;
   width: 100%;
   display: none;
   text-align: center;
@@ -327,10 +327,7 @@ html {
       display: block; } }
   @media (max-width: 550px) {
     .slider-control {
-      top: 123px; } }
-  @media (max-width: 550px) {
-    .slider-control {
-      top: 130px; } }
+      top: 114px; } }
 
 @media (max-width: 850px) {
   .social-media-affix.affix {

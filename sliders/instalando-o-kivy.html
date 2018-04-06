@@ -77,9 +77,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Custom Css -->
-<link rel="stylesheet" href="/assets/css/syntax.min.css?1523023946039791000">
-<link rel="stylesheet" href="/assets/css/utilities.css?1523023946039791000">
-<link rel="stylesheet" href="/assets/css/master.css?1523023946039791000">
+<link rel="stylesheet" href="/assets/css/syntax.min.css?1523025652920517000">
+<link rel="stylesheet" href="/assets/css/utilities.css?1523025652920517000">
+<link rel="stylesheet" href="/assets/css/master.css?1523025652920517000">
 
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700%7CMontserrat:400,700%7CDroid+Serif:400,700,400italic,700italic%7CRaleway:100,200,300,400,500,600,700,800%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800%7CMerriweather:400,300,300italic,400italic,700,700italic,900,900italic%7CSpace+Mono:400,700%7CInconsolata:400,700%7CMuli:200,300,400,600,700%7CQuicksand:300,400,500,700%7CSource+Serif+Pro:400,700%7CRoboto+Condensed:300,400,700%7CRoboto:300,400,500,700%7CUbuntu:300,400,500,700%7COswald:300,400,500,600" rel="stylesheet">
@@ -118,7 +118,7 @@
 		<div class="container">
 	
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" onblur="showMenu()" onclick="hideMenu()" data-toggle="collapse" data-target="#main-menu" aria-expanded="true">
+				<button type="button" class="navbar-toggle collapsed" onclick="showMenu()" onblur="hideMenu()" data-toggle="collapse" data-target="#main-menu" aria-expanded="true">
 					<span class="sr-only">Habilitar navegação</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -1062,7 +1062,7 @@ PrimeiroApp<span class="o">()</span>.run<span class="o">()</span><span class="w"
     </div>
 </div>
 
-        <div class="slider-control">
+        <div class="slider-control" id="slider-control">
             <div onclick="previous()" class="control">
                 <object id="left-arrow" type="image/svg+xml" data="/assets/svg/arrow-left.svg" height="40px">
                 </object>
@@ -1178,6 +1178,7 @@ PrimeiroApp<span class="o">()</span>.run<span class="o">()</span><span class="w"
             // Variables
             var $affix = $('.social-media-affix'),
                 $container = $("#container"),
+                $controls = $("#slider-control"),
                 $leftArrow = $("#left-arrow"),
                 $rightArrow = $("#right-arrow");
             
@@ -1190,19 +1191,20 @@ PrimeiroApp<span class="o">()</span>.run<span class="o">()</span><span class="w"
                 }
             });
 
-            // Hide affix menu
+            // Hide menu
             function hideMenu() {
-                if ($affix.hasClass("hidden")) {
-                    $affix.removeClass("hidden");
-                } else {
-                    $affix.addClass("hidden");
-                }
+                $(".navbar-collapse").collapse("hide");
+                $affix.toggle(150);
+                $controls.toggle(150);
             };
 
-            // Show affix menu
+            // Show menu
             function showMenu() {
-                $affix.removeClass("hidden");
-                $(".navbar-collapse").collapse("hide");
+                $affix.toggle(150);
+                $controls.toggle(150);
+
+                // $affix.toggle('hidden');
+                // $controls.addClass('hidden');
             };
 
             function next() {
