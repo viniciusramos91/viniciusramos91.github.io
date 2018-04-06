@@ -18,6 +18,9 @@ html {
   @media (max-width: 450px) {
     html {
       font-size: 20px; } }
+  @media (max-width: 767px) {
+    html .nav li a {
+      font-size: 1.2rem !important; } }
 
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal p, .reveal a, .reveal ul, .reveal ol {
   color: #3e464f;
@@ -306,8 +309,11 @@ html {
   position: absolute;
   bottom: 0;
   width: 100%;
-  display: none; }
+  display: none;
+  text-align: center; }
   .slider-control .control {
+    display: inline-block;
+    width: 47%;
     text-align: center;
     padding: 16px 0 21px 0; }
   @media (max-width: 767px) {
@@ -316,7 +322,7 @@ html {
 
 @media (max-width: 850px) {
   .social-media-affix.affix {
-    top: 80px;
+    top: 79px;
     bottom: auto;
     width: 100%;
     background: #FFF;

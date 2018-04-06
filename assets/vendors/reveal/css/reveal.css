@@ -489,6 +489,12 @@ body {
           perspective-origin: 50% 40%; 
 }
 
+@media(max-width: 767px) {
+  .reveal .slides {
+    top: 40% !important;
+  }
+}
+
 .reveal .slides > section {
   -ms-perspective: 600px; }
 

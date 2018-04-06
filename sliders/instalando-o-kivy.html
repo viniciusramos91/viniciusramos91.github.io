@@ -77,9 +77,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Custom Css -->
-<link rel="stylesheet" href="/assets/css/syntax.min.css?1523019919484210000">
-<link rel="stylesheet" href="/assets/css/utilities.css?1523019919484210000">
-<link rel="stylesheet" href="/assets/css/master.css?1523019919484210000">
+<link rel="stylesheet" href="/assets/css/syntax.min.css?1523022088356816000">
+<link rel="stylesheet" href="/assets/css/utilities.css?1523022088356816000">
+<link rel="stylesheet" href="/assets/css/master.css?1523022088356816000">
 
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700%7CMontserrat:400,700%7CDroid+Serif:400,700,400italic,700italic%7CRaleway:100,200,300,400,500,600,700,800%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800%7CMerriweather:400,300,300italic,400italic,700,700italic,900,900italic%7CSpace+Mono:400,700%7CInconsolata:400,700%7CMuli:200,300,400,600,700%7CQuicksand:300,400,500,700%7CSource+Serif+Pro:400,700%7CRoboto+Condensed:300,400,700%7CRoboto:300,400,500,700%7CUbuntu:300,400,500,700%7COswald:300,400,500,600" rel="stylesheet">
@@ -489,7 +489,7 @@
                     
                 <div class="slide-body">
                     <div class="text-center">
-                        <img src="/assets/img/python-academy-logo.png" alt="Inscreva-se!" height="75px">
+                        <img src="/assets/img/logo.png" alt="Inscreva-se!" height="75px">
                     </div>
 
                     <div class="email-signup">
@@ -1063,22 +1063,14 @@ PrimeiroApp<span class="o">()</span>.run<span class="o">()</span><span class="w"
 </div>
 
         <div class="slider-control">
-            <div class="container-fluid">
-                <div class="row no-gutters">
-                    <div class="col-xs-6" onclick="previous()">
-                        <div class="control">
-                            <object id="left-arrow" type="image/svg+xml" data="/assets/svg/arrow-left.svg" height="40px">
-                            </object>
-                        </div>
-                    </div>
+            <div onclick="previous()" class="control">
+                <object id="left-arrow" type="image/svg+xml" data="/assets/svg/arrow-left.svg" height="40px">
+                </object>
+            </div>
 
-                    <div class="col-xs-6" onclick="next()">
-                        <div class="control">
-                            <object id="right-arrow" type="image/svg+xml" data="/assets/svg/arrow-right.svg" height="40px">
-                            </object>
-                        </div>
-                    </div>
-                </div>
+            <div onclick="next()" class="control">
+                <object id="right-arrow" type="image/svg+xml" data="/assets/svg/arrow-right.svg" height="40px">
+                </object>
             </div>
         </div>
 
@@ -1209,8 +1201,8 @@ PrimeiroApp<span class="o">()</span>.run<span class="o">()</span><span class="w"
 
             // Show affix menu
             function showMenu() {
-                $(".navbar-collapse").collapse("hide");
                 $affix.removeClass("hidden");
+                $(".navbar-collapse").collapse("hide");
             };
 
             function next() {
