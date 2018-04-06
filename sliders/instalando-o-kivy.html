@@ -77,9 +77,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Custom Css -->
-<link rel="stylesheet" href="/assets/css/syntax.min.css?1523027260722312000">
-<link rel="stylesheet" href="/assets/css/utilities.css?1523027260722312000">
-<link rel="stylesheet" href="/assets/css/master.css?1523027260722312000">
+<link rel="stylesheet" href="/assets/css/syntax.min.css?1523028396262346000">
+<link rel="stylesheet" href="/assets/css/utilities.css?1523028396262346000">
+<link rel="stylesheet" href="/assets/css/master.css?1523028396262346000">
 
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700%7CMontserrat:400,700%7CDroid+Serif:400,700,400italic,700italic%7CRaleway:100,200,300,400,500,600,700,800%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800%7CMerriweather:400,300,300italic,400italic,700,700italic,900,900italic%7CSpace+Mono:400,700%7CInconsolata:400,700%7CMuli:200,300,400,600,700%7CQuicksand:300,400,500,700%7CSource+Serif+Pro:400,700%7CRoboto+Condensed:300,400,700%7CRoboto:300,400,500,700%7CUbuntu:300,400,500,700%7COswald:300,400,500,600" rel="stylesheet">
@@ -1194,8 +1194,8 @@ PrimeiroApp<span class="o">()</span>.run<span class="o">()</span><span class="w"
             // Hide menu
             function hideMenu() {
                 $(".navbar-collapse").collapse("hide");
-                $controls.animate({ 'left': '0' }, 0);
-                $affix.animate({ 'left': '0' }, 0);
+                $controls.animate({ 'left': '0' }, 150);
+                $affix.animate({ 'left': '0' }, 150);
 
                 $affix.removeClass('hidden');
                 $controls.removeClass('hidden');
@@ -1204,18 +1204,18 @@ PrimeiroApp<span class="o">()</span>.run<span class="o">()</span><span class="w"
             // Show menu
             function showMenu() {
                 if ($affix.hasClass('hidden')) {
-                    $affix.animate({ 'left': '0' }, 0);
+                    $affix.animate({ 'left': '0' }, 150);
                     $affix.removeClass('hidden');
                 } else {
-                    $affix.animate({ 'left': '9999px' }, 0);
+                    $affix.animate({ 'left': '9999px' }, 150);
                     $affix.addClass('hidden');
                 }
 
                 if ($controls.hasClass('hidden')) {
-                    $controls.animate({ 'left': '0px' }, 0);
+                    $controls.animate({ 'left': '0px' }, 150);
                     $controls.removeClass('hidden');
                 } else {                    
-                    $controls.animate({ 'left': '9999px' }, 0);
+                    $controls.animate({ 'left': '9999px' }, 150);
                     $controls.addClass('hidden');                    
                 }
 
