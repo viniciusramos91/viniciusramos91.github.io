@@ -2,15 +2,15 @@
     
     
     {
-      "title": "Welcome to Jekyll!",
-      "href": "/blog/welcome-to-jekyll",
-      "slug": "welcome-to-jekyll",
+      "title": "Domine Decorators em Python",
+      "href": "/blog/domine-decorators-em-python",
+      "slug": "domine-decorators-em-python",
       "author": "Vinícius R",
-      "description": "<p>Nesse post introdutório veremos alguns tópicos importantes sobre essa incrível ferramenta de criação de Blogs: o Jekyll</p>",
-      "featured_icon": "welcome-to-jekyll.svg",
+      "description": "<p>Decorators provêem uma maneira simples de modificar o comportamento de uma função sem necessariamente alterá-la.</p>",
+      "featured_icon": "domine-decorators-em-python.svg",
       "date": {
-         "day": "27",
-         "month": "March",
+         "day": "06",
+         "month": "April",
          "year": "2018"
       }
     }
