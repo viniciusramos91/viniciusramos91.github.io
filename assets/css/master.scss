@@ -297,6 +297,30 @@ a {
     }
 }
 
+// ZEN OF PYTHON SECTION
+// ================================================================
+
+#zen-of-python-section {
+    padding: 96px 0;
+    background: #34495e url("/assets/svg/blog-bground-pattern.svg");
+
+    h2 {
+        margin: 0;
+        
+        a {
+            display: inline-block;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            font-size: 3.5rem;
+            color: #FFF;
+    
+            .text-small {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
 // CARD
 // ================================================================
 
