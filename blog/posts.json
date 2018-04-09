@@ -2,6 +2,22 @@
     
     
     {
+      "title": "Python e Virtualenv: Como Programar em Ambientes Virtuais",
+      "href": "/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais",
+      "slug": "python-e-virtualenv-como-programar-em-ambientes-virtuais",
+      "author": "Vinícius R",
+      "description": "<p>Vamos entender o funcionamento do incrível <strong>virtualenv</strong>, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "09",
+         "month": "April",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
       "title": "Domine Decorators em Python",
       "href": "/blog/domine-decorators-em-python",
       "slug": "domine-decorators-em-python",

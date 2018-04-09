@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        		
+	<head>		
+				
 			<!-- Global site tag (gtag.js) - Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116930343-1"></script>
 <script>
@@ -15,7 +15,7 @@
 		
 
 		<meta charset="utf-8">
-		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -31,14 +31,14 @@
 		
 		
 
-		<title>Python Academy | Aprenda Python de Verdade</title>
+		<title>Python e Virtualenv: Como Programar em Ambientes Virtuais</title>
 		<link rel="icon" type="image/png" href="/assets/img/favicon.png">
 
 		<!-- General -->
-		<meta name="description" content="Aprenda Python de verdade! Descubra como é fácil começar a usar uma das linguagens de programação mais simples do mercado! Com Python você vai poder automatizar tarefas do dia a dia, desenvolver para Web, aprender Data Science, conhecer Machine Learning e muito mais!">
+		<meta name="description" content="Vamos entender o funcionamento do incrível virtualenv, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.">
 
 		<!-- Keywords -->
-		<meta name="keywords" content="python,programação,conteúdo,blog,aprendizagem,conhecimento,ensino,"/>
+		<meta name="keywords" content="python,programação,conteúdo,blog,aprendizagem,conhecimento,ensino,">
 
 		
 		<!-- Robots -->
@@ -49,25 +49,27 @@
 		<meta property="fb:app_id" content="220280761884954">
 		<meta property="og:site_name" content="Python Academy">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="Python Academy | Aprenda Python de Verdade">
-		<meta property="og:url" content="https://pythonacademy.com.br/">
-		<meta property="og:description" content="Aprenda Python de verdade! Descubra como é fácil começar a usar uma das linguagens de programação mais simples do mercado! Com Python você vai poder automatizar tarefas do dia a dia, desenvolver para Web, aprender Data Science, conhecer Machine Learning e muito mais!">
-		<meta property="og:image" content="https://pythonacademy.com.br/assets/img/og-image.png" />
-		<meta property="og:image:alt" content="Python Academy | Aprenda Python de Verdade" />
-		<meta property="og:image:type" content="image/png" />
-		<meta property="og:image:width" content="1200" />
-		<meta property="og:image:height" content="630" />
+		<meta property="og:title" content="Python e Virtualenv: Como Programar em Ambientes Virtuais">
+		<meta property="og:url" content="https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais">
+		<meta property="og:description" content="Vamos entender o funcionamento do incrível virtualenv, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.">
+		<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/python-e-virtualenv-como-programar-em-ambientes-virtuais/facebook.png">
+		<meta property="og:image:alt" content="Python e Virtualenv: Como Programar em Ambientes Virtuais">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
 
 		<!-- Twitter cards -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-		<meta name="twitter:title" content="Python Academy | Aprenda Python de Verdade">
-		<meta name="twitter:description" content="Aprenda Python de verdade! Descubra como é fácil começar a usar uma das linguagens de programação mais simples do mercado! Com Python você vai poder automatizar tarefas do dia a dia, desenvolver para Web, aprender Data Science, conhecer Machine Learning e muito mais!">
-		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/img/twitter-card-image.png">
+		<meta name="twitter:title" content="Python e Virtualenv: Como Programar em Ambientes Virtuais">
+		<meta name="twitter:description" content="Vamos entender o funcionamento do incrível virtualenv, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.">
+		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/python-e-virtualenv-como-programar-em-ambientes-virtuais/twitter.png">
+		
+		<meta name="twitter:creator" content="@ViniciusAR91">
 		
 
 		<!-- Canonical URL -->
-		<link rel="canonical" href="https://pythonacademy.com.br/">
+		<link rel="canonical" href="https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais">
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
@@ -83,26 +85,23 @@
 		</style>
 
 		<!-- Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Raleway:100,200,300,400,500,600,700,800|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic|Space+Mono:400,700|Inconsolata:400,700|Muli:200,300,400,600,700|Quicksand:300,400,500,700|Source+Serif+Pro:400,700|Roboto+Condensed:300,400,700|Roboto:300,400,500,700|Ubuntu:300,400,500,700|Oswald:300,400,500,600" rel="stylesheet">        
-    </head>
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700%7CMontserrat:400,700%7CDroid+Serif:400,700,400italic,700italic%7CRaleway:100,200,300,400,500,600,700,800%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800%7CMerriweather:400,300,300italic,400italic,700,700italic,900,900italic%7CSpace+Mono:400,700%7CInconsolata:400,700%7CMuli:200,300,400,600,700%7CQuicksand:300,400,500,700%7CSource+Serif+Pro:400,700%7CRoboto+Condensed:300,400,700%7CRoboto:300,400,500,700%7CUbuntu:300,400,500,700%7COswald:300,400,500,600" rel="stylesheet">
 
-    <body>
+		<!-- post.css -->
+		<link rel="stylesheet" href="/assets/css/post.css?1523284773304097000">
+	</head>
 
-        
+	<body id="post-body">		
+		
 
 
 <header class="header">
 	
-	<nav class="navbar navbar-default homepage">
+	<nav class="navbar navbar-default">
 		<div class="container">
 	
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed"
-					onclick="showMenu()"
-					onblur="hideMenu()"
-      				data-toggle="collapse"
-					data-target="#main-menu"
-					aria-expanded="true">
+				<button type="button" class="navbar-toggle collapsed" onclick="showMenu()" onblur="hideMenu()" data-toggle="collapse" data-target="#main-menu" aria-expanded="true">
 					<span class="sr-only">Habilitar navegação</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -143,261 +142,532 @@
 			</div>
 		</div>
 	</nav>
-</header>     
+</header>	
 
-        <section class="header-section" data-aos="fade-in">
-            <div class="header-section-wrapper">
-                <div class="header-section-content center-block">
-                    <div class="container">
-                        
+		<a href="#" class="sticky-newsletter hidden-xs" data-toggle="modal" data-target="#email-modal">
+    <div class="rotate-text">
+        <span>Receba todas as novidades!</span>
+    </div>
+</a>
 
-                        <object id="index-banner-icon" 
-                            type="image/svg+xml" 
-                            data="/assets/svg/index-banner.svg" 
-                            width="50%">
-                        </object>
+<!-- Include email modal form with text, input and submit button to acquire emails to our list -->
+<!-- Parameters: email-modal = modal id  -->
 
-                        <h1 data-aos="fade-in" data-aos-duration="750">Aprenda Python de Verdade!</h1>
-
-                        <h2>Aprenda Python através de artigos, sliders e ebooks!</h2>
-
-                        <div class="row">
-                            <div class="col-xs-12 col-lg-8 col-lg-offset-2">
-                                <div class="col-xs-12 col-sm-6 text-center">
-                                    <button class="call-to-action blog" data-aos="fade-up" data-aos-duration="1000">
-                                        <a href="/blog/">
-                                            Conheça nosso <b><u>Artigos</u></b>
-                                        </a>
-                                    </button>
-                                </div>
-    
-                                <div class="col-xs-12 col-sm-6 text-center">
-                                    <button class="call-to-action sliders" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
-                                        <a href="/sliders/">
-                                            Conheça nosso <b><u>Sliders</u></b>
-                                        </a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<div class="modal fade email-modal" id="email-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">                                    
+            <div class="modal-body text-center">
+                <a href="#" data-dismiss="modal" aria-label="Close" class="pull-right close-icon"><i class="fa fa-times" aria-hidden="true"></i></a>
+                <h3 class="modal-title">Seja o primeiro a receber o melhor conteúdo!</h3>
+                <div class="modal-label">
+                    <p class="email-label">Cadastre o seu melhor email para <strong>receber gratuitamente <br></strong><strong>conteúdos exclusivos</strong> e muito mais!</p>
                 </div>
+                <!--<i class="down-icon fa fa-arrow-down fa-fw" aria-hidden="true"></i>-->
+
+                <div class="mailchimp-input">
+                    <!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: QUERO RECEBER = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll" class="container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-4">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required>
             </div>
-        </section>
-
-        <section class="blue-yellow-separator"></section>
-
-        <section class="features-section">
-            <div class="container-fluid text-center">                
-                <h2 class="section-header">
-                    <img src="/assets/img/python-logo-64.png" alt="Python">
-                    Por que aprender Python
-                </h2>
-
-                <div class="row mb-32">
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="feature">                            
-                            <object id="learning" type="image/svg+xml" data="/assets/svg/learning.svg" width="100%"></object>
-
-                            <h2>Fácil de aprender</h2>
-
-                            <p>
-                                Uma das maiores vantagens do Python é a forma <b>intuitiva</b> e <b>fácil</b> com que você 
-                                consegue aprender a utilizá-la! Como sua sintaxe é <b>extremamente simples</b>, basta algumas 
-                                noções de pseudocódigo para começar a se maravilhar com essa linguagem!
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="feature">
-                            <object id="multiplatform" type="image/svg+xml" data="/assets/svg/multiplatform.svg" width="100%"></object>
-
-                            <h2>Multiplataforma</h2>
-
-                            <p>
-                                Por ser uma linguagem <b>interpretada</b> — e não compilada para uma linguagem de máquina —, 
-                                Python roda em diferentes plataformas. Além disso, a linguagem é <b>multiparadigma</b>, 
-                                ou seja, passível de desenvolvimento para qualquer tipo de ambiente e interface, 
-                                como web, móvel ou desktop. 
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="feature">
-                            <object id="market" type="image/svg+xml" data="/assets/svg/worker.svg" width="100%"></object>
-
-                            <h2>Mercado de trabalho</h2>
-
-                            <p>
-                                Uma <a href="#">pesquisa </a> mostra Python em <b>primeiro lugar</b> entre as 
-                                linguagens mais adotadas — à frente das consolidadas Java e C++. Também 
-                                demonstra que simplicidade não é sinônimo de limitação: Python é um instrumento 
-                                <b>poderoso</b> de desenvolvimento de aplicações, aliando <b>intuitividade e eficiência</b>.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                
+            
+            <div class="col-xs-6">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required>                
             </div>
-        </section>
 
-        <section class="blue-yellow-separator"></section>
-
-        <!-- Blog -->
-        <section id="blog">
-            <div class="container">
-                <h2 class="section-header text-center" data-aos="fade-in">Começe lendo nossos <b>artigos</b>...</h2>
-    
-                <div class="container">
-                    <div class="row mb-32">
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <a class="card"
-                                href="https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais" 
-                                data-aos-duration="950"
-                                data-aos="fade-in" 
-                                data-aos-easing="ease-out">
-                                
-                                <div class="card-frame">
-                                    <object id="featured-icon-0" 
-                                        class="featured-icon"
-                                        type="image/svg+xml" 
-                                        data="/assets/posts/python-e-virtualenv-como-programar-em-ambientes-virtuais/featured_icon.svg" 
-                                        height="175px" 
-                                        title="">
-                                    </object>	                                                                
-                                </div>
-                                
-                                <div class="caption">
-                                    <h3 class="card-title">
-                                        Python e Virtualenv: Como Programar em Ambientes Virtuais                                        
-                                    </h3>
-        
-                                    <div class="card-excerpt">
-                                        <p>Vamos entender o funcionamento do incrível <strong>virtualenv</strong>, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.</p>
-                                    </div>
-
-                                    <div class="card-footer">                                        
-                                        <p>Publicado em <b>09/04/2018</b></p>
-                                    </div>
-                                </div>                            
-                            </a>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <a class="card"
-                                href="https://pythonacademy.com.br/blog/domine-decorators-em-python" 
-                                data-aos-duration="950"
-                                data-aos="fade-in" 
-                                data-aos-easing="ease-out">
-                                
-                                <div class="card-frame">
-                                    <object id="featured-icon-1" 
-                                        class="featured-icon"
-                                        type="image/svg+xml" 
-                                        data="/assets/posts/domine-decorators-em-python/domine-decorators-em-python.svg" 
-                                        height="175px" 
-                                        title="">
-                                    </object>	                                                                
-                                </div>
-                                
-                                <div class="caption">
-                                    <h3 class="card-title">
-                                        Domine Decorators em Python                                        
-                                    </h3>
-        
-                                    <div class="card-excerpt">
-                                        <p>Decorators provêem uma maneira simples de modificar o comportamento de uma função sem necessariamente alterá-la.</p>
-                                    </div>
-
-                                    <div class="card-footer">                                        
-                                        <p>Publicado em <b>06/04/2018</b></p>
-                                    </div>
-                                </div>                            
-                            </a>
-                        </div>
-                        
-                    </div>
-    
-                    <div class="text-center">
-                        <a href="/blog/index.html" class="button ripple-out-animation">
-                            Mais artigos!
-                        </a>
-                    </div>
-                </div>
-            </div>            
-        </section> 
-
-        <!-- Sliders -->
-        <section id="sliders">
-            <div class="container">
-                <h2 class="section-header text-center" data-aos="fade-in">Ou aprenda na prática com nossos <b>sliders</b>...</h2>
-    
-                <div class="container">
-                    <div class="row mb-32">
-                        
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="card-wrapper">
-                                    <div class="background-card first" 
-                                        data-aos-duration="550"
-                                        data-aos-delay="0"
-                                        data-aos="fade-in" 
-                                        data-aos-easing="ease-out"></div>
-        
-                                    <div class="background-card second"
-                                        data-aos-duration="550"
-                                        data-aos-delay="250"
-                                        data-aos="fade-in" 
-                                        data-aos-easing="ease-out">
-                                    </div>
-        
-                                    <a href="https://pythonacademy.com.br/sliders/como-instalar-o-kivy" class="card with-background">                                
-                                        <div class="card-frame">
-                                            <object id="featured-icon-0" 
-                                                class="featured-icon"
-                                                type="image/svg+xml" 
-                                                data="/assets/sliders/como-instalar-o-kivy/featured_icon.svg" 
-                                                height="225px"></object>
-                                        </div>
-        
-                                        <div class="caption">
-                                            <h3 class="card-title">                                        
-                                                Como instalar o Kivy                                        
-                                            </h3>
-                
-                                            <div class="card-footer">                                        
-                                                <p>Publicado em <b>09/04/2018</b></p>
-                                            </div>
-                                        </div> 
-                                    </a>
-                                </div>  
-                            </div>
-                        
-                    </div>
-    
-                    <div class="text-center">
-                        <a href="/sliders/index.html" class="button ripple-out-animation">
-                            Mais sliders!
-                        </a>
-                    </div>
-                </div>
-            </div>            
-        </section> 
-
-        <section id="zen-of-python-section">
-            <div class="container text-center">
-                <h2>
-                    <a href="/zen-of-python">
-                        Clique aqui e conheça o <i><b><u>"Zen of Python"</u></b></i><span class="text-small">   (Zen do Python)</span>
-                    </a>
-                </h2>
+            <div class="col-xs-2">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <i class="fa fa-mail-forward visible-xs" aria-hidden="true"></i>
+                    <span class="hidden-xs">QUERO RECEBER</span>
+                </button>        
             </div>
-        </section>
+        </div>
+    </div>	
 
-        
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+    
+    <!--End mc_embed_signup-->
+                </div>                
+
+                <p class="pos-input text-center" style="font-size: 70%; margin-top: 10px; margin-bottom: 10px;">Não se preocupe, respeitamos sua privacidade. Você pode se descadastrar a qualquer momento.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+		<div class="main-container" data-aos="fade-in" data-aos-duration="1500">
+			<section class="post-banner">	
+				<div class="post-banner-wrapper">
+					<div class="post-banner-content" style="background: #574b90 url('/assets/svg/blog-bground-pattern.svg');">
+						<div class="container">							
+							<div class="featured-icon-wrapper">
+								<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/python-e-virtualenv-como-programar-em-ambientes-virtuais/featured_icon.svg" width="172px" title="">
+								</object>															
+							</div>
+			
+							
+							<h1 class="blog-post-title font-shadow">
+								Python e Virtualenv: Como Programar em Ambientes Virtuais
+							</h1>			
+						</div>			
+					</div>
+				</div>
+			</section>	
+			
+			<div class="post-meta">
+				<div class="container">
+					<div class="post-meta-wrapper">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+								<div class="col-xs-6">
+									<div class="post-meta-data">
+										<img src="/assets/svg/clock.svg" alt="Tempo de Leitura">
+										<span>15 min.</span>
+									</div>
+								</div>
+
+								<div class="col-xs-6">
+									<div class="post-meta-data">
+										<img src="/assets/svg/level.svg" alt="Nível do Conteúdo">
+										<span>Básico</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container post-container">
+				<div class="blog-post-content">
+					
+<p>Olá pessoal! Nesse post, vamos entender o funcionamento do incrível
+<strong>virtualenv</strong>, uma ferramenta simples e poderosa que permite criar ambientes
+isolados de desenvolvimento Python, ou seja, torna possível a utilização de
+diversas bibliotecas em um mesmo ambiente sem que haja conflitos entre elas.</p>
+
+<p>Neste post vamos aprender:</p>
+<ul>
+  <li>As vantagens ao se isolar seu ambiente de desenvolvimento Python</li>
+  <li>Por que escolher o virtualenv</li>
+  <li>Como programar utilizando Python 2 e Python 3 no mesmo PC!</li>
+</ul>
+
+<p>Portanto, se você está cansado de misturar pacotes Python ou ver aquele incômodo
+erro <code class="highlighter-rouge">ImportError: No module named Foo</code>, vamos nessa!</p>
+
+<h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#introdu%C3%A7%C3%A3o" id="markdown-toc-introdução">Introdução</a></li>
+  <li><a href="#primeiros-passos" id="markdown-toc-primeiros-passos">Primeiros Passos</a></li>
+  <li><a href="#op%C3%A7%C3%A3o---python" id="markdown-toc-opção---python">Opção <code class="highlighter-rouge">--python</code></a></li>
+  <li><a href="#outras-op%C3%A7%C3%B5es-interessantes" id="markdown-toc-outras-opções-interessantes">Outras Opções Interessantes</a></li>
+  <li><a href="#arquivo-de-configura%C3%A7%C3%A3o-virtualenvini" id="markdown-toc-arquivo-de-configuração-virtualenvini">Arquivo de Configuração <strong>virtualenv.ini</strong></a></li>
+  <li><a href="#conclus%C3%A3o" id="markdown-toc-conclusão">Conclusão</a></li>
+</ul>
+
+<h2 id="introdução">Introdução</h2>
+
+<p>Quando desenvolvemos em Python, é comum ficarmos maravilhados com o poder de
+suas bibliotecas.</p>
+
+<p>Tudo se torna mais fácil ainda quando podemos baixá-las com um simples comando
+(<code class="highlighter-rouge">pip install &lt;pacote&gt;</code> por exemplo).</p>
+
+<p>Dessa forma, se não tomarmos alguns cuidados, podemos deixar nosso ambiente de
+desenvolvimento lotado de bibliotecas.</p>
+
+<p>Isso quando não as utilizamos algumas vezes e depois nunca mais.</p>
+
+<p>Não apenas isso! Imagine o seguinte cenário: você está desenvolvendo uma
+aplicação, chamada <strong>CoolApp</strong> que utiliza a biblioteca <strong>powerlib</strong> em sua
+versão <strong>1.0</strong>.</p>
+
+<p>Por enquanto tudo ok…</p>
+
+<p>Daí, algum tempo se passa e você acaba largando essa aplicação, pois cansou-se
+dela e ela nem era tão promissora assim.</p>
+
+<p>Você começa então a desenvolver uma aplicação ultra mega powerfull, chamada
+<strong>TheApp</strong>, que por coincidência utiliza a mesma biblioteca (<strong>powerlib</strong>),
+mas em sua versão <strong>2.0</strong>.</p>
+
+<p>Bom, você inocentemente realiza o <em>upgrade</em> (<code class="highlighter-rouge">sudo pip install --upgrade
+powerlib</code>) dessa biblioteca para sua versão 2.0 para poder continuar seu
+desenvolvimento.</p>
+
+<p>Então me diga: o que acontecerá caso você tente retomar o desenvolvimento da
+aplicação <strong>CoolApp</strong> (juntamente com o desenvolvimento da aplicação
+<strong>TheApp</strong>)?</p>
+
+<p><strong>Resposta:</strong> Caso você tenha instalado todas as suas bibliotecas no diretório
+padrão (<code class="highlighter-rouge">/usr/lib/pythonX.X/site-packages</code>), apenas uma aplicação irá
+funcionar… <strong>NOOOOOOOOOOOO!!!!</strong></p>
+
+<p>Ou seja, quando desenvolvemos Python “globalmente” e não isolamos cada ambiente
+de desenvolvimento, podemos ter conflitos entre versões de bibliotecas.</p>
+
+<p>Outro ponto, e se quisermos desenvolver um projeto em Python 2 e outro em
+Python 3? Como fazer?</p>
+
+<p><strong>E ainda mais</strong>: e se você não puder instalar suas dependências no diretório
+global <code class="highlighter-rouge">site-packages</code> (seu programa pode estar sendo executado em um <em>host</em>
+remoto, por exemplo)?</p>
+
+<p>Mas calma, a solução para todos os seus problemas está aqui, e chama-se
+<strong>virtualenv</strong>. Portanto, vamos começar entendendo melhor do que se trata!</p>
+
+<h3 id="como-o-virtualenv-funciona">Como o Virtualenv Funciona</h3>
+
+<p><img src="/assets/posts/python-e-virtualenv-como-programar-em-ambientes-virtuais/esquema-virtualenv.png" alt="Funcionamento do virtualenv" class="img-responsive"></p>
+
+<p>O funcionamento do <strong>virtualenv</strong> é realmente simples. Ele basicamente cria uma
+cópia de todos os diretórios necessários para que um programa Python seja
+executado, isto inclui:</p>
+
+<ul>
+  <li>As bibliotecas comuns do Python (<em>standard library</em>);</li>
+  <li>O gerenciador de pacotes <code class="highlighter-rouge">pip</code>;</li>
+  <li>O próprio binário do Python (Python 2.x/3.x);</li>
+  <li>As dependências que estiverem no diretório <code class="highlighter-rouge">site-packages</code>;</li>
+  <li>Seu código fonte descrevendo sua aplicação.</li>
+</ul>
+
+<p>Assim, ao instalar uma nova dependência dentro do ambiente criado pelo
+<strong>virtualenv</strong>, ele será colocado no diretório <code class="highlighter-rouge">site-packages</code> relativo à esse
+ambiente, e não mais globalmente.</p>
+
+<p>Assim, só esse ambiente enxergará essa dependência. Show, né?!</p>
+
+<h2 id="primeiros-passos">Primeiros Passos</h2>
+
+<h3 id="instalação">Instalação</h3>
+
+<p>Para a instalação do <strong>virtualenv</strong> vamos precisar do <code class="highlighter-rouge">pip</code>.</p>
+
+<p>Caso você ainda não tenha o gerenciador de pacotes <code class="highlighter-rouge">pip</code>, instale-o clicando
+<a href="https://bootstrap.pypa.io/get-pip.py" target="_blank">aqui</a> e executando o script baixado com
+<code class="highlighter-rouge">python get-pip.py</code>.</p>
+
+<p>Agora com o pip, precisamos executar apenas um comando para instalar o
+<strong>virtualenv</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre><span class="gp">$ </span>sudo pip install virtualenv<span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><strong>Pronto</strong>! <strong>virtualenv</strong> instalado e funcionando! Agora vamos começar a
+utilizá-lo!</p>
+
+<h3 id="inicializando-um-ambiente-virtual">Inicializando um Ambiente Virtual</h3>
+
+<p><strong>virtualenv</strong> possui apenas um comando! Olha que simples:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre><span class="gp">$ </span>virtualenv <span class="o">[</span>opções] &lt;nome_da_pasta&gt;<span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Esse comando cria um novo ambiente de desenvolvimento totalmente isolado!</p>
+
+<p>No nosso caso, vamos chamar nossa pasta de <code class="highlighter-rouge">ENV</code>.</p>
+
+<p>Nessa pasta são criados alguns diretórios importantes, como:</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">ENV/lib</code> e <code class="highlighter-rouge">ENV/include</code>: contêm as bibliotecas de suporte ao ambiente
+virtual. Os pacotes baixados via <code class="highlighter-rouge">pip</code> por exemplo serão instalados em
+<code class="highlighter-rouge">ENV/lib/pythonX.X/site-packages/</code> (não mais globalmente).</li>
+  <li>
+<code class="highlighter-rouge">ENV/bin</code>: residem os binários necessários para executar o próprio Python,
+entre outros executáveis (como o <code class="highlighter-rouge">pip</code> ou <code class="highlighter-rouge">setuptools</code>). Dessa forma, os
+comandos <code class="highlighter-rouge">python script.py</code> e <code class="highlighter-rouge">ENV/bin/python script.py</code> produzem exatamente o
+mesmo resultado.</li>
+</ul>
+
+<h3 id="script-de-ativação-do-ambiente-virtual">Script de Ativação do Ambiente Virtual</h3>
+
+<p>Após criar o seu novo ambiente, podemos ativá-lo com o comando:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre><span class="gp">$ </span><span class="nb">source </span>ENV/bin/activate<span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>O comando <code class="highlighter-rouge">source</code> lê um arquivo e executa os comandos contidos ali.</p>
+
+<p>Ao ativar o <strong>virtualenv</strong>, o diretório <code class="highlighter-rouge">ENV/bin</code> será adicionado como primeiro
+registro do caminho <code class="highlighter-rouge">$PATH</code> do seu sistema operacional.</p>
+
+<p>Ele também altera o padrão do seu prompt, adicionando o prefixo <code class="highlighter-rouge">(ENV)</code> para
+indicar que vocês está em um ambiente controlado pelo <strong>virtualenv</strong>.</p>
+
+<h3 id="como-desativar-seu-ambiente-virtual">Como Desativar seu Ambiente Virtual</h3>
+
+<p>Para desativar um ambiente virtual e remover tudo que foi feito e instalado,
+retornando ao estado anterior do sistema (sem o <strong>virtualenv</strong>) basta executar:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2</pre></td>
+<td class="code"><pre><span class="gp">$ </span>deactivate
+<span class="gp">$ </span>rm -r ENV<span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Fazendo isso, seu ambiente virtual é desfeito e tudo que foi copiado para este
+ambiente é apagado (comando <code class="highlighter-rouge">rm</code>).</p>
+
+<h2 id="opção---python">Opção <code class="highlighter-rouge">--python</code>
+</h2>
+
+<p>Para criarmos um novo ambiente contendo a versão do Python de sua escolha
+(Python 2.x ou Python 3.x), devemos informar ao virtualenv, no momento da
+criação de um novo ambiente, a localização do binário do Python.</p>
+
+<p>Caso você não saiba o caminho do binário do Python que você está procurando,
+utilize o comando <code class="highlighter-rouge">which</code>.</p>
+
+<p>Por exemplo, para saber onde estava o binário do Python 3 em minha máquina, eu
+executei o comando <code class="highlighter-rouge">which python3</code> que me respondeu com
+<code class="highlighter-rouge">/usr/local/bin/python3</code>.</p>
+
+<p>Com isso, podemos criar nosso novo ambiente utilizando o <code class="highlighter-rouge">python3</code> da seguinte
+forma:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre>virtualenv --python<span class="o">=</span><span class="s1">'/usr/local/bin/python3'</span> ENV<span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Com seu ambiente ativado, verifique qual versão está sendo utilizada, com o
+comando <code class="highlighter-rouge">python --version</code>.</p>
+
+<p>Pronto! Python 2 e Python 3 no sistema operacional de maneira simples! <img class="emoji" title=":snake:" alt=":snake:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f40d.png" height="20" width="20" align="absmiddle"></p>
+
+<h2 id="outras-opções-interessantes">Outras Opções Interessantes</h2>
+
+<p>De acordo com sua documentação, o comando possui algumas opções e é utilizado da
+seguinte maneira: <code class="highlighter-rouge">virtualenv [opções] &lt;nome_da_pasta&gt;</code>.</p>
+
+<p>Para a lista completa de valores possíveis de <code class="highlighter-rouge">[opções]</code>, acesse sua
+<a href="https://virtualenv.pypa.io/en/latest/reference" target="_blank">documentação</a>.</p>
+
+<p>Separei algumas opções interessantes para vocês:</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">--system-site-packages</code>: Essa opção cria um ambiente com todas as
+  dependências já instaladas globalmente. Ou seja, não será um ambiente limpo.</li>
+  <li>
+<code class="highlighter-rouge">--python=/path/to/pythonX.X</code>: Usado para definir o diretório de uma versão
+  alternativa do Python que será utilizado nesse ambiente virtual.</li>
+  <li>
+<code class="highlighter-rouge">--no-pip</code>: Cria o ambiente sem o <code class="highlighter-rouge">pip</code>.</li>
+  <li>
+<code class="highlighter-rouge">--no-setuptools</code>: Cria o ambiente sem o <code class="highlighter-rouge">setuptools</code>.</li>
+</ul>
+
+<h2 id="arquivo-de-configuração-virtualenvini">Arquivo de Configuração <strong>virtualenv.ini</strong>
+</h2>
+
+<p>Ao criar um novo ambiente, o <strong>virtualenv</strong> busca parâmetros no arquivo
+<code class="highlighter-rouge">virtualenv.ini</code> presente no caminho <code class="highlighter-rouge">$HOME/.virtualenv/virtualenv.ini</code>
+(<em>Mac OS</em>/<em>Linux</em>) ou <code class="highlighter-rouge">%APPDATA%\virtualenv\virtualenv.ini</code> (<em>Windows</em>).</p>
+
+<p>Nesse arquivo, podemos adicionar parâmetros do <strong>virtualenv</strong> que serão
+utilizados em todos os ambientes criados.</p>
+
+<p>Por exemplo, podemos definir opções da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5</pre></td>
+<td class="code"><pre>[virtualenv]
+no-pip
+no-setuptools
+system-site-packages
+python = /opt/python-3.3/bin/python<span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Assim, todo ambiente que criarmos terão essas opções por padrão (sem termos que
+digitar os parâmetros toda vez).</p>
+
+<h2 id="conclusão">Conclusão</h2>
+
+<p>O uso do <strong>virtualenv</strong> traz muitas vantagens e facilidades quando desenvolvemos
+em Python, principalmente na separação de ambientes de desenvolvimento.</p>
+
+<p>Também nos ajuda muito na solução de conflitos entre versões de uma biblioteca e
+é essencial para o desenvolvimento de aplicações utilizando diferentes versões
+do Python em uma mesma máquina (sem ter que recorrer à máquinas virtuais, por
+exemplo)</p>
+
+<p>Caso você ainda não o utilize, eu aconselho a baixar o mais rápido possível
+e aproveitar ao máximo essa ferramenta poderosa e extremamente simples que eu
+acabei de apresentar a vocês.</p>
+
+<p>Bom… Espero que tenham gostado! E se você achou interessante este post, e acha
+que ele facilitou a sua vida organizando seu ambiente Python, não se esqueça de
+deixar aqui seu comentário ou sugestão!</p>
+
+<p>Assim como você, eles são sempre bem vindos!</p>
+
+<p>Até a próxima!</p>
+
+
+
+					<div class="blue-yellow-separator no-repeat"></div>
+
+					<div class="blog-post-footer">
+						
+						<div class="blog-post-colophon">
+							<div class="row">
+								<div class="col-xs-12 col-sm-3 text-center">									
+									<img src="/assets/authors/vinicius-ramos/avatar.jpg" width="100%" alt="Autor" class="profile-img">
+								</div>
+
+								<div class="col-xs-12 col-sm-9">
+									<div class="blog-post-meta">
+										<h2>
+											<span class="blog-post-by">
+												Por Vinícius Ramos
+											</span>
+
+											<b>em <time datetime="2018-04-09" pubdate>09/04/2018</time></b>
+										</h2>
+	
+										<p class="short-description">"<i>O que eu ouço, eu esqueço. O que eu vejo, eu lembro. O que eu faço, eu entendo.</i>"</p>
+
+										<p class="author-media-label">Minhas redes:</p>
+										
+										<ul>
+											
+											<li><a href="mailto:vinicius.ramos@pythonacademy.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+											
+											
+											<li><a href="https://twitter.com/ViniciusAR91" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											
+											
+											<li><a href="https://facebook.com/viniciusramos91" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											
+											
+											<li><a href="https://github.com/viniciusramos91" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+											
+											
+											<li><a href="https://stackoverflow.com/users/6775679/viniciusramos91" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+											
+											
+										</ul>
+									</div>
+								</div>
+							</div>				
+						</div>
+					</div>
+				</div>				
+			</div>									
+		</div>	
+
+		<!-- READ MORE -->	
+		<div class="more-posts">
+			<section class="container">
+				<div class="section-header">
+		            <h2 class="black">Continue aprendendo!</h2>
+		        </div>
+
+				<div class="row">
+					<div id="random_posts"></div>
+				</div>	
+
+				<div class="text-center">
+	                <a href="/blog/index.html" class="button ripple-out-animation">
+	                    ←  Retornar ao Blog
+	                </a>
+	            </div>		
+			</section>		
+		</div>
+
+						
+			<div id="comment-box" class="center-block">
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+        this.page.url = 'https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais';     // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = '/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//python-academy.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
+
+    <noscript>Por favor, habilite o Javascript para visualizar os <a href="https://disqus.com/?ref_noscript">comentários.</a>
+</noscript>
+</div>
+
+		
+
+		<!-- Affix -->		
+		<div class="social-media-affix">
+			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
+			<ul>				
+				<li>
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+						<i class="fa fa-fw fa-facebook"></i>
+					</a>
+				</li>				
+				
+				<li>							
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais&amp;related=PythonAcademyBR&amp;text=%22Python%20e%20Virtualenv:%20Como%20Programar%20em%20Ambientes%20Virtuais%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+						<i class="fa fa-fw fa-twitter"></i>
+					</a>
+				</li>
+
+				<li>
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais" data-action="share/whatsapp/share">
+						<i class="fa fa-fw fa-whatsapp"></i>
+					</a>
+				</li>
+
+				<li>
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Python%20e%20Virtualenv:%20Como%20Programar%20em%20Ambientes%20Virtuais&amp;body=https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+						<i class="fa fa-fw fa-envelope"></i>
+					</a>
+				</li>
+
+				
+			</ul>
+		</div>		
+
+		
 
 
 <section id="footer-signup">
@@ -414,12 +684,7 @@
 				<!-- Include MailChimp email form with input and submit button -->
 <!-- Parameters: Eu quero! = button label  -->
 
-<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" 
-    method="post" id="mc-embedded-subscribe-form" 
-    name="mc-embedded-subscribe-form" 
-    class="validate" 
-    target="_blank" 
-    novalidate>
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll" class="container-fluid">        
         <div class="row no-gutters">
             <div class="col-xs-4">
@@ -534,7 +799,7 @@
 <section id="footer-copyright">
 	<div class="text-center">
 		<p>
-			&copy;&nbsp;<b>2018</b>&nbsp;Python Academy <img src="/assets/img/cross.png" alt="Conheça Jesus Cristo!" height="24px" class="ml-16 mr-16 hidden-xs"> <br class="visible-xs">
+			© <b>2018</b> Python Academy <img src="/assets/img/cross.png" alt="Conheça Jesus Cristo!" height="24px" class="ml-16 mr-16 hidden-xs"> <br class="visible-xs">
 			<i>"Porque o Senhor dá a <b>sabedoria</b>, e da sua boca vem a <b>inteligência</b> e o <b>entendimento</b>" Pv 2:6</i>
 		</p>
 	</div>
@@ -551,95 +816,107 @@
 <script src="/assets/js/script.js"></script>
 
 
-        <!-- Vivus.js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.3/vivus.min.js"></script>
-    
-        <!-- Javascript -->     
-        <script type="text/javascript">        
-            new Vivus('index-banner-icon', {
-                duration: 125,
-                type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-            });
-            
-            new Vivus('learning', {
-                duration: 80,
-                type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-            });
-            
-            new Vivus('multiplatform', {
-                duration: 80,
-                type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-            });            
+		<!-- Cookie.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
+		
+		<!-- Vivus.js-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.3/vivus.min.js"></script>
 
-            new Vivus('market', {
-                duration: 80,
-                type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-            });
+		<!-- Javascript -->		
+		<script type="text/javascript">			
+			(function($) {
+	            AOS.init({
+	                easing: 'ease-out-back',
+	                duration: 1500
+				});
 
-            
-                new Vivus('featured-icon-0', {
+				generateRandomPosts();
+			})(jQuery);
+			
+			
+				new Vivus('featured-icon', {
 					duration: 80,
 					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
 				});
-            
-                new Vivus('featured-icon-1', {
-					duration: 80,
-					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
+						
+
+			$('.social-media-affix').affix({
+                offset: {
+                    top: $(".post-banner").height()
+                }
+            });
+
+			// Generate random posts
+            function generateRandomPosts() {
+				var counter = 0;	            
+
+		        $.getJSON("/blog/posts.json", function(data) {
+					var postsCount = data.length;					
+		            var posts = data;
+
+					var randomIndexUsed = [];	
+		            var numberOfPosts = 3;
+
+		            var divRandomPosts = $("#random_posts");		            
+
+		            while (counter < numberOfPosts) {
+						var randomIndex = Math.floor(Math.random() * postsCount);
+						
+						if (randomIndexUsed.indexOf(randomIndex) == "-1") {
+
+							var post = posts[randomIndex];
+
+							// Verify if related post is the same as the shown
+							if (post.title != "Python e Virtualenv: Como Programar em Ambientes Virtuais") {
+								var postHTML = 
+									"<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>" +
+										"<a href='" + post.href + "' class='card aos-init aos-animate' data-aos='fade-up'>" +
+											"<div class='card-frame'>" +
+												"<object id='featured-icon-" + counter + " class=featured-icon' type='image/svg+xml' data='/assets/posts/" + post.slug + "/" + post.featured_icon + "' height='175px'></object>" +
+											"</div>" + 
+											
+											"<div class='caption'>" +
+												"<h3 class='card-title'>" +
+													post.title +
+												"</h3>" +
+											"</div>" +
+										"</div>" +
+									"</div>"
+
+								divRandomPosts.append(postHTML);
+								randomIndexUsed.push(randomIndex);
+							}
+						}
+						counter++;
+					}
 				});
-            
+								
+			}
+			
+			// Show signup modal on mouse leave event
+            $( document ).ready(function() {
+                $("body").bind("mouseleave",function(){
+                    if(!Cookies.get('pythonacademy_popup')) {
+						
+						// Same as included sticky-newsletter id
+                        $('#email-modal').modal('show');
 
-            // Card hover opacity animation
-            // --------------------------------
-
-            $(".card").hover(function(event) {
-                $("#blog").find(".card").each(function(index, element) {
-                    $( this ).addClass('opacity');
-                });
+                        /* Set cookie so this does not repeat */
+                        Cookies.set('pythonacademy_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais' });
+                    }
+				});		
+				
+				// Initialize SVG animation on each related posts
+				$("#random_posts").find('.card-frame object').each(function(index, element) {
+					new Vivus(element, {
+						duration: 80,
+						type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
+					});
+				})
             });
 
-            $(".card").mouseout(function(event) {
-                $("#blog").find(".card").each(function(index, element) {
-                    $( this ).removeClass('opacity');
-                });
-            });
-
-            (function($) {           
-                // Parsley initialization
-                Parsley.addMessages("pt-br", {
-                    defaultMessage: "Este valor parece ser inválido.",
-                    type: {
-                        email: "Este campo deve ser um email válido.",
-                        url: "Este campo deve ser um URL válida.",
-                        number: "Este campo deve ser um número válido.",
-                        integer: "Este campo deve ser um inteiro válido.",
-                        digits: "Este campo deve conter apenas dígitos.",
-                        alphanum: "Este campo deve ser alfa numérico.",
-                        phone: "O telefone deve conter apenas números."
-                    },
-                    notblank: "Este campo não pode ficar vazio.",
-                    required: "Este campo é obrigatório.",
-                    pattern: "Este campo parece estar inválido.",
-                    min: "Este campo deve ser maior ou igual a %s.",
-                    max: "Este campo deve ser menor ou igual a %s.",
-                    range: "Este campo deve estar entre %s e %s.",
-                    minlength: "Este campo é pequeno demais. Ele deveria ter %s caracteres ou mais.",
-                    maxlength: "Este campo é grande demais. Ele deveria ter %s caracteres ou menos.",
-                    length: "O tamanho deste campo é inválido. Ele deveria ter entre %s e %s caracteres.",
-                    mincheck: "Você deve escolher pelo menos %s opções.",
-                    maxcheck: "Você deve escolher %s opções ou mais",
-                    check: "Você deve escolher entre %s e %s opções.",
-                    equalto: "Este valor deveria ser igual."
-                });
-                
-                Parsley.setLocale("pt-br");
-
-                $("#contact-form").parsley();
-
-                AOS.init({
-                    easing: 'ease-out',
-                    duration: 650
-                });
-            })(jQuery);
         </script>
-    </body>
+		
+		<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"d818a1dcab21e0bb6fbe4a39b","lid":"11b4623db6"}) })</script>	
+	</body>
 </html>
