@@ -2,6 +2,22 @@
     
     
     {
+      "title": "Como Criar Jogos com Python e Kivy",
+      "href": "/blog/como-criar-jogos-com-python-e-kivy",
+      "slug": "como-criar-jogos-com-python-e-kivy",
+      "author": "Vinícius R",
+      "description": "<p>Que tal desenvolver seu primeiro jogo em Python utilizando o <em>framework</em> Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do <strong>ZERO</strong>!</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "10",
+         "month": "April",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
       "title": "Python e Virtualenv: Como Programar em Ambientes Virtuais",
       "href": "/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais",
       "slug": "python-e-virtualenv-como-programar-em-ambientes-virtuais",
@@ -18,11 +34,27 @@
     
     
     {
+      "title": "Desenvolva Aplicativos para Android, iOS e Muito Mais com Python e Kivy",
+      "href": "/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy",
+      "slug": "desenvolva-aplicativos-para-android-ios-com-python-e-kivy",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post vamos explorar mais uma incrível possibilidade do Python, o desenvolvimento cross-platform utilizando o framework Kivy!</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "09",
+         "month": "April",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
       "title": "Domine Decorators em Python",
       "href": "/blog/domine-decorators-em-python",
       "slug": "domine-decorators-em-python",
       "author": "Vinícius R",
-      "description": "<p>Decorators provêem uma maneira simples de modificar o comportamento de uma função sem necessariamente alterá-la.</p>",
+      "description": "<p>Decorators modificam o comportamente do código antes e depois da execução de uma dada função, sem a necessidade de modificar o próprio código da mesma, adicionando funcionalidades.</p>",
       "featured_icon": "domine-decorators-em-python.svg",
       "date": {
          "day": "06",
