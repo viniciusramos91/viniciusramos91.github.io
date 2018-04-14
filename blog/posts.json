@@ -2,14 +2,14 @@
     
     
     {
-      "title": "Como Criar Jogos com Python e Kivy",
-      "href": "/blog/como-criar-jogos-com-python-e-kivy",
-      "slug": "como-criar-jogos-com-python-e-kivy",
+      "title": "Por quê aprender Python: 5 motivos para começar AGORA!",
+      "href": "/blog/por-que-aprender-python-5-motivos-para-aprender-agora",
+      "slug": "por-que-aprender-python-5-motivos-para-aprender-agora",
       "author": "Vinícius R",
-      "description": "<p>Que tal desenvolver seu primeiro jogo em Python utilizando o <em>framework</em> Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do <strong>ZERO</strong>!</p>",
+      "description": "<p>Nesse artigo, vamos abordar 5 motivos que irão te fazer começar a aprender Python ainda hoje!</p>",
       "featured_icon": "featured_icon.svg",
       "date": {
-         "day": "10",
+         "day": "11",
          "month": "April",
          "year": "2018"
       }
@@ -18,14 +18,14 @@
     
     
     {
-      "title": "Python e Virtualenv: Como Programar em Ambientes Virtuais",
-      "href": "/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais",
-      "slug": "python-e-virtualenv-como-programar-em-ambientes-virtuais",
+      "title": "Como Criar Jogos com Python e Kivy",
+      "href": "/blog/como-criar-jogos-com-python-e-kivy",
+      "slug": "como-criar-jogos-com-python-e-kivy",
       "author": "Vinícius R",
-      "description": "<p>Vamos entender o funcionamento do incrível <strong>virtualenv</strong>, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.</p>",
+      "description": "<p>Que tal desenvolver seu primeiro jogo em Python utilizando o <em>framework</em> Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do <strong>ZERO</strong>!</p>",
       "featured_icon": "featured_icon.svg",
       "date": {
-         "day": "09",
+         "day": "08",
          "month": "April",
          "year": "2018"
       }
@@ -41,7 +41,7 @@
       "description": "<p>Nesse post vamos explorar mais uma incrível possibilidade do Python, o desenvolvimento cross-platform utilizando o framework Kivy!</p>",
       "featured_icon": "featured_icon.svg",
       "date": {
-         "day": "09",
+         "day": "07",
          "month": "April",
          "year": "2018"
       }
@@ -58,6 +58,22 @@
       "featured_icon": "domine-decorators-em-python.svg",
       "date": {
          "day": "06",
+         "month": "April",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
+      "title": "Python e Virtualenv: Como Programar em Ambientes Virtuais",
+      "href": "/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais",
+      "slug": "python-e-virtualenv-como-programar-em-ambientes-virtuais",
+      "author": "Vinícius R",
+      "description": "<p>Vamos entender o funcionamento do incrível <strong>virtualenv</strong>, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "05",
          "month": "April",
          "year": "2018"
       }
