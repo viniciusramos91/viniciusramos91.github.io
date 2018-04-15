@@ -182,6 +182,13 @@ a {
 
 .features-section {
     padding: 64px 0;
+    
+    .why-learn-python { 
+        margin-top: 16px;
+        display: inline-block;
+        color: #306998;
+        font-family: 'Roboto Condensed';
+    }
 
     .feature {
         text-align: center;
@@ -205,6 +212,7 @@ a {
             line-height: 2.5rem;
             margin-bottom: 32px;;
         }
+
 
         @media(max-width: 1200px) {
             padding: 0 5%;
