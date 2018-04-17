@@ -411,7 +411,7 @@ body {
 * PROGRESS BAR
 *********************************************/
 .reveal .progress {
-  position: absolute;
+  position: fixed;
   display: none;
   height: 3px;
   width: 100%;
