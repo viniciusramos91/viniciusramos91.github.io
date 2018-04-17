@@ -491,7 +491,7 @@ body {
 
 @media(max-width: 767px) {
   .reveal .slides {
-    top: 55% !important;
+    top: 35% !important;
   }
 }
 
