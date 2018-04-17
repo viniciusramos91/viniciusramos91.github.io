@@ -479,7 +479,7 @@ html {
 }
 
 .slider-control {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
     display: none;
@@ -492,7 +492,7 @@ html {
         display: inline-block;
         width: 48.5%;
         text-align: center;
-        padding: 12px 0 17px 0;
+        padding: 10px 0;
         line-height: 0;
         
         &:first {
