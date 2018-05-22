@@ -2,6 +2,22 @@
     
     
     {
+      "title": "Desenvolvimento Web com Python e Django: Introdução",
+      "href": "/blog/desenvolvimento-web-com-python-e-django-introducao",
+      "slug": "desenvolvimento-web-com-python-e-django-introducao",
+      "author": "Vinícius R",
+      "description": "<p>O Django é uma framework de desenvolvimento Web Python completa e robusta. Nesse post introdutório, vamos abordar os a arquitetura do framework e primeiros passos para o desenvlvimento web com Python.</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "22",
+         "month": "May",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
       "title": "Porquê aprender Python: 5 motivos para começar AGORA!",
       "href": "/blog/porque-aprender-python-5-motivos-para-aprender-agora",
       "slug": "porque-aprender-python-5-motivos-para-aprender-agora",
