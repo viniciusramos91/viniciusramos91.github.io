@@ -2,6 +2,22 @@
     
     
     {
+      "title": "Desenvolvimento Web com Python e Django: _Model_",
+      "href": "/blog/desenvolvimento-web-com-python-e-django-model",
+      "slug": "desenvolvimento-web-com-python-e-django-model",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post, vamos tratar da camada <em>Model</em> do Django. Vamos abordar detalhes dessa camada, mapeamento objeto-relacional, a API de acesso a dados provida pelo Django e modelagem de dados.</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "26",
+         "month": "May",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
       "title": "Desenvolvimento Web com Python e Django: Introdução",
       "href": "/blog/desenvolvimento-web-com-python-e-django-introducao",
       "slug": "desenvolvimento-web-com-python-e-django-introducao",

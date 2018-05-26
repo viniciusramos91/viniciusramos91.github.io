@@ -31,11 +31,11 @@
 		
 		
 
-		<title>Desenvolvimento Web com Python e Django: Introdução</title>
+		<title>Desenvolvimento Web com Python e Django: Model</title>
 		<link rel="icon" type="image/png" href="/assets/img/favicon.png">
 
 		<!-- General -->
-		<meta name="description" content="O Django é uma framework de desenvolvimento Web Python completa e robusta. Nesse post introdutório, vamos abordar os a arquitetura do framework e primeiros passos para o desenvlvimento web com Python.">
+		<meta name="description" content="Nesse post, vamos tratar da camada Model do Django. Vamos abordar detalhes dessa camada, mapeamento objeto-relacional, a API de acesso a dados provida pelo Django e modelagem de dados.">
 
 		<!-- Keywords -->
 		<meta name="keywords" content="python,programação,conteúdo,blog,aprendizagem,conhecimento,ensino,"/>
@@ -49,11 +49,11 @@
 		<meta property="fb:app_id" content="220280761884954">
 		<meta property="og:site_name" content="Python Academy">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="Desenvolvimento Web com Python e Django: Introdução">
-		<meta property="og:url" content="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao">
-		<meta property="og:description" content="O Django é uma framework de desenvolvimento Web Python completa e robusta. Nesse post introdutório, vamos abordar os a arquitetura do framework e primeiros passos para o desenvlvimento web com Python.">
-		<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/desenvolvimento-web-com-python-e-django-introducao/facebook.png" />
-		<meta property="og:image:alt" content="Desenvolvimento Web com Python e Django: Introdução" />
+		<meta property="og:title" content="Desenvolvimento Web com Python e Django: Model">
+		<meta property="og:url" content="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model">
+		<meta property="og:description" content="Nesse post, vamos tratar da camada Model do Django. Vamos abordar detalhes dessa camada, mapeamento objeto-relacional, a API de acesso a dados provida pelo Django e modelagem de dados.">
+		<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/desenvolvimento-web-com-python-e-django-model/facebook.png" />
+		<meta property="og:image:alt" content="Desenvolvimento Web com Python e Django: Model" />
 		<meta property="og:image:type" content="image/png" />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
@@ -61,15 +61,15 @@
 		<!-- Twitter cards -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-		<meta name="twitter:title" content="Desenvolvimento Web com Python e Django: Introdução">
-		<meta name="twitter:description" content="O Django é uma framework de desenvolvimento Web Python completa e robusta. Nesse post introdutório, vamos abordar os a arquitetura do framework e primeiros passos para o desenvlvimento web com Python.">
-		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/desenvolvimento-web-com-python-e-django-introducao/twitter.png">
+		<meta name="twitter:title" content="Desenvolvimento Web com Python e Django: Model">
+		<meta name="twitter:description" content="Nesse post, vamos tratar da camada Model do Django. Vamos abordar detalhes dessa camada, mapeamento objeto-relacional, a API de acesso a dados provida pelo Django e modelagem de dados.">
+		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/desenvolvimento-web-com-python-e-django-model/twitter.png">
 		
 		<meta name="twitter:creator" content="@ViniciusAR91">
 		
 
 		<!-- Canonical URL -->
-		<link rel="canonical" href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao">
+		<link rel="canonical" href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model">
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
@@ -215,13 +215,13 @@
 					<div class="post-banner-content" style="background: #051a12 url('/assets/svg/blog-bground-pattern.svg');">
 						<div class="container">							
 							<div class="featured-icon-wrapper">
-								<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/desenvolvimento-web-com-python-e-django-introducao/featured_icon.svg" width="90%">
+								<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/desenvolvimento-web-com-python-e-django-model/featured_icon.svg" width="90%">
 								</object>															
 							</div>
 			
 							
 							<h1 class="blog-post-title font-shadow">
-								Desenvolvimento Web com Python e Django: Introdução
+								Desenvolvimento Web com Python e Django: <em>Model</em>
 							</h1>			
 						</div>			
 					</div>
@@ -255,24 +255,79 @@
 			<div class="container post-container">
 				<div class="blog-post-content">
 					
-<p>Django é um <em>framework</em> de alto nível, escrito em Python que encoraja o desenvolvimento limpo de aplicações <em>web</em>.</p>
+<p>Continuando a nossa série de <em>posts</em> sobre Django, nesse artigo vamos tratar sobre a camada <em>Model</em> da sua arquitetura!</p>
 
-<p>Desenvolvido por experientes desenvolvedores, Django toma conta da parte pesada do desenvolvimento <em>web</em>, como tratamento
-de requisições, mapeamento objeto-relacional, preparação de respostas HTTP, para que, dessa forma, você gaste seu esforço 
-com aquilo que <strong>realmente interessa</strong>: suas <strong>regras de negócio</strong>!</p>
+<p>Se você ainda não leu o <em>post</em> introdutório, você pode estar perdendo algumas informações iniciais importantes.</p>
 
-<p>Foi desenvolvido com uma preocupação extra em <strong>segurança</strong>, evitando os mais comuns ataques, como 
-<a href="https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)" target="_blank">Cross site scripting (XSS)</a>, <a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)" target="_blank">Cross site request forgery (CSRF)</a>,
-<a href="https://www.owasp.org/index.php/SQL_Injection">SQL injection</a>, entre outros (veja mais <a href="https://docs.djangoproject.com/en/2.0/topics/security/" target="_blank">aqui</a>).</p>
+<p>Se esse for o seu caso, então já <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" target="_blank">clica aqui</a> e <strong>fique por dentro do assunto</strong>!</p>
 
-<p>É bastante <strong>escalável</strong>: Django foi desenvolvido para tirar vantagem da maior quantidade de hardware possível (desde que você queira).
-Django usa uma arquitetura “zero-compartilhamento”, o que significa que você pode adicionar mais recursos em qualquer nível: servidores 
-de banco de dados, cache e/ou servidores de aplicação.</p>
+<p>Dito isso, vamos nessa que o tempo não para!</p>
 
-<p>Para termos uma boa noção do Django como um <strong>todo</strong>, vou fazer a seguinte sequência posts, utilizando uma abordagem <em>bottom-up</em> (de baixo 
-pra cima): começaremos com esse <em>post</em> mais conceitual, depois passaremos para a <strong>camada de Modelo</strong>, depois veremos a <strong>camada de <em>Views</em></strong> e, por fim, a <strong>camada de <em>Templates</em></strong>.</p>
+<h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
 
-<p>Mas primeiro, eu quero garantir que você vai ficar sabendo de <strong>tudo em primeira mão!</strong> Então se já aproveita a oportunidade e se inscreve aí! <img class="emoji" title=":thumbsup:" alt=":thumbsup:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20"></p>
+<ul id="markdown-toc">
+  <li><a href="#onde-estamos" id="markdown-toc-onde-estamos">Onde estamos…</a></li>
+  <li><a href="#model-layer-camada-de-modelos" id="markdown-toc-model-layer-camada-de-modelos"><em>Model Layer</em> (Camada de Modelos)</a></li>
+  <li><a href="#api-de-acesso-a-dados" id="markdown-toc-api-de-acesso-a-dados">API de Acesso a Dados</a></li>
+</ul>
+
+<h2 id="onde-estamos">Onde estamos…</h2>
+
+<p>Primeiramente, vamos nos situar…</p>
+
+<p><img src="/assets/posts/desenvolvimento-web-com-python-e-django-model/django-architecture.png" alt="Arquitetura do Django - Model" class="img-responsive"></p>
+
+<p>No nosso <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" target="_blank">primeiro post</a>, tratamos de conceitos introdutórios do <em>framework</em>, uma visão geral da sua arquitetura, 
+sua instalacão e a criação do famoso <strong><em>Hello World</em></strong> <em>Django-based</em>.</p>
+
+<p>Agora, vamos mergulhar um pouco mais e vamos conhecer a camada <em>Model</em> da arquitetura <strong>MTV</strong> do Django (<em>Model Template View</em>).</p>
+
+<p>Nela, vamos descrever, em forma de classes, as <strong>entidade</strong> as do nosso sistema, para que o resto (<em>Template e View</em>) façam sentido.</p>
+
+<p>Sem mais delongas, apresento-lhes: <strong>A camada <em>Model</em></strong>!</p>
+
+<h2 id="model-layer-camada-de-modelos">
+<em>Model Layer</em> (Camada de Modelos)</h2>
+
+<p>Vamos começar pelo básico: pela definição de <strong>modelo</strong>!</p>
+
+<p>Um <strong>modelo</strong> é a descrição do dado que será gerenciado pela sua aplicação.</p>
+
+<p>Ele contém os campos e comportamentos desses dados. No fim, cada modelo vai equivaler à uma tabela no banco de dados.</p>
+
+<p>No Django, um modelo tem basicamente duas características:</p>
+
+<ul>
+  <li>É uma classe que herda de <code class="highlighter-rouge">django.db.models.Model</code>
+</li>
+  <li>Cada atributo representa um campo da tabela</li>
+</ul>
+
+<p>Com isso, Django gera automaticamente uma API de acesso à dados, isto é: facilita sua vida quando for gerenciar (adicionar, excluir e atualizar) seus dados.</p>
+
+<p>Para entendermos melhor, vejamos como desenvolver um modelo em seu sistema!</p>
+
+<p>Vamos supor que sua empresa está desenvolvendo um sistema de gerenciamento de funcionários e lhe foi dada a tarefa de modelar e desenvolver o acesso aos dados da entidade <code class="highlighter-rouge">Funcionário</code>.</p>
+
+<p>Pensando calmamente em sua estação de trabalho enquanto seu chefe lhe cobra diversas metas, você pensa nos seguintes atributos para tal classe:</p>
+
+<ul>
+  <li>Nome</li>
+  <li>Sobrenome</li>
+  <li>CPF</li>
+  <li>Tempo de serviço</li>
+  <li>Remuneração</li>
+</ul>
+
+<p>Agora, é necessário passar isso para código.</p>
+
+<p>Utilizando seu vasto conhecimento em Python e Django adquirido aqui na Python Academy…</p>
+
+<p>Falando nisso…</p>
+
+<p><strong>Você já se inscreveu na nossa lista de emails?!</strong></p>
+
+<p>Quem está inscrito ficou sabendo em primeira mão do lançamento desse artigo! Então já <strong>aproveita a chance</strong> e se inscreve aí!!!</p>
 
 <div class="email-signup">
 	<div class="row">
@@ -319,106 +374,15 @@ pra cima): começaremos com esse <em>post</em> mais conceitual, depois passaremo
 	</div>      
 </div>
 
-<p>Portando, ajustem a <img class="emoji" title=":seat:" alt=":seat:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4ba.png" height="20" width="20">, façam um <img class="emoji" title=":coffee:" alt=":coffee:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2615.png" height="20" width="20"> e <strong>#vamosnessa</strong> <img class="emoji" title=":computer:" alt=":computer:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" height="20" width="20">!</p>
+<p>Continuando…</p>
 
-<h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
+<p>Os modelos, por convenção, são descritos no arquivo <code class="highlighter-rouge">models.py</code>.</p>
 
-<ul id="markdown-toc">
-  <li><a href="#introdu%C3%A7%C3%A3o" id="markdown-toc-introdução">Introdução</a></li>
-  <li><a href="#instala%C3%A7%C3%A3o" id="markdown-toc-instalação">Instalação</a></li>
-  <li><a href="#hello-world-django" id="markdown-toc-hello-world-django"><em>Hello world, Django!</em></a></li>
-</ul>
+<p>Vamos criar, então, esse arquivo na pasta <code class="highlighter-rouge">helloworld/models.py</code> (<em>Você ainda tem o nosso projeto <code class="highlighter-rouge">helloworld</code> do _post_ anterior? Se não, então <a href="/assets/posts/desenvolvimento-web-com-python-e-django-model/helloworld.zip" target="_blank">clique aqui</a> e baixe-o para seguirmos do mesmo ponto!</em>).</p>
 
-<h2 id="introdução">Introdução</h2>
+<p>No arquivo <code class="highlighter-rouge">models.py</code> você então passa seu rascunho inicial para a classe Python <code class="highlighter-rouge">Funcionário</code> seguindo as duas características que apresentamos (herdar de <code class="highlighter-rouge">Model</code> e relacionar os campos com os tipos de campos da tabela) da seguinte forma:</p>
 
-<p>Como disse anteriormente, o Django é um <em>framework</em> para construção de aplicações web em Python.</p>
-
-<p>E, como todo <em>framework</em> web, ele é um <em>framework</em> MVC (<em><strong>M</strong>odel <strong>V</strong>iew <strong>C</strong>ontroller</em>), certo? <strong>Não exatamente!</strong></p>
-
-<p>De acordo com sua documentação, eles o declaram como um <strong>MTV</strong> - isto é: <em><strong>M</strong>odel-<strong>T</strong>emplate-<strong>V</strong>iew</em>. Mas por que a diferença?</p>
-
-<p>No entedimento dos desenvolvedores do Django sobre MVC, a <em>View</em> representa <strong>qual</strong> informação você vê, não <strong>como</strong> você vê. Há uma sutil diferença.</p>
-
-<p>Nesse caso, uma <em>View</em> é uma forma de processar os dados de uma URL específica, por que esse método descreve qual informação é apresentada.</p>
-
-<p>Além disso, é imprescindível separar <strong>conteúdo</strong> de <strong>apresentação</strong> – que é onde os templates residem. No Django, uma <em>View</em> descreve <strong>qual</strong> informação 
-é apresentada, mas uma <em>View</em> normalmalmente delega para um template, que descreve <strong>como</strong> a informação é apresentada.</p>
-
-<p>Assim, onde o <strong><em>Controller</em></strong> se encaixa nessa arquitetura? No caso do Django, é o próprio framework que faz o trabalho pesado de processar e rotear uma 
-requisição para a <em>View</em> apropriada de acordo com a configuração de URL descrita pelo desenvolvedor.</p>
-
-<p>Para ajudar a entender um pouco melhor, vamos analisar o fluxo de uma requisição saindo do <em>browser</em> do usuário, passando para o servidor onde o Django está
-sendo executado e retornando ao <em>browser</em> do usuário.</p>
-
-<h3 id="fluxo-de-uma-requisição-no-django">Fluxo de uma requisição no Django</h3>
-
-<p>A fim de ilustrar o funcionamento interno do Django e o fluxo de uma requisição “em suas entranhas”, eu fiz a seguinte ilustração:</p>
-
-<p><img src="/assets/posts/desenvolvimento-web-com-python-e-django-introducao/django-architecture.png" alt="Fluxo de uma requisição" class="img-responsive"></p>
-
-<p>O Django é dividida em três camadas: camada de modelos, camada de visualização e camada de <em>templates</em>.</p>
-
-<p>Conforme disse ali em cima, vamos estudar cada camada em <em>posts</em> separados.</p>
-
-<p>Vamos agora, dar nossos primeiros passos com o Django, começando pela sua <strong>instalação</strong>!</p>
-
-<h2 id="instalação">Instalação</h2>
-
-<p>Vamos agora ao que interessa!</p>
-
-<p>Primeiro, precisamos nos certificar que o Python e o pip (gerenciador de pacotes do Python) estão instalados corretamente.</p>
-
-<p>Vá no seu terminal ou <em>prompt</em> de comando e digite <code class="highlighter-rouge">python</code>. Deve ser aberto o terminal interativo do Python (se algo como <code class="highlighter-rouge">bash: command not found</code> aparecer, é por que sua instalação não está correta).</p>
-
-<p>Agora, digite <code class="highlighter-rouge">pip --version</code>. A saída desse comando deve ser a versão instalada do pip. Se ele não estiver disponível, faça o <a href="https://bootstrap.pypa.io/get-pip.py"><em>download do instalador nesse link</em></a> e execute o código.</p>
-
-<p>Vamos executar esse projeto em um ambiente virtual utilizando o <em>virtualenv</em> para que as dependências não atrapalhem as que já estão instaladas 
-no seu computador.</p>
-
-<p>(<em>Para saber mais sobre o virtualenv, <a href="https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais">leia esse post aqui</a> sobre desenvolvimento em ambientes virtuais</em>)</p>
-
-<p>Após criarmos nosso ambiente virtual, instalamos o Django com:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
-<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
-<td class="code"><pre>pip install Django<span class="w">
-</span></pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Para saber se a instalação está correta, podemos testar abrindo o terminal interativo do Python (digitando <code class="highlighter-rouge">python</code> no seu terminal/<em>prompt</em> de comando) e executando os comandos:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
-<td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2</pre></td>
-<td class="code"><pre><span class="gp">&gt;&gt;&gt; </span>import django
-<span class="gp">&gt;&gt;&gt; </span>print<span class="o">(</span>django.get_version<span class="o">())</span><span class="w">
-</span></pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>A saída deve ser a versão do Django instalada. No meu caso:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
-<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
-<td class="code"><pre>2.0<span class="w">
-</span></pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Se durante esse processo algum erro ocorrer, não tenha medo de postar no <strong>box de comentários</strong> aqui embaixo sua dúvida! Estamos aqui pra aprendermos juntos!</p>
-
-<h2 id="hello-world-django"><em>Hello world, Django!</em></h2>
-
-<p>Com tudo instalado corretamente, vamos agora fazer um mini-projeto para que você veja o Django em ação!</p>
-
-<p>Nosso projeto é fazer um CRUD simples de Funcionários. Ou seja, vamos fazer uma aplicação onde será possível adicionar, listar, atualizar e deletar Funcionários.</p>
-
-<p>Vamos começar criando a estrutura de diretórios e arquivos principais para o funcionamento do Django. Para isso, o pessoal do Django fez um comando 
-muito bacana pra nós: o <code class="highlighter-rouge">django-admin.py</code>.</p>
-
-<p>Se sua instalação estiver correta, esse comando foi adicionado ao seu PATH! Tente digitar <code class="highlighter-rouge">django-admin --version</code> (ou <code class="highlighter-rouge">django-admin.py --version</code>) no seu terminal.</p>
-
-<p>Digitando apenas <code class="highlighter-rouge">django-admin</code>, é esperado que aparece a lista de comandos disponíveis, similar a:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table style="border-spacing: 0"><tbody><tr>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
 <td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2
 3
@@ -445,109 +409,160 @@ muito bacana pra nós: o <code class="highlighter-rouge">django-admin.py</code>.
 24
 25
 26
-27</pre></td>
-<td class="code"><pre>Available subcommands:
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36</pre></td>
+<td class="code"><pre><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
 
-[django]
-    check
-    compilemessages
-    createcachetable
-    dbshell
-    diffsettings
-    dumpdata
-    flush
-    inspectdb
-    loaddata
-    makemessages
-    makemigrations
-    migrate
-    runserver
-    sendtestemail
-    shell
-    showmigrations
-    sqlflush
-    sqlmigrate
-    sqlsequencereset
-    squashmigrations
-    startapp
-    startproject
-    test
-    testserver<span class="w">
+<span class="k">class</span> <span class="nc">Funcionario</span><span class="p">(</span><span class="n">models</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
+
+  <span class="n">nome</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
+  <span class="p">)</span>
+
+  <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
+  <span class="p">)</span>
+
+  <span class="n">cpf</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">max_length</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
+  <span class="p">)</span>
+
+  <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">PositiveIntegerField</span><span class="p">(</span>
+    <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
+  <span class="p">)</span>
+
+  <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">DecimalField</span><span class="p">(</span>
+    <span class="n">max_digits</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>
+    <span class="n">decimal_places</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
+  <span class="p">)</span>
+
+  <span class="n">objetos</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">Manager</span><span class="p">()</span><span class="w">
 </span></pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Por ora, estamos interessados no comando <code class="highlighter-rouge">startproject</code> que cria um novo projeto com a estrutura de diretórios certinha para começarmos a desenvolver!</p>
+<p>Explicando brevemente esse modelo:</p>
 
-<p>Executamos esse comando da seguinte forma:</p>
+<ul>
+  <li>Cada campo tem um tipo</li>
+  <li>O tipo <code class="highlighter-rouge">CharField</code> representa uma string</li>
+  <li>O tipo <code class="highlighter-rouge">PositiveIntegerField</code> representa um número inteiro positivo</li>
+  <li>O tipo <code class="highlighter-rouge">DecimalField</code> representa um número decimal com precisão fixa</li>
+  <li>Cada tipo tem um conjunto de propriedades, como <code class="highlighter-rouge">max_length</code> para delimitar o comprimento máximo da string, 
+<code class="highlighter-rouge">decimal_places</code> para configurar o número de casas decimais, etc (a documentação de cada campo e propriedades 
+pode ser <a href="https://docs.djangoproject.com/en/2.0/ref/models/fields/" target="_blank">acessado aqui</a>).</li>
+  <li>O campo <code class="highlighter-rouge">objetos = models.Manager()</code> é utilizado para fazer operações de busca e será explicado ali embaixo!</li>
+  <li>
+<strong>Observação</strong>: não precisamos configurar o campo <code class="highlighter-rouge">id</code> - ele é gerado <strong>automagicamente</strong> pelo Django!</li>
+</ul>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
-<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
-<td class="code"><pre>django-admin.py startproject helloworld<span class="w">
+<p>Agora que criamos nosso modelo, é necessário executar a criação das tabelas no banco de dados (<em>você não achou que seria automático, né?!</em>).</p>
+
+<p>Para isso, o Django possui dois comandos que ajudam <strong>muito</strong>: o <code class="highlighter-rouge">makemigrations</code> e o <code class="highlighter-rouge">migrate</code>.</p>
+
+<h3 id="o-comando-makemigrations">O comando <code class="highlighter-rouge">makemigrations</code>
+</h3>
+
+<p>O comando <code class="highlighter-rouge">makemigrations</code> analisa se foram feitas mudanças nos modelos e, em caso positivo, cria novas migrações (<code class="highlighter-rouge">Migrations</code>) para alterar a estrutura do seu banco de dados, refletindo as alterações feitas.</p>
+
+<p>Vamos entender o que eu acabei de dizer: toda vez que você faz uma <strong>alteração</strong> em seu modelo, é necessário que ela seja <strong>aplicada</strong> a estrutura presente no banco de dados.</p>
+
+<p>A esse processo é dado o nome de <strong>Migração</strong>!</p>
+
+<p>De acordo com a documentação do Django:</p>
+
+<blockquote>
+  <p>Migração é a forma do Django de <strong>propagar as alterações</strong> feitas em seu modelo (adição de um novo campo, deleção de um modelo, etc…) ao seu esquema do banco de dados.
+Elas foram desenvolvidos para serem (a maioria das vezes) <strong>automáticas</strong>, mas cabe a você saber a hora de fazê-las, de executá-las e de resolver os problemas comuns que 
+você possa vir a ser submetidos.</p>
+</blockquote>
+
+<p>Portanto, toda vez que você alterar o seu modelo, não se esqueça: execute <code class="highlighter-rouge">python manage.py makemigrations</code>!</p>
+
+<p>Ao executar esse comando no nosso projeto, devemos ter a seguinte saída:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5</pre></td>
+<td class="code"><pre>$ python manage.py makemigrations
+
+Migrations for 'helloworld':
+  helloworld\migrations\0001_initial.py
+    - Create model Funcionario<span class="w">
 </span></pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Criando a seguinte estrutura de diretórios:</p>
+<p><em><strong>Observação:</strong> Talvez seja necessário executar o comando referenciando o app onde estão definidos os modelos: <code class="highlighter-rouge">python manage.py makemigrations helloworld</code>. Daí pra frente, apenas <code class="highlighter-rouge">python manage.py makemigrations</code> vai bastar!</em></p>
 
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table style="border-spacing: 0"><tbody><tr>
+<p>Agora, podemos ver que foi criada uma pasta chamada <code class="highlighter-rouge">migrations</code> dentro de <code class="highlighter-rouge">helloworld</code>.</p>
+
+<p>Dentro dela, você pode ver um arquivo chamado <code class="highlighter-rouge">0001_initial.py</code>: ele contém a <code class="highlighter-rouge">Migration</code> que cria o <em>model</em> <code class="highlighter-rouge">Funcionario</code> no banco de dados (<em>preste atenção na saída do comando <code class="highlighter-rouge">makemigrations</code>: <code class="highlighter-rouge">Create model Funcionario</code></em> <img class="emoji" title=":wink:" alt=":wink:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20">)</p>
+
+<h3 id="o-comando-migrate">O comando <code class="highlighter-rouge">migrate</code>
+</h3>
+
+<p>Quando executamos o <code class="highlighter-rouge">makemigrations</code>, o Django cria o banco de dados e as <em>migrations</em>, mas não as executa, isto é: não aplica as alterações no banco de dados.</p>
+
+<p>Para que o Django as aplique, são necessárias três coisas, basicamente:</p>
+
+<ul>
+  <li>
+<strong>1.</strong> Que a configuração da interface com o banco de dados esteja descrita no <code class="highlighter-rouge">settings.py</code>
+</li>
+  <li>
+<strong>2.</strong> Que os modelos e <em>migrations</em> estejam definidos para esse projeto</li>
+  <li>
+<strong>3.</strong> Execução do comando <code class="highlighter-rouge">migrate</code>
+</li>
+</ul>
+
+<p>Se você criou o projeto com <code class="highlighter-rouge">django-admin.py createproject helloworld</code>, a configuração padrão foi aplicada. Procure pela configuração <code class="highlighter-rouge">DATABASES</code> no <code class="highlighter-rouge">settings.py</code>. Ela deve ser a seguinte:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
 <td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2
 3
 4
 5
 6</pre></td>
-<td class="code"><pre>- helloworld
-    - __init__.py
-    - settings.py
-    - urls.py
-    - wsgi.py
-- manage.py<span class="w">
+<td class="code"><pre><span class="n">DATABASES</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'default'</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s">'ENGINE'</span><span class="p">:</span> <span class="s">'django.db.backends.sqlite3'</span><span class="p">,</span>
+        <span class="s">'NAME'</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">BASE_DIR</span><span class="p">,</span> <span class="s">'db.sqlite3'</span><span class="p">),</span>
+    <span class="p">}</span>
+<span class="p">}</span><span class="w">
 </span></pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Explicando cada arquivo:</p>
+<p>Por padrão, o Django utiliza um banco de dados leve e completo chamado <a href="https://www.sqlite.org/index.html" target="_blank">SQLite</a>. Já já vamos falar mais sobre ele.</p>
 
-<ul>
-  <li>
-<code class="highlighter-rouge">helloworld/settings.py</code>: Arquivo muito importante com as configurações do nosso projeto, como configurações do banco de dados, aplicativos instalados, configuração de arquivos estáticos e muito mais.</li>
-  <li>
-<code class="highlighter-rouge">helloworld/urls.py</code>: Nossa <code class="highlighter-rouge">URLConf</code> - aqui vamos dizer ao Django <strong>quem</strong> responde a <strong>qual</strong> URL.</li>
-  <li>
-<code class="highlighter-rouge">helloworld/wsgi.py</code>: Aqui configuramos a interface entre o servidor de aplicação e nossa aplicação Django.</li>
-  <li>
-<code class="highlighter-rouge">manage.py</code>: Arquivo gerado automaticamente pelo Django que expõe comandos importantes para manutenção da nossa aplicação.</li>
-</ul>
+<p>Sobre os modelos e <em>migrations</em>, eles já foram feitos com a definição do <code class="highlighter-rouge">Funcionário</code> no arquivo <code class="highlighter-rouge">models.py</code> e com a execução do comando <code class="highlighter-rouge">makemigrations</code>.</p>
 
-<p>Por exemplo, estando na pasta raíz do projeto, execute o comando <code class="highlighter-rouge">python manage.py runserver</code>. Depois, acesse seu <em>browser</em> no endereço <code class="highlighter-rouge">http://localhost:8000</code>.</p>
+<p>Agora só falta <strong>executar o comando <code class="highlighter-rouge">migrate</code></strong>, propriamente dito!</p>
 
-<p>A seguinte tela deve ser mostrada:</p>
+<p>Para isso, vamos para a raíz do projeto e executamos: <code class="highlighter-rouge">python manage.py migrate</code>. A saída deve ser:</p>
 
-<p><img src="/assets/posts/desenvolvimento-web-com-python-e-django-introducao/hello-world.png" alt="Hello World, Django" class="img-responsive"></p>
-
-<p>Se ela aparecer, significa que nossa configuração está <strong>correta</strong> e o Django está pronto para começarmos a desenvolver!</p>
-
-<p>Agora, vamos criar um <code class="highlighter-rouge">app</code> chamado <code class="highlighter-rouge">website</code> para separarmos os arquivos de configuração da nossa aplicação, que vão ficar na pasta <code class="highlighter-rouge">/helloworld</code>, dos arquivos relacionados ao <em>website</em>.</p>
-
-<p>De acordo com a documentação, um <code class="highlighter-rouge">app</code> no Django é:</p>
-
-<blockquote>
-  <p>“Uma aplicação Web que faz <strong>alguma coisa</strong>, por exemplo - um blog, um banco de dados de registros públicos ou um aplicativo de pesquisa. Já um projeto é uma coleção de configurações e <em>apps</em> para um <em>website</em> em particular.”</p>
-</blockquote>
-
-<p>Um projeto pode ter vários <code class="highlighter-rouge">apps</code> e um <code class="highlighter-rouge">app</code> pode estar presente em diversos projetos.</p>
-
-<p>A fim de criar um novo <code class="highlighter-rouge">app</code>, o Django provê outro comando, chamado <code class="highlighter-rouge">django-admin.py startapp</code> que nos ajuda a criar os arquivos e diretórios necessários para tal objetivo.</p>
-
-<p>Na raíz do projeto, execute:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
-<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
-<td class="code"><pre>django-admin.py startapp website<span class="w">
-</span></pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Assim, nossa estrutura de diretórios deve estar similar a:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table style="border-spacing: 0"><tbody><tr>
+<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table style="border-spacing: 0"><tbody><tr>
 <td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2
 3
@@ -562,88 +577,94 @@ muito bacana pra nós: o <code class="highlighter-rouge">django-admin.py</code>.
 12
 13
 14
-15</pre></td>
-<td class="code"><pre>- helloworld
-    - __init__.py
-    - settings.py
-    - urls.py
-    - wsgi.py
-- website
-    - migrations/
-    - __init__.py
-    - admin.py
-    - apps.py
-    - migrations.py
-    - models.py
-    - tests.py
-    - views.py
-- manage.py<span class="w">
+15
+16
+17
+18
+19
+20</pre></td>
+<td class="code"><pre>$ python manage.py migrate
+
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, helloworld, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying helloworld.0001_initial... OK
+  Applying sessions.0001_initial... OK<span class="w">
 </span></pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Para que o Django gerencie esse novo app, é necessário adicioná-lo a <strong>lista de <code class="highlighter-rouge">apps</code> instalados</strong>. Fazemos isso no arquivo <code class="highlighter-rouge">helloworld/settings.py</code>.</p>
+<p><em>Calma lá… Havíamos definido apenas <strong>uma</strong> Migration e foram aplicadas 15!!! Por quê???</em></p>
 
-<p>Conforme disse ali em cima, esse arquivo contém diversas configurações do seu projeto Django. Uma delas (e muito importante) é a <code class="highlighter-rouge">INSTALLED_APPS</code>.</p>
+<p>Se lembra que a configuração <code class="highlighter-rouge">INSTALLED_APPS</code> continha vários <code class="highlighter-rouge">apps</code> (<em>e não apenas os nossos <code class="highlighter-rouge">helloworld</code> e <code class="highlighter-rouge">website</code></em>)?</p>
 
-<p>Ela é uma lista e diz ao Django o conjunto de <code class="highlighter-rouge">apps</code> que devem ser gerenciados pelo Django para cada projeto.</p>
+<p>Pois então, cada <code class="highlighter-rouge">app</code> desses contém seus próprios modelos e <em>migrations</em>. <em>Sacou?!</em></p>
 
-<p>Como acabamos de criar o <code class="highlighter-rouge">app</code> website e já havia o <code class="highlighter-rouge">app</code> principal <code class="highlighter-rouge">helloworld</code>, é necessário adicioná-los a essa lista. Portanto, procure por:</p>
+<p><img src="/assets/posts/desenvolvimento-web-com-python-e-django-model/thinking-guy.jpg" alt="_Thinking Guy Meme_"></p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<p>Com a execução do <code class="highlighter-rouge">migrate</code>, o Django irá criar diversas tabelas no banco. Uma delas é a nossa, similar à:</p>
+
+<figure class="highlight"><pre><code class="language-sql" data-lang="sql"><table style="border-spacing: 0"><tbody><tr>
 <td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2
 3
 4
 5
-6
-7
-8</pre></td>
-<td class="code"><pre><span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s">'django.contrib.admin'</span><span class="p">,</span>
-    <span class="s">'django.contrib.auth'</span><span class="p">,</span>
-    <span class="s">'django.contrib.contenttypes'</span><span class="p">,</span>
-    <span class="s">'django.contrib.sessions'</span><span class="p">,</span>
-    <span class="s">'django.contrib.messages'</span><span class="p">,</span>
-    <span class="s">'django.contrib.staticfiles'</span><span class="p">,</span>
-<span class="p">]</span><span class="w">
+6</pre></td>
+<td class="code"><pre><span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">helloworld_funcionario</span> <span class="p">(</span>
+    <span class="nv">"id"</span> <span class="n">serial</span> <span class="k">NOT</span> <span class="k">NULL</span> <span class="k">PRIMARY</span> <span class="k">KEY</span><span class="p">,</span>
+    <span class="nv">"nome"</span> <span class="n">varchar</span><span class="p">(</span><span class="mi">255</span><span class="p">)</span> <span class="k">NOT</span> <span class="k">NULL</span><span class="p">,</span>
+    <span class="nv">"sobrenome"</span> <span class="n">varchar</span><span class="p">(</span><span class="mi">255</span><span class="p">)</span> <span class="k">NOT</span> <span class="k">NULL</span><span class="p">,</span>
+    <span class="p">...</span>
+<span class="p">);</span><span class="w">
 </span></pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>e adicione <code class="highlighter-rouge">website</code> e <code class="highlighter-rouge">helloworld</code>:</p>
+<p><em>Isso está muito abstrato! Como eu posso ver o banco, as tabelas e os dados na prática?</em></p>
+
+<h3 id="db-browser-for-sqlite"><em>DB Browser for SQLite</em></h3>
+
+<p>Apresento-lhes uma ferramenta <strong>MUITO</strong> prática: o <em>DB Browser for SQLite</em>!</p>
+
+<p>Com ela, podemos ver a estrutura do banco de dados, alterar dados em tempo real, fazer <em>queries</em>, e muito mais!</p>
+
+<p><a href="http://sqlitebrowser.org/" target="_blank">Clique aqui</a> para fazer o <em>download</em> e instalação do software. Ao terminar a instalação, abra o <em>DB Browser for SQLite</em>.</p>
+
+<p>Temos:</p>
+
+<p><img src="/assets/posts/desenvolvimento-web-com-python-e-django-model/db-browser-screen.png" alt="_DB Browser for SQLite_" class="img-responsive"></p>
+
+<p>Nele, podemos clicar em “<strong>Abrir banco de dados</strong>” e procurar pelo banco de dados do nosso projeto <code class="highlighter-rouge">db.sqlite3</code>.</p>
+
+<p>Ao importá-lo, teremos uma visão geral, mostrando Tabelas, Índices, <em>Views</em> e <em>Triggers</em>.</p>
+
+<p>Para ver os dados de cada tabela, vá para a aba “<strong>Navegar dados</strong>”, escolha nossa tabela <code class="highlighter-rouge">helloworld_funcionario</code> e…</p>
+
+<p><em><strong>Voilá</strong></em>! O que temos? <strong>NADA</strong> <img class="emoji" title=":disappointed:" alt=":disappointed:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f61e.png" height="20" width="20"></p>
+
+<p><em>Calma jovem… Ainda não adicionamos nada <img class="emoji" title=":unamused:" alt=":unamused:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f612.png" height="20" width="20"></em></p>
+
+<p><em>Já já vamos criar as <strong>Views</strong> e <strong>Templates</strong> para popular esse BD! <img class="emoji" title=":wink:" alt=":wink:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></em></p>
+
+<h2 id="api-de-acesso-a-dados">API de Acesso a Dados</h2>
+
+<p>Com nossa classe <code class="highlighter-rouge">Funcionário</code> modelada, vamos agora ver a API de acesso à dados provida pelo Django para facilitar <strong>muito</strong> nossa vida!</p>
+
+<p>Para <strong>adicionar</strong> um novo funcionário, basta criar uma instância do seu modelo e chamar o método <code class="highlighter-rouge">save()</code> (<em>“lembra que nosso modelo herdou de Models?”</em>), da seguinte forma:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
-<td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10</pre></td>
-<td class="code"><pre><span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s">'django.contrib.admin'</span><span class="p">,</span>
-    <span class="s">'django.contrib.auth'</span><span class="p">,</span>
-    <span class="s">'django.contrib.contenttypes'</span><span class="p">,</span>
-    <span class="s">'django.contrib.sessions'</span><span class="p">,</span>
-    <span class="s">'django.contrib.messages'</span><span class="p">,</span>
-    <span class="s">'django.contrib.staticfiles'</span><span class="p">,</span>
-    <span class="s">'helloworld`,</span><span class="err">
-</span><span class="s">    '</span><span class="n">website</span><span class="s">'</span><span class="err">
-</span><span class="s">]</span><span class="w">
-</span></pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Agora, vamos fazer algumas alterações na estrutura do projeto.</p>
-
-<p>Primeiro, vamos passar o arquivo de modelos <code class="highlighter-rouge">models.py</code> de <code class="highlighter-rouge">/website</code> para <code class="highlighter-rouge">/helloworld</code>, pois os arquivos comuns ao projeto vão ficar centralizados no app <code class="highlighter-rouge">helloworld</code> (geralmente temos apenas um arquivo <code class="highlighter-rouge">models.py</code> por projeto).</p>
-
-<p>Podemos, então, excluir a pasta <code class="highlighter-rouge">/migrations</code> e o arquivo <code class="highlighter-rouge">migrations.py</code> da pasta <code class="highlighter-rouge">/website</code>, pois estes serão gerados e gerenciados pelo app <code class="highlighter-rouge">helloworld</code>.</p>
-
-<p>Por fim, devemos estar com a estrutura de diretórios da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table style="border-spacing: 0"><tbody><tr>
 <td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2
 3
@@ -654,40 +675,181 @@ muito bacana pra nós: o <code class="highlighter-rouge">django-admin.py</code>.
 8
 9
 10
-11
-12
-13</pre></td>
-<td class="code"><pre>- helloworld
-    - __init__.py
-    - settings.py
-    - urls.py
-    - wsgi.py
-    - models.py
-- website
-    - __init__.py
-    - admin.py
-    - apps.py
-    - tests.py
-    - views.py
-- manage.py<span class="w">
+11</pre></td>
+<td class="code"><pre><span class="kn">from</span> <span class="nn">helloworld.models</span> <span class="kn">import</span> <span class="n">Funcionario</span>
+
+<span class="n">funcionario</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="p">(</span>
+  <span class="n">nome</span><span class="o">=</span><span class="s">'Marcos'</span><span class="p">,</span>
+  <span class="n">sobrenome</span><span class="o">=</span><span class="s">'da Silva'</span><span class="p">,</span>
+  <span class="n">cpf</span><span class="o">=</span><span class="s">'015.458.895-50'</span><span class="p">,</span>
+  <span class="n">tempo_de_servico</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+  <span class="n">remuneracao</span><span class="o">=</span><span class="mf">10500.00</span>
+<span class="p">)</span>
+
+<span class="n">funcionario</span><span class="o">.</span><span class="n">save</span><span class="p">()</span><span class="w">
 </span></pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Quer comparar com a minha versão, <a href="/assets/posts/desenvolvimento-web-com-python-e-django-introducao/helloworld.zip">clique aqui para fazer o download do projeto</a>!</p>
+<p>E…. <strong>Pronto</strong>! O Funcionário <code class="highlighter-rouge">Marcos da Silva</code> será salvo no seu banco!</p>
 
-<p>Com isso, terminamos nossa primeira lição! Mas calma que temos muito ainda para ver! Fiquem ligados nos próximos <em>posts</em>!</p>
+<p><strong>NADA</strong> de código SQL e <em>queries</em> enormes!!!</p>
 
-<p>Espero que tenha dado tudo certo! Se não, por favor, poste no box de comentários aqui embaixo o que aconteceu que nós damos um jeito!</p>
+<p>Tudo simples! Tudo limpo! <strong>Tudo Python</strong>!</p>
+
+<p>A API de <strong>busca de dados</strong> é ainda mais completa! Nela, você constrói sua <em>query</em> à nível de objeto!</p>
+
+<p><em><strong>Mas como assim?!</strong></em></p>
+
+<p>Por exemplo, para buscar todos os <code class="highlighter-rouge">Funcionário</code>, fazemos:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre><span class="n">funcionarios</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="o">.</span><span class="n">objetos</span><span class="o">.</span><span class="nb">all</span><span class="p">()</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Se lembra do tal <code class="highlighter-rouge">Manager</code> que falamos lá em cima? Então, um <code class="highlighter-rouge">Manager</code> é a interface na qual as operações de busca são definidas para o seu modelo.</p>
+
+<p>Ou seja, através do campo <code class="highlighter-rouge">objetos</code> podemos fazer <em>queries</em> incríveis sem uma linha de SQL!</p>
+
+<p>Exemplo de um <em>query</em> um pouco mais complexa:</p>
+
+<blockquote>
+  <p>Busque todos os funcionários que tenham <strong>mais de 3 anos de serviço</strong> , ganhem <strong>menos de R$ 5.000,00 de remuneração</strong> e que <strong>não tenham Marcos no nome</strong></p>
+</blockquote>
+
+<p>Podemos atingir esse objetivo com:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7</pre></td>
+<td class="code"><pre><span class="n">funcionarios</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="o">.</span><span class="n">objetos</span><span class="o">.</span><span class="n">exclude</span><span class="p">(</span>
+  <span class="n">name</span><span class="o">=</span><span class="s">"Marcos"</span>
+<span class="p">)</span><span class="o">.</span><span class="nb">filter</span><span class="p">(</span>
+  <span class="n">tempo_de_servico__gt</span><span class="o">=</span><span class="mi">3</span>
+<span class="p">)</span><span class="o">.</span><span class="nb">filter</span><span class="p">(</span>
+  <span class="n">remuneracao__lt</span><span class="o">=</span><span class="mf">5000.00</span>
+<span class="p">)</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>O método <code class="highlighter-rouge">exclude()</code> retira linhas da pesquisa e <code class="highlighter-rouge">filter()</code> filtra a busca!</p>
+
+<p>No exemplo, para filtrar por <strong>maior que</strong> concatenamos a string <code class="highlighter-rouge">__gt</code> (<strong>gt</strong> = <em>greater than</em>) ao filtro e <code class="highlighter-rouge">__lt</code> (<strong>lt</strong> = <em>less than</em>) para resultados <strong>menores que</strong>.</p>
+
+<p>Agora, vamos ver como é <strong>simples</strong> excluir um <code class="highlighter-rouge">Funcionário</code>:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5</pre></td>
+<td class="code"><pre><span class="c"># Primeiro, encontramos o Funcionário que desejamos deletar (id=1 por exemplo)</span>
+<span class="n">funcionario</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="o">.</span><span class="n">objetos</span><span class="o">.</span><span class="nb">filter</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="c"># Agora, o deletamos!</span>
+<span class="n">funcionario</span><span class="o">.</span><span class="n">delete</span><span class="p">()</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em><strong>Legal, né?!</strong></em></p>
+
+<p>A atualização também é extremamente simples, bastando buscar a instância desejada, alterar o campo e salvá-lo novamente!</p>
+
+<p>Por exemplo: o funcionário de <strong>id = 13</strong> foi promovido e teve um <strong>acréscimo de 15%</strong> em sua remuneração.</p>
+
+<p>Podemos fazer essa alteração da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8</pre></td>
+<td class="code"><pre><span class="c"># Primeiro, buscamos o funcionario desejado</span>
+<span class="n">funcionario</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="o">.</span><span class="n">objetos</span><span class="o">.</span><span class="nb">filter</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="c"># Alteramos sua remuneração</span>
+<span class="n">funcionario</span><span class="o">.</span><span class="n">remuneracao</span> <span class="o">=</span> <span class="n">funcionario</span><span class="o">.</span><span class="n">remuneracao</span> <span class="o">*</span> <span class="mf">1.15</span>
+
+<span class="c"># Salvamos as alterações</span>
+<span class="n">funcionario</span><span class="o">.</span><span class="n">save</span><span class="p">()</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>(<em>Para baixar o código desenvolvido até aqui: <a href="/assets/posts/desenvolvimento-web-com-python-e-django-model/helloworld-model.zip">clique aqui</a></em>)</p>
 
 <h2 class="no_toc" id="conclusão">Conclusão</h2>
 
-<p>Nesse artigo, vimos um pouco sobre o Django, suas principais características e como começar a desenvolver utilizando-o!</p>
+<p>Com isso galera:</p>
 
-<p>Espero que tenham gostado e que eu tenha despertado a vontade de aprender mais sobre esse excelente <em>framework</em>!</p>
+<p><img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2714.png" height="20" width="20"> <strong>Modelo</strong></p>
 
-<p>No próximo post, vamos falar sobre a Camada <em>Model</em> do Django, que é onde residem as entidades do nosso sistema e toda a lógica de acesso a dados!</p>
+<p>Criamos nosso primeiro modelo, nosso banco de dados, vimos como visualizar os dados com o <em>DB Browser for SQLite</em> e como a API de acesso a dados do Django é simples e poderosa!</p>
 
-<p>Fiquem ligados e até a próxima!</p>
+<p>Espero ter aguçado a vontade por aprender mais do Django! No próximo <em>post</em> vamos tratar da camada <em>View</em>! É nela que construímos a lógica de negócio do nosso projeto.</p>
+
+<p>Para ficar sabendo em primeira mão, <strong>que tal fazer parte da comunidade Python Academy??</strong></p>
+
+<div class="email-signup">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="signup-body">
+				<span class="greeting">Está gostando do artigo?</span>
+				<span class="signup-text">Então cadastre o seu email para <span class="blue">receber gratuitamente</span> mais conteúdos como este!</span>
+		        <!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: Quero receber = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <div id="mc_embed_signup_scroll" class="container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-4">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="">
+            </div>
+            
+            <div class="col-xs-6">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="">                
+            </div>
+
+            <div class="col-xs-2">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <i class="fa fa-mail-forward visible-xs" aria-hidden="true"></i>
+                    <span class="hidden-xs">Quero receber</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+    
+    <!--End mc_embed_signup-->
+		    </div>
+		</div>
+	</div>      
+</div>
+
+<p>E não se esqueça: qualquer dúvida, <em>crash</em>, <em>bug</em> ou sugestão, utilize o box de comentário aqui embaixo que eu responderei <em>ASAP</em>!</p>
+
+<p>É isso pessoal! Aguardo vocês no <strong>próximo artigo</strong>!</p>
+
+<p>Abraço e bom desenvolvimento!</p>
 
 
 
@@ -708,7 +870,7 @@ muito bacana pra nós: o <code class="highlighter-rouge">django-admin.py</code>.
 												Por Vinícius Ramos
 											</span>
 
-											<b>em <time datetime="2018-05-22" pubdate>22/05/2018</time></b>
+											<b>em <time datetime="2018-05-26" pubdate>26/05/2018</time></b>
 										</h2>
 	
 										<p class="short-description">"<i>O que eu ouço, eu esqueço. O que eu vejo, eu lembro. O que eu faço, eu entendo.</i>"</p>
@@ -767,8 +929,8 @@ muito bacana pra nós: o <code class="highlighter-rouge">django-admin.py</code>.
         <div id="disqus_thread"></div>
         <script>
         var disqus_config = function () {
-            this.page.url = 'https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao';     // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = '/blog/desenvolvimento-web-com-python-e-django-introducao';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            this.page.url = 'https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model';     // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = '/blog/desenvolvimento-web-com-python-e-django-model';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
         };
     
         (function() { // DON'T EDIT BELOW THIS LINE
@@ -791,25 +953,25 @@ muito bacana pra nós: o <code class="highlighter-rouge">django-admin.py</code>.
 			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
 			<ul>				
 				<li>
-					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
 						<i class="fa fa-fw fa-facebook"></i>
 					</a>
 				</li>				
 				
 				<li>							
-					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao&amp;related=PythonAcademyBR&amp;text=%22Desenvolvimento%20Web%20com%20Python%20e%20Django:%20Introdu%C3%A7%C3%A3o%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model&amp;related=PythonAcademyBR&amp;text=%22Desenvolvimento%20Web%20com%20Python%20e%20Django:%20_Model_%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
 						<i class="fa fa-fw fa-twitter"></i>
 					</a>
 				</li>
 
 				<li>
-					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" data-action="share/whatsapp/share">
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model" data-action="share/whatsapp/share">
 						<i class="fa fa-fw fa-whatsapp"></i>
 					</a>
 				</li>
 
 				<li>
-					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Desenvolvimento%20Web%20com%20Python%20e%20Django:%20Introdu%C3%A7%C3%A3o&amp;body=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Desenvolvimento%20Web%20com%20Python%20e%20Django:%20_Model_&amp;body=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
 						<i class="fa fa-fw fa-envelope"></i>
 					</a>
 				</li>
@@ -1018,7 +1180,7 @@ muito bacana pra nós: o <code class="highlighter-rouge">django-admin.py</code>.
 							var post = posts[randomIndex];
 
 							// Verify if related post is the same as the shown
-							if (post.title != "Desenvolvimento Web com Python e Django: Introdução") {
+							if (post.title != "Desenvolvimento Web com Python e Django: _Model_") {
 								var postHTML = 
 									"<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>" +
 										"<a href='" + post.href + "' class='card aos-init aos-animate' data-aos='fade-up'>" +
@@ -1054,7 +1216,7 @@ muito bacana pra nós: o <code class="highlighter-rouge">django-admin.py</code>.
                         $('#email-modal').modal('show');
 
                         /* Set cookie so this does not repeat */
-                        Cookies.set('pythonacademy_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao' });
+                        Cookies.set('pythonacademy_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model' });
                     }
 				});		
 				
