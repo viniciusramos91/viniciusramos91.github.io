@@ -1239,6 +1239,11 @@ a {
     padding: 64px 0;
 }
 
+#tos__container {
+    display: none !important;
+    z-index: -9999 !important;
+}
+
 // CALL TO ACTION
 // ================================================================
 
