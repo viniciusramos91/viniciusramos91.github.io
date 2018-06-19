@@ -88,7 +88,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Raleway:100,200,300,400,500,600,700,800|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic|Space+Mono:400,700|Inconsolata:400,700|Muli:200,300,400,600,700|Quicksand:300,400,500,700|Source+Serif+Pro:400,700|Roboto+Condensed:300,400,700|Roboto:300,400,500,700|Ubuntu:300,400,500,700|Oswald:300,400,500,600" rel="stylesheet">
 
 		<!-- post.css -->
-		<link rel="stylesheet" href="/assets/css/post.css?1527781264792970000">
+		<link rel="stylesheet" href="/assets/css/post.css?1529412440063429000">
 	</head>
 
 	<body id="post-body">		
@@ -662,7 +662,19 @@ Running migrations:
 
 <p>Com nossa classe <code class="highlighter-rouge">Funcionário</code> modelada, vamos agora ver a API de acesso à dados provida pelo Django para facilitar <strong>muito</strong> nossa vida!</p>
 
-<p>Para <strong>adicionar</strong> um novo funcionário, basta criar uma instância do seu modelo e chamar o método <code class="highlighter-rouge">save()</code> (<em>“lembra que nosso modelo herdou de Models?”</em>), da seguinte forma:</p>
+<p>Vamos testar a adição de um novo funcionário utilizando o <em>shell</em> do Django. Para isso, digite o comando:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre>python manage.py shell<span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em>O shell do Django é muito útil para <strong>testar trechos de código</strong> sem ter que executar o servidor inteiro!</em></p>
+
+<p>Para <strong>adicionar</strong> um novo funcionário, basta criar uma instância do seu modelo e chamar o método <code class="highlighter-rouge">save()</code> (<em>lembra que nosso modelo herdou de <code class="highlighter-rouge">Models</code>?</em>).</p>
+
+<p>Podemos fazer isso com o código abaixo (no <em>shell</em> do Django):</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
 <td class="gutter gl" style="text-align: right"><pre class="lineno">1
@@ -700,7 +712,7 @@ Running migrations:
 
 <p><em><strong>Mas como assim?!</strong></em></p>
 
-<p>Por exemplo, para buscar todos os <code class="highlighter-rouge">Funcionário</code>, fazemos:</p>
+<p>Por exemplo, para buscar todos os Funcionários, abra o shell do Django e digite:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
 <td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
