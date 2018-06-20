@@ -2,11 +2,27 @@
     
     
     {
-      "title": "Desenvolvimento Web com Python e Django: _Model_",
+      "title": "Desenvolvimento Web com Python e Django: View",
+      "href": "/blog/desenvolvimento-web-com-python-e-django-view",
+      "slug": "desenvolvimento-web-com-python-e-django-view",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post, vamos tratar da camada <em>View</em> do Django. Nela, nós desenvolvemos a lógica de negócio da nossa aplicação. Vamos ver sobre rotas, processamento de requisições e respostas, utilização de formulários e muito mais!</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "20",
+         "month": "June",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
+      "title": "Desenvolvimento Web com Python e Django: Model",
       "href": "/blog/desenvolvimento-web-com-python-e-django-model",
       "slug": "desenvolvimento-web-com-python-e-django-model",
       "author": "Vinícius R",
-      "description": "<p>Nesse post, vamos tratar da camada <em>Model</em> do Django. Vamos abordar detalhes dessa camada, mapeamento objeto-relacional, a API de acesso a dados provida pelo Django e modelagem de dados.</p>",
+      "description": "<p>Nesse post, vamos tratar da camada Model do Django. Vamos abordar detalhes dessa camada, mapeamento objeto-relacional, a API de acesso a dados provida pelo Django e modelagem de dados.</p>",
       "featured_icon": "featured_icon.svg",
       "date": {
          "day": "26",
@@ -54,7 +70,7 @@
       "href": "/blog/como-criar-jogos-com-python-e-kivy",
       "slug": "como-criar-jogos-com-python-e-kivy",
       "author": "Vinícius R",
-      "description": "<p>Que tal desenvolver seu primeiro jogo em Python utilizando o <em>framework</em> Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do <strong>ZERO</strong>!</p>",
+      "description": "<p>Que tal desenvolver seu primeiro jogo em Python utilizando o framework Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do ZERO!</p>",
       "featured_icon": "featured_icon.svg",
       "date": {
          "day": "08",
@@ -102,7 +118,7 @@
       "href": "/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais",
       "slug": "python-e-virtualenv-como-programar-em-ambientes-virtuais",
       "author": "Vinícius R",
-      "description": "<p>Vamos entender o funcionamento do incrível <strong>virtualenv</strong>, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.</p>",
+      "description": "<p>Vamos entender o funcionamento do incrível virtualenv, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.</p>",
       "featured_icon": "featured_icon.svg",
       "date": {
          "day": "05",

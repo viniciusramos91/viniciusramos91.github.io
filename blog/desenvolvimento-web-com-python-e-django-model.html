@@ -15,7 +15,7 @@
 		
 
 		<meta charset="utf-8">
-		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -38,7 +38,7 @@
 		<meta name="description" content="Nesse post, vamos tratar da camada Model do Django. Vamos abordar detalhes dessa camada, mapeamento objeto-relacional, a API de acesso a dados provida pelo Django e modelagem de dados.">
 
 		<!-- Keywords -->
-		<meta name="keywords" content="python,programação,conteúdo,blog,aprendizagem,conhecimento,ensino,"/>
+		<meta name="keywords" content="python,programação,conteúdo,blog,aprendizagem,conhecimento,ensino,">
 
 		
 		<!-- Robots -->
@@ -52,11 +52,11 @@
 		<meta property="og:title" content="Desenvolvimento Web com Python e Django: Model">
 		<meta property="og:url" content="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model">
 		<meta property="og:description" content="Nesse post, vamos tratar da camada Model do Django. Vamos abordar detalhes dessa camada, mapeamento objeto-relacional, a API de acesso a dados provida pelo Django e modelagem de dados.">
-		<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/desenvolvimento-web-com-python-e-django-model/facebook.png" />
-		<meta property="og:image:alt" content="Desenvolvimento Web com Python e Django: Model" />
-		<meta property="og:image:type" content="image/png" />
-		<meta property="og:image:width" content="1200" />
-		<meta property="og:image:height" content="630" />
+		<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/desenvolvimento-web-com-python-e-django-model/facebook.png">
+		<meta property="og:image:alt" content="Desenvolvimento Web com Python e Django: Model">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
 
 		<!-- Twitter cards -->
 		<meta name="twitter:card" content="summary">
@@ -85,10 +85,10 @@
 		</style>
 
 		<!-- Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Raleway:100,200,300,400,500,600,700,800|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic|Space+Mono:400,700|Inconsolata:400,700|Muli:200,300,400,600,700|Quicksand:300,400,500,700|Source+Serif+Pro:400,700|Roboto+Condensed:300,400,700|Roboto:300,400,500,700|Ubuntu:300,400,500,700|Oswald:300,400,500,600" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700%7CMontserrat:400,700%7CDroid+Serif:400,700,400italic,700italic%7CRaleway:100,200,300,400,500,600,700,800%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800%7CMerriweather:400,300,300italic,400italic,700,700italic,900,900italic%7CSpace+Mono:400,700%7CInconsolata:400,700%7CMuli:200,300,400,600,700%7CQuicksand:300,400,500,700%7CSource+Serif+Pro:400,700%7CRoboto+Condensed:300,400,700%7CRoboto:300,400,500,700%7CUbuntu:300,400,500,700%7COswald:300,400,500,600" rel="stylesheet">
 
 		<!-- post.css -->
-		<link rel="stylesheet" href="/assets/css/post.css?1529413410046346000">
+		<link rel="stylesheet" href="/assets/css/post.css?1529525035760778000">
 	</head>
 
 	<body id="post-body">		
@@ -221,7 +221,7 @@
 			
 							
 							<h1 class="blog-post-title font-shadow">
-								Desenvolvimento Web com Python e Django: <em>Model</em>
+								Desenvolvimento Web com Python e Django: Model
 							</h1>			
 						</div>			
 					</div>
@@ -441,7 +441,7 @@ sua instalacão e a criação do famoso <strong><em>Hello World</em></strong> <e
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
   <span class="p">)</span>
 
-  <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">PositiveIntegerField</span><span class="p">(</span>
+  <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">IntegerField</span><span class="p">(</span>
     <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
@@ -516,7 +516,7 @@ Migrations for 'helloworld':
 
 <p>Agora, podemos ver que foi criada uma pasta chamada <code class="highlighter-rouge">migrations</code> dentro de <code class="highlighter-rouge">helloworld</code>.</p>
 
-<p>Dentro dela, você pode ver um arquivo chamado <code class="highlighter-rouge">0001_initial.py</code>: ele contém a <code class="highlighter-rouge">Migration</code> que cria o <em>model</em> <code class="highlighter-rouge">Funcionario</code> no banco de dados (<em>preste atenção na saída do comando <code class="highlighter-rouge">makemigrations</code>: <code class="highlighter-rouge">Create model Funcionario</code></em> <img class="emoji" title=":wink:" alt=":wink:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20">)</p>
+<p>Dentro dela, você pode ver um arquivo chamado <code class="highlighter-rouge">0001_initial.py</code>: ele contém a <code class="highlighter-rouge">Migration</code> que cria o <em>model</em> <code class="highlighter-rouge">Funcionario</code> no banco de dados (<em>preste atenção na saída do comando <code class="highlighter-rouge">makemigrations</code>: <code class="highlighter-rouge">Create model Funcionario</code></em> <img class="emoji" title=":wink:" alt=":wink:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20" align="absmiddle">)</p>
 
 <h3 id="o-comando-migrate">O comando <code class="highlighter-rouge">migrate</code>
 </h3>
@@ -652,11 +652,11 @@ Running migrations:
 
 <p>Para ver os dados de cada tabela, vá para a aba “<strong>Navegar dados</strong>”, escolha nossa tabela <code class="highlighter-rouge">helloworld_funcionario</code> e…</p>
 
-<p><em><strong>Voilá</strong></em>! O que temos? <strong>NADA</strong> <img class="emoji" title=":disappointed:" alt=":disappointed:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f61e.png" height="20" width="20"></p>
+<p><em><strong>Voilá</strong></em>! O que temos? <strong>NADA</strong> <img class="emoji" title=":disappointed:" alt=":disappointed:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f61e.png" height="20" width="20" align="absmiddle"></p>
 
-<p><em>Calma jovem… Ainda não adicionamos nada <img class="emoji" title=":unamused:" alt=":unamused:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f612.png" height="20" width="20"></em></p>
+<p><em>Calma jovem… Ainda não adicionamos nada <img class="emoji" title=":unamused:" alt=":unamused:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f612.png" height="20" width="20" align="absmiddle"></em></p>
 
-<p><em>Já já vamos criar as <strong>Views</strong> e <strong>Templates</strong> para popular esse BD! <img class="emoji" title=":wink:" alt=":wink:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></em></p>
+<p><em>Já já vamos criar as <strong>Views</strong> e <strong>Templates</strong> para popular esse BD! <img class="emoji" title=":wink:" alt=":wink:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20" align="absmiddle"></em></p>
 
 <h2 id="api-de-acesso-a-dados">API de Acesso a Dados</h2>
 
@@ -803,7 +803,7 @@ registro, o <code class="highlighter-rouge">last()</code>, que retorna o último
 
 <p>Com isso galera:</p>
 
-<p><img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2714.png" height="20" width="20"> <strong>Modelo</strong></p>
+<p><img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2714.png" height="20" width="20" align="absmiddle"> <strong>Modelo</strong></p>
 
 <p>Criamos nosso primeiro modelo, nosso banco de dados, vimos como visualizar os dados com o <em>DB Browser for SQLite</em> e como a API de acesso a dados do Django é simples e poderosa!</p>
 
@@ -955,7 +955,7 @@ registro, o <code class="highlighter-rouge">last()</code>, que retorna o último
 				</li>				
 				
 				<li>							
-					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model&amp;related=PythonAcademyBR&amp;text=%22Desenvolvimento%20Web%20com%20Python%20e%20Django:%20_Model_%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model&amp;related=PythonAcademyBR&amp;text=%22Desenvolvimento%20Web%20com%20Python%20e%20Django:%20Model%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
 						<i class="fa fa-fw fa-twitter"></i>
 					</a>
 				</li>
@@ -967,7 +967,7 @@ registro, o <code class="highlighter-rouge">last()</code>, que retorna o último
 				</li>
 
 				<li>
-					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Desenvolvimento%20Web%20com%20Python%20e%20Django:%20_Model_&amp;body=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Desenvolvimento%20Web%20com%20Python%20e%20Django:%20Model&amp;body=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
 						<i class="fa fa-fw fa-envelope"></i>
 					</a>
 				</li>
@@ -1176,7 +1176,7 @@ registro, o <code class="highlighter-rouge">last()</code>, que retorna o último
 							var post = posts[randomIndex];
 
 							// Verify if related post is the same as the shown
-							if (post.title != "Desenvolvimento Web com Python e Django: _Model_") {
+							if (post.title != "Desenvolvimento Web com Python e Django: Model") {
 								var postHTML = 
 									"<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>" +
 										"<a href='" + post.href + "' class='card aos-init aos-animate' data-aos='fade-up'>" +
@@ -1249,4 +1249,3 @@ registro, o <code class="highlighter-rouge">last()</code>, que retorna o último
 		
 	</body>
 </html>
-
