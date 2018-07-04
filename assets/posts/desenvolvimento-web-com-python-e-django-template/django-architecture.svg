@@ -15,11 +15,11 @@
    viewBox="0 0 2414.5639 3988.2685"
    id="svg7391"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="django-architecture.svg"
-   inkscape:export-filename="C:\Users\Vinicius\Development\jekyll\pythonacademy.github.io\assets\posts\desenvolvimento-web-com-python-e-django-template\django-architecture.png"
-   inkscape:export-xdpi="22.27"
-   inkscape:export-ydpi="22.27">
+   inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\pythonacademy.github.io\assets\posts\desenvolvimento-web-com-python-e-django-view\django-architecture.png"
+   inkscape:export-xdpi="55.91"
+   inkscape:export-ydpi="55.91">
   <defs
      id="defs7393">
     <linearGradient
@@ -387,19 +387,6 @@
          id="rect4736"
          style="opacity:1;fill:#ffffff;fill-opacity:0.22028988;stroke:none;stroke-width:14.02018547;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:14.02018601, 28.04037202;stroke-dashoffset:0;stroke-opacity:1" />
     </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath2234">
-      <rect
-         inkscape:export-ydpi="55.91"
-         inkscape:export-xdpi="55.91"
-         y="-1588.7667"
-         x="-3685.1646"
-         height="651.39984"
-         width="2386.0112"
-         id="rect2236"
-         style="opacity:1;fill:#ffffff;fill-opacity:0.22028988;stroke:none;stroke-width:10.53261566;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:10.53261581, 21.06523161;stroke-dashoffset:0;stroke-opacity:1" />
-    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -408,9 +395,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.0968908"
-     inkscape:cx="-352.6521"
-     inkscape:cy="2170.6641"
+     inkscape:zoom="0.1937816"
+     inkscape:cx="1056.4874"
+     inkscape:cy="1725.6658"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -418,7 +405,7 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="2560"
+     inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -441,7 +428,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -452,26 +439,26 @@
      transform="translate(3699.4338,2050.6252)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="2361.3389"
        y="-1827.8401"
-       id="text7817"><tspan
+       id="text7817"
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7819"
          x="2361.3389"
-         y="-1827.8401"
-         style="font-size:40px;line-height:1.25"> </tspan></text>
+         y="-1827.8401" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:20.13186836px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-521.10211"
        y="-3437.7344"
-       id="text7817-1"><tspan
+       id="text7817-1"
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7819-1"
          x="-521.10211"
-         y="-3437.7344"
-         style="font-size:20.13186836px;line-height:1.25"> </tspan></text>
+         y="-3437.7344" /></text>
     <g
        style="display:none"
        id="background_dark-4"
@@ -713,23 +700,19 @@
        transform="matrix(0.35916307,0,0,0.35916307,1765.8031,-3433.62)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-1648.256"
        y="1700.1189"
        id="text5687"
-       inkscape:export-filename="C:\Users\Vinicius\Development\jekyll\pythonacademy.github.io\assets\posts\desenvolvimento-web-com-python-e-django-template\django-architecture.png"
-       inkscape:export-xdpi="55.91"
-       inkscape:export-ydpi="55.91"><tspan
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5689"
-         x="-1645.6193"
-         y="1700.1189"
-         style="font-size:15px;line-height:1.25"> </tspan></text>
+         x="-1648.256"
+         y="1700.1189" /></text>
     <g
        id="g6089"
        inkscape:export-xdpi="55.91"
-       inkscape:export-ydpi="55.91"
-       inkscape:export-filename="C:\Users\Vinicius\Development\jekyll\pythonacademy.github.io\assets\posts\desenvolvimento-web-com-python-e-django-template\django-architecture.png">
+       inkscape:export-ydpi="55.91">
       <rect
          style="opacity:1;fill:url(#radialGradient4422);fill-opacity:1;stroke:none;stroke-width:21.39999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4420"
@@ -799,10 +782,11 @@
           </g>
         </g>
         <text
+           sodipodi:linespacing="125%"
            id="text4446"
            y="178.13651"
            x="-645.6673"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:3.8870492px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.22105598px;line-height:125%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:3.8870492px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.22105598px;line-height:125%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:3.8870492px;writing-mode:lr-tb;text-anchor:middle;fill:#333333"
              y="178.13651"
@@ -932,15 +916,15 @@
              ry="4.6427526" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;letter-spacing:7.26849461px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:74.02522278px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;letter-spacing:7.26849461px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              x="1237.2517"
              y="-2269.9695"
-             id="text4497"><tspan
+             id="text4497"
+             sodipodi:linespacing="125%"><tspan
                sodipodi:role="line"
                id="tspan4499"
                x="1240.886"
-               y="-2269.9695"
-               style="font-size:74.02522278px;line-height:1.25">Website</tspan></text>
+               y="-2269.9695">Website</tspan></text>
           <path
              style="fill:none;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              d="m 1175.7143,-2416.9235 0,16.7857"
@@ -1077,10 +1061,11 @@
          inkscape:export-ydpi="55.91"
          inkscape:export-xdpi="55.91"
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:86.22138214px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-2492.3833"
          y="1460.7494"
-         id="text5065"><tspan
+         id="text5065"
+         sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
            id="tspan5067"
            x="-2492.3833"
@@ -1113,10 +1098,11 @@
            id="g5354"
            transform="translate(-2.1811018,-0.71433715)">
           <text
+             sodipodi:linespacing="125%"
              id="text5110"
              y="-350.87405"
              x="-4482.4849"
-             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#353535;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-weight:normal;font-size:77.20366669px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#353535;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                id="tspan5162"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:77.20366669px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#353535;fill-opacity:1"
@@ -1124,10 +1110,11 @@
                x="-4482.4849"
                sodipodi:role="line">Modelos</tspan></text>
           <text
+             sodipodi:linespacing="125%"
              id="text5120"
              y="-173.31062"
              x="-4481.127"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:92.90330505px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:92.90330505px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#333333;stroke:none;stroke-width:1.2291317px"
                y="-173.31062"
@@ -1196,10 +1183,11 @@
           </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-weight:normal;font-size:62.5px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              x="-1988.3242"
              y="-304.39474"
              id="text4617"
+             sodipodi:linespacing="125%"
              inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
              inkscape:export-xdpi="59.639999"
              inkscape:export-ydpi="59.639999"><tspan
@@ -1235,10 +1223,11 @@
                sodipodi:nodetypes="cccc" />
           </g>
           <text
+             sodipodi:linespacing="125%"
              id="text4627"
              y="-302.00674"
              x="-1799.8521"
-             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-weight:normal;font-size:68.75px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"
              inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
              inkscape:export-xdpi="59.639999"
@@ -1275,10 +1264,11 @@
           </g>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-weight:normal;font-size:120.13802338px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              x="-1618.765"
              y="-302.00674"
              id="text4637"
+             sodipodi:linespacing="125%"
              inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
              inkscape:export-xdpi="59.639999"
              inkscape:export-ydpi="59.639999"><tspan
@@ -1292,10 +1282,11 @@
            inkscape:export-ydpi="59.639999"
            inkscape:export-xdpi="59.639999"
            inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
+           sodipodi:linespacing="125%"
            id="text4641"
            y="-388.42709"
            x="-1707.1675"
-           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:#cccccc;stroke-width:0.94537187px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-weight:normal;font-size:67.00637054px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:#cccccc;stroke-width:0.94537187px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:67.00637054px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#333333;stroke:none;stroke-width:0.80188px"
              y="-388.42709"
@@ -1307,10 +1298,11 @@
            inkscape:export-xdpi="59.639999"
            inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.80188px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-weight:normal;font-size:67.00637054px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.80188px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="-1707.1675"
            y="-138.88354"
-           id="text4607"><tspan
+           id="text4607"
+           sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
              id="tspan4609"
              x="-1707.1675"
@@ -1447,10 +1439,11 @@
            id="g5140">
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#353535;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-weight:normal;font-size:77.20366669px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#353535;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              x="-4484.6665"
              y="-448.15976"
-             id="text5142"><tspan
+             id="text5142"
+             sodipodi:linespacing="125%"><tspan
                sodipodi:role="line"
                id="tspan5144"
                x="-4477.127"
@@ -1463,10 +1456,11 @@
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:77.20366669px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#353535;fill-opacity:1">de URLs</tspan></text>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:92.90330505px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              x="-4483.3086"
              y="-189.16768"
-             id="text5148"><tspan
+             id="text5148"
+             sodipodi:linespacing="125%"><tspan
                sodipodi:role="line"
                id="tspan5150"
                x="-4483.3086"
@@ -1503,10 +1497,11 @@
            ry="0"
            rx="0" />
         <text
+           sodipodi:linespacing="125%"
            id="text5169"
            y="-432.3027"
            x="-4482.4849"
-           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#353535;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-weight:normal;font-size:77.20366669px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#353535;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:77.20366669px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#353535;fill-opacity:1"
              id="tspan5171"
@@ -1519,10 +1514,11 @@
              x="-4482.4849"
              sodipodi:role="line">Middlewares</tspan></text>
         <text
+           sodipodi:linespacing="125%"
            id="text5175"
            y="-173.31064"
            x="-4481.127"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:92.90330505px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:92.90330505px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#333333;stroke:none;stroke-width:1.2291317px"
              y="-173.31064"
@@ -1582,12 +1578,13 @@
       <text
          inkscape:export-ydpi="55.91"
          inkscape:export-xdpi="55.91"
+         sodipodi:linespacing="125%"
          id="text5691"
          y="1705.6212"
          x="-1559.9286"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:-17.45640755px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:53.43798447px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:-17.45640755px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:53.43798447px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:0px;fill:#4d4d4d"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:0px;fill:#4d4d4d"
            y="1705.6212"
            x="-1559.9286"
            id="tspan5693"
@@ -1596,15 +1593,16 @@
          inkscape:export-ydpi="55.91"
          inkscape:export-xdpi="55.91"
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:-17.45640755px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:53.43798447px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:-17.45640755px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-1573.0271"
          y="1808.9229"
-         id="text5699"><tspan
+         id="text5699"
+         sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
            id="tspan5701"
            x="-1573.0271"
            y="1808.9229"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:53.43798447px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:0px;fill:#4d4d4d">Fluxo da Resposta</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:0px;fill:#4d4d4d">Fluxo da Resposta</tspan></text>
       <path
          inkscape:export-ydpi="55.91"
          inkscape:export-xdpi="55.91"
@@ -1636,10 +1634,11 @@
          inkscape:export-ydpi="55.91" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:5.81955528px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:39.25725937px;line-height:125%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:5.81955528px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-2499.6643"
          y="-723.88647"
          id="text5494"
+         sodipodi:linespacing="125%"
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91"><tspan
@@ -1702,10 +1701,11 @@
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91" />
       <text
+         sodipodi:linespacing="125%"
          id="text4523"
          y="-1094.8286"
          x="-3187.9895"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:5.42083597px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:36.56759644px;line-height:125%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:5.42083597px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          inkscape:export-xdpi="55.91"
@@ -1761,12 +1761,13 @@
       <text
          inkscape:export-ydpi="55.91"
          inkscape:export-xdpi="55.91"
+         sodipodi:linespacing="125%"
          id="text6334"
          y="-1438.0892"
          x="-1558.2438"
-         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;font-size:79.42089081px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:79.42089081px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';fill:#4d4d4d"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';fill:#4d4d4d"
            y="-1438.0892"
            x="-1558.2438"
            id="tspan6336"
@@ -1774,25 +1775,26 @@
       <text
          inkscape:export-ydpi="55.91"
          inkscape:export-xdpi="55.91"
+         sodipodi:linespacing="125%"
          id="text6358"
          y="-736.81299"
          x="-1559.592"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:97.8967514px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
          xml:space="preserve"><tspan
            y="-736.81299"
            x="-1559.592"
            id="tspan6360"
-           sodipodi:role="line"
-           style="font-size:97.8967514px;line-height:1.25">View</tspan></text>
+           sodipodi:role="line">View</tspan></text>
       <text
          inkscape:export-ydpi="55.91"
          inkscape:export-xdpi="55.91"
+         sodipodi:linespacing="125%"
          id="text6362"
          y="420.15671"
          x="-1559.8547"
-         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;font-size:97.77211761px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:97.77211761px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';fill:#4d4d4d"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';fill:#4d4d4d;"
            y="420.15671"
            x="-1559.8547"
            id="tspan6364"
@@ -1806,14 +1808,12 @@
        x="-3699.4338"
        y="-2050.6252"
        inkscape:export-xdpi="55.91"
-       inkscape:export-ydpi="55.91"
-       inkscape:export-filename="C:\Users\Vinicius\Development\jekyll\pythonacademy.github.io\assets\posts\desenvolvimento-web-com-python-e-django-template\django-architecture.png" />
+       inkscape:export-ydpi="55.91" />
     <g
-       inkscape:export-ydpi="55.91"
+       id="g6239"
        inkscape:export-xdpi="55.91"
-       id="g2232"
-       clip-path="url(#clipPath2234)"
-       inkscape:export-filename="C:\Users\Vinicius\Development\jekyll\pythonacademy.github.io\assets\posts\desenvolvimento-web-com-python-e-django-template\django-architecture.png">
+       inkscape:export-ydpi="55.91"
+       clip-path="url(#clipPath4734)">
       <rect
          inkscape:export-ydpi="55.91"
          inkscape:export-xdpi="55.91"
@@ -1822,14 +1822,14 @@
          x="-3699.4338"
          height="3988.2686"
          width="2414.564"
-         id="rect1936"
+         id="rect6241"
          style="opacity:1;fill:url(#radialGradient4422);fill-opacity:1;stroke:none;stroke-width:21.39999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          inkscape:export-ydpi="55.91"
          inkscape:export-xdpi="55.91"
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          style="opacity:1;fill:#ffffff;fill-opacity:0.18260869;stroke:#4d4d4d;stroke-width:7.4570775;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect1938"
+         id="rect6243"
          width="696.76337"
          height="322.05048"
          x="-2840.5334"
@@ -1842,54 +1842,55 @@
          inkscape:export-xdpi="55.91"
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          transform="matrix(1.4914155,0,0,1.4914155,-1528.5349,-2167.449)"
-         id="g1960">
+         id="g6245">
         <g
            style="fill:#333333"
-           id="g1954"
+           id="g6247"
            transform="matrix(0.79326006,0,0,0.79326006,-847.38606,168.1858)">
           <g
              style="fill:#333333"
-             id="g1952">
+             id="g6249">
             <path
                style="fill:#333333"
                inkscape:connector-curvature="0"
                d="m 86.945,33.919 23.872,0 0,110.496 c -12.246,2.325 -21.237,3.255 -31.002,3.255 -29.142,0 -44.333,-13.174 -44.333,-38.443 0,-24.336 16.122,-40.147 41.078,-40.147 3.875,0 6.82,0.311 10.386,1.239 l 0,-36.4 z m 0,55.62 C 84.155,88.61 81.83,88.3 78.885,88.3 c -12.091,0 -19.067,7.441 -19.067,20.46 0,12.713 6.666,19.688 18.912,19.688 2.634,0 4.805,-0.155 8.215,-0.618 l 0,-38.291 z"
-               id="path1940" />
+               id="path6251" />
             <path
                style="fill:#333333"
                inkscape:connector-curvature="0"
                d="m 148.793,70.783 0,55.341 c 0,19.065 -1.395,28.21 -5.58,36.117 -3.876,7.596 -8.992,12.399 -19.532,17.67 L 101.514,169.37 c 10.541,-4.96 15.656,-9.297 18.911,-15.966 3.411,-6.819 4.497,-14.727 4.497,-35.498 l 0,-47.123 23.871,0 z m -23.871,-36.737 23.871,0 0,24.493 -23.871,0 0,-24.493 z"
-               id="path1942" />
+               id="path6253" />
             <path
                style="fill:#333333"
                inkscape:connector-curvature="0"
                d="m 163.212,76.209 c 10.542,-4.961 20.617,-7.13 31.623,-7.13 12.246,0 20.306,3.255 23.872,9.611 2.014,3.564 2.634,8.214 2.634,18.137 l 0,48.517 c -10.697,1.552 -24.182,2.636 -34.102,2.636 -19.996,0 -28.988,-6.977 -28.988,-22.476 0,-16.744 11.936,-24.493 41.234,-26.975 l 0,-5.271 c 0,-4.339 -2.17,-5.888 -8.216,-5.888 -8.835,0 -18.756,2.479 -28.058,7.285 l 0,-18.446 z m 37.358,37.978 c -15.812,1.552 -20.927,4.031 -20.927,10.231 0,4.65 2.946,6.821 9.456,6.821 3.566,0 6.82,-0.311 11.471,-1.084 l 0,-15.968 z"
-               id="path1944" />
+               id="path6255" />
             <path
                style="fill:#333333"
                inkscape:connector-curvature="0"
                d="m 232.968,74.505 c 14.105,-3.722 25.731,-5.426 37.512,-5.426 12.246,0 21.082,2.788 26.354,8.216 4.96,5.113 6.509,10.693 6.509,22.632 l 0,46.813 -23.871,0 0,-45.884 c 0,-9.145 -3.1,-12.557 -11.625,-12.557 -3.255,0 -6.2,0.311 -11.007,1.706 l 0,56.734 -23.871,0 0,-72.234 z"
-               id="path1946" />
+               id="path6257" />
             <path
                style="fill:#333333"
                inkscape:connector-curvature="0"
                d="m 312.623,159.761 c 8.372,4.339 16.742,6.354 25.577,6.354 15.655,0 22.321,-6.354 22.321,-21.546 0,-0.154 0,-0.31 0,-0.467 -4.65,2.326 -9.301,3.257 -15.5,3.257 -20.927,0 -34.26,-13.797 -34.26,-35.652 0,-27.128 19.688,-42.473 54.564,-42.473 10.232,0 19.688,1.084 31.159,3.407 l -8.174,17.222 c -6.356,-1.241 -0.509,-0.167 -5.312,-0.632 l 0,2.48 0.309,10.074 0.154,13.022 c 0.155,3.253 0.155,6.51 0.311,9.764 0,2.945 0,4.342 0,6.512 0,20.462 -1.705,30.073 -6.82,37.977 -7.441,11.627 -20.307,17.362 -38.598,17.362 -9.301,0 -17.36,-1.396 -25.732,-4.651 l 0,-22.01 z m 47.434,-71.306 c -0.31,0 -0.619,0 -0.774,0 l -1.706,0 c -4.649,-0.155 -10.074,1.084 -13.796,3.409 -5.734,3.257 -8.681,9.146 -8.681,17.518 0,11.937 5.892,18.756 16.432,18.756 3.255,0 5.891,-0.62 8.99,-1.55 l 0,-1.705 0,-6.51 c 0,-2.79 -0.154,-5.892 -0.154,-9.146 l -0.154,-11.006 -0.156,-7.905 0,-1.861 z"
-               id="path1948" />
+               id="path6259" />
             <path
                style="fill:#333333"
                inkscape:connector-curvature="0"
                d="m 433.543,68.77 c 23.871,0 38.443,15.037 38.443,39.371 0,24.957 -15.19,40.613 -39.373,40.613 -23.873,0 -38.599,-15.036 -38.599,-39.216 10e-4,-25.114 15.193,-40.768 39.529,-40.768 z m -0.467,60.763 c 9.147,0 14.573,-7.596 14.573,-20.773 0,-13.019 -5.271,-20.771 -14.415,-20.771 -9.457,0 -14.884,7.598 -14.884,20.771 10e-4,13.178 5.427,20.773 14.726,20.773 z"
-               id="path1950" />
+               id="path6261" />
           </g>
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:3.8870492px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.22105598px;line-height:125%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:3.8870492px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="-645.6673"
            y="178.13651"
-           id="text1958"><tspan
+           id="text6263"
+           sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
-             id="tspan1956"
+             id="tspan6265"
              x="-643.72375"
              y="178.13651"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.22105598px;line-height:125%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:3.8870492px;writing-mode:lr-tb;text-anchor:middle;fill:#333333">ARQUITETURA DO</tspan></text>
@@ -1901,13 +1902,13 @@
          x="-2825.731"
          height="295.41211"
          width="667.15796"
-         id="rect1962"
+         id="rect6267"
          style="opacity:1;fill:#ffffff;fill-opacity:0.18260869;stroke:#4d4d4d;stroke-width:2.99122524;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91" />
       <g
-         id="g2000"
+         id="g6269"
          transform="translate(0,4.594614)"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91">
@@ -1916,7 +1917,7 @@
            inkscape:export-xdpi="24.592306"
            inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
            style="opacity:1;fill:#ffffff;fill-opacity:0.18260869;stroke:#4d4d4d;stroke-width:7.73720407;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect1964"
+           id="rect6271"
            width="2298.2766"
            height="595.10541"
            x="-3641.6182"
@@ -1930,13 +1931,13 @@
            x="-3619.3433"
            height="548.80206"
            width="2253.7268"
-           id="rect1966"
+           id="rect6273"
            style="opacity:1;fill:#ffffff;fill-opacity:0.18260869;stroke:#4d4d4d;stroke-width:2.35527611;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
            inkscape:export-xdpi="24.592306"
            inkscape:export-ydpi="24.592306" />
         <g
-           id="g1998"
+           id="g6275"
            transform="matrix(0.79829303,0,0,0.79829303,-3479.4479,562.9621)"
            inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
            inkscape:export-xdpi="59.639999"
@@ -1946,21 +1947,21 @@
              inkscape:export-xdpi="128.25133"
              sodipodi:nodetypes="ccccc"
              inkscape:connector-curvature="0"
-             id="path1968"
+             id="path6277"
              d="m 888.86283,-2127.0801 694.97037,0 -12.2323,7.0622 -673.46255,0 z"
              style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.99259615;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
           <path
              inkscape:export-ydpi="128.25133"
              inkscape:export-xdpi="128.25133"
              inkscape:connector-curvature="0"
-             id="path1970"
+             id="path6279"
              d="m 981.82777,-2464.2059 c -9.95255,0 -17.96465,6.4969 -17.96465,14.5678 l 0,161.1678 -0.002,0 0,140.4256 544.97378,0 0,-140.4256 0,0 0,-161.1678 c 0,-8.0709 -8.0122,-14.5678 -17.9647,-14.5678 l -509.03288,0 z"
              style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#4d4d4d;stroke-width:4.84283733;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.79999924;stroke-opacity:1" />
           <rect
              inkscape:export-ydpi="128.25133"
              inkscape:export-xdpi="128.25133"
              style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#4d4d4d;stroke-width:3.26891518;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="rect1972"
+             id="rect6281"
              width="510.81485"
              height="299.4762"
              x="980.94061"
@@ -1971,7 +1972,7 @@
              inkscape:export-xdpi="128.25133"
              style="fill:#cccccc;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:2.81727219;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              d="m 1584.9216,-2127.0187 -11.8252,6.241 -675.6852,0 -9.63764,-6.22"
-             id="path1974"
+             id="path6283"
              inkscape:connector-curvature="0" />
           <rect
              inkscape:export-ydpi="128.25133"
@@ -1980,7 +1981,7 @@
              x="888.86285"
              height="19.764084"
              width="694.97034"
-             id="rect1976"
+             id="rect6285"
              style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#4d4d4d;stroke-width:5.01267147;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
           <rect
              rx="0"
@@ -1989,7 +1990,7 @@
              x="1192.1233"
              height="7.6205564"
              width="88.449554"
-             id="rect1978"
+             id="rect6287"
              style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.54495215;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.79999924;stroke-opacity:1" />
           <rect
              ry="0"
@@ -1998,11 +1999,11 @@
              x="997.44696"
              height="255.56859"
              width="477.80215"
-             id="rect1980"
+             id="rect6289"
              style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
           <path
              inkscape:connector-curvature="0"
-             id="path1982"
+             id="path6291"
              d="m 999.46724,-2393.3951 473.76156,0"
              style="fill:none;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
           <rect
@@ -2012,37 +2013,37 @@
              x="1155.5358"
              height="17.67767"
              width="161.6244"
-             id="rect1984"
+             id="rect6293"
              style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
           <text
-             id="text1988"
+             sodipodi:linespacing="125%"
+             id="text6295"
              y="-2269.9695"
              x="1237.2517"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;letter-spacing:7.26849461px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:74.02522278px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;letter-spacing:7.26849461px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
-               style="font-size:74.02522278px;line-height:1.25"
                y="-2269.9695"
                x="1240.886"
-               id="tspan1986"
+               id="tspan6297"
                sodipodi:role="line">Website</tspan></text>
           <path
              inkscape:connector-curvature="0"
-             id="path1990"
+             id="path6299"
              d="m 1175.7143,-2416.9235 0,16.7857"
              style="fill:none;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
           <g
              transform="translate(-0.82074894,0)"
-             id="g1996">
+             id="g6301">
             <circle
                style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.24315071;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="circle1992"
+               id="circle6303"
                cx="1167.8572"
                cy="-2409.6021"
                r="3.6998534" />
             <path
                style="fill:none;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                d="m 1164.8475,-2406.8727 -3.3777,3.3777"
-               id="path1994"
+               id="path6305"
                inkscape:connector-curvature="0" />
           </g>
         </g>
@@ -2054,7 +2055,7 @@
          x="-3639.9126"
          height="1237.4083"
          width="2294.8652"
-         id="rect2002"
+         id="rect6307"
          style="opacity:1;fill:#ffffff;fill-opacity:0.18260869;stroke:#4d4d4d;stroke-width:11.14861774;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          inkscape:export-xdpi="55.91"
@@ -2064,7 +2065,7 @@
          inkscape:export-xdpi="55.91"
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          style="opacity:1;fill:#ffffff;fill-opacity:0.18260869;stroke:#4d4d4d;stroke-width:3.46189332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect2004"
+         id="rect6309"
          width="2250.3293"
          height="1187.4482"
          x="-3617.6453"
@@ -2077,9 +2078,9 @@
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          style="stroke:#4d4d4d;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none"
          transform="matrix(0.60845758,0,0,0.60845758,-4167.4291,880.73893)"
-         id="g2022">
+         id="g6311">
         <path
-           id="path2006"
+           id="path6313"
            d="m 2582.2198,692.78458 0,46.05921 a 171.09834,46.059427 0 0 0 171.0979,46.05922 171.09834,46.059427 0 0 0 171.0988,-46.05922 l 0,-46.05921 -40.2911,16.36889 0.032,0.0827 a 171.09834,46.059427 0 0 0 -130.8402,-16.45204 171.09834,46.059427 0 0 0 -134.6032,17.71148 l 2.3808,-6.25134 -38.8755,-11.46014 z"
            style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#4d4d4d;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            inkscape:connector-curvature="0" />
@@ -2088,22 +2089,22 @@
            rx="171.09834"
            cy="692.78442"
            cx="2753.3179"
-           id="ellipse2008"
+           id="ellipse6315"
            style="opacity:1;fill:#ececec;fill-opacity:1;stroke:#4d4d4d;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         <path
            inkscape:connector-curvature="0"
            style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#4d4d4d;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 2582.2198,617.18021 0,46.05921 a 171.09834,46.059427 0 0 0 171.0979,46.05921 171.09834,46.059427 0 0 0 171.0988,-46.05921 l 0,-46.05921 -40.2911,16.36889 0.032,0.0827 a 171.09834,46.059427 0 0 0 -130.8402,-16.45205 171.09834,46.059427 0 0 0 -134.6032,17.71149 l 2.3808,-6.25134 -38.8755,-11.46015 z"
-           id="path2010" />
+           id="path6317" />
         <ellipse
            style="opacity:1;fill:#ececec;fill-opacity:1;stroke:#4d4d4d;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse2012"
+           id="ellipse6319"
            cx="2753.3179"
            cy="617.17999"
            rx="171.09834"
            ry="46.059425" />
         <path
-           id="path2014"
+           id="path6321"
            d="m 2582.2198,541.57583 0,46.05922 a 171.09834,46.059427 0 0 0 171.0979,46.05921 171.09834,46.059427 0 0 0 171.0988,-46.05921 l 0,-46.05922 -40.2911,16.36879 0.032,0.0837 a 171.09834,46.059427 0 0 0 -130.8402,-16.45245 171.09834,46.059427 0 0 0 -134.6032,17.71149 l 2.3808,-6.25134 -38.8755,-11.46015 z"
            style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#4d4d4d;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            inkscape:connector-curvature="0" />
@@ -2112,16 +2113,16 @@
            rx="171.09834"
            cy="541.5755"
            cx="2753.3179"
-           id="ellipse2016"
+           id="ellipse6323"
            style="opacity:1;fill:#ececec;fill-opacity:1;stroke:#4d4d4d;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         <path
            inkscape:connector-curvature="0"
            style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#4d4d4d;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 2582.2198,465.97127 0,46.05921 a 171.09834,46.059427 0 0 0 171.0979,46.05922 171.09834,46.059427 0 0 0 171.0988,-46.05922 l 0,-46.05921 -40.2911,16.36889 0.032,0.0837 A 171.09834,46.059427 0 0 0 2753.3172,465.97181 171.09834,46.059427 0 0 0 2618.714,483.6833 l 2.3808,-6.25134 -38.8755,-11.46015 z"
-           id="path2018" />
+           id="path6325" />
         <ellipse
            style="opacity:1;fill:#ececec;fill-opacity:1;stroke:#4d4d4d;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse2020"
+           id="ellipse6327"
            cx="2753.3179"
            cy="465.97092"
            rx="171.09834"
@@ -2130,14 +2131,14 @@
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffdd3b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:24.4984417;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m -2581.543,868.35668 0,183.01762 24.4981,0 0,-183.01762 -24.4981,0 z"
-         id="path2024"
+         id="path6329"
          inkscape:connector-curvature="0"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91" />
       <path
          sodipodi:nodetypes="cccc"
          inkscape:connector-curvature="0"
-         id="path2026"
+         id="path6331"
          d="m -2612.0172,1002.3746 85.445,0 -42.7225,73.9976 -42.7225,-73.9976"
          style="fill:#ffdd3b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          inkscape:export-xdpi="55.91"
@@ -2145,33 +2146,34 @@
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#306998;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:24.4984417;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m -2427.2578,893.35668 0,183.01562 24.498,0 0,-183.01562 -24.498,0 z"
-         id="path2028"
+         id="path6333"
          inkscape:connector-curvature="0"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91" />
       <path
          style="fill:#306998;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m -2372.2865,942.35496 -85.4449,0 42.7224,-73.9976 42.7225,73.9976"
-         id="path2030"
+         id="path6335"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccc"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91" />
       <text
-         id="text2034"
+         sodipodi:linespacing="125%"
+         id="text6337"
          y="1460.7494"
          x="-2492.3833"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:86.22138214px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91"><tspan
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:86.22138214px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#333333;stroke:none;stroke-width:1.2291317px"
            y="1460.7494"
            x="-2492.3833"
-           id="tspan2032"
+           id="tspan6339"
            sodipodi:role="line">Banco de Dados</tspan></text>
       <g
-         id="g2052"
+         id="g6341"
          transform="translate(1990.1582,921.83749)"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91">
@@ -2182,11 +2184,11 @@
            x="-4687.373"
            height="374.15652"
            width="410.12595"
-           id="rect2036"
+           id="rect6343"
            style="opacity:1;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:6.09609652;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <rect
            style="opacity:1;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.46340704;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="rect2038"
+           id="rect6345"
            width="390.49039"
            height="354.71091"
            x="-4677.5552"
@@ -2195,33 +2197,35 @@
            rx="0" />
         <g
            transform="translate(-2.1811018,-0.71433715)"
-           id="g2050">
+           id="g6347">
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#353535;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-weight:normal;font-size:77.20366669px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#353535;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              x="-4482.4849"
              y="-350.87405"
-             id="text2042"><tspan
+             id="text6349"
+             sodipodi:linespacing="125%"><tspan
                sodipodi:role="line"
                x="-4482.4849"
                y="-350.87405"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:77.20366669px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#353535;fill-opacity:1"
-               id="tspan2040">Modelos</tspan></text>
+               id="tspan6351">Modelos</tspan></text>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:92.90330505px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              x="-4481.127"
              y="-173.31062"
-             id="text2046"><tspan
+             id="text6353"
+             sodipodi:linespacing="125%"><tspan
                sodipodi:role="line"
-               id="tspan2044"
+               id="tspan6355"
                x="-4481.127"
                y="-173.31062"
                style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:92.90330505px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#333333;stroke:none;stroke-width:1.2291317px">models.py</tspan></text>
           <path
              style="fill:none;fill-rule:evenodd;stroke:#999999;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              d="m -4626.5292,-297.47575 280,0"
-             id="path2048"
+             id="path6357"
              inkscape:connector-curvature="0" />
         </g>
       </g>
@@ -2230,7 +2234,7 @@
          inkscape:export-xdpi="55.91"
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          style="opacity:1;fill:#ffffff;fill-opacity:0.18260869;stroke:#4d4d4d;stroke-width:10.32566833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect2054"
+         id="rect6359"
          width="2295.6882"
          height="1061.0884"
          x="-3640.324"
@@ -2244,25 +2248,25 @@
          x="-3618.0532"
          height="1014.4745"
          width="2251.1455"
-         id="rect2056"
+         id="rect6361"
          style="opacity:1;fill:#ffffff;fill-opacity:0.18260869;stroke:#4d4d4d;stroke-width:3.20041037;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91" />
       <g
-         id="g2116"
+         id="g6363"
          transform="translate(-52,45.118809)"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91">
         <g
            transform="matrix(1.1789443,0,0,1.1789443,480.61306,-162.5626)"
-           id="g2068">
+           id="g6365">
           <g
-             id="g2062">
+             id="g6367">
             <path
                style="fill:#ffffff;fill-rule:evenodd;stroke:#333333;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                d="m -1954.9251,-400.46495 22.0217,23.7878 0,120.6083 -108.9496,0 0,-144.3961 86.9279,0"
-               id="path2058"
+               id="path6369"
                inkscape:connector-curvature="0"
                sodipodi:nodetypes="cccccc"
                inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
@@ -2271,7 +2275,7 @@
             <path
                style="fill:#000000;fill-opacity:0.39215686;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                d="m -1954.9251,-376.67715 22.0217,3.0397 0,-3.0397 z"
-               id="path2060"
+               id="path6371"
                inkscape:connector-curvature="0"
                sodipodi:nodetypes="cccc"
                inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
@@ -2282,27 +2286,28 @@
              inkscape:export-ydpi="59.639999"
              inkscape:export-xdpi="59.639999"
              inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
-             id="text2066"
+             sodipodi:linespacing="125%"
+             id="text6373"
              y="-304.39474"
              x="-1988.3242"
-             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-weight:normal;font-size:62.5px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:62.5px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#333333;fill-opacity:1"
                y="-304.39474"
                x="-1988.3242"
-               id="tspan2064"
+               id="tspan6375"
                sodipodi:role="line">HTML</tspan></text>
         </g>
         <g
            transform="matrix(1.1789443,0,0,1.1789443,418.70282,-162.5626)"
-           id="g2080">
+           id="g6377">
           <g
-             id="g2074"
+             id="g6379"
              transform="translate(3.5134042,0)">
             <path
                sodipodi:nodetypes="cccccc"
                inkscape:connector-curvature="0"
-               id="path2070"
+               id="path6381"
                d="m -1770.9124,-400.46495 22.0217,23.7878 0,120.6083 -108.9496,0 0,-144.3961 86.9279,0"
                style="fill:#ffffff;fill-rule:evenodd;stroke:#333333;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
@@ -2311,7 +2316,7 @@
             <path
                sodipodi:nodetypes="cccc"
                inkscape:connector-curvature="0"
-               id="path2072"
+               id="path6383"
                d="m -1770.9124,-376.67715 22.0217,3.0397 0,-3.0397 z"
                style="fill:#000000;fill-opacity:0.39215686;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
@@ -2323,25 +2328,26 @@
              inkscape:export-xdpi="59.639999"
              inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-weight:normal;font-size:68.75px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              x="-1799.8521"
              y="-302.00674"
-             id="text2078"><tspan
+             id="text6385"
+             sodipodi:linespacing="125%"><tspan
                sodipodi:role="line"
-               id="tspan2076"
+               id="tspan6387"
                x="-1799.8521"
                y="-302.00674"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:68.75px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#333333;fill-opacity:1">CSS</tspan></text>
         </g>
         <g
            transform="matrix(1.1789443,0,0,1.1789443,365.07644,-162.5626)"
-           id="g2092">
+           id="g6389">
           <g
-             id="g2086">
+             id="g6391">
             <path
                style="fill:#ffffff;fill-rule:evenodd;stroke:#333333;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                d="m -1586.8994,-400.46495 22.0217,23.7878 0,120.6083 -108.9496,0 0,-144.3961 86.9279,0"
-               id="path2082"
+               id="path6393"
                inkscape:connector-curvature="0"
                sodipodi:nodetypes="cccccc"
                inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
@@ -2350,7 +2356,7 @@
             <path
                style="fill:#000000;fill-opacity:0.39215686;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                d="m -1586.8994,-376.67715 22.0217,3.0397 0,-3.0397 z"
-               id="path2084"
+               id="path6395"
                inkscape:connector-curvature="0"
                sodipodi:nodetypes="cccc"
                inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
@@ -2361,36 +2367,39 @@
              inkscape:export-ydpi="59.639999"
              inkscape:export-xdpi="59.639999"
              inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
-             id="text2090"
+             sodipodi:linespacing="125%"
+             id="text6397"
              y="-302.00674"
              x="-1618.765"
-             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-weight:normal;font-size:120.13802338px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:68.75px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#333333;fill-opacity:1"
                y="-302.00674"
                x="-1618.765"
-               id="tspan2088"
+               id="tspan6399"
                sodipodi:role="line">JS</tspan></text>
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:#cccccc;stroke-width:0.94537187px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-weight:normal;font-size:67.00637054px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:#cccccc;stroke-width:0.94537187px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="-1707.1675"
            y="-388.42709"
-           id="text2096"
+           id="text6401"
+           sodipodi:linespacing="125%"
            inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
            inkscape:export-xdpi="59.639999"
            inkscape:export-ydpi="59.639999"><tspan
              sodipodi:role="line"
-             id="tspan2094"
+             id="tspan6403"
              x="-1707.1675"
              y="-388.42709"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:67.00637054px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#333333;stroke:none;stroke-width:0.80188px">Templates</tspan></text>
         <text
-           id="text2100"
+           sodipodi:linespacing="125%"
+           id="text6405"
            y="-138.88354"
            x="-1707.1675"
-           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.80188px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-weight:normal;font-size:67.00637054px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.80188px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"
            inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
            inkscape:export-xdpi="59.639999"
@@ -2398,14 +2407,14 @@
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:67.00637054px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#333333;stroke:none;stroke-width:0.80188px"
              y="-138.88354"
              x="-1707.1675"
-             id="tspan2098"
+             id="tspan6407"
              sodipodi:role="line">Forms</tspan></text>
         <g
            transform="matrix(0.57278546,0,0,0.57278546,-671.56491,-301.71786)"
-           id="g2114">
+           id="g6409">
           <rect
              style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect2102"
+             id="rect6411"
              width="195.87164"
              height="225.34352"
              x="-1905.2345"
@@ -2417,7 +2426,7 @@
              inkscape:export-ydpi="59.639999" />
           <rect
              style="opacity:1;fill:none;fill-opacity:1;stroke:#333333;stroke-width:2.210078;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect2104"
+             id="rect6413"
              width="109.78992"
              height="20.973389"
              x="-1862.1936"
@@ -2432,7 +2441,7 @@
              x="-1832.6558"
              height="6.4285712"
              width="50.714287"
-             id="rect2106"
+             id="rect6415"
              style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
              inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
              inkscape:export-xdpi="59.639999"
@@ -2442,7 +2451,7 @@
              x="-1862.2062"
              height="20.493492"
              width="109.8151"
-             id="rect2108"
+             id="rect6417"
              style="opacity:1;fill:none;fill-opacity:1;stroke:#333333;stroke-width:2.18489766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
              rx="3.2088828"
              ry="3.84253"
@@ -2451,7 +2460,7 @@
              inkscape:export-ydpi="59.639999" />
           <rect
              style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect2110"
+             id="rect6419"
              width="50.714287"
              height="6.4285712"
              x="-1832.6558"
@@ -2461,7 +2470,7 @@
              inkscape:export-ydpi="59.639999" />
           <rect
              style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             id="rect2112"
+             id="rect6421"
              width="110"
              height="17.142857"
              x="-1862.2987"
@@ -2474,7 +2483,7 @@
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#306998;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:24.4984417;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m -2244.9277,-281.23911 0,24.5 155.6482,0 0,-24.5 z"
-         id="path2118"
+         id="path6423"
          inkscape:connector-curvature="0"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91"
@@ -2482,7 +2491,7 @@
       <path
          style="fill:#306998;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m -2103.1905,-226.26668 0,-85.445 73.9976,42.7225 -73.9976,42.7225"
-         id="path2120"
+         id="path6425"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccc"
          inkscape:export-xdpi="55.91"
@@ -2490,7 +2499,7 @@
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#306998;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:24.4984417;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m -2183.9297,-428.38169 0,24.49805 150.1747,0 0,-24.49805 z"
-         id="path2122"
+         id="path6427"
          inkscape:connector-curvature="0"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91"
@@ -2498,19 +2507,19 @@
       <path
          sodipodi:nodetypes="cccc"
          inkscape:connector-curvature="0"
-         id="path2124"
+         id="path6429"
          d="m -2170.9304,-458.85458 0,85.445 -73.9976,-42.7225 73.9976,-42.7225"
          style="fill:#306998;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91" />
       <g
-         id="g2144"
+         id="g6431"
          transform="translate(52,-18.625476)"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91">
         <rect
            style="opacity:1;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:6.70675182;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="rect2126"
+           id="rect6433"
            width="409.51529"
            height="453.54587"
            x="-3444.2107"
@@ -2524,53 +2533,55 @@
            x="-3434.4021"
            height="433.63504"
            width="389.89856"
-           id="rect2128"
+           id="rect6435"
            style="opacity:1;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.72164679;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <g
-           id="g2142"
+           id="g6437"
            transform="translate(1245.0386,15.857043)">
           <text
-             id="text2134"
+             sodipodi:linespacing="125%"
+             id="text6439"
              y="-448.15976"
              x="-4484.6665"
-             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#353535;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-weight:normal;font-size:77.20366669px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#353535;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:77.20366669px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#353535;fill-opacity:1"
                y="-448.15976"
                x="-4477.127"
-               id="tspan2130"
+               id="tspan6441"
                sodipodi:role="line">Roteamento </tspan><tspan
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:77.20366669px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#353535;fill-opacity:1"
-               id="tspan2132"
+               id="tspan6443"
                y="-351.65518"
                x="-4484.6665"
                sodipodi:role="line">de URLs</tspan></text>
           <text
-             id="text2138"
+             sodipodi:linespacing="125%"
+             id="text6445"
              y="-189.16768"
              x="-4483.3086"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:92.90330505px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:92.90330505px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#333333;stroke:none;stroke-width:1.2291317px"
                y="-189.16768"
                x="-4483.3086"
-               id="tspan2136"
+               id="tspan6447"
                sodipodi:role="line">urls.py</tspan></text>
           <path
              inkscape:connector-curvature="0"
-             id="path2140"
+             id="path6449"
              d="m -4628.7106,-305.79484 280,0"
              style="fill:none;fill-rule:evenodd;stroke:#999999;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         </g>
       </g>
       <g
-         id="g2162"
+         id="g6451"
          transform="translate(1990.1584,-18.625476)"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91">
         <rect
            style="opacity:1;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:6.70675182;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="rect2146"
+           id="rect6453"
            width="409.51529"
            height="453.54587"
            x="-4687.0679"
@@ -2584,52 +2595,54 @@
            x="-4677.2593"
            height="433.63504"
            width="389.89856"
-           id="rect2148"
+           id="rect6455"
            style="opacity:1;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.72164679;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#353535;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-weight:normal;font-size:77.20366669px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#353535;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="-4482.4849"
            y="-432.3027"
-           id="text2154"><tspan
+           id="text6457"
+           sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
              x="-4474.9453"
              y="-432.3027"
-             id="tspan2150"
+             id="tspan6459"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:77.20366669px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#353535;fill-opacity:1">Views e </tspan><tspan
              sodipodi:role="line"
              x="-4482.4849"
              y="-335.79813"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:77.20366669px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#353535;fill-opacity:1"
-             id="tspan2152">Middlewares</tspan></text>
+             id="tspan6461">Middlewares</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:92.90330505px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.2291317px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="-4481.127"
            y="-173.31064"
-           id="text2158"><tspan
+           id="text6463"
+           sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
-             id="tspan2156"
+             id="tspan6465"
              x="-4481.127"
              y="-173.31064"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:92.90330505px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#333333;stroke:none;stroke-width:1.2291317px">views.py</tspan></text>
         <path
            style="fill:none;fill-rule:evenodd;stroke:#999999;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m -4626.5292,-289.9378 280,0"
-           id="path2160"
+           id="path6467"
            inkscape:connector-curvature="0" />
       </g>
       <path
          sodipodi:nodetypes="cccc"
          inkscape:connector-curvature="0"
-         id="path2164"
+         id="path6469"
          d="m -2378.5434,-6.489777 -85.4449,0 42.7225,-73.9976 42.7224,73.9976"
          style="fill:#306998;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91" />
       <rect
          style="opacity:1;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:10.86327171;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect2166"
+         id="rect6471"
          width="573.58075"
          height="256.37323"
          x="-1919.0747"
@@ -2641,13 +2654,13 @@
          x="-1904.2582"
          height="226.9151"
          width="543.94775"
-         id="rect2168"
+         id="rect6473"
          style="opacity:1;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.71581793;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91" />
       <rect
          style="opacity:1;fill:#ffdd3b;fill-opacity:1;stroke:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect2170"
+         id="rect6475"
          width="125.95844"
          height="77.280525"
          x="-1880.5575"
@@ -2659,41 +2672,43 @@
          x="-1880.5575"
          height="77.280525"
          width="125.95844"
-         id="rect2172"
+         id="rect6477"
          style="opacity:1;fill:#306998;fill-opacity:1;stroke:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:-17.45640755px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:53.43798447px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:-17.45640755px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-1559.9286"
          y="1705.6212"
-         id="text2176"
+         id="text6479"
+         sodipodi:linespacing="125%"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91"><tspan
            sodipodi:role="line"
-           id="tspan2174"
+           id="tspan6481"
            x="-1559.9286"
            y="1705.6212"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:53.43798447px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:0px;fill:#4d4d4d">Fluxo da Requisição</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:0px;fill:#4d4d4d">Fluxo da Requisição</tspan></text>
       <text
-         id="text2180"
+         sodipodi:linespacing="125%"
+         id="text6483"
          y="1808.9229"
          x="-1573.0271"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:-17.45640755px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:53.43798447px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;letter-spacing:-17.45640755px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:53.43798447px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:0px;fill:#4d4d4d"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:0px;fill:#4d4d4d"
            y="1808.9229"
            x="-1573.0271"
-           id="tspan2178"
+           id="tspan6485"
            sodipodi:role="line">Fluxo da Resposta</tspan></text>
       <path
          sodipodi:nodetypes="ccccc"
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#306998;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:24.4984417;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m -2510.6582,-1049.5586 0,445.38558 24.498,0 0,-445.38558 z"
-         id="path2182"
+         id="path6487"
          inkscape:connector-curvature="0"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91" />
@@ -2703,7 +2718,7 @@
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          style="fill:#306998;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m -2455.4697,-1009.076 -85.445,0 42.7225,-73.9976 42.7225,73.9976"
-         id="path2184"
+         id="path6489"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccc" />
       <rect
@@ -2711,7 +2726,7 @@
          inkscape:export-xdpi="55.91"
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          style="opacity:1;fill:#306998;fill-opacity:1;stroke:none;stroke-width:2.00429487;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.20289857"
-         id="rect2186"
+         id="rect6491"
          width="459.81314"
          height="83.403488"
          x="-2728.3152"
@@ -2722,20 +2737,21 @@
          inkscape:export-ydpi="55.91"
          inkscape:export-xdpi="55.91"
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
-         id="text2190"
+         sodipodi:linespacing="125%"
+         id="text6493"
          y="-723.88647"
          x="-2499.6643"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:5.81955528px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:39.25725937px;line-height:125%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:5.81955528px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:39.25725937px;line-height:125%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:5.81955528px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1"
            y="-723.88647"
            x="-2496.7546"
-           id="tspan2188"
+           id="tspan6495"
            sodipodi:role="line">RESPOSTA HTTP</tspan></text>
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffdd3b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:24.4984417;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m -2587.8008,-51.830078 0,430.855668 24.4981,0 0,-430.855668 z"
-         id="path2192"
+         id="path6497"
          inkscape:connector-curvature="0"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91"
@@ -2743,7 +2759,7 @@
       <path
          style="fill:#ffdd3b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m -2618.2741,343.51033 85.445,0 -42.7225,73.9976 -42.7225,-73.9976"
-         id="path2194"
+         id="path6499"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccc"
          inkscape:export-xdpi="55.91"
@@ -2751,7 +2767,7 @@
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#306998;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:24.4984417;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m -2433.5156,-26.832031 0,440.689241 24.5,0 0,-440.689241 z"
-         id="path2196"
+         id="path6501"
          inkscape:connector-curvature="0"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91"
@@ -2759,7 +2775,7 @@
       <path
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffdd3b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m -3187.4639,-1282.2676 c -8.2839,8e-4 -14.9992,6.7161 -15,15 l 0,600.10522 30,0 0,-585.10522 321.3545,0 0,-30 z"
-         id="path2198"
+         id="path6503"
          inkscape:connector-curvature="0"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91"
@@ -2770,7 +2786,7 @@
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          sodipodi:nodetypes="cccc"
          inkscape:connector-curvature="0"
-         id="path2200"
+         id="path6505"
          d="m -3230.9814,-678.62486 85.445,0 -42.7225,73.9976 -42.7225,-73.9976"
          style="fill:#ffdd3b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <rect
@@ -2783,38 +2799,39 @@
          x="-3421.1042"
          height="77.689201"
          width="467.96158"
-         id="rect2202"
+         id="rect6507"
          style="opacity:1;fill:#ffdd3b;fill-opacity:1;stroke:none;stroke-width:2.00429487;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.20289857" />
       <text
          inkscape:export-ydpi="55.91"
          inkscape:export-xdpi="55.91"
          inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:5.42083597px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:36.56759644px;line-height:125%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:5.42083597px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-3187.9895"
          y="-1094.8286"
-         id="text2206"><tspan
+         id="text6509"
+         sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
-           id="tspan2204"
+           id="tspan6511"
            x="-3185.2791"
            y="-1094.8286"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:36.56759644px;line-height:125%;font-family:Aharoni;-inkscape-font-specification:'Aharoni, Bold';text-align:center;letter-spacing:5.42083597px;writing-mode:lr-tb;text-anchor:middle;fill:#4d4d4d">REQUISIÇÃO HTTP</tspan></text>
       <g
-         id="g2212"
+         id="g6513"
          style="fill:#ffdd3b;fill-opacity:1;stroke:none"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91"
          transform="translate(0,-28.657077)">
         <path
            inkscape:connector-curvature="0"
-           id="path2208"
+           id="path6515"
            d="m -2943.0021,-328.9043 0,30 150.1876,0 0,-30 z"
            style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffdd3b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:30;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            sodipodi:nodetypes="ccccc" />
         <path
            sodipodi:nodetypes="cccc"
            inkscape:connector-curvature="0"
-           id="path2210"
+           id="path6517"
            d="m -2806.342,-270.96459 0,-85.445 73.9976,42.7225 -73.9976,42.7225"
            style="fill:#ffdd3b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\django-architecture.png"
@@ -2824,13 +2841,13 @@
       <path
          style="fill:none;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
          d="m -1749.9618,-1536.1935 0,131.3636 15.9643,15.9643 367.1795,0"
-         id="path2214"
+         id="path6519"
          inkscape:connector-curvature="0"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91" />
       <path
          inkscape:connector-curvature="0"
-         id="path2216"
+         id="path6521"
          d="m -1749.9618,-849.03574 0,131.3636 15.9643,15.9643 367.1795,0"
          style="fill:none;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:export-xdpi="55.91"
@@ -2838,59 +2855,60 @@
       <path
          style="fill:none;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m -1749.9618,308.02921 0,131.3636 15.9643,15.9643 367.1795,0"
-         id="path2218"
+         id="path6523"
          inkscape:connector-curvature="0"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;font-size:79.42089081px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-1558.2438"
          y="-1438.0892"
-         id="text2222"
+         id="text6525"
+         sodipodi:linespacing="125%"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91"><tspan
            sodipodi:role="line"
-           id="tspan2220"
+           id="tspan6527"
            x="-1558.2438"
            y="-1438.0892"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:79.42089081px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';fill:#4d4d4d">Template</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';fill:#4d4d4d">Template</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;line-height:0%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:97.8967514px;line-height:125%;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
          x="-1559.592"
          y="-736.81299"
-         id="text2226"
+         id="text6529"
+         sodipodi:linespacing="125%"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91"><tspan
-           style="font-size:97.8967514px;line-height:1.25"
            sodipodi:role="line"
-           id="tspan2224"
+           id="tspan6531"
            x="-1559.592"
            y="-736.81299">View</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;font-size:97.77211761px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
          x="-1559.8547"
          y="420.15671"
-         id="text2230"
+         id="text6533"
+         sodipodi:linespacing="125%"
          inkscape:export-xdpi="55.91"
          inkscape:export-ydpi="55.91"><tspan
            sodipodi:role="line"
-           id="tspan2228"
+           id="tspan6535"
            x="-1559.8547"
            y="420.15671"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:97.77211761px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';fill:#4d4d4d">Model</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';fill:#4d4d4d;">Model</tspan></text>
     </g>
     <rect
-       style="opacity:1;fill:none;fill-opacity:0.22028988;stroke:#2c89a0;stroke-width:10.53261566;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:10.53261581, 21.06523161;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:0.22028988;stroke:#2c89a0;stroke-width:14.02018547;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:14.02018601, 28.04037202;stroke-dashoffset:0;stroke-opacity:1"
        id="rect8296"
-       width="2386.0112"
-       height="651.39984"
-       x="-3685.1646"
-       y="-1588.7667"
+       width="2382.5237"
+       height="1155.8939"
+       x="-3683.4207"
+       y="-920.49634"
        inkscape:export-xdpi="55.91"
-       inkscape:export-ydpi="55.91"
-       inkscape:export-filename="C:\Users\Vinicius\Development\jekyll\pythonacademy.github.io\assets\posts\desenvolvimento-web-com-python-e-django-template\django-architecture.png" />
+       inkscape:export-ydpi="55.91" />
   </g>
 </svg>
