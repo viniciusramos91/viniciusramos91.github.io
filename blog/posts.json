@@ -9,7 +9,7 @@
       "description": "<p>Nesse post, vamos tratar da camada <em>Template</em> do Django. Vamos aprender como utilizar, configurar e estender os templates do Django, como utilizar filtros e tags do Django e como criar nossas tags e filtros customizados!</p>",
       "featured_icon": "featured_icon.svg",
       "date": {
-         "day": "03",
+         "day": "04",
          "month": "July",
          "year": "2018"
       }
