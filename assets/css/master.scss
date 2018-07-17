@@ -1343,31 +1343,20 @@ a {
     border-radius: 6px;
     margin-bottom: 16px;   
     transition: all 0.25s ease-in;      
-    
-    a {
-        font-family: 'Roboto Condensed', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;  
-        display: inline-block;
-        padding: 20px 48px;                
-        font-size: 1.5rem;
-        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
-        color: #FFF;
-
-        @media (max-width: 767px) {
-            padding: 12px 2px;
-        }            
-    }
-    
-    @media (max-width: 767px) {
-        max-width: 280px;
-        width: 100%;
-    }
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;  
+    display: inline-block;
+    padding: 20px 48px;                
+    font-size: 1.5rem;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+    color: #FFF;        
 
     &.blue {
         background: #306998 asset_url("/assets/svg/blog-bground-pattern.svg");
 
         &:hover {
+            color: #FFF;
             background: #205988 url('/assets/svg/blog-bground-pattern.svg');
         }
     }
@@ -1376,6 +1365,7 @@ a {
         background: #ffd43b url('/assets/svg/dark-bground-pattern.svg');
 
         &:hover {
+            color: #FFF;
             background: #efc42b url('/assets/svg/dark-bground-pattern.svg');
         }
 
@@ -1384,8 +1374,14 @@ a {
         }                    
     }
 
+    &:focus,
+    &:hover {
+        text-decoration: none;
+        color: #FFF;
+    }
+
     @media (max-width: 767px) {
-        padding: 12px 36px;
+        padding: 16px 36px;
         font-size: 1.4rem;
     }
 }
@@ -1510,6 +1506,10 @@ a {
                 display: table;
                 height: 100vh;
                 width: 100%;
+
+                @media (max-width: 700px) {
+                    margin-top: 40px;
+                }
             }
 
             .inner {
@@ -1521,9 +1521,38 @@ a {
             .ebook-info {
                 text-align: left;
 
+                .signup-input {
+                    @media(max-width: 767px) {
+                        margin-bottom: 16px;
+                        width: 60% !important;
+                    }
+
+                    @media(max-width: 400px) {
+                        width: 90% !important;
+                    }
+                }
+
+                button.btn {
+                    @media (max-width: 767px) {
+                        width: 35% !important;
+                    }
+
+                    @media(max-width: 400px) {
+                        width: 50% !important;
+                    }
+                }
+
                 .ebook-cover {
                     height: 400px;
                     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.075);
+
+                    @media(max-width: 1200px) {
+                        height: 200px;
+                    }
+
+                    @media (max-height: 700px) {
+                        height: 175px;
+                    }
                 }
 
                 .ebook-data {
@@ -1550,6 +1579,10 @@ a {
                         @media (max-height: 700px) {
                             display: none;
                         }
+
+                        @media (max-width: 700px) {
+                            line-height: 25px;
+                        }
                     }                
     
                     @media (max-width: 1200px) {
@@ -1572,6 +1605,10 @@ a {
                         .ebook-description {
                             font-size: 1.65rem;
                         }    
+                    }
+
+                    @media (max-height: 700px) {
+                        padding-bottom: 0;
                     }
                 }
             }
@@ -1634,12 +1671,13 @@ a {
 .thank-you-container {
     width: 100%;
     height: 100vh;
+    padding: 12px 0;
+    background: #F2F2F2;
 
     .data-panel {
-        height: 100vh;
+        height: calc(100vh - 80px);
 
         .panel-inner {
-            height: 100vh;
             display: table;
             width: 100%;
 
@@ -1648,72 +1686,104 @@ a {
                 display: table-cell;
             }
 
-            p {
-                font-family: 'GT Walsheim', sans-serif;
-                font-size: 2rem;            
-            }
-        }
-
-        &.left {
-            background: #252525 url('/assets/svg/dark-bground-pattern.svg');
+            .card {
+                padding: 64px 32px;
             
-            p {
-                color: #FFF;
-            }
-        }
-
-        &.right {
-            background: #FAFAFA;
-
-            h2 {
-                font-family: 'Lato', sans-serif;
-                font-size: 4rem;
-                font-weight: bold;
-                color: #56586a;
-            }
-
-            h3 {
-                font-family: 'GT walsheim', sans-serif;
-                margin-bottom: 32px;
-                font-weight: bold;
-                color: #56586a;
-            }
-
-            p {
-                font-family: 'Open Sans', sans-serif;
-                color: #3e464f;
-                font-size: 1.7rem;
-            }
-
-            a.share {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 1.5rem;
-                font-weight: 600;
-                padding: 8px 24px;
-                margin: 0 6px 0 6px;
-                border-radius: 5px;
-                border-style: solid;
-                border-width: 2px;
-
-                &.facebook {
-                    border-color: #3B5999;
-                    color: #3B5999;
+                h2 {
+                    font-family: 'Lato', sans-serif;
+                    font-size: 4rem;
+                    font-weight: bold;
+                    color: #56586a;
+                    margin: 0 0 32px 0;
                 }
 
-                &.twitter {
-                    border-color: #2DB0EE;
-                    color: #2DB0EE;
+                h3 {
+                    font-family: 'GT walsheim', sans-serif;
+                    margin-bottom: 32px;
+                    font-weight: bold;
+                    color: #56586a;
+                    margin: 16px 0 12px 0;
                 }
 
-                &.whatsapp {
-                    border-color: #128C7E;
-                    color: #128C7E;
+                p {
+                    font-family: 'Open Sans', sans-serif;
+                    color: #3e464f;
+                    font-size: 1.7rem;
                 }
 
-                &.email {
-                    border-color: #e74c3c;
-                    color: #e74c3c;
+                a.share {
+                    width: 100%;
+                    display: inline-block;
+                    font-family: 'GT Walsheim', sans-serif;
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    padding: 16px 4px;
+                    border-radius: 5px;
+                    border: 2px solid #3e464f;
+                    color: #3e464f;
+
+                    &.facebook {
+                        i {
+                            color: #3B5999;
+                        }
+                    }
+
+                    &.twitter {
+                        i {
+                            color: #2DB0EE;
+                        }
+                    }
+
+                    &.whatsapp {
+                        i {
+                            color: #128C7E;
+                        }
+                    }
+
+                    &.email {
+                        i {
+                            color: #e74c3c;
+                        }
+                    }
+
+                    i {
+                        margin-right: 4px;
+                    }
+
+                    @media (max-width: 767px) {
+                        margin-bottom: 8px;
+                        width: 65%;
+                    }
+
+                    @media (max-width: 450px) {
+                        padding: 8px;
+                        width: 100%;
+                    }
                 }
+
+                @media (max-width: 767px) {
+                    padding: 16px;
+                    
+                    h2 {
+                        font-size: 2.5rem;
+                    }
+
+                    h3 {
+                        font-size: 1.8rem;
+                        margin-bottom: 16px;
+                    }
+
+                    p {
+                        font-size: 1.45rem;
+                    }
+                }
+
+                @media (max-width: 767px) {
+                    p {
+                        display: none;
+                    }
+                }
+
             }
         }
     }
