@@ -15,7 +15,7 @@
    viewBox="0 0 2399.9999 1260"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="social-media.svg">
   <defs
      id="defs4">
@@ -330,7 +330,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="1578.3189"
+     inkscape:cx="832.82631"
      inkscape:cy="708.57145"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -341,10 +341,10 @@
      fit-margin-bottom="0"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
-     inkscape:window-width="1680"
-     inkscape:window-height="1005"
-     inkscape:window-x="0"
-     inkscape:window-y="1"
+     inkscape:window-width="2560"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -354,7 +354,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -371,19 +371,19 @@
        x="162.85715"
        y="-759.06635"
        ry="0"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:47.1384201px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-2752.1816"
        y="-2869.4463"
-       id="text7817"
-       sodipodi:linespacing="125%"><tspan
+       id="text7817"><tspan
          sodipodi:role="line"
          id="tspan7819"
          x="-2752.1816"
-         y="-2869.4463" /></text>
+         y="-2869.4463"
+         style="font-size:47.1384201px;line-height:1.25"> </tspan></text>
     <image
        style="overflow:visible;opacity:0.3"
        overflow="visible"
@@ -432,8 +432,8 @@
     <g
        id="g6648"
        transform="matrix(0.72389391,0,0,0.72389391,376.29314,-22.202369)"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <rect
          y="-774.43701"
          x="543.33826"
