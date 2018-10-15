@@ -2,6 +2,22 @@
     
     
     {
+      "title": "Iterators e Generators em Python em Python",
+      "href": "/blog/iterators-e-generators-em-python",
+      "slug": "iterators-e-generators-em-python",
+      "author": "Vinícius R",
+      "description": "<p>Você já deve ter ouvido falar em Iterators e Generators em Ptyhon. Mas você sabe o que são? Nesse post vamos aprender um pouco mais dessas duas ferramentas poderosas do Python!</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "15",
+         "month": "October",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
       "title": "Desenvolvimento Web com Python e Django: Template",
       "href": "/blog/desenvolvimento-web-com-python-e-django-template",
       "slug": "desenvolvimento-web-com-python-e-django-template",
