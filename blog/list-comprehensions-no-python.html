@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-        		
+	<head>		
+				
 			<!-- Global site tag (gtag.js) - Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116930343-1"></script>
 <script>
@@ -20,7 +20,7 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
 
-		<title>Blog | Python Academy</title>
+		<title>List Comprehensions no Python</title>
 		<link rel="icon" type="image/png" href="/assets/img/favicon.png">
 
 		
@@ -29,7 +29,7 @@
 		
 
 		<!-- Canonical URL -->
-		<link rel="canonical" href="https://pythonacademy.com.br/blog/">	
+		<link rel="canonical" href="https://pythonacademy.com.br/blog/list-comprehensions-no-python">	
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -47,8 +47,8 @@
 
 		<!-- Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Raleway:100,200,300,400,500,600,700,800|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic|Space+Mono:400,700|Inconsolata:400,700|Muli:200,300,400,600,700|Quicksand:300,400,500,700|Source+Serif+Pro:400,700|Roboto+Condensed:300,400,700|Roboto:300,400,500,700|Ubuntu:300,400,500,700|Oswald:300,400,500,600" rel="stylesheet">
-        
-        
+
+		
 		
 		
 		
@@ -60,17 +60,17 @@
 				
 
 		<!-- General -->
-		<meta name="description" content="Aprenda Python de verdade, com artigos completos, práticos e atuais.">		
+		<meta name="description" content="Nesse post, vamos aprender uma forma concisa de se declarar e utilizar listas no Python, usando o conceito de List Comprehensions">		
 
 		<!-- Open Graph -->
 		<meta property="fb:app_id" content="220280761884954">
 		<meta property="og:site_name" content="Python Academy">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="Blog | Python Academy">
-		<meta property="og:url" content="https://pythonacademy.com.br/blog/">
-		<meta property="og:description" content="Aprenda Python de verdade, com artigos completos, práticos e atuais.">
-		<meta property="og:image" content="https://pythonacademy.com.br/assets/img/blog-og-image.png" />
-		<meta property="og:image:alt" content="Blog | Python Academy" />
+		<meta property="og:title" content="List Comprehensions no Python">
+		<meta property="og:url" content="https://pythonacademy.com.br/blog/list-comprehensions-no-python">
+		<meta property="og:description" content="Nesse post, vamos aprender uma forma concisa de se declarar e utilizar listas no Python, usando o conceito de List Comprehensions">
+		<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/list-comprehensions-no-python/facebook_img.png" />
+		<meta property="og:image:alt" content="List Comprehensions no Python" />
 		<meta property="og:image:type" content="image/png" />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
@@ -78,14 +78,18 @@
 		<!-- Twitter cards -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-		<meta name="twitter:title" content="Blog | Python Academy">
-		<meta name="twitter:description" content="Aprenda Python de verdade, com artigos completos, práticos e atuais.">
-		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/img/blog-twitter-card.png">
+		<meta name="twitter:title" content="List Comprehensions no Python">
+		<meta name="twitter:description" content="Nesse post, vamos aprender uma forma concisa de se declarar e utilizar listas no Python, usando o conceito de List Comprehensions">
+		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/list-comprehensions-no-python/twitter_img.png">
 		
+		<meta name="twitter:creator" content="@ViniciusAR91">
+			
+
+		<!-- post.css -->
+		<link rel="stylesheet" href="/assets/css/post.css?1540487134677048000">
 	</head>
 
-	<body>
-
+	<body id="post-body">		
 		
 
 
@@ -95,12 +99,7 @@
 		<div class="container">
 	
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed "
-					onclick="showMenu()"
-					onblur="hideMenu()"
-      				data-toggle="collapse"
-					data-target="#main-menu"
-					aria-expanded="true">
+				<button type="button" class="navbar-toggle collapsed " onclick="showMenu()" onblur="hideMenu()" data-toggle="collapse" data-target="#main-menu" aria-expanded="true">
 					<span class="sr-only">Habilitar navegação</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -143,390 +142,603 @@
 	</nav>
 </header>	
 
-	    <section class="banner blog-banner" data-aos="fade-in" data-aos-duration="800">
-            <div class="banner-wrapper">
-                <div class="banner-content">
-                    <div class="container">
-                        <h1 class="font-shadow"><i>Blog</i></h1>
-        
-                        <h2 class="font-shadow">Tudo o que você precisa para se tornar um verdadeiro Pythonista!</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
+		<a href="#" class="sticky-newsletter hidden-xs" data-toggle="modal" data-target="#email-modal">
+    <div class="rotate-text">
+        <span>Receba todas as novidades!</span>
+    </div>
+</a>
 
-        <section class="posts-list">
-            <div class="stripes first">
-                <span data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="95" data-aos-duration="650"></span>
-                <span data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="150" data-aos-duration="650"></span>
-                <span data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="225" data-aos-duration="650"></span>
-            </div>
-            <div class="stripes second">
-                <span data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="95" data-aos-duration="650"></span>
-                <span data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="150" data-aos-duration="650"></span>
-                <span data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="225" data-aos-duration="650"></span>
+<!-- Include email modal form with text, input and submit button to acquire emails to our list -->
+<!-- Parameters: email-modal = modal id  -->
+
+<div class="modal fade email-modal" id="email-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">                                    
+            <div class="modal-body text-center">
+                <a href="#" data-dismiss="modal" aria-label="Close" class="pull-right close-icon"><i class="fa fa-times" aria-hidden="true"></i></a>
+                <h3 class="modal-title">Seja o primeiro a receber o melhor conteúdo!</h3>
+                <div class="modal-label">
+                    <p class="email-label">Cadastre o seu melhor email para <strong>receber gratuitamente <br></strong><strong>conteúdos exclusivos</strong> e muito mais!</p>
+                </div>
+                <!--<i class="down-icon fa fa-arrow-down fa-fw" aria-hidden="true"></i>-->
+
+                <div class="mailchimp-input">
+                    <!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: QUERO RECEBER = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll" class="container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-4">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required>
             </div>
             
-            <div class="container">
-                <div class="row auto-clear">
-                    
-                        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="https://pythonacademy.com.br/blog/list-comprehensions-no-python"
-                                class="card" 
-                                data-aos-duration="950"
-                                data-aos="fade-in" 
-                                data-aos-easing="ease-out">
-                                
-                                <div class="card-frame">
-                                    <object id="featured-icon-0" 
-                                        class="featured-icon"
-                                        type="image/svg+xml" 
-                                        data="/assets/posts/list-comprehensions-no-python/featured_icon.svg" 
-                                        title="List Comprehensions no Python">
-                                    </object>	                                                                
-                                </div>
-
-                                <div class="caption">
-                                    <h3 class="card-title">                                        
-                                        List Comprehensions no Python                                        
-                                    </h3>
-        
-                                    <div class="card-excerpt">
-                                        <p>Nesse post, vamos aprender uma forma concisa de se declarar e utilizar listas no Python, usando o conceito de <em>List Comprehensions</em></p>                                        
-                                    </div>
-
-                                    <div class="card-footer">                                        
-                                        <p>Publicado em <b>25/10/2018</b></p>
-                                    </div>
-                                </div> 
-                            </a>
-                        </article>
-                    
-                        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="https://pythonacademy.com.br/blog/iterators-e-generators-em-python"
-                                class="card" 
-                                data-aos-duration="950"
-                                data-aos="fade-in" 
-                                data-aos-easing="ease-out">
-                                
-                                <div class="card-frame">
-                                    <object id="featured-icon-1" 
-                                        class="featured-icon"
-                                        type="image/svg+xml" 
-                                        data="/assets/posts/iterators-e-generators-em-python/featured_icon.svg" 
-                                        title="Iterators e Generators em Python">
-                                    </object>	                                                                
-                                </div>
-
-                                <div class="caption">
-                                    <h3 class="card-title">                                        
-                                        Iterators e Generators em Python                                        
-                                    </h3>
-        
-                                    <div class="card-excerpt">
-                                        <p>Você já deve ter ouvido falar em Iterators e Generators em Ptyhon. Mas você sabe o que são? Nesse post vamos aprender um pouco mais dessas duas ferramentas poderosas do Python!</p>                                        
-                                    </div>
-
-                                    <div class="card-footer">                                        
-                                        <p>Publicado em <b>15/10/2018</b></p>
-                                    </div>
-                                </div> 
-                            </a>
-                        </article>
-                    
-                        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template"
-                                class="card" 
-                                data-aos-duration="950"
-                                data-aos="fade-in" 
-                                data-aos-easing="ease-out">
-                                
-                                <div class="card-frame">
-                                    <object id="featured-icon-2" 
-                                        class="featured-icon"
-                                        type="image/svg+xml" 
-                                        data="/assets/posts/desenvolvimento-web-com-python-e-django-template/featured_icon.svg" 
-                                        title="Desenvolvimento Web com Python e Django: Template">
-                                    </object>	                                                                
-                                </div>
-
-                                <div class="caption">
-                                    <h3 class="card-title">                                        
-                                        Desenvolvimento Web com Python e Django: Template                                        
-                                    </h3>
-        
-                                    <div class="card-excerpt">
-                                        <p>Nesse post, vamos tratar da camada <em>Template</em> do Django. Vamos aprender como utilizar, configurar e estender os templates do Django, como utilizar filtros e tags do Django e como criar nossas tags e filtros customizados!</p>                                        
-                                    </div>
-
-                                    <div class="card-footer">                                        
-                                        <p>Publicado em <b>04/07/2018</b></p>
-                                    </div>
-                                </div> 
-                            </a>
-                        </article>
-                    
-                        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view"
-                                class="card" 
-                                data-aos-duration="950"
-                                data-aos="fade-in" 
-                                data-aos-easing="ease-out">
-                                
-                                <div class="card-frame">
-                                    <object id="featured-icon-3" 
-                                        class="featured-icon"
-                                        type="image/svg+xml" 
-                                        data="/assets/posts/desenvolvimento-web-com-python-e-django-view/featured_icon.svg" 
-                                        title="Desenvolvimento Web com Python e Django: View">
-                                    </object>	                                                                
-                                </div>
-
-                                <div class="caption">
-                                    <h3 class="card-title">                                        
-                                        Desenvolvimento Web com Python e Django: View                                        
-                                    </h3>
-        
-                                    <div class="card-excerpt">
-                                        <p>Nesse post, vamos tratar da camada <em>View</em> do Django. Nela, nós desenvolvemos a lógica de negócio da nossa aplicação. Vamos ver sobre rotas, processamento de requisições e respostas, utilização de formulários e muito mais!</p>                                        
-                                    </div>
-
-                                    <div class="card-footer">                                        
-                                        <p>Publicado em <b>20/06/2018</b></p>
-                                    </div>
-                                </div> 
-                            </a>
-                        </article>
-                    
-                        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model"
-                                class="card" 
-                                data-aos-duration="950"
-                                data-aos="fade-in" 
-                                data-aos-easing="ease-out">
-                                
-                                <div class="card-frame">
-                                    <object id="featured-icon-4" 
-                                        class="featured-icon"
-                                        type="image/svg+xml" 
-                                        data="/assets/posts/desenvolvimento-web-com-python-e-django-model/featured_icon.svg" 
-                                        title="Desenvolvimento Web com Python e Django: Model">
-                                    </object>	                                                                
-                                </div>
-
-                                <div class="caption">
-                                    <h3 class="card-title">                                        
-                                        Desenvolvimento Web com Python e Django: Model                                        
-                                    </h3>
-        
-                                    <div class="card-excerpt">
-                                        <p>Nesse post, vamos tratar da camada Model do Django. Vamos abordar detalhes dessa camada, mapeamento objeto-relacional, a API de acesso a dados provida pelo Django e modelagem de dados.</p>                                        
-                                    </div>
-
-                                    <div class="card-footer">                                        
-                                        <p>Publicado em <b>26/05/2018</b></p>
-                                    </div>
-                                </div> 
-                            </a>
-                        </article>
-                    
-                        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao"
-                                class="card" 
-                                data-aos-duration="950"
-                                data-aos="fade-in" 
-                                data-aos-easing="ease-out">
-                                
-                                <div class="card-frame">
-                                    <object id="featured-icon-5" 
-                                        class="featured-icon"
-                                        type="image/svg+xml" 
-                                        data="/assets/posts/desenvolvimento-web-com-python-e-django-introducao/featured_icon.svg" 
-                                        title="Desenvolvimento Web com Python e Django: Introdução">
-                                    </object>	                                                                
-                                </div>
-
-                                <div class="caption">
-                                    <h3 class="card-title">                                        
-                                        Desenvolvimento Web com Python e Django: Introdução                                        
-                                    </h3>
-        
-                                    <div class="card-excerpt">
-                                        <p>O Django é uma framework de desenvolvimento Web Python completa e robusta. Nesse post introdutório, vamos abordar os a arquitetura do framework e primeiros passos para o desenvlvimento web com Python.</p>                                        
-                                    </div>
-
-                                    <div class="card-footer">                                        
-                                        <p>Publicado em <b>22/05/2018</b></p>
-                                    </div>
-                                </div> 
-                            </a>
-                        </article>
-                    
-                        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="https://pythonacademy.com.br/blog/porque-aprender-python-5-motivos-para-aprender-agora"
-                                class="card" 
-                                data-aos-duration="950"
-                                data-aos="fade-in" 
-                                data-aos-easing="ease-out">
-                                
-                                <div class="card-frame">
-                                    <object id="featured-icon-6" 
-                                        class="featured-icon"
-                                        type="image/svg+xml" 
-                                        data="/assets/posts/porque-aprender-python-5-motivos-para-aprender-agora/featured_icon.svg" 
-                                        title="Porquê aprender Python: 5 motivos para começar AGORA!">
-                                    </object>	                                                                
-                                </div>
-
-                                <div class="caption">
-                                    <h3 class="card-title">                                        
-                                        Porquê aprender Python: 5 motivos para começar AGORA!                                        
-                                    </h3>
-        
-                                    <div class="card-excerpt">
-                                        <p>Nesse artigo, vamos abordar 5 motivos que irão te fazer começar a aprender Python ainda hoje!</p>                                        
-                                    </div>
-
-                                    <div class="card-footer">                                        
-                                        <p>Publicado em <b>11/04/2018</b></p>
-                                    </div>
-                                </div> 
-                            </a>
-                        </article>
-                    
-                        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy"
-                                class="card" 
-                                data-aos-duration="950"
-                                data-aos="fade-in" 
-                                data-aos-easing="ease-out">
-                                
-                                <div class="card-frame">
-                                    <object id="featured-icon-7" 
-                                        class="featured-icon"
-                                        type="image/svg+xml" 
-                                        data="/assets/posts/como-criar-jogos-com-python-e-kivy/featured_icon.svg" 
-                                        title="Como Criar Jogos com Python e Kivy">
-                                    </object>	                                                                
-                                </div>
-
-                                <div class="caption">
-                                    <h3 class="card-title">                                        
-                                        Como Criar Jogos com Python e Kivy                                        
-                                    </h3>
-        
-                                    <div class="card-excerpt">
-                                        <p>Que tal desenvolver seu primeiro jogo em Python utilizando o framework Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do ZERO!</p>                                        
-                                    </div>
-
-                                    <div class="card-footer">                                        
-                                        <p>Publicado em <b>08/04/2018</b></p>
-                                    </div>
-                                </div> 
-                            </a>
-                        </article>
-                    
-                        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy"
-                                class="card" 
-                                data-aos-duration="950"
-                                data-aos="fade-in" 
-                                data-aos-easing="ease-out">
-                                
-                                <div class="card-frame">
-                                    <object id="featured-icon-8" 
-                                        class="featured-icon"
-                                        type="image/svg+xml" 
-                                        data="/assets/posts/desenvolva-aplicativos-para-android-ios-com-python-e-kivy/featured_icon.svg" 
-                                        title="Desenvolva Aplicativos para Android, iOS e Muito Mais com Python e Kivy">
-                                    </object>	                                                                
-                                </div>
-
-                                <div class="caption">
-                                    <h3 class="card-title">                                        
-                                        Desenvolva Aplicativos para Android, iOS e Muito Mais com Python e Kivy                                        
-                                    </h3>
-        
-                                    <div class="card-excerpt">
-                                        <p>Nesse post vamos explorar mais uma incrível possibilidade do Python, o desenvolvimento cross-platform utilizando o framework Kivy!</p>                                        
-                                    </div>
-
-                                    <div class="card-footer">                                        
-                                        <p>Publicado em <b>07/04/2018</b></p>
-                                    </div>
-                                </div> 
-                            </a>
-                        </article>
-                    
-                        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="https://pythonacademy.com.br/blog/domine-decorators-em-python"
-                                class="card" 
-                                data-aos-duration="950"
-                                data-aos="fade-in" 
-                                data-aos-easing="ease-out">
-                                
-                                <div class="card-frame">
-                                    <object id="featured-icon-9" 
-                                        class="featured-icon"
-                                        type="image/svg+xml" 
-                                        data="/assets/posts/domine-decorators-em-python/domine-decorators-em-python.svg" 
-                                        title="Domine Decorators em Python">
-                                    </object>	                                                                
-                                </div>
-
-                                <div class="caption">
-                                    <h3 class="card-title">                                        
-                                        Domine Decorators em Python                                        
-                                    </h3>
-        
-                                    <div class="card-excerpt">
-                                        <p>Decorators modificam o comportamente do código antes e depois da execução de uma dada função, sem a necessidade de modificar o próprio código da mesma, adicionando funcionalidades.</p>                                        
-                                    </div>
-
-                                    <div class="card-footer">                                        
-                                        <p>Publicado em <b>06/04/2018</b></p>
-                                    </div>
-                                </div> 
-                            </a>
-                        </article>
-                    
-                        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <a href="https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais"
-                                class="card" 
-                                data-aos-duration="950"
-                                data-aos="fade-in" 
-                                data-aos-easing="ease-out">
-                                
-                                <div class="card-frame">
-                                    <object id="featured-icon-10" 
-                                        class="featured-icon"
-                                        type="image/svg+xml" 
-                                        data="/assets/posts/python-e-virtualenv-como-programar-em-ambientes-virtuais/featured_icon.svg" 
-                                        title="Python e Virtualenv: Como Programar em Ambientes Virtuais">
-                                    </object>	                                                                
-                                </div>
-
-                                <div class="caption">
-                                    <h3 class="card-title">                                        
-                                        Python e Virtualenv: Como Programar em Ambientes Virtuais                                        
-                                    </h3>
-        
-                                    <div class="card-excerpt">
-                                        <p>Vamos entender o funcionamento do incrível virtualenv, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.</p>                                        
-                                    </div>
-
-                                    <div class="card-footer">                                        
-                                        <p>Publicado em <b>05/04/2018</b></p>
-                                    </div>
-                                </div> 
-                            </a>
-                        </article>
-                    
-                </div>
+            <div class="col-xs-6">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required>                
             </div>
-        </section>
 
-        
+            <div class="col-xs-2">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <i class="fa fa-mail-forward visible-xs" aria-hidden="true"></i>
+                    <span class="hidden-xs">QUERO RECEBER</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>            
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+                </div>                
+
+                <p class="pos-input text-center" style="font-size: 70%; margin-top: 10px; margin-bottom: 10px;">Não se preocupe, respeitamos sua privacidade. Você pode se descadastrar a qualquer momento.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+		<div class="main-container" data-aos="fade-in" data-aos-duration="1500">
+			<section class="post-banner">	
+				<div class="post-banner-wrapper">
+					<div class="post-banner-content" style="background: #043344 url('/assets/svg/blog-bground-pattern.svg');">
+						<div class="container">							
+							<div class="featured-icon-wrapper">
+								<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/list-comprehensions-no-python/featured_icon.svg" width="90%">
+								</object>															
+							</div>
+			
+							
+							<h1 class="blog-post-title font-shadow">
+								List Comprehensions no Python
+							</h1>			
+						</div>			
+					</div>
+				</div>
+			</section>	
+			
+			<div class="post-meta">
+				<div class="container">
+					<div class="post-meta-wrapper">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+								<div class="col-xs-6">
+									<div class="post-meta-data">
+										<img src="/assets/svg/clock.svg" alt="Tempo de Leitura">
+										<span>15 min.</span>
+									</div>
+								</div>
+
+								<div class="col-xs-6">
+									<div class="post-meta-data">
+										<img src="/assets/svg/level.svg" alt="Nível do Conteúdo">
+										<span>Básico</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container post-container">
+				<div class="blog-post-content">
+					
+<p>Olá Pythonista!</p>
+
+<p>No <em>post</em> de hoje, vamos aprender sobre uma ferramenta que utilizo <strong>muito</strong> no meu dia a dia: <em>List Comprehensions</em>!</p>
+
+<p>Com esse conceito, podemos otimizar a utilização de listas, sua criação e seu manuseio (e de quebra, diminuir 
+algumas linhas de código).</p>
+
+<p>Vamos ver as mais diversas formas de se utilizar <em>list comprehensions</em> e praticar com exemplos!</p>
+
+<h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#listas-em-python" id="markdown-toc-listas-em-python">Listas em Python</a></li>
+  <li><a href="#list-comprehensions-compreens%C3%A3o-de-listas" id="markdown-toc-list-comprehensions-compreensão-de-listas"><em>List Comprehensions</em> (Compreensão de Listas)</a></li>
+  <li><a href="#list-comprehensions-com-if" id="markdown-toc-list-comprehensions-com-if"><em>List Comprehensions</em> com <em>if</em></a></li>
+  <li><a href="#list-comprehensions-com-v%C3%A1rios-ifs" id="markdown-toc-list-comprehensions-com-vários-ifs"><em>List Comprehensions</em> com vários <em>if’s</em></a></li>
+  <li><a href="#list-comprehensions-com-if--else" id="markdown-toc-list-comprehensions-com-if--else"><em>List Comprehensions</em> com <em>if</em> + <em>else</em></a></li>
+  <li><a href="#m%C3%BAltiplas-list-comprehensions-aninhadas" id="markdown-toc-múltiplas-list-comprehensions-aninhadas">Múltiplas <em>List Comprehensions</em> (aninhadas)</a></li>
+  <li><a href="#conclus%C3%A3o" id="markdown-toc-conclusão">Conclusão</a></li>
+</ul>
+
+<h2 id="listas-em-python">Listas em Python</h2>
+
+<p><strong>Lista</strong> é uma estrutura de dados provida pela própria linguagem e que utilizamos muito na programação Python.</p>
+
+<p>Saber como manuseá-las corretamente, otimizando seu código e tirando maior proveito daquilo que o Python 
+nos proporciona, é sempre uma <strong>boa ideia</strong>.</p>
+
+<p>Os seguintes métodos estão disponíveis em uma lista:</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">list.append(x)</code>: Adiciona um item ao fim da lista.</li>
+  <li>
+<code class="highlighter-rouge">list.extend(iterable)</code>: Adiciona todos os itens do iterável <em>iterable</em> ao fim da lista.</li>
+  <li>
+<code class="highlighter-rouge">list.insert(i, x)</code>: Insere um item em uma dada posição <strong>i</strong>.</li>
+  <li>
+<code class="highlighter-rouge">list.remove(x)</code>: Remove o primeiro elemento, cujo valor seja <strong>x</strong>.</li>
+  <li>
+<code class="highlighter-rouge">list.pop(i)</code>: Remove o item de posição <strong>i</strong> da lista e o retorna. Caso <strong>i</strong> não seja especificado, retorna o último elemento da lista.</li>
+  <li>
+<code class="highlighter-rouge">list.clear()</code>: Remove todos os elementos da lista.</li>
+  <li>
+<code class="highlighter-rouge">list.index(x[, start[, end]])</code>: Retorna o índice do primeiro elemento cujo valor seja <strong>x</strong>.</li>
+  <li>
+<code class="highlighter-rouge">list.count(x)</code>: Retorna o número de vezes que o valor <strong>x</strong> aparece na lista.</li>
+  <li>
+<code class="highlighter-rouge">list.sort(key=None, reverse=False)</code>: Ordena os items da lista (os argumentos podem ser usados para customizar a ordenação).</li>
+  <li>
+<code class="highlighter-rouge">list.reverse()</code>: Reverte os elementos da lista.</li>
+  <li>
+<code class="highlighter-rouge">list.copy()</code>: Retorna uma lista com a cópia dos elementos da lista de origem.</li>
+</ul>
+
+<p>Em Python, utilizamos colchetes para criação de listas. Exemplo:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5</pre></td>
+<td class="code"><pre><span class="c"># Apenas números</span>
+<span class="n">lista_numerica</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+
+<span class="c"># Letras e números</span>
+<span class="n">lista_alfanumerica</span> <span class="o">=</span> <span class="p">[</span><span class="s">'a'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">,</span> <span class="s">'c'</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="list-comprehensions-compreensão-de-listas">
+<em>List Comprehensions</em> (Compreensão de Listas)</h2>
+
+<p><em>List Comprehension</em> foi concebida na <a href="https://www.python.org/dev/peps/pep-0202/" target="_blank">PEP 202</a> e é uma forma concisa de criar e manipular listas.</p>
+
+<p>Sua sintaxe básica é:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre><span class="p">[</span><span class="n">expr</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">]</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Em outras palavras: aplique a expressão <code class="highlighter-rouge">expr</code> em cada <code class="highlighter-rouge">item</code> da <code class="highlighter-rouge">lista</code>.</p>
+
+<p><strong>Exemplo</strong>: dado o seguinte código:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2</pre></td>
+<td class="code"><pre><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+  <span class="n">lista</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Podemos reescrevê-lo, utilizando <em>list comprehensions</em>, da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre><span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="n">item</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Ou seja: aplique a potência de 2 em todos os itens da lista.</p>
+
+<p><strong>Outro Exemplo</strong>: dado o seguinte código, que transforma os itens da lista em maiúsculos:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2</pre></td>
+<td class="code"><pre><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">:</span>
+  <span class="n">resultado</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">item</span><span class="p">)</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Podemos reescrevê-lo da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre><span class="n">resultado</span> <span class="o">=</span> <span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">item</span><span class="p">)</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">]</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Está gostando do artigo <strong>e ainda não é cadastrado na nossa lista de emails</strong>?</p>
+
+<div class="email-signup" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="signup-body">
+				<span class="greeting">Está gostando do artigo?</span>
+				<span class="signup-text">Então cadastre o seu email para <span class="blue">receber gratuitamente</span> mais conteúdos como este!</span>
+		        <!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: Quero receber = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <div id="mc_embed_signup_scroll" class="container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-4">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="">
+            </div>
+            
+            <div class="col-xs-6">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="">                
+            </div>
+
+            <div class="col-xs-2">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <i class="fa fa-mail-forward visible-xs" aria-hidden="true"></i>
+                    <span class="hidden-xs">Quero receber</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>            
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+		    </div>
+		</div>
+	</div>      
+</div>
+
+<h2 id="list-comprehensions-com-if">
+<em>List Comprehensions</em> com <em>if</em>
+</h2>
+
+<p><em>List comprehensions</em> podem utilizar expressões condicionais para criar listas ou modificar listas existentes.</p>
+
+<p>Sua sintaxe básica é:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre><span class="p">[</span><span class="n">expr</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">lista</span> <span class="k">if</span> <span class="n">cond</span><span class="p">]</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Ou seja:</p>
+
+<blockquote>
+  <p>Aplique a expressão <code class="highlighter-rouge">expr</code> em cada <code class="highlighter-rouge">item</code> da <code class="highlighter-rouge">lista</code> caso a condição <code class="highlighter-rouge">cond</code> seja satisfeita.</p>
+</blockquote>
+
+<p>Vamos criar algumas listas utilizando condições.</p>
+
+<p>Por exemplo, podemos retirar os números ímpares de um conjunto de número da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre><span class="n">resultado</span> <span class="o">=</span> <span class="p">[</span><span class="n">numero</span> <span class="k">for</span> <span class="n">numero</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span> <span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>O que resulta em:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre>resultado = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]<span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Vamos ver como fica com vários <em>if’s</em>.</p>
+
+<h2 id="list-comprehensions-com-vários-ifs">
+<em>List Comprehensions</em> com vários <em>if’s</em>
+</h2>
+
+<p>Podemos verificar condições em duas listas diferentes dentro da mesma <em>list comprehension</em>.</p>
+
+<p>Por exemplo: gostaríamos de saber os <strong>Múltiplos Comuns</strong> de 5 e 6.</p>
+
+<p>Utilizando múltiplos <code class="highlighter-rouge">if's</code> e <em>list comprehensions</em>, podemos criar o seguinte código:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre><span class="n">resultado</span> <span class="o">=</span> <span class="p">[</span><span class="n">numero</span> <span class="k">for</span> <span class="n">numero</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span> <span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">6</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Ou seja, o número só será passado para lista <code class="highlighter-rouge">resultado</code> caso sua divisão por 5 <strong>E</strong> por 6 seja igual à zero.</p>
+
+<p>O resultado do código acima será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre>resultado = [0, 30, 60, 90]<span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="list-comprehensions-com-if--else">
+<em>List Comprehensions</em> com <em>if</em> + <em>else</em>
+</h2>
+
+<p>Outra forma de se utilizar expressões condicionais e <em>list comprehension</em> é usar o conjunto <code class="highlighter-rouge">if</code> + <code class="highlighter-rouge">else</code>.</p>
+
+<p>A sintaxe básica para essa construção é:</p>
+
+<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre>[resultado_if if expr else resultado_else for item in lista]<span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><strong>Em outras palavras</strong>: para cada item da lista, aplique o resultado <code class="highlighter-rouge">resultado_if</code> se a expressão <code class="highlighter-rouge">expr</code> for verdadeira, 
+caso contrário, aplique <code class="highlighter-rouge">resultado_else</code>.</p>
+
+<p>Por exemplo, queremos criar uma lista que contenha “1” quando determinado número for múltiplo de 5 e “0” caso contrário.</p>
+
+<p>Podemos codificá-lo da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre><span class="n">resultado</span> <span class="o">=</span> <span class="p">[</span><span class="s">'1'</span> <span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">else</span> <span class="s">'0'</span> <span class="k">for</span> <span class="n">numero</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">16</span><span class="p">)]</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Dessa forma, teremos o seguinte resultado:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre>resultado = ['1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1']<span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="múltiplas-list-comprehensions-aninhadas">Múltiplas <em>List Comprehensions</em> (aninhadas)</h2>
+
+<p>É aqui que a brincadeira fica <strong>séria</strong>!</p>
+
+<p>Vamos supor que queiramos transpor uma matriz.</p>
+
+<p>Pra quem não lembra o que é a <strong>Transposição de uma Matriz</strong>, vamos relembrar:</p>
+
+<blockquote>
+  <p>Transpor uma matriz, significa transformar as linhas em colunas e vice-versa.</p>
+</blockquote>
+
+<p>Ou seja, data a seguinte matriz:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5</pre></td>
+<td class="code"><pre><span class="n">matrix</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+  <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">],</span>
+  <span class="p">[</span><span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">]</span>
+<span class="p">]</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Queremos o seguinte resultado:</p>
+
+<p><img src="/assets/posts/list-comprehensions-no-python/matrix-transposta.png" alt="Matriz Transposta" class="img-responsive"></p>
+
+<p>Em Python, podemos fazer isso da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9</pre></td>
+<td class="code"><pre><span class="n">transposta</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">matriz</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">]]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">matriz</span><span class="p">[</span><span class="mi">0</span><span class="p">])):</span>
+    <span class="n">linha_transposta</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">linha</span> <span class="ow">in</span> <span class="n">matriz</span><span class="p">:</span>
+        <span class="n">linha_transposta</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">linha</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="n">transposta</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">linha_transposta</span><span class="p">)</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>A matriz <code class="highlighter-rouge">transposta</code> conteria:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre>transposta = [[1, 4, 9], [2, 5, 10], [3, 6, 11], [4, 8, 12]]<span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Podemos reescrever o código acima, de transposição de matrizes, da seguinte forma, utilizando <em>list comprehension</em>:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2</pre></td>
+<td class="code"><pre><span class="n">matriz</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">]]</span>
+<span class="n">transposta</span> <span class="o">=</span> <span class="p">[[</span><span class="n">linha</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">linha</span> <span class="ow">in</span> <span class="n">matriz</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">)]</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>No código acima:</p>
+
+<ul>
+  <li>No <strong>primeiro <em>loop</em></strong>, <code class="highlighter-rouge">i</code> assume o valor de <strong>0</strong>, portanto <code class="highlighter-rouge">[linha[0] for linha in matriz]</code> vai retornar o primeiro
+elemento de cada linha: <code class="highlighter-rouge">[1, 4, 9]</code>
+</li>
+  <li>No <strong>segundo <em>loop</em></strong>, <code class="highlighter-rouge">i</code> assume o valor de <strong>1</strong>, portanto <code class="highlighter-rouge">[linha[1] for linha in matriz]</code> vai retornar o segundo
+elemento de cada linha: <code class="highlighter-rouge">[2, 5, 10]</code>
+</li>
+  <li>No <strong>terceiro <em>loop</em></strong>, <code class="highlighter-rouge">i</code> assume o valor de <strong>2</strong>, portanto <code class="highlighter-rouge">[linha[2] for linha in matriz]</code> vai retornar o terceiro
+elemento de cada linha: <code class="highlighter-rouge">[3, 6, 11]</code>
+</li>
+  <li>No <strong>quarto <em>loop</em></strong>, <code class="highlighter-rouge">i</code> assume o valor de <strong>3</strong>, portanto <code class="highlighter-rouge">[linha[3] for linha in matriz]</code> vai retornar o quarto
+elemento de cada linha: <code class="highlighter-rouge">[4, 8, 12]</code>
+</li>
+</ul>
+
+<p>Obtendo, assim, o mesmo resultado.</p>
+
+<h2 id="conclusão">Conclusão</h2>
+
+<p>Nesse <em>post</em> vimos como podemos usar <em>list comprehensions</em> para criar e manipular listas de maneira concisa e eficiente.</p>
+
+<p>Vimos quão poderosa essa ferramenta é e as diversas formas de utilizá-la.</p>
+
+<p>Agora que você está craque em <em>List Comprehensions</em>, <strong><em>que tal começar a utilizá-lo?</em></strong></p>
+
+<p>Então… <strong>Mão na massa</strong>! <img class="emoji" title=":muscle:" alt=":muscle:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4aa.png" height="20" width="20"> <img class="emoji" title=":muscle:" alt=":muscle:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4aa.png" height="20" width="20"></p>
+
+<p>Até o próximo <em>post</em>!</p>
+
+
+
+					<div class="blue-yellow-separator no-repeat"></div>
+
+					<div class="blog-post-footer">
+						
+						<div class="blog-post-colophon">
+							<div class="row">
+								<div class="col-xs-12 col-sm-3 text-center">									
+									<img src="/assets/authors/vinicius-ramos/avatar.png" width="100%" alt="Autor" class="profile-img">
+								</div>
+
+								<div class="col-xs-12 col-sm-9">
+									<div class="blog-post-meta">
+										<h2>
+											<span class="blog-post-by">
+												Por Vinícius Ramos
+											</span>
+
+											<b>em <time datetime="2018-10-25" pubdate>25/10/2018</time></b>
+										</h2>
+	
+										<p class="short-description">"<i>O que eu ouço, eu esqueço. O que eu vejo, eu lembro. O que eu faço, eu entendo.</i>"</p>
+
+										<p class="author-media-label">Minhas redes:</p>
+										
+										<ul>
+											
+											<li><a href="mailto:vinicius.ramos@pythonacademy.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+											
+											
+											<li><a href="https://twitter.com/ViniciusAR91" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											
+											
+											<li><a href="https://facebook.com/viniciusramos91" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											
+											
+											<li><a href="https://github.com/viniciusramos91" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+											
+											
+											<li><a href="https://stackoverflow.com/users/6775679/viniciusramos91" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+											
+											
+										</ul>
+									</div>
+								</div>
+							</div>				
+						</div>
+					</div>
+				</div>				
+			</div>									
+		</div>	
+
+		<!-- READ MORE -->	
+		<div class="more-posts">
+			<section class="container">
+				<div class="section-header">
+		            <h2 class="black">Continue aprendendo!</h2>
+		        </div>
+
+				<div class="row">
+					<div id="random_posts"></div>
+				</div>	
+
+				<div class="text-center">
+	                <a href="/blog/index.html" class="button ripple-out-animation">
+	                    ←  Retornar ao Blog
+	                </a>
+	            </div>		
+			</section>		
+		</div>
+
+						
+			
+<div id="comment-box" class="center-block">
+    <div class="container">
+        <div id="disqus_thread"></div>        
+    </div>
+</div>
+
+		
+
+		<!-- Affix -->		
+		<div class="social-media-affix">
+			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
+			<ul>				
+				<li>
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/list-comprehensions-no-python','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+						<i class="fa fa-fw fa-facebook"></i>
+					</a>
+				</li>				
+				
+				<li>							
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/list-comprehensions-no-python&amp;related=PythonAcademyBR&amp;text=%22List%20Comprehensions%20no%20Python%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+						<i class="fa fa-fw fa-twitter"></i>
+					</a>
+				</li>
+
+				<li>
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/list-comprehensions-no-python" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/list-comprehensions-no-python" data-action="share/whatsapp/share">
+						<i class="fa fa-fw fa-whatsapp"></i>
+					</a>
+				</li>
+
+				<li>
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=List%20Comprehensions%20no%20Python&amp;body=https://pythonacademy.com.br/blog/list-comprehensions-no-python&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+						<i class="fa fa-fw fa-envelope"></i>
+					</a>
+				</li>
+
+				
+			</ul>
+		</div>		
+
+		
 
 
 <section id="footer-signup">
@@ -543,12 +755,7 @@
 				<!-- Include MailChimp email form with input and submit button -->
 <!-- Parameters: Eu quero! = button label  -->
 
-<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" 
-    method="post" id="mc-embedded-subscribe-form" 
-    name="mc-embedded-subscribe-form" 
-    class="validate" 
-    target="_blank" 
-    novalidate>
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll" class="container-fluid">        
         <div class="row no-gutters">
             <div class="col-xs-4">
@@ -673,7 +880,7 @@
 <section id="footer-copyright">
 	<div class="text-center">
 		<p>
-			&copy;&nbsp;<b>2018</b>&nbsp;Python Academy <img src="/assets/img/cross.png" alt="Conheça Jesus Cristo!" height="24px" class="ml-16 mr-16 hidden-xs"> <br class="visible-xs">
+			© <b>2018</b> Python Academy <img src="/assets/img/cross.png" alt="Conheça Jesus Cristo!" height="24px" class="ml-16 mr-16 hidden-xs"> <br class="visible-xs">
 			<i>"Porque o Senhor dá a <b>sabedoria</b>, e da sua boca vem a <b>inteligência</b> e o <b>entendimento</b>" Pv 2:6</i>
 		</p>
 	</div>
@@ -685,71 +892,125 @@
 <script src="/assets/js/script.js"></script>
 
 
-        <!-- Javascript -->		
-        <script type="text/javascript">	    	
-            (function($) {               
-                AOS.init({
-                    easing: 'ease-out-back',
-                    duration: 1500
-                });
-            })(jQuery);
+		<!-- Cookie.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
+		
+		<!-- Javascript -->		
+		<script type="text/javascript">			
+			(function($) {
+	            AOS.init({
+	                easing: 'ease-out-back',
+	                duration: 1500
+				});
 
-            
-                new Vivus('featured-icon-0', {
+				generateRandomPosts();
+			})(jQuery);
+			
+			
+				new Vivus('featured-icon', {
 					duration: 80,
 					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
 				});
-            
-                new Vivus('featured-icon-1', {
-					duration: 80,
-					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
+						
+
+			$('.social-media-affix').affix({
+                offset: {
+                    top: $(".post-banner").height()
+                }
+            });
+
+			// Generate random posts
+            function generateRandomPosts() {
+				var counter = 0;	            
+
+		        $.getJSON("/blog/posts.json", function(data) {
+					var postsCount = data.length;					
+		            var posts = data;
+
+					var randomIndexUsed = [];	
+		            var numberOfPosts = 3;
+
+		            var divRandomPosts = $("#random_posts");		            
+
+		            while (counter < numberOfPosts) {
+						var randomIndex = Math.floor(Math.random() * postsCount);
+						
+						if (randomIndexUsed.indexOf(randomIndex) == "-1") {
+
+							var post = posts[randomIndex];
+
+							// Verify if related post is the same as the shown
+							if (post.title != "List Comprehensions no Python") {
+								var postHTML = 
+									"<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>" +
+										"<a href='" + post.href + "' class='card aos-init aos-animate' data-aos='fade-up'>" +
+											"<div class='card-frame'>" +
+												"<object id='featured-icon-" + counter + " class=featured-icon' type='image/svg+xml' data='/assets/posts/" + post.slug + "/" + post.featured_icon + "' height='175px'></object>" +
+											"</div>" + 
+											
+											"<div class='caption'>" +
+												"<h3 class='card-title'>" +
+													post.title +
+												"</h3>" +
+											"</div>" +
+										"</div>" +
+									"</div>"
+
+								divRandomPosts.append(postHTML);
+								randomIndexUsed.push(randomIndex);
+								
+								counter++;
+							}
+						}
+					}
 				});
-            
-                new Vivus('featured-icon-2', {
-					duration: 80,
-					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-				});
-            
-                new Vivus('featured-icon-3', {
-					duration: 80,
-					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-				});
-            
-                new Vivus('featured-icon-4', {
-					duration: 80,
-					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-				});
-            
-                new Vivus('featured-icon-5', {
-					duration: 80,
-					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-				});
-            
-                new Vivus('featured-icon-6', {
-					duration: 80,
-					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-				});
-            
-                new Vivus('featured-icon-7', {
-					duration: 80,
-					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-				});
-            
-                new Vivus('featured-icon-8', {
-					duration: 80,
-					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-				});
-            
-                new Vivus('featured-icon-9', {
-					duration: 80,
-					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-				});
-            
-                new Vivus('featured-icon-10', {
-					duration: 80,
-					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-				});
-            
+								
+			}
+			
+			// Show signup modal on mouse leave event
+            $( document ).ready(function() {
+                $("body").bind("mouseleave",function(){
+                    if(!Cookies.get('pythonacademy_popup')) {
+						
+						// Same as included sticky-newsletter id
+                        $('#email-modal').modal('show');
+
+                        /* Set cookie so this does not repeat */
+                        Cookies.set('pythonacademy_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/list-comprehensions-no-python' });
+                    }
+				});		
+				
+				// Initialize SVG animation on each related posts
+				$("#random_posts").find('.card-frame object').each(function(index, element) {
+					new Vivus(element, {
+						duration: 80,
+						type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
+					});
+				})
+            });
+
         </script>
-    </body>
+		
+		<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"d818a1dcab21e0bb6fbe4a39b","lid":"11b4623db6"}) })</script>	
+
+		
+			<script type="text/javascript">
+				var disqus_config = function () {
+					this.page.url = 'https://pythonacademy.com.br/blog/list-comprehensions-no-python';     // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = '/blog/list-comprehensions-no-python';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+			
+				(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = '//python-academy.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+			</script>
+		
+			<noscript>Por favor, habilite o Javascript para visualizar os <a href="https://disqus.com/?ref_noscript">comentários.</a>
+</noscript>
+		
+	</body>
 </html>
+

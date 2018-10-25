@@ -2,6 +2,22 @@
     
     
     {
+      "title": "List Comprehensions no Python",
+      "href": "/blog/list-comprehensions-no-python",
+      "slug": "list-comprehensions-no-python",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post, vamos aprender uma forma concisa de se declarar e utilizar listas no Python, usando o conceito de <em>List Comprehensions</em></p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "25",
+         "month": "October",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
       "title": "Iterators e Generators em Python",
       "href": "/blog/iterators-e-generators-em-python",
       "slug": "iterators-e-generators-em-python",
