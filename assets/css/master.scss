@@ -103,20 +103,21 @@ a {
 // ================================================================
 
 .header-section {
-    background: #F7F7F7;    
+    background: #F7F7F7;
     min-height: calc(100vh - 85px);
+    width: 100%;
+    display: table;
 
     .header-section-wrapper {
         display: table;
-        vertical-align: middle;
-        min-height: calc(100vh - 85px);
         margin: 0 auto;
 
         .header-section-content {
             display: table-cell;
             vertical-align: middle;
             text-align: center;
-            max-width: 100%;         
+            max-width: 100%;
+            height: calc(100vh - 85px);
             
             object {
                 max-width: 500px;
@@ -1163,7 +1164,7 @@ a {
         padding: 148px 0;
         border-top: 1px solid #E2E2E2;
         border-bottom: 1px solid #E2E2E2;
-        background: #F7F7F7 url('assets/svg/dark-bground-pattern.svg');
+        background: #F7F7F7 url('/assets/svg/dark-bground-pattern.svg');
         text-align: center;
 
         h2 {
@@ -1355,7 +1356,7 @@ a {
         }
 
         .reference {
-            list-style-image: url('assets/img/bullet-list.png');
+            list-style-image: url('/assets/img/bullet-list.png');
         }
 
         .explanation-box {
@@ -1426,7 +1427,7 @@ a {
     color: #FFF;        
 
     &.blue {
-        background: #306998 asset_url("/assets/svg/blog-bground-pattern.svg");
+        background: #306998 url("/assets/svg/blog-bground-pattern.svg");
 
         &:hover {
             color: #FFF;
@@ -1453,7 +1454,7 @@ a {
 
         &:hover {
             color: #444;
-            background: #EAEAEA url('/assets/svg/dark-bground-pattern.svg');
+            background: #EAEAEA url('../svg/dark-bground-pattern.svg');
         }
 
         @media (max-width: 767px) {                        
@@ -1523,6 +1524,162 @@ a {
     }
 }
 
+// EBOOK
+// ================================================================
+
+.ebook-container {
+    background: #F2F2F2;
+    background-image: url('/assets/svg/blog-bground-pattern.svg'), -moz-radial-gradient(center, ellipse cover, #FFF 0%, #DDD 100%);
+    background-image: url('/assets/svg/blog-bground-pattern.svg'), -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #FFF), color-stop(100%, #DDD));
+    background-image: url('/assets/svg/blog-bground-pattern.svg'), -webkit-radial-gradient(center, ellipse cover, #FFF 0%, #DDD 100%);
+    background-image: url('/assets/svg/blog-bground-pattern.svg'), -o-radial-gradient(center, ellipse cover, #FFF 0%, #DDD 100%);
+    background-image: url('/assets/svg/blog-bground-pattern.svg'), radial-gradient(ellipse at center, #FFF 0%, #DDD 100%);
+    min-height: calc(100vh - 80px);
+    padding-top: 15vh;
+
+    @media(max-width: 1200px) {
+        padding-top: 5vh;
+    }
+
+    .ebook-info {
+        text-align: left;
+
+        .signup-input {
+            @media(max-width: 767px) {
+                margin-bottom: 16px;
+                width: 60% !important;
+            }
+
+            @media(max-width: 400px) {
+                width: 90% !important;
+            }
+        }
+
+        button.btn {
+            @media (max-width: 767px) {
+                width: 35% !important;
+            }
+
+            @media(max-width: 400px) {
+                width: 50% !important;
+            }
+        }
+
+        .ebook-cover {
+            height: 400px;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.075);
+
+            @media(max-width: 1200px) {
+                height: 200px;
+            }
+
+            @media (max-height: 700px) {
+                height: 175px;
+            }
+        }
+
+        .ebook-data {
+            padding: 41px 0;
+
+            .ebook-label {
+                font-family: 'Roboto Condensed', sans-serif;
+                color: #f3c30e;
+            }
+
+            .ebook-name {
+                font-family: 'Roboto Condensed', sans-serif;
+                color: #3e464f;
+                margin: 0 0 32px 0;
+            }
+
+            .ebook-description {
+                font-family: 'GT Walsheim', sans-serif;
+                color: #3e464f;
+                font-size: 1.84rem;
+                line-height: 32px;
+                margin-bottom: 32px;
+
+                @media (max-height: 700px) {
+                    display: none;
+                }
+
+                @media (max-width: 700px) {
+                    line-height: 25px;
+                }
+            }                
+
+            @media (max-width: 1200px) {
+                text-align: center;
+
+                .ebook-cover {
+                    height: 200px;
+                    margin-bottom: 32px;
+                }
+
+                .ebook-label {
+                    font-size: 1.4rem;
+                }
+
+                .ebook-name {
+                    font-size: 3rem;
+                    margin-bottom: 16px;
+                }
+
+                .ebook-description {
+                    font-size: 1.65rem;
+                }    
+            }
+
+            @media (max-height: 700px) {
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+.ebook-footer-wrapper { 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    .footer-inner {
+        padding: 10px 6px 20px 6px;
+        
+        ul {
+            list-style: none;
+            margin-bottom: 0;
+            padding: 0;
+            
+            li {
+                display: inline;
+
+                p {
+                    font-family: 'Roboto Condensed', sans-serif;
+                    margin: 0;
+                }
+
+                i {
+                    font-size: 2.5rem;
+                    color: #FFF;
+                    margin: 0 0.5rem;
+                }
+
+                i.fa-facebook-square {
+                    color: #3b5998;
+                }
+
+                i.fa-twitter-square {
+                    color: #00aced;
+                }
+
+                i.fa-linkedin-square {
+                    color: #007bb6;
+                }
+            }
+        }
+    }
+}
+
 // SCENE WRAPPER
 // ================================================================
 
@@ -1578,7 +1735,7 @@ a {
                 background-image: url('/assets/svg/blog-bground-pattern.svg'), -o-radial-gradient(center, ellipse cover, #FFF 0%, #CCC 100%);
                 background-image: url('/assets/svg/blog-bground-pattern.svg'), radial-gradient(ellipse at center, #FFF 0%, #CCC 100%);
 
-                // background-image: url('/assets/svg/blog-bground-pattern.svg'), linear-gradient(to bottom, #000, #111);
+                // background-image: url('../svg/blog-bground-pattern.svg'), linear-gradient(to bottom, #000, #111);
                 //height: 100vh;
                 bottom: 96px;
                 background-size: cover;
@@ -1805,32 +1962,24 @@ a {
                     font-size: 1.6rem;
                     font-weight: 600;
                     padding: 16px 4px;
-                    border-radius: 5px;
-                    border: 2px solid #3e464f;
-                    color: #3e464f;
+                    border-radius: 0;
+                    // border: 2px solid #3e464f;
+                    color: #FFF;
 
                     &.facebook {
-                        i {
-                            color: #3B5999;
-                        }
+                        background-color: #3B5999;
                     }
 
                     &.twitter {
-                        i {
-                            color: #2DB0EE;
-                        }
+                        background-color: #2DB0EE;
                     }
 
                     &.whatsapp {
-                        i {
-                            color: #128C7E;
-                        }
+                        background-color: #128C7E;
                     }
 
                     &.email {
-                        i {
-                            color: #e74c3c;
-                        }
+                        background-color: #e74c3c;
                     }
 
                     i {
