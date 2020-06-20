@@ -23,6 +23,12 @@ a {
     }
 }
 
+@media (min-width: 1200px) {
+    .container {
+        width: 1400px;
+    }   
+}
+
 // HEADER
 // ================================================================
 
@@ -103,7 +109,7 @@ a {
 // ================================================================
 
 .header-section {
-    background: #F7F7F7;
+    background: linear-gradient(-45deg, #E2E2E2 0%, #FAFAFA 20%);
     min-height: calc(100vh - 85px);
     width: 100%;
     display: table;
@@ -246,7 +252,7 @@ a {
 
 #blog {
     padding: 96px 0;
-    background: #f2f2f2 url('/assets/svg/dark-bground-pattern.svg');
+    background: #f2f2f2;
 
     .section-header {
         color: #454545;
@@ -276,7 +282,7 @@ a {
 
 #ebooks {
     padding: 96px 0;
-    background-image: url('/assets/svg/blog-bground-pattern.svg'), linear-gradient(to bottom, #000, #111);
+    background-image: url('/assets/svg/stars-bground.svg'), linear-gradient(to bottom, #000, #202020);
 
     .section-header,
     .section-sub-header {
@@ -416,7 +422,7 @@ a {
     border-radius: 3px;
     background-color: #fff;
     width: 99.9999%;
-    border: 1px solid #E2E2E2;
+    // border: 1px solid #E2E2E2;
     margin-bottom: 32px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
     z-index: 999;
@@ -466,7 +472,7 @@ a {
 
     .caption {
         text-align: left;
-        padding: 10px 20px;
+        padding: 22px;
     
         .card-title {            
             font-family: 'Roboto Condensed',sans-serif;
@@ -855,8 +861,7 @@ a {
     border-radius: 10px;
     width: 130%;
     position: relative;
-    left: -15% ;
-    border: 1px solid #d3d8dc;
+    left: -15% ;    
 
     p {
         padding: 0
@@ -916,7 +921,7 @@ a {
         .banner-content {
             display: table-cell;
             vertical-align: middle;
-            text-align: center;
+            text-align: left;
             padding: 96px 0;
 
             h1 {
@@ -924,7 +929,7 @@ a {
                 text-transform: uppercase;
                 font-size: 5rem;
                 color: #FFF;
-                margin: 0 0 32px 0;
+                margin: 0 0 24px 0;
             }
 
             h2 {
@@ -937,15 +942,18 @@ a {
     }
 
     &.blog-banner {
-        background: #2d98da url('/assets/svg/blog-bground-pattern.svg');
+        // background: #2d98da url('/assets/svg/blog-bground-pattern.svg');
+        background: url("/assets/svg/stars-bground.svg"),linear-gradient(to bottom, #1b72c3, #2d98da);
     }
 
     &.sliders-banner {
-        background: #f3c30e url('/assets/svg/blog-bground-pattern.svg');
+        // background: #f3c30e url('/assets/svg/blog-bground-pattern.svg');
+        background: url("/assets/svg/stars-bground.svg"), #f3c30e;
     }
 
     &.zop-banner {
-        background: #232323 url('/assets/svg/blog-bground-pattern.svg');
+        // background: #232323 url('/assets/svg/blog-bground-pattern.svg');
+        background: #232323;
     }
 }
 
@@ -953,8 +961,8 @@ a {
 // ================================================================
 
 .posts-list {
-    background: #f7f7f7 url('/assets/svg/dark-bground-pattern.svg');
-    padding: 128px 0;   
+    background: #f7f7f7;
+    padding: 48px 0;   
     position: relative;
     overflow: hidden;
 }
@@ -964,7 +972,7 @@ a {
 
 .sliders-list {
     background: #f7f7f7 url('/assets/svg/dark-bground-pattern.svg');
-    padding: 128px 0;   
+    padding: 72px 0 38px 0;   
     position: relative;
 }
 
@@ -1234,7 +1242,7 @@ a {
         padding: 148px 0;        
         text-align: center;
         color: #FFF;
-        text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+        // text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
         transition: all 0.15s ease;
         
         &.blog {
@@ -1350,22 +1358,17 @@ a {
             color: #444;
             font-size: 2.5rem;
         }
-
-        .blue-yellow-separator {
-            margin-bottom: 32px;;
-        }
-
+        
         .reference {
             list-style-image: url('/assets/img/bullet-list.png');
         }
 
         .explanation-box {
-            background: #FFF;
-            border: 1px solid #CCC;
-            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
-            padding: 24px;
-            border-radius: 6px 6px 0 0;
-            margin-bottom: 0;
+            background: #FFF;            
+            box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+            padding: 48px;
+            border-radius: 25px;
+            margin-bottom: 48px;
 
             p {
                 font-size: 2rem;
@@ -1421,10 +1424,40 @@ a {
     text-transform: uppercase;
     letter-spacing: 1.5px;  
     display: inline-block;
+    border: 1px solid transparent;
     padding: 14px 48px;                
     font-size: 1.75rem;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
     color: #FFF;        
+
+    &.neumorphism {
+        text-shadow: none;
+        color: #555;
+        box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.09), -8px -8px 12px 0 rgb(255, 255, 255);
+        transition: all 0.15s ease;
+
+        &.on-white {
+            box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.1), -8px -8px 12px 0 rgba(0, 0, 0, 0.03);
+        }        
+
+        &.blue {
+            color: #FFF;
+            background: #306998;
+        }
+
+        &:hover {
+            color: #333;
+            box-shadow: 6px 6px 10px 0 rgba(0, 0, 0, 0.18), -5px -5px 10px 0 rgb(255, 255, 255);
+            border-left: 1px solid #F4F4F4;
+            border-top: 1px solid #F4F4F4;
+
+            span {
+                color: #306998;
+                text-decoration: underline;
+            }
+        }
+    }
+    
 
     &.blue {
         background: #306998 url("/assets/svg/blog-bground-pattern.svg");
