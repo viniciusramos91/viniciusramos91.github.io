@@ -5,6 +5,7 @@
       "title": "List Comprehensions no Python",
       "href": "/blog/list-comprehensions-no-python",
       "slug": "list-comprehensions-no-python",
+      "assets": "list-comprehensions",
       "author": "Vinícius R",
       "description": "<p>Nesse post, vamos aprender uma forma concisa de se declarar e utilizar listas no Python, usando o conceito de <em>List Comprehensions</em></p>",
       "featured_icon": "featured_icon.svg",
@@ -21,6 +22,7 @@
       "title": "Iterators e Generators em Python",
       "href": "/blog/iterators-e-generators-em-python",
       "slug": "iterators-e-generators-em-python",
+      "assets": "iterators-and-generators",
       "author": "Vinícius R",
       "description": "<p>Você já deve ter ouvido falar em Iterators e Generators em Ptyhon. Mas você sabe o que são? Nesse post vamos aprender um pouco mais dessas duas ferramentas poderosas do Python!</p>",
       "featured_icon": "featured_icon.svg",
@@ -37,6 +39,7 @@
       "title": "Desenvolvimento Web com Python e Django: Template",
       "href": "/blog/desenvolvimento-web-com-python-e-django-template",
       "slug": "desenvolvimento-web-com-python-e-django-template",
+      "assets": "django-template",
       "author": "Vinícius R",
       "description": "<p>Nesse post, vamos tratar da camada <em>Template</em> do Django. Vamos aprender como utilizar, configurar e estender os templates do Django, como utilizar filtros e tags do Django e como criar nossas tags e filtros customizados!</p>",
       "featured_icon": "featured_icon.svg",
@@ -53,6 +56,7 @@
       "title": "Desenvolvimento Web com Python e Django: View",
       "href": "/blog/desenvolvimento-web-com-python-e-django-view",
       "slug": "desenvolvimento-web-com-python-e-django-view",
+      "assets": "django-view",
       "author": "Vinícius R",
       "description": "<p>Nesse post, vamos tratar da camada <em>View</em> do Django. Nela, nós desenvolvemos a lógica de negócio da nossa aplicação. Vamos ver sobre rotas, processamento de requisições e respostas, utilização de formulários e muito mais!</p>",
       "featured_icon": "featured_icon.svg",
@@ -66,9 +70,27 @@
     
     
     {
+      "title": "O comando makemigrations do Django",
+      "href": "/blog/o-comando-makemigrations-do-django",
+      "slug": "o-comando-makemigrations-do-django",
+      "assets": "django-command-makemigrations",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post, vamos ver o funcionamento do comando makemigrations do Django, suas opções e quando devemos usá-lo.</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "30",
+         "month": "May",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
       "title": "Desenvolvimento Web com Python e Django: Model",
       "href": "/blog/desenvolvimento-web-com-python-e-django-model",
       "slug": "desenvolvimento-web-com-python-e-django-model",
+      "assets": "django-model",
       "author": "Vinícius R",
       "description": "<p>Nesse post, vamos tratar da camada Model do Django. Vamos abordar detalhes dessa camada, mapeamento objeto-relacional, a API de acesso a dados provida pelo Django e modelagem de dados.</p>",
       "featured_icon": "featured_icon.svg",
@@ -85,6 +107,7 @@
       "title": "Desenvolvimento Web com Python e Django: Introdução",
       "href": "/blog/desenvolvimento-web-com-python-e-django-introducao",
       "slug": "desenvolvimento-web-com-python-e-django-introducao",
+      "assets": "django-introduction",
       "author": "Vinícius R",
       "description": "<p>O Django é uma framework de desenvolvimento Web Python completa e robusta. Nesse post introdutório, vamos abordar os a arquitetura do framework e primeiros passos para o desenvlvimento web com Python.</p>",
       "featured_icon": "featured_icon.svg",
@@ -101,6 +124,7 @@
       "title": "Porquê aprender Python: 5 motivos para começar AGORA!",
       "href": "/blog/porque-aprender-python-5-motivos-para-aprender-agora",
       "slug": "porque-aprender-python-5-motivos-para-aprender-agora",
+      "assets": "why-learn-python",
       "author": "Vinícius R",
       "description": "<p>Nesse artigo, vamos abordar 5 motivos que irão te fazer começar a aprender Python ainda hoje!</p>",
       "featured_icon": "featured_icon.svg",
@@ -117,6 +141,7 @@
       "title": "Como Criar Jogos com Python e Kivy",
       "href": "/blog/como-criar-jogos-com-python-e-kivy",
       "slug": "como-criar-jogos-com-python-e-kivy",
+      "assets": "games-with-python-and-kivy",
       "author": "Vinícius R",
       "description": "<p>Que tal desenvolver seu primeiro jogo em Python utilizando o framework Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do ZERO!</p>",
       "featured_icon": "featured_icon.svg",
@@ -133,6 +158,7 @@
       "title": "Desenvolva Aplicativos para Android, iOS e Muito Mais com Python e Kivy",
       "href": "/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy",
       "slug": "desenvolva-aplicativos-para-android-ios-com-python-e-kivy",
+      "assets": "python-and-kivy",
       "author": "Vinícius R",
       "description": "<p>Nesse post vamos explorar mais uma incrível possibilidade do Python, o desenvolvimento cross-platform utilizando o framework Kivy!</p>",
       "featured_icon": "featured_icon.svg",
@@ -149,6 +175,7 @@
       "title": "Domine Decorators em Python",
       "href": "/blog/domine-decorators-em-python",
       "slug": "domine-decorators-em-python",
+      "assets": "decorators",
       "author": "Vinícius R",
       "description": "<p>Decorators modificam o comportamente do código antes e depois da execução de uma dada função, sem a necessidade de modificar o próprio código da mesma, adicionando funcionalidades.</p>",
       "featured_icon": "domine-decorators-em-python.svg",
@@ -165,6 +192,7 @@
       "title": "Python e Virtualenv: Como Programar em Ambientes Virtuais",
       "href": "/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais",
       "slug": "python-e-virtualenv-como-programar-em-ambientes-virtuais",
+      "assets": "python-and-virtualenv",
       "author": "Vinícius R",
       "description": "<p>Vamos entender o funcionamento do incrível virtualenv, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.</p>",
       "featured_icon": "featured_icon.svg",

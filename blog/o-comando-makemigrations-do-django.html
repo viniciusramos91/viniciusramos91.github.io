@@ -20,7 +20,7 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
 
-		<title>List Comprehensions no Python</title>
+		<title>O comando makemigrations do Django</title>
 		<link rel="icon" type="image/png" href="/assets/img/favicon.png">
 
 		
@@ -29,7 +29,7 @@
 		
 
 		<!-- Canonical URL -->
-		<link rel="canonical" href="https://pythonacademy.com.br/blog/list-comprehensions-no-python">	
+		<link rel="canonical" href="https://pythonacademy.com.br/blog/o-comando-makemigrations-do-django">	
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -60,17 +60,17 @@
 				
 
 		<!-- General -->
-		<meta name="description" content="Nesse post, vamos aprender uma forma concisa de se declarar e utilizar listas no Python, usando o conceito de List Comprehensions">		
+		<meta name="description" content="Nesse post, vamos ver o funcionamento do comando makemigrations do Django, suas opções e quando devemos usá-lo.">		
 
 		<!-- Open Graph -->
 		<meta property="fb:app_id" content="220280761884954">
 		<meta property="og:site_name" content="Python Academy">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="List Comprehensions no Python">
-		<meta property="og:url" content="https://pythonacademy.com.br/blog/list-comprehensions-no-python">
-		<meta property="og:description" content="Nesse post, vamos aprender uma forma concisa de se declarar e utilizar listas no Python, usando o conceito de List Comprehensions">
-		<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/list-comprehensions/facebook_img.png" />
-		<meta property="og:image:alt" content="List Comprehensions no Python" />
+		<meta property="og:title" content="O comando makemigrations do Django">
+		<meta property="og:url" content="https://pythonacademy.com.br/blog/o-comando-makemigrations-do-django">
+		<meta property="og:description" content="Nesse post, vamos ver o funcionamento do comando makemigrations do Django, suas opções e quando devemos usá-lo.">
+		<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/django-command-makemigrations/facebook.png" />
+		<meta property="og:image:alt" content="O comando makemigrations do Django" />
 		<meta property="og:image:type" content="image/png" />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
@@ -78,9 +78,9 @@
 		<!-- Twitter cards -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-		<meta name="twitter:title" content="List Comprehensions no Python">
-		<meta name="twitter:description" content="Nesse post, vamos aprender uma forma concisa de se declarar e utilizar listas no Python, usando o conceito de List Comprehensions">
-		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/list-comprehensions/twitter_img.png">
+		<meta name="twitter:title" content="O comando makemigrations do Django">
+		<meta name="twitter:description" content="Nesse post, vamos ver o funcionamento do comando makemigrations do Django, suas opções e quando devemos usá-lo.">
+		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/django-command-makemigrations/twitter.png">
 		
 		<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
 			
@@ -207,18 +207,18 @@
 		<div class="main-container" data-aos="fade-in" data-aos-duration="1500">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
-					<div class="post-banner-content" style="background: #043344 url('/assets/svg/stars-bground.svg');">
+					<div class="post-banner-content" style="background: #051a12 url('/assets/svg/stars-bground.svg');">
 						<div class="container">	
 							<div class="wrapper">
 								<div class="featured-icon-wrapper">
-									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/list-comprehensions/featured_icon.svg" width="90%">
+									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/django-command-makemigrations/featured_icon.svg" width="90%">
 									</object>															
 								</div>
 							</div>													
 			
 							
 							<h1 class="blog-post-title font-shadow">
-								List Comprehensions no Python
+								O comando makemigrations do Django
 							</h1>			
 						</div>			
 					</div>
@@ -252,397 +252,143 @@
 			<div class="container post-container">
 				<div class="blog-post-content">
 					
-<p>Olá Pythonista!</p>
+<p>Nesse post, vamos ver o que o comando <code class="highlighter-rouge">makemigrations</code> faz, as opções do comando e o porquê de ele ser tão importante na vida do desenvolvedor Django!</p>
 
-<p>No <em>post</em> de hoje, vamos aprender sobre uma ferramenta que utilizo <strong>muito</strong> no meu dia a dia: <em>List Comprehensions</em>!</p>
-
-<p>Com esse conceito, podemos otimizar a utilização de listas, sua criação e seu manuseio (e de quebra, diminuir 
-algumas linhas de código).</p>
-
-<p>Vamos ver as mais diversas formas de se utilizar <em>list comprehensions</em> e praticar com exemplos!</p>
+<p>Ajusta sua cadeira e vamos nessa!</p>
 
 <h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
 
 <ul id="markdown-toc">
-  <li><a href="#listas-em-python" id="markdown-toc-listas-em-python">Listas em Python</a></li>
-  <li><a href="#list-comprehensions-compreens%C3%A3o-de-listas" id="markdown-toc-list-comprehensions-compreensão-de-listas"><em>List Comprehensions</em> (Compreensão de Listas)</a></li>
-  <li><a href="#list-comprehensions-com-if" id="markdown-toc-list-comprehensions-com-if"><em>List Comprehensions</em> com <em>if</em></a></li>
-  <li><a href="#list-comprehensions-com-v%C3%A1rios-ifs" id="markdown-toc-list-comprehensions-com-vários-ifs"><em>List Comprehensions</em> com vários <em>if’s</em></a></li>
-  <li><a href="#list-comprehensions-com-if--else" id="markdown-toc-list-comprehensions-com-if--else"><em>List Comprehensions</em> com <em>if</em> + <em>else</em></a></li>
-  <li><a href="#m%C3%BAltiplas-list-comprehensions-aninhadas" id="markdown-toc-múltiplas-list-comprehensions-aninhadas">Múltiplas <em>List Comprehensions</em> (aninhadas)</a></li>
-  <li><a href="#conclus%C3%A3o" id="markdown-toc-conclusão">Conclusão</a></li>
+  <li><a href="#onde-estamos" id="markdown-toc-onde-estamos">Onde estamos…</a></li>
+  <li><a href="#o-comando-makemigrations" id="markdown-toc-o-comando-makemigrations">O comando <code class="highlighter-rouge">makemigrations</code></a></li>
+  <li><a href="#op%C3%A7%C3%B5es-do-comando-makemigrations" id="markdown-toc-opções-do-comando-makemigrations">Opções do comando <code class="highlighter-rouge">makemigrations</code></a></li>
 </ul>
 
-<h2 id="listas-em-python">Listas em Python</h2>
+<h2 id="onde-estamos">Onde estamos…</h2>
 
-<p><strong>Lista</strong> é uma estrutura de dados provida pela própria linguagem e que utilizamos muito na programação Python.</p>
+<p>Primeiramente, vamos nos situar…</p>
 
-<p>Saber como manuseá-las corretamente, otimizando seu código e tirando maior proveito daquilo que o Python 
-nos proporciona, é sempre uma <strong>boa ideia</strong>.</p>
+<p><img src="/assets/posts/django-model/django-architecture.png" alt="Arquitetura do Django - Model" class="img-responsive"></p>
 
-<p>Os seguintes métodos estão disponíveis em uma lista:</p>
+<p>No <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" target="_blank">primeiro post da nossa Série de Django</a>, tratamos de conceitos introdutórios do <em>framework</em>, uma visão geral da sua arquitetura, sua instalacão e a criação do <strong><em>Hello World, Django</em></strong>.</p>
 
-<ul>
-  <li>
-<code class="highlighter-rouge">list.append(x)</code>: Adiciona um item ao fim da lista.</li>
-  <li>
-<code class="highlighter-rouge">list.extend(iterable)</code>: Adiciona todos os itens do iterável <em>iterable</em> ao fim da lista.</li>
-  <li>
-<code class="highlighter-rouge">list.insert(i, x)</code>: Insere um item em uma dada posição <strong>i</strong>.</li>
-  <li>
-<code class="highlighter-rouge">list.remove(x)</code>: Remove o primeiro elemento, cujo valor seja <strong>x</strong>.</li>
-  <li>
-<code class="highlighter-rouge">list.pop(i)</code>: Remove o item de posição <strong>i</strong> da lista e o retorna. Caso <strong>i</strong> não seja especificado, retorna o último elemento da lista.</li>
-  <li>
-<code class="highlighter-rouge">list.clear()</code>: Remove todos os elementos da lista.</li>
-  <li>
-<code class="highlighter-rouge">list.index(x[, start[, end]])</code>: Retorna o índice do primeiro elemento cujo valor seja <strong>x</strong>.</li>
-  <li>
-<code class="highlighter-rouge">list.count(x)</code>: Retorna o número de vezes que o valor <strong>x</strong> aparece na lista.</li>
-  <li>
-<code class="highlighter-rouge">list.sort(key=None, reverse=False)</code>: Ordena os items da lista (os argumentos podem ser usados para customizar a ordenação).</li>
-  <li>
-<code class="highlighter-rouge">list.reverse()</code>: Reverte os elementos da lista.</li>
-  <li>
-<code class="highlighter-rouge">list.copy()</code>: Retorna uma lista com a cópia dos elementos da lista de origem.</li>
-</ul>
+<p>Já no <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model" target="_blank">segundo post da Série</a>, tratamos da camada <em>Model</em>, onde definimos as entidades do nosso sistema, a interface com o banco de dados e aprendemos como utilizar a API de acesso a dados provida pelo Django - que facilita muito nossa vida!</p>
 
-<p>Em Python, utilizamos colchetes para criação de listas. Exemplo:</p>
+<p>Agora, vamos ver o funcionamento de um dos comandos mais importantes da camada <em>Model</em> do Django: o <code class="highlighter-rouge">makemigrations</code>.</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<h2 id="o-comando-makemigrations">O comando <code class="highlighter-rouge">makemigrations</code>
+</h2>
+
+<p>O comando <code class="highlighter-rouge">makemigrations</code> analisa se foram feitas mudanças nos modelos e, em caso positivo, cria novas migrações (<code class="highlighter-rouge">Migrations</code>) para alterar a estrutura do seu banco de dados, refletindo as alterações feitas.</p>
+
+<p>Vamos entender o que eu acabei de dizer: toda vez que você faz uma <strong>alteração</strong> em seu modelo, é necessário que ela seja <strong>aplicada</strong> à estrutura presente no banco de dados.</p>
+
+<p>A esse processo é dado o nome de <strong>Migração</strong>!</p>
+
+<p>De acordo com a documentação do Django:</p>
+
+<blockquote>
+  <p>Migração é a forma do Django de <strong>propagar as alterações</strong> feitas em seu modelo (adição de um novo campo, deleção de um modelo, etc…) ao seu esquema do banco de dados.
+Elas foram desenvolvidos para serem (a maioria das vezes) <strong>automáticas</strong>, mas cabe a você saber a hora de fazê-las, de executá-las e de resolver os problemas comuns que 
+você possa vir a ser submetidos.</p>
+</blockquote>
+
+<p>Portanto, toda vez que você alterar o seu modelo (<code class="highlighter-rouge">models.py</code>), não se esqueça: <strong>execute</strong> <code class="highlighter-rouge">python manage.py makemigrations</code>!</p>
+
+<p>Ao executar esse comando no projeto que iniciamos no <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" target="_blank">primeiro post sobre Django</a>, devemos ter a seguinte saída:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
 4
 5
 </pre></td>
-<td class="code"><pre><span class="c1"># Apenas números
-</span><span class="n">lista_numerica</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+<td class="code"><pre>$ python manage.py makemigrations
 
-<span class="c1"># Letras e números
-</span><span class="n">lista_alfanumerica</span> <span class="o">=</span> <span class="p">[</span><span class="s">'a'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">,</span> <span class="s">'c'</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+Migrations for 'helloworld':
+  helloworld\migrations\0001_initial.py
+    - Create model Funcionario
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<h2 id="list-comprehensions-compreensão-de-listas">
-<em>List Comprehensions</em> (Compreensão de Listas)</h2>
+<p><em><strong>Observação:</strong> Talvez seja necessário executar o comando referenciando o app onde estão definidos os modelos: <code class="highlighter-rouge">python manage.py makemigrations helloworld</code>. Daí pra frente, apenas <code class="highlighter-rouge">python manage.py makemigrations</code> vai bastar!</em></p>
 
-<p><em>List Comprehension</em> foi concebida na <a href="https://www.python.org/dev/peps/pep-0202/" target="_blank">PEP 202</a> e é uma forma concisa de criar e manipular listas.</p>
+<p>Agora, podemos ver que foi criada uma pasta chamada <code class="highlighter-rouge">migrations</code> dentro de <code class="highlighter-rouge">helloworld</code>.</p>
 
-<p>Sua sintaxe básica é:</p>
+<p>Dentro dela, você pode ver um arquivo chamado <code class="highlighter-rouge">0001_initial.py</code>: ele contém a <code class="highlighter-rouge">Migration</code> que cria o <em>model</em> <code class="highlighter-rouge">Funcionario</code> no banco de dados (<em>preste atenção na saída do comando <code class="highlighter-rouge">makemigrations</code>: <code class="highlighter-rouge">Create model Funcionario</code></em> <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20">)</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="p">[</span><span class="n">expr</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
+<h2 id="opções-do-comando-makemigrations">Opções do comando <code class="highlighter-rouge">makemigrations</code>
+</h2>
 
-<p>Em outras palavras: aplique a expressão <code class="highlighter-rouge">expr</code> em cada <code class="highlighter-rouge">item</code> da <code class="highlighter-rouge">lista</code>.</p>
+<p>Abaixo vamos ver as opções do comando.</p>
 
-<p><strong>Exemplo</strong>: dado o seguinte código:</p>
+<ul>
+  <li>
+<code class="highlighter-rouge">--noinput</code> ou <code class="highlighter-rouge">--no-input</code>: Evita prompts ao usuário. Muito útil quando esse comando for usado em scripts bash.</li>
+  <li>
+<code class="highlighter-rouge">--empty</code>: Produz uma migração vazia para os <em>apps</em> especificados, para edição manual. Isso é para usuários avançados e não deve ser usado, a menos que você esteja familiarizado com o formato da migração, as operações de migração e as dependências entre suas migrações.</li>
+  <li>
+<code class="highlighter-rouge">--dry-run</code>: Mostra quais migrações seriam feitas sem realmente gravar nenhum arquivo de migração no disco, ou seja, sem aplicar no banco de dados. O uso dessa opção junto com –verbosity 3 também mostrará os arquivos de migração completos que seriam gravados.</li>
+  <li>
+<code class="highlighter-rouge">--merge</code>: Permite corrigir conflitos de migrações.</li>
+  <li>
+<code class="highlighter-rouge">--name NAME, -n NAME</code>: Permite nomear as migrações geradas em vez de usar um nome gerado pelo Django. O nome deve ser um identificador Python válido.</li>
+  <li>
+<code class="highlighter-rouge">--no-header</code>: Gera arquivos de migração sem a versão do Django e o cabeçalho de data e hora (exige Django &gt;= 2.2).</li>
+  <li>
+<code class="highlighter-rouge">--check</code>: Faz com que o comando <code class="highlighter-rouge">makemigrations</code> termine com um status diferente de zero quando alterações de modelo sem migrações são detectadas.</li>
+</ul>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="code"><pre><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
-  <span class="n">lista</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
+<h2 class="no_toc" id="conclusão">Conclusão</h2>
 
-<p>Podemos reescrevê-lo, utilizando <em>list comprehensions</em>, da seguinte forma:</p>
+<p>Vimos nesse post como utilizar o comando <code class="highlighter-rouge">makemigrations</code>, suas opções e como ele facilita nossa vida (já imaginou fazer as migrações e resolvê-las na unha? <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"> <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"> <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20">).</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="n">item</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
+<p>É o Django facilitando nossa vida cada vez mais!</p>
 
-<p>Ou seja: aplique a potência de 2 em todos os itens da lista.</p>
+<p>Quer levar esse conteúdo para onde for com nosso <strong>ebook GRÁTIS sobre Desenvolvimento Web com Python e Django</strong>?</p>
 
-<p><strong>Outro Exemplo</strong>: dado o seguinte código, que transforma os itens da lista em maiúsculos:</p>
+<p>Então aproveita essa chance <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"> <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"> <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="code"><pre><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">:</span>
-  <span class="n">resultado</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">item</span><span class="p">)</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Podemos reescrevê-lo da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="n">resultado</span> <span class="o">=</span> <span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">item</span><span class="p">)</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Está gostando do artigo <strong>e ainda não é cadastrado na nossa lista de emails</strong>?</p>
-
-<div class="email-signup" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="signup-body">
-				<span class="greeting">Está gostando do artigo?</span>
-				<span class="signup-text">Então cadastre o seu email para <span class="blue">receber gratuitamente</span> mais conteúdos como este!</span>
-		        <!-- Include MailChimp email form with input and submit button -->
-<!-- Parameters: Quero receber = button label  -->
-
-<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate="">
-    <div id="mc_embed_signup_scroll" class="container-fluid">        
-        <div class="row no-gutters">
-            <div class="col-xs-4">
-                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="">
-            </div>
-            
-            <div class="col-xs-6">                
-                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="">                
+<div class="ebook-wrapper" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
+    <div class="ebook">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Ebook GRÁTIS</h2>
             </div>
 
-            <div class="col-xs-2">
-                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
-                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
-                    <!--<span>Enviar</span>-->
-                    <i class="fa fa-mail-forward visible-xs" aria-hidden="true"></i>
-                    <span class="hidden-xs">Quero receber</span>
-                </button>        
+            <div class="col-lg-5 col-md-5 col-xs-12 text-center">
+                <img src="/assets/ebooks/desenvolvimento-web-com-python-e-django/capa.png" data-aos="fade-in" class="ebook-cover">
+            </div>
+    
+            <div class="col-lg-7 col-md-7 col-xs-12">
+                <div class="ebook-data pb-0 pt-0" data-aos="fade-in">
+                    <h3 class="ebook-title">Desenvolvimento Web com Python e Django</h3>
+    
+                    <ul class="ebook-description">
+                        <li>Veja como modelar sua aplicação</li>
+                        <li>Utilize a robusta API de Acesso a Dados do Django</li>
+                        <li>Aprenda sobre <i>Class Based Views</i>
+</li>
+                        <li>Construa <i>Middlewares</i> próprios</li>
+                        <li>Desenvolva filtros e <i>tags</i> customizados para criar lindos <i>templates</i>
+</li>
+                    </ul>
+    
+                    <div class="link-to-download">                                    
+                        <a href="/ebooks/desenvolvimento-web-com-python-e-django/" class="call-to-action yellow">
+                            Baixe já!
+                        </a>
+                    </div>    
+                </div>
             </div>
         </div>
-    </div>	
-
-    <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>            
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
-</form>
-		    </div>
-		</div>
-	</div>      
+    </div>
 </div>
 
-<h2 id="list-comprehensions-com-if">
-<em>List Comprehensions</em> com <em>if</em>
-</h2>
+<p>Nos vemos por aí!</p>
 
-<p><em>List comprehensions</em> podem utilizar expressões condicionais para criar listas ou modificar listas existentes.</p>
-
-<p>Sua sintaxe básica é:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="p">[</span><span class="n">expr</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">lista</span> <span class="k">if</span> <span class="n">cond</span><span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Ou seja:</p>
-
-<blockquote>
-  <p>Aplique a expressão <code class="highlighter-rouge">expr</code> em cada <code class="highlighter-rouge">item</code> da <code class="highlighter-rouge">lista</code> caso a condição <code class="highlighter-rouge">cond</code> seja satisfeita.</p>
-</blockquote>
-
-<p>Vamos criar algumas listas utilizando condições.</p>
-
-<p>Por exemplo, podemos retirar os números ímpares de um conjunto de número da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="n">resultado</span> <span class="o">=</span> <span class="p">[</span><span class="n">numero</span> <span class="k">for</span> <span class="n">numero</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span> <span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>O que resulta em:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>resultado = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Vamos ver como fica com vários <em>if’s</em>.</p>
-
-<h2 id="list-comprehensions-com-vários-ifs">
-<em>List Comprehensions</em> com vários <em>if’s</em>
-</h2>
-
-<p>Podemos verificar condições em duas listas diferentes dentro da mesma <em>list comprehension</em>.</p>
-
-<p>Por exemplo: gostaríamos de saber os <strong>Múltiplos Comuns</strong> de 5 e 6.</p>
-
-<p>Utilizando múltiplos <code class="highlighter-rouge">if's</code> e <em>list comprehensions</em>, podemos criar o seguinte código:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="n">resultado</span> <span class="o">=</span> <span class="p">[</span><span class="n">numero</span> <span class="k">for</span> <span class="n">numero</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span> <span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">6</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Ou seja, o número só será passado para lista <code class="highlighter-rouge">resultado</code> caso sua divisão por 5 <strong>E</strong> por 6 seja igual à zero.</p>
-
-<p>O resultado do código acima será:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>resultado = [0, 30, 60, 90]
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<h2 id="list-comprehensions-com-if--else">
-<em>List Comprehensions</em> com <em>if</em> + <em>else</em>
-</h2>
-
-<p>Outra forma de se utilizar expressões condicionais e <em>list comprehension</em> é usar o conjunto <code class="highlighter-rouge">if</code> + <code class="highlighter-rouge">else</code>.</p>
-
-<p>A sintaxe básica para essa construção é:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>[resultado_if if expr else resultado_else for item in lista]
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p><strong>Em outras palavras</strong>: para cada item da lista, aplique o resultado <code class="highlighter-rouge">resultado_if</code> se a expressão <code class="highlighter-rouge">expr</code> for verdadeira, 
-caso contrário, aplique <code class="highlighter-rouge">resultado_else</code>.</p>
-
-<p>Por exemplo, queremos criar uma lista que contenha “1” quando determinado número for múltiplo de 5 e “0” caso contrário.</p>
-
-<p>Podemos codificá-lo da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="n">resultado</span> <span class="o">=</span> <span class="p">[</span><span class="s">'1'</span> <span class="k">if</span> <span class="n">numero</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">else</span> <span class="s">'0'</span> <span class="k">for</span> <span class="n">numero</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">16</span><span class="p">)]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Dessa forma, teremos o seguinte resultado:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>resultado = ['1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1']
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<h2 id="múltiplas-list-comprehensions-aninhadas">Múltiplas <em>List Comprehensions</em> (aninhadas)</h2>
-
-<p>É aqui que a brincadeira fica <strong>séria</strong>!</p>
-
-<p>Vamos supor que queiramos transpor uma matriz.</p>
-
-<p>Pra quem não lembra o que é a <strong>Transposição de uma Matriz</strong>, vamos relembrar:</p>
-
-<blockquote>
-  <p>Transpor uma matriz, significa transformar as linhas em colunas e vice-versa.</p>
-</blockquote>
-
-<p>Ou seja, data a seguinte matriz:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td>
-<td class="code"><pre><span class="n">matrix</span> <span class="o">=</span> <span class="p">[</span>
-  <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
-  <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">],</span>
-  <span class="p">[</span><span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">]</span>
-<span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Queremos o seguinte resultado:</p>
-
-<p><img src="/assets/posts/list-comprehensions/matrix-transposta.png" alt="Matriz Transposta" class="img-responsive"></p>
-
-<p>Em Python, podemos fazer isso da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td>
-<td class="code"><pre><span class="n">transposta</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">matriz</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">]]</span>
-
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">matriz</span><span class="p">[</span><span class="mi">0</span><span class="p">])):</span>
-    <span class="n">linha_transposta</span> <span class="o">=</span> <span class="p">[]</span>
-
-    <span class="k">for</span> <span class="n">linha</span> <span class="ow">in</span> <span class="n">matriz</span><span class="p">:</span>
-        <span class="n">linha_transposta</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">linha</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
-    <span class="n">transposta</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">linha_transposta</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>A matriz <code class="highlighter-rouge">transposta</code> conteria:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>transposta = [[1, 4, 9], [2, 5, 10], [3, 6, 11], [4, 8, 12]]
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Podemos reescrever o código acima, de transposição de matrizes, da seguinte forma, utilizando <em>list comprehension</em>:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="code"><pre><span class="n">matriz</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">]]</span>
-<span class="n">transposta</span> <span class="o">=</span> <span class="p">[[</span><span class="n">linha</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">linha</span> <span class="ow">in</span> <span class="n">matriz</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">)]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>No código acima:</p>
-
-<ul>
-  <li>No <strong>primeiro <em>loop</em></strong>, <code class="highlighter-rouge">i</code> assume o valor de <strong>0</strong>, portanto <code class="highlighter-rouge">[linha[0] for linha in matriz]</code> vai retornar o primeiro
-elemento de cada linha: <code class="highlighter-rouge">[1, 4, 9]</code>
-</li>
-  <li>No <strong>segundo <em>loop</em></strong>, <code class="highlighter-rouge">i</code> assume o valor de <strong>1</strong>, portanto <code class="highlighter-rouge">[linha[1] for linha in matriz]</code> vai retornar o segundo
-elemento de cada linha: <code class="highlighter-rouge">[2, 5, 10]</code>
-</li>
-  <li>No <strong>terceiro <em>loop</em></strong>, <code class="highlighter-rouge">i</code> assume o valor de <strong>2</strong>, portanto <code class="highlighter-rouge">[linha[2] for linha in matriz]</code> vai retornar o terceiro
-elemento de cada linha: <code class="highlighter-rouge">[3, 6, 11]</code>
-</li>
-  <li>No <strong>quarto <em>loop</em></strong>, <code class="highlighter-rouge">i</code> assume o valor de <strong>3</strong>, portanto <code class="highlighter-rouge">[linha[3] for linha in matriz]</code> vai retornar o quarto
-elemento de cada linha: <code class="highlighter-rouge">[4, 8, 12]</code>
-</li>
-</ul>
-
-<p>Obtendo, assim, o mesmo resultado.</p>
-
-<h2 id="conclusão">Conclusão</h2>
-
-<p>Nesse <em>post</em> vimos como podemos usar <em>list comprehensions</em> para criar e manipular listas de maneira concisa e eficiente.</p>
-
-<p>Vimos quão poderosa essa ferramenta é e as diversas formas de utilizá-la.</p>
-
-<p>Agora que você está craque em <em>List Comprehensions</em>, <strong><em>que tal começar a utilizá-lo?</em></strong></p>
-
-<p>Então… <strong>Mão na massa</strong>! <img class="emoji" title=":muscle:" alt=":muscle:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4aa.png" height="20" width="20"> <img class="emoji" title=":muscle:" alt=":muscle:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4aa.png" height="20" width="20"></p>
-
-<p>Até o próximo <em>post</em>!</p>
+<p>Bom desenvolvimento! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
 
 
 
@@ -663,7 +409,7 @@ elemento de cada linha: <code class="highlighter-rouge">[4, 8, 12]</code>
 												Por Vinícius Ramos
 											</span>
 
-											<b>em <time datetime="2018-10-25" pubdate>25/10/2018</time></b>
+											<b>em <time datetime="2018-05-30" pubdate>30/05/2018</time></b>
 										</h2>
 	
 										<p class="short-description">"<i>O que eu ouço, eu esqueço. O que eu vejo, eu lembro. O que eu faço, eu entendo.</i>"</p>
@@ -728,25 +474,25 @@ elemento de cada linha: <code class="highlighter-rouge">[4, 8, 12]</code>
 			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
 			<ul>				
 				<li>
-					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/list-comprehensions-no-python','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/o-comando-makemigrations-do-django','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
 						<i class="fa fa-fw fa-facebook"></i>
 					</a>
 				</li>				
 				
 				<li>							
-					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/list-comprehensions-no-python&amp;related=PythonAcademyBR&amp;text=%22List%20Comprehensions%20no%20Python%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/o-comando-makemigrations-do-django&amp;related=PythonAcademyBR&amp;text=%22O%20comando%20makemigrations%20do%20Django%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
 						<i class="fa fa-fw fa-twitter"></i>
 					</a>
 				</li>
 
 				<li>
-					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/list-comprehensions-no-python" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/list-comprehensions-no-python" data-action="share/whatsapp/share">
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/o-comando-makemigrations-do-django" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/o-comando-makemigrations-do-django" data-action="share/whatsapp/share">
 						<i class="fa fa-fw fa-whatsapp"></i>
 					</a>
 				</li>
 
 				<li>
-					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=List%20Comprehensions%20no%20Python&amp;body=https://pythonacademy.com.br/blog/list-comprehensions-no-python&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=O%20comando%20makemigrations%20do%20Django&amp;body=https://pythonacademy.com.br/blog/o-comando-makemigrations-do-django&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
 						<i class="fa fa-fw fa-envelope"></i>
 					</a>
 				</li>
@@ -957,7 +703,7 @@ elemento de cada linha: <code class="highlighter-rouge">[4, 8, 12]</code>
 							var post = posts[randomIndex];
 
 							// Verify if related post is the same as the shown
-							if (post.title != "List Comprehensions no Python") {
+							if (post.title != "O comando makemigrations do Django") {
 								var postHTML = 
 									"<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>" +
 										"<a href='" + post.href + "' class='card aos-init aos-animate' data-aos='fade-up'>" +
@@ -992,7 +738,7 @@ elemento de cada linha: <code class="highlighter-rouge">[4, 8, 12]</code>
 						$('#email-modal').modal('show');
 
 						/* Set cookie so this does not repeat */
-						Cookies.set('pythonacademy_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/list-comprehensions-no-python' });
+						Cookies.set('pythonacademy_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/o-comando-makemigrations-do-django' });
 					}
 				});		
 				
@@ -1012,8 +758,8 @@ elemento de cada linha: <code class="highlighter-rouge">[4, 8, 12]</code>
 		
 			<script type="text/javascript">
 				var disqus_config = function () {
-					this.page.url = 'https://pythonacademy.com.br/blog/list-comprehensions-no-python';     // Replace PAGE_URL with your page's canonical URL variable
-					this.page.identifier = '/blog/list-comprehensions-no-python';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					this.page.url = 'https://pythonacademy.com.br/blog/o-comando-makemigrations-do-django';     // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = '/blog/o-comando-makemigrations-do-django';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 				};
 			
 				(function() { // DON'T EDIT BELOW THIS LINE
