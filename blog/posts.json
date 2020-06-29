@@ -70,6 +70,23 @@
     
     
     {
+      "title": "O comando migrate do Django",
+      "href": "/blog/o-comando-migrate-do-django",
+      "slug": "o-comando-migrate-do-django",
+      "assets": "django-command-migrate",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post, vamos ver o funcionamento do comando migrate do Django, suas opções e como ele ajuda os desenvolvedores na hora de criar o banco de dados da nossa aplicação Django.</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "07",
+         "month": "June",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
       "title": "O comando makemigrations do Django",
       "href": "/blog/o-comando-makemigrations-do-django",
       "slug": "o-comando-makemigrations-do-django",

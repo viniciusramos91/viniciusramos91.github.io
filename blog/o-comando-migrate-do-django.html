@@ -20,7 +20,7 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
 
-		<title>Desenvolva Aplicativos para Android, iOS e Muito Mais com Python e Kivy</title>
+		<title>O comando migrate do Django</title>
 		<link rel="icon" type="image/png" href="/assets/img/favicon.png">
 
 		
@@ -29,7 +29,7 @@
 		
 
 		<!-- Canonical URL -->
-		<link rel="canonical" href="https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy">	
+		<link rel="canonical" href="https://pythonacademy.com.br/blog/o-comando-migrate-do-django">	
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -60,17 +60,17 @@
 				
 
 		<!-- General -->
-		<meta name="description" content="Nesse post vamos explorar mais uma incrível possibilidade do Python, o desenvolvimento cross-platform utilizando o framework Kivy!">		
+		<meta name="description" content="Nesse post, vamos ver o funcionamento do comando migrate do Django, suas opções e como ele ajuda os desenvolvedores na hora de criar o banco de dados da nossa aplicação Django.">		
 
 		<!-- Open Graph -->
 		<meta property="fb:app_id" content="220280761884954">
 		<meta property="og:site_name" content="Python Academy">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="Desenvolva Aplicativos para Android, iOS e Muito Mais com Python e Kivy">
-		<meta property="og:url" content="https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy">
-		<meta property="og:description" content="Nesse post vamos explorar mais uma incrível possibilidade do Python, o desenvolvimento cross-platform utilizando o framework Kivy!">
-		<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/python-and-kivy/facebook_img.png" />
-		<meta property="og:image:alt" content="Desenvolva Aplicativos para Android, iOS e Muito Mais com Python e Kivy" />
+		<meta property="og:title" content="O comando migrate do Django">
+		<meta property="og:url" content="https://pythonacademy.com.br/blog/o-comando-migrate-do-django">
+		<meta property="og:description" content="Nesse post, vamos ver o funcionamento do comando migrate do Django, suas opções e como ele ajuda os desenvolvedores na hora de criar o banco de dados da nossa aplicação Django.">
+		<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/django-command-migrate/facebook.png" />
+		<meta property="og:image:alt" content="O comando migrate do Django" />
 		<meta property="og:image:type" content="image/png" />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
@@ -78,9 +78,9 @@
 		<!-- Twitter cards -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-		<meta name="twitter:title" content="Desenvolva Aplicativos para Android, iOS e Muito Mais com Python e Kivy">
-		<meta name="twitter:description" content="Nesse post vamos explorar mais uma incrível possibilidade do Python, o desenvolvimento cross-platform utilizando o framework Kivy!">
-		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/python-and-kivy/twitter_img.png">
+		<meta name="twitter:title" content="O comando migrate do Django">
+		<meta name="twitter:description" content="Nesse post, vamos ver o funcionamento do comando migrate do Django, suas opções e como ele ajuda os desenvolvedores na hora de criar o banco de dados da nossa aplicação Django.">
+		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/django-command-migrate/twitter.png">
 		
 		<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
 			
@@ -207,18 +207,18 @@
 		<div class="main-container" data-aos="fade-in" data-aos-duration="1500">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
-					<div class="post-banner-content" style="background: #e15f41 url('/assets/svg/stars-bground.svg');">
+					<div class="post-banner-content" style="background: #051a12 url('/assets/svg/stars-bground.svg');">
 						<div class="container">	
 							<div class="wrapper">
 								<div class="featured-icon-wrapper">
-									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/python-and-kivy/featured_icon.svg" width="90%">
+									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/django-command-migrate/featured_icon.svg" width="90%">
 									</object>															
 								</div>
 							</div>													
 			
 							
 							<h1 class="blog-post-title font-shadow">
-								Desenvolva Aplicativos para Android, iOS e Muito Mais com Python e Kivy
+								O comando migrate do Django
 							</h1>			
 						</div>			
 					</div>
@@ -252,128 +252,50 @@
 			<div class="container post-container">
 				<div class="blog-post-content">
 					
-<p>Você já teve uma ótima ideia de aplicativo revolucionário que ia te deixar
-bilionário da noite pro dia, mas percebeu que teria que aprender Objective-C,
-C#, Java <strong>e</strong> (ênfase no <strong>E</strong>) .NET para lançá-lo?</p>
+<p>Nesse post, vamos ver o que o comando <code class="highlighter-rouge">migrate</code> faz, as opções do comando e como ele ajuda a vida do desenvolvedor Django na hora de criar a estrutura do banco de dados da nossa aplicação!</p>
 
-<p>Pois é, em Python temos um <em>framework</em> incrível para construir aplicativos
-nativos que podem ser empacotados para essas diversas plataformas!</p>
+<p>Bora nessa!</p>
 
-<p>Portanto, se você quer desenvolver para Android, iOS, Windows, Linux ou Mac OS
-utilizando nosso querido Python, o Kivy é uma ótima aposta!</p>
-
-<p>Com isso, adicionamos mais uma usabilidade ao leque de possibilidades do Python:
-aplicações web (utilizando, por exemplo, Flask ou Django - que eu recomendo 
-<strong>fortemente</strong> <img class="emoji" title=":metal:" alt=":metal:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f918.png" height="20" width="20">)</p>
-
-<p>Com isso, além de podermos usar Python para fazermos aplicações desktop, 
-aplicações distribuídas, aplicações web (utilizando, por exemplo, Flask ou 
-Django - que eu recomendo <strong>fortemente</strong> <img class="emoji" title=":metal:" alt=":metal:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f918.png" height="20" width="20">), o Python também pode ser 
-usado para desenvolver <strong>aplicações multiplataformas</strong>.</p>
-
-<p>Outras vantagens do Kivy: ele é totalmente grátis, já está em suas versões
-estáveis e é muito bem documentado.</p>
-
-<p>Com todas essas vantagens, só nos resta cair de cabeça no Kivy!</p>
-
-<p>Nesse post eu pretendo mostrar pra vocês que o Python pode ser usado em seu
-projetos pessoais, trazendo simplicidade na hora de desenvolver e entregando uma
-solução completa para diversas plataformas!</p>
-
-<p>Nesse post, vamos:</p>
-<ul>
-  <li>Aprender o que é o Kivy.</li>
-  <li>Configurar nosso computador para utilizá-lo.</li>
-  <li>Explorar algumas de suas funcionalidades.</li>
-  <li>Entender sua arquitetura.</li>
-</ul>
-
-<h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto:</h2>
+<h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
 
 <ul id="markdown-toc">
-  <li><a href="#a-filosofia-kivy" id="markdown-toc-a-filosofia-kivy">A Filosofia Kivy</a></li>
-  <li><a href="#instala%C3%A7%C3%A3o" id="markdown-toc-instalação">Instalação</a></li>
-  <li><a href="#hello-world-kivy" id="markdown-toc-hello-world-kivy">Hello World, Kivy</a></li>
-  <li><a href="#propriedades" id="markdown-toc-propriedades">Propriedades</a></li>
-  <li><a href="#vis%C3%A3o-geral-da-arquitetura-do-kivy" id="markdown-toc-visão-geral-da-arquitetura-do-kivy">Visão Geral da Arquitetura do Kivy</a></li>
-  <li><a href="#linguagem-kivy-kvlang-ou-kivy-language" id="markdown-toc-linguagem-kivy-kvlang-ou-kivy-language">Linguagem Kivy (<em>kvlang</em> ou <em>Kivy Language</em>)</a></li>
-  <li><a href="#classes-din%C3%A2micas" id="markdown-toc-classes-dinâmicas">Classes Dinâmicas</a></li>
-  <li><a href="#conclus%C3%A3o" id="markdown-toc-conclusão">Conclusão</a></li>
+  <li><a href="#onde-estamos" id="markdown-toc-onde-estamos">Onde estamos…</a></li>
+  <li><a href="#o-comando-migrate" id="markdown-toc-o-comando-migrate">O comando <code class="highlighter-rouge">migrate</code></a></li>
+  <li><a href="#db-browser-for-sqlite" id="markdown-toc-db-browser-for-sqlite"><em>DB Browser for SQLite</em></a></li>
+  <li><a href="#op%C3%A7%C3%B5es-do-comando-migrate" id="markdown-toc-opções-do-comando-migrate">Opções do comando <code class="highlighter-rouge">migrate</code></a></li>
 </ul>
 
-<h2 id="a-filosofia-kivy">A Filosofia Kivy</h2>
+<h2 id="onde-estamos">Onde estamos…</h2>
 
-<p><img src="/assets/posts/python-and-kivy/pensador.png" alt="Pensador" class="img-responsive"></p>
+<p>Como usual, vamos nos situar nesse mundão Django!</p>
 
-<p>Antes de começarmos a desvendar o Kivy, vou mostrar-lhes os motivos pelos quais
-devemos utilizá-lo (retirado da <a href="https://kivy.org/docs/philosophy.html" target="_blank">Filosofia Kivy</a>).</p>
+<p><img src="/assets/posts/django-model/django-architecture.png" alt="Arquitetura do Django - Model" class="img-responsive"></p>
 
-<h3 id="moderno">Moderno</h3>
+<p>No <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" target="_blank">primeiro post da nossa Série de Django</a>, tratamos de conceitos introdutórios do <em>framework</em>, uma visão geral da sua arquitetura, sua instalacão e a criação do <strong><em>Hello World, Django</em></strong>.</p>
 
-<p>O Kivy foi feito para o presente e o futuro. Por isso, ele foi criado do zero
-pensando sempre nas interações entre o humano e o computador.</p>
+<p>Já no <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model" target="_blank">segundo post da Série</a>, tratamos da camada <em>Model</em>, onde definimos as entidades do nosso sistema, a interface com o banco de dados e aprendemos como utilizar a API de acesso a dados provida pelo Django - que facilita muito nossa vida!</p>
 
-<h3 id="rápido">Rápido</h3>
+<p>Agora, vamos ver o funcionamento de um dos comandos mais importantes da camada <em>Model</em> do Django: o <code class="highlighter-rouge">migrate</code>.</p>
 
-<p>Isso se aplica tanto à velocidade de desenvolvimento quanto à velocidade de
-execução dos aplicativos criados com Kivy.</p>
+<h2 id="o-comando-migrate">O comando <code class="highlighter-rouge">migrate</code>
+</h2>
 
-<p>Para ser rápido, o Kivy foi otimizado de diversas formas. Alguns de seus módulos
-mais críticos foram feitos inteiramente em C, para utilizar o poder de seus
-compiladores.</p>
+<p>Quando executamos o comando <code class="highlighter-rouge">makemigrations</code>, o Django cria o banco de dados e as <em>migrations</em>, mas não as executa, isto é: não <strong>realmente</strong> aplica as alterações no banco de dados.</p>
 
-<p>Em outros casos, o Kivy utiliza o poder computacional das GPUs dos dispositivos
-executando seus códigos.</p>
+<p>Para que o Django as aplique, são necessárias três coisas, basicamente:</p>
 
-<h3 id="flexível">Flexível</h3>
+<ul>
+  <li>
+<strong>1.</strong> Que a configuração da interface com o banco de dados esteja descrita no arquivo de configurações <code class="highlighter-rouge">settings.py</code>.</li>
+  <li>
+<strong>2.</strong> Que os modelos e <em>migrations</em> estejam definidos para esse projeto.</li>
+  <li>
+<strong>3.</strong> Execução do comando <code class="highlighter-rouge">migrate</code>.</li>
+</ul>
 
-<p>Talvez a melhor característica do Kivy seja seu poder de ser executado em
-diversas plataformas, tanto mobile quanto desktop.</p>
+<p>Se você acompanhou os últimos posts, você criou o projeto <em>Hello World, Django</em> através do comando <code class="highlighter-rouge">django-admin.py createproject helloworld</code> e, portanto, a configuração padrão foi aplicada.</p>
 
-<p>Ser flexível também significa ser adaptável, isto é, o Kivy se molda
-rapidamente às novas tecnologias. Muitas vezes, o Kivy se adapta à novos
-dispositivos, novos protocolos e novos software antes mesmo de serem lançados.</p>
-
-<h3 id="enxuto">Enxuto</h3>
-
-<p>Utilizando o Kivy, podemos escrever aplicações com poucas linhas de código.</p>
-
-<p>Kivy é feito em Python, que é extremamente poderoso, versátil e o melhor,
-simples!</p>
-
-<p>Baseado nisso, o Kivy possui sua linguagem de descrição, chamada… Kivy! Meio
-óbvio né?! <img class="emoji" title=":joy:" alt=":joy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f602.png" height="20" width="20"> Com ela podemos configurar, conectar e organizar os elementos
-da nossa aplicação de maneira bem simples.</p>
-
-<h3 id="desenvolvimento-e-comunidade">Desenvolvimento e Comunidade</h3>
-
-<p>O Kivy é totalmente desenvolvido por profissionais experientes da área e conta
-com desenvolvedores 100% focados no desenvolvimento do <em>framework</em>.</p>
-
-<p>Também possui uma comunidade forte e presente no desenvolvimento de suas
-soluções.</p>
-
-<h3 id="grátis">Grátis</h3>
-
-<p>Kivy é totalmente de graça. Mesmo se seu projeto estiver lucrando em cima de
-soluções desenvolvidas com Kivy, você não deve nada à comunidade Kivy.</p>
-
-<p>Bom, agora que já entendemos do por quê utilizar o Kivy, que tal colocarmos a
-mão na massa?!</p>
-
-<h2 id="instalação">Instalação</h2>
-
-<p><img src="/assets/posts/python-and-kivy/kivy-installation.png" alt="Instalação do Kivy" class="img-responsive"></p>
-
-<p>Para utilizarmos o Kivy, precisamos primeiro fazer sua instalação. Eu fiz um
-<strong><em>Slider</em></strong> descrevendo toda a instalação do Kivy de maneira bem detalhada
-para todas as plataformas (Mac, Windows e Linux)! Confira, 
-<a href="https://pythonacademy.com.br/sliders/como-instalar-o-kivy" target="_blank">acessando aqui</a>!</p>
-
-<h2 id="hello-world-kivy">Hello World, Kivy</h2>
-
-<p>Agora com tudo instalado e configurado, podemos (até que enfim) executar nossa
-primeira aplicação utilizando o Kivy.</p>
+<p>Procure pela configuração <code class="highlighter-rouge">DATABASES</code> no <code class="highlighter-rouge">settings.py</code>. Ela deve ser a seguinte:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -382,114 +304,25 @@ primeira aplicação utilizando o Kivy.</p>
 4
 5
 6
-7
-8
-9
-10
-11
-12
 </pre></td>
-<td class="code"><pre><span class="kn">import</span> <span class="nn">kivy</span>
-<span class="kn">from</span> <span class="nn">kivy.app</span> <span class="kn">import</span> <span class="n">App</span>
-<span class="kn">from</span> <span class="nn">kivy.uix.label</span> <span class="kn">import</span> <span class="n">Label</span>
-
-<span class="n">kivy</span><span class="o">.</span><span class="n">require</span><span class="p">(</span><span class="s">'1.9.1'</span><span class="p">)</span>
-
-<span class="k">class</span> <span class="nc">PrimeiroApp</span><span class="p">(</span><span class="n">App</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">build</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="n">Label</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s">'Hello World, Kivy!'</span><span class="p">)</span>
-
-<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">'__main__'</span><span class="p">:</span>
-    <span class="n">PrimeiroApp</span><span class="p">()</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+<td class="code"><pre><span class="n">DATABASES</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'default'</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s">'ENGINE'</span><span class="p">:</span> <span class="s">'django.db.backends.sqlite3'</span><span class="p">,</span>
+        <span class="s">'NAME'</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">BASE_DIR</span><span class="p">,</span> <span class="s">'db.sqlite3'</span><span class="p">),</span>
+    <span class="p">}</span>
+<span class="p">}</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Para isso, coloque o código acima em um script chamado <code class="highlighter-rouge">main.py</code>, por exemplo,
-e execute-o com <code class="highlighter-rouge">kivy main.py</code>.</p>
+<p>Por padrão, o Django utiliza um banco de dados leve e compacto chamado <a href="https://www.sqlite.org/index.html" target="_blank">SQLite</a>. Já já vamos falar mais sobre ele.</p>
 
-<p>A saída deve ser algo similar à:</p>
+<p>Sobre os modelos e <em>migrations</em>, eles já foram feitos com a definição dos modelos no arquivo <code class="highlighter-rouge">models.py</code> e com a execução do comando <code class="highlighter-rouge">makemigrations</code>.</p>
 
-<p><img src="/assets/posts/python-and-kivy/screen-kivy.png" alt="Screenshot do resultado do Hello World" class="center-block img-responsive"></p>
+<p>Agora só falta <strong>executar o comando <code class="highlighter-rouge">migrate</code></strong>, propriamente dito!</p>
 
-<p>Se algo der errado, não hesite em postar aqui embaixo pois estamos aqui parar
-ajudar! <img class="emoji" title=":punch:" alt=":punch:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png" height="20" width="20"></p>
+<p>Para isso, vamos para a raíz do projeto e executamos: <code class="highlighter-rouge">python manage.py migrate</code>. A saída deve ser:</p>
 
-<h3 id="entendendo-nossa-aplicação">Entendendo Nossa Aplicação</h3>
-
-<p>Primeiro, toda aplicação deve herdar de <code class="highlighter-rouge">kivy.App</code> (linha 7). Essa classe
-controla todo o ciclo de vida da nossa aplicação.</p>
-
-<p>O ponto inicial da nossa aplicação é o método <code class="highlighter-rouge">run()</code>. Quando essa linha é
-executada, nossa aplicação entra em execução.</p>
-
-<p>Um ponto importante é saber de onde vem os elementos que compoem nossa
-aplicação. No Kivy, os elementos estão em <code class="highlighter-rouge">kivy.uix</code>. Na linha 9, criamos um
-elemento do tipo <code class="highlighter-rouge">Label</code> com o valor “Hello World, Kivy!” no atributo <code class="highlighter-rouge">text</code>.</p>
-
-<p>Dentro desse pacote, temos diversos elementos, como: <code class="highlighter-rouge">Button</code>, <code class="highlighter-rouge">Image</code>,
-<code class="highlighter-rouge">Slider</code>, <code class="highlighter-rouge">Input</code>, etc. A lista completa pode ser consultada
-<a href="https://kivy.org/docs/api-kivy.uix.html#module-kivy.uix">aqui</a>. Nesse post utilizaremos alguns deles.</p>
-
-<p>Dando continuidade, na linha 8 temos a função <code class="highlighter-rouge">build()</code> e o que ela faz é
-construir o elemento raíz da nossa aplicação.</p>
-
-<p>Nesse caso, o elemento raíz é do tipo <code class="highlighter-rouge">Label</code> com o texto “Hello World, Kivy!”.</p>
-
-<p>Com tudo devidamente criado e inicializado, colocamos nossa aplicação em
-execução com o código:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="code"><pre><span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">'__main__'</span><span class="p">:</span>
-    <span class="n">PrimeiroApp</span><span class="p">()</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Viram como é simples! Com poucas linhas de código já temos algo sendo mostrado
-na tela! <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"> E esse é apenas o começo!</p>
-
-<h3 id="adicionando-elementos">Adicionando Elementos</h3>
-
-<p>Vamos extender um pouco nossa aplicação adicionando elementos de <em>input</em> e
-colocá-los dentro de um <code class="highlighter-rouge">Layout</code>.</p>
-
-<p>Um <code class="highlighter-rouge">Layout</code> é um elemento não renderizado (ele não aparece na tela) mas que
-serve para distribuir e posicionar elementos de maneiras distintas.</p>
-
-<p>Os tipos de <code class="highlighter-rouge">Layout</code> do Kivy são:</p>
-<ul>
-  <li>
-<code class="highlighter-rouge">AnchorLayout</code>: Alinha os elementos dentro dele à uma das bordas (ou centro).</li>
-  <li>
-<code class="highlighter-rouge">BoxLayout</code>: Posiciona os elementos em “caixas” horizontais ou verticais.</li>
-  <li>
-<code class="highlighter-rouge">FloatLayout</code>: Todos os elementos dentro desse <em>layout</em> são posicionados
-  absolutamente ao tamanho do <em>layout</em>. Para isso, esse <em>layout</em> honra as
-  propriedades <code class="highlighter-rouge">pos_hint</code> e <code class="highlighter-rouge">size_hint</code>.</li>
-  <li>
-<code class="highlighter-rouge">GridLayout</code>: Posiciona os elementos em uma estrutura baseada em linhas e
-  colunas (matriz).</li>
-  <li>
-<code class="highlighter-rouge">PageLayout</code>: É utilizado para criar <em>layouts</em> multi-página de uma forma que
-  possibilite a navegação entre páginas utilizando as bordas do aplicativo.</li>
-  <li>
-<code class="highlighter-rouge">RelativeLayout</code>: Possibilita o posicionamento relativo dos elementos dentro
-  desse <em>layout</em>.</li>
-  <li>
-<code class="highlighter-rouge">ScatterLayout</code>: Funciona similarmente ao <code class="highlighter-rouge">RelativeLayout</code> mas nesse <em>layout</em>
-  também é possível movimentar, rotacionar e escalar (<em>scale</em>) usando toques
-  ou cliques na tela.</li>
-  <li>
-<code class="highlighter-rouge">StackLayout</code>: Insere cada elemento verticalmente ou horizontalmente até o
-  máximo que <em>layout</em> pode suportar. O tamanho de cada elemento filho não
-  precisa ser uniforme.</li>
-</ul>
-
-<p>Vamos escolher o <code class="highlighter-rouge">GridLayout</code> e vamos adicionar elementos de <em>input</em>.</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
@@ -510,772 +343,166 @@ serve para distribuir e posicionar elementos de maneiras distintas.</p>
 18
 19
 20
-21
-22
 </pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">kivy.app</span> <span class="kn">import</span> <span class="n">App</span>
-<span class="kn">from</span> <span class="nn">kivy.uix.gridlayout</span> <span class="kn">import</span> <span class="n">GridLayout</span>
-<span class="kn">from</span> <span class="nn">kivy.uix.label</span> <span class="kn">import</span> <span class="n">Label</span>
-<span class="kn">from</span> <span class="nn">kivy.uix.textinput</span> <span class="kn">import</span> <span class="n">TextInput</span>
+<td class="code"><pre>$ python manage.py migrate
 
-<span class="k">class</span> <span class="nc">TelaLogin</span><span class="p">(</span><span class="n">GridLayout</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-        <span class="nb">super</span><span class="p">(</span><span class="n">TelaLogin</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">cols</span> <span class="o">=</span> <span class="mi">2</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">add_widget</span><span class="p">(</span><span class="n">Label</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s">'Usuário'</span><span class="p">))</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">username</span> <span class="o">=</span> <span class="n">TextInput</span><span class="p">(</span><span class="n">multiline</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">add_widget</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">username</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">add_widget</span><span class="p">(</span><span class="n">Label</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s">'Senha'</span><span class="p">))</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">password</span> <span class="o">=</span> <span class="n">TextInput</span><span class="p">(</span><span class="n">password</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">multiline</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">add_widget</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">password</span><span class="p">)</span>
-
-<span class="k">class</span> <span class="nc">MyApp</span><span class="p">(</span><span class="n">App</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">build</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="n">TelaLogin</span><span class="p">()</span>
-
-<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">'__main__'</span><span class="p">:</span>
-    <span class="n">MyApp</span><span class="p">()</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, helloworld, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying helloworld.0001_initial... OK
+  Applying sessions.0001_initial... OK
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>A saída é a seguinte:</p>
+<p><em>Calma lá… O comando <code class="highlighter-rouge">makemigrations</code> que executamos havia definido apenas <strong>uma</strong> Migration e foram aplicadas 15!!! Por quê???</em></p>
 
-<p><img src="/assets/posts/python-and-kivy/example-output.png" alt="Tela de saída do segundo exemplo" class="img-responsive"></p>
+<p>Se lembra que a configuração <code class="highlighter-rouge">INSTALLED_APPS</code> contém vários <code class="highlighter-rouge">apps</code> (<em>e não apenas os nossos</em>)?</p>
 
-<p>Nesse exemplo, além do <code class="highlighter-rouge">GridLayout</code>, adicionamos também dois elementos de
-<em>input</em> chamados <code class="highlighter-rouge">TextInput</code> que serve para adquirir dados de texto do usuário.</p>
+<p>Pois então, cada <code class="highlighter-rouge">app</code> desses contém seus próprios modelos e <em>migrations</em>. <em>Sacou?!</em></p>
 
-<p>A propriedade <code class="highlighter-rouge">password=True</code> diz ao Kivy que se trata de um campo de senha
-(portanto irá inserir <strong>‘*‘</strong> nos caracteres inseridos) e a propriedade
-<code class="highlighter-rouge">multiline=False</code> significa que o texto será todo renderizado em uma linha.</p>
+<p><img src="/assets/posts/django-model/thinking-guy.jpg" alt="_Thinking Guy Meme_" class="img-responsive"></p>
 
-<h3 id="arquivo-de-configuração">Arquivo de Configuração</h3>
+<p>Com a execução do <code class="highlighter-rouge">migrate</code>, o Django irá criar as diversas tabelas desse outros <code class="highlighter-rouge">apps</code> no banco de dados <strong>E</strong> as tabelas definidas nos nosso arquivos de modelo. Uma delas é a nossa, similar à:</p>
 
-<p>Para facilitar nossa vida e customizar nossa aplicação conforme nossa
-necessidade, o Kivy possibilita que utilizemos um arquivo contendo
-configurações específicas por projeto.</p>
-
-<p>A <a href="https://kivy.org/docs/api-kivy.config.html#module-kivy.config">documentação</a>
-do Kivy traz a lista completa de parâmetros que podemos incluir no nosso
-arquivo.</p>
-
-<p>Por exemplo, se quisermos que a tecla <code class="highlighter-rouge">ESC</code> finalize a aplicação, podemos
-utilizar a configuração <code class="highlighter-rouge">exit_on_escape</code> com o valor de 1. Para isso, precisamos
-primeiro criar um arquivo de configuração, vamos chamar de
-<code class="highlighter-rouge">config.ini</code>, e adicionar o seguinte conteúdo:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="code"><pre>[kivy]
-exit_on_escape = 0
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Algumas propriedades interessante que podemos utilizar:</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">window_icon = &lt;string&gt;</code>: caminho do ícone da janela em que a aplicação vai ser
-  executado.</li>
-  <li>
-<code class="highlighter-rouge">fullscreen = 0 ou 1</code>: Habilita/desabilita a aplicação em modo de tela cheia.</li>
-  <li>
-<code class="highlighter-rouge">resizable = 0 ou 1</code>: Habilita/desabilita o redimensionamento da janela.</li>
-  <li>
-<code class="highlighter-rouge">height = valor</code>: Altura da janela.</li>
-  <li>
-<code class="highlighter-rouge">width = valor</code>: Comprimento da janela.</li>
-</ul>
-
-<p>Com essas opções no nosso arquivo, podemos então fazer a leitura em nosso código
-com o objeto <code class="highlighter-rouge">kivy.config.Config</code> chamando o método <code class="highlighter-rouge">Config.read("config.ini")</code>.</p>
-
-<h2 id="propriedades">Propriedades</h2>
-
-<p>Propriedades são uma forma incrivelmente fácil de definir eventos e vinculá-los
-ao nosso código.</p>
-
-<p>Basicamente, propriedades produzem eventos que, havendo a alteração de um
-atributo de um objeto, todas as propriedades que referenciam aquele atributo
-são automaticamente atualizadas.</p>
-
-<p>Para entedermos melhor, vamos comparar duas formas de se declarar propriedades.
-Antes teríamos:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<figure class="highlight"><pre><code class="language-sql" data-lang="sql"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
 4
+5
+6
 </pre></td>
-<td class="code"><pre><span class="k">class</span> <span class="nc">MinhaClasse</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">super</span><span class="p">(</span><span class="n">MinhaClasse</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">__init__</span><span class="p">()</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">valor_numerico</span> <span class="o">=</span> <span class="mi">1</span>
+<td class="code"><pre><span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">helloworld_funcionario</span> <span class="p">(</span>
+    <span class="nv">"id"</span> <span class="nb">serial</span> <span class="k">NOT</span> <span class="k">NULL</span> <span class="k">PRIMARY</span> <span class="k">KEY</span><span class="p">,</span>
+    <span class="nv">"nome"</span> <span class="nb">varchar</span><span class="p">(</span><span class="mi">255</span><span class="p">)</span> <span class="k">NOT</span> <span class="k">NULL</span><span class="p">,</span>
+    <span class="nv">"sobrenome"</span> <span class="nb">varchar</span><span class="p">(</span><span class="mi">255</span><span class="p">)</span> <span class="k">NOT</span> <span class="k">NULL</span><span class="p">,</span>
+    <span class="p">...</span>
+<span class="p">);</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Utilizando propriedades em Kivy, temos:</p>
+<p><em>Isso está muito abstrato! Como eu posso ver o banco, as tabelas e os dados na prática?</em></p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<h2 id="db-browser-for-sqlite"><em>DB Browser for SQLite</em></h2>
+
+<p>Apresento-lhes uma ferramenta <strong>MUITO</strong> prática: o <em>DB Browser for SQLite</em>!</p>
+
+<p>Com ela, podemos ver a estrutura do banco de dados, alterar dados em tempo real, fazer <em>queries</em>, e muito mais!</p>
+
+<p><a href="http://sqlitebrowser.org/" target="_blank">Clique aqui</a> para fazer o <em>download</em> e instalação do software. Ao terminar a instalação, abra o <em>DB Browser for SQLite</em>.</p>
+
+<p>Temos:</p>
+
+<p><img src="/assets/posts/django-model/db-browser-screen.png" alt="_DB Browser for SQLite_" class="img-responsive"></p>
+
+<p>Nele, podemos clicar em “<strong>Abrir banco de dados</strong>” e procurar pelo banco de dados do nosso projeto <code class="highlighter-rouge">db.sqlite3</code>.</p>
+
+<p>Ao importá-lo, teremos uma visão geral, mostrando Tabelas, Índices, <em>Views</em> e <em>Triggers</em>.</p>
+
+<p>Para ver os dados de cada tabela, vá para a aba “<strong>Navegar dados</strong>”, escolha nossa tabela <code class="highlighter-rouge">helloworld_funcionario</code> e…</p>
+
+<p><em><strong>Voilá</strong></em>! O que temos? <strong>NADA</strong> <img class="emoji" title=":disappointed:" alt=":disappointed:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f61e.png" height="20" width="20"></p>
+
+<p><em>Calma jovem… Ainda não adicionamos nada <img class="emoji" title=":unamused:" alt=":unamused:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f612.png" height="20" width="20"></em></p>
+
+<p><em>Mas, se você está ansioso para continuar nossa jornada Django, você pode ir direto para o <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view" target="_blank">próximo post</a>, onde tratamos da Camada <strong>View</strong> do Django! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></em></p>
+
+<h2 id="opções-do-comando-migrate">Opções do comando <code class="highlighter-rouge">migrate</code>
+</h2>
+
+<p>O formato padrão do comando <code class="highlighter-rouge">migrate</code> é o seguinte:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
-2
 </pre></td>
-<td class="code"><pre><span class="k">class</span> <span class="nc">MinhaClasse</span><span class="p">(</span><span class="n">Widget</span><span class="p">):</span>
-    <span class="n">valor_numerico</span> <span class="o">=</span> <span class="n">NumericProperty</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<td class="code"><pre>django-admin migrate <span class="o">[</span>label_app] <span class="o">[</span>nome_migration] <span class="o">[</span>opções]
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Não temos muito ganho em sintaxe. A maior diferença está no conceito por trás
-do objeto <code class="highlighter-rouge">Property</code>.</p>
-
-<p>Propriedades implementam o Padrão de Projeto <a href="https://pt.wikipedia.org/wiki/Observer"><em>Observer</em></a>.</p>
-
-<p>Caso você não saiba, esse padrão de projeto cria dependências <em>um para muitos</em>
-entre objetos de modo que quando há uma alteração no estado de um objeto,
-todos os outros objetos dependentes são notificados automaticamente.</p>
-
-<p>Dessa forma, propriedades nos ajudam a:</p>
+<p>Abaixo vamos ver as opções do comando.</p>
 
 <ul>
-  <li>Manipular facilmente <em>widgets</em> definidos na Linguagem Kivy.</li>
-  <li>Observar qualquer mudança nos nossos objetos e responder automaticamente com
-  algum método que irá tratar essa notificação.</li>
-  <li>Checar e validar entradas.</li>
-  <li>Otimizar o gerenciamento de memória da nossa aplicação já que o código de
-  notificação do Kivy já foi testado e otimizado.</li>
+  <li>Sem argumentos: aplica todas as migrações disponíveis de todos os <em>apps</em> definidos em <code class="highlighter-rouge">INSTALLED_APPS</code>.</li>
+  <li>
+<code class="highlighter-rouge">&lt;label_app&gt;</code>: Aplica-se todas as migrações do app especificado até a mais recente. Pode envolver a aplicação de outras migrações, pois pode haver dependência entre migrações.</li>
+  <li>
+<code class="highlighter-rouge">&lt;label_app&gt; &lt;nome_migrations&gt;</code>: Leva a estrutuda do banco de dados à um estado em que a migração é aplicada, sem aplicar as migrações seguintes.</li>
+  <li>
+<code class="highlighter-rouge">--database DATABASE</code>: Especifica o banco de dados para executar as migrações. As opções disponíves são àquelas que foram definidas pela configuração <code class="highlighter-rouge">DATABASES</code> no <code class="highlighter-rouge">settings.py</code>.</li>
+  <li>
+<code class="highlighter-rouge">--fake</code>: Opção avançada que permite marcar migrações como <strong>aplicadas</strong>, sem realmente aplicá-las (ou seja, sem modificar a estrutuda do seu banco de dados). Opção geralmente utilizada para recuperação da base de dados, ou quando se quer alterar manualmente a tabela interna de estados das migrações do Django.</li>
+  <li>
+<code class="highlighter-rouge">--fake-initial</code>: Permite ao Django pular a migração inicial, caso todas as tabelas já tenham sido previamente criadas. Essa opção é usada quando a estrutura inicial de tabelas já foi criada previamente no banco de dados (por exemplo, sistema legado ou se um DBA já executou um script de criação das tabelas).</li>
+  <li>
+<code class="highlighter-rouge">--plan</code>: Apenas mostra as migrações que serão aplicadas com a execução do comando <code class="highlighter-rouge">migrate</code>.</li>
+  <li>
+<code class="highlighter-rouge">--run-syncdb</code>: Permite a criação da estrutura de tabelas sem as migrações. Essa opção não verifica a estrutura das tabelas nem verifica a questão das dependências entre elas. Essa opção é usada com sistemas muito grandes, com centenas de modelos, onde o framework de migrações do Django pode ser lento.</li>
+  <li>
+<code class="highlighter-rouge">--noinput</code> ou <code class="highlighter-rouge">--no-input</code>: Evita confirmações de usuário. Opção útil quando essa opção for utilizada em scripts bash.</li>
 </ul>
 
-<p>Para utilizarmos propriedades, devemos declará-las <strong>no nível de classe</strong>. Ou
-seja, não podemos declarar propriedades dentro de funções.</p>
+<h2 class="no_toc" id="conclusão">Conclusão</h2>
 
-<p>Abaixo estão listadas as propriedades definidas pelo Kivy:</p>
+<p>Vimos nesse post como utilizar o comando <code class="highlighter-rouge">migrate</code>, suas opções e como ele facilita nossa vida.</p>
 
-<ul>
-  <li>
-<code class="highlighter-rouge">StringProperty</code>: Representa uma String.</li>
-  <li>
-<code class="highlighter-rouge">NumericProperty</code>: Representa um valor numérico.</li>
-  <li>
-<code class="highlighter-rouge">BoundedNumericProperty</code>: Representa um valor numérico limitado por um valor
-  mínimo e um valor máximo.</li>
-  <li>
-<code class="highlighter-rouge">ObjectProperty</code>: Representa um objeto Python.</li>
-  <li>
-<code class="highlighter-rouge">DictProperty</code>: Representa um <code class="highlighter-rouge">dict</code>.</li>
-  <li>
-<code class="highlighter-rouge">ListProperty</code>: Representa uma lista.</li>
-  <li>
-<code class="highlighter-rouge">OptionProperty</code>: Representa uma String dentro de uma lista de possíveis
-  valores.</li>
-  <li>
-<code class="highlighter-rouge">AliasProperty</code>: Caso você não ache nenhuma propriedade que satisfaça seu
-  código, é possível criar uma propriedade customizada definindo um <code class="highlighter-rouge">getter</code>
-  e um <code class="highlighter-rouge">setter</code>.</li>
-  <li>
-<code class="highlighter-rouge">BooleanProperty</code>: Representa um booleano (<code class="highlighter-rouge">True</code> ou <code class="highlighter-rouge">False</code>).</li>
-  <li>
-<code class="highlighter-rouge">ReferenceListProperty</code>: Permite a criação de tuplas de outras propriedades.
-  Por exemplo, se tivermos uma <code class="highlighter-rouge">NumericProperty</code> chamada <code class="highlighter-rouge">id</code> e uma
-  <code class="highlighter-rouge">StringProperty</code> chamada <code class="highlighter-rouge">nome</code>, podemos criar o seguinte objeto:
-  <code class="highlighter-rouge">usuario = ReferenceListProperty(id, nome)</code>
+<p><em>Já imaginou ter que montar toda a estrutura de banco de dados na unha - com SQL e tudo mais?</em> <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"> <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"> <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"></p>
+
+<p>Tá curtindo o conteúdo? Que tal levar esse conteúdo para onde for com nosso <strong>ebook GRÁTIS sobre Desenvolvimento Web com Python e Django</strong>?</p>
+
+<p>Então aproveita essa chance <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"> <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"> <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></p>
+
+<div class="ebook-wrapper" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
+    <div class="ebook">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Ebook GRÁTIS</h2>
+            </div>
+
+            <div class="col-lg-5 col-md-5 col-xs-12 text-center">
+                <img src="/assets/ebooks/desenvolvimento-web-com-python-e-django/capa.png" data-aos="fade-in" class="ebook-cover">
+            </div>
+    
+            <div class="col-lg-7 col-md-7 col-xs-12">
+                <div class="ebook-data pb-0 pt-0" data-aos="fade-in">
+                    <h3 class="ebook-title">Desenvolvimento Web com Python e Django</h3>
+    
+                    <ul class="ebook-description">
+                        <li>Veja como modelar sua aplicação</li>
+                        <li>Utilize a robusta API de Acesso a Dados do Django</li>
+                        <li>Aprenda sobre <i>Class Based Views</i>
 </li>
-</ul>
-
-<p>Dessa forma, temos um conjunto completo de propriedades que podemos utilizar
-em nosso código!</p>
-
-<p>Vamos mergulhar agora na arquitetura do Kivy e entender melhor como as coisas
-funcionam por dentro.</p>
-
-<h2 id="visão-geral-da-arquitetura-do-kivy">Visão Geral da Arquitetura do Kivy</h2>
-
-<p>Entender como a arquitetura do Kivy foi desenhada ajuda e muito a compreender
-como os módulos internos funcionam em conjunto.</p>
-
-<p>Essa seção explica a ideia básica por trás da implementação de cada módulo.</p>
-
-<p>Para visualizarmos melhor a divisão e a interação entre os módulos, veja a
-ilustração abaixo:</p>
-
-<p><img src="/assets/posts/python-and-kivy/kivy-architecture.png" alt="Arquitetura" class="img-responsive"></p>
-
-<h3 id="core-providers-e-input-providers">
-<em>Core Providers</em> e <em>Input Providers</em>
-</h3>
-
-<p>Um conceito chave para entender a arquitetura do Kivy é sua modularidade e
-abstração.</p>
-
-<p>O Kivy tenta abstrair simples tarefas, como abrir janelas, mostrar imagens e
-textos, tocar áudios e etc. Essas tarefas são chamadas de <em>core tasks</em> (tarefas
-de núcleo).</p>
-
-<p>Isso torna a API do Kivy fácil de manter e fácil de utilizar.</p>
-
-<p>E o mais importante, essa abstração possibilita ao Kivy utilizar o que chamam de
-<em>specific providers</em> (provedores específicos) para cada cenário em que sua
-aplicação poderá rodar (Mac OS, Windows, Linux, Android, iOS).</p>
-
-<p>Por exemplo, no Mac OS, Linux e Windows, existem diferentes <em>APIs</em> nativas para
-cada <em>core task</em>.</p>
-
-<p>Dessa forma, código que conversa com essas <em>APIs</em> nativas de um lado e com o
-Kivy do outro (atuando portanto como uma camada de comunicação), é chamado de
-<em>core provider</em>.</p>
-
-<p>Isso torna o <em>framework</em> muito mais simples para nós programadores, pois não
-precisamos nos preocupar com aspectos específicos de cada sistema. Nós deixamos
-o Kivy fazer o que for melhor.</p>
-
-<p>Também por conta disso, o pacote compilado do Kivy é bem menor (já que
-utiliza boa parte das funções de núcleo do sistema onde será executado).</p>
-
-<p>O tratamento de <em>inputs</em> utiliza esse mesmo conceito. Um <em>input provider</em> é um
-conjunto de código que adiciona suporte à um dispositivo de entrada, como o
-<em>trackpad</em> da Apple ou um emulador de mouse, por exemplo.</p>
-
-<p>Para adicionar um novo dispositivo, basta prover uma classe que realiza a<br>
-leitura dos dados desse dispositivo e os transforma em eventos do Kivy.</p>
-
-<h3 id="gráficos">Gráficos</h3>
-
-<p>A API gráfica provida pelo Kivy é uma abstração do OpenGL (<em>Open Graphics
-Library</em> - biblioteca padrão largamente utilizada no desenvolvimento de
-aplicações gráficas, ambientes 2D/3D, jogos).</p>
-
-<p>No baixo nível, Kivy executa comandos do OpenGL acelerados por hardware
-utilizando o OpenGL.</p>
-
-<p>Mesmo abstraindo esses detalhes para nós, o Kivy ainda possibilita que você
-utilize diretamente comandos do OpenGL.</p>
-
-<h3 id="uix---user-interface-experience-layouts-e-widgets">UIX - <em>User Interface Experience</em> (<em>Layouts</em> e <em>Widgets</em>)</h3>
-
-<p>Neste módulo estão os elementos que utilizamos para compor nossa interface de
-usuário. e é composto, basciamente, por:</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">Widgets</code> são elementos que adicionamos ao nosso programa a fim de implementar
-  alguma funcionalidade. Exemplos: botões, <em>sliders</em>, listas.</li>
-  <li>
-<code class="highlighter-rouge">Layouts</code> são utilizados para combinar e organizar <code class="highlighter-rouge">Widgets</code> (vide seção
-acima).</li>
-</ul>
-
-<h3 id="módulos">Módulos</h3>
-
-<p>Módulos provêem uma maneira de customizar e adicionar funcionalidades à sua
-aplicação.</p>
-
-<p>Como desenvolvedor, nós podemos tanto adicionar módulos do Kivy, quanto escrever
-nosso próprio módulo.</p>
-
-<p>Alguns módulos presentes no Kivy são:</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">touchring</code>: Desenha um círculo ao redor de cada toque.</li>
-  <li>
-<code class="highlighter-rouge">monitor</code>: Adiciona uma barra superior indicando o FPS (<em>Frame per Second</em>) e
-  um pequeno gráfico indicando atividade de <em>input</em>.</li>
-  <li>
-<code class="highlighter-rouge">keybinding</code>: Vincula alguns atalhos à ações, como por exemplo tirar um
-  <em>screenshot</em> através de determinada tecla.</li>
-  <li>
-<code class="highlighter-rouge">screen</code>: Emula as características de diferentes resoluções de tela.</li>
-</ul>
-
-<h3 id="eventos-de-entrada-toques">Eventos de Entrada (Toques)</h3>
-
-<p>O Kivy também abstrai os diferentes tipos de <em>input</em> como toques, mouse e
-similares.</p>
-
-<p>O que esses dispositivos têm em comum é que eles associam uma posição 2D em tela
-para um evento do Kivy.</p>
-
-<p>Internamento no Kivy eles são representados como uma instância da classe
-<code class="highlighter-rouge">Touch</code>. Essa instância pode estar em um dos seguintes estados:</p>
-
-<ul>
-  <li>
-<strong><em>Down</em></strong>: Esse estado é ativado assim que a instância <code class="highlighter-rouge">touch</code> for ativada
-  pela primeira vez (usuário clicou na tela, por exemplo).</li>
-  <li>
-<strong><em>Move</em></strong>: Esse estado ocorre quando a posição 2D é alterada (usuário
-  movimenta o dedo na tela, por exemplo).</li>
-  <li>
-<strong><em>Up</em></strong>: É ativado apenas uma vez (quando o usuário retira o dedo da tela,
-  por exemplo).</li>
-</ul>
-
-<h3 id="widgets-e-tratamento-de-eventos">
-<em>Widgets</em> e Tratamento de Eventos</h3>
-
-<p>Um <em>widget</em> dentro do Kivy é um elemento que pode receber eventos de <em>input</em>.</p>
-
-<p>Todo conjunto de <em>widgets</em> é representado internamente como uma árvore. Dessa
-forma, cada <em>widget</em> pode ter qualquer número de nós filhos e apenas um nó pai e
-todo <em>widget</em> é filho direta ou indiretamente do nó raiz (<em>root widget</em>).</p>
-
-<p>Quando um evento de toque é acionado, ele é enviado ao <em>widget</em> raiz o qual pode
-processar o evento ou passá-lo adiante. Caso algum tratador de evento (<em>event
-handler</em>) retorne <code class="highlighter-rouge">True</code>, o evento é dado como processado e tratado
-corretamente.</p>
-
-<p>Esse processo ocorre até que o evento chegue à base da árvore de <em>widgets</em>.</p>
-
-<h2 id="linguagem-kivy-kvlang-ou-kivy-language">Linguagem Kivy (<em>kvlang</em> ou <em>Kivy Language</em>)</h2>
-
-<p><img src="/assets/posts/python-and-kivy/kv-lang.png" alt="Linguagem Kivy" class="img-responsive"></p>
-
-<p>Agora que já temos uma noção básica de como o Kivy funciona, vamos abordar um
-conceito extremamente importante que ajuda muito na organização da nossa
-aplicação: a linguagem Kivy.</p>
-
-<p>Conforme desenvolvemos, nossa aplicação vai se tornando cada vez mais complexa.
-Nossa estrutura de <em>widgets</em> vai crescendo e se tornando mais difícil de manter.</p>
-
-<p>Nesse sentido, o pessoal do Kivy desenvolveu uma linguagem interna para
-descrição da nossa árvore de <em>widgets</em>. Essa linguagem possibilita vincular
-propriedades e/ou funções de <em>callback</em> entre <em>widgets</em>.</p>
-
-<p>Essa abordagem possibilita a criação de protótipos e atualizações na interface
-de usuário de maneira eficiente.</p>
-
-<p>Além disso facilita a separação entre a lógica da nossa aplicação e a interface
-de usuário.</p>
-
-<h3 id="carregando-seu-arquivo-kv">Carregando seu Arquivo .kv</h3>
-
-<p>Podemos carregar nosso arquivo .kv de duas formas:</p>
-<ul>
-  <li>
-<strong>Por convenção</strong>: O Kivy procura por um arquivo com o mesmo nome da sua
-  classe principal (aquela que estende de <code class="highlighter-rouge">App</code>) em letras minúsculas e sem o
-  sufixo “App”, caso tenha. Exemplo: sua classe se chama <code class="highlighter-rouge">MyFirstApp</code>. Assim,
-  o arquivo buscado será <strong>myfirst.kv</strong>.</li>
-  <li>
-<strong>Utilizando a classe <code class="highlighter-rouge">Builder</code></strong>: Nós podemos forçar o Kivy a carregar os
-dados de um arquivo de nossa escolha com o método <code class="highlighter-rouge">load_file('arquivo.kv')</code>
-da classe <code class="highlighter-rouge">Builder</code>.</li>
-</ul>
-
-<h3 id="contexto-de-regras-rules">Contexto de Regras (<em>rules</em>)</h3>
-
-<p>A linguagem Kivy é baseado em regras, que descrevem o conteúdo de um <em>widget</em>.</p>
-
-<p>Em um arquivo .kv existe apenas uma regra raiz (<em>root rule</em>) e qualquer número
-de regras filhas. Essa regra raiz é definida pelo nome da regra, sem identação,
-seguida de ‘:’. Exemplo:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>Widget:
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Uma regra de classe (<em>class rule</em>) é definida pelo nome da regra delimitada por
-“&lt;&gt;” seguida de “:”. Exemplo:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>&lt;WidgetClass&gt;:
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Algumas construções que podem ser feitas:</p>
-<ul>
-  <li>Acessar módulos Python e classes do Kivy:</li>
-</ul>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre>#:import name x.y.z
-#:import isdir os.path.isdir
-#:import np numpy
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>que é equivalente à:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">x.y</span> <span class="kn">import</span> <span class="n">z</span> <span class="k">as</span> <span class="n">name</span>
-<span class="kn">from</span> <span class="nn">os.path</span> <span class="kn">import</span> <span class="n">isdir</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>em python.</p>
-
-<ul>
-  <li>Definir uma variável global:</li>
-</ul>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>#:set name value
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>e em Python:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="n">name</span> <span class="o">=</span> <span class="n">value</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<h3 id="declaração-de-widgets-filhos">Declaração de <em>Widgets</em> Filhos</h3>
-
-<p>Para declarar que determinado <em>widget</em> tem um filho, precisamos apenas defini-lo
-dentro da respectiva regra. Exemplo, se quisermos definir um <em>widget</em> com um
-<code class="highlighter-rouge">BoxLayout</code> que tem dois botões, podemos fazer assim:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td>
-<td class="code"><pre>WidgetRaiz:
-    BoxLayout:
-        Button:
-        Button:
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Para passar parâmetros para um <em>widget</em> (assim como fazemos em Python com
-<code class="highlighter-rouge">grid = GridLayout(cols=3)</code>), fazemos:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="code"><pre>GridLayout:
-    cols: 3
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<h3 id="bind-de-eventos">
-<em>Bind</em> de Eventos</h3>
-
-<p>Podemos realizar o <em>bind</em> de funções à eventos da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="code"><pre>Widget:
-    on_size: callback()
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Dessa forma, quando o evento <code class="highlighter-rouge">on_size</code> por processado, Kivy chamará a função
-<code class="highlighter-rouge">callback()</code>.</p>
-
-<h3 id="acessando-widgets-definidos-no-arquivo-kv-em-seu-código-python">Acessando <em>Widgets</em> Definidos no Arquivo .kv em seu Código Python</h3>
-
-<p>Bem, até agora, citamos diversos maneiras de construir uma aplicação utilizando
-Kivy.</p>
-
-<p>Agora precisamos definir como acessar os componentes definidos no arquivo
-.kv no código Python.</p>
-
-<p>Para podermos referenciar componentes Kivy em nosso código, utilizamos
-identificadores (<code class="highlighter-rouge">id</code>) para tal.</p>
-
-<p>Por exemplo:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td>
-<td class="code"><pre>&lt;Widget&gt;:
-    Button:
-        id: button_id
-    TextInput:
-        text: button_id.state
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Dessa forma, <code class="highlighter-rouge">TextInput</code> está referenciando o elemento <code class="highlighter-rouge">Button</code> pelo seu
-identificador <code class="highlighter-rouge">button_id</code>.</p>
-
-<p><strong>Uma observação importante</strong>: <code class="highlighter-rouge">id</code> é uma referência fraca e portanto não evita
-que o elemento seja coletado pelo <code class="highlighter-rouge">garbage collector</code>.</p>
-
-<p>Quando seu seu arquivo .kv é processado, o Kivy coleta todos os elementos e
-monta um dicionário <code class="highlighter-rouge">self.ids</code> contendo os identificadores lidos.</p>
-
-<p>Veja o código Kivy abaixo:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-</pre></td>
-<td class="code"><pre>&lt;WidgetExemplo&gt;
-    Label:
-        id: email
-        text: 'Email'
-    Button:
-        id: submit
-        text: "Enviar"
-        on_release: root.submit_email()
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Um código Python que acessa esses elementos:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td>
-<td class="code"><pre><span class="k">class</span> <span class="nc">WidgetExemplo</span><span class="p">(</span><span class="n">BoxLayout</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">submit_email</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">ids</span><span class="o">.</span><span class="n">submit</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"Email enviado"</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">ids</span><span class="p">[</span><span class="s">"email"</span><span class="p">]</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">""</span>  <span class="c1"># Sintaxe alternativa</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Dessa forma, temos o <em>link</em> entre o código Kivy e o Python!</p>
-
-<h2 id="classes-dinâmicas">Classes Dinâmicas</h2>
-
-<p>Classes dinâmicas servem para criar <em>templates</em> padrão para reutilizar partes
-repetidas entre componentes.</p>
-
-<p>Por exemplo, considere o código abaixo:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-</pre></td>
-<td class="code"><pre>&lt;MeuWidget&gt;:
-    Button:
-        text: "Este texto está dentro de um botão"
-        text_size: self.size
-        font_size: '32sp'
-        markup: True
-    Button:
-        text: "Outro texto dentro de outro botão"
-        text_size: self.size
-        font_size: '32sp'
-        markup: True
-    Button:
-        text: "Mais uma vez temos um texto dentro do botão"
-        text_size: self.size
-        font_size: '32sp'
-        markup: True    
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Percebe que as propriedades <code class="highlighter-rouge">text_size</code>, <code class="highlighter-rouge">font_size</code> e <code class="highlighter-rouge">markup</code> se repetem
-dentro de cada componente?</p>
-
-<p>Para evitar isso, podemos criar um <em>template</em> para criar partes reutilizáveis de
-código. Exemplo:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td>
-<td class="code"><pre>&lt;BotaoGrande@Button&gt;:
-    text_size: self.size
-    font_size: '32sp'
-    markup: True
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Para estender esse <em>template</em>, desenvolvemos da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td>
-<td class="code"><pre>&lt;MeuWidget&gt;:
-    BotaoGrande:
-        text: "Este texto está dentro de um botão"
-    BotaoGrande:
-        text: "Outro texto dentro de outro botão"
-    BotaoGrande:    
-        text: "Mais uma vez temos um texto dentro do botão"
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Assim evitamos código duplicado e aumentamos a flexibilidade de nosso código,
-podendo criar componentes que extendem outros.</p>
-
-<p>Outra forma de reutilização de código é reutilizar a mesma definição da classe
-para diferentes propósitos. Por exemplo:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-</pre></td>
-<td class="code"><pre>&lt;PrimeiroWidget&gt;:
-    Button:
-        on_press: root.text(txt_inpt.text)
-    TextInput:
-        id: txt_inpt
-
-&lt;SegundoWidget&gt;:
-    Button:
-        on_press: root.text(txt_inpt.text)
-    TextInput:
-        id: txt_inpt
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Os dois elementos possuem o mesmo estilo. Dessa forma, podemos reutilizar seus
-códigos da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td>
-<td class="code"><pre>&lt;PrimeiroWidget, SegundoWidget&gt;:
-    Button:
-        on_press: root.text(txt_inpt.text)
-    TextInput:
-        id: txt_inpt
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Assim, ambas classes compartilharão o mesmo código Kivy.</p>
-
-<h2 id="conclusão">Conclusão</h2>
-
-<p>Nesse artigo vimos um pouco do Kivy e como podemos começar a utilizá-lo.</p>
-
-<p>Vimos alguns conceitos importantes, como sua Arquitetura e a Linguagem Kivy, os
-quais nos ajudam a compreender o funcionamento das nossas aplicações feitas
-utilizando esse poderoso <em>framework</em>.</p>
-
-<p>Vimos que é possível desenvolvermos aplicações simples com poucas linhas de
-código.</p>
-
-<p>Espero ter despertado a curiosidade de vocês com relação ao Kivy! Esse foi
-apenas um post introdutório.</p>
-
-<p>No segundo artigo, explico alguns conceitos importantes, como o gerenciamento 
-de telas, áudio, funções periódicas com <em>Clock</em>, botões customizados e <strong>muito mais</strong>!!! 
-Também construo o seguinte jogo, chamado Pong Reborn:</p>
-
-<p><img src="/assets/posts/python-and-kivy/pong-reborn.png" alt="Pong Reborn" class="img-responsive"></p>
-
-<p>Ele é uma recriação do famoso jogo Pong. Mas na nossa versão de qualidade!
-<img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
-
-<p><strong>Pra não perder o embalo, já acesse o segundo artigo <a href="https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy" target="_blank">clicando aqui</a>!</strong></p>
-
-<p>Se você não quer perder os próximos posts e quer ficar ligado assim que sairem, 
-se inscreva na nossa lista de emails e fique por dentro!</p>
-
-<div class="email-signup" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="signup-body">
-				<span class="greeting">Está gostando do artigo?</span>
-				<span class="signup-text">Então cadastre o seu email para <span class="blue">receber gratuitamente</span> mais conteúdos como este!</span>
-		        <!-- Include MailChimp email form with input and submit button -->
-<!-- Parameters: Quero receber = button label  -->
-
-<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate="">
-    <div id="mc_embed_signup_scroll" class="container-fluid">        
-        <div class="row no-gutters">
-            <div class="col-xs-4">
-                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="">
-            </div>
-            
-            <div class="col-xs-6">                
-                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="">                
-            </div>
-
-            <div class="col-xs-2">
-                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
-                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
-                    <!--<span>Enviar</span>-->
-                    <i class="fa fa-mail-forward visible-xs" aria-hidden="true"></i>
-                    <span class="hidden-xs">Quero receber</span>
-                </button>        
+                        <li>Construa <i>Middlewares</i> próprios</li>
+                        <li>Desenvolva filtros e <i>tags</i> customizados para criar lindos <i>templates</i>
+</li>
+                    </ul>
+    
+                    <div class="link-to-download">                                    
+                        <a href="/ebooks/desenvolvimento-web-com-python-e-django/" class="call-to-action yellow">
+                            Baixe já!
+                        </a>
+                    </div>    
+                </div>
             </div>
         </div>
-    </div>	
-
-    <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>            
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
-</form>
-		    </div>
-		</div>
-	</div>      
+    </div>
 </div>
 
-<p>Ah, e não se esqueça de comentar qualquer dúvida ou sugestão aqui embaixo! Seu
-feedback é <strong>MUITO</strong> importante para nós!</p>
+<p>Atá a próxima!</p>
 
-<p>Bom desenvolvimento!</p>
+<p>Bom desenvolvimento! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
 
 
 
@@ -1296,7 +523,7 @@ feedback é <strong>MUITO</strong> importante para nós!</p>
 												Por Vinícius Ramos
 											</span>
 
-											<b>em <time datetime="2018-04-07" pubdate>07/04/2018</time></b>
+											<b>em <time datetime="2018-06-07" pubdate>07/06/2018</time></b>
 										</h2>
 	
 										<p class="short-description">"<i>O que eu ouço, eu esqueço. O que eu vejo, eu lembro. O que eu faço, eu entendo.</i>"</p>
@@ -1361,25 +588,25 @@ feedback é <strong>MUITO</strong> importante para nós!</p>
 			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
 			<ul>				
 				<li>
-					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/o-comando-migrate-do-django','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
 						<i class="fa fa-fw fa-facebook"></i>
 					</a>
 				</li>				
 				
 				<li>							
-					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy&amp;related=PythonAcademyBR&amp;text=%22Desenvolva%20Aplicativos%20para%20Android,%20iOS%20e%20Muito%20Mais%20com%20Python%20e%20Kivy%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/o-comando-migrate-do-django&amp;related=PythonAcademyBR&amp;text=%22O%20comando%20migrate%20do%20Django%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
 						<i class="fa fa-fw fa-twitter"></i>
 					</a>
 				</li>
 
 				<li>
-					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy" data-action="share/whatsapp/share">
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/o-comando-migrate-do-django" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/o-comando-migrate-do-django" data-action="share/whatsapp/share">
 						<i class="fa fa-fw fa-whatsapp"></i>
 					</a>
 				</li>
 
 				<li>
-					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Desenvolva%20Aplicativos%20para%20Android,%20iOS%20e%20Muito%20Mais%20com%20Python%20e%20Kivy&amp;body=https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=O%20comando%20migrate%20do%20Django&amp;body=https://pythonacademy.com.br/blog/o-comando-migrate-do-django&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
 						<i class="fa fa-fw fa-envelope"></i>
 					</a>
 				</li>
@@ -1590,7 +817,7 @@ feedback é <strong>MUITO</strong> importante para nós!</p>
 							var post = posts[randomIndex];
 
 							// Verify if related post is the same as the shown
-							if (post.title != "Desenvolva Aplicativos para Android, iOS e Muito Mais com Python e Kivy") {
+							if (post.title != "O comando migrate do Django") {
 								var postHTML = 
 									"<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>" +
 										"<a href='" + post.href + "' class='card aos-init aos-animate' data-aos='fade-up'>" +
@@ -1625,7 +852,7 @@ feedback é <strong>MUITO</strong> importante para nós!</p>
 						$('#email-modal').modal('show');
 
 						/* Set cookie so this does not repeat */
-						Cookies.set('pythonacademy_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy' });
+						Cookies.set('pythonacademy_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/o-comando-migrate-do-django' });
 					}
 				});		
 				
@@ -1645,8 +872,8 @@ feedback é <strong>MUITO</strong> importante para nós!</p>
 		
 			<script type="text/javascript">
 				var disqus_config = function () {
-					this.page.url = 'https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy';     // Replace PAGE_URL with your page's canonical URL variable
-					this.page.identifier = '/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					this.page.url = 'https://pythonacademy.com.br/blog/o-comando-migrate-do-django';     // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = '/blog/o-comando-migrate-do-django';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 				};
 			
 				(function() { // DON'T EDIT BELOW THIS LINE
