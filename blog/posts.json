@@ -219,6 +219,23 @@
          "year": "2018"
       }
     }
+    ,
+    
+    
+    {
+      "title": "Como Instalar o Python no Windows",
+      "href": "/blog/como-instalar-python-no-windows",
+      "slug": "como-instalar-python-no-windows",
+      "assets": "windows-python-installation",
+      "author": "Leon S",
+      "description": "<p>O começo de tudo! Nesse post, vamos aprender como instalar o Python no Windows para adentrar no maravilhoso mundo do Python! Não tenha medo, vamos mostrar passo a passo!</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "04",
+         "month": "April",
+         "year": "2018"
+      }
+    }
     
     
 ]
