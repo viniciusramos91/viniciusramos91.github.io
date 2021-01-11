@@ -228,10 +228,27 @@
       "slug": "como-instalar-python-no-windows",
       "assets": "windows-python-installation",
       "author": "Leon S",
-      "description": "<p>O começo de tudo! Nesse post, vamos aprender como instalar o Python no Windows para adentrar no maravilhoso mundo do Python! Não tenha medo, vamos mostrar passo a passo!</p>",
+      "description": "<p>Nesse post, vamos aprender como instalar o Python no Windows para adentrar no maravilhoso mundo do Python! Não tenha medo, vamos mostrar passo a passo!</p>",
       "featured_icon": "featured_icon.svg",
       "date": {
          "day": "04",
+         "month": "April",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
+      "title": "Como Instalar o Python no Linux",
+      "href": "/blog/como-instalar-python-no-linux",
+      "slug": "como-instalar-python-no-linux",
+      "assets": "linux-python-installation",
+      "author": "Vinícius R",
+      "description": "<p>O começo do começo! Vamos aprender como instalar o Python no Linux e começar a programar utilizando essa incrível linguagem de programação!</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "03",
          "month": "April",
          "year": "2018"
       }
