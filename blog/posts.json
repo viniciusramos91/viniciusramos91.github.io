@@ -195,7 +195,7 @@
       "assets": "decorators",
       "author": "Vinícius R",
       "description": "<p>Decorators modificam o comportamente do código antes e depois da execução de uma dada função, sem a necessidade de modificar o próprio código da mesma, adicionando funcionalidades.</p>",
-      "featured_icon": "domine-decorators-em-python.svg",
+      "featured_icon": "featured_img.svg",
       "date": {
          "day": "06",
          "month": "April",
