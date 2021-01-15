@@ -2,6 +2,23 @@
     
     
     {
+      "title": "Dict Comprehensions no Python",
+      "href": "/blog/dict-comprehensions-no-python",
+      "slug": "dict-comprehensions-no-python",
+      "assets": "dict-comprehensions",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post, vamos aprender mais ferramenta avançada muito útil do Python para tratamento e manipulação de dicionários!</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "14",
+         "month": "January",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "title": "List Comprehensions no Python",
       "href": "/blog/list-comprehensions-no-python",
       "slug": "list-comprehensions-no-python",
