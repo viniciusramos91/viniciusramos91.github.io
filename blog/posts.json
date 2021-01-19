@@ -7,7 +7,7 @@
       "slug": "dict-comprehensions-no-python",
       "assets": "dict-comprehensions",
       "author": "Vinícius R",
-      "description": "<p>Nesse post, vamos aprender mais ferramenta avançada muito útil do Python para tratamento e manipulação de dicionários!</p>",
+      "description": "<p>Nesse post, vamos aprender uma ferramenta avançada muito útil do Python para tratamento e manipulação de dicionários!</p>",
       "featured_icon": "featured_icon.svg",
       "date": {
          "day": "14",
@@ -63,6 +63,23 @@
       "date": {
          "day": "04",
          "month": "July",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
+      "title": "Formulários do Django com Django Forms",
+      "href": "/blog/formularios-do-django-com-django-forms",
+      "slug": "formularios-do-django-com-django-forms",
+      "assets": "django-forms",
+      "author": "Vinícius R",
+      "description": "<p>Vamos conhecer a facilidade que é criar formulários em projetos Django utilizando Django Forms!</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "22",
+         "month": "June",
          "year": "2018"
       }
     }

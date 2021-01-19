@@ -957,28 +957,31 @@ a {
             display: table-cell;
             vertical-align: middle;
             text-align: left;
-            padding: 96px 0;
+            padding: 16px 0;
 
             h1 {
                 font-family: 'Oswald', sans-serif;
                 text-transform: uppercase;
-                font-size: 5rem;
+                font-size: 4rem;
                 color: #FFF;
-                margin: 0 0 24px 0;
+                margin: 0;
+                display: inline-block;
             }
 
             h2 {
                 font-family: 'Muli', sans-serif;
-                font-size: 1.8rem;
+                font-size: 1.6rem;
                 font-weight: 400;
                 color: #FFF;
+                margin: 0;
+                display: inline-block;
             }
         }
     }
 
     &.blog-banner {
         // background: #2d98da url('/assets/svg/blog-bground-pattern.svg');
-        background: url("/assets/svg/stars-bground.svg"),linear-gradient(to bottom, #1b72c3, #2d98da);
+        background: url("/assets/svg/stars-bground.svg"), #383838;
     }
 
     &.sliders-banner {

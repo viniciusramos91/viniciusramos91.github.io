@@ -36,7 +36,7 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
 
-		<title>O comando migrate do Django</title>
+		<title>Formulários do Django com Django Forms</title>
 		<link rel="icon" type="image/png" href="/assets/img/favicon.png">
 
 		
@@ -45,7 +45,7 @@
 		
 
 		<!-- Canonical URL -->
-		<link rel="canonical" href="https://pythonacademy.com.br/blog/o-comando-migrate-do-django">	
+		<link rel="canonical" href="https://pythonacademy.com.br/blog/formularios-do-django-com-django-forms">	
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -76,17 +76,17 @@
 				
 
 		<!-- General -->
-		<meta name="description" content="Nesse post, vamos ver o funcionamento do comando migrate do Django, suas opções e como ele ajuda os desenvolvedores na hora de criar o banco de dados da nossa aplicação Django.">		
+		<meta name="description" content="Vamos conhecer a facilidade que é criar formulários em projetos Django utilizando Django Forms!">		
 
 		<!-- Open Graph -->
 		<meta property="fb:app_id" content="220280761884954">
 		<meta property="og:site_name" content="Python Academy">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="O comando migrate do Django">
-		<meta property="og:url" content="https://pythonacademy.com.br/blog/o-comando-migrate-do-django">
-		<meta property="og:description" content="Nesse post, vamos ver o funcionamento do comando migrate do Django, suas opções e como ele ajuda os desenvolvedores na hora de criar o banco de dados da nossa aplicação Django.">
-		<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/django-command-migrate/facebook.png" />
-		<meta property="og:image:alt" content="O comando migrate do Django" />
+		<meta property="og:title" content="Formulários do Django com Django Forms">
+		<meta property="og:url" content="https://pythonacademy.com.br/blog/formularios-do-django-com-django-forms">
+		<meta property="og:description" content="Vamos conhecer a facilidade que é criar formulários em projetos Django utilizando Django Forms!">
+		<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/django-forms/facebook.png" />
+		<meta property="og:image:alt" content="Formulários do Django com Django Forms" />
 		<meta property="og:image:type" content="image/png" />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
@@ -94,9 +94,9 @@
 		<!-- Twitter cards -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-		<meta name="twitter:title" content="O comando migrate do Django">
-		<meta name="twitter:description" content="Nesse post, vamos ver o funcionamento do comando migrate do Django, suas opções e como ele ajuda os desenvolvedores na hora de criar o banco de dados da nossa aplicação Django.">
-		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/django-command-migrate/twitter.png">
+		<meta name="twitter:title" content="Formulários do Django com Django Forms">
+		<meta name="twitter:description" content="Vamos conhecer a facilidade que é criar formulários em projetos Django utilizando Django Forms!">
+		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/django-forms/twitter.png">
 		
 		<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
 			
@@ -227,14 +227,14 @@
 						<div class="container">	
 							<div class="wrapper">
 								<div class="featured-icon-wrapper">
-									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/django-command-migrate/featured_icon.svg" width="90%">
+									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/django-forms/featured_icon.svg" width="90%">
 									</object>															
 								</div>
 							</div>													
 			
 							
 							<h1 class="blog-post-title font-shadow">
-								O comando migrate do Django
+								Formulários do Django com Django Forms
 							</h1>			
 						</div>			
 					</div>
@@ -268,50 +268,71 @@
 			<div class="container post-container">
 				<div class="blog-post-content">
 					
-<p>Nesse post, vamos ver o que o comando <code class="highlighter-rouge">migrate</code> faz, as opções do comando e como ele ajuda a vida do desenvolvedor Django na hora de criar a estrutura do banco de dados da nossa aplicação!</p>
+<p>Fala grande <strong>Pythonista</strong>!</p>
 
-<p>Bora nessa!</p>
+<p><em>Ou seria Djangista?</em> <img class="emoji" title=":thinking:" alt=":thinking:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png" height="20" width="20"> Péssimo, esquece… <img class="emoji" title=":grin:" alt=":grin:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f601.png" height="20" width="20"></p>
+
+<p>Hoje vamos aprender a desenvolver Formulários web incríveis utilizando Django Forms!</p>
+
+<p>Esse post faz parte do contexto da <strong>Série Django</strong> aqui da Python Academy!</p>
+
+<p>Já se liga nos outros posts:</p>
+
+<p><img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" target="_blank">Django: Introdução ao <em>framework</em></a><br>
+<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model" target="_blank">Django: A Camada <em>Model</em></a><br>
+<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view" target="_blank">Django: A Camada <em>View</em></a><br>
+<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template" target="_blank">Django: A Camada <em>Template</em></a></p>
 
 <h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
 
 <ul id="markdown-toc">
-  <li><a href="#onde-estamos" id="markdown-toc-onde-estamos">Onde estamos…</a></li>
-  <li><a href="#o-comando-migrate" id="markdown-toc-o-comando-migrate">O comando <code class="highlighter-rouge">migrate</code></a></li>
-  <li><a href="#db-browser-for-sqlite" id="markdown-toc-db-browser-for-sqlite"><em>DB Browser for SQLite</em></a></li>
-  <li><a href="#op%C3%A7%C3%B5es-do-comando-migrate" id="markdown-toc-opções-do-comando-migrate">Opções do comando <code class="highlighter-rouge">migrate</code></a></li>
+  <li><a href="#processamento-de-formul%C3%A1rios-html-no-django" id="markdown-toc-processamento-de-formulários-html-no-django">Processamento de Formulários HTML no Django</a></li>
+  <li><a href="#criando-seu-primeiro-form" id="markdown-toc-criando-seu-primeiro-form">Criando seu primeiro <code class="highlighter-rouge">Form</code></a></li>
+  <li><a href="#criando-forms-com-modelform" id="markdown-toc-criando-forms-com-modelform">Criando Forms com <code class="highlighter-rouge">ModelForm</code></a></li>
+  <li><a href="#juntando-tudo" id="markdown-toc-juntando-tudo">Juntando tudo</a></li>
+  <li><a href="#b%C3%B4nus-alterando-o-comportamento-padr%C3%A3o-com-widgets" id="markdown-toc-bônus-alterando-o-comportamento-padrão-com-widgets"><strong>BÔNUS:</strong> Alterando o comportamento padrão com <code class="highlighter-rouge">Widgets</code></a></li>
 </ul>
 
-<h2 id="onde-estamos">Onde estamos…</h2>
+<h2 id="processamento-de-formulários-html-no-django">Processamento de Formulários HTML no Django</h2>
 
-<p>Como usual, vamos nos situar nesse mundão Django!</p>
+<p>O tratamento de formulários é uma tarefa que pode ser <strong>bem complexa</strong>.</p>
 
-<p><img src="/assets/posts/django-model/django-architecture.png" alt="Arquitetura do Django - Model" class="img-responsive"></p>
+<p>Considere um formulário com diversos campos e diversas regras de validação: seu tratamento não é mais um processo simples.</p>
 
-<p>No <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" target="_blank">primeiro post da nossa Série de Django</a>, tratamos de conceitos introdutórios do <em>framework</em>, uma visão geral da sua arquitetura, sua instalacão e a criação do <strong><em>Hello World, Django</em></strong>.</p>
+<p>Os <em>Forms</em> do Django são formas de descrever os elementos <code class="highlighter-rouge">&lt;form&gt;...&lt;/form&gt;</code> das páginas HTML, simplificando e automatizando o processo de validação.</p>
 
-<p>Já no <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model" target="_blank">segundo post da Série</a>, tratamos da camada <em>Model</em>, onde definimos as entidades do nosso sistema, a interface com o banco de dados e aprendemos como utilizar a API de acesso a dados provida pelo Django - que facilita muito nossa vida!</p>
-
-<p>Agora, vamos ver o funcionamento de um dos comandos mais importantes da camada <em>Model</em> do Django: o <code class="highlighter-rouge">migrate</code>.</p>
-
-<h2 id="o-comando-migrate">O comando <code class="highlighter-rouge">migrate</code>
-</h2>
-
-<p>Quando executamos o comando <code class="highlighter-rouge">makemigrations</code>, o Django cria o banco de dados e as <em>migrations</em>, mas não as executa, isto é: não <strong>realmente</strong> aplica as alterações no banco de dados.</p>
-
-<p>Para que o Django as aplique, são necessárias três coisas, basicamente:</p>
+<p>O Django trata três partes distintas dos formulários:</p>
 
 <ul>
-  <li>
-<strong>1.</strong> Que a configuração da interface com o banco de dados esteja descrita no arquivo de configurações <code class="highlighter-rouge">settings.py</code>.</li>
-  <li>
-<strong>2.</strong> Que os modelos e <em>migrations</em> estejam definidos para esse projeto.</li>
-  <li>
-<strong>3.</strong> Execução do comando <code class="highlighter-rouge">migrate</code>.</li>
+  <li>Preparação dos dados tornando-os prontos para renderização</li>
+  <li>Criação de formulários HTML para os dados</li>
+  <li>Recepção e processamento dos formulários enviados ao servidor</li>
 </ul>
 
-<p>Se você acompanhou os últimos posts, você criou o projeto <em>Hello World, Django</em> através do comando <code class="highlighter-rouge">django-admin.py createproject helloworld</code> e, portanto, a configuração padrão foi aplicada.</p>
+<p>Basicamente, queremos uma forma de renderizar em nosso <em>template</em> o código HTML:</p>
 
-<p>Procure pela configuração <code class="highlighter-rouge">DATABASES</code> no <code class="highlighter-rouge">settings.py</code>. Ela deve ser a seguinte:</p>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="nt">&lt;form</span> <span class="na">action=</span><span class="s">"/insere-funcionario/"</span> <span class="na">method=</span><span class="s">"post"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"nome"</span><span class="nt">&gt;</span>Your name: <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"nome"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">name=</span><span class="s">"nome"</span> <span class="na">value=</span><span class="s">""</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">value=</span><span class="s">"Enviar"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/form&gt;</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Que, ao ser submetido ao servidor, tenha seus campos de entrada validados e inseridos no banco de dados.</p>
+
+<p>No centro desse sistema de formulários do Django está a classe <code class="highlighter-rouge">Form</code>.</p>
+
+<p>Nela, nós deescrevemos os campos que estarão disponíveis no formulário HTML e os métodos de validação.</p>
+
+<p>Para o formulário acima, podemos descrevê-lo da seguinte forma.</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -320,25 +341,56 @@
 4
 5
 6
+7
 </pre></td>
-<td class="code"><pre><span class="n">DATABASES</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s">'default'</span><span class="p">:</span> <span class="p">{</span>
-        <span class="s">'ENGINE'</span><span class="p">:</span> <span class="s">'django.db.backends.sqlite3'</span><span class="p">,</span>
-        <span class="s">'NAME'</span><span class="p">:</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">BASE_DIR</span><span class="p">,</span> <span class="s">'db.sqlite3'</span><span class="p">),</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
+
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+        <span class="n">label</span><span class="o">=</span><span class="s">'Nome do Funcionário'</span><span class="p">,</span> 
+        <span class="n">max_length</span><span class="o">=</span><span class="mi">100</span>
+    <span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Por padrão, o Django utiliza um banco de dados leve e compacto chamado <a href="https://www.sqlite.org/index.html" target="_blank">SQLite</a>. Já já vamos falar mais sobre ele.</p>
+<p>Nesse formulário:</p>
 
-<p>Sobre os modelos e <em>migrations</em>, eles já foram feitos com a definição dos modelos no arquivo <code class="highlighter-rouge">models.py</code> e com a execução do comando <code class="highlighter-rouge">makemigrations</code>.</p>
+<ul>
+  <li>Utilizamos a classe <code class="highlighter-rouge">forms.CharField</code> para descrever um campo de texto.</li>
+  <li>O parâmetro <code class="highlighter-rouge">label</code> descreve um rótulo para esse campo.</li>
+  <li>
+<code class="highlighter-rouge">max_length</code> decreve o tamanho máximo que esse <em>input</em> pode receber (100 caracteres, no caso).</li>
+</ul>
 
-<p>Agora só falta <strong>executar o comando <code class="highlighter-rouge">migrate</code></strong>, propriamente dito!</p>
+<p>Existem diversos tipos de campos possíveis de serem utilizados, por exemplo:</p>
 
-<p>Para isso, vamos para a raíz do projeto e executamos: <code class="highlighter-rouge">python manage.py migrate</code>. A saída deve ser:</p>
+<ul>
+  <li>
+<code class="highlighter-rouge">BooleanField</code>: mapeia um campo booleano, resultando em um <code class="highlighter-rouge">checkbox</code> no HTML final.</li>
+  <li>
+<code class="highlighter-rouge">DecimalField</code>: mapeia um campo decimal, resultando em um <code class="highlighter-rouge">&lt;input type='number' ...&gt;</code> no HTML final.</li>
+  <li>
+<code class="highlighter-rouge">EmailField</code>: mapeia um campo de email, resultando em um <code class="highlighter-rouge">&lt;input type='email' ...&gt;</code> no HTML final.</li>
+</ul>
 
-<figure class="highlight terminal-output"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
+<p><em>Veja os diversos tipos de campos disponíveis <a href="https://docs.djangoproject.com/pt-br/3.1/ref/forms/fields/#built-in-field-classes" target="_blank">acessando aqui</a></em></p>
+
+<p>A classe <code class="highlighter-rouge">forms.Form</code> possui um método muito importante, chamado <code class="highlighter-rouge">is_valid()</code>.</p>
+
+<p>Quando um formulário é submetido ao servidor, esse é um dos métodos que irá realizar a validação dos campos do formulário.</p>
+
+<p>Se tudo estiver <strong>OK</strong>, ele colocará os dados do formulário no atributo <code class="highlighter-rouge">cleaned_data</code> (que pode ser acessado por você posteriormente para pegar alguma informação - como o nome que foi inserido pelo usuário no campo <code class="highlighter-rouge">&lt;input name='nome'&gt;</code>).</p>
+
+<p>Como o processo de validação do Django é bem complexo e para não prolongar muito o <em>post</em>, <a href="https://docs.djangoproject.com/en/3.1/ref/forms/validation/" target="_blank">acesse a documentação aqui</a> para saber mais.</p>
+
+<h2 id="criando-seu-primeiro-form">Criando seu primeiro <code class="highlighter-rouge">Form</code>
+</h2>
+
+<p>Vamos ver agora um exemplo mais complexo com um formulário de inserção de uma entidade exemplo Funcionário, com todos os campos.</p>
+
+<p>Primeiro, vamos criar a seguinte modelagem da entidade <code class="highlighter-rouge">Funcionario</code> no arquivo <code class="highlighter-rouge">models.py</code> de sua aplicação:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
@@ -359,126 +411,126 @@
 18
 19
 20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
 </pre></td>
-<td class="code"><pre>$ python manage.py migrate
+<td class="code"><pre><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
 
-Operations to perform:
-  Apply all migrations: admin, auth, contenttypes, helloworld, sessions
-Running migrations:
-  Applying contenttypes.0001_initial... OK
-  Applying auth.0001_initial... OK
-  Applying admin.0001_initial... OK
-  Applying admin.0002_logentry_remove_auto_add... OK
-  Applying contenttypes.0002_remove_content_type_name... OK
-  Applying auth.0002_alter_permission_name_max_length... OK
-  Applying auth.0003_alter_user_email_max_length... OK
-  Applying auth.0004_alter_user_username_opts... OK
-  Applying auth.0005_alter_user_last_login_null... OK
-  Applying auth.0006_require_contenttypes_0002... OK
-  Applying auth.0007_alter_validators_add_error_messages... OK
-  Applying auth.0008_alter_user_username_max_length... OK
-  Applying auth.0009_alter_user_last_name_max_length... OK
-  Applying helloworld.0001_initial... OK
-  Applying sessions.0001_initial... OK
+<span class="k">class</span> <span class="nc">Funcionario</span><span class="p">(</span><span class="n">models</span><span class="p">.</span><span class="n">Model</span><span class="p">):</span>
+
+  <span class="n">nome</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
+  <span class="p">)</span>
+
+  <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
+  <span class="p">)</span>
+
+  <span class="n">cpf</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">max_length</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
+  <span class="p">)</span>
+
+  <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">IntegerField</span><span class="p">(</span>
+    <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
+  <span class="p">)</span>
+
+  <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">DecimalField</span><span class="p">(</span>
+    <span class="n">max_digits</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>
+    <span class="n">decimal_places</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
+  <span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p><em>Calma lá… O comando <code class="highlighter-rouge">makemigrations</code> que executamos havia definido apenas <strong>uma</strong> Migration e foram aplicadas 15!!! Por quê???</em></p>
+<p>Em seguida, vamos criar um arquivo <code class="highlighter-rouge">forms.py</code> para guardar os formulários de nossa aplicação. Crie-o no mesmo <code class="highlighter-rouge">app</code> que criou o modelo <code class="highlighter-rouge">Funcionário</code>.</p>
 
-<p>Se lembra que a configuração <code class="highlighter-rouge">INSTALLED_APPS</code> contém vários <code class="highlighter-rouge">apps</code> (<em>e não apenas os nossos</em>)?</p>
+<p>Dessa forma, e consultando a <a href="https://docs.djangoproject.com/pt-br/3.1/ref/forms/fields/#built-in-field-classes" target="_blank">documentação</a> dos possíveis campos do nosso formulário, nós podemos descrever um formulário de inserção da seguinte forma:</p>
 
-<p>Pois então, cada <code class="highlighter-rouge">app</code> desses contém seus próprios modelos e <em>migrations</em>. <em>Sacou?!</em></p>
-
-<p><img src="/assets/posts/django-model/thinking-guy.jpg" alt="_Thinking Guy Meme_" class="img-responsive"></p>
-
-<p>Com a execução do <code class="highlighter-rouge">migrate</code>, o Django irá criar as diversas tabelas desse outros <code class="highlighter-rouge">apps</code> no banco de dados <strong>E</strong> as tabelas definidas nos nosso arquivos de modelo. Uma delas é a nossa, similar à:</p>
-
-<figure class="highlight"><pre><code class="language-sql" data-lang="sql"><table class="rouge-table"><tbody><tr>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
 4
 5
 6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
 </pre></td>
-<td class="code"><pre><span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">helloworld_funcionario</span> <span class="p">(</span>
-    <span class="nv">"id"</span> <span class="nb">serial</span> <span class="k">NOT</span> <span class="k">NULL</span> <span class="k">PRIMARY</span> <span class="k">KEY</span><span class="p">,</span>
-    <span class="nv">"nome"</span> <span class="nb">varchar</span><span class="p">(</span><span class="mi">255</span><span class="p">)</span> <span class="k">NOT</span> <span class="k">NULL</span><span class="p">,</span>
-    <span class="nv">"sobrenome"</span> <span class="nb">varchar</span><span class="p">(</span><span class="mi">255</span><span class="p">)</span> <span class="k">NOT</span> <span class="k">NULL</span><span class="p">,</span>
-    <span class="p">...</span>
-<span class="p">);</span>
+<td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
+
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">Form</span><span class="p">)</span>
+    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+        <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+        <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span>
+    <span class="p">)</span>
+
+    <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+        <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+        <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span>
+    <span class="p">)</span>
+
+    <span class="n">cpf</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+        <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+        <span class="n">max_length</span><span class="o">=</span><span class="mi">14</span>
+    <span class="p">)</span>
+
+    <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">IntegerField</span><span class="p">(</span>
+        <span class="n">required</span><span class="o">=</span><span class="bp">True</span>
+    <span class="p">)</span>
+
+    <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">DecimalField</span><span class="p">(</span>
+        <span class="n">required</span><span class="o">=</span><span class="bp">True</span>
+    <span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p><em>Isso está muito abstrato! Como eu posso ver o banco, as tabelas e os dados na prática?</em></p>
+<p><em>Affff, o Model e o Form são quase iguais… Terei que reescrever os campos toda vez? <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"></em></p>
 
-<h2 id="db-browser-for-sqlite"><em>DB Browser for SQLite</em></h2>
+<p><strong><em>Claro que não, jovem!</em></strong> <em>Pra isso o Django criou o incrível <code class="highlighter-rouge">ModelForm</code>!</em> <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
 
-<p>Apresento-lhes uma ferramenta <strong>MUITO</strong> prática: o <em>DB Browser for SQLite</em>!</p>
+<p>Ah, antes de seguir! Está curtindo esse conteúdo? Que tal levá-lo pra onde quiser?</p>
 
-<p>Com ela, podemos ver a estrutura do banco de dados, alterar dados em tempo real, fazer <em>queries</em>, e muito mais!</p>
+<p>Então já baixe nosso <strong>ebook GRÁTIS de Desenvolvimento Web com Python e Django</strong>!</p>
 
-<p><a href="http://sqlitebrowser.org/" target="_blank">Clique aqui</a> para fazer o <em>download</em> e instalação do software. Ao terminar a instalação, abra o <em>DB Browser for SQLite</em>.</p>
-
-<p>Temos:</p>
-
-<p><img src="/assets/posts/django-model/db-browser-screen.png" alt="_DB Browser for SQLite_" class="img-responsive"></p>
-
-<p>Nele, podemos clicar em “<strong>Abrir banco de dados</strong>” e procurar pelo banco de dados do nosso projeto <code class="highlighter-rouge">db.sqlite3</code>.</p>
-
-<p>Ao importá-lo, teremos uma visão geral, mostrando Tabelas, Índices, <em>Views</em> e <em>Triggers</em>.</p>
-
-<p>Para ver os dados de cada tabela, vá para a aba “<strong>Navegar dados</strong>”, escolha nossa tabela <code class="highlighter-rouge">helloworld_funcionario</code> e…</p>
-
-<p><em><strong>Voilá</strong></em>! O que temos? <strong>NADA</strong> <img class="emoji" title=":disappointed:" alt=":disappointed:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f61e.png" height="20" width="20"></p>
-
-<p><em>Calma jovem… Ainda não adicionamos nada <img class="emoji" title=":unamused:" alt=":unamused:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f612.png" height="20" width="20"></em></p>
-
-<p><em>Mas, se você está ansioso para continuar nossa jornada Django, você pode ir direto para o <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view" target="_blank">próximo post</a>, onde tratamos da Camada <strong>View</strong> do Django! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></em></p>
-
-<h2 id="opções-do-comando-migrate">Opções do comando <code class="highlighter-rouge">migrate</code>
-</h2>
-
-<p>O formato padrão do comando <code class="highlighter-rouge">migrate</code> é o seguinte:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>django-admin migrate <span class="o">[</span>label_app] <span class="o">[</span>nome_migration] <span class="o">[</span>opções]
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Abaixo vamos ver as opções do comando.</p>
-
-<ul>
-  <li>Sem argumentos: aplica todas as migrações disponíveis de todos os <em>apps</em> definidos em <code class="highlighter-rouge">INSTALLED_APPS</code>.</li>
-  <li>
-<code class="highlighter-rouge">&lt;label_app&gt;</code>: Aplica-se todas as migrações do app especificado até a mais recente. Pode envolver a aplicação de outras migrações, pois pode haver dependência entre migrações.</li>
-  <li>
-<code class="highlighter-rouge">&lt;label_app&gt; &lt;nome_migrations&gt;</code>: Leva a estrutuda do banco de dados à um estado em que a migração é aplicada, sem aplicar as migrações seguintes.</li>
-  <li>
-<code class="highlighter-rouge">--database DATABASE</code>: Especifica o banco de dados para executar as migrações. As opções disponíves são àquelas que foram definidas pela configuração <code class="highlighter-rouge">DATABASES</code> no <code class="highlighter-rouge">settings.py</code>.</li>
-  <li>
-<code class="highlighter-rouge">--fake</code>: Opção avançada que permite marcar migrações como <strong>aplicadas</strong>, sem realmente aplicá-las (ou seja, sem modificar a estrutuda do seu banco de dados). Opção geralmente utilizada para recuperação da base de dados, ou quando se quer alterar manualmente a tabela interna de estados das migrações do Django.</li>
-  <li>
-<code class="highlighter-rouge">--fake-initial</code>: Permite ao Django pular a migração inicial, caso todas as tabelas já tenham sido previamente criadas. Essa opção é usada quando a estrutura inicial de tabelas já foi criada previamente no banco de dados (por exemplo, sistema legado ou se um DBA já executou um script de criação das tabelas).</li>
-  <li>
-<code class="highlighter-rouge">--plan</code>: Apenas mostra as migrações que serão aplicadas com a execução do comando <code class="highlighter-rouge">migrate</code>.</li>
-  <li>
-<code class="highlighter-rouge">--run-syncdb</code>: Permite a criação da estrutura de tabelas sem as migrações. Essa opção não verifica a estrutura das tabelas nem verifica a questão das dependências entre elas. Essa opção é usada com sistemas muito grandes, com centenas de modelos, onde o framework de migrações do Django pode ser lento.</li>
-  <li>
-<code class="highlighter-rouge">--noinput</code> ou <code class="highlighter-rouge">--no-input</code>: Evita confirmações de usuário. Opção útil quando essa opção for utilizada em scripts bash.</li>
-</ul>
-
-<h2 class="no_toc" id="conclusão">Conclusão</h2>
-
-<p>Vimos nesse post como utilizar o comando <code class="highlighter-rouge">migrate</code>, suas opções e como ele facilita nossa vida.</p>
-
-<p><em>Já imaginou ter que montar toda a estrutura de banco de dados na unha - com SQL e tudo mais?</em> <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"> <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"> <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"></p>
-
-<p>Tá curtindo o conteúdo? Que tal levar esse conteúdo para onde for com nosso <strong>ebook GRÁTIS sobre Desenvolvimento Web com Python e Django</strong>?</p>
-
-<p>Então aproveita essa chance <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"> <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"> <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></p>
+<p><img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"> <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"> <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></p>
 
 <div class="ebook-wrapper" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
     <div class="ebook">
@@ -516,9 +568,407 @@ Running migrations:
     </div>
 </div>
 
-<p>Atá a próxima!</p>
+<h2 id="criando-forms-com-modelform">Criando Forms com <code class="highlighter-rouge">ModelForm</code>
+</h2>
 
-<p>Bom desenvolvimento! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+<p>Com o <code class="highlighter-rouge">ModelForm</code> nós descrevemos os campos que queremos (atributo <code class="highlighter-rouge">fields</code>) e/ou os campos que não queremos (atributo <code class="highlighter-rouge">exclude</code>).</p>
+
+<p>Para isso, utilizamos a classe interna <code class="highlighter-rouge">Meta</code> para incluirmos esses metadados na nossa classe.</p>
+
+<p>Metadado (no caso do <em>Model</em> e do <code class="highlighter-rouge">Form</code>) é tudo aquilo que não será transformado em campo, como <code class="highlighter-rouge">model</code>, <code class="highlighter-rouge">fields</code>, <code class="highlighter-rouge">ordering</code> etc (<a href="https://docs.djangoproject.com/en/3.1/topics/db/models/#meta-options" target="_blank">mais sobre <code class="highlighter-rouge">Meta</code> <em>options</em></a>)</p>
+
+<p>Nosso <code class="highlighter-rouge">ModelForm</code>, pode ser descrito da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</pre></td>
+<td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
+
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">ModelForm</span><span class="p">):</span>
+  <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
+    <span class="c1"># Modelo base
+</span>    <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
+
+    <span class="c1"># Campos que estarão no form
+</span>    <span class="n">fields</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="s">'nome'</span><span class="p">,</span>
+      <span class="s">'sobrenome'</span><span class="p">,</span>
+      <span class="s">'cpf'</span><span class="p">,</span>
+      <span class="s">'remuneracao'</span>
+    <span class="p">]</span>
+
+    <span class="c1"># Campos que não estarão no form    
+</span>    <span class="n">exclude</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="s">'tempo_de_servico'</span>
+    <span class="p">]</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em><strong>Viu que simples! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></strong></em></p>
+
+<p>Podemos utilizar apenas o campo <code class="highlighter-rouge">fields</code>, apenas o campo <code class="highlighter-rouge">exclude</code> ou os dois juntos.</p>
+
+<p>Mesmo utilizando os atributos <code class="highlighter-rouge">fields</code> e <code class="highlighter-rouge">exclude</code>, ainda podemos adicionar outros campos, independente dos campos do modelo <code class="highlighter-rouge">Funcionário</code>.</p>
+
+<p>O resultado será um formulário com todos os campos presentes no <code class="highlighter-rouge">fields</code>, menos os campos do <code class="highlighter-rouge">exclude</code> mais os campos adicionados.</p>
+
+<p>Ficou confuso? Então vamos ver o exemplo:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+</pre></td>
+<td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
+
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">ModelForm</span><span class="p">)</span>
+
+  <span class="n">chefe</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">BooleanField</span><span class="p">(</span>
+    <span class="n">label</span><span class="o">=</span><span class="s">'Chefe?'</span><span class="p">,</span>
+    <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+  <span class="p">)</span>
+
+  <span class="n">biografia</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">label</span><span class="o">=</span><span class="s">'Biografia'</span><span class="p">,</span>
+    <span class="n">required</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="p">.</span><span class="n">TextArea</span>
+  <span class="p">)</span>
+
+  <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
+    <span class="c1"># Modelo base
+</span>    <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
+
+    <span class="c1"># Campos que estarão no form
+</span>    <span class="n">fields</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s">'nome'</span><span class="p">,</span>
+        <span class="s">'sobrenome'</span><span class="p">,</span>
+        <span class="s">'cpf'</span><span class="p">,</span>
+        <span class="s">'remuneracao'</span>
+    <span class="p">]</span>
+
+    <span class="c1"># Campos que não estarão no form    
+</span>    <span class="n">exclude</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="s">'tempo_de_servico'</span>
+    <span class="p">]</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Isso vai gerar um formulário com:</p>
+
+<ul>
+  <li>Todos os campos contidos em <code class="highlighter-rouge">fields</code> menos os campos contidos em <code class="highlighter-rouge">exclude</code>
+</li>
+  <li>O campo <code class="highlighter-rouge">chefe</code>, renderizado como um <em>checkbox</em> (<code class="highlighter-rouge">&lt;input type='checkbox' name='chefe' ...&gt;</code>)</li>
+  <li>Uma área de texto para biografia (<code class="highlighter-rouge">&lt;textarea name='biografia' ...&gt;&lt;/textarea&gt;</code>)</li>
+</ul>
+
+<p><em><strong>Mas como <code class="highlighter-rouge">biografia</code> será um <code class="highlighter-rouge">&lt;textarea .../&gt;</code> se ele é um <code class="highlighter-rouge">CharField</code>?</strong></em> <img class="emoji" title=":thinking:" alt=":thinking:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png" height="20" width="20"></p>
+
+<p>Calma lá…. Você vai descobrir na seção BÔNUS! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+
+<h2 id="juntando-tudo">Juntando tudo</h2>
+
+<p>Poderíamos criar uma <code class="highlighter-rouge">CreateView</code> para renderizar esse <code class="highlighter-rouge">Form</code> da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td>
+<td class="code"><pre><span class="kn">from</span> <span class="nn">django.views.generic</span> <span class="kn">import</span> <span class="n">CreateView</span>
+<span class="kn">from</span> <span class="nn">django.urls</span> <span class="kn">import</span> <span class="n">reverse_lazy</span>
+
+<span class="k">class</span> <span class="nc">FuncionarioCreateView</span><span class="p">(</span><span class="n">CreateView</span><span class="p">):</span>
+    <span class="n">template_name</span> <span class="o">=</span> <span class="s">"website/cria.html"</span>
+    <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
+    <span class="n">form_class</span> <span class="o">=</span> <span class="n">InsereFuncionarioForm</span>
+    <span class="n">success_url</span> <span class="o">=</span> <span class="n">reverse_lazy</span><span class="p">(</span><span class="s">"website:lista_funcionarios"</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Nela:</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">template_name</code>: Aponta para o HTML base para renderização do form.</li>
+  <li>
+<code class="highlighter-rouge">model</code>: O modelo associado à essa <code class="highlighter-rouge">View</code>.</li>
+  <li>
+<code class="highlighter-rouge">form_class</code>: <code class="highlighter-rouge">Form</code> que será disponibilizado no <em>template</em>, definido ali em cima.</li>
+  <li>
+<code class="highlighter-rouge">success_url</code>: URL para redirecionar o usuário, em caso de sucesso.</li>
+</ul>
+
+<p>Já para o template HTML, temos duas estratégias:</p>
+
+<ul>
+  <li>Deixar que o Django renderize tudo: aqui você não tem muito controle de como será o layout do resultado final.</li>
+  <li>Construir o código HTML: eu prefiro essa opção para construir algo mais bonito no final.</li>
+</ul>
+
+<p>Vamos ao resultado de ambas alternativas.</p>
+
+<p>Na primeira, o código HTML poderia ser assim:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td>
+<td class="code"><pre><span class="nt">&lt;form</span> <span class="na">method=</span><span class="s">"post"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Não se esqueça dessa tag --&gt;</span>
+    {% csrf_token %}
+
+    
+    <span class="nt">&lt;hr&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"text-right"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{% url 'website:lista_funcionarios' %}"</span> <span class="na">class=</span><span class="s">"btn btn-outline-primary"</span><span class="nt">&gt;</span>Voltar<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Enviar<span class="nt">&lt;/button&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/form&gt;</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>O que resultaria no seguinte HTML, após renderizado:</p>
+
+<p><img src="/assets/posts/django-forms/form-construido.png" alt="Formulário resultante" class="img-responsive"></p>
+
+<p>Pouco código, contudo…</p>
+
+<p><em><strong>Meio “feio” pra mostrar pra um cliente, não concorda?</strong></em> <img class="emoji" title=":grin:" alt=":grin:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f601.png" height="20" width="20"></p>
+
+<p>Já utilizando a segunda estratégia, poderíamos construir parte do HTML resultante, tendo um controle maior sobre o layout.</p>
+
+<p>Para isso, gosto de utilizar a biblioteca <a href="https://github.com/jazzband/django-widget-tweaks" target="_blank">Django Widget Tweaks</a>.</p>
+
+<p>Ela possibilita adicionar classes CSS ao campos do formulário (coisa que o Django, por padrão, não permite).</p>
+
+<p>Dessa forma, e usando um pouco de Bootstrap, podemos construir nosso formulário da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+</pre></td>
+<td class="code"><pre><span class="c">&lt;!-- Carrega as tags do Django Widget Tweaks para utilização --&gt;</span>
+{% load widget_tweaks %}
+
+<span class="nt">&lt;form</span> <span class="na">method=</span><span class="s">"post"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Não se esqueça dessa tag --&gt;</span>
+    {% csrf_token %}
+
+    <span class="c">&lt;!-- Nome --&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group mb-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group-prepend"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"input-group-text"</span><span class="nt">&gt;</span>Nome<span class="nt">&lt;/span&gt;&lt;/div&gt;</span>
+        {% render_field form.nome class+="form-control" %}
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="c">&lt;!-- Sobrenome --&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group mb-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group-prepend"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"input-group-text"</span><span class="nt">&gt;</span>Sobrenome<span class="nt">&lt;/span&gt;&lt;/div&gt;</span>
+        {% render_field form.sobrenome class+="form-control" %}
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="c">&lt;!-- CPF --&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group mb-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group-prepend"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"input-group-text"</span><span class="nt">&gt;</span>CPF<span class="nt">&lt;/span&gt;&lt;/div&gt;</span>
+        {% render_field form.cpf class+="form-control" %}
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="c">&lt;!-- Tempo de Serviço --&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group mb-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group-prepend"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"input-group-text"</span><span class="nt">&gt;</span>Tempo de Serviço<span class="nt">&lt;/span&gt;&lt;/div&gt;</span>
+        {% render_field form.tempo_de_servico class+="form-control" %}
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="c">&lt;!-- Remuneração --&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group mb-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group-prepend"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"input-group-text"</span><span class="nt">&gt;</span>Remuneração<span class="nt">&lt;/span&gt;&lt;/div&gt;</span>
+        {% render_field form.remuneracao class+="form-control" %}
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="c">&lt;!-- Chefe --&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group mb-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group-prepend"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"input-group-text"</span><span class="nt">&gt;</span>Chefe?<span class="nt">&lt;/span&gt;&lt;/div&gt;</span>
+        {% render_field form.chefe class+="form-control" %}
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="c">&lt;!-- Biografia --&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group mb-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group-prepend"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"input-group-text"</span><span class="nt">&gt;</span>Biografia<span class="nt">&lt;/span&gt;&lt;/div&gt;</span>
+        {% render_field form.biografia class+="form-control" %}
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;hr&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"text-right"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{% url 'website:lista_funcionarios' %}"</span> <span class="na">class=</span><span class="s">"btn btn-outline-primary"</span><span class="nt">&gt;</span>Voltar<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Enviar<span class="nt">&lt;/button&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/form&gt;</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>O que resultaria na seguinte tela:</p>
+
+<p><img src="/assets/posts/django-forms/form-construido.png" alt="Formulário resultante" class="img-responsive"></p>
+
+<p><em><strong>Mais bonito pra colocar no portifólio, né?</strong></em> <img class="emoji" title=":stuck_out_tongue_closed_eyes:" alt=":stuck_out_tongue_closed_eyes:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f61d.png" height="20" width="20"></p>
+
+<h2 id="bônus-alterando-o-comportamento-padrão-com-widgets">
+<strong>BÔNUS:</strong> Alterando o comportamento padrão com <code class="highlighter-rouge">Widgets</code>
+</h2>
+
+<p>Assim como é possível definir atributos nos modelos, os campos do formulário também são customizáveis.</p>
+
+<p>Veja que o campo <code class="highlighter-rouge">biografia</code> do nosso <code class="highlighter-rouge">InsereFuncionarioForm</code> é do tipo <code class="highlighter-rouge">CharField</code>, portanto deveria ser renderizado como um campo <code class="highlighter-rouge">&lt;input type='text' ...&gt;'</code>.</p>
+
+<p>Contudo, eu modifiquei o campo setando o atributo <code class="highlighter-rouge">widget</code> com <code class="highlighter-rouge">forms.TextArea</code>, assim:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="n">biografia</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">label</span><span class="o">=</span><span class="s">'Biografia'</span><span class="p">,</span>
+    <span class="n">required</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="p">.</span><span class="n">TextArea</span>
+<span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Assim, ele não mais será um simples <em>input</em>, mas será renderizado como um <code class="highlighter-rouge">&lt;textarea&gt;&lt;/textarea&gt;</code> no nosso <em>template</em>!</p>
+
+<p>O Django possui diversos tipos de <code class="highlighter-rouge">Widgets</code> disponíveis, por exemplo:</p>
+
+<ul>
+  <li>Podemos esconder um campo <code class="highlighter-rouge">CharField</code> com o <em>widget</em> <code class="highlighter-rouge">HiddenInput</code>.</li>
+  <li>Podemos transformar um campo <code class="highlighter-rouge">CharField</code> para ser renderizado como campo de senha com o <em>widget</em> <code class="highlighter-rouge">PasswordInput</code>.</li>
+  <li>Podemos usar o <em>widget</em> <code class="highlighter-rouge">FileInput</code> para fazer um campo para upload de arquivos!</li>
+</ul>
+
+<p>As possibilidades são infinitas!</p>
+
+<h2 class="no_toc" id="conclusão">Conclusão</h2>
+
+<p>Nesse <em>post</em>, vimos o poder dos <strong>Django Forms</strong> e sua flexibilidade!</p>
+
+<p>Vimos como podemos construí-lo a partir da modelagem do nosso sistema através dos <code class="highlighter-rouge">ModelForms</code>.</p>
+
+<p>Também vimos o quão simples é alterar o comportamento de um campo do formulário através dos <code class="highlighter-rouge">Widgets</code>.</p>
+
+<p>É isso por hoje dev! Nos vemos na próxima! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
 
 
 
@@ -539,7 +989,7 @@ Running migrations:
 												Por Vinícius Ramos
 											</span>
 
-											<b>em <time datetime="2018-06-07" pubdate>07/06/2018</time></b>
+											<b>em <time datetime="2018-06-22" pubdate>22/06/2018</time></b>
 										</h2>
 	
 										<p class="short-description">"<i>O que eu ouço, eu esqueço. O que eu vejo, eu lembro. O que eu faço, eu entendo.</i>"</p>
@@ -604,25 +1054,25 @@ Running migrations:
 			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
 			<ul>				
 				<li>
-					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/o-comando-migrate-do-django','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/formularios-do-django-com-django-forms','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
 						<i class="fa fa-fw fa-facebook"></i>
 					</a>
 				</li>				
 				
 				<li>							
-					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/o-comando-migrate-do-django&amp;related=PythonAcademyBR&amp;text=%22O%20comando%20migrate%20do%20Django%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/formularios-do-django-com-django-forms&amp;related=PythonAcademyBR&amp;text=%22Formul%C3%A1rios%20do%20Django%20com%20Django%20Forms%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
 						<i class="fa fa-fw fa-twitter"></i>
 					</a>
 				</li>
 
 				<li>
-					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/o-comando-migrate-do-django" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/o-comando-migrate-do-django" data-action="share/whatsapp/share">
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/formularios-do-django-com-django-forms" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/formularios-do-django-com-django-forms" data-action="share/whatsapp/share">
 						<i class="fa fa-fw fa-whatsapp"></i>
 					</a>
 				</li>
 
 				<li>
-					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=O%20comando%20migrate%20do%20Django&amp;body=https://pythonacademy.com.br/blog/o-comando-migrate-do-django&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Formul%C3%A1rios%20do%20Django%20com%20Django%20Forms&amp;body=https://pythonacademy.com.br/blog/formularios-do-django-com-django-forms&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
 						<i class="fa fa-fw fa-envelope"></i>
 					</a>
 				</li>
@@ -833,7 +1283,7 @@ Running migrations:
 							var post = posts[randomIndex];
 
 							// Verify if related post is the same as the shown
-							if (post.title != "O comando migrate do Django") {
+							if (post.title != "Formulários do Django com Django Forms") {
 								var postHTML = 
 									"<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>" +
 										"<a href='" + post.href + "' class='card aos-init aos-animate' data-aos='fade-up'>" +
@@ -868,7 +1318,7 @@ Running migrations:
 						$('#email-modal').modal('show');
 
 						/* Set cookie so this does not repeat */
-						Cookies.set('pythonacademy_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/o-comando-migrate-do-django' });
+						Cookies.set('pythonacademy_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/formularios-do-django-com-django-forms' });
 					}
 				});		
 				
@@ -888,8 +1338,8 @@ Running migrations:
 		
 			<script type="text/javascript">
 				var disqus_config = function () {
-					this.page.url = 'https://pythonacademy.com.br/blog/o-comando-migrate-do-django';     // Replace PAGE_URL with your page's canonical URL variable
-					this.page.identifier = '/blog/o-comando-migrate-do-django';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					this.page.url = 'https://pythonacademy.com.br/blog/formularios-do-django-com-django-forms';     // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = '/blog/formularios-do-django-com-django-forms';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 				};
 			
 				(function() { // DON'T EDIT BELOW THIS LINE
