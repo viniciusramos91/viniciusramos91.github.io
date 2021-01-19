@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="650.875mm"
-   height="325.4375mm"
-   viewBox="0 0 650.875 325.4375"
+   width="158.75mm"
+   height="83.34375mm"
+   viewBox="0 0 158.75 83.34375"
    version="1.1"
    id="svg2223"
    inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
@@ -199,10 +199,10 @@
     </clipPath>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 21.048611 : 1"
+       inkscape:vp_x="0 : -221.04514 : 1"
        inkscape:vp_y="0 : 999.99985 : 0"
-       inkscape:vp_z="210.00002 : 21.048611 : 1"
-       inkscape:persp3d-origin="105.00001 : -28.451382 : 1"
+       inkscape:vp_z="210.00002 : -221.04514 : 1"
+       inkscape:persp3d-origin="105.00001 : -270.54513 : 1"
        id="perspective6677" />
     <linearGradient
        inkscape:collect="always"
@@ -454,14 +454,14 @@
        fx="92.98214"
        fy="125.09283"
        r="317.5"
-       gradientTransform="matrix(0,-0.81814062,1.3630059,-9.4490568e-5,-352.57345,221.79904)"
+       gradientTransform="matrix(0,-0.20952381,0.33244047,-2.4198804e-5,-472.06304,50.465988)"
        gradientUnits="userSpaceOnUse" />
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 176.9375 : 1"
+       inkscape:vp_x="0 : -65.15625 : 1"
        inkscape:vp_y="0 : 999.99997 : 0"
-       inkscape:vp_z="210 : 176.9375 : 1"
-       inkscape:persp3d-origin="105 : 127.4375 : 1"
+       inkscape:vp_z="210 : -65.15625 : 1"
+       inkscape:persp3d-origin="105 : -114.65625 : 1"
        id="perspective6677-2" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -755,9 +755,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="1295.0757"
-     inkscape:cy="223.38695"
+     inkscape:zoom="0.49497474"
+     inkscape:cx="195.97188"
+     inkscape:cy="81.315686"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -1043,17 +1043,17 @@
        id="g8410"
        transform="matrix(0.1013638,0,0,0.1013638,-57.743508,-486.76023)" />
     <rect
-       style="fill:url(#radialGradient1479);fill-opacity:1;stroke:none;stroke-width:0.975994;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#radialGradient1479);fill-opacity:1;stroke:none;stroke-width:0.243926;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1463"
-       width="650.875"
-       height="325.4375"
+       width="158.75"
+       height="83.34375"
        x="-510.60806"
        y="-8.5175209"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <g
        id="g4010"
-       transform="matrix(1.8396969,0,0,1.8396969,-187.78298,473.98336)">
+       transform="matrix(0.44870656,0,0,0.44870656,-431.87024,111.15)">
       <g
          id="g13297"
          transform="matrix(0.94310113,0,0,0.94310113,-335.66404,-220.86642)">
