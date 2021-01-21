@@ -24,7 +24,7 @@
       "slug": "list-comprehensions-no-python",
       "assets": "list-comprehensions",
       "author": "Vinícius R",
-      "description": "<p>Nesse post, vamos aprender uma forma concisa de se declarar e utilizar listas no Python, usando o conceito de <em>List Comprehensions</em></p>",
+      "description": "<p>Aprenda a dominar o poder de List Comprehensions no Python. Nesse post você vai ver como utilizar, declarar e manipular listas com List Comprehensions.</p>",
       "featured_icon": "featured_icon.svg",
       "date": {
          "day": "25",
@@ -194,7 +194,7 @@
       "slug": "como-criar-jogos-com-python-e-kivy",
       "assets": "games-with-python-and-kivy",
       "author": "Vinícius R",
-      "description": "<p>Que tal desenvolver seu primeiro jogo em Python utilizando o framework Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do ZERO!</p>",
+      "description": "<p>Que tal criar um jogo em Python utilizando o framework Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do ZERO!</p>",
       "featured_icon": "featured_icon.svg",
       "date": {
          "day": "08",
