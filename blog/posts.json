@@ -70,6 +70,23 @@
     
     
     {
+      "title": "Como criar Middlewares no Django",
+      "href": "/blog/como-criar-middlewares-no-django",
+      "slug": "como-criar-middlewares-no-django",
+      "assets": "django-middlewares",
+      "author": "Vinícius R",
+      "description": "<p>Aprenda a criar Middlewares no Django para interceptar e processar requisições vindas dos usuários.</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "25",
+         "month": "June",
+         "year": "2018"
+      }
+    }
+    ,
+    
+    
+    {
       "title": "Formulários do Django com Django Forms",
       "href": "/blog/formularios-do-django-com-django-forms",
       "slug": "formularios-do-django-com-django-forms",

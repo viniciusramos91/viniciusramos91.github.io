@@ -36,7 +36,7 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
 
-		<title>Dict Comprehensions no Python</title>
+		<title>Como criar Middlewares no Django</title>
 		<link rel="icon" type="image/png" href="/assets/img/favicon.png">
 
 		
@@ -45,7 +45,7 @@
 		
 
 		<!-- Canonical URL -->
-		<link rel="canonical" href="https://pythonacademy.com.br/blog/dict-comprehensions-no-python">	
+		<link rel="canonical" href="https://pythonacademy.com.br/blog/como-criar-middlewares-no-django">	
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -77,19 +77,19 @@
 
 				
 		<!-- General -->
-		<meta name="description" content="Nesse post, vamos aprender uma ferramenta avançada muito útil do Python para tratamento e manipulação de dicionários!">		
-		<meta name="title" content="Dict Comprehensions no Python">
-		<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/dict-comprehensions/facebook.png">
+		<meta name="description" content="Aprenda a criar Middlewares no Django para interceptar e processar requisições vindas dos usuários.">		
+		<meta name="title" content="Como criar Middlewares no Django">
+		<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/django-middlewares/facebook.png">
 
 		<!-- Open Graph -->
 		<meta property="fb:app_id" content="220280761884954">
 		<meta property="og:site_name" content="Python Academy">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="Dict Comprehensions no Python">
-		<meta property="og:url" content="https://pythonacademy.com.br/blog/dict-comprehensions-no-python">
-		<meta property="og:description" content="Nesse post, vamos aprender uma ferramenta avançada muito útil do Python para tratamento e manipulação de dicionários!">
-		<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/posts/dict-comprehensions/facebook.png" />
-		<meta property="og:image:alt" content="Dict Comprehensions no Python" />
+		<meta property="og:title" content="Como criar Middlewares no Django">
+		<meta property="og:url" content="https://pythonacademy.com.br/blog/como-criar-middlewares-no-django">
+		<meta property="og:description" content="Aprenda a criar Middlewares no Django para interceptar e processar requisições vindas dos usuários.">
+		<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/posts/django-middlewares/facebook.png" />
+		<meta property="og:image:alt" content="Como criar Middlewares no Django" />
 		<meta property="og:image:type" content="image/png" />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
@@ -97,9 +97,9 @@
 		<!-- Twitter cards -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-		<meta name="twitter:title" content="Dict Comprehensions no Python">
-		<meta name="twitter:description" content="Nesse post, vamos aprender uma ferramenta avançada muito útil do Python para tratamento e manipulação de dicionários!">
-		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/dict-comprehensions/twitter.png">
+		<meta name="twitter:title" content="Como criar Middlewares no Django">
+		<meta name="twitter:description" content="Aprenda a criar Middlewares no Django para interceptar e processar requisições vindas dos usuários.">
+		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/django-middlewares/twitter.png">
 		
 		<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
 		
@@ -227,18 +227,18 @@
 		<div class="main-container" data-aos="fade-in" data-aos-duration="1500">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
-					<div class="post-banner-content" style="background: #2d3436 url('/assets/svg/stars-bground.svg');">
+					<div class="post-banner-content" style="background: #051a12 url('/assets/svg/stars-bground.svg');">
 						<div class="container">	
 							<div class="wrapper">
 								<div class="featured-icon-wrapper">
-									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/dict-comprehensions/featured_icon.svg" width="90%">
+									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/django-middlewares/featured_icon.svg" width="90%">
 									</object>															
 								</div>
 							</div>													
 			
 							
 							<h1 class="blog-post-title font-shadow">
-								Dict Comprehensions no Python
+								Como criar Middlewares no Django
 							</h1>			
 						</div>			
 					</div>
@@ -272,43 +272,41 @@
 			<div class="container post-container">
 				<div class="blog-post-content">
 					
-<p>Fala grande <strong>Dev</strong>!</p>
+<p>Fala <strong>Dev</strong>! Na paz?!</p>
 
-<p>Hoje vamos aprender sobre uma ferramenta muito útil e poderosa do Python para manipulação de dicionários (<code class="highlighter-rouge">dict</code>)!</p>
+<p>Nesse post vamos aprender a criar <em>Middlewares</em> no Django, que são trechos de código para tratamento prévio ou posterior das requisições que chegam e saem do seu sistema Django.</p>
 
-<p><em>Dict Comprehension</em> segue o mesmo conceito das mais conhecidas <em>List Comprehensions</em>! <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"></p>
+<p><em>Ficou confuso? Então bora pro post!</em> <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
 
-<p><em><strong>Ainda não sabe manusear listas usando List Comprehensions?</strong></em></p>
+<p>Mas antes, um aviso!</p>
 
-<p>Então P-A-R-A tudo e <a href="https://pythonacademy.com.br/blog/list-comprehensions-no-python" target="_blank">vai lá no post sobre List Comprehensions</a>. Fico te aguardando voltar!</p>
+<p>Esse post faz parte do contexto da <strong>Série Django</strong> aqui da Python Academy!</p>
 
-<p>… Tô esperando <img class="emoji" title=":hourglass_flowing_sand:" alt=":hourglass_flowing_sand:" src="https://github.githubassets.com/images/icons/emoji/unicode/23f3.png" height="20" width="20"> …</p>
+<p>Já se liga nos outros posts:</p>
 
-<p><strong>Pronto</strong>! Agora podemos continuar! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+<p><img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" target="_blank">Django: Introdução ao <em>framework</em></a><br>
+<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model" target="_blank">Django: A Camada <em>Model</em></a><br>
+<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view" target="_blank">Django: A Camada <em>View</em></a><br>
+<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template" target="_blank">Django: A Camada <em>Template</em></a></p>
+
+<p><em><strong>Agora sim, bora!</strong></em></p>
 
 <h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
 
 <ul id="markdown-toc">
-  <li><a href="#o-in%C3%ADcio-de-tudo-o-dict" id="markdown-toc-o-início-de-tudo-o-dict">O início de tudo: o <code class="highlighter-rouge">dict</code></a></li>
-  <li><a href="#dict-comprehensions" id="markdown-toc-dict-comprehensions"><em>Dict Comprehensions</em></a></li>
-  <li><a href="#dict-comprehensions-com-if" id="markdown-toc-dict-comprehensions-com-if"><em>Dict Comprehensions</em> com <em>if</em></a></li>
-  <li><a href="#dict-comprehensions-com-v%C3%A1rios-if" id="markdown-toc-dict-comprehensions-com-vários-if"><em>Dict Comprehensions</em> com vários <em>if</em></a></li>
+  <li><a href="#o-que-s%C3%A3o-middlewares" id="markdown-toc-o-que-são-middlewares">O que são <em>Middlewares</em></a></li>
+  <li><a href="#ciclo-de-vida-de-um-middleware-no-django" id="markdown-toc-ciclo-de-vida-de-um-middleware-no-django">Ciclo de vida de um <em>Middleware</em> no Django</a></li>
+  <li><a href="#criando-um-middleware-no-django" id="markdown-toc-criando-um-middleware-no-django">Criando um <em>Middleware</em> no Django</a></li>
 </ul>
 
-<h2 id="o-início-de-tudo-o-dict">O início de tudo: o <code class="highlighter-rouge">dict</code>
+<h2 id="o-que-são-middlewares">O que são <em>Middlewares</em>
 </h2>
 
-<p>Antes de tudo, vamos falar rapidamente sobre o tipo de dado <code class="highlighter-rouge">dict</code>. (Se você já sabe, pode pular essa seção <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20">)</p>
+<p><em>Middlewares</em> são trechos de códigos que podem ser executados antes ou depois do processamento de requisições/respostas pelo Django.</p>
 
-<p>Dicionário em Python é uma coleção de dados sem ordem onde cada elemento possui um par chave/valor.</p>
+<p>É uma forma que os desenvolvedores, nós, temos para alterar como o Django processa algum dado de entrada ou de saída.</p>
 
-<p><em><strong>E o que é um par chave/valor?</strong></em></p>
-
-<p>Basicamente é uma forma de se indexar um valor a partir de uma chave.</p>
-
-<p>Isso dá acesso eficiente (pros puristas, temos <strong>O(1)</strong> aqui!) aos valores da estrutura de dados.</p>
-
-<p>A sintaxe para <strong>criar</strong> dicionários é a seguinte:</p>
+<p>Se você olhar no arquivo <code class="highlighter-rouge">settings.py</code>, nós temos a lista <code class="highlighter-rouge">MIDDLEWARE</code> com diversos <em>middlewares</em> pré-configurados:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -320,346 +318,43 @@
 7
 8
 9
-10
-11
-12
-13
-14
 </pre></td>
-<td class="code"><pre><span class="c1"># Dicionário vazio
-</span><span class="n">dicionario</span> <span class="o">=</span> <span class="p">{}</span>
-
-<span class="c1"># Dicionário comum
-</span><span class="n">dicionario</span> <span class="o">=</span> <span class="p">{</span><span class="s">'jedi'</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s">'sith'</span><span class="p">:</span> <span class="mi">7</span><span class="p">}</span>
-
-<span class="c1"># Dicionário com chaves inteiras
-</span><span class="n">dicionario</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">:</span> <span class="s">'Baby Yoda'</span><span class="p">,</span> <span class="mi">2</span><span class="p">:</span> <span class="s">'Yoda'</span><span class="p">}</span>
-
-<span class="c1"># Dicionário misturado
-</span><span class="n">dicionario</span> <span class="o">=</span> <span class="p">{</span><span class="s">'especie'</span><span class="p">:</span> <span class="s">'Humano'</span><span class="p">,</span> <span class="mi">1</span><span class="p">:</span> <span class="p">[</span><span class="s">'Obi Wan Kenobi'</span><span class="p">,</span> <span class="s">'Qui-Gon Jinn'</span><span class="p">]}</span>
-
-<span class="c1"># Outra forma de criação, usando dict()
-</span><span class="n">dicionario</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">({</span><span class="s">'jedi'</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s">'sith'</span><span class="p">:</span> <span class="mi">7</span><span class="p">})</span>
+<td class="code"><pre><span class="n">MIDDLEWARE</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s">'django.middleware.security.SecurityMiddleware'</span><span class="p">,</span>
+    <span class="s">'django.contrib.sessions.middleware.SessionMiddleware'</span><span class="p">,</span>
+    <span class="s">'django.middleware.common.CommonMiddleware'</span><span class="p">,</span>
+    <span class="s">'django.middleware.csrf.CsrfViewMiddleware'</span><span class="p">,</span>
+    <span class="s">'django.contrib.auth.middleware.AuthenticationMiddleware'</span><span class="p">,</span>
+    <span class="s">'django.contrib.messages.middleware.MessageMiddleware'</span><span class="p">,</span>
+    <span class="s">'django.middleware.clickjacking.XFrameOptionsMiddleware'</span><span class="p">,</span>
+<span class="p">]</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Já para <strong>acessar</strong> elementos:</p>
+<p>Por exemplo, o <em>middleware</em> <code class="highlighter-rouge">AuthenticationMiddleware</code> é reponsável por adicionar a variável <code class="highlighter-rouge">user</code> a todas as requisições.</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<p>Dessa forma, você pode, por exemplo, mostrar o usuário logado no seu <em>template</em>:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
 </pre></td>
-<td class="code"><pre><span class="n">dicionario</span> <span class="o">=</span> <span class="p">{</span><span class="s">'nome'</span><span class="p">:</span> <span class="s">'Vinícius Ramos'</span><span class="p">,</span> <span class="s">'idade'</span><span class="p">:</span> <span class="mi">29</span><span class="p">}</span>
-
-<span class="c1"># Saída: Vinícius
-</span><span class="k">print</span><span class="p">(</span><span class="n">dicionario</span><span class="p">[</span><span class="s">'nome'</span><span class="p">])</span>
-
-<span class="c1"># Saída: 29
-</span><span class="k">print</span><span class="p">(</span><span class="n">dicionario</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'idade'</span><span class="p">))</span>
-
-<span class="c1"># Caso não encontre, devolva o valor None
-</span><span class="k">print</span><span class="p">(</span><span class="n">dicionario</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'altura'</span><span class="p">,</span> <span class="bp">None</span><span class="p">))</span>
-
-<span class="c1"># Será lançada uma exceção KeyError
-</span><span class="k">print</span><span class="p">(</span><span class="n">dicionario</span><span class="p">[</span><span class="s">'endereco'</span><span class="p">])</span>
+<td class="code"><pre><span class="nt">&lt;li&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{% url 'profile' id=user.id %}"</span><span class="nt">&gt;</span>Olá, {{ user.email }}<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/li&gt;</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Para <strong>atualizar</strong> valores:</p>
+<p>Vamos ver agora o ciclo de vida de um <em>Middleware</em> dentro do Django.</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td>
-<td class="code"><pre><span class="n">dicionario</span> <span class="o">=</span> <span class="p">{</span><span class="s">'nome'</span><span class="p">:</span> <span class="s">'Vinícius Ramos'</span><span class="p">,</span> <span class="s">'idade'</span><span class="p">:</span> <span class="mi">29</span><span class="p">,</span> <span class="s">'empresa'</span><span class="p">:</span> <span class="s">'PythonAcademy'</span><span class="p">}</span>
+<h2 id="ciclo-de-vida-de-um-middleware-no-django">Ciclo de vida de um <em>Middleware</em> no Django</h2>
 
-<span class="c1"># Atualiza dados
-</span><span class="n">dicionario</span><span class="p">[</span><span class="s">'idade'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">30</span>
-<span class="n">dicionario</span><span class="p">[</span><span class="s">'empresa'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'PythonAcademy Inc.'</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
+<p>Um <em>middleware</em> é um método <em>callable</em> (que tem implementa o método <code class="highlighter-rouge">__call__()</code>).</p>
 
-<p>Para <strong>remover</strong> elementos:</p>
+<p>Esse método recebe uma <strong>requisição</strong> e retorna uma <strong>resposta</strong>, assim como uma <em>View</em>, podendo ser escrito como função ou como Classe.</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td>
-<td class="code"><pre><span class="n">dicionario</span> <span class="o">=</span> <span class="p">{</span><span class="s">'nome'</span><span class="p">:</span> <span class="s">'Vinícius Ramos'</span><span class="p">,</span> <span class="s">'idade'</span><span class="p">:</span> <span class="mi">29</span><span class="p">,</span> <span class="s">'empresa'</span><span class="p">:</span> <span class="s">'PythonAcademy'</span><span class="p">}</span>
-
-<span class="c1"># Remove a chave/valor 'idade': 29
-</span><span class="n">dicionario</span><span class="p">.</span><span class="n">pop</span><span class="p">(</span><span class="s">'idade'</span><span class="p">)</span>
-
-<span class="c1"># Remove um par aleatório
-</span><span class="n">dicionario</span><span class="p">.</span><span class="n">popitem</span><span class="p">()</span>
-
-<span class="c1"># Remove todos os itens
-</span><span class="n">dicionario</span><span class="p">.</span><span class="n">clear</span><span class="p">()</span>
-
-<span class="c1"># Deleta 'empresa'
-</span><span class="k">del</span> <span class="n">dicionario</span><span class="p">[</span><span class="s">'empresa'</span><span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p><strong>Pronto</strong>! Você agora é um expert em Dicionários!</p>
-
-<p>Agora vamos pro prato principal: <em>Dict Comprehension</em>!</p>
-
-<p>Antes que eu me esqueça! Se não é inscrito no canal, curta, dê um jóinh…..</p>
-
-<p><em>Ops! Canal errado!</em> <img class="emoji" title=":satisfied:" alt=":satisfied:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f606.png" height="20" width="20"></p>
-
-<p>Mas se está gostando no nosso blog e conteúdo, que tal fazer parte da nossa <strong>lista de emails e não perder nossas atualizações</strong>?</p>
-
-<div class="email-signup" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="signup-body">
-				<span class="greeting">Está gostando do artigo?</span>
-				<span class="signup-text">Então cadastre o seu email para <span class="blue">receber gratuitamente</span> mais conteúdos como este!</span>
-		        <!-- Include MailChimp email form with input and submit button -->
-<!-- Parameters: Quero receber = button label  -->
-
-<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate="">
-    <div id="mc_embed_signup_scroll" class="container-fluid">        
-        <div class="row no-gutters">
-            <div class="col-xs-4">
-                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="">
-            </div>
-            
-            <div class="col-xs-6">                
-                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="">                
-            </div>
-
-            <div class="col-xs-2">
-                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
-                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
-                    <!--<span>Enviar</span>-->
-                    <i class="fa fa-mail-forward visible-xs" aria-hidden="true"></i>
-                    <span class="hidden-xs">Quero receber</span>
-                </button>        
-            </div>
-        </div>
-    </div>	
-
-    <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>            
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
-</form>
-		    </div>
-		</div>
-	</div>      
-</div>
-
-<h2 id="dict-comprehensions"><em>Dict Comprehensions</em></h2>
-
-<p><em>Dict Comprehensions</em> foram introduzidas na linguagem através da especificação <a href="https://www.python.org/dev/peps/pep-0274/" target="_blank">PEP 274</a>.</p>
-
-<p>Sua sintaxe básica é:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="p">{</span><span class="n">chave</span><span class="p">:</span> <span class="n">valor</span> <span class="k">for</span> <span class="n">elemento</span> <span class="ow">in</span> <span class="n">iteravel</span><span class="p">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Agora respira que vamos entender cada ponto:</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">chave</code>: será a chave de cada elemento do dicionário resultante.</li>
-  <li>
-<code class="highlighter-rouge">valor</code>: valor daquela chave.</li>
-  <li>
-<code class="highlighter-rouge">elemento</code>: é a unidade de iteração do iterável <code class="highlighter-rouge">iterável</code> (se for uma lista, por exemplo, <code class="highlighter-rouge">elemento</code> irá receber o valor iteração à iteração)</li>
-  <li>
-<code class="highlighter-rouge">iteravel</code>: conjunto de dados que estão sendo iterados (pode ser uma lista ou um <code class="highlighter-rouge">set</code>, por exemplo)</li>
-</ul>
-
-<p>Pra esclarecer, vamos à um exemplo:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="n">dicionario</span> <span class="o">=</span> <span class="p">{</span><span class="n">elemento</span><span class="p">:</span> <span class="n">elemento</span><span class="o">*</span><span class="mi">2</span> <span class="k">for</span> <span class="n">elemento</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">)}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Aqui, cada elemento da lista resultante de <code class="highlighter-rouge">range(6)</code> (0, 1, 2, 3, 4, 5) será convertido em:</p>
-
-<ul>
-  <li>Uma chave com o mesmo valor do <code class="highlighter-rouge">elemento</code> da lista.</li>
-  <li>
-<code class="highlighter-rouge">elemento*2</code> é o valor de cada chave (multiplicar por 2 cada elemento).</li>
-</ul>
-
-<p>O resultado será:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="p">{</span><span class="mi">0</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">:</span> <span class="mi">10</span><span class="p">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Outro exemplo, com chaves alfabéticas e manipulação de strings com <em>f-strings</em>:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td>
-<td class="code"><pre><span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Ferrari'</span><span class="p">,</span> <span class="s">'Lamborghini'</span><span class="p">,</span> <span class="s">'Porsche'</span><span class="p">]</span>
-<span class="n">dicionario</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">elemento</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span><span class="si">}</span><span class="s">'</span><span class="p">:</span> <span class="sa">f</span><span class="s">'Montadora: </span><span class="si">{</span><span class="n">elemento</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s">'</span> <span class="k">for</span> <span class="n">elemento</span> <span class="ow">in</span> <span class="n">lista</span>
-<span class="p">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Resultando em:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td>
-<td class="code"><pre><span class="p">{</span>
-  <span class="s">'ferrari'</span><span class="p">:</span> <span class="s">'Montadora: FERRARI'</span><span class="p">,</span> 
-  <span class="s">'lamborghini'</span><span class="p">:</span> <span class="s">'Montadora: LAMBORGHINI'</span><span class="p">,</span> 
-  <span class="s">'porsche'</span><span class="p">:</span> <span class="s">'Montadora: PORSCHE'</span>
-<span class="p">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Também é possível iterar sobre um outro dicionário através do método <code class="highlighter-rouge">items()</code>.</p>
-
-<p>Ele retorna a chave e o valor de cada elemento do dicionário de entrada.</p>
-
-<p>Veja um exemplo:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-</pre></td>
-<td class="code"><pre><span class="kn">import</span> <span class="nn">locale</span>
-
-<span class="c1"># Configura o locale pra Português do Brasil (pt_BR)
-</span><span class="n">locale</span><span class="p">.</span><span class="n">setlocale</span><span class="p">(</span><span class="n">locale</span><span class="p">.</span><span class="n">LC_MONETARY</span><span class="p">,</span> <span class="s">'pt_BR.utf8'</span><span class="p">)</span>
-
-<span class="n">carros_esportivos</span> <span class="o">=</span> <span class="p">{</span>  
-  <span class="s">'ferrari'</span><span class="p">:</span> <span class="mi">1299000</span><span class="p">,</span>
-  <span class="s">'lamborghini'</span><span class="p">:</span> <span class="mi">1100000</span><span class="p">,</span>
-  <span class="s">'porsche'</span><span class="p">:</span> <span class="mi">759000</span>
-<span class="p">}</span>
-
-<span class="n">dict_saida</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="n">chave</span><span class="p">:</span> <span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">chave</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">locale</span><span class="p">.</span><span class="n">currency</span><span class="p">(</span><span class="n">valor</span><span class="p">)</span><span class="si">}</span><span class="s">'</span> <span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">carros_esportivos</span><span class="p">.</span><span class="n">items</span><span class="p">()</span>
-<span class="p">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Essa seria a saída:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td>
-<td class="code"><pre><span class="p">{</span>
-  <span class="s">'ferrari'</span><span class="p">:</span> <span class="s">'FERRARI: R$ 1299000,00'</span><span class="p">,</span> 
-  <span class="s">'lamborghini'</span><span class="p">:</span> <span class="s">'LAMBORGHINI: R$ 1100000,00'</span><span class="p">,</span> 
-  <span class="s">'porsche'</span><span class="p">:</span> <span class="s">'PORSCHE: R$ 759000,00'</span>
-<span class="p">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p><em><strong>Legal não é mesmo?!</strong></em></p>
-
-<p>Assim como acontece em <em>List Comprehensions</em>, também podemos adicionar lógica condicional (<code class="highlighter-rouge">if</code>/<code class="highlighter-rouge">else</code>).</p>
-
-<h2 id="dict-comprehensions-com-if">
-<em>Dict Comprehensions</em> com <em>if</em>
-</h2>
-
-<p>Podemos adicionar lógica condicional à construção do dicionário resultante do nosso <em>Dict Comprehension</em>.</p>
-
-<p>Podemos adicionar uma expressão condicional em três posições distintas:</p>
-
-<p>Na construção da <strong>chave</strong>. Sintaxe:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="p">{</span><span class="n">chave</span> <span class="k">if</span> <span class="n">condicao</span><span class="p">:</span> <span class="n">valor</span> <span class="k">for</span> <span class="n">elemento</span> <span class="ow">in</span> <span class="n">iteravel</span><span class="p">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Na expressão que definirá o valor da chave:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="p">{</span><span class="n">chave</span><span class="p">:</span> <span class="n">valor</span> <span class="k">if</span> <span class="n">condicao</span> <span class="k">for</span> <span class="n">elemento</span> <span class="ow">in</span> <span class="n">iteravel</span><span class="p">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Ao final da expressão, filtrando os dados do iterável:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="p">{</span><span class="n">chave</span><span class="p">:</span> <span class="n">expressao</span> <span class="k">for</span> <span class="n">elemento</span> <span class="ow">in</span> <span class="n">iteravel</span> <span class="k">if</span> <span class="n">condicao</span><span class="p">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Podendo ser um <strong>mix</strong> da primeira versão, segunda ou terceira (<em><strong>Aí o bagulho fica lôco!</strong></em>).</p>
-
-<p>Por exemplo, se quisermos filtrar o dicionário de carros esportivos acima, pegando apenas aqueles com valor superior à R$ 1.000.000,00?</p>
+<p>Um exemplo de <em>middleware</em> escrito como função é:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -677,47 +372,28 @@
 13
 14
 15
+16
 </pre></td>
-<td class="code"><pre><span class="kn">import</span> <span class="nn">locale</span>
+<td class="code"><pre><span class="k">def</span> <span class="nf">middleware_simples</span><span class="p">(</span><span class="n">get_response</span><span class="p">):</span>
+    <span class="c1"># Código de inicialização do Middleware
+</span>    <span class="k">def</span> <span class="nf">middleware</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+        <span class="c1"># Aqui vai o código a ser executado antes 
+</span>        <span class="c1"># da View e de outros middlewares
+</span>        <span class="c1"># vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+</span>        
+        <span class="n">response</span> <span class="o">=</span> <span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
 
-<span class="c1"># Configura o locale pra Português do Brasil (pt_BR)
-</span><span class="n">locale</span><span class="p">.</span><span class="n">setlocale</span><span class="p">(</span><span class="n">locale</span><span class="p">.</span><span class="n">LC_MONETARY</span><span class="p">,</span> <span class="s">'pt_BR.utf8'</span><span class="p">)</span>
+        <span class="c1"># ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+</span>        <span class="c1"># Aqui vai o código a ser executado 
+</span>        <span class="c1"># para cada resposta após a View 
+</span>        
+        <span class="k">return</span> <span class="n">response</span>
 
-<span class="n">carros_esportivos</span> <span class="o">=</span> <span class="p">{</span>  
-  <span class="s">'ferrari'</span><span class="p">:</span> <span class="mi">1299000</span><span class="p">,</span>
-  <span class="s">'lamborghini'</span><span class="p">:</span> <span class="mi">1100000</span><span class="p">,</span>
-  <span class="s">'porsche'</span><span class="p">:</span> <span class="mi">759000</span>
-<span class="p">}</span>
-
-<span class="n">dict_saida</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="n">chave</span><span class="p">:</span> <span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">chave</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">locale</span><span class="p">.</span><span class="n">currency</span><span class="p">(</span><span class="n">valor</span><span class="p">)</span><span class="si">}</span><span class="s">'</span> 
-  <span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">carros_esportivos</span><span class="p">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">valor</span> <span class="o">&gt;</span> <span class="mi">1000000</span>
-<span class="p">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Resultaria em:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td>
-<td class="code"><pre><span class="p">{</span>
-  <span class="s">'ferrari'</span><span class="p">:</span> <span class="s">'FERRARI: R$ 1299000,00'</span><span class="p">,</span> 
-  <span class="s">'lamborghini'</span><span class="p">:</span> <span class="s">'LAMBORGHINI: R$ 1100000,00'</span>  
-<span class="p">}</span>
+    <span class="k">return</span> <span class="n">middleware</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<h2 id="dict-comprehensions-com-vários-if">
-<em>Dict Comprehensions</em> com vários <em>if</em>
-</h2>
-
-<p>E se quisermos alterar a chave e o valor na mesma expressão? <img class="emoji" title=":thinking:" alt=":thinking:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png" height="20" width="20"></p>
-
-<p>Podemos fazer da seguinte forma:</p>
+<p>E como Classe:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -738,75 +414,242 @@
 16
 17
 </pre></td>
-<td class="code"><pre><span class="kn">import</span> <span class="nn">locale</span>
+<td class="code"><pre><span class="k">class</span> <span class="nc">MiddlewareSimples</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">get_response</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
+        <span class="c1"># Código de inicialização do Middleware
+</span>
+    <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">):</span>
+        <span class="c1"># Aqui vai o código a ser executado antes 
+</span>        <span class="c1"># da View e de outros middlewares
+</span>        <span class="c1"># vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+</span>        
+        <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
 
-<span class="c1"># Configura o locale pra Português do Brasil (pt_BR)
-</span><span class="n">locale</span><span class="p">.</span><span class="n">setlocale</span><span class="p">(</span><span class="n">locale</span><span class="p">.</span><span class="n">LC_MONETARY</span><span class="p">,</span> <span class="s">'pt_BR.utf8'</span><span class="p">)</span>
-
-<span class="n">carros_esportivos</span> <span class="o">=</span> <span class="p">{</span>  
-  <span class="s">'ferrari'</span><span class="p">:</span> <span class="mi">1299000</span><span class="p">,</span>
-  <span class="s">'lamborghini'</span><span class="p">:</span> <span class="mi">1100000</span><span class="p">,</span>
-  <span class="s">'porsche'</span><span class="p">:</span> <span class="mi">759000</span>
-<span class="p">}</span>
-
-<span class="n">dict_saida</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="n">chave</span> <span class="k">if</span> <span class="n">valor</span> <span class="o">&gt;</span> <span class="mi">1000000</span> <span class="k">else</span> <span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">chave</span><span class="si">}</span><span class="s">-valor-abaixo'</span><span class="p">:</span>
-    <span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">chave</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">locale</span><span class="p">.</span><span class="n">currency</span><span class="p">(</span><span class="n">valor</span><span class="p">)</span><span class="si">}</span><span class="s">'</span> 
-    <span class="k">if</span> <span class="n">valor</span> <span class="o">&gt;</span> <span class="mi">1000000</span> <span class="k">else</span> <span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">chave</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s">: Valor abaixo de R$ 1.000.000,00'</span>
-  <span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">carros_esportivos</span><span class="p">.</span><span class="n">items</span><span class="p">()</span>
-<span class="p">}</span>
+        <span class="c1"># ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+</span>        <span class="c1"># Aqui vai o código a ser executado 
+</span>        <span class="c1"># para cada resposta após a View         
+</span>
+        <span class="k">return</span> <span class="n">response</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Nesse exemplo:</p>
+<p>Como cada <em>Middleware</em> é executado de maneira encadeada, do topo da configuração <code class="highlighter-rouge">MIDDLEWARE</code> (<em>do settings.py</em>) para o fim, a saída de um é a entrada do próximo.</p>
+
+<p>O método <code class="highlighter-rouge">get_response()</code> pode ser a própria <em>View</em>, caso ela seja a última configurada no <code class="highlighter-rouge">MIDDLEWARE</code> do <em>settings.py</em>, ou o próximo <em>middleware</em> da cadeia.</p>
+
+<p>Utilizando a construção do <em>middleware</em> via Classe, nós temos três métodos importantes:</p>
+
+<h3 id="o-método-process_view">O método <code class="highlighter-rouge">process_view</code>
+</h3>
+
+<p>Assinatura: <code class="highlighter-rouge">process_view(request, func, args, kwargs)</code></p>
+
+<p>Esse método é chamado logo antes do Django executar a <em>View</em> que vai processar a requisição e possui os seguintes parâmetros:</p>
 
 <ul>
-  <li>Chave será <code class="highlighter-rouge">f'{chave}-valor-abaixo'</code> caso <code class="highlighter-rouge">valor</code> seja menor que 1000000.</li>
-  <li>Valor será <code class="highlighter-rouge">f'{chave.upper()}: Valor abaixo de R$ 1.000.000,00'</code> caso <code class="highlighter-rouge">valor</code> seja menor que 1000000.</li>
+  <li>
+<code class="highlighter-rouge">request</code> é o objeto <code class="highlighter-rouge">HttpRequest</code>.</li>
+  <li>
+<code class="highlighter-rouge">func</code> é a própria <em>view</em> que o Django está para chamar ao final da cadeia de <em>middlewares</em>.</li>
+  <li>
+<code class="highlighter-rouge">args</code> é a lista de parâmetros posicionais que serão passados à <em>view</em>.</li>
+  <li>
+<code class="highlighter-rouge">kwargs</code> é o <em>dict</em> contendo os argumentos nomeados (<em>keyword arguments</em>) que serão passados à <em>view</em>.</li>
 </ul>
 
-<p>O resultado seria:</p>
+<p>Esse método deve retornar <code class="highlighter-rouge">None</code> ou um objeto <code class="highlighter-rouge">HttpResponse</code>:</p>
 
-<figure class="highlight terminal-output"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<ul>
+  <li>Caso retorne <code class="highlighter-rouge">None</code>, o Django entenderá que deve continuar a cadeia de <em>Middlewares</em>.</li>
+  <li>Caso retorne <code class="highlighter-rouge">HttpResponse</code>, o Django entenderá que a resposta está pronta para ser enviada de volta e não vai se preocupar em chamar o resto da cadeia de <em>Middlewares</em>, nem a <em>view</em> que iria processar a requisição.</li>
+</ul>
+
+<h3 id="o-método-process_exception">O método <code class="highlighter-rouge">process_exception</code>
+</h3>
+
+<p>Assinatura: <code class="highlighter-rouge">process_exception(request, exception)</code></p>
+
+<p>Esse método é chamada quando uma <em>view</em> lança uma exceção e deve retornar ou <code class="highlighter-rouge">None</code> ou <code class="highlighter-rouge">HttpResponse</code>. Caso retorne um objeto <code class="highlighter-rouge">HttpResponse</code>, o Django irá aplicar o <em>middleware</em> de resposta e o de <em>template</em>, retornando a requisição ao <em>browser</em>.</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">request</code> é o objeto <code class="highlighter-rouge">HttpRequest</code>
+</li>
+  <li>
+<code class="highlighter-rouge">exception</code> é a exceção propriamente dita lançada pela <em>view</em> (<code class="highlighter-rouge">Exception</code>).</li>
+</ul>
+
+<h3 id="o-método-process_template_response">O método <code class="highlighter-rouge">process_template_response</code>
+</h3>
+
+<p>Assinatura: <code class="highlighter-rouge">process_template_response(request, response)</code></p>
+
+<p>Esse método é chamado logo após a <em>view</em> ter terminado sua execução, caso a resposta tenha uma chamada ao método <code class="highlighter-rouge">render()</code> indicando que a reposta possui um <em>template</em>.</p>
+
+<p>Possui os seguintes parâmetros:</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">request</code> é um objeto <code class="highlighter-rouge">HttpRequest</code>.</li>
+  <li>
+<code class="highlighter-rouge">response</code> é o objeto <code class="highlighter-rouge">TemplateResponse</code> retornado pela <em>view</em> ou por outro <em>middleware</em>.</li>
+</ul>
+
+<p>Agora vamos criar um <em>middleware</em> um pouco mais complexo para exemplificar o que foi dito aqui!</p>
+
+<p>Ah, antes de seguir! Está curtindo esse conteúdo? Que tal levá-lo pra onde quiser?</p>
+
+<p>Então já baixe nosso <strong>ebook GRÁTIS de Desenvolvimento Web com Python e Django</strong>!</p>
+
+<p><img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"> <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"> <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></p>
+
+<div class="ebook-wrapper" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
+    <div class="ebook">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Ebook GRÁTIS</h2>
+            </div>
+
+            <div class="col-lg-5 col-md-5 col-xs-12 text-center">
+                <img src="/assets/ebooks/desenvolvimento-web-com-python-e-django/capa.png" data-aos="fade-in" class="ebook-cover">
+            </div>
+    
+            <div class="col-lg-7 col-md-7 col-xs-12">
+                <div class="ebook-data pb-0 pt-0" data-aos="fade-in">
+                    <h3 class="ebook-title">Desenvolvimento Web com Python e Django</h3>
+    
+                    <ul class="ebook-description">
+                        <li>Veja como modelar sua aplicação</li>
+                        <li>Utilize a robusta API de Acesso a Dados do Django</li>
+                        <li>Aprenda sobre <i>Class Based Views</i>
+</li>
+                        <li>Construa <i>Middlewares</i> próprios</li>
+                        <li>Desenvolva filtros e <i>tags</i> customizados para criar lindos <i>templates</i>
+</li>
+                    </ul>
+    
+                    <div class="link-to-download">                                    
+                        <a href="/ebooks/desenvolvimento-web-com-python-e-django/" class="call-to-action yellow">
+                            Baixe já!
+                        </a>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 id="criando-um-middleware-no-django">Criando um <em>Middleware</em> no Django</h2>
+
+<p>Vamos supor que queremos um <em>middleware</em> que filtre requisições e só processe aquelas que venham de uma determinada lista de IP’s.</p>
+
+<p>O que precisamos fazer é abrir o cabeçalho de todas as requisições que chegam no nosso servidor e verificar se o IP de origem bate com a nossa lista de IP’s.</p>
+
+<p>Para isso, colocamos a lógica no método <code class="highlighter-rouge">process_view</code>, da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
 4
 5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
 </pre></td>
-<td class="code"><pre><span class="p">{</span>
-  <span class="s">'ferrari'</span><span class="p">:</span> <span class="s">'FERRARI: R$ 1299000,00'</span><span class="p">,</span> 
-  <span class="s">'lamborghini'</span><span class="p">:</span> <span class="s">'LAMBORGHINI: R$ 1100000,00'</span><span class="p">,</span> 
-  <span class="s">'porsche-valor-abaixo'</span><span class="p">:</span> <span class="s">'Valor abaixo de R$ 1.000.000,00'</span>
-<span class="p">}</span>
+<td class="code"><pre><span class="k">class</span> <span class="nc">FiltraIPMiddleware</span><span class="p">:</span>    
+
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">get_response</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
+
+  <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">):</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">response</span>
+
+  <span class="k">def</span> <span class="nf">process_view</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="n">args</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">):</span>
+    <span class="c1"># Lista de IPs autorizados
+</span>    <span class="n">ips_autorizados</span> <span class="o">=</span> <span class="p">[</span><span class="s">'127.0.0.1'</span><span class="p">]</span>
+
+    <span class="c1"># IP do usuário
+</span>    <span class="n">ip</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">META</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'REMOTE_ADDR'</span><span class="p">)</span>
+
+    <span class="c1"># Verifica se o IP do cliente está na lista de IPs autorizados
+</span>    <span class="k">if</span> <span class="n">ip</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">ips_autorizados</span><span class="p">:</span>
+      <span class="c1"># Se usuário não autorizado &gt; HTTP 403: Não Autorizado
+</span>      <span class="k">return</span> <span class="n">HttpResponseForbidden</span><span class="p">(</span><span class="s">"IP não autorizado"</span><span class="p">)</span>
+
+    <span class="c1"># Se for autorizado, não fazemos nada
+</span>    <span class="k">return</span> <span class="bp">None</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p><strong>Contudo</strong>, aqui vai uma dica.</p>
+<p>Depois disso, precisamos registrar nosso <em>middleware</em> no arquivo de configurações <em>settings.py</em> (na configuração <code class="highlighter-rouge">MIDDLEWARE</code>):</p>
 
-<p>Percebeu o quão “embolado” ficou o código?</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td>
+<td class="code"><pre><span class="n">MIDDLEWARE</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="c1"># Middlewares do próprio Django
+</span>  <span class="s">'django.middleware.security.SecurityMiddleware'</span><span class="p">,</span>
+  <span class="s">'django.contrib.sessions.middleware.SessionMiddleware'</span><span class="p">,</span>
+  <span class="s">'django.middleware.common.CommonMiddleware'</span><span class="p">,</span>
+  <span class="s">'django.middleware.csrf.CsrfViewMiddleware'</span><span class="p">,</span>
+  <span class="s">'django.contrib.auth.middleware.AuthenticationMiddleware'</span><span class="p">,</span>
+  <span class="s">'django.contrib.messages.middleware.MessageMiddleware'</span><span class="p">,</span>
+  <span class="s">'django.middleware.clickjacking.XFrameOptionsMiddleware'</span><span class="p">,</span>
 
-<p>Não é por que o Python possibilite isso, que seja uma boa ideia utilizá-lo dessa forma.</p>
+  <span class="c1"># Nosso Middleware
+</span>  <span class="s">'helloworld.middlewares.FiltraIPMiddleware'</span><span class="p">,</span>
+<span class="p">]</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
-<p>Nunca se esquecam do primeiro Zen do Python: “Bonito é melhor que feio”.</p>
+<p>Agora, podemos testar seu funcionamento alterando a lista <code class="highlighter-rouge">ips_autorizados</code>:</p>
 
-<p><em><strong>Ainda não conhece o explicativo do “Zen do Python” da Python Academy?</strong></em> <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"></p>
-
-<p>Aconselho conhecê-lo (<a href="https://pythonacademy.com.br/zen-of-python" target="_blank">clique aqui</a>) e se possível, tatuá-lo no braço.</p>
-
-<p>Brincadeira, só tatuá-lo já serve! <img class="emoji" title=":satisfied:" alt=":satisfied:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f606.png" height="20" width="20"></p>
+<ul>
+  <li>Coloque <code class="highlighter-rouge">ips_autorizados = ['127.0.0.1']</code> e tente acessar alguma URL da nossa aplicação: devemos conseguir acessar normalmente nossa aplicação, pois como estamos executando o servidor localmente, nosso IP será 127.0.0.1 e, portanto, passaremos no teste.</li>
+  <li>Coloque <code class="highlighter-rouge">ips_autorizados = []</code> e tente acessar alguma URL da nossa aplicação: deve aparecer a mensagem de <strong>“IP não autorizado”</strong>, pois nosso IP (127.0.0.1) não está autorizado a  acessar o servidor.</li>
+</ul>
 
 <h2 class="no_toc" id="conclusão">Conclusão</h2>
 
-<p>Nesse <em>post</em> vimos como podemos usar <em>dict comprehensions</em> para criar e manipular dicts de uma maneira poderosa e eficiente.</p>
+<p>Nesse <em>post</em> vimos como é simples criar <em>Middlewares</em> no Django.</p>
 
-<p>Vimos quão eficiente essa técnica pode ser e as diversas formas de utilizá-la.</p>
+<p>Vimos como podemos adicionar tratamento prévio ao processamento de requisições e posterior ao processamento de respostas.</p>
 
-<p>Agora que você está craque em <em>Dict Comprehensions</em>, <strong><em>que tal começar a utilizá-lo?</em></strong></p>
+<p>Seus casos de uso são bem específicos, contudo é bom saber que temos essa possibilidade!</p>
 
-<p>Então… <strong>Mão na massa</strong>! <img class="emoji" title=":muscle:" alt=":muscle:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4aa.png" height="20" width="20"> <img class="emoji" title=":muscle:" alt=":muscle:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4aa.png" height="20" width="20"></p>
-
-<p>Até o próximo <em>post</em>!</p>
+<p>É isso dev, nos vemos na próxima! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
 
 
 
@@ -827,7 +670,7 @@
 												Por Vinícius Ramos
 											</span>
 
-											<b>em <time datetime="2021-01-14" pubdate>14/01/2021</time></b>
+											<b>em <time datetime="2018-06-25" pubdate>25/06/2018</time></b>
 										</h2>
 	
 										<p class="short-description">"<i>Porque o Senhor dá a sabedoria, e da sua boca vem a inteligência e o entendimento. - Provérbios 2:6 </i>"</p>
@@ -892,25 +735,25 @@
 			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
 			<ul>				
 				<li>
-					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/dict-comprehensions-no-python','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/como-criar-middlewares-no-django','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
 						<i class="fa fa-fw fa-facebook"></i>
 					</a>
 				</li>				
 				
 				<li>							
-					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/dict-comprehensions-no-python&amp;related=PythonAcademyBR&amp;text=%22Dict%20Comprehensions%20no%20Python%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/como-criar-middlewares-no-django&amp;related=PythonAcademyBR&amp;text=%22Como%20criar%20Middlewares%20no%20Django%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
 						<i class="fa fa-fw fa-twitter"></i>
 					</a>
 				</li>
 
 				<li>
-					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/dict-comprehensions-no-python" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/dict-comprehensions-no-python" data-action="share/whatsapp/share">
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/como-criar-middlewares-no-django" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/como-criar-middlewares-no-django" data-action="share/whatsapp/share">
 						<i class="fa fa-fw fa-whatsapp"></i>
 					</a>
 				</li>
 
 				<li>
-					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Dict%20Comprehensions%20no%20Python&amp;body=https://pythonacademy.com.br/blog/dict-comprehensions-no-python&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Como%20criar%20Middlewares%20no%20Django&amp;body=https://pythonacademy.com.br/blog/como-criar-middlewares-no-django&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
 						<i class="fa fa-fw fa-envelope"></i>
 					</a>
 				</li>
@@ -1121,7 +964,7 @@
 							var post = posts[randomIndex];
 
 							// Verify if related post is the same as the shown
-							if (post.title != "Dict Comprehensions no Python") {
+							if (post.title != "Como criar Middlewares no Django") {
 								var postHTML = 
 									"<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>" +
 										"<a href='" + post.href + "' class='card aos-init aos-animate' data-aos='fade-up'>" +
@@ -1156,7 +999,7 @@
 						$('#email-modal').modal('show');
 
 						/* Set cookie so this does not repeat */
-						Cookies.set('pythonacademy_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/dict-comprehensions-no-python' });
+						Cookies.set('pythonacademy_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/como-criar-middlewares-no-django' });
 					}
 				});		
 				
@@ -1176,8 +1019,8 @@
 		
 			<script type="text/javascript">
 				var disqus_config = function () {
-					this.page.url = 'https://pythonacademy.com.br/blog/dict-comprehensions-no-python';     // Replace PAGE_URL with your page's canonical URL variable
-					this.page.identifier = '/blog/dict-comprehensions-no-python';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					this.page.url = 'https://pythonacademy.com.br/blog/como-criar-middlewares-no-django';     // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = '/blog/como-criar-middlewares-no-django';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 				};
 			
 				(function() { // DON'T EDIT BELOW THIS LINE
