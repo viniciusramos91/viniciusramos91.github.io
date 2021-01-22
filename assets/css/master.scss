@@ -1010,7 +1010,7 @@ a {
 
 .sliders-list {
     background: #f7f7f7 url('/assets/svg/dark-bground-pattern.svg');
-    padding: 32px 0 38px 0;   
+    padding: 72px 0 38px 0;   
     position: relative;
 }
 
@@ -2177,47 +2177,7 @@ a {
     }
 }
 
-// ADS
-// ================================================================
-
-.ads {
-    margin: 16px 0;
-
-    &.post {
-        margin-bottom: 46px;
-    }
-
-    &.blog-index {
-        margin-bottom: 46px;
-    }
-
-    &.sliders-index {
-        margin-bottom: 64px;
-    }
-
-    &.index {
-        margin-bottom: 48px;
-    }
-
-    &.zen-of-python {
-        margin-bottom: 48px;
-    }    
-
-    &.no-ads {        
-        background-color: #F7F7F7;
-        text-align: center;
-        border-radius: 8px;
-        border: 1px solid #DDD;
-        
-        p {
-            padding: 64px 12px;
-            color: #888;
-            font-weight: bold;
-        }
-    }
-}
-
-// ANIMATIONS
+// ANMATIONS
 // ================================================================
 
 @keyframes rotate-cover {
