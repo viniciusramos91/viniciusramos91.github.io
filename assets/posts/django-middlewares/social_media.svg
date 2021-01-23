@@ -14,7 +14,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
-   sodipodi:docname="social_media.svg">
+   sodipodi:docname="social_media.svg"
+   inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/posts/django-middlewares/facebook.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2">
     <linearGradient
@@ -3084,19 +3087,6 @@
        id="radialGradient5612-3-8"
        xlink:href="#linearGradient5468"
        inkscape:collect="always" />
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter4623"
-       x="-0.22799616"
-       width="1.4559923"
-       y="-0.087856948"
-       height="1.1757139">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="4.2016529"
-         id="feGaussianBlur4625" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient769">
@@ -8480,6 +8470,2857 @@
        id="radialGradient5612-3-8-6"
        xlink:href="#linearGradient5468"
        inkscape:collect="always" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4406-0">
+      <path
+         d="m 223.8771,816.74384 q -2.01052,-1.16078 -4.06387,-0.34793 -2.04421,0.81811 -3.53739,3.40438 -1.48791,2.57713 -1.17431,4.75652 0.32273,2.18468 2.33325,3.34545 2.01053,1.16078 4.0456,0.33738 2.04421,-0.81811 3.53211,-3.39524 1.49319,-2.58627 1.17959,-4.76566 -0.30445,-2.17412 -2.31498,-3.3349 z m 0.86531,-1.49875 q 2.86957,1.65675 3.47437,4.57696 0.61006,2.91107 -1.25774,6.14619 -1.86252,3.22598 -4.69389,4.16232 -2.8261,0.92721 -5.69567,-0.72954 -2.8787,-1.66202 -3.49792,-4.57838 -0.61007,-2.91107 1.25772,-6.14619 1.8678,-3.23512 4.69391,-4.16232 2.84052,-0.93106 5.71922,0.73096 z"
+         style="font-style:normal;font-weight:normal;font-size:medium;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path4408-2"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4410-2">
+      <path
+         d="m 223.8771,816.74384 q -2.01052,-1.16078 -4.06387,-0.34793 -2.04421,0.81811 -3.53739,3.40438 -1.48791,2.57713 -1.17431,4.75652 0.32273,2.18468 2.33325,3.34545 2.01053,1.16078 4.0456,0.33738 2.04421,-0.81811 3.53211,-3.39524 1.49319,-2.58627 1.17959,-4.76566 -0.30445,-2.17412 -2.31498,-3.3349 z m 0.86531,-1.49875 q 2.86957,1.65675 3.47437,4.57696 0.61006,2.91107 -1.25774,6.14619 -1.86252,3.22598 -4.69389,4.16232 -2.8261,0.92721 -5.69567,-0.72954 -2.8787,-1.66202 -3.49792,-4.57838 -0.61007,-2.91107 1.25772,-6.14619 1.8678,-3.23512 4.69391,-4.16232 2.84052,-0.93106 5.71922,0.73096 z"
+         style="font-style:normal;font-weight:normal;font-size:medium;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path4412-97"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4871-5">
+      <path
+         d="m 95.118707,-391.85817 q 0,4.256 -2.00147,7.03966 -2.59961,3.61184 -8.627024,3.61184 h -5.107198 v 10.39844 h -8.166916 v -31.40237 h 12.998049 q 5.544301,0 8.419976,3.24377 2.484583,2.78365 2.484583,7.10866 z m -8.488992,0.092 q 0,-1.74841 -1.035243,-2.78365 -1.012237,-1.05825 -3.473815,-1.05825 h -2.737642 v 7.79883 h 2.714637 q 2.645621,0 3.634853,-1.15027 0.89721,-1.03524 0.89721,-2.80666 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:Aharoni;-inkscape-font-specification:'Aharoni Bold';text-align:center;letter-spacing:4.20895px;word-spacing:0px;text-anchor:middle;fill:url(#linearGradient4875);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path4873-6"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4979-4">
+      <path
+         d="m 236.71277,-386.40589 q 0,6.3955 -4.256,11.22664 -4.85414,5.49829 -13.13609,5.49829 -8.25893,0 -13.11307,-5.49829 -4.256,-4.83114 -4.256,-11.22664 0,-2.92168 1.15027,-5.9814 1.15027,-3.08272 3.08272,-5.26824 4.85414,-5.49829 13.13608,-5.49829 8.28195,0 13.13609,5.49829 4.256,4.83114 4.256,11.24964 z m -8.489,0 q 0,-3.31277 -2.11649,-5.72834 -2.71464,-3.08272 -6.7866,-3.08272 -2.80665,0 -5.08419,1.58737 -2.27753,1.56436 -3.24376,4.18698 -0.55213,1.49535 -0.55213,3.03671 0,3.17475 2.1165,5.68234 2.62261,3.10572 6.76358,3.10572 4.14098,0 6.7866,-3.08272 2.11649,-2.46158 2.11649,-5.70534 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:Aharoni;-inkscape-font-specification:'Aharoni Bold';text-align:center;letter-spacing:4.20895px;word-spacing:0px;text-anchor:middle;fill:url(#radialGradient4983-3);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path4981-6"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4955"
+       id="radialGradient4983-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-1.7428594,1.6452282,0,858.11884,-7.8631083)"
+       cx="217.20299"
+       cy="-388.2663"
+       fx="217.20299"
+       fy="-388.2663"
+       r="17.380581" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4987-7">
+      <path
+         d="m 239.39317,-386.40412 q 0,7.38181 -4.91235,12.958 -5.60274,6.34622 -15.16191,6.34622 -9.53261,0 -15.13535,-6.34622 -4.91235,-5.57619 -4.91235,-12.958 0,-3.37225 1.32766,-6.90384 1.32766,-3.55813 3.55813,-6.0807 5.60274,-6.34622 15.16191,-6.34622 9.55917,0 15.16191,6.34622 4.91235,5.57619 4.91235,12.98454 z m -9.79816,0 q 0,-3.82366 -2.44289,-6.61175 -3.13328,-3.55813 -7.83321,-3.55813 -3.23949,0 -5.86827,1.83217 -2.62877,1.80561 -3.74401,4.83269 -0.63727,1.72596 -0.63727,3.50502 0,3.66436 2.4429,6.55866 3.02706,3.58468 7.80665,3.58468 4.77959,0 7.83321,-3.55813 2.44289,-2.8412 2.44289,-6.58521 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:Aharoni;-inkscape-font-specification:'Aharoni Bold';text-align:center;letter-spacing:4.20895px;word-spacing:0px;text-anchor:middle;fill:url(#radialGradient4991-7);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path4989-9"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4955"
+       id="radialGradient4991-7"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-2.01164,1.8989523,0,956.63135,50.516841)"
+       cx="217.20299"
+       cy="-388.2663"
+       fx="217.20299"
+       fy="-388.2663"
+       r="17.380581" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5271-4">
+      <g
+         transform="matrix(1.8566015,0,0,1.8566015,-427.41476,-1310.5791)"
+         id="g5273-9">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:5.92634px;word-spacing:0px;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="593.086"
+           y="630.55304"
+           id="text5275-1"><tspan
+             sodipodi:role="line"
+             id="tspan5277-7"
+             x="594.8183"
+             y="630.55304"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.2479px;line-height:1.25;font-family:Quick;-inkscape-font-specification:Quick;letter-spacing:3.46464px;fill:#666666">ACADEMY</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:16.5383px;word-spacing:0px;text-anchor:middle;fill:url(#linearGradient5283);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="593.09253"
+           y="614.97467"
+           id="text5279-0"><tspan
+             sodipodi:role="line"
+             id="tspan5281-60"
+             x="593.09253"
+             y="614.97467"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:42.5514px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';letter-spacing:0px;fill:url(#linearGradient5283);fill-opacity:1">PYTHON</tspan></text>
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5318-8">
+      <g
+         transform="matrix(1.8566015,0,0,1.8566015,-427.41476,-1310.5791)"
+         id="g5320-53">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:5.92634px;word-spacing:0px;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="593.086"
+           y="630.55304"
+           id="text5322-9"><tspan
+             sodipodi:role="line"
+             id="tspan5324-4"
+             x="594.8183"
+             y="630.55304"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.2479px;line-height:1.25;font-family:Quick;-inkscape-font-specification:Quick;letter-spacing:3.46464px;fill:#666666">ACADEMY</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:16.5383px;word-spacing:0px;text-anchor:middle;fill:url(#linearGradient5283);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="593.09253"
+           y="614.97467"
+           id="text5326-1"><tspan
+             sodipodi:role="line"
+             id="tspan5328-5"
+             x="593.09253"
+             y="614.97467"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:42.5514px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Condensed';letter-spacing:0px;fill:url(#linearGradient5283);fill-opacity:1">PYTHON</tspan></text>
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1261-4">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.25489"
+         id="rect1263-1"
+         width="960"
+         height="960"
+         x="2345.2202"
+         y="-769.18506"
+         inkscape:export-filename="/home/viniciusramos/Documents/Python Academy/Anúncio FB/logo.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1273-5">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.25489"
+         id="rect1275-5"
+         width="960"
+         height="960"
+         x="2345.2202"
+         y="-769.18506"
+         inkscape:export-filename="/home/viniciusramos/Documents/Python Academy/Anúncio FB/logo.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1299-4">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.25489"
+         id="rect1301-9"
+         width="960"
+         height="960"
+         x="2345.2202"
+         y="-769.18506"
+         inkscape:export-filename="/home/viniciusramos/Documents/Python Academy/Anúncio FB/logo.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1305-8">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.25489"
+         id="rect1307-3"
+         width="960"
+         height="960"
+         x="2345.2202"
+         y="-769.18506"
+         inkscape:export-filename="/home/viniciusramos/Documents/Python Academy/Anúncio FB/logo.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1334-8">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.21194"
+         id="rect1336-5"
+         width="652.3927"
+         height="652.3927"
+         x="1332.5383"
+         y="-2578.0217"
+         inkscape:export-filename="/home/viniciusramos/Documents/Python Academy/Anúncio FB/logo.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         transform="rotate(50.846277)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1340-2">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.25489"
+         id="rect1342-2"
+         width="960"
+         height="960"
+         x="1002.3579"
+         y="-2557.4021"
+         inkscape:export-filename="/home/viniciusramos/Documents/Python Academy/Anúncio FB/logo.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         transform="rotate(50.846278)" />
+    </clipPath>
+    <inkscape:perspective
+       id="perspective6677-27"
+       inkscape:persp3d-origin="105 : -212.77789 : 1"
+       inkscape:vp_z="210 : -163.27789 : 1"
+       inkscape:vp_y="0 : 999.99985 : 0"
+       inkscape:vp_x="0 : -163.27789 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       id="clipPath5452-4"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5454-63"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5458-63"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5460-34"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5464-43"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5466-9"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5470-7"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5472-2"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5476-58"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5478-90"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5482-24"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5484-76"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2795"
+       id="radialGradient2801-63"
+       cx="61.518883"
+       cy="132.28575"
+       fx="61.518883"
+       fy="132.28575"
+       r="29.036913"
+       gradientTransform="matrix(1,0,0,0.177966,0,108.7434)"
+       gradientUnits="userSpaceOnUse" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7776-5">
+      <circle
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle7778-08"
+         cx="353.54645"
+         cy="-126.91056"
+         r="145.31044"
+         transform="rotate(60)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7780-0">
+      <circle
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle7782-41"
+         cx="-66.865463"
+         cy="369.6355"
+         r="145.31044"
+         transform="rotate(-60)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5135-5">
+      <rect
+         style="opacity:1;fill:#949494;fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5137-93"
+         width="504.56284"
+         height="221.06453"
+         x="937.71857"
+         y="-36.741493" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5578-4">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5582-08);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5580-15"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5582-08"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5584-35">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5588-99);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5586-65"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5588-99"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5590-07">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5594-76);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5592-63"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5594-76"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5596-15">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5600-6);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5598-0"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5600-6"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5602-5">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5606-81);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5604-0"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5606-81"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5608-2">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5612-9);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5610-26"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5612-9"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       id="clipPath5135-0-1"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-36.741493"
+         x="937.71857"
+         height="221.06453"
+         width="504.56284"
+         id="rect5137-9-0"
+         style="opacity:1;fill:#949494;fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5578-2-4"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5580-5-2"
+         style="opacity:1;fill:url(#radialGradient5582-40-7);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5582-40-7"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5584-5-4"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5586-9-0"
+         style="opacity:1;fill:url(#radialGradient5588-469-3);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5588-469-3"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5590-2-2"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5592-24-8"
+         style="opacity:1;fill:url(#radialGradient5594-7-03);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5594-7-03"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5596-7-70"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5598-5-0"
+         style="opacity:1;fill:url(#radialGradient5600-4-3);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5600-4-3"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5602-8-4"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5604-1-9"
+         style="opacity:1;fill:url(#radialGradient5606-2-27);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5606-2-27"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5608-89-42"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5610-3-5"
+         style="opacity:1;fill:url(#radialGradient5612-6-2);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5612-6-2"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <inkscape:perspective
+       id="perspective6677-8-4"
+       inkscape:persp3d-origin="105 : -212.77789 : 1"
+       inkscape:vp_z="210 : -163.27789 : 1"
+       inkscape:vp_y="0 : 999.99985 : 0"
+       inkscape:vp_x="0 : -163.27789 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       id="clipPath5452-10-43"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5454-5-8"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5458-11-6"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5460-0-0"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5464-8-8"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5466-5-9"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5470-0-2"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5472-6-23"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5476-4-1"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5478-6-8"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5482-2-3"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5484-5-4"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2795"
+       id="radialGradient2801-9-2"
+       cx="61.518883"
+       cy="132.28575"
+       fx="61.518883"
+       fy="132.28575"
+       r="29.036913"
+       gradientTransform="matrix(1,0,0,0.177966,0,108.7434)"
+       gradientUnits="userSpaceOnUse" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7776-0-24">
+      <circle
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle7778-8-5"
+         cx="353.54645"
+         cy="-126.91056"
+         r="145.31044"
+         transform="rotate(60)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7780-1-1">
+      <circle
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle7782-3-7"
+         cx="-66.865463"
+         cy="369.6355"
+         r="145.31044"
+         transform="rotate(-60)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5135-8-57">
+      <rect
+         style="opacity:1;fill:#949494;fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5137-5-1"
+         width="504.56284"
+         height="221.06453"
+         x="937.71857"
+         y="-36.741493" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5578-7-6">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5582-2-8);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5580-8-9"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5582-2-8"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5584-7-1">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5588-9-3);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5586-4-3"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5588-9-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5590-1-3">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5594-2-9);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5592-2-7"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5594-2-9"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5596-9-8">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5600-0-70);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5598-2-6"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5600-0-70"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5602-6-48">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5606-6-1);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5604-6-48"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5606-6-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5608-9-6">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5612-8-2);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5610-9-85"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5612-8-2"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : -163.27789 : 1"
+       inkscape:vp_y="0 : 999.99985 : 0"
+       inkscape:vp_z="210 : -163.27789 : 1"
+       inkscape:persp3d-origin="105 : -212.77789 : 1"
+       id="perspective6677-7-1" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5452-1-99">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5454-1-6"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5458-6-06">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5460-2-4"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5464-4-9">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5466-6-908"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5470-9-9">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5472-8-31"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5476-0-4">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5478-1-89"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5482-0-6">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5484-0-7"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.177966,0,108.7434)"
+       r="29.036913"
+       fy="132.28575"
+       fx="61.518883"
+       cy="132.28575"
+       cx="61.518883"
+       id="radialGradient2801-4-73"
+       xlink:href="#linearGradient2795"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath7776-4-7"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         transform="rotate(60)"
+         r="145.31044"
+         cy="-126.91056"
+         cx="353.54645"
+         id="circle7778-3-1"
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath7780-4-2"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         transform="rotate(-60)"
+         r="145.31044"
+         cy="369.6355"
+         cx="-66.865463"
+         id="circle7782-7-21"
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5135-9-50"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-36.741493"
+         x="937.71857"
+         height="221.06453"
+         width="504.56284"
+         id="rect5137-8-90"
+         style="opacity:1;fill:#949494;fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5578-5-40"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5580-1-1"
+         style="opacity:1;fill:url(#radialGradient5582-4-37);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5582-4-37"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5584-3-4"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5586-0-11"
+         style="opacity:1;fill:url(#radialGradient5588-4-3);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5588-4-3"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5590-9-03"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5592-5-21"
+         style="opacity:1;fill:url(#radialGradient5594-9-7);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5594-9-7"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5596-3-56"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5598-4-5"
+         style="opacity:1;fill:url(#radialGradient5600-2-4);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5600-2-4"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5602-65-2"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5604-7-2"
+         style="opacity:1;fill:url(#radialGradient5606-5-17);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5606-5-17"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5608-8-2"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5610-5-4"
+         style="opacity:1;fill:url(#radialGradient5612-80-16);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5612-80-16"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <filter
+       id="filter7670-5"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur7672-7"
+         result="blur"
+         stdDeviation="2 2" />
+    </filter>
+    <filter
+       id="filter8389-47"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur8391-9"
+         result="blur"
+         stdDeviation="7 7" />
+    </filter>
+    <filter
+       id="filter16455-72"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur16457-2"
+         result="blur"
+         stdDeviation="7 7" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter4723-1">
+      <feFlood
+         flood-opacity="0.341176"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4725-6" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4727-30" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="8"
+         result="blur"
+         id="feGaussianBlur4729-2" />
+      <feOffset
+         dx="2.91434e-015"
+         dy="3.2"
+         result="offset"
+         id="feOffset4731-1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4733-5" />
+    </filter>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.177966,0,108.7434)"
+       r="29.036913"
+       fy="132.28575"
+       fx="61.518883"
+       cy="132.28575"
+       cx="61.518883"
+       id="radialGradient2801-8-65"
+       xlink:href="#linearGradient2795"
+       inkscape:collect="always" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter7670-7-00">
+      <feGaussianBlur
+         stdDeviation="2 2"
+         result="blur"
+         id="feGaussianBlur7672-5-3" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter8389-1-4">
+      <feGaussianBlur
+         stdDeviation="7 7"
+         result="blur"
+         id="feGaussianBlur8391-4-6" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter16455-3-6">
+      <feGaussianBlur
+         stdDeviation="7 7"
+         result="blur"
+         id="feGaussianBlur16457-1-02" />
+    </filter>
+    <filter
+       id="filter9420-5"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur9422-89"
+         result="blur"
+         stdDeviation="7 7" />
+    </filter>
+    <filter
+       id="filter10263-50"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur10265-60"
+         result="blur"
+         stdDeviation="7 7" />
+    </filter>
+    <filter
+       id="filter7670-4-8"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur7672-2-37"
+         result="blur"
+         stdDeviation="2 2" />
+    </filter>
+    <filter
+       id="filter8389-4-8"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur8391-3-2"
+         result="blur"
+         stdDeviation="7 7" />
+    </filter>
+    <filter
+       id="filter16455-4-10"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur16457-9-5"
+         result="blur"
+         stdDeviation="7 7" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter9420-0-85">
+      <feGaussianBlur
+         stdDeviation="7 7"
+         result="blur"
+         id="feGaussianBlur9422-2-5" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter10263-0-07">
+      <feGaussianBlur
+         stdDeviation="7 7"
+         result="blur"
+         id="feGaussianBlur10265-7-3" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4510-82">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4512-3"
+         d="m 77.343267,258.28386 -4.52729,-4.52755 c -0.36036,-0.36037 -0.918099,-0.43366 -1.3589,-0.17807 -3.15939,1.83012 -6.550023,3.23506 -10.077715,4.17566 -0.0063,0.002 -0.01297,0.003 -0.01905,0.005 -0.530754,0.1516 -0.8636,0.66066 -0.810416,1.19194 v 6.28836 l -19.852217,2.6e-4 v -2.45216 h 9.40435 c 0.620977,0 1.124477,-0.5035 1.124477,-1.12448 0,-0.62097 -0.5035,-1.12448 -1.124477,-1.12448 h -9.40435 v -1.6039 c 0.04577,-0.53499 -0.297392,-1.03902 -0.830792,-1.18136 -3.522662,-0.93954 -6.909064,-2.3421 -10.065808,-4.16878 -0.0079,-0.005 -0.01614,-0.01 -0.02434,-0.014 -0.01588,-0.009 -0.03493,-0.019 -0.05107,-0.0272 -0.475721,-0.23759 -1.041665,-0.10741 -1.368425,0.2876 l -4.452937,4.45267 -14.0374688,-14.03772 4.4584938,-4.45824 c 0.404283,-0.33973 0.524404,-0.92842 0.258762,-1.40653 -0.0032,-0.006 -0.0064,-0.0114 -0.01005,-0.0175 -1.830387,-3.15965 -3.235589,-6.55081 -4.176977,-10.07956 -0.141816,-0.53129 -0.6400266,-0.87339 -1.1750136,-0.83132 h -6.311637 v -19.852 h 6.4008 c 0.5093229,0 0.9551456,-0.34237 1.0863786,-0.83451 0.940859,-3.52636 2.345267,-6.91515 4.173802,-10.07269 0.255323,-0.44078 0.182298,-0.99826 -0.1778,-1.35863 l -4.5270197,-4.5273 14.0372037,-14.03799 4.52755,4.52755 c 0.360363,0.36009 0.91784,0.43312 1.3589,0.1778 3.158861,-1.82986 6.548967,-3.23454 10.076392,-4.17513 0.530754,-0.14155 0.872858,-0.64109 0.830792,-1.17343 v -6.31269 h 19.852216 v 1.66926 H 50.101765 c -0.620978,0 -1.124482,0.5035 -1.124482,1.12447 0,0.62098 0.503504,1.12448 1.124482,1.12448 h 10.447866 v 2.40348 c -0.03572,0.51117 0.284954,0.99721 0.79375,1.15385 0.01905,0.006 0.03784,0.0111 0.05689,0.0159 3.519752,0.94059 6.902977,2.34341 10.056548,4.17009 0.440791,0.25533 0.99853,0.1823 1.35863,-0.1778 l 4.52755,-4.52781 14.037469,14.038 -4.527288,4.52728 c -0.36009,0.36037 -0.433382,0.91784 -0.1778,1.35864 1.82907,3.15807 3.233478,6.54711 4.174069,10.07269 0.131501,0.49212 0.577059,0.83449 1.08638,0.83449 h 6.4008 v 19.85222 h -6.300521 c -0.535249,-0.0474 -1.04299,0.29607 -1.1856,0.83053 -0.940329,3.52636 -2.345,6.91673 -4.175128,10.07692 -0.25532,0.44106 -0.18229,0.99827 0.1778,1.35863 l 4.52755,4.52729 z"
+         style="fill:#ececec;stroke:#000000;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none" />
+    </clipPath>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : -163.27789 : 1"
+       inkscape:vp_y="0 : 999.99985 : 0"
+       inkscape:vp_z="210 : -163.27789 : 1"
+       inkscape:persp3d-origin="105 : -212.77789 : 1"
+       id="perspective6677-3-0" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5452-7-7">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5454-4-7"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5458-1-7">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5460-3-6"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5464-6-9">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5466-7-1"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5470-2-1">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5472-84-9"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5476-00-0">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5478-3-8"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5482-6-9">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5484-4-8"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.177966,0,108.7434)"
+       r="29.036913"
+       fy="132.28575"
+       fx="61.518883"
+       cy="132.28575"
+       cx="61.518883"
+       id="radialGradient2801-1-80"
+       xlink:href="#linearGradient2795"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath7776-48-3"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         transform="rotate(60)"
+         r="145.31044"
+         cy="-126.91056"
+         cx="353.54645"
+         id="circle7778-0-7"
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath7780-9-0"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         transform="rotate(-60)"
+         r="145.31044"
+         cy="369.6355"
+         cx="-66.865463"
+         id="circle7782-79-6"
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5135-7-92"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-36.741493"
+         x="937.71857"
+         height="221.06453"
+         width="504.56284"
+         id="rect5137-3-1"
+         style="opacity:1;fill:#949494;fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5578-6-77"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5580-11-9"
+         style="opacity:1;fill:url(#radialGradient5582-8-76);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5582-8-76"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5584-4-2"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5586-5-7"
+         style="opacity:1;fill:url(#radialGradient5588-46-15);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5588-46-15"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5590-0-88"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5592-28-4"
+         style="opacity:1;fill:url(#radialGradient5594-3-56);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5594-3-56"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5596-1-56"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5598-6-8"
+         style="opacity:1;fill:url(#radialGradient5600-1-4);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5600-1-4"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5602-2-88"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5604-3-38"
+         style="opacity:1;fill:url(#radialGradient5606-8-75);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5606-8-75"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5608-95-2"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5610-6-45"
+         style="opacity:1;fill:url(#radialGradient5612-3-0);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5612-3-0"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5135-6-5"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-36.741493"
+         x="937.71857"
+         height="221.06453"
+         width="504.56284"
+         id="rect5137-2-7"
+         style="opacity:1;fill:#949494;fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5578-9-3"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5580-12-2"
+         style="opacity:1;fill:url(#radialGradient5582-7-7);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5582-7-7"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5584-0-2"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5586-93-1"
+         style="opacity:1;fill:url(#radialGradient5588-6-3);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5588-6-3"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5590-06-4"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5592-26-9"
+         style="opacity:1;fill:url(#radialGradient5594-1-41);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5594-1-41"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5596-8-9"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5598-7-57"
+         style="opacity:1;fill:url(#radialGradient5600-9-41);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5600-9-41"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5602-20-2"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5604-2-2"
+         style="opacity:1;fill:url(#radialGradient5606-3-1);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5606-3-1"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5608-7-6"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5610-59-2"
+         style="opacity:1;fill:url(#radialGradient5612-2-02);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5612-2-02"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <inkscape:perspective
+       id="perspective6677-2-2"
+       inkscape:persp3d-origin="105 : -212.77789 : 1"
+       inkscape:vp_z="210 : -163.27789 : 1"
+       inkscape:vp_y="0 : 999.99985 : 0"
+       inkscape:vp_x="0 : -163.27789 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       id="clipPath5452-73-9"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5454-6-7"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5458-12-4"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5460-9-3"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5464-3-5"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5466-1-6"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5470-94-1"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5472-7-4"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5476-8-0"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5478-4-3"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5482-5-1"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(30)"
+         y="-45.135017"
+         x="-3.3352184"
+         height="211.66667"
+         width="476.25"
+         id="rect5484-03-2"
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2795"
+       id="radialGradient2801-7-7"
+       cx="61.518883"
+       cy="132.28575"
+       fx="61.518883"
+       fy="132.28575"
+       r="29.036913"
+       gradientTransform="matrix(1,0,0,0.177966,0,108.7434)"
+       gradientUnits="userSpaceOnUse" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7776-6-7">
+      <circle
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle7778-5-9"
+         cx="353.54645"
+         cy="-126.91056"
+         r="145.31044"
+         transform="rotate(60)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7780-6-8">
+      <circle
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle7782-9-1"
+         cx="-66.865463"
+         cy="369.6355"
+         r="145.31044"
+         transform="rotate(-60)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5135-8-3-0">
+      <rect
+         style="opacity:1;fill:#949494;fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5137-5-7-7"
+         width="504.56284"
+         height="221.06453"
+         x="937.71857"
+         y="-36.741493" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5578-7-4-60">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5582-2-2-0);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5580-8-5-1"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5582-2-2-0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5584-7-5-25">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5588-9-7-9);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5586-4-4-1"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5588-9-7-9"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5590-1-4-7">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5594-2-3-3);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5592-2-4-1"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5594-2-3-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5596-9-0-1">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5600-0-8-6);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5598-2-7-20"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5600-0-8-6"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5602-6-6-8">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5606-6-8-4);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5604-6-8-7"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5606-6-8-4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5608-9-4-9">
+      <rect
+         style="opacity:1;fill:url(#radialGradient5612-8-1-4);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5610-9-3-2"
+         width="1200"
+         height="630"
+         x="-2061.3474"
+         y="867.06122"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="rotate(-45)" />
+    </clipPath>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5468"
+       id="radialGradient5612-8-1-4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       cx="262.85715"
+       cy="617.87262"
+       fx="262.85715"
+       fy="617.87262"
+       r="600" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : -163.27789 : 1"
+       inkscape:vp_y="0 : 999.99985 : 0"
+       inkscape:vp_z="210 : -163.27789 : 1"
+       inkscape:persp3d-origin="105 : -212.77789 : 1"
+       id="perspective6677-7-4-4" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5452-1-9-5">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5454-1-2-9"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5458-6-0-1">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5460-2-6-2"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5464-4-8-8">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5466-6-9-9"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5470-9-2-6">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5472-8-6-0"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5476-0-6-6">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5478-1-4-4"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5482-0-9-0">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5484-0-5-9"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.177966,0,108.7434)"
+       r="29.036913"
+       fy="132.28575"
+       fx="61.518883"
+       cy="132.28575"
+       cx="61.518883"
+       id="radialGradient2801-4-0-4"
+       xlink:href="#linearGradient2795"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath7776-4-4-5"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         transform="rotate(60)"
+         r="145.31044"
+         cy="-126.91056"
+         cx="353.54645"
+         id="circle7778-3-8-4"
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath7780-4-7-6"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         transform="rotate(-60)"
+         r="145.31044"
+         cy="369.6355"
+         cx="-66.865463"
+         id="circle7782-7-1-6"
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5135-9-7-39"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-36.741493"
+         x="937.71857"
+         height="221.06453"
+         width="504.56284"
+         id="rect5137-8-2-9"
+         style="opacity:1;fill:#949494;fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5578-5-7-5"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5580-1-2-2"
+         style="opacity:1;fill:url(#radialGradient5582-4-2-1);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5582-4-2-1"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5584-3-6-3"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5586-0-1-0"
+         style="opacity:1;fill:url(#radialGradient5588-4-0-9);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5588-4-0-9"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5590-9-6-9"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5592-5-1-1"
+         style="opacity:1;fill:url(#radialGradient5594-9-5-3);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5594-9-5-3"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5596-3-9-4"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5598-4-4-5"
+         style="opacity:1;fill:url(#radialGradient5600-2-9-8);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5600-2-9-8"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5602-65-0-5"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5604-7-9-7"
+         style="opacity:1;fill:url(#radialGradient5606-5-1-3);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5606-5-1-3"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5608-8-7-3"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5610-5-7-8"
+         style="opacity:1;fill:url(#radialGradient5612-80-1-9);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5612-80-1-9"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <filter
+       id="filter7670-1-5"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur7672-59-5"
+         result="blur"
+         stdDeviation="2 2" />
+    </filter>
+    <filter
+       id="filter8389-6-3"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur8391-39-86"
+         result="blur"
+         stdDeviation="7 7" />
+    </filter>
+    <filter
+       id="filter16455-48-0"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur16457-12-3"
+         result="blur"
+         stdDeviation="7 7" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter4723-9-3">
+      <feFlood
+         flood-opacity="0.341176"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4725-3-6" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4727-9-1" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="8"
+         result="blur"
+         id="feGaussianBlur4729-0-8" />
+      <feOffset
+         dx="2.91434e-015"
+         dy="3.2"
+         result="offset"
+         id="feOffset4731-8-7" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4733-8-0" />
+    </filter>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.177966,0,108.7434)"
+       r="29.036913"
+       fy="132.28575"
+       fx="61.518883"
+       cy="132.28575"
+       cx="61.518883"
+       id="radialGradient2801-8-5-5"
+       xlink:href="#linearGradient2795"
+       inkscape:collect="always" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter7670-7-0-1">
+      <feGaussianBlur
+         stdDeviation="2 2"
+         result="blur"
+         id="feGaussianBlur7672-5-9-1" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter8389-1-6-0">
+      <feGaussianBlur
+         stdDeviation="7 7"
+         result="blur"
+         id="feGaussianBlur8391-4-3-3" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter16455-3-8-0">
+      <feGaussianBlur
+         stdDeviation="7 7"
+         result="blur"
+         id="feGaussianBlur16457-1-5-0" />
+    </filter>
+    <filter
+       id="filter9420-6-4"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur9422-1-5"
+         result="blur"
+         stdDeviation="7 7" />
+    </filter>
+    <filter
+       id="filter10263-1-4"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur10265-5-2"
+         result="blur"
+         stdDeviation="7 7" />
+    </filter>
+    <filter
+       id="filter7670-4-9-4"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur7672-2-8-99"
+         result="blur"
+         stdDeviation="2 2" />
+    </filter>
+    <filter
+       id="filter8389-4-4-9"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur8391-3-8-4"
+         result="blur"
+         stdDeviation="7 7" />
+    </filter>
+    <filter
+       id="filter16455-4-1-9"
+       inkscape:label="Blur"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur16457-9-0-8"
+         result="blur"
+         stdDeviation="7 7" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter9420-0-3-1">
+      <feGaussianBlur
+         stdDeviation="7 7"
+         result="blur"
+         id="feGaussianBlur9422-2-0-6" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter10263-0-4-3">
+      <feGaussianBlur
+         stdDeviation="7 7"
+         result="blur"
+         id="feGaussianBlur10265-7-4-9" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4510-4-3">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4512-4-3"
+         d="m 77.343267,258.28386 -4.52729,-4.52755 c -0.36036,-0.36037 -0.918099,-0.43366 -1.3589,-0.17807 -3.15939,1.83012 -6.550023,3.23506 -10.077715,4.17566 -0.0063,0.002 -0.01297,0.003 -0.01905,0.005 -0.530754,0.1516 -0.8636,0.66066 -0.810416,1.19194 v 6.28836 l -19.852217,2.6e-4 v -2.45216 h 9.40435 c 0.620977,0 1.124477,-0.5035 1.124477,-1.12448 0,-0.62097 -0.5035,-1.12448 -1.124477,-1.12448 h -9.40435 v -1.6039 c 0.04577,-0.53499 -0.297392,-1.03902 -0.830792,-1.18136 -3.522662,-0.93954 -6.909064,-2.3421 -10.065808,-4.16878 -0.0079,-0.005 -0.01614,-0.01 -0.02434,-0.014 -0.01588,-0.009 -0.03493,-0.019 -0.05107,-0.0272 -0.475721,-0.23759 -1.041665,-0.10741 -1.368425,0.2876 l -4.452937,4.45267 -14.0374688,-14.03772 4.4584938,-4.45824 c 0.404283,-0.33973 0.524404,-0.92842 0.258762,-1.40653 -0.0032,-0.006 -0.0064,-0.0114 -0.01005,-0.0175 -1.830387,-3.15965 -3.235589,-6.55081 -4.176977,-10.07956 -0.141816,-0.53129 -0.6400266,-0.87339 -1.1750136,-0.83132 h -6.311637 v -19.852 h 6.4008 c 0.5093229,0 0.9551456,-0.34237 1.0863786,-0.83451 0.940859,-3.52636 2.345267,-6.91515 4.173802,-10.07269 0.255323,-0.44078 0.182298,-0.99826 -0.1778,-1.35863 l -4.5270197,-4.5273 14.0372037,-14.03799 4.52755,4.52755 c 0.360363,0.36009 0.91784,0.43312 1.3589,0.1778 3.158861,-1.82986 6.548967,-3.23454 10.076392,-4.17513 0.530754,-0.14155 0.872858,-0.64109 0.830792,-1.17343 v -6.31269 h 19.852216 v 1.66926 H 50.101765 c -0.620978,0 -1.124482,0.5035 -1.124482,1.12447 0,0.62098 0.503504,1.12448 1.124482,1.12448 h 10.447866 v 2.40348 c -0.03572,0.51117 0.284954,0.99721 0.79375,1.15385 0.01905,0.006 0.03784,0.0111 0.05689,0.0159 3.519752,0.94059 6.902977,2.34341 10.056548,4.17009 0.440791,0.25533 0.99853,0.1823 1.35863,-0.1778 l 4.52755,-4.52781 14.037469,14.038 -4.527288,4.52728 c -0.36009,0.36037 -0.433382,0.91784 -0.1778,1.35864 1.82907,3.15807 3.233478,6.54711 4.174069,10.07269 0.131501,0.49212 0.577059,0.83449 1.08638,0.83449 h 6.4008 v 19.85222 h -6.300521 c -0.535249,-0.0474 -1.04299,0.29607 -1.1856,0.83053 -0.940329,3.52636 -2.345,6.91673 -4.175128,10.07692 -0.25532,0.44106 -0.18229,0.99827 0.1778,1.35863 l 4.52755,4.52729 z"
+         style="fill:#ececec;stroke:#000000;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none" />
+    </clipPath>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : -163.27789 : 1"
+       inkscape:vp_y="0 : 999.99985 : 0"
+       inkscape:vp_z="210 : -163.27789 : 1"
+       inkscape:persp3d-origin="105 : -212.77789 : 1"
+       id="perspective6677-3-7-4" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5452-7-6-6">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5454-4-3-1"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5458-1-1-5">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5460-3-7-6"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5464-6-5-1">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5466-7-9-7"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5470-2-6-2">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5472-84-2-2"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5476-00-1-9">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5478-3-7-2"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5482-6-8-8">
+      <rect
+         style="opacity:1;fill:url(#linearGradient5456);fill-opacity:1;stroke:none;stroke-width:1.96045;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:39.3;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5484-4-5-1"
+         width="476.25"
+         height="211.66667"
+         x="-3.3352184"
+         y="-45.135017"
+         transform="rotate(30)" />
+    </clipPath>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.177966,0,108.7434)"
+       r="29.036913"
+       fy="132.28575"
+       fx="61.518883"
+       cy="132.28575"
+       cx="61.518883"
+       id="radialGradient2801-1-7-2"
+       xlink:href="#linearGradient2795"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath7776-48-4-4"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         transform="rotate(60)"
+         r="145.31044"
+         cy="-126.91056"
+         cx="353.54645"
+         id="circle7778-0-1-7"
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath7780-9-8-8"
+       clipPathUnits="userSpaceOnUse">
+      <circle
+         transform="rotate(-60)"
+         r="145.31044"
+         cy="369.6355"
+         cx="-66.865463"
+         id="circle7782-79-5-6"
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5135-7-9-3"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="-36.741493"
+         x="937.71857"
+         height="221.06453"
+         width="504.56284"
+         id="rect5137-3-7-7"
+         style="opacity:1;fill:#949494;fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5578-6-5-7"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5580-11-3-2"
+         style="opacity:1;fill:url(#radialGradient5582-8-8-3);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5582-8-8-3"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5584-4-8-7"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5586-5-3-25"
+         style="opacity:1;fill:url(#radialGradient5588-46-1-3);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5588-46-1-3"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5590-0-8-7"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5592-28-9-6"
+         style="opacity:1;fill:url(#radialGradient5594-3-6-8);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5594-3-6-8"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5596-1-4-1"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5598-6-3-3"
+         style="opacity:1;fill:url(#radialGradient5600-1-3-6);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5600-1-3-6"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5602-2-3-4"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5604-3-8-0"
+         style="opacity:1;fill:url(#radialGradient5606-8-6-3);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5606-8-6-3"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <clipPath
+       id="clipPath5608-95-0-5"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="rotate(-45)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\f9539184\Desktop\Vinicius\dev\jekyll\mavinstecnologia.github.io\assets\posts\desenvolvimento-web-com-python-e-django-introducao\thumb-bg.png"
+         y="867.06122"
+         x="-2061.3474"
+         height="630"
+         width="1200"
+         id="rect5610-6-4-8"
+         style="opacity:1;fill:url(#radialGradient5612-3-8-5);fill-opacity:1;stroke:none;stroke-width:4.162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <radialGradient
+       r="600"
+       fy="617.87262"
+       fx="262.85715"
+       cy="617.87262"
+       cx="262.85715"
+       gradientTransform="matrix(0,-0.71428577,1.3154762,-2.0960848e-5,-2221.3681,1360.1303)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5612-3-8-5"
+       xlink:href="#linearGradient5468"
+       inkscape:collect="always" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4623-0"
+       x="-0.22799616"
+       width="1.4559923"
+       y="-0.087856949"
+       height="1.1757139">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2016529"
+         id="feGaussianBlur4625-9" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -8488,9 +11329,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="1387.0722"
-     inkscape:cy="539.85692"
+     inkscape:zoom="0.35"
+     inkscape:cx="402.13947"
+     inkscape:cy="433.10474"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -8512,7 +11353,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -8789,80 +11630,255 @@
        cy="-1594.6915"
        r="0" />
     <g
-       id="g7372"
-       transform="matrix(0.49169945,0,0,0.49169945,-303.8031,258.3056)">
-      <circle
-         style="fill:#77ccac;fill-opacity:0.175083;stroke:#092e20;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.511491"
-         id="circle4603"
-         cx="124.59534"
-         cy="-198.4006"
-         r="68.256844" />
+       inkscape:label="Layer 1"
+       id="layer1-0"
+       transform="matrix(0.54597291,0,0,0.54597291,-381.41166,165.45495)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <rect
          style="fill:none;fill-opacity:0.33723;stroke:none;stroke-width:14.1765;stroke-miterlimit:4;stroke-dasharray:none"
-         id="rect4506"
+         id="rect4506-2"
          width="197.556"
          height="141.11099"
-         x="25.817335"
-         y="-268.95609" />
+         x="155.57896"
+         y="-79.169136" />
       <circle
-         style="fill:#49bb90;fill-opacity:0.309739;stroke:#092e20;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.675681"
-         id="circle4512"
-         cx="124.59534"
-         cy="-198.4006"
-         r="52.026127" />
+         r="0"
+         cy="194.43663"
+         cx="-14.317819"
+         id="path6142-0-9-4"
+         style="fill:#e06f69;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text7817-9"
+         y="188.95325"
+         x="-558.4903"
+         style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.282222px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve" />
       <circle
-         style="fill:#3ca27c;fill-opacity:0.639356;stroke:#092e20;stroke-width:1.84116;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.706149"
-         id="circle4510"
-         cx="124.59534"
-         cy="-198.4006"
-         r="37.226467" />
-      <path
-         style="opacity:0.278905;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4623)"
-         d="M 113.73088,-236.22137 102.481,-216.736 h 11.05717 v 76.47396 H 135.6525 V -216.736 h 11.05717 l -22.11433,-38.30316 z"
-         id="path4605" />
-      <path
-         style="fill:#e6e6e6;fill-opacity:1;stroke:#4d4d4d;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 113.73088,-236.22137 102.481,-216.736 h 11.05717 v 76.47396 H 135.6525 V -216.736 h 11.05717 l -22.11433,-38.30316 z"
-         id="path4551" />
-      <path
-         style="fill:none;stroke:#4d4d4d;stroke-width:0.85;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 117.47567,-220.23099 v 76.34361 h 13.99845 v -76.34361 h 8.64513 l -15.52392,-26.88821 -15.52391,26.88821 z"
-         id="path4631"
-         sodipodi:nodetypes="cccccccc" />
-      <path
-         fill="#092e20"
-         d="m 158.15026,-187.75054 c 0,2.05873 -1.66893,3.72766 -3.72766,3.72766 H 94.76807 c -2.05873,0 -3.72766,-1.66893 -3.72766,-3.72766 v -21.30012 c 0,-2.05873 1.66893,-3.72765 3.72766,-3.72765 h 59.65453 c 2.05873,0 3.72766,1.66892 3.72766,3.72765 z"
-         id="path4388"
-         style="stroke-width:0.133131" />
+         r="0"
+         cy="6.4836297"
+         cx="-540.98071"
+         id="path6142-0-01"
+         style="fill:#e06f69;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0"
+         cy="6.4836297"
+         cx="-535.47406"
+         id="path6142-4-5-20"
+         style="fill:#dbba35;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0"
+         cy="6.4836297"
+         cx="-529.96741"
+         id="path6142-6-4-06"
+         style="fill:#38d787;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0"
+         cy="31.904491"
+         cx="-558.31708"
+         id="path6142-0-34-3"
+         style="fill:#e06f69;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0"
+         cy="31.904491"
+         cx="-552.81036"
+         id="path6142-4-5-03-9"
+         style="fill:#dbba35;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0"
+         cy="31.904491"
+         cx="-547.30377"
+         id="path6142-6-4-9-0"
+         style="fill:#38d787;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         style="fill:#e06f69;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-0-3-8"
+         cx="-910.72253"
+         cy="-15.415095"
+         r="0" />
+      <circle
+         style="fill:#dbba35;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-4-5-0-3"
+         cx="-905.21588"
+         cy="-15.415095"
+         r="0" />
+      <circle
+         style="fill:#38d787;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-6-4-3-8"
+         cx="-899.70923"
+         cy="-15.415095"
+         r="0" />
+      <circle
+         style="fill:#e06f69;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-0-0-7"
+         cx="-530.51862"
+         cy="-198.54137"
+         r="0" />
+      <circle
+         style="fill:#dbba35;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-4-5-2-31"
+         cx="-525.0119"
+         cy="-198.54137"
+         r="0" />
+      <circle
+         style="fill:#38d787;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-6-4-0-00"
+         cx="-519.50531"
+         cy="-198.54137"
+         r="0" />
+      <circle
+         style="fill:#e06f69;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-0-7-5"
+         cx="-933.82806"
+         cy="-154.64572"
+         r="0" />
+      <circle
+         style="fill:#dbba35;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-4-5-24-0"
+         cx="-928.32147"
+         cy="-154.64572"
+         r="0" />
+      <circle
+         style="fill:#38d787;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-6-4-32-3"
+         cx="-922.81482"
+         cy="-154.64572"
+         r="0" />
+      <circle
+         r="0"
+         cy="194.43663"
+         cx="-8.8111582"
+         id="path6142-4-5-7-1"
+         style="fill:#dbba35;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0"
+         cy="194.43663"
+         cx="-3.3045363"
+         id="path6142-6-4-7-8"
+         style="fill:#38d787;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         style="fill:#e06f69;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-0-3-6-0"
+         cx="-366.7233"
+         cy="147.11703"
+         r="0" />
+      <circle
+         style="fill:#dbba35;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-4-5-0-4-1"
+         cx="-361.21664"
+         cy="147.11703"
+         r="0" />
+      <circle
+         style="fill:#38d787;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-6-4-3-3-7"
+         cx="-355.71002"
+         cy="147.11703"
+         r="0" />
+      <circle
+         style="fill:#e06f69;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-0-0-0-9"
+         cx="13.480651"
+         cy="-36.009247"
+         r="0" />
+      <circle
+         style="fill:#dbba35;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-4-5-2-3-1"
+         cx="18.98731"
+         cy="-36.009247"
+         r="0" />
+      <circle
+         style="fill:#38d787;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-6-4-0-0-0"
+         cx="24.493925"
+         cy="-36.009247"
+         r="0" />
+      <circle
+         style="fill:#e06f69;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-0-7-9-3"
+         cx="-389.82886"
+         cy="7.8864036"
+         r="0" />
+      <circle
+         style="fill:#dbba35;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-4-5-24-2-5"
+         cx="-384.32224"
+         cy="7.8864036"
+         r="0" />
+      <circle
+         style="fill:#38d787;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path6142-6-4-32-5-9"
+         cx="-378.81558"
+         cy="7.8864036"
+         r="0" />
+      <circle
+         style="fill:#77ccac;fill-opacity:0.175083;stroke:#ccece2;stroke-width:0.883767;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4603-4"
+         cx="254.35696"
+         cy="-8.6136398"
+         r="60.323132" />
+      <circle
+         style="fill:#49bb90;fill-opacity:0.309739;stroke:#b0e1cf;stroke-width:1.326;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.997101"
+         id="circle4512-8"
+         cx="254.35696"
+         cy="-8.6136398"
+         r="45.978962" />
+      <circle
+         style="fill:#3ca27c;fill-opacity:0.639356;stroke:#6dc7a6;stroke-width:1.62716;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4510-4"
+         cx="254.35696"
+         cy="-8.6136398"
+         r="32.899513" />
       <g
-         id="g4404"
-         transform="matrix(0.13313069,0,0,0.13313069,91.04041,-212.77831)">
+         id="g19264"
+         transform="matrix(0.88376678,0,0,0.88376678,29.564729,-1.0011911)">
+        <path
+           style="opacity:0.278905;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4623-0)"
+           d="m 243.49251,-46.434406 -11.24988,19.485364 h 11.05717 v 76.473959 h 22.11433 v -76.473959 h 11.05717 l -22.11433,-38.303154 z"
+           id="path4605-6" />
+        <path
+           style="fill:#e6e6e6;fill-opacity:1;stroke:#4d4d4d;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 243.49251,-46.434406 -11.24988,19.485364 h 11.05717 v 76.473959 h 22.11433 v -76.473959 h 11.05717 l -22.11433,-38.303154 z"
+           id="path4551-9" />
+        <path
+           style="fill:none;stroke:#4d4d4d;stroke-width:0.85;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 247.2373,-30.444031 v 76.343606 h 13.99845 v -76.343606 h 8.64513 l -15.52392,-26.88821 -15.52391,26.88821 z"
+           id="path4631-2"
+           sodipodi:nodetypes="cccccccc" />
+        <path
+           fill="#092e20"
+           d="m 287.91189,2.0364159 c 0,2.058733 -1.66893,3.7276594 -3.72766,3.7276594 H 224.5297 c -2.05873,0 -3.72766,-1.6689264 -3.72766,-3.7276594 V -19.263696 c 0,-2.058733 1.66893,-3.727659 3.72766,-3.727659 h 59.65453 c 2.05873,0 3.72766,1.668926 3.72766,3.727659 z"
+           id="path4388-9"
+           style="stroke-width:0.133131" />
         <g
-           id="g4402">
-          <path
-             fill="#ffffff"
-             d="m 86.945,33.919 h 23.872 v 110.496 c -12.246,2.325 -21.237,3.255 -31.002,3.255 -29.142,0 -44.333,-13.174 -44.333,-38.443 0,-24.336 16.122,-40.147 41.078,-40.147 3.875,0 6.82,0.311 10.386,1.239 v -36.4 z m 0,55.62 C 84.155,88.61 81.83,88.3 78.885,88.3 c -12.091,0 -19.067,7.441 -19.067,20.46 0,12.713 6.666,19.688 18.912,19.688 2.634,0 4.805,-0.155 8.215,-0.618 z"
-             id="path4390" />
-          <path
-             fill="#ffffff"
-             d="m 148.793,70.783 v 55.341 c 0,19.065 -1.395,28.21 -5.58,36.117 -3.876,7.596 -8.992,12.399 -19.532,17.67 L 101.514,169.37 c 10.541,-4.96 15.656,-9.297 18.911,-15.966 3.411,-6.819 4.497,-14.727 4.497,-35.498 V 70.783 Z M 124.922,34.046 h 23.871 v 24.493 h -23.871 z"
-             id="path4392" />
-          <path
-             fill="#ffffff"
-             d="m 163.212,76.209 c 10.542,-4.961 20.617,-7.13 31.623,-7.13 12.246,0 20.306,3.255 23.872,9.611 2.014,3.564 2.634,8.214 2.634,18.137 v 48.517 c -10.697,1.552 -24.182,2.636 -34.102,2.636 -19.996,0 -28.988,-6.977 -28.988,-22.476 0,-16.744 11.936,-24.493 41.234,-26.975 v -5.271 c 0,-4.339 -2.17,-5.888 -8.216,-5.888 -8.835,0 -18.756,2.479 -28.058,7.285 V 76.209 Z m 37.358,37.978 c -15.812,1.552 -20.927,4.031 -20.927,10.231 0,4.65 2.946,6.821 9.456,6.821 3.566,0 6.82,-0.311 11.471,-1.084 z"
-             id="path4394" />
-          <path
-             fill="#ffffff"
-             d="m 232.968,74.505 c 14.105,-3.722 25.731,-5.426 37.512,-5.426 12.246,0 21.082,2.788 26.354,8.216 4.96,5.113 6.509,10.693 6.509,22.632 v 46.813 h -23.871 v -45.884 c 0,-9.145 -3.1,-12.557 -11.625,-12.557 -3.255,0 -6.2,0.311 -11.007,1.706 v 56.734 H 232.969 V 74.505 Z"
-             id="path4396" />
-          <path
-             fill="#ffffff"
-             d="m 312.623,159.761 c 8.372,4.339 16.742,6.354 25.577,6.354 15.655,0 22.321,-6.354 22.321,-21.546 0,-0.154 0,-0.31 0,-0.467 -4.65,2.326 -9.301,3.257 -15.5,3.257 -20.927,0 -34.26,-13.797 -34.26,-35.652 0,-27.128 19.688,-42.473 54.564,-42.473 10.232,0 19.688,1.084 31.159,3.407 l -8.174,17.222 c -6.356,-1.241 -0.509,-0.167 -5.312,-0.632 v 2.48 l 0.309,10.074 0.154,13.022 c 0.155,3.253 0.155,6.51 0.311,9.764 0,2.945 0,4.342 0,6.512 0,20.462 -1.705,30.073 -6.82,37.977 -7.441,11.627 -20.307,17.362 -38.598,17.362 -9.301,0 -17.36,-1.396 -25.732,-4.651 v -22.01 z m 47.434,-71.306 c -0.31,0 -0.619,0 -0.774,0 h -1.706 c -4.649,-0.155 -10.074,1.084 -13.796,3.409 -5.734,3.257 -8.681,9.146 -8.681,17.518 0,11.937 5.892,18.756 16.432,18.756 3.255,0 5.891,-0.62 8.99,-1.55 v -1.705 -6.51 c 0,-2.79 -0.154,-5.892 -0.154,-9.146 l -0.154,-11.006 -0.156,-7.905 v -1.861 z"
-             id="path4398" />
-          <path
-             fill="#ffffff"
-             d="m 433.543,68.77 c 23.871,0 38.443,15.037 38.443,39.371 0,24.957 -15.19,40.613 -39.373,40.613 -23.873,0 -38.599,-15.036 -38.599,-39.216 10e-4,-25.114 15.193,-40.768 39.529,-40.768 z m -0.467,60.763 c 9.147,0 14.573,-7.596 14.573,-20.773 0,-13.019 -5.271,-20.771 -14.415,-20.771 -9.457,0 -14.884,7.598 -14.884,20.771 10e-4,13.178 5.427,20.773 14.726,20.773 z"
-             id="path4400" />
+           id="g4404-0"
+           transform="matrix(0.13313069,0,0,0.13313069,220.80204,-22.991355)">
+          <g
+             id="g4402-3">
+            <path
+               fill="#ffffff"
+               d="m 86.945,33.919 h 23.872 v 110.496 c -12.246,2.325 -21.237,3.255 -31.002,3.255 -29.142,0 -44.333,-13.174 -44.333,-38.443 0,-24.336 16.122,-40.147 41.078,-40.147 3.875,0 6.82,0.311 10.386,1.239 v -36.4 z m 0,55.62 C 84.155,88.61 81.83,88.3 78.885,88.3 c -12.091,0 -19.067,7.441 -19.067,20.46 0,12.713 6.666,19.688 18.912,19.688 2.634,0 4.805,-0.155 8.215,-0.618 z"
+               id="path4390-0" />
+            <path
+               fill="#ffffff"
+               d="m 148.793,70.783 v 55.341 c 0,19.065 -1.395,28.21 -5.58,36.117 -3.876,7.596 -8.992,12.399 -19.532,17.67 L 101.514,169.37 c 10.541,-4.96 15.656,-9.297 18.911,-15.966 3.411,-6.819 4.497,-14.727 4.497,-35.498 V 70.783 Z M 124.922,34.046 h 23.871 v 24.493 h -23.871 z"
+               id="path4392-3" />
+            <path
+               fill="#ffffff"
+               d="m 163.212,76.209 c 10.542,-4.961 20.617,-7.13 31.623,-7.13 12.246,0 20.306,3.255 23.872,9.611 2.014,3.564 2.634,8.214 2.634,18.137 v 48.517 c -10.697,1.552 -24.182,2.636 -34.102,2.636 -19.996,0 -28.988,-6.977 -28.988,-22.476 0,-16.744 11.936,-24.493 41.234,-26.975 v -5.271 c 0,-4.339 -2.17,-5.888 -8.216,-5.888 -8.835,0 -18.756,2.479 -28.058,7.285 V 76.209 Z m 37.358,37.978 c -15.812,1.552 -20.927,4.031 -20.927,10.231 0,4.65 2.946,6.821 9.456,6.821 3.566,0 6.82,-0.311 11.471,-1.084 z"
+               id="path4394-3" />
+            <path
+               fill="#ffffff"
+               d="m 232.968,74.505 c 14.105,-3.722 25.731,-5.426 37.512,-5.426 12.246,0 21.082,2.788 26.354,8.216 4.96,5.113 6.509,10.693 6.509,22.632 v 46.813 h -23.871 v -45.884 c 0,-9.145 -3.1,-12.557 -11.625,-12.557 -3.255,0 -6.2,0.311 -11.007,1.706 v 56.734 H 232.969 V 74.505 Z"
+               id="path4396-7" />
+            <path
+               fill="#ffffff"
+               d="m 312.623,159.761 c 8.372,4.339 16.742,6.354 25.577,6.354 15.655,0 22.321,-6.354 22.321,-21.546 0,-0.154 0,-0.31 0,-0.467 -4.65,2.326 -9.301,3.257 -15.5,3.257 -20.927,0 -34.26,-13.797 -34.26,-35.652 0,-27.128 19.688,-42.473 54.564,-42.473 10.232,0 19.688,1.084 31.159,3.407 l -8.174,17.222 c -6.356,-1.241 -0.509,-0.167 -5.312,-0.632 v 2.48 l 0.309,10.074 0.154,13.022 c 0.155,3.253 0.155,6.51 0.311,9.764 0,2.945 0,4.342 0,6.512 0,20.462 -1.705,30.073 -6.82,37.977 -7.441,11.627 -20.307,17.362 -38.598,17.362 -9.301,0 -17.36,-1.396 -25.732,-4.651 v -22.01 z m 47.434,-71.306 c -0.31,0 -0.619,0 -0.774,0 h -1.706 c -4.649,-0.155 -10.074,1.084 -13.796,3.409 -5.734,3.257 -8.681,9.146 -8.681,17.518 0,11.937 5.892,18.756 16.432,18.756 3.255,0 5.891,-0.62 8.99,-1.55 v -1.705 -6.51 c 0,-2.79 -0.154,-5.892 -0.154,-9.146 l -0.154,-11.006 -0.156,-7.905 v -1.861 z"
+               id="path4398-9" />
+            <path
+               fill="#ffffff"
+               d="m 433.543,68.77 c 23.871,0 38.443,15.037 38.443,39.371 0,24.957 -15.19,40.613 -39.373,40.613 -23.873,0 -38.599,-15.036 -38.599,-39.216 10e-4,-25.114 15.193,-40.768 39.529,-40.768 z m -0.467,60.763 c 9.147,0 14.573,-7.596 14.573,-20.773 0,-13.019 -5.271,-20.771 -14.415,-20.771 -9.457,0 -14.884,7.598 -14.884,20.771 10e-4,13.178 5.427,20.773 14.726,20.773 z"
+               id="path4400-4" />
+          </g>
         </g>
       </g>
     </g>

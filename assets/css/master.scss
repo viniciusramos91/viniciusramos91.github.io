@@ -434,7 +434,7 @@ a {
     }
     
     .card-frame {
-        padding: 10px 8px;
+        padding: 0;
         background: #FFF;
         text-align: center;
         white-space: nowrap;
@@ -448,7 +448,7 @@ a {
         }
 
         object {
-            height: 175px;
+            width: 100%;
         }
 
         @media (max-width: 767px) {
@@ -522,6 +522,20 @@ a {
         opacity: 1 !important;                
         outline: none;
         text-decoration: none;
+    }
+
+    &.django:after {
+        content: url("/assets/svg/django-badge.svg");
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &.kivy:after {
+        content: url("/assets/svg/kivy-badge.svg");
+        position: absolute;
+        top: 0;
+        left: 0;
     }
         
     &.opacity {
