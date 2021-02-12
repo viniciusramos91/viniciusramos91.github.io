@@ -36,16 +36,16 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
 
-		<title>Ebook - Desenvolvimento Web com Python e Django | Python Academy</title>
+		<title>Como Importar Arquivos CSV Usando Pandas</title>
 		<link rel="icon" type="image/png" href="/assets/img/favicon.png">
 
 		
 		<!-- Robots -->
-		<meta name="robots" content="noindex">
+		<meta name="robots" content="index, follow">
 		
 
 		<!-- Canonical URL -->
-		<link rel="canonical" href="https://pythonacademy.com.br/ebooks/desenvolvimento-web-com-python-e-django/obrigado">	
+		<link rel="canonical" href="https://pythonacademy.com.br/blog/importar-csv-no-pandas">	
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -77,19 +77,19 @@
 
 				
 		<!-- General -->
-		<meta name="description" content="Desenvolvimento Web com Python e Django">		
-		<meta name="title" content="Ebook - Desenvolvimento Web com Python e Django | Python Academy">
-		<meta itemprop="image" content="https://pythonacademy.com.br/assets/img/og-image.png">
+		<meta name="description" content="Esse post mostra como importar arquivos CSV usando a famosa biblioteca pandas! Bora que essa ferramenta é essencial pra quem quer começar na área de Data Science!">		
+		<meta name="title" content="Como Importar Arquivos CSV Usando Pandas">
+		<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/pandas-csv/facebook.png">
 
 		<!-- Open Graph -->
 		<meta property="fb:app_id" content="220280761884954">
 		<meta property="og:site_name" content="Python Academy">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="Ebook - Desenvolvimento Web com Python e Django | Python Academy">
-		<meta property="og:url" content="https://pythonacademy.com.br/ebooks/desenvolvimento-web-com-python-e-django/obrigado">
-		<meta property="og:description" content="Desenvolvimento Web com Python e Django">
-		<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/img/og-image.png" />
-		<meta property="og:image:alt" content="Ebook - Desenvolvimento Web com Python e Django | Python Academy" />
+		<meta property="og:title" content="Como Importar Arquivos CSV Usando Pandas">
+		<meta property="og:url" content="https://pythonacademy.com.br/blog/importar-csv-no-pandas">
+		<meta property="og:description" content="Esse post mostra como importar arquivos CSV usando a famosa biblioteca pandas! Bora que essa ferramenta é essencial pra quem quer começar na área de Data Science!">
+		<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/posts/pandas-csv/facebook.png" />
+		<meta property="og:image:alt" content="Como Importar Arquivos CSV Usando Pandas" />
 		<meta property="og:image:type" content="image/png" />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
@@ -97,15 +97,19 @@
 		<!-- Twitter cards -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-		<meta name="twitter:title" content="Ebook - Desenvolvimento Web com Python e Django | Python Academy">
-		<meta name="twitter:description" content="Desenvolvimento Web com Python e Django">
-		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/img/twitter-card-image.png">
+		<meta name="twitter:title" content="Como Importar Arquivos CSV Usando Pandas">
+		<meta name="twitter:description" content="Esse post mostra como importar arquivos CSV usando a famosa biblioteca pandas! Bora que essa ferramenta é essencial pra quem quer começar na área de Data Science!">
+		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/pandas-csv/twitter.png">
+		
+		<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
+		
 		
 
+		<!-- post.css -->
+		<link rel="stylesheet" href="/assets/css/post.css?1613167907343752639">
 	</head>
 
-	<body>
-
+	<body id="post-body">		
 		
 
 
@@ -115,12 +119,7 @@
 		<div class="container">
 	
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed "
-					onclick="showMenu()"
-					onblur="hideMenu()"
-      				data-toggle="collapse"
-					data-target="#main-menu"
-					aria-expanded="true">
+				<button type="button" class="navbar-toggle collapsed " onclick="showMenu()" onblur="hideMenu()" data-toggle="collapse" data-target="#main-menu" aria-expanded="true">
 					<span class="sr-only">Habilitar navegação</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -161,90 +160,792 @@
 			</div>
 		</div>
 	</nav>
-</header>     
+</header>	
 
-        <div class="thank-you-container">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 data-panel">
-                <div class="panel-inner text-center" style="height: calc(100vh - 80px)">
+		<a href="#" class="sticky-newsletter hidden-xs" data-toggle="modal" data-target="#email-modal">
+    <div class="rotate-text">
+        <span>Receba todas as novidades!</span>
+    </div>
+</a>
 
-                    <div class="center" data-aos="fade-left">
-                        <div class="card">
-                            <h2 class="mb-32">Baixe aqui seu material</h2>
-                            
-                            <a href="https://pythonacademy.com.br/assets/ebooks/desenvolvimento-web-com-python-e-django/desenvolvimento-web-com-python-e-django.pdf" 
-                                class="call-to-action yellow" 
-                                type="application/pdf" 
-                                rel="nofollow" 
-                                target="_blank"
-                                download>
-                                    <i class="fa fa-download pr-8" aria-hidden="true"></i> Baixe aqui seu Ebook
-                            </a>                        
-    
-                            <h3>Compartilhe com alguém!</h3>
-    
-                            <p class="mb-32">
-                                Mostre àquele <i>Javista</i> viciado ou àquele seu amigo dev PHP que 
-                                <span class="bold"><b>Python é a melhor linguagem de todas</b></span>! <br>
-                                Compartilhe com eles esse conhecimento!
-                            </p>
+<!-- Include email modal form with text, input and submit button to acquire emails to our list -->
+<!-- Parameters: email-modal = modal id  -->
 
-                            <div class="row width-90" style="margin: 0 auto">
-                                <div class="col-sm-3 col-xs-12">
-                                    <a rel="nofollow" 
-                                        class="share facebook"
-                                        href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/ebooks/desenvolvimento-web-com-python-e-django/','Compartilhe no Facebook','width=600,height=400')">
-                                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                                        Compartilhar
-                                    </a>
-                                </div>
-
-                                <div class="col-sm-3 col-xs-12">
-                                    <a class="share twitter"
-                                        href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/ebooks/desenvolvimento-web-com-python-e-django/&related=PythonAcademyBR&text=&quot;Ebook GRÁTIS - Desenvolvimento Web com Python e Django&quot; por Vinicius Ramos','Compartilhe no Twitter','width=600,height=400')">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                        Tweet
-                                    </a>                                    
-                                </div>
-
-                                <div class="col-sm-3 col-xs-12">
-                                    <a class="share whatsapp"
-                                        href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/ebooks/desenvolvimento-web-com-python-e-django/">
-                                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                                        Whatsapp
-                                    </a>
-                                </div>
-
-                                <div class="col-sm-3 col-xs-12">
-                                    <a class="share email"
-                                        href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Ebook GRÁTIS - Desenvolvimento Web com Python e Django&amp;body=https://pythonacademy.com.br/ebooks/desenvolvimento-web-com-python-e-django/&amp;ui=2&amp;tf=1">
-                                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                                        Email
-                                    </a>                            
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<div class="modal fade email-modal" id="email-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">                                    
+            <div class="modal-body text-center">
+                <a href="#" data-dismiss="modal" aria-label="Close" class="pull-right close-icon"><i class="fa fa-times" aria-hidden="true"></i></a>
+                <h3 class="modal-title">Seja o primeiro a receber o melhor conteúdo!</h3>
+                <div class="modal-label">
+                    <p class="email-label">Cadastre o seu melhor email para <strong>receber gratuitamente <br></strong><strong>conteúdos exclusivos</strong> e muito mais!</p>
                 </div>
+                <!--<i class="down-icon fa fa-arrow-down fa-fw" aria-hidden="true"></i>-->
+
+                <div class="mailchimp-input">
+                    <!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: QUERO RECEBER = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate>
+    <div id="mc_embed_signup_scroll" class="container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-4">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required>
+            </div>
+            
+            <div class="col-xs-6">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required>                
+            </div>
+
+            <div class="col-xs-2">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <i class="fa fa-mail-forward visible-xs" aria-hidden="true"></i>
+                    <span class="hidden-xs">QUERO RECEBER</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>            
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+                </div>                
+
+                <p class="pos-input text-center" style="font-size: 70%; margin-top: 10px; margin-bottom: 10px;">Não se preocupe, respeitamos sua privacidade. Você pode se descadastrar a qualquer momento.</p>
             </div>
         </div>
     </div>
 </div>
 
-        <script src="/assets/vendors/bundle.min.js"></script>
+
+
+		<div class="main-container" data-aos="fade-in" data-aos-duration="1500">
+			<section class="post-banner">	
+				<div class="post-banner-wrapper">
+					<div class="post-banner-content" style="background: #130654 url('/assets/svg/stars-bground.svg');">
+						<div class="container">	
+							<div class="wrapper">
+								<div class="featured-icon-wrapper">
+									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/pandas-csv/featured_icon.svg" width="90%">
+									</object>															
+								</div>
+							</div>													
+			
+							
+							<h1 class="blog-post-title font-shadow">
+								Como Importar Arquivos CSV Usando Pandas
+							</h1>			
+						</div>			
+					</div>
+				</div>
+			</section>	
+			
+			<div class="post-meta">
+				<div class="container">
+					<div class="post-meta-wrapper">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+								<div class="col-xs-6">
+									<div class="post-meta-data">
+										<img src="/assets/svg/clock.svg" alt="Tempo de Leitura">
+										<span>15 min.</span>
+									</div>
+								</div>
+
+								<div class="col-xs-6">
+									<div class="post-meta-data">
+										<img src="/assets/svg/level.svg" alt="Nível do Conteúdo">
+										<span>Básico</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container post-container">
+				<div class="blog-post-content">
+					
+<p>Olá, futuro <strong>Cientista de Dados</strong>!</p>
+
+<p>No <em>post</em> de hoje vamos começar a nossa jornada nessa área que tem chamado muita atenção de profissionais e de empresas!</p>
+
+<p>E não é à toa: o mercado está cada vez mais procurando profissionais com esse perfil, no Brasil e no mundo.</p>
+
+<p>Até a <a href="https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century" target="_blank">Harvard Business Review</a> concorda comigo!</p>
+
+<p><img src="/assets/posts/pandas-csv/sexiest-job.png" alt="Sexiest Job" class="img-responsive"></p>
+
+<p>Esse post dá início à uma <strong>série de posts</strong> da biblioteca que é considerada por muitos um dos motivos de Python ser cada vez mais utilizado por cientista de dados: <strong>o poderoso Pandas</strong>! <img class="emoji" title=":punch:" alt=":punch:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png" height="20" width="20"></p>
+
+<p><em><strong>Mas calma! Sem medo galera!</strong></em></p>
+
+<p>Você vai ver que, apesar de versátil - como as boas bibliotecas pythonistas - Pandas é extremamente simples de utilizar.</p>
+
+<p>Entendendo o básico de dataframes, series e índices, vocês dominarão o mundo do <em>data wrangling</em> (nome bonito para: <em><strong>FUÇAR OS DADOS</strong></em> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">).</p>
+
+<p>Mas antes de aprender isso tudo em outros posts, vamos direto ao assunto para quebrar logo o gelo e começar com o pé direito: importar arquivos CSV e visualizar os dados!</p>
+
+<h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#arquivo-csv" id="markdown-toc-arquivo-csv">Arquivo CSV</a></li>
+  <li><a href="#instala%C3%A7%C3%A3o-do-pandas" id="markdown-toc-instalação-do-pandas">Instalação do Pandas</a></li>
+  <li><a href="#importar-arquivo-csv-com-pandas" id="markdown-toc-importar-arquivo-csv-com-pandas">Importar Arquivo CSV com Pandas</a></li>
+  <li><a href="#b%C3%B4nus-e-exportar-para-csv" id="markdown-toc-bônus-e-exportar-para-csv">Bônus: e exportar para CSV?</a></li>
+</ul>
+
+<h2 id="arquivo-csv">Arquivo CSV</h2>
+
+<p><em><strong>Cara, não devo saber nada mesmo, o que é um arquivo CSV???</strong></em></p>
+
+<p>Não tema meu amigo pythonista, um arquivos CSV nada mais é que um arquivo de texto com valores separados por vírgula (<em><strong>C</strong>omma <strong>S</strong>eparated <strong>V</strong>alues</em>).</p>
+
+<p>Ou seja, nada mais é que um arquivo onde cada linha possui valores separados por vírgulas. Bora de exemplo?</p>
+
+<p><img src="/assets/posts/pandas-csv/arquivo-csv.png" alt="Arquivo CSV" class="img-responsive"></p>
+
+<p>O arquivo mostra os dados de 5 músicas, com banda e ano de lançamento, além da última coluna que contém o nome completo.</p>
+
+<p>Percebam que a primeira linha é o cabeçalho, com o nome descritivo de cada coluna.</p>
+
+<p><em><strong>Viu? Moleza, não é?</strong></em></p>
+
+<p>Claro que, na maioria dos casos práticos, os arquivo terão milhares ou mesmo milhões de linhas. Contudo, enquanto seu computador tiver memória para aguentar, o Pandas estará do seu lado!</p>
+
+<p>Quando não estiver do nosso lado, bem, aí é assunto pra um outro post (deixem comentários aqui embaixo se gostariam de um post com esse assunto <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20">)</p>
+
+<p>Vamos então ao que interessa: <strong>Pandas</strong>!!!</p>
+
+<p><img src="/assets/posts/pandas-csv/panda-bear.jpg" alt="Pandas! Not these!?!" class="img-responsive"></p>
+
+<p><em><strong>Ops, esse não, produtor!!</strong></em> <img class="emoji" title=":man_facepalming:" alt=":man_facepalming:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f926-2642.png" height="20" width="20"></p>
+
+<h2 id="instalação-do-pandas">Instalação do Pandas</h2>
+
+<p>Caso você utilize o Anaconda, o Pandas já vem instalado por padrão.</p>
+
+<p>Caso contrário, sigam-me os bons.</p>
+
+<p>Vamos instalá-lo utilizando nosso bom e velho <code class="highlighter-rouge">pip</code>.</p>
+
+<p>Primeiro, vamos ao básico: <strong>ative</strong> seu <em>ambiente virtual</em> para começar a instalação.</p>
+
+<p><em><strong>COMO ASSIM você não usa ambientes virtuais?! <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"></strong></em></p>
+
+<p>Se você é desses, já vai lá no post sobre <a href="https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais" target="_blank">ambientes virtuais pra começarmos direito!</a></p>
+
+<p><strong>Para instalar o Pandas</strong> (após ativar seu ambiente virtual), basta executar o comando:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>pip <span class="nb">install </span>pandas
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em>Voilá</em>, temos nossa ferramenta pronta pra trabalhar!</p>
+
+<p>Agora escolha sua melhor IDE, seu notebook jupyter ou mesmo a linha de comando e <strong>mãos à obra</strong> - ou melhor - <strong>mãos ao código</strong> <img class="emoji" title=":muscle:" alt=":muscle:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4aa.png" height="20" width="20"></p>
+
+<h2 id="importar-arquivo-csv-com-pandas">Importar Arquivo CSV com Pandas</h2>
+
+<p>Primeramente temos que importar a biblioteca!</p>
+
+<p>Sabemos que na hora de importar qualquer biblioteca em Python, podemos criar um apelido (alias) para facilitar o acesso.</p>
+
+<p>No caso do Pandas, o padrão é chamá-lo carinhosamente de ‘pd’:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> import pandas as pd
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Com o Pandas importado, vamos utilizar o método <code class="highlighter-rouge">read_csv()</code>, passando como parâmetro o arquivo CSV que queremos importar.</p>
+
+<p>No nosso caso, vamos usar o arquivo <em>bandas.csv</em>, que você pode <a href="/assets/posts/pandas-csv/bandas.csv" target="_blank">clicar aqui para baixá-lo</a>.</p>
+
+<p>O método retorna uma estrutura tabular que é a base do Pandas, chamada de <code class="highlighter-rouge">Dataframe</code>.</p>
+
+<p>Um dataframe nada mais é que uma estrutura bidimensional, com linhas e colunas.</p>
+
+<p>Imagine uma planilha do Excel ou uma tabela do seu banco de dados e terá uma boa noção de como ele se comporta:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> import pandas as pd
+<span class="o">&gt;&gt;&gt;</span> musicas <span class="o">=</span> pd.read_csv<span class="o">(</span><span class="s1">'./bandas.csv'</span><span class="o">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em><strong>Como assim, só isso?</strong></em></p>
+
+<p>Sim, jovem padawan!! Mais mole, só sentando na gelatina.</p>
+
+<p><em><strong>Mas… O que aconteceu?</strong></em></p>
+
+<p>Nosso querido <em>pandas</em> leu o arquivo CSV, já entendeu que a primeira linha é o cabeçalho, e separou as colunas direitinho pra você!</p>
+
+<p><em><strong>Ainda duvida?</strong></em></p>
+
+<p>Vamos rodar o comando abaixo para verificar as 5 primeiras linhas do nosso <em>Dataframe</em> com músicas do arquivo CSV importado:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> import pandas as pd
+<span class="o">&gt;&gt;&gt;</span> musicas <span class="o">=</span> pd.read_csv<span class="o">(</span><span class="s1">'./bandas.csv'</span><span class="o">)</span>
+<span class="o">&gt;&gt;&gt;</span> musicas.head<span class="o">()</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>E o resultado será:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td>
+<td class="code"><pre>                musica            artista  ano de lancamento                           nome completo
+0          Radioactive    Imagine Dragons               2012          Radioactive by Imagine Dragons
+1      Good Vibrations     The Beach Boys               1966       Good Vibrations by The Beach Boys
+2    A Day In The Life        The Beatles               1967        A Day In The Life by The Beatles
+3  Message In A Bottle         The Police               1979       Message In A Bottle by The Police
+4    Seven Nation Army  The White Stripes               2003  Seven Nation Army by The White Stripes
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em><strong>Uai… E essa primeira coluna com valores de 0 a 4, que não estava no arquivo original!?!</strong></em></p>
+
+<p>Esse padawan é esperto! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+
+<p>Veremos num próximo post que o Pandas não cria “nomes” somente para as colunas, mas também para as linhas!!</p>
+
+<p>Esse “nome” é chamado de <strong>índice</strong> e será muito importante para realizarmos seleções de partes dos dados de um <em>Dataframe</em> Pandas.</p>
+
+<p>Maaaaaas… Cenas para um próximo capítulo <img class="emoji" title=":bowtie:" alt=":bowtie:" src="https://github.githubassets.com/images/icons/emoji/bowtie.png" height="20" width="20"></p>
+
+<p><em><strong>Não quer perder o próximo capítulo?</strong></em></p>
+
+<p>Então que tal fazer parte da nossa <strong>lista exclusiva de Pythonistas</strong> e receber nosso conteúdo em <strong>primeira mão</strong>?! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+
+<div class="email-signup" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="signup-body">
+				<span class="greeting">Está gostando do artigo?</span>
+				<span class="signup-text">Então cadastre o seu email para <span class="blue">receber gratuitamente</span> mais conteúdos como este!</span>
+		        <!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: Quero receber = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate="">
+    <div id="mc_embed_signup_scroll" class="container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-4">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="">
+            </div>
+            
+            <div class="col-xs-6">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="">                
+            </div>
+
+            <div class="col-xs-2">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <i class="fa fa-mail-forward visible-xs" aria-hidden="true"></i>
+                    <span class="hidden-xs">Quero receber</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>            
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+		    </div>
+		</div>
+	</div>      
+</div>
+
+<p>Claro que esse CSV já estava todo arrumadinho, limpinho e cheiroso. Mas <em>não</em> se engane: nem sempre será assim.</p>
+
+<p>Um dos trabalhos do cientista de dados é <strong>limpar os dados</strong>, que consiste em:</p>
+
+<ul>
+  <li>Consertar codificação de dados de entrada;</li>
+  <li>Converter tipos;</li>
+  <li>Configurar separadores de decimais;</li>
+  <li>Limpar caracteres indesejados;</li>
+  <li>Tratar dados faltantes entre outros vários problemas.</li>
+</ul>
+
+<p>Podemos já tratar alguns desses problemas no momento da importação dos dados, no próprio método <code class="highlighter-rouge">read_csv()</code></p>
+
+<p>Um exemplo de parâmetro é dizer para o Pandas que não queremos que a primeira linha seja considerada o cabeçalho, mas sim parte dos dados.</p>
+
+<p>Para isso, podemos executar o método <code class="highlighter-rouge">read_csv()</code> com o parâmetro <em>header</em> com o valor <em>None</em>:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> musicas_sem_cabecalho <span class="o">=</span> pd.read_csv<span class="o">(</span><span class="s1">'./bandas.csv'</span>, <span class="nv">header</span><span class="o">=</span>None<span class="o">)</span>
+<span class="o">&gt;&gt;&gt;</span> musicas_sem_cabecalho.head<span class="o">()</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Com esse parâmetro, temos o resultado:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td>
+<td class="code"><pre>                     0                1                  2                                  3
+0               musica          artista  ano de lancamento                      nome completo
+1          Radioactive  Imagine Dragons               2012     Radioactive by Imagine Dragons
+2      Good Vibrations   The Beach Boys               1966  Good Vibrations by The Beach Boys
+3    A Day In The Life      The Beatles               1967   A Day In The Life by The Beatles
+4  Message In A Bottle       The Police               1979  Message In A Bottle by The Police
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Percebam que agora temos outros nomes para cada coluna! O Pandas cria os nomes automaticamente, começando do 0.</p>
+
+<h2 id="bônus-e-exportar-para-csv">Bônus: e exportar para CSV?</h2>
+
+<p>Uma vez com o <em>Dataframe</em> Pandas em memória (após a execução do <code class="highlighter-rouge">read_csv()</code>), podemos escrever um arquivo CSV de saída utilizando o método <code class="highlighter-rouge">to_csv()</code>, da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> musicas_sem_cabecalho.to_csv<span class="o">(</span><span class="s1">'./bandas_sem_cabecalho.csv'</span><span class="o">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em><strong>Prontinho!</strong></em> temos nosso arquivo CSV exportado! <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"></p>
+
+<h2 class="no_toc" id="conclusão">Conclusão</h2>
+
+<p>Primeiro contato com Pandas, o que achou? Fácil, difícil?</p>
+
+<p>Comenta aqui embaixo suas dores e/ou sugestões! A gente quer te ouvir <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+
+<p>Esse foi somente o primeiro de muitos posts, pois esse assunto é muito extenso e importante para quem está iniciando a carreira de cientista de dados.</p>
+
+<p>Ter destreza na manipulação de dados tabulares é essencial nesse ramo e estamos aqui pra fazer você chegar lá!</p>
+
+<p>Vamos juntos que o caminho é longo, mas possível e gratificante!</p>
+
+<p>Antes de terminar: sabia que a gente está no <a href="https://www.instagram.com/pythonacademybr" target="_blank">Instagram</a>?</p>
+
+<p>Vai lá e deixe seu comentário, interaja com a gente! Tem posts complementares ao blog e muitos desafios: procurem nos destaques <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+
+<p>Até o próximo post!</p>
+
+
+
+					<div class="blue-yellow-separator no-repeat"></div>
+
+					<div class="blog-post-footer">
+						
+						<div class="blog-post-colophon">
+							<div class="row">
+								<div class="col-xs-12 col-sm-3 text-center">									
+									<img src="/assets/authors/leon-solon/avatar.png" width="100%" alt="Autor" class="profile-img">
+								</div>
+
+								<div class="col-xs-12 col-sm-9">
+									<div class="blog-post-meta">
+										<h2>
+											<span class="blog-post-by">
+												Por Leon Solon
+											</span>
+
+											<b>em <time datetime="2021-02-03" pubdate>03/02/2021</time></b>
+										</h2>
+	
+										<p class="short-description">"<i>Pai, cientista de dados, apaixonado por resolver problemas.</i>"</p>
+
+										<p class="author-media-label">Minhas redes:</p>
+										
+										<ul>
+											
+											<li><a href="https://www.linkedin.com/in/leonsolon" target="_blank"><i class="fa fa-linkedin-square" style="color: #0072b1;" aria-hidden="true"></i></a></li>
+																						
+											
+											<li><a href="mailto:leonsolon@gmail.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+																						
+											
+											<li><a href="https://github.com/leonsolon" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+											
+											
+											
+										</ul>
+									</div>
+								</div>
+							</div>				
+						</div>
+					</div>
+				</div>				
+			</div>									
+		</div>	
+
+		<!-- READ MORE -->	
+		<div class="more-posts">
+			<section class="container">
+				<div class="section-header">
+		            <h2 class="black">Continue aprendendo!</h2>
+		        </div>
+
+				<div class="row">
+					<div id="random_posts"></div>
+				</div>	
+
+				<div class="text-center">
+	                <a href="/blog/index.html" class="button ripple-out-animation">
+	                    ←  Retornar ao Blog
+	                </a>
+	            </div>		
+			</section>		
+		</div>
+
+						
+			
+<div id="comment-box" class="center-block">
+    <div class="container">
+        <div id="disqus_thread"></div>        
+    </div>
+</div>
+
+		
+
+		<!-- Affix -->		
+		<div class="social-media-affix">
+			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
+			<ul>				
+				<li>
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/importar-csv-no-pandas','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+						<i class="fa fa-fw fa-facebook"></i>
+					</a>
+				</li>				
+				
+				<li>							
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/importar-csv-no-pandas&amp;related=PythonAcademyBR&amp;text=%22Como%20Importar%20Arquivos%20CSV%20Usando%20Pandas%22%20por%20Leon%20Solon','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+						<i class="fa fa-fw fa-twitter"></i>
+					</a>
+				</li>
+
+				<li>
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/importar-csv-no-pandas" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/importar-csv-no-pandas" data-action="share/whatsapp/share">
+						<i class="fa fa-fw fa-whatsapp"></i>
+					</a>
+				</li>
+
+				<li>
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Como%20Importar%20Arquivos%20CSV%20Usando%20Pandas&amp;body=https://pythonacademy.com.br/blog/importar-csv-no-pandas&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+						<i class="fa fa-fw fa-envelope"></i>
+					</a>
+				</li>
+
+				
+			</ul>
+		</div>		
+
+		
+
+
+<section id="footer-signup">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<h2 class="bold">Aprenda Python de Verdade!</h2>
+				<p class="mb-32">
+					Cadastre o seu <span class="bold">melhor email</span> para receber gratuitamente conteúdos exclusivos e muito mais!
+				</p>
+			</div>
+			
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
+				<!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: Eu quero! = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate>
+    <div id="mc_embed_signup_scroll" class="container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-4">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required>
+            </div>
+            
+            <div class="col-xs-6">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required>                
+            </div>
+
+            <div class="col-xs-2">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <i class="fa fa-mail-forward visible-xs" aria-hidden="true"></i>
+                    <span class="hidden-xs">Eu quero!</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>            
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4">
+				<div class="footer-wrapper">
+					<p>Sobre</p>
+	
+					<ul>					
+						<li>
+							<a href="/sobre">Sobre a Python Academy</a>
+						</li>
+	
+						<li>
+							<a href="/zen-of-python"><i>Zen of Python</i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-4">
+				<div class="footer-wrapper">
+					<p>Conteúdo</p>
+	
+					<ul>
+						<li>
+							<a href="/blog">Blog</a>
+						</li>
+						<li>
+							<a href="/sliders">Sliders</a>
+						</li>						
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-4">
+				<div class="footer-wrapper">
+					<p>Ebooks</p>
+	
+					<ul>
+						<li>
+							<a href="/ebooks/desenvolvimento-web-com-python-e-django/">Desenvolvimento Web com Python e Django</a>
+						</li>					
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="blue-yellow-separator no-repeat pt-64 pb-64"></div>
+		
+		<div class="row">
+			<div class="col-sm-12 hidden-xs text-center">
+				<div class="footer-wrapper">
+					<img src="/assets/img/logo.png" alt="Aprenda Computação de Verdade!" class="footer-logo">
+	
+					<p class="footer-label mt-16">
+						Existimos para levar o conhecimento de Python a todos de forma simples e inovadora!
+					</p>
+	
+					<ul class="social-medias">
+						<li>
+							<a href="https://www.facebook.com/pythonacademy" target="_blank">
+								<img src="/assets/img/facebook.png" alt="Facebook" data-aos="fade-in" data-aos-delay="0" data-aos-duration="500">
+							</a>
+						</li>	
+						
+						<li>
+							<a href="https://www.linkedin.com/company/pythonacademy/" target="_blank">
+								<img src="/assets/img/linkedin.png" alt="Medium" data-aos="fade-in" data-aos-delay="150" data-aos-duration="500">
+							</a>
+						</li>
+
+						<li>
+							<a href="https://twitter.com/PythonAcademyBR" target="_blank">
+								<img src="/assets/img/twitter.png" alt="Twitter" data-aos="fade-in" data-aos-delay="300" data-aos-duration="500">
+							</a>
+						</li>
+						
+						<li>
+							<a href="https://medium.com/@python.academy" target="_blank">
+								<img src="/assets/img/medium.png" alt="Medium" data-aos="fade-in" data-aos-delay="450" data-aos-duration="500">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="footer-copyright">
+	<div class="text-center">
+		<p>
+			© <b>2021</b> Python Academy <img src="/assets/img/cross.png" alt="Conheça Jesus Cristo!" height="24px" class="ml-16 mr-16 hidden-xs"> <br class="visible-xs">
+			<i>"Porque o Senhor dá a <b>sabedoria</b>, e da sua boca vem a <b>inteligência</b> e o <b>entendimento</b>" Pv 2:6</i>
+		</p>
+	</div>
+</section>
+
+<script src="/assets/vendors/bundle.min.js"></script>
 
 <!-- Custom scripts -->
 <script src="/assets/js/script.js"></script>
 
+
+		<!-- Cookie.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
+		
 		<!-- Javascript -->		
-	    <script type="text/javascript">
-	        (function($) {
-	            AOS.init({
-	                easing: 'ease-out-back',
-	                duration: 1500
-	            });
-	        })(jQuery);
-	    </script>
-    </body>
+		<script type="text/javascript">			
+			(function($) {
+				AOS.init({
+					easing: 'ease-out-back',
+					duration: 1500
+				});
+
+				generateRandomPosts();
+			})(jQuery);
+			
+			
+				new Vivus('featured-icon', {
+					duration: 80,
+					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
+				});
+						
+
+			$('.social-media-affix').affix({
+				offset: {
+					top: $(".post-banner").height()
+				}
+			});
+
+			// Generate random posts
+			function generateRandomPosts() {
+				var counter = 0;	            
+
+				$.getJSON("/blog/posts.json", function(data) {
+					var postsCount = data.length;					
+					var posts = data;
+
+					var randomIndexUsed = [];	
+					var numberOfPosts = 4;
+
+					var divRandomPosts = $("#random_posts");		            
+
+					while (counter < numberOfPosts) {
+						var randomIndex = Math.floor(Math.random() * postsCount);
+						
+						if (randomIndexUsed.indexOf(randomIndex) == "-1") {
+
+							var post = posts[randomIndex];
+
+							// Verify if related post is the same as the shown
+							if (post.title != "Como Importar Arquivos CSV Usando Pandas") {
+								var postHTML = 
+									"<div class='col-lg-3 col-md-6 col-sm-6 col-xs-12'>" +
+										"<a href='" + post.href + "' class='card aos-init aos-animate' data-aos='fade-up'>" +
+											"<div class='card-frame'>" +
+												"<object id='featured-icon-" + counter + " class=featured-icon' type='image/svg+xml' data='/assets/posts/" + post.assets + "/" + post.featured_icon + "' height='175px'></object>" +
+											"</div>" + 
+											
+											"<div class='caption'>" +
+												"<h3 class='card-title'>" +
+													post.title +
+												"</h3>" +
+											"</div>" +
+										"</div>" +
+									"</div>"
+
+								divRandomPosts.append(postHTML);
+								randomIndexUsed.push(randomIndex);
+								
+								counter++;
+							}
+						}
+					}
+				});								
+			}
+			
+			// Show signup modal on mouse leave event
+			$( document ).ready(function() {
+				$("body").bind("mouseleave",function(){
+					if(!Cookies.get('pa_popup')) {
+	
+						// Same as included sticky-newsletter id
+						$('#email-modal').modal('show');
+
+						/* Set cookie so this does not repeat */
+						Cookies.set('pa_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/importar-csv-no-pandas' });
+					}
+				});		
+				
+				// Initialize SVG animation on each related posts
+				$("#random_posts").find('.card-frame object').each(function(index, element) {
+					new Vivus(element, {
+						duration: 80,
+						type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
+					});
+				})
+			});
+
+		</script>
+		
+		<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"d818a1dcab21e0bb6fbe4a39b","lid":"11b4623db6"}) })</script>	
+
+		
+			<script type="text/javascript">
+				var disqus_config = function () {
+					this.page.url = 'https://pythonacademy.com.br/blog/importar-csv-no-pandas';     // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = '/blog/importar-csv-no-pandas';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+			
+				(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = '//python-academy.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+			</script>
+		
+			<noscript>Por favor, habilite o Javascript para visualizar os <a href="https://disqus.com/?ref_noscript">comentários.</a>
+</noscript>
+		
+	</body>
 </html>
+

@@ -2,6 +2,23 @@
     
     
     {
+      "title": "Como Importar Arquivos CSV Usando Pandas",
+      "href": "/blog/importar-csv-no-pandas",
+      "slug": "importar-csv-no-pandas",
+      "assets": "pandas-csv",
+      "author": "Leon S",
+      "description": "<p>Esse post mostra como importar arquivos CSV usando a famosa biblioteca pandas! Bora que essa ferramenta é essencial pra quem quer começar na área de Data Science!</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "03",
+         "month": "February",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "title": "Dict Comprehensions no Python",
       "href": "/blog/dict-comprehensions-no-python",
       "slug": "dict-comprehensions-no-python",
@@ -228,7 +245,7 @@
       "slug": "desenvolva-aplicativos-para-android-ios-com-python-e-kivy",
       "assets": "python-and-kivy",
       "author": "Vinícius R",
-      "description": "<p>Nesse post vamos explorar mais uma incrível possibilidade do Python, o desenvolvimento cross-platform utilizando o framework Kivy!</p>",
+      "description": "<p>Nesse post vamos explorar o desenvolvimento de aplicações mobile utilizando Python e Kivy. Aprenda a desenvolver aplicativos para Android, iOS, Desktop e muito mais com Kivy!</p>",
       "featured_icon": "featured_icon.svg",
       "date": {
          "day": "07",
@@ -279,7 +296,7 @@
       "slug": "como-instalar-python-no-windows",
       "assets": "windows-python-installation",
       "author": "Leon S",
-      "description": "<p>Nesse post, vamos aprender como instalar o Python no Windows para adentrar no maravilhoso mundo do Python! Não tenha medo, vamos mostrar passo a passo!</p>",
+      "description": "<p>Nesse post, vamos aprender como instalar o Python no Windows através de um tutorial simples e descomplicado! Não tenha medo, vamos mostrar passo a passo!</p>",
       "featured_icon": "featured_icon.svg",
       "date": {
          "day": "04",

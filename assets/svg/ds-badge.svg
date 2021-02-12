@@ -7,15 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="19.14703mm"
-   height="19.147022mm"
-   viewBox="0 0 19.14703 19.147022"
+   width="19.147051mm"
+   height="19.147034mm"
+   viewBox="0 0 19.14705 19.147034"
    version="1.1"
-   id="svg47248"
+   id="svg8"
    inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
-   sodipodi:docname="kivy-badge.svg">
+   sodipodi:docname="ds-badge.svg">
   <defs
-     id="defs47242" />
+     id="defs2" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="12.376872"
-     inkscape:cy="53.807535"
+     inkscape:cx="24.248379"
+     inkscape:cy="28.678304"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -40,7 +40,7 @@
      inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
-     id="metadata47245">
+     id="metadata5">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -55,27 +55,27 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-7.1134757,-15.762119)">
+     transform="translate(-116.11843,-6.6650787)">
     <path
-       style="fill:#000000;fill-opacity:0;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 7.1134757,25.070332 -7e-7,12.114021 21.422231,-21.422234 H 16.381997 Z"
-       id="path48094" />
+       style="fill:#0c4b33;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 116.11845,15.9733 9.26852,-9.3082213 9.87851,1.1e-6 -19.14705,19.1470312 z"
+       id="path1054" />
     <path
-       style="fill:#ffcc02;fill-opacity:1;stroke:none;stroke-width:0.33377;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 11.745206,20.438613 -4.6317303,4.631719 5e-7,9.838809 19.1470298,-19.147022 h -9.878509 z"
+       style="fill:#130654;fill-opacity:1;stroke:none;stroke-width:0.33377;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 120.75018,11.341578 -4.63173,4.631722 -2e-5,9.838813 19.14705,-19.1470317 -9.87851,-1.4e-6 z"
        id="path847"
        sodipodi:nodetypes="cccccc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.65729px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0914321"
-       x="-10.547655"
-       y="27.501951"
-       id="text48022"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.08375px;line-height:1.25;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY';letter-spacing:-0.11255px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0770936"
+       x="68.66452"
+       y="98.440926"
+       id="text1041"
        transform="rotate(-45)"><tspan
          sodipodi:role="line"
-         id="tspan48020"
-         x="-10.547655"
-         y="27.501951"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Bold';fill:#ffffff;stroke-width:0.0914321">KIVY</tspan></text>
+         id="tspan1039"
+         x="68.66452"
+         y="98.440926"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Medium';fill:#ffffff;stroke-width:0.0770936">Data Science</tspan></text>
   </g>
 </svg>
