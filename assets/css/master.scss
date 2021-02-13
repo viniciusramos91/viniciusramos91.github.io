@@ -784,8 +784,8 @@ a {
         
         &:focus {
             outline: none;
-            border-color: #2d98da;
-            box-shadow: 0 0 6px rgba(45, 152, 218, 0.5);
+            border-color: #35bfca;
+            box-shadow: 0 0 6px rgba(163, 174, 181, 0.5);
         }
     }
     
@@ -793,13 +793,13 @@ a {
         margin: 0;
         width: 100%;
         padding: 12px 4px;
-        background: #02b3e4;
+        background: #FFF;
         border: 0;
         border-radius: 4px;
         text-transform: uppercase;
         transition: all .15s ease;
         text-align: center;
-        color: #FFF;
+        color: #59616d;
         
         span {
             font-weight: 600;
@@ -821,7 +821,7 @@ a {
         }
 
         &:hover {
-            background: #0093c4
+            background: #E2E2E2
         }
 
         @media(max-width: 767px) {
@@ -914,6 +914,7 @@ a {
     margin: 60px 0;
     -webkit-box-shadow: 0 0 25px #d3d9de;
     box-shadow: 0 0 25px #d3d9de;
+    background: linear-gradient(45deg, rgb(106, 120, 209), rgb(0, 164, 189));
     border-radius: 10px;
     width: 130%;
     position: relative;
@@ -934,7 +935,8 @@ a {
             font-family: 'Roboto Condensed',sans-serif;
             display: block;
             padding: 0;
-            color: #7b8696;
+            // color: #7b8696;
+            color: #FFF;
             font-weight: 800;
             margin-bottom: 4px;
             font-size: 12px;
@@ -944,7 +946,8 @@ a {
         .signup-text {
             display: block;
             padding: 0;
-            color: #606873;
+            // color: #606873;
+            color: #FFF;
             font-family: 'Open Sans',sans-serif;
             font-weight: 800;
             font-size: 15px;
@@ -2234,7 +2237,7 @@ a {
     }
 }
 
-// ANMATIONS
+// ANIMATIONS
 // ================================================================
 
 @keyframes rotate-cover {
@@ -2270,4 +2273,11 @@ a {
     to {
         transform: rotate3d(0.4, -0.5, 0, 25deg) rotate(-3deg);
     }
+}
+
+// MISC
+// ================================================================
+
+.underline {
+    text-decoration: underline;
 }
