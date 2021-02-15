@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,17 +65,21 @@
        d="m 11.745206,20.438613 -4.6317303,4.631719 5e-7,9.838809 19.1470298,-19.147022 h -9.878509 z"
        id="path847"
        sodipodi:nodetypes="cccccc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.65729px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0914321"
-       x="-10.547655"
-       y="27.501951"
-       id="text48022"
-       transform="rotate(-45)"><tspan
-         sodipodi:role="line"
-         id="tspan48020"
-         x="-10.547655"
-         y="27.501951"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Bold';fill:#ffffff;stroke-width:0.0914321">KIVY</tspan></text>
+    <path
+       d="m 13.677217,25.216415 -1.603378,-0.263781 -0.250851,-1.502522 -0.493945,0.493944 0.250852,1.3577 -0.804276,-0.804276 -0.442222,0.442223 1.810266,1.810266 0.442222,-0.442222 -0.82755,-0.827551 1.401663,0.253438 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.65729px;line-height:1.25;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0914321"
+       id="path1618" />
+    <path
+       d="m 12.045674,23.227425 1.810267,1.810266 0.442222,-0.442222 -1.810266,-1.810266 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.65729px;line-height:1.25;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0914321"
+       id="path1620" />
+    <path
+       d="m 14.02925,21.24385 0.980129,1.874919 -1.877504,-0.977544 -0.462911,0.462911 2.459376,1.161156 0.524977,-0.524977 -1.161157,-2.459376 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.65729px;line-height:1.25;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0914321"
+       id="path1622" />
+    <path
+       d="m 16.291072,18.982028 -0.475841,0.475841 0.372398,1.168915 -1.168916,-0.372398 -0.475841,0.475842 1.781819,0.478427 0.680143,0.680143 0.444808,-0.444808 -0.680142,-0.680143 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.65729px;line-height:1.25;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0914321"
+       id="path1624" />
   </g>
 </svg>
