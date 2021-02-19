@@ -2,6 +2,23 @@
     
     
     {
+      "title": "Como usar f-strings no Python",
+      "href": "/blog/f-strings-no-python",
+      "slug": "f-strings-no-python",
+      "assets": "f-strings",
+      "author": "Vinícius R",
+      "description": "<p>Aprenda a manipular strings em Python de um jeito fácil e descomplicado com f-strings!</p>",
+      "featured_icon": "featured_icon.svg",
+      "date": {
+         "day": "19",
+         "month": "February",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "title": "Como Importar Arquivos CSV Usando Pandas",
       "href": "/blog/importar-csv-no-pandas",
       "slug": "importar-csv-no-pandas",

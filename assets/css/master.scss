@@ -170,6 +170,17 @@ a {
                     right: 50px;
                 }
             }
+
+            .call-to-action {
+                padding: 14px 20px;                
+                width: 100%;
+                font-size: 1.5rem;
+
+                &.ebook {
+                    color: #FFF;
+                    background: linear-gradient(45deg, #6a78d1, #00a4bd);
+                }
+            }            
         }
     }
 }
@@ -984,7 +995,7 @@ a {
             padding: 72px 0;
             height: 375px;
 
-            .blog-banner-text {
+            .banner-text {
                 h1 {
                     font-family: 'Oswald', sans-serif;
                     text-transform: uppercase;
@@ -1041,7 +1052,7 @@ a {
 
     &.blog-banner {
         // background: #2d98da url('/assets/svg/blog-bground-pattern.svg');
-        background: url("/assets/svg/stars-bground.svg"), #383838;
+        background: url("/assets/svg/stars-bground.svg"), #222222;
     }
 
     &.sliders-banner {
