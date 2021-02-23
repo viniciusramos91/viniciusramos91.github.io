@@ -2,7 +2,7 @@
     
     
     {
-      "title": "Como usar f-strings no Python",
+      "title": "Aprenda a manipular strings utilizando f-strings no Python",
       "href": "/blog/f-strings-no-python",
       "slug": "f-strings-no-python",
       "assets": "f-strings",
@@ -19,7 +19,7 @@
     
     
     {
-      "title": "Como Importar Arquivos CSV Usando Pandas",
+      "title": "Aprenda a importar arquivos CSV utilizando a biblioteca de Ciência de Dados Pandas",
       "href": "/blog/importar-csv-no-pandas",
       "slug": "importar-csv-no-pandas",
       "assets": "pandas-csv",
@@ -36,7 +36,7 @@
     
     
     {
-      "title": "Dict Comprehensions no Python",
+      "title": "Aprenda a utilizar Dict Comprehensions (compreensão de dicionários) no Python",
       "href": "/blog/dict-comprehensions-no-python",
       "slug": "dict-comprehensions-no-python",
       "assets": "dict-comprehensions",
@@ -53,7 +53,7 @@
     
     
     {
-      "title": "List Comprehensions no Python",
+      "title": "Aprenda como utilizar List Comprehensions (compreensão de listas) no Python",
       "href": "/blog/list-comprehensions-no-python",
       "slug": "list-comprehensions-no-python",
       "assets": "list-comprehensions",
@@ -70,7 +70,7 @@
     
     
     {
-      "title": "Iterators e Generators em Python",
+      "title": "Aprenda tudo sobre Iterators (iteradores) e Generators (geradores) em Python",
       "href": "/blog/iterators-e-generators-em-python",
       "slug": "iterators-e-generators-em-python",
       "assets": "iterators-and-generators",
@@ -87,7 +87,7 @@
     
     
     {
-      "title": "Desenvolvimento Web com Python e Django: Template",
+      "title": "A Camada Template do framework de desenvolvimento web Django (Python)",
       "href": "/blog/desenvolvimento-web-com-python-e-django-template",
       "slug": "desenvolvimento-web-com-python-e-django-template",
       "assets": "django-template",
@@ -104,7 +104,7 @@
     
     
     {
-      "title": "Como criar Middlewares no Django",
+      "title": "Como criar middleware no framework de desenvolvimento web Django (Python)",
       "href": "/blog/como-criar-middlewares-no-django",
       "slug": "como-criar-middlewares-no-django",
       "assets": "django-middlewares",
@@ -121,7 +121,7 @@
     
     
     {
-      "title": "Formulários do Django com Django Forms",
+      "title": "Como criar formulários com Django Forms no framework de desenvolvimento web Django (Python)",
       "href": "/blog/formularios-do-django-com-django-forms",
       "slug": "formularios-do-django-com-django-forms",
       "assets": "django-forms",
@@ -138,7 +138,7 @@
     
     
     {
-      "title": "Desenvolvimento Web com Python e Django: View",
+      "title": "A Camada View do framework de desenvolvimento web Django (Python)",
       "href": "/blog/desenvolvimento-web-com-python-e-django-view",
       "slug": "desenvolvimento-web-com-python-e-django-view",
       "assets": "django-view",
@@ -155,7 +155,7 @@
     
     
     {
-      "title": "O comando migrate do Django",
+      "title": "Como utilizar o comando migrate do framework de desenvolvimento web Django (Python)",
       "href": "/blog/o-comando-migrate-do-django",
       "slug": "o-comando-migrate-do-django",
       "assets": "django-command-migrate",
@@ -172,7 +172,7 @@
     
     
     {
-      "title": "O comando makemigrations do Django",
+      "title": "Como utilizar o comando makemigrations do framework de desenvolvimento web Django (Python)",
       "href": "/blog/o-comando-makemigrations-do-django",
       "slug": "o-comando-makemigrations-do-django",
       "assets": "django-command-makemigrations",
@@ -189,7 +189,7 @@
     
     
     {
-      "title": "Desenvolvimento Web com Python e Django: Model",
+      "title": "A Camada Model do framework de desenvolvimento web Django (Python)",
       "href": "/blog/desenvolvimento-web-com-python-e-django-model",
       "slug": "desenvolvimento-web-com-python-e-django-model",
       "assets": "django-model",
@@ -206,7 +206,7 @@
     
     
     {
-      "title": "Desenvolvimento Web com Python e Django: Introdução",
+      "title": "Introdução ao Desenvolvimento Web com Python e o framework Django",
       "href": "/blog/desenvolvimento-web-com-python-e-django-introducao",
       "slug": "desenvolvimento-web-com-python-e-django-introducao",
       "assets": "django-introduction",
@@ -223,7 +223,7 @@
     
     
     {
-      "title": "Porquê aprender Python: 5 motivos para começar AGORA!",
+      "title": "5 motivos para começar a programar em Python AGORA!",
       "href": "/blog/porque-aprender-python-5-motivos-para-aprender-agora",
       "slug": "porque-aprender-python-5-motivos-para-aprender-agora",
       "assets": "why-learn-python",
@@ -240,7 +240,7 @@
     
     
     {
-      "title": "Como Criar Jogos com Python e Kivy",
+      "title": "Como criar jogos com o framework de interfaces gráficas Kivy e Python",
       "href": "/blog/como-criar-jogos-com-python-e-kivy",
       "slug": "como-criar-jogos-com-python-e-kivy",
       "assets": "games-with-python-and-kivy",
@@ -274,7 +274,7 @@
     
     
     {
-      "title": "Domine Decorators em Python",
+      "title": "Aprenda como utilizar Decorators (Decoradores) no Python",
       "href": "/blog/domine-decorators-em-python",
       "slug": "domine-decorators-em-python",
       "assets": "decorators",
@@ -291,7 +291,7 @@
     
     
     {
-      "title": "Python e Virtualenv: Como Programar em Ambientes Virtuais",
+      "title": "Como programar em Ambientes Virtuais utilizando a linguagem de programação Python e o Virtualenv",
       "href": "/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais",
       "slug": "python-e-virtualenv-como-programar-em-ambientes-virtuais",
       "assets": "python-and-virtualenv",
@@ -308,7 +308,7 @@
     
     
     {
-      "title": "Como Instalar o Python no Windows",
+      "title": "Guia de instalação do Python no Sistema Operacional Windows",
       "href": "/blog/como-instalar-python-no-windows",
       "slug": "como-instalar-python-no-windows",
       "assets": "windows-python-installation",
@@ -325,7 +325,7 @@
     
     
     {
-      "title": "Como Instalar o Python no Linux",
+      "title": "Guia de instalação do Python no Sistema Operacional Linux",
       "href": "/blog/como-instalar-python-no-linux",
       "slug": "como-instalar-python-no-linux",
       "assets": "linux-python-installation",
