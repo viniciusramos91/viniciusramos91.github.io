@@ -19,7 +19,7 @@
     
     
     {
-      "title": "Aprenda a importar arquivos CSV utilizando a biblioteca de Ciência de Dados Pandas",
+      "title": "Aprenda a importar arquivos CSV usando a biblioteca Pandas (Python)",
       "href": "/blog/importar-csv-no-pandas",
       "slug": "importar-csv-no-pandas",
       "assets": "pandas-csv",
@@ -36,7 +36,7 @@
     
     
     {
-      "title": "Aprenda a utilizar Dict Comprehensions (compreensão de dicionários) no Python",
+      "title": "Aprenda a utilizar Dict Comprehension (compreensão de dict) no Python",
       "href": "/blog/dict-comprehensions-no-python",
       "slug": "dict-comprehensions-no-python",
       "assets": "dict-comprehensions",
@@ -70,7 +70,7 @@
     
     
     {
-      "title": "Aprenda tudo sobre Iterators (iteradores) e Generators (geradores) em Python",
+      "title": "Aprenda Iterators (iteradores) e Generators (geradores) em Python",
       "href": "/blog/iterators-e-generators-em-python",
       "slug": "iterators-e-generators-em-python",
       "assets": "iterators-and-generators",
@@ -121,7 +121,7 @@
     
     
     {
-      "title": "Como criar formulários com Django Forms no framework de desenvolvimento web Django (Python)",
+      "title": "Como criar formulários no framework web Django (Python)",
       "href": "/blog/formularios-do-django-com-django-forms",
       "slug": "formularios-do-django-com-django-forms",
       "assets": "django-forms",
@@ -155,7 +155,7 @@
     
     
     {
-      "title": "Como utilizar o comando migrate do framework de desenvolvimento web Django (Python)",
+      "title": "Aprenda a utilizar o comando migrate do Django (Python)",
       "href": "/blog/o-comando-migrate-do-django",
       "slug": "o-comando-migrate-do-django",
       "assets": "django-command-migrate",
@@ -172,7 +172,7 @@
     
     
     {
-      "title": "Como utilizar o comando makemigrations do framework de desenvolvimento web Django (Python)",
+      "title": "Aprenda a utilizar o comando makemigrations do Django (Python)",
       "href": "/blog/o-comando-makemigrations-do-django",
       "slug": "o-comando-makemigrations-do-django",
       "assets": "django-command-makemigrations",
@@ -291,7 +291,7 @@
     
     
     {
-      "title": "Como programar em Ambientes Virtuais utilizando a linguagem de programação Python e o Virtualenv",
+      "title": "Como programar em Ambientes Virtuais utilizando Python e o Virtualenv",
       "href": "/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais",
       "slug": "python-e-virtualenv-como-programar-em-ambientes-virtuais",
       "assets": "python-and-virtualenv",
