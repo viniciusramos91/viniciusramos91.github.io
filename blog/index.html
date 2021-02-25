@@ -179,14 +179,13 @@
                             </div>
 
                             <div class="col-lg-4 col-md-4 col-sm-6">
-                                <div class="blog-banner-featured" data-aos-duration="950" data-aos="fade-left" data-aos-easing="ease-out">
-                                    <object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/svg/featured.svg" title="Destaque">
-                                    </object>
+                                <div class="blog-banner-featured text-left">
+                                    <img src="/assets/img/featured-post-icon.png" height="50px">                                    
                                     <h3>Destaque</h3>
                                 </div>   
 
                                 <article class="col-xs-12">
-                                    <a href="https://pythonacademy.com.br/blog/f-strings-no-python" class="card" data-aos-duration="950" data-aos="fade-left" data-aos-delay="350" style="margin-bottom: 0; border: 3px solid #ffd43c" data-aos-easing="ease-out">
+                                    <a href="https://pythonacademy.com.br/blog/f-strings-no-python" class="card featured-card" data-aos-easing="ease-out">
                                         
                                         <div class="card-frame">
                                             <object id="featured_post-icon" style="width: 90%" class="featured-icon" type="image/svg+xml" data="/assets/posts/f-strings/featured_icon.svg" title="Aprenda a manipular strings utilizando f-strings no Python">
@@ -796,7 +795,7 @@
                     duration: 1500
                 });
 
-                generateFeaturedPost();
+                //generateFeaturedPost();
             })(jQuery);
 
             
@@ -905,40 +904,7 @@
             new Vivus('featured_post-icon', {
                 duration: 80,
                 type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-            });            
-
-            // Generate featured post
-			function generateFeaturedPost() {
-				var counter = 0;	            
-
-				$.getJSON("/blog/posts.json", function(data) {
-					var postsCount = data.length;					
-					var posts = data;
-					var divFeaturedPost = $("#featured_post");		            
-					var randomIndex = Math.floor(Math.random() * postsCount);						                    
-
-                    var post = posts[randomIndex];
-
-                    // Verify if related post is the same as the shown                    
-                    var postHTML =                         
-                        "<a href='" + post.href + "' class='card aos-init aos-animate' data-aos='fade-up'>" +
-                            "<div class='card-frame'>" +
-                                "<object id='featured-icon-" + counter + " class=featured-icon' type='image/svg+xml' data='/assets/posts/" + post.assets + "/" + post.featured_icon + "' height='175px'></object>" +
-                            "</div>" + 
-                            
-                            "<div class='caption'>" +
-                                "<h3 class='card-title'>" +
-                                    post.title +
-                                "</h3>" +                        
-                                "<div class='card-excerpt'>" + 
-                                    post.description +
-                                "</div>" +
-                            "</div>" +
-                        "</a>" 
-                    
-                    divFeaturedPost.append(postHTML);
-				});								
-			}
+            });
         </script>
     </body>
 </html>

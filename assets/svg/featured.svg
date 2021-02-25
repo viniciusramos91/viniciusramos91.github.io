@@ -16,155 +16,126 @@
    inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
    sodipodi:docname="featured.svg">
   <defs
-     id="defs2069"><linearGradient
-   inkscape:collect="always"
-   id="linearGradient2983">
-  <stop
-     style="stop-color:#ffb920;stop-opacity:1"
-     offset="0"
-     id="stop2979" />
-  <stop
-     style="stop-color:#ffc850;stop-opacity:0;"
-     offset="1"
-     id="stop2981" />
-</linearGradient>
-<linearGradient
-   inkscape:collect="always"
-   id="linearGradient2975">
-  <stop
-     style="stop-color:#ffb920;stop-opacity:1"
-     offset="0"
-     id="stop2971" />
-  <stop
-     style="stop-color:#ffc850;stop-opacity:0;"
-     offset="1"
-     id="stop2973" />
-</linearGradient>
-<linearGradient
-   inkscape:collect="always"
-   id="linearGradient2967">
-  <stop
-     style="stop-color:#ffb920;stop-opacity:1"
-     offset="0"
-     id="stop2963" />
-  <stop
-     style="stop-color:#ffc850;stop-opacity:0;"
-     offset="1"
-     id="stop2965" />
-</linearGradient>
-<linearGradient
-   inkscape:collect="always"
-   id="linearGradient2959">
-  <stop
-     style="stop-color:#ffb920;stop-opacity:1"
-     offset="0"
-     id="stop2955" />
-  <stop
-     style="stop-color:#ffc850;stop-opacity:0;"
-     offset="1"
-     id="stop2957" />
-</linearGradient>
-<linearGradient
-   inkscape:collect="always"
-   id="linearGradient2945">
-  <stop
-     style="stop-color:#ffb920;stop-opacity:1"
-     offset="0"
-     id="stop2941" />
-  <stop
-     style="stop-color:#ffc850;stop-opacity:0;"
-     offset="1"
-     id="stop2943" />
-</linearGradient>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<linearGradient
-   inkscape:collect="always"
-   xlink:href="#linearGradient2945"
-   id="linearGradient2947"
-   x1="40.690742"
-   y1="79.281418"
-   x2="40.009819"
-   y2="76.380264"
-   gradientUnits="userSpaceOnUse" />
-<linearGradient
-   inkscape:collect="always"
-   xlink:href="#linearGradient2959"
-   id="linearGradient2961"
-   x1="39.099518"
-   y1="79.122688"
-   x2="36.077156"
-   y2="79.044319"
-   gradientUnits="userSpaceOnUse" />
-<linearGradient
-   inkscape:collect="always"
-   xlink:href="#linearGradient2967"
-   id="linearGradient2969"
-   x1="38.646992"
-   y1="80.747124"
-   x2="37.660774"
-   y2="83.401031"
-   gradientUnits="userSpaceOnUse" />
-<linearGradient
-   inkscape:collect="always"
-   xlink:href="#linearGradient2975"
-   id="linearGradient2977"
-   x1="39.956585"
-   y1="81.339844"
-   x2="42.181343"
-   y2="83.721764"
-   gradientUnits="userSpaceOnUse" />
-<linearGradient
-   inkscape:collect="always"
-   xlink:href="#linearGradient2983"
-   id="linearGradient2985"
-   x1="41.163597"
-   y1="80.658684"
-   x2="43.75795"
-   y2="79.160187"
-   gradientUnits="userSpaceOnUse" />
-<filter
-   inkscape:collect="always"
-   style="color-interpolation-filters:sRGB"
-   id="filter3009"
-   x="-0.25198063"
-   width="1.5039612"
-   y="-0.2638334"
-   height="1.5276668">
-  <feGaussianBlur
-     inkscape:collect="always"
-     stdDeviation="0.81122752"
-     id="feGaussianBlur3011" />
-</filter>
-</defs>
+     id="defs2069">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2983">
+      <stop
+         style="stop-color:#ffb920;stop-opacity:1"
+         offset="0"
+         id="stop2979" />
+      <stop
+         style="stop-color:#ffc850;stop-opacity:0;"
+         offset="1"
+         id="stop2981" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2975">
+      <stop
+         style="stop-color:#ffb920;stop-opacity:1"
+         offset="0"
+         id="stop2971" />
+      <stop
+         style="stop-color:#ffc850;stop-opacity:0;"
+         offset="1"
+         id="stop2973" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2967">
+      <stop
+         style="stop-color:#ffb920;stop-opacity:1"
+         offset="0"
+         id="stop2963" />
+      <stop
+         style="stop-color:#ffc850;stop-opacity:0;"
+         offset="1"
+         id="stop2965" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2959">
+      <stop
+         style="stop-color:#ffb920;stop-opacity:1"
+         offset="0"
+         id="stop2955" />
+      <stop
+         style="stop-color:#ffc850;stop-opacity:0;"
+         offset="1"
+         id="stop2957" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2945">
+      <stop
+         style="stop-color:#ffb920;stop-opacity:1"
+         offset="0"
+         id="stop2941" />
+      <stop
+         style="stop-color:#ffc850;stop-opacity:0;"
+         offset="1"
+         id="stop2943" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2945"
+       id="linearGradient2947"
+       x1="40.690742"
+       y1="79.281418"
+       x2="40.009819"
+       y2="76.380264"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2959"
+       id="linearGradient2961"
+       x1="39.099518"
+       y1="79.122688"
+       x2="36.077156"
+       y2="79.044319"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2967"
+       id="linearGradient2969"
+       x1="38.646992"
+       y1="80.747124"
+       x2="37.660774"
+       y2="83.401031"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2975"
+       id="linearGradient2977"
+       x1="39.956585"
+       y1="81.339844"
+       x2="42.181343"
+       y2="83.721764"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2983"
+       id="linearGradient2985"
+       x1="41.163597"
+       y1="80.658684"
+       x2="43.75795"
+       y2="79.160187"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter3009"
+       x="-0.25198063"
+       width="1.5039612"
+       y="-0.2638334"
+       height="1.5276668">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.81122752"
+         id="feGaussianBlur3011" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -172,9 +143,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="26.254089"
-     inkscape:cy="1.1602721"
+     inkscape:zoom="5.6"
+     inkscape:cx="44.205816"
+     inkscape:cy="4.1387192"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -197,7 +168,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -209,34 +180,58 @@
     <path
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter3009)"
        d="m 40.218546,76.459363 1.021986,2.070743 2.2852,0.33206 c 0.260046,0.03777 0.363872,0.357353 0.175718,0.540783 l -1.653615,1.611828 0.390356,2.275965 c 0.04443,0.25899 -0.22742,0.456499 -0.460001,0.334218 l -2.043957,-1.074563 -2.043941,1.074563 c -0.232581,0.122266 -0.504429,-0.07523 -0.460001,-0.334218 l 0.390356,-2.275965 -1.6536,-1.611843 c -0.188169,-0.18343 -0.08433,-0.50298 0.175718,-0.540783 l 2.2852,-0.33206 1.021971,-2.070728 c 0.116306,-0.235644 0.452304,-0.235644 0.56861,0 z"
-       id="path2987" />
+       id="path2987"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/featured-post-icon.png"
+       inkscape:export-xdpi="112.65513"
+       inkscape:export-ydpi="112.65513" />
     <path
        style="fill:#ffde6c;fill-opacity:1;stroke:none;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 40.218546,76.459363 1.021986,2.070743 2.2852,0.33206 c 0.260046,0.03777 0.363872,0.357353 0.175718,0.540783 l -1.653615,1.611828 0.390356,2.275965 c 0.04443,0.25899 -0.22742,0.456499 -0.460001,0.334218 l -2.043957,-1.074563 -2.043941,1.074563 c -0.232581,0.122266 -0.504429,-0.07523 -0.460001,-0.334218 l 0.390356,-2.275965 -1.6536,-1.611843 c -0.188169,-0.18343 -0.08433,-0.50298 0.175718,-0.540783 l 2.2852,-0.33206 1.021971,-2.070728 c 0.116306,-0.235644 0.452304,-0.235644 0.56861,0 z"
-       id="path2762" />
+       id="path2762"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/featured-post-icon.png"
+       inkscape:export-xdpi="112.65513"
+       inkscape:export-ydpi="112.65513" />
     <path
        style="fill:url(#linearGradient2947);fill-opacity:1;stroke:none;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 41.240502,78.530106 -1.021956,-2.070743 c -0.05815,-0.117815 -0.171221,-0.17673 -0.284298,-0.17673 v 3.92045 z"
-       id="path2775" />
+       id="path2775"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/featured-post-icon.png"
+       inkscape:export-xdpi="112.65513"
+       inkscape:export-ydpi="112.65513" />
     <path
        style="fill:url(#linearGradient2985);fill-opacity:1;stroke:none;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 42.047835,81.014777 1.653585,-1.611859 c 0.09282,-0.09049 0.11448,-0.214064 0.08148,-0.320636 l -3.848663,1.120786 z"
-       id="path2788" />
+       id="path2788"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/featured-post-icon.png"
+       inkscape:export-xdpi="112.65513"
+       inkscape:export-ydpi="112.65513" />
     <path
        style="fill:url(#linearGradient2977);fill-opacity:1;stroke:none;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 42.313012,83.60009 -2.378779,-3.397022 v 2.347329 l 2.043942,1.074563 c 0.116713,0.06136 0.24328,0.04216 0.334837,-0.02487 z"
-       id="path2801" />
+       id="path2801"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/featured-post-icon.png"
+       inkscape:export-xdpi="112.65513"
+       inkscape:export-ydpi="112.65513" />
     <path
        style="fill:url(#linearGradient2969);fill-opacity:1;stroke:none;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 39.934233,80.203068 -2.113601,0.811709 -0.390341,2.275965 c -0.02214,0.129027 0.03427,0.242767 0.125164,0.309348 z"
-       id="path2814" />
+       id="path2814"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/featured-post-icon.png"
+       inkscape:export-xdpi="112.65513"
+       inkscape:export-ydpi="112.65513" />
     <path
        style="fill:url(#linearGradient2961);fill-opacity:1;stroke:none;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 36.085571,79.082297 3.848662,1.120771 -1.306268,-1.672977 -2.2852,0.332075 c -0.131758,0.01914 -0.2233,0.110662 -0.257194,0.220131 z"
-       id="path2827" />
+       id="path2827"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/featured-post-icon.png"
+       inkscape:export-xdpi="112.65513"
+       inkscape:export-ydpi="112.65513" />
     <path
        style="fill:url(#SVGID_7_);stroke:none;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 37.820647,81.014777 -1.6536,-1.611843 c -0.09282,-0.09049 -0.11448,-0.214065 -0.08148,-0.320637 l 3.848662,1.120771 z"
-       id="path2840" />
+       id="path2840"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/featured-post-icon.png"
+       inkscape:export-xdpi="112.65513"
+       inkscape:export-ydpi="112.65513" />
   </g>
 </svg>
