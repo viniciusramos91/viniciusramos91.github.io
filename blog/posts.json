@@ -2,6 +2,7 @@
     
     
     {
+      "h1": "Como usar f-strings no Python",
       "title": "Aprenda a manipular strings utilizando f-strings no Python",
       "href": "/blog/f-strings-no-python",
       "slug": "f-strings-no-python",
@@ -19,6 +20,7 @@
     
     
     {
+      "h1": "Como Importar Arquivos CSV Usando Pandas",
       "title": "Aprenda a importar arquivos CSV usando a biblioteca Pandas (Python)",
       "href": "/blog/importar-csv-no-pandas",
       "slug": "importar-csv-no-pandas",
@@ -36,6 +38,7 @@
     
     
     {
+      "h1": "Dict Comprehensions no Python",
       "title": "Aprenda a utilizar Dict Comprehension (compreensão de dict) no Python",
       "href": "/blog/dict-comprehensions-no-python",
       "slug": "dict-comprehensions-no-python",
@@ -53,6 +56,7 @@
     
     
     {
+      "h1": "List Comprehensions no Python",
       "title": "Aprenda como utilizar List Comprehensions (compreensão de listas) no Python",
       "href": "/blog/list-comprehensions-no-python",
       "slug": "list-comprehensions-no-python",
@@ -70,6 +74,7 @@
     
     
     {
+      "h1": "Iterators e Generators em Python",
       "title": "Aprenda Iterators (iteradores) e Generators (geradores) em Python",
       "href": "/blog/iterators-e-generators-em-python",
       "slug": "iterators-e-generators-em-python",
@@ -87,6 +92,7 @@
     
     
     {
+      "h1": "Desenvolvimento Web com Python e Django: Template",
       "title": "A Camada Template do framework de desenvolvimento web Django (Python)",
       "href": "/blog/desenvolvimento-web-com-python-e-django-template",
       "slug": "desenvolvimento-web-com-python-e-django-template",
@@ -104,6 +110,7 @@
     
     
     {
+      "h1": "Como criar Middlewares no Django",
       "title": "Como criar middleware no framework de desenvolvimento web Django (Python)",
       "href": "/blog/como-criar-middlewares-no-django",
       "slug": "como-criar-middlewares-no-django",
@@ -121,6 +128,7 @@
     
     
     {
+      "h1": "Formulários do Django com Django Forms",
       "title": "Como criar formulários no framework web Django (Python)",
       "href": "/blog/formularios-do-django-com-django-forms",
       "slug": "formularios-do-django-com-django-forms",
@@ -138,6 +146,7 @@
     
     
     {
+      "h1": "Desenvolvimento Web com Python e Django: View",
       "title": "A Camada View do framework de desenvolvimento web Django (Python)",
       "href": "/blog/desenvolvimento-web-com-python-e-django-view",
       "slug": "desenvolvimento-web-com-python-e-django-view",
@@ -155,6 +164,7 @@
     
     
     {
+      "h1": "O comando migrate do Django",
       "title": "Aprenda a utilizar o comando migrate do Django (Python)",
       "href": "/blog/o-comando-migrate-do-django",
       "slug": "o-comando-migrate-do-django",
@@ -172,6 +182,7 @@
     
     
     {
+      "h1": "O comando makemigrations do Django",
       "title": "Aprenda a utilizar o comando makemigrations do Django (Python)",
       "href": "/blog/o-comando-makemigrations-do-django",
       "slug": "o-comando-makemigrations-do-django",
@@ -189,6 +200,7 @@
     
     
     {
+      "h1": "Desenvolvimento Web com Python e Django: Model",
       "title": "A Camada Model do framework de desenvolvimento web Django (Python)",
       "href": "/blog/desenvolvimento-web-com-python-e-django-model",
       "slug": "desenvolvimento-web-com-python-e-django-model",
@@ -206,6 +218,7 @@
     
     
     {
+      "h1": "Desenvolvimento Web com Python e Django: Introdução",
       "title": "Introdução ao Desenvolvimento Web com Python e o framework Django",
       "href": "/blog/desenvolvimento-web-com-python-e-django-introducao",
       "slug": "desenvolvimento-web-com-python-e-django-introducao",
@@ -223,6 +236,7 @@
     
     
     {
+      "h1": "Porquê aprender Python: 5 motivos para começar AGORA!",
       "title": "5 motivos para começar a programar em Python AGORA!",
       "href": "/blog/porque-aprender-python-5-motivos-para-aprender-agora",
       "slug": "porque-aprender-python-5-motivos-para-aprender-agora",
@@ -240,6 +254,7 @@
     
     
     {
+      "h1": "Como Criar Jogos com Python e Kivy",
       "title": "Como criar jogos com o framework de interfaces gráficas Kivy e Python",
       "href": "/blog/como-criar-jogos-com-python-e-kivy",
       "slug": "como-criar-jogos-com-python-e-kivy",
@@ -257,6 +272,7 @@
     
     
     {
+      "h1": "Desenvolva Apps para Android, iOS com Python e Kivy",
       "title": "Desenvolva Aplicativos para Android, iOS e Muito Mais com Python e Kivy",
       "href": "/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy",
       "slug": "desenvolva-aplicativos-para-android-ios-com-python-e-kivy",
@@ -274,6 +290,7 @@
     
     
     {
+      "h1": "Domine Decorators em Python",
       "title": "Aprenda como utilizar Decorators (Decoradores) no Python",
       "href": "/blog/domine-decorators-em-python",
       "slug": "domine-decorators-em-python",
@@ -291,6 +308,7 @@
     
     
     {
+      "h1": "Python e Virtualenv: Como Programar em Ambientes Virtuais",
       "title": "Como programar em Ambientes Virtuais utilizando Python e o Virtualenv",
       "href": "/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais",
       "slug": "python-e-virtualenv-como-programar-em-ambientes-virtuais",
@@ -308,6 +326,7 @@
     
     
     {
+      "h1": "Como Instalar o Python no Windows",
       "title": "Guia de instalação do Python no Sistema Operacional Windows",
       "href": "/blog/como-instalar-python-no-windows",
       "slug": "como-instalar-python-no-windows",
@@ -325,6 +344,7 @@
     
     
     {
+      "h1": "Como Instalar o Python no Linux",
       "title": "Guia de instalação do Python no Sistema Operacional Linux",
       "href": "/blog/como-instalar-python-no-linux",
       "slug": "como-instalar-python-no-linux",
