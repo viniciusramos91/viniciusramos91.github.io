@@ -20,10 +20,10 @@
     
     
     {
-      "h1": "Introdução prática às Séries do Pandas",
-      "title": "Séries do Pandas: Aprenda como manipular arranjos unidimensionais em Python!",
-      "href": "/blog/introducao-pratica-as-series-do-pandas",
-      "slug": "introducao-pratica-as-series-do-pandas",
+      "h1": "Séries no Pandas",
+      "title": "Séries no Pandas: Aprenda como manipular arranjos unidimensionais em Python!",
+      "href": "/blog/series-no-pandas",
+      "slug": "series-no-pandas",
       "assets": "pandas-series",
       "author": "Leon S",
       "description": "<p>Nesse post, você irá aprender como manipular arranjos unidimensionais utilizando as Séries do Pandas.</p>",
