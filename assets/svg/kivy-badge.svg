@@ -7,15 +7,29 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="19.14703mm"
-   height="19.147022mm"
-   viewBox="0 0 19.14703 19.147022"
+   width="22.063881mm"
+   height="22.063873mm"
+   viewBox="0 0 22.063881 22.063873"
    version="1.1"
    id="svg47248"
    inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
    sodipodi:docname="kivy-badge.svg">
   <defs
-     id="defs47242" />
+     id="defs47242">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1201"
+       x="-0.026999993"
+       width="1.054"
+       y="-0.027000006"
+       height="1.054">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.19618971"
+         id="feGaussianBlur1203" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -23,9 +37,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="12.376872"
-     inkscape:cy="53.807535"
+     inkscape:zoom="2.8"
+     inkscape:cx="-58.846586"
+     inkscape:cy="36.442432"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -34,11 +48,11 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1457"
+     inkscape:window-width="2560"
      inkscape:window-height="993"
-     inkscape:window-x="551"
+     inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata47245">
     <rdf:RDF>
@@ -47,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,7 +69,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-7.1134757,-15.762119)">
+     transform="translate(-7.113475,-15.762119)">
+    <path
+       style="fill:#000000;fill-opacity:0.15000001;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter1201)"
+       d="m 8.624746,32.679596 v 1.837057 l 17.43909,-17.439082 h -1.83705 z"
+       id="path2393"
+       sodipodi:nodetypes="ccccc" />
     <path
        style="fill:#000000;fill-opacity:0;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 7.1134757,25.070332 -7e-7,12.114021 21.422231,-21.422234 H 16.381997 Z"
@@ -81,5 +100,13 @@
        d="m 16.291072,18.982028 -0.475841,0.475841 0.372398,1.168915 -1.168916,-0.372398 -0.475841,0.475842 1.781819,0.478427 0.680143,0.680143 0.444808,-0.444808 -0.680142,-0.680143 z"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.65729px;line-height:1.25;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0914321"
        id="path1624" />
+    <path
+       style="fill:#e1b400;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 8.885976,33.136644 -1.7725,1.772492 v 1.144357 l 1.7725,1.7725 z"
+       id="path2395" />
+    <path
+       style="fill:#e1b400;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 29.177356,17.534619 -1.77249,-1.7725 h -1.14436 l -1.77249,1.7725 z"
+       id="path2397" />
   </g>
 </svg>

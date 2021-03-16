@@ -7,15 +7,29 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="19.147051mm"
-   height="19.147034mm"
-   viewBox="0 0 19.14705 19.147034"
+   width="22.063881mm"
+   height="22.06389mm"
+   viewBox="0 0 22.06388 22.063891"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
    sodipodi:docname="ds-badge.svg">
   <defs
-     id="defs2" />
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1201"
+       x="-0.026999993"
+       width="1.054"
+       y="-0.027000006"
+       height="1.054">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.19618971"
+         id="feGaussianBlur1203" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -47,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -106,8 +120,21 @@
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.08375px;line-height:1.25;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Medium';letter-spacing:-0.11255px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0770936"
        id="path960" />
     <path
-       d="m 128.67945,8.2736358 c -0.30527,0.3052757 -0.33144,0.7980782 0.0153,1.144784 0.3358,0.3358029 0.82206,0.3379836 1.18839,-0.028347 0.20933,-0.2093319 0.27911,-0.4797189 0.24422,-0.6934123 l -0.35324,0.091583 c 0.009,0.07414 -0.0109,0.2289569 -0.13738,0.3554286 -0.15263,0.1526375 -0.35324,0.1962483 -0.54077,0.087222 l 0.81988,-0.8198833 C 129.52987,7.9247472 129.01308,7.940013 128.67945,8.2736358 Z m 0.2028,0.7435645 c -0.10903,-0.174446 -0.0872,-0.3663308 0.048,-0.5015246 0.14827,-0.1482768 0.32926,-0.1635404 0.50152,-0.047972 z"
+       d="m 128.67945,8.2736358 c -0.30527,0.3052757 -0.33144,0.7980782 0.0153,1.144784 0.3358,0.3358029 0.82206,0.3379836 1.18839,-0.028347 0.20933,-0.2093319 0.27911,-0.4797189 0.24422,-0.6934123 l -0.35324,0.091583 c 0.009,0.07414 -0.0109,0.2289569 -0.13738,0.3554286 -0.15263,0.1526375 -0.35324,0.1962483 -0.54077,0.087222 l 0.81988,-0.8198833 c -0.38598,-0.4862636 -0.90277,-0.4709978 -1.2364,-0.137375 z m 0.2028,0.7435645 c -0.10903,-0.174446 -0.0872,-0.3663308 0.048,-0.5015246 0.14827,-0.1482768 0.32926,-0.1635404 0.50152,-0.047972 z"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.08375px;line-height:1.25;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Medium';letter-spacing:-0.11255px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0770936"
        id="path962" />
+    <path
+       style="fill:#000000;fill-opacity:0.2;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter1201)"
+       d="M 117.6297,23.582573 V 25.41963 L 135.06879,7.980548 h -1.83705 z"
+       id="path1129"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#0a032b;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 117.89093,24.039621 -1.7725,1.772492 v 1.144357 l 1.7725,1.7725 z"
+       id="path1127" />
+    <path
+       style="fill:#0a032b;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 138.18231,8.437596 -1.77249,-1.7725 h -1.14436 l -1.77249,1.7725 z"
+       id="path1131" />
   </g>
 </svg>

@@ -2,6 +2,42 @@
     
     
     {
+      "h1": "Dataframes do Pandas",
+      "title": "Dataframes do Pandas: Aprenda a manipular dados utilizando os Dataframes do Pandas!",
+      "href": "/blog/dataframes-do-pandas",
+      "slug": "dataframes-do-pandas",
+      "assets": "pandas-dataframes",
+      "author": "Leon S",
+      "description": "<p>Complemento para o post de pandas básico, vamos aprender mais sobre Pandas Dataframes! A estrutura tabular que todo cientista de dados vai ficar careca de saber (eu fiquei, literalmente :O). Cola na Python Academy que você vai sair um cientista de dados!</p>",
+      "featured_icon": "featured_img.svg",
+      "date": {
+         "day": "15",
+         "month": "March",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
+      "h1": "Introdução prática às Séries do Pandas",
+      "title": "Séries do Pandas: Aprenda como manipular arranjos unidimensionais em Python!",
+      "href": "/blog/introducao-pratica-as-series-do-pandas",
+      "slug": "introducao-pratica-as-series-do-pandas",
+      "assets": "pandas-series",
+      "author": "Leon S",
+      "description": "<p>Nesse post, você irá aprender como manipular arranjos unidimensionais utilizando as Séries do Pandas.</p>",
+      "featured_icon": "featured_img.svg",
+      "date": {
+         "day": "10",
+         "month": "March",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Como usar f-strings no Python",
       "title": "Aprenda a manipular strings utilizando f-strings no Python",
       "href": "/blog/f-strings-no-python",
