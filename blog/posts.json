@@ -2,6 +2,24 @@
     
     
     {
+      "h1": "PyPy: seu projeto Python mais rápido!",
+      "title": "PyPy: seu projeto Python mais rápido!",
+      "href": "/blog/pypy-seu-projeto-python-mais-rapido",
+      "slug": "pypy-seu-projeto-python-mais-rapido",
+      "assets": "pypy",
+      "author": "Guilherme E",
+      "description": "<p>Quer saber como executar seu código 4x mais rápido? Então leia esse post AGORA!</p>",
+      "featured_icon": "featured_img.svg",
+      "date": {
+         "day": "05",
+         "month": "April",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Dataframes do Pandas",
       "title": "Dataframes do Pandas: Aprenda a manipular dados utilizando os Dataframes do Pandas!",
       "href": "/blog/dataframes-do-pandas",
