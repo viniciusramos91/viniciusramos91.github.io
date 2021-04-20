@@ -2,6 +2,24 @@
     
     
     {
+      "h1": "A Biblioteca itertools do Python",
+      "title": "Aprenda a utilizar a incrível biblioteca itertools do Python e vire um expert!",
+      "href": "/blog/a-biblioteca-itertools-do-python",
+      "slug": "a-biblioteca-itertools-do-python",
+      "assets": "itertools",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post você vai dominar a biblioteca itertools do Python e adicionar mais um módulo poderosíssimo à sua caixa de ferramentas!</p>",
+      "featured_icon": "featured_img.svg",
+      "date": {
+         "day": "20",
+         "month": "April",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "PyPy: seu projeto Python mais rápido!",
       "title": "PyPy: seu projeto Python mais rápido!",
       "href": "/blog/pypy-seu-projeto-python-mais-rapido",
