@@ -1,0 +1,1851 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>		
+				<!-- Global site tag (gtag.js) - Google Analytics -->
+					
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116930343-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116930343-1');
+</script>
+			
+		<!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '315628773120375');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=315628773120375&ev=PageView&noscript=1"/></noscript>
+<!-- End Facebook Pixel Code -->
+		
+
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
+
+		<title>Construa APIs com Django e Django REST Framework</title>
+		<link rel="icon" type="image/png" href="/assets/img/favicon.png">		
+
+		<!-- Robots -->
+				
+		<meta name="robots" content="index, follow">
+		
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+
+		<!-- Assets -->
+		<link rel="stylesheet" href="/assets/css/master.css"/>			
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Raleway:100,200,300,400,500,600,700,800|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic|Space+Mono:400,700|Inconsolata:400,700|Muli:200,300,400,600,700|Quicksand:300,400,500,700|Source+Serif+Pro:400,700|Roboto+Condensed:300,400,700|Roboto:300,400,500,700|Ubuntu:300,400,500,700|Oswald:300,400,500,600" rel="stylesheet">
+
+		<!-- Canonical URL -->
+		<link rel="canonical" href="https://pythonacademy.com.br/blog/construcao-de-apis-com-django-rest-framework">	
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+				
+
+				
+		<!-- General -->
+		<meta name="description" content="Nesse post vamos ver como é fácil construir APIs de maneira rápida com nosso velho conhecido Django e o poderoso Django Rest Framework">		
+		<meta name="title" content="Construa APIs com Django e Django REST Framework">
+		<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/drf/facebook.png">
+
+		<!-- Open Graph -->
+		<meta property="fb:app_id" content="220280761884954">
+		<meta property="og:site_name" content="Python Academy">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Construa APIs com Django e Django REST Framework">
+		<meta property="og:url" content="https://pythonacademy.com.br/blog/construcao-de-apis-com-django-rest-framework">
+		<meta property="og:description" content="Nesse post vamos ver como é fácil construir APIs de maneira rápida com nosso velho conhecido Django e o poderoso Django Rest Framework">
+		<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/posts/drf/facebook.png" />
+		<meta property="og:image:alt" content="Construa APIs com Django e Django REST Framework" />
+		<meta property="og:image:type" content="image/png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+
+		<!-- Twitter cards -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
+		<meta name="twitter:title" content="Construa APIs com Django e Django REST Framework">
+		<meta name="twitter:description" content="Nesse post vamos ver como é fácil construir APIs de maneira rápida com nosso velho conhecido Django e o poderoso Django Rest Framework">
+		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/drf/twitter.png">
+		
+		<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
+		
+		
+
+		<link rel="stylesheet" href="/assets/css/post.css?1621304876876410102">
+	</head>
+
+	<body id="post-body">		
+		
+
+
+<header class="header">
+	
+	<nav class="navbar navbar-default">
+		<div class="container">
+	
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed " onclick="showMenu()" onblur="hideMenu()" data-toggle="collapse" data-target="#main-menu" aria-expanded="true">
+					<span class="sr-only">Habilitar navegação</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" rel="home" href="https://pythonacademy.com.br">
+					<img alt="Python Academy" src="/assets/img/logo.png">
+				</a>
+			</div>
+
+			<div id="main-menu" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="https://pythonacademy.com.br" title="Volte à página inicial">
+							Início
+						</a>
+					</li>
+					
+					<li>
+						<a href="https://pythonacademy.com.br/blog/" title="Aprenda com nossos artigos">
+							Blog
+						</a>
+					</li>						
+					
+					<li>
+						<a href="https://pythonacademy.com.br/sliders/" title="Aprenda na prática">
+							Sliders
+						</a>
+					</li>						
+
+					<li>
+						<a href="https://pythonacademy.com.br/sobre" title="Conheça-nos">
+							Sobre
+						</a>
+					</li>						
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>	
+
+		<a href="#" class="sticky-newsletter hidden-xs" data-toggle="modal" data-target="#email-modal">
+    <div class="rotate-text">
+        <span>Receba todas as novidades!</span>
+    </div>
+</a>
+
+<!-- Include email modal form with text, input and submit button to acquire emails to our list -->
+<!-- Parameters: email-modal = modal id  -->
+
+<div class="modal fade email-modal" id="email-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">                                    
+            <div class="modal-body text-center">
+                <a href="#" data-dismiss="modal" aria-label="Close" class="pull-right close-icon"><i class="fa fa-times" aria-hidden="true"></i></a>
+                <h3 class="modal-title">Seja o primeiro a receber o melhor conteúdo!</h3>
+                <div class="modal-label">
+                    <p class="email-label">Cadastre o seu melhor email para <strong>receber gratuitamente <br></strong><strong>conteúdos exclusivos</strong> e muito mais!</p>
+                </div>
+                <!--<i class="down-icon fa fa-arrow-down fa-fw" aria-hidden="true"></i>-->
+
+                <div class="mailchimp-input">
+                    <!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: QUERO RECEBER = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate>
+    <div id="mc_embed_signup_scroll" class="mailchimp-signup container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-12 col-sm-3">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required>
+            </div>
+            
+            <div class="col-xs-12 col-sm-5">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required>                
+            </div>
+
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <span><img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> QUERO RECEBER</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>            
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+                </div>                
+
+                <p class="pos-input text-center" style="font-size: 70%; margin-top: 10px; margin-bottom: 10px;">Não se preocupe, respeitamos sua privacidade. Você pode se descadastrar a qualquer momento.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+		<div class="main-container" data-aos="fade-in" data-aos-duration="1500">
+			<section class="post-banner">	
+				<div class="post-banner-wrapper">
+					<div class="post-banner-content" style="background: #7f2d2d url('/assets/svg/stars-bground.svg');">
+						<div class="container">	
+							<div class="wrapper">
+								<div class="featured-icon-wrapper">
+									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/drf/featured_img.svg" width="90%">
+									</object>															
+								</div>
+							</div>													
+			
+							
+							<h1 class="blog-post-title font-shadow">
+								Construção de APIs com Django REST Framework
+							</h1>			
+						</div>			
+					</div>
+				</div>
+			</section>	
+			
+			<div class="post-meta">
+				<div class="container">
+					<div class="post-meta-wrapper">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+								<div class="col-xs-6">
+									<div class="post-meta-data">
+										<img src="/assets/svg/clock.svg" alt="Tempo de Leitura">
+										<span>15 min.</span>
+									</div>
+								</div>
+
+								<div class="col-xs-6">
+									<div class="post-meta-data">
+										<img src="/assets/svg/level.svg" alt="Nível do Conteúdo">
+										<span>Básico</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container post-container">
+				<div class="blog-post-content">
+					
+<p>Olá <strong>dev</strong>!</p>
+
+<p>Vamos tratar de uma biblioteca muito poderosa para construções de APIs: o Django Rest Framework, ou <strong>DRF</strong> para os intímos!</p>
+
+<p><img src="/assets/posts/drf/logo-drf.png" alt="Logomarca do DRF" class="img-responsive center-block"></p>
+
+<p><img class="emoji" title=":warning:" alt=":warning:" src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png" height="20" width="20"> Antes de começar, uma <strong>nota importante</strong> <img class="emoji" title=":warning:" alt=":warning:" src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png" height="20" width="20"></p>
+
+<blockquote>
+  <p>Esse <em>post</em> não é mais um daqueles tutoriais que apenas traduzem o <em>Getting Started</em> da documentação. Aqui vamos <strong>além do básico</strong>, com a qualidade da Python Academy que vocês já conhecem! Dito isso, podemos começar! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+</blockquote>
+
+<p>Com o DRF é possível combinar Python e Django de uma forma flexível para desenvolver APIs web de uma forma bem <strong>simples</strong> e <strong>rápida</strong>.</p>
+
+<p>Algumas razões para usar o DRF:</p>
+<ul>
+  <li>Ele provê uma interface navegável para debuggar sua API.</li>
+  <li>Diversas estratégias de autenticação, incluindo pacotes para OAuth1 e OAuth2.</li>
+  <li>Serialização de objetos de fontes ORM (bancos de dados) e não-ORM (classes próprias).</li>
+  <li>Documentação extensa e grande comunidade.</li>
+  <li>Usado por grandes corporações, como: Heroku, EventBrite, Mozilla e Red Hat.</li>
+</ul>
+
+<p>E o melhor de tudo, ele utiliza nosso querido Django como base!</p>
+
+<p>Por isso é interessante que você já possua certo conhecimento em Django. Ainda não é <strong>craque</strong>?</p>
+
+<p>Não tem problema, aqui na Python Academy você conta com o melhor material sobre Django! Acesse:</p>
+
+<p><img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" target="_blank">Django: Introdução ao <em>framework</em></a><br>
+<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model" target="_blank">Django: A Camada <em>Model</em></a><br>
+<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view" target="_blank">Django: A Camada <em>View</em></a><br>
+<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template" target="_blank">Django: A Camada <em>Template</em></a></p>
+
+<p>Ou se preferir, baixe nosso ebook <strong>GRÁTIS</strong> de Desenvolvimento Web com Python e Django:</p>
+
+<div class="include-ebook-wrapper" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <h5>Ebook GRÁTIS</h5>
+            <h4>DESENVOLVIMENTO WEB COM PYTHON E DJANGO</h4>
+        </div>
+
+        <div class="col-lg-5 col-md-5 col-xs-12 text-center">
+            <img src="/assets/ebooks/desenvolvimento-web-com-python-e-django/capa-perspectiva.png" alt="Capa Ebook Desenvolvimento Web com Python e Django" class="ebook-cover">
+        </div>
+
+        <div class="col-lg-7 col-md-7 col-xs-12">
+            <div class="ebook-data pb-0 pt-0" data-aos="fade-in">
+                <h3 class="ebook-title">Conteúdo:</h3>
+
+                <ul class="ebook-description">
+                    <li>
+<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Veja como modelar sua aplicação</li>
+                    <li>
+<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Utilize a robusta API de Acesso a Dados do Django</li>
+                    <li>
+<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Aprenda sobre <i>Class Based Views</i>
+</li>
+                    <li>
+<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Construa <i>Middlewares</i> próprios</li>
+                    <li>
+<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Desenvolva filtros e <i>tags</i> customizados para criar lindos <i>templates</i>
+</li>
+                </ul>
+
+                <div class="link-to-download">                                    
+                    <a href="/ebooks/desenvolvimento-web-com-python-e-django/" class="cta">
+                        <i class="fa fa-download pr-8" aria-hidden="true"></i> Baixe já!
+                    </a>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>Agora:</p>
+
+<p><img class="emoji" title=":coffee:" alt=":coffee:" src="https://github.githubassets.com/images/icons/emoji/unicode/2615.png" height="20" width="20"> <em><strong>Já faz seu cafézinho de cada dia</strong></em><br>
+<img class="emoji" title=":notebook_with_decorative_cover:" alt=":notebook_with_decorative_cover:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d4.png" height="20" width="20"> <em><strong>Prepara o caderno</strong></em><br>
+<img class="emoji" title=":computer:" alt=":computer:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png" height="20" width="20"> <em><strong>Abra seu editor de código</strong></em><br>
+<img class="emoji" title=":hourglass:" alt=":hourglass:" src="https://github.githubassets.com/images/icons/emoji/unicode/231b.png" height="20" width="20"> <em><strong>Separa 1 horinha</strong></em></p>
+
+<p>E <strong>bora nessa</strong>!</p>
+
+<h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#introdu%C3%A7%C3%A3o" id="markdown-toc-introdução">Introdução</a></li>
+  <li><a href="#configura%C3%A7%C3%A3o-do-projeto" id="markdown-toc-configuração-do-projeto">Configuração do Projeto</a></li>
+  <li><a href="#modelagem" id="markdown-toc-modelagem">Modelagem</a></li>
+  <li><a href="#serializer" id="markdown-toc-serializer"><em>Serializer</em></a></li>
+  <li><a href="#viewsets" id="markdown-toc-viewsets"><em>ViewSets</em></a></li>
+  <li><a href="#routers" id="markdown-toc-routers"><em>Routers</em></a></li>
+  <li><a href="#interface-naveg%C3%A1vel" id="markdown-toc-interface-navegável">Interface navegável</a></li>
+  <li><a href="#filtros-busca-textual-e-ordena%C3%A7%C3%A3o" id="markdown-toc-filtros-busca-textual-e-ordenação">Filtros, Busca Textual e Ordenação</a></li>
+  <li><a href="#configura%C3%A7%C3%B5es-espec%C3%ADficas" id="markdown-toc-configurações-específicas">Configurações específicas</a></li>
+</ul>
+
+<h2 id="introdução">Introdução</h2>
+
+<p>Nada melhor que aprender uma nova ferramenta colocando a mão no código e fazendo um mini-projeto.</p>
+
+<p>Para esse post decidi juntar duas coisas que gosto muito: código e <strong>investimentos</strong>!</p>
+
+<p>Então nesse post vamos desenvolver uma API para consulta de um tipo de investimento: <strong>Fundos Imobiliários</strong> (ou FIIs).</p>
+
+<p>Não sabe o que é? Então aí vai:</p>
+
+<blockquote>
+  <p>Fundos Imobiliários (FII) são fundos de investimento destinados à aplicação em empreendimentos imobiliários, o que inclui, além da aquisição de direitos reais sobre bens imóveis, o investimento em títulos relacionados ao mercado imobiliário, como letras de crédito imobiliário (LCI), letras hipotecárias (LH), cotas de outros FII, certificados de potencial adicional de construção, (CEPAC), certificados de recebíveis imobiliários (CRI), e outros previstos na regulamentação (Retirado de: <a href="https://www.investidor.gov.br/menu/Menu_Investidor/valores_mobiliarios/fundos_imobiliarios.html" target="_blank">investidor.gov.br</a>)</p>
+</blockquote>
+
+<p>Dito isso, vamos começar do começo!</p>
+
+<p>Vamos criar a estrutura e configurar o DRF.</p>
+
+<h2 id="configuração-do-projeto">Configuração do Projeto</h2>
+
+<p>Primeiro, vamos começar pelo nome: vamos chamá-lo de <strong>Fundsfinder</strong> (“buscador” de Fundos).</p>
+
+<p>Vamos então aos primeiros passos:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td>
+<td class="code"><pre><span class="c"># Cria a pasta e a acessa</span>
+<span class="nb">mkdir </span>fundsfinder <span class="o">&amp;&amp;</span> <span class="nb">cd </span>fundsfinder
+
+<span class="c"># Cria ambiente virtual</span>
+virtualenv venv <span class="nt">--python</span><span class="o">=</span>/usr/bin/python3.8
+
+<span class="c"># Ativa ambiente virtual</span>
+<span class="nb">source </span>venv/bin/activate
+
+<span class="c"># Instala Django e DRF</span>
+pip <span class="nb">install </span>django djangorestframework
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Até aqui, nós:</p>
+<ul>
+  <li>Criamos a pasta do projeto;</li>
+  <li>Obviamente criamos um ambiente virtual (ainda não sabe o que é? <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"> Acesse correndo nosso post sobre <a href="https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais" target="_blank">ambientes virtuais em Python aqui</a>)</li>
+  <li>Ativamos o ambiente virtual e instalamos as dependências (Django e DRF)</li>
+</ul>
+
+<p>Agora, vamos criar um novo <em>app</em> para separar responsabiliades da nossa API.</p>
+
+<p>Vamos chamá-lo de <code class="highlighter-rouge">api</code>.</p>
+
+<p>Usamos o comando <code class="highlighter-rouge">startapp</code> do <code class="highlighter-rouge">django-admin</code> na raíz do projeto (onde se encontra o arquivo <code class="highlighter-rouge">manage.py</code>), dessa forma:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>python3 manage.py startapp api
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Aproveite e crie a estrutura inicial do banco de dados com:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>python3 manage.py migrate
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Agora, temos a seguinte estrutura:</p>
+
+<p><img src="/assets/posts/drf/file-structure.png" alt="Estrutura inicial" class="center-block img-responsive"></p>
+
+<p>Execute o servidor local para verificar se tudo está correto:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>python3 manage.py runserver
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Ao acessar http://localhost:8000 em seu browser a seguinte tela deve ser mostrada:</p>
+
+<p><img src="/assets/posts/drf/runserver.png" alt="Tela inicial" class="center-block img-responsive"></p>
+
+<p>Agora, adicione um super usuário com o comando <code class="highlighter-rouge">createsuperuser</code> (será requisitado uma senha):</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>python manage.py createsuperuser <span class="nt">--email</span> admin@fundsfinder.com <span class="nt">--username</span> admin
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Só falta uma coisa para terminarmos as configurações iniciais do nosso projeto: adicionar tudo ao <code class="highlighter-rouge">settings.py</code>.</p>
+
+<p>Para isso, abra o arquivo <code class="highlighter-rouge">fundsfinder/settings.py</code> e adicione os <em>apps</em> <code class="highlighter-rouge">api</code>, <code class="highlighter-rouge">fundsfinder</code> e <code class="highlighter-rouge">rest_framework</code> (necessário para funcionamento do DRF) à configuração <code class="highlighter-rouge">INSTALLED_APPS</code>, ficando assim:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td>
+<td class="code"><pre><span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s">'django.contrib.admin'</span><span class="p">,</span>
+    <span class="s">'django.contrib.auth'</span><span class="p">,</span>
+    <span class="s">'django.contrib.contenttypes'</span><span class="p">,</span>
+    <span class="s">'django.contrib.sessions'</span><span class="p">,</span>
+    <span class="s">'django.contrib.messages'</span><span class="p">,</span>
+    <span class="s">'django.contrib.staticfiles'</span><span class="p">,</span>
+    <span class="s">'rest_framework'</span><span class="p">,</span>
+    <span class="s">'fundsfinder'</span><span class="p">,</span>
+    <span class="s">'api'</span>
+<span class="p">]</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><strong>Pronto!</strong></p>
+
+<p>Com isso temos a estrutura inicial para finalmente começarmos nosso projeto!</p>
+
+<h2 id="modelagem">Modelagem</h2>
+
+<p>O processo de desenvolvimento de aplicações que utilizam o Django Rest Framework geralmente seguem a seguinte linha de implementação:</p>
+
+<ol>
+  <li>
+<strong>1)</strong> Modelagem;</li>
+  <li>
+<strong>2)</strong> <em>Serializers</em>;</li>
+  <li>
+<strong>3)</strong> <em>ViewSets</em>;</li>
+  <li>
+<strong>4)</strong> <em>Routers</em>
+</li>
+</ol>
+
+<p>Calma que vamos tratar cada passo aqui!</p>
+
+<p>Vamos começar com a <strong>Modelagem</strong>!</p>
+
+<p>Bem, como vamos fazer um sistema para busca e listagem de Fundos Imobiliários, nossa modelagem deve refletir campos que façam sentido.</p>
+
+<p>Para auxiliar nessa tarefa, escolhi alguns parâmetros de uma tabela muito interessante do site <a href="https://www.fundsexplorer.com.br/ranking" target="_blank">FundsExplorer</a>:</p>
+
+<p><img src="/assets/posts/drf/ranking-fundsexplorer.png" alt="Ranking FundsExplorer" class="img-responsive center-block"></p>
+
+<p>Vamos usar os seguintes atributos:</p>
+
+<ul>
+  <li>
+<strong>Código do Fundo</strong>: Código identificador do Fundo.</li>
+  <li>
+<strong>Setor</strong>: Setor do Fundo Imobiliário.</li>
+  <li>
+<strong><em>Dividend Yield</em> médio (12 meses)</strong>: <em>Dividend Yield</em> mostra quanto um fundo paga de Dividendos (divisão de lucros) sobre o valor atual da cota.</li>
+  <li>
+<strong>Vacância Financeira</strong>: Importante métrica que mostra ao investidor quantos ativos do Fundo Imobiliários estão inadimplentes.</li>
+  <li>
+<strong>Vacância Física</strong>: Outra importante métrica que mostra ao investidor quantos ativos estão desocupados.</li>
+  <li>
+<strong>Quantidade de Ativos</strong>: Quantos ativos são administrados pelo Fundo.</li>
+</ul>
+
+<p>Com isso em mãos, podemos criar a modelagem da entidade <code class="highlighter-rouge">FundoImobiliario</code>.</p>
+
+<p>Utilizaremos o ORM (Mapeamento Objeto-Relacional) do próprio Django.</p>
+
+<p><em><strong>Temos um post completo sobre a camada Model do Django, <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model" target="_blank">clique aqui para conferir</a>!</strong></em></p>
+
+<p>Analisando essa tabela do FundsExplorer, nossa modelagem pode ser implementada da seguinte forma (<code class="highlighter-rouge">api/models.py</code>):</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+</pre></td>
+<td class="code"><pre><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
+<span class="kn">import</span> <span class="nn">uuid</span>
+
+
+<span class="k">class</span> <span class="nc">FundoImobiliario</span><span class="p">(</span><span class="n">models</span><span class="p">.</span><span class="n">Model</span><span class="p">):</span>
+  <span class="n">SETOR_CHOICES</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">(</span><span class="s">'hospital'</span><span class="p">,</span> <span class="s">'Hospital'</span><span class="p">),</span> <span class="p">(</span><span class="s">'hotel'</span><span class="p">,</span> <span class="s">'Hotel'</span><span class="p">),</span> <span class="p">(</span><span class="s">'hibrido'</span><span class="p">,</span> <span class="s">'Híbrido'</span><span class="p">),</span>
+    <span class="p">(</span><span class="s">'lajes_corporativas'</span><span class="p">,</span> <span class="s">'Lajes Corporativas'</span><span class="p">),</span> 
+    <span class="p">(</span><span class="s">'logistica'</span><span class="p">,</span> <span class="s">'Logística'</span><span class="p">),</span> <span class="p">(</span><span class="s">'outros'</span><span class="p">,</span> <span class="s">'Outros'</span><span class="p">),</span> 
+    <span class="p">(</span><span class="s">'residencial'</span><span class="p">,</span> <span class="s">'Residencial'</span><span class="p">),</span>
+    <span class="p">(</span><span class="s">'titulos_valores_mobiliarios'</span><span class="p">,</span> <span class="s">'Títulos e Val. Mob.'</span><span class="p">)</span>
+  <span class="p">]</span>
+
+  <span class="nb">id</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">UUIDField</span><span class="p">(</span>
+    <span class="n">primary_key</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+    <span class="n">default</span><span class="o">=</span><span class="n">uuid</span><span class="p">.</span><span class="n">uuid4</span><span class="p">,</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+  <span class="n">codigo</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">max_length</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+
+  <span class="n">setor</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">max_length</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">choices</span><span class="o">=</span><span class="n">SETOR_CHOICES</span><span class="p">)</span>
+  
+  <span class="n">dividend_yield_medio_12m</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">DecimalField</span><span class="p">(</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">max_digits</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+    <span class="n">decimal_places</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+  
+  <span class="n">vacancia_financeira</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">DecimalField</span><span class="p">(</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">max_digits</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+    <span class="n">decimal_places</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+  
+  <span class="n">vacancia_fisica</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">DecimalField</span><span class="p">(</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">max_digits</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+    <span class="n">decimal_places</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+  
+  <span class="n">quantidade_ativos</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">IntegerField</span><span class="p">(</span>
+    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Com nossa modelagem criada, precisamos gerar o arquivo de Migrações para atualizar o banco de dados.</p>
+
+<p>Fazemos isso com o comando <code class="highlighter-rouge">makemigrations</code> (<em><strong>saiba mais sobre esse comando do Django <a href="https://pythonacademy.com.br/blog/o-comando-makemigrations-do-django" target="_blank">clicando aqui</a>!</strong></em>).</p>
+
+<p>Execute:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>python3 manage.py makemigrations api
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Agora vamos aplicar a migração ao Banco de Dados com o comando <code class="highlighter-rouge">migrate</code> (<em><strong>saiba mais sobre esse comando do Django <a href="https://pythonacademy.com.br/blog/o-comando-migrate-do-django" target="_blank">clicando aqui</a>!</strong></em>).</p>
+
+<p>Execute:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>python3 manage.py migrate
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Com a modelagem pronta, podemos passar para o <em>Serializer</em>!</p>
+
+<h2 id="serializer"><em>Serializer</em></h2>
+
+<p>Os <em>serializers</em> do DRF são componentes essenciais do <em>framework</em>.</p>
+
+<p>Eles servem para traduzir entidades complexas, como <em>querysets</em> e instâncias de classes em representações simples que podem ser usadas no tráfego da web, como <code class="highlighter-rouge">JSON</code> e <code class="highlighter-rouge">XML</code>.</p>
+
+<p>Esse processo é chamado de <strong>Serialização</strong>.</p>
+
+<p><em>Serializers</em> também servem para fazer o caminho contrário: a <strong>Desserialização</strong>.</p>
+
+<p>Isto é, transformar representações simples (como <code class="highlighter-rouge">JSON</code> e <code class="highlighter-rouge">XML</code>) em representações complexas, instanciando objetos, por exemplo.</p>
+
+<p>Vamos criar o arquivo onde vão ficar os <em>serializers</em> da nossa API.</p>
+
+<p>Crie um arquivo chamado <code class="highlighter-rouge">serializers.py</code> dentro da pasta <code class="highlighter-rouge">api/</code>.</p>
+
+<p>O DRF disponibiliza diversos tipos de <em>serializers</em> que podemos utilizar, como:</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">BaseSerializer</code>: Classe base para construção de <code class="highlighter-rouge">Serializers</code> mais genéricos.</li>
+  <li>
+<code class="highlighter-rouge">ModelSerializer</code>: Auxilia a criação de serializadores baseados em modelos.</li>
+  <li>
+<code class="highlighter-rouge">HyperlinkedModelSerializer</code>: Similar ao <code class="highlighter-rouge">ModelSerializer</code>, contudo retorna um link para representar o relacionamento entre entidades (<code class="highlighter-rouge">ModelSerializer</code> retorna, por padrão, o id da entidade relacionada).</li>
+</ul>
+
+<p>Vamos utilizar o <code class="highlighter-rouge">ModelSerializer</code> para construir o serializador da entidade <code class="highlighter-rouge">FundoImobiliario</code>.</p>
+
+<p>Para isso, precisamos declarar sobre qual modelo aquele serializador irá operar e quais os campos que ele deve se preocupar.</p>
+
+<p>Nosso <em>serializer</em> pode se implementado da seguinte maneira:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+</pre></td>
+<td class="code"><pre><span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">serializers</span>
+<span class="kn">from</span> <span class="nn">api.models</span> <span class="kn">import</span> <span class="n">FundoImobiliario</span>
+
+
+<span class="k">class</span> <span class="nc">FundoImobiliarioSerializer</span><span class="p">(</span><span class="n">serializers</span><span class="p">.</span><span class="n">ModelSerializer</span><span class="p">):</span>
+  <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
+    <span class="n">model</span> <span class="o">=</span> <span class="n">FundoImobiliario</span>
+    <span class="n">fields</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="s">'id'</span><span class="p">,</span>
+      <span class="s">'codigo'</span><span class="p">,</span>
+      <span class="s">'setor'</span><span class="p">,</span>
+      <span class="s">'dividend_yield_medio_12m'</span><span class="p">,</span>
+      <span class="s">'vacancia_financeira'</span><span class="p">,</span>
+      <span class="s">'vacancia_fisica'</span><span class="p">,</span>
+      <span class="s">'quantidade_ativos'</span>
+    <span class="p">]</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Nesse <code class="highlighter-rouge">Serializer</code>:</p>
+<ul>
+  <li>
+<code class="highlighter-rouge"><span class="k">model</span> <span class="p">=</span> <span class="n">FundoImobiliario</span></code> define qual modelo esse <em>serializer</em> deve serializar.</li>
+  <li>
+<code class="highlighter-rouge">fields</code> define os campos que serão serializados.</li>
+</ul>
+
+<p><strong><em>Obs: é possível definir que todos os campos da entidade de modelo devem ser serializados usando <code class="highlighter-rouge">fields = ['__all__']</code>, contudo eu prefiro mostrar os campos explicitamente.</em></strong></p>
+
+<p>Com isso, finalizamos mais uma etapa do passo a passo do DRF! <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"></p>
+
+<p>Vamos à terceira etapa: a criação de <em>Views</em>.</p>
+
+<h2 id="viewsets"><em>ViewSets</em></h2>
+
+<p>As <em>ViewSets</em> definem quais operações REST estarão disponíveis e como seu sistema vai responder às chamadas à sua API.</p>
+
+<p>Em outros <em>frameworks</em>, são chamados de <em>Resources</em> ou <em>Controllers</em>.</p>
+
+<p><em>ViewSets</em> herdam e adicionam lógica às <em>Views</em> padrão do Django.</p>
+
+<p>Suas responsabilidades são:</p>
+
+<ul>
+  <li>Receber os dados da Requisição (formato JSON ou XML)</li>
+  <li>Validar os dados de acordo com as regras definidas na modelagem e no <em>Serializer</em>
+</li>
+  <li>Desserializar a Requisição e instanciar objetos</li>
+  <li>Processar <strong>regras de negócio</strong> (aqui é onde implementamos a lógica dos nossos sistemas)</li>
+  <li>Formular uma resposta e responder a quem chamou sua API</li>
+</ul>
+
+<p>Encontrei uma imagem muito interessante <a href="https://www.reddit.com/r/django/comments/9grsum/a_django_rest_framework_view_inheritance_diagram/" target="_blank">no Reddit</a> que mostra o diagrama de herança das classes do DRF, que nos ajuda a entender melhor a estrutura interna do <em>framework</em>:</p>
+
+<p><img src="/assets/posts/drf/drf-classes.png" alt="Diagrama de Herança de Classes do DRF" class="img-responsive center-block"></p>
+
+<p>Na imagem:</p>
+
+<ul>
+  <li>Lá em cima, temos a classe <code class="highlighter-rouge">View</code> padrão do Django.</li>
+  <li>
+<code class="highlighter-rouge">APIView</code> e <code class="highlighter-rouge">ViewSet</code> são classes do DRF que herdam de <code class="highlighter-rouge">View</code> e que trazem algumas configurações específicas para transformá-las em APIs, como métodos <code class="highlighter-rouge">get()</code> para tratar requisições <code class="highlighter-rouge">HTTP GET</code> e <code class="highlighter-rouge">post()</code> para tratar requisições <code class="highlighter-rouge">HTTP POST</code>.</li>
+  <li>Logo abaixo, temos a <code class="highlighter-rouge">GenericAPIView</code> - que é a classe base para <em>views</em> genéricas - e a <code class="highlighter-rouge">GenericViewSet</code> - que é a base para as <code class="highlighter-rouge">ViewSets</code> (a parte da direita em roxo na imagem).</li>
+  <li>No meio, em azul, temos os <code class="highlighter-rouge">Mixins</code>. Eles são os blocos de código responsáveis por <strong>realmente</strong> implementar as ações desejadas.</li>
+  <li>Em seguida temos as <code class="highlighter-rouge">Views</code> que disponibilizam as funcionalidades da nossa API, como se fossem blocos de Lego. Elas estendem dos <code class="highlighter-rouge">Mixins</code> para construir a funcionalidade desejada (seja listagem, seja deleção e etc)</li>
+</ul>
+
+<p>Por exemplo: se você quiser criar uma API que disponibilize apenas listagem de uma determinada Entidade você poderia escolher a <code class="highlighter-rouge">ListAPIView</code>.</p>
+
+<p>Agora se você precisar construir uma API que disponibilize apenas as operações de criação e listagem, você poderia utilizar a <code class="highlighter-rouge">ListCreateAPIView</code>.</p>
+
+<p>Agora se você precisar construir uma API “com tudo dentro” (isto é: criação, deleção, atualização e listagem), escolha a <code class="highlighter-rouge">ModelViewSet</code>: perceba que ela estende todos os <code class="highlighter-rouge">Mixins</code> disponíveis.</p>
+
+<p>Para entender de vez:</p>
+
+<ul>
+  <li>Os <code class="highlighter-rouge">Mixins</code> são como os componentes dos sanduíches do Subway <img class="emoji" title=":tomato:" alt=":tomato:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f345.png" height="20" width="20"> <img class="emoji" title=":bread:" alt=":bread:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f35e.png" height="20" width="20"> <img class="emoji" title=":poultry_leg:" alt=":poultry_leg:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f357.png" height="20" width="20"> <img class="emoji" title=":meat_on_bone:" alt=":meat_on_bone:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f356.png" height="20" width="20">
+</li>
+  <li>As <code class="highlighter-rouge">Views</code> são como o Subway: você monta o seu, componente à componente <img class="emoji" title=":bread:" alt=":bread:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f35e.png" height="20" width="20">
+</li>
+  <li>As <code class="highlighter-rouge">ViewSets</code> são como o McDonalds: seu sanduíche já vem montado <img class="emoji" title=":hamburger:" alt=":hamburger:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f354.png" height="20" width="20">
+</li>
+</ul>
+
+<p><em><strong>Eu sei, eu sei… Não paro de pensar em comida</strong></em> <img class="emoji" title=":laughing:" alt=":laughing:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f606.png" height="20" width="20"> <img class="emoji" title=":laughing:" alt=":laughing:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f606.png" height="20" width="20"> <img class="emoji" title=":laughing:" alt=":laughing:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f606.png" height="20" width="20"></p>
+
+<p>Percebe-se, portanto, que o DRF disponibiliza diversos tipos de <em>Views</em> e <em>Viewsets</em> que podem ser customizados de acordo com a necessidade do sistema.</p>
+
+<p>Para isso, estude bem a <a href="https://www.django-rest-framework.org/api-guide/viewsets/" target="_blank">documentação</a> (ou fique ligado aqui na Python Academy <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20">)</p>
+
+<p>Para facilitar nossa vida, vamos utilizar a <code class="highlighter-rouge">ModelViewSet</code>!</p>
+
+<p>No DRF, por convenção, implementamos as <em>Views</em>/<em>ViewSets</em> no arquivo <code class="highlighter-rouge">views.py</code> dentro do <em>app</em> em questão.</p>
+
+<p>Esse arquivo já é criado quando utilizamos o comando <code class="highlighter-rouge">django-admin startapp api</code>, portanto não precisamos criá-lo.</p>
+
+<p>Agora, veja como é difícil criar um <code class="highlighter-rouge">ModelViewSet</code> (não se espantem com a complexidade):</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td>
+<td class="code"><pre><span class="kn">from</span> <span class="nn">api.serializers</span> <span class="kn">import</span> <span class="n">FundoImobiliarioSerializer</span>
+<span class="kn">from</span> <span class="nn">rest_framework</span> <span class="kn">import</span> <span class="n">viewsets</span><span class="p">,</span> <span class="n">permissions</span>
+<span class="kn">from</span> <span class="nn">api.models</span> <span class="kn">import</span> <span class="n">FundoImobiliario</span>
+
+
+<span class="k">class</span> <span class="nc">FundoImobiliarioViewSet</span><span class="p">(</span><span class="n">viewsets</span><span class="p">.</span><span class="n">ModelViewSet</span><span class="p">):</span>
+  <span class="n">queryset</span> <span class="o">=</span> <span class="n">FundoImobiliario</span><span class="p">.</span><span class="n">objects</span><span class="p">.</span><span class="nb">all</span><span class="p">()</span>
+  <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">FundoImobiliarioSerializer</span>
+  <span class="n">permission_classes</span> <span class="o">=</span> <span class="p">[</span><span class="n">permissions</span><span class="p">.</span><span class="n">IsAuthenticated</span><span class="p">]</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><img src="https://media.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif" alt="Dog Gif" class="img-responsive"></p>
+
+<p><em><strong>É isso jovem!</strong></em> <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+
+<p>Você pode estar se perguntando?</p>
+
+<blockquote>
+  <p>Uai, e cadê o resto?</p>
+</blockquote>
+
+<p>Bem, é aí que mora o <strong>amor</strong> e o <strong>ódio</strong> às <em>Class-Based-Views</em> (CBVs).</p>
+
+<p><strong>Amor</strong> pois quem defende as CBVs afirma que elas aumentam a produtividade, pois não temos que escrever dezenas de linhas de código.</p>
+
+<p><strong>Ódio</strong> pois muito do funcionamento do <em>framework</em> fica implícito/escondido dos olhos dos desenvolvedores.</p>
+
+<p>Bem… Ao meu ver, acho que fica a cargo do desenvolvedor escolher qual caminho seguir: <em>Function-Based-Views</em> (FBVs) ou <em>Class-Based-Views</em> (CVBs).</p>
+
+<p>Use aquilo que lhe traga mais produtividade e entendimento do <em>framework</em>.</p>
+
+<p><strong>Continuando…</strong></p>
+
+<p>Todo o código para tratamento de Requisições, serialização e desserialização de objetos e formulação de Respostas HTTP está dentro das classes que herdamos direta e indiretamente.</p>
+
+<p>Em nossa classe <code class="highlighter-rouge">FundoImobiliarioViewSet</code> apenas precisamos declarar os seguintes parâmetros:</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">queryset</code>: Configura o <em>queryset</em> base para ser utilizado pela API. Ele é utilizado na ação de listar, por exemplo.</li>
+  <li>
+<code class="highlighter-rouge">serializer_class</code>: Configura qual <em>Serializer</em> deversá ser usado para consumir dados que chegam à API e produzir dados que serão enviados como resposta.</li>
+  <li>
+<code class="highlighter-rouge">permission_classes</code>: Lista contendo as permissões necessárias para acessar o endpoint exposto por essa <em>ViewSet</em>. Nesse caso, irá permitir apenas o acesso a usuários autenticados.</li>
+</ul>
+
+<p>Com isso matamos o terceiro passo: a <em>ViewSet</em>! <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"></p>
+
+<p>Agora vamos à configuração das URLs!</p>
+<h2 id="routers"><em>Routers</em></h2>
+
+<p>Os <em>Routers</em> nos auxiliam na geração das URLs da nossa aplicação.</p>
+
+<p>Como o REST possui padrões bem definidos de estrutura de URLs, o DRF as gera automaticamente para nós, já no padrão correto.</p>
+
+<p>Basta utilizarmos seus <em><strong>Routers</strong></em>!</p>
+
+<p>Para isso, primeiro crie o arquivo <code class="highlighter-rouge">urls.py</code> em <code class="highlighter-rouge">api/urls.py</code>.</p>
+
+<p>Agora veja como é simples!</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td>
+<td class="code"><pre><span class="kn">from</span> <span class="nn">rest_framework.routers</span> <span class="kn">import</span> <span class="n">DefaultRouter</span>
+<span class="kn">from</span> <span class="nn">api.views</span> <span class="kn">import</span> <span class="n">FundoImobiliarioViewSet</span>
+
+
+<span class="n">app_name</span> <span class="o">=</span> <span class="s">'api'</span>
+
+<span class="n">router</span> <span class="o">=</span> <span class="n">DefaultRouter</span><span class="p">(</span><span class="n">trailing_slash</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="n">router</span><span class="p">.</span><span class="n">register</span><span class="p">(</span><span class="sa">r</span><span class="s">'fundos'</span><span class="p">,</span> <span class="n">FundoImobiliarioViewSet</span><span class="p">)</span>
+
+<span class="n">urlpatterns</span> <span class="o">=</span> <span class="n">router</span><span class="p">.</span><span class="n">urls</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Vamos entender:</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">app_name</code> é necessário para dar contexto às URLs geradas. Esse parâmetro especifica o <em>namespace</em> das URLConfs adicionadas.</li>
+  <li>
+<code class="highlighter-rouge">DefaultRouter</code> é o <em>Router</em> que escolhemos para geração automática das URLs. O parâmetro <code class="highlighter-rouge">trailing_slash</code> especifica que não é necessário o uso de barras <code class="highlighter-rouge">/</code> no final da URL.</li>
+  <li>O método <code class="highlighter-rouge">register</code> recebe dois parâmetros: o primeiro é o prefixo que será usado na URL (no nosso caso: <code class="highlighter-rouge">http://localhost:8000/fundos</code>) e o segundo é a <code class="highlighter-rouge">View</code> que ira responder as URLs com esse prefixo.</li>
+  <li>Por último, temos o velho <code class="highlighter-rouge">urlpatterns</code> do Django, que utilizamos para expor as URLs desse <em>app</em>.</li>
+</ul>
+
+<p>Agora precisamos adicionar as URLs específicas do nosso <em>app</em> <code class="highlighter-rouge">api</code> ao projeto.</p>
+
+<p>Para isso, abra o arquivo <code class="highlighter-rouge">fundsfinder/urls.py</code> e adicione as seguintes linhas (URLConf do nosso <em>app</em> e a URLConf de autenticação do DRF):</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td>
+<td class="code"><pre><span class="kn">from</span> <span class="nn">django.contrib</span> <span class="kn">import</span> <span class="n">admin</span>
+<span class="kn">from</span> <span class="nn">django.urls</span> <span class="kn">import</span> <span class="n">path</span><span class="p">,</span> <span class="n">include</span>
+
+<span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="n">path</span><span class="p">(</span><span class="s">'api/v1/'</span><span class="p">,</span> <span class="n">include</span><span class="p">(</span><span class="s">'api.urls'</span><span class="p">,</span> <span class="n">namespace</span><span class="o">=</span><span class="s">'api'</span><span class="p">)),</span>
+  <span class="n">path</span><span class="p">(</span><span class="s">'api-auth/'</span><span class="p">,</span> <span class="n">include</span><span class="p">(</span><span class="s">'rest_framework.urls'</span><span class="p">,</span> <span class="n">namespace</span><span class="o">=</span><span class="s">'rest_framework'</span><span class="p">)),</span>
+  <span class="n">path</span><span class="p">(</span><span class="s">'admin/'</span><span class="p">,</span> <span class="n">admin</span><span class="p">.</span><span class="n">site</span><span class="p">.</span><span class="n">urls</span><span class="p">),</span>
+<span class="p">]</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em><strong>Obs</strong></em>: Como boa prática, use sempre o prefixo <code class="highlighter-rouge">api/v1/</code> para manter a compatibilidade caso precise evoluir sua api pra V2 (<code class="highlighter-rouge">api/v2/</code>)!</p>
+
+<p>Utilizando apenas essas linhas de código, olha o caminhão de <em>endpoints</em> que o DRF gerou automaticamente para nossa API:</p>
+
+<table class="post-table">
+  <thead>
+    <tr>
+      <th>URL</th>
+      <th style="text-align: center">Método HTTP</th>
+      <th style="text-align: left">Ação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">/api/v1</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">GET</code></td>
+      <td style="text-align: left">Raíz da API gerada automaticamente</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">/api/v1/fundos</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">GET</code></td>
+      <td style="text-align: left">Listagem de todos os elementos</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">/api/v1/fundos</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">POST</code></td>
+      <td style="text-align: left">Criação de novo elemento</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">/api/v1/fundos/{lookup}</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">GET</code></td>
+      <td style="text-align: left">Recuperar elemento pelo ID</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">/api/v1/fundos/{lookup}</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">PUT</code></td>
+      <td style="text-align: left">Atualização de elemento por ID</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">/api/v1/fundos/{lookup}</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">PATCH</code></td>
+      <td style="text-align: left">Atualização parcial por ID (<em>partial update</em>)</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">/api/v1/fundos/{lookup}</code></td>
+      <td style="text-align: center"><code class="highlighter-rouge">DELETE</code></td>
+      <td style="text-align: left">Deleção de elemento por ID</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Aqui, <code class="highlighter-rouge">{lookup}</code> é o parâmetro utilizado pelo DRF para identificar unicamente um elemento.</p>
+
+<p>Vamos supor que um Fundo tenha <code class="highlighter-rouge">id=ef249e21-43cf-47e4-9aac-0ed26af2d0ce</code>.</p>
+
+<p>Podemos excluí-lo enviando uma requisição <code class="highlighter-rouge">HTTP DELETE</code> para a URL:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>http://localhost:8000/api/v1/fundos/ef249e21-43cf-47e4-9aac-0ed26af2d0ce
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Ou podemos criar um novo Fundo enviando uma requisição <code class="highlighter-rouge">POST</code> para a URL <code class="highlighter-rouge">http://localhost:8000/api/v1/fundos</code> e os valores dos campos no corpo da requisição, assim:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td>
+<td class="code"><pre>{
+  "codigo": "XPLG11",
+  "setor": "logistica",
+  "dividend_yield_medio_12m": "6.30",
+  "vacancia_financeira": "7.87",
+  "vacancia_fisica": "12.36",
+  "quantidade_ativos": 19
+}
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Dessa forma, nossa API retornaria um código <code class="highlighter-rouge">HTTP 201 Created</code>, significando que um objeto foi criado e a resposta seria:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td>
+<td class="code"><pre>{
+  "id": "a4139c66-cf29-41b4-b73e-c7d203587df9",
+  "codigo": "XPLG11",
+  "setor": "logistica",
+  "dividend_yield_medio_12m": "6.30",
+  "vacancia_financeira": "7.87",
+  "vacancia_fisica": "12.36",
+  "quantidade_ativos": 19
+}
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Podemos testar nossa URL de diversas forma: através de código Python, através de um Frontend (Angular, React, Vue.js) ou através do <a href="https://www.postman.com/downloads/" target="_blank">Postman</a>, por exemplo.</p>
+
+<p>E com isso meu amigo, finalizamos <strong>TUDO</strong> (<em>ou quase tudo</em>)! <img class="emoji" title=":laughing:" alt=":laughing:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f606.png" height="20" width="20"></p>
+
+<p><img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> Modelagem;<br>
+<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <em>Serializers</em>;<br>
+<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <em>ViewSets</em>;<br>
+<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <em>Routers</em><br></p>
+
+<blockquote>
+  <p>E como eu vejo esse trem funcionando? <img class="emoji" title=":thinking:" alt=":thinking:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png" height="20" width="20"></p>
+</blockquote>
+
+<p>Então bora pra próxima seção! <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></p>
+
+<p><img src="/assets/posts/drf/para-tudo.jpg" alt="PARA TUDO" class="img-responsive"></p>
+
+<p><em>Antes de continuar, que tal fazer parte da comunidade de Pythonistas que <strong>mais cresce no Brasil</strong> e ficar por dentro de <strong>TUDO</strong> que sai aqui na Python Academy em primeira mão?</em></p>
+
+<div class="email-signup" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="signup-body">
+				<span class="greeting">Olá <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"> Está gostando do artigo?</span>
+				<span class="signup-text">Então cadastre o seu email para <span class="underline">receber gratuitamente</span> mais conteúdos como este!</span>
+		        <!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: Quero ser um PYTHONISTA = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate="">
+    <div id="mc_embed_signup_scroll" class="mailchimp-signup container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-12 col-sm-3">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="">
+            </div>
+            
+            <div class="col-xs-12 col-sm-5">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="">                
+            </div>
+
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <span><img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> Quero ser um PYTHONISTA</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>            
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+		    </div>
+		</div>
+	</div>      
+</div>
+
+<h2 id="interface-navegável">Interface navegável</h2>
+
+<p>Uma das funcionalidades mais impressionantes do DRF é sua <strong>Interface Navegável</strong>.</p>
+
+<p>Com ela, podemos testar nossa API e verificar seus valores de uma maneira visual muito simples de se utilizar.</p>
+
+<p>Para acessá-la, navegue em seu browser para: <code class="highlighter-rouge">http://localhost:8000/api/v1</code>.</p>
+
+<p>Você deverá ver o seguinte:</p>
+
+<p><img src="/assets/posts/drf/browsable-1.png" alt="Interface Navegável" class="img-responsive"></p>
+
+<p>Vá lá e clique em <code class="highlighter-rouge">http://127.0.0.1:8000/api/v1/fundos</code>!</p>
+
+<blockquote>
+  <p>Uai? Que isso man, tá tirando?</p>
+</blockquote>
+
+<p><em><strong>Calma! <img class="emoji" title=":stuck_out_tongue_winking_eye:" alt=":stuck_out_tongue_winking_eye:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f61c.png" height="20" width="20"></strong></em></p>
+
+<p>Deve ter aparecido a mensagem:</p>
+
+<figure class="highlight"><pre><code class="language-json" data-lang="json"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre><span class="p">{</span><span class="w">
+  </span><span class="nl">"detail"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Authentication credentials were not provided."</span><span class="w">
+</span><span class="p">}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Lembra da configuração <code class="highlighter-rouge">permission_classes</code> que utilizamos para configurar a nossa <code class="highlighter-rouge">FundoImobiliarioViewSet</code>?</p>
+
+<p>Ela definiu que apenas usuários autenticados (<code class="highlighter-rouge">permissions.isAuthenticated</code>) podem interagir com a API.</p>
+
+<p>Então clique no canto superior direito, em <em>Log in</em> e use as credenciais cadastradas no comando <code class="highlighter-rouge">createsuperuser</code>, que executamos no início do post (use o <em>username</em> e a senha).</p>
+
+<p>Agora, olha que útil! Você deve estar vendo:</p>
+
+<p><img src="/assets/posts/drf/browsable-2.png" alt="Interface Navegável" class="img-responsive"></p>
+
+<p><em><strong>Brinque um pouco, adicione dados, explore a interface!</strong></em></p>
+
+<p>Ao adicionar dados e atualizar a página, é disparada uma requisição <code class="highlighter-rouge">HTTP GET</code> à API, retornando os dados que você acabou de cadastrar:</p>
+
+<p><img src="/assets/posts/drf/browsable-3.png" alt="Interface Navegável" class="img-responsive"></p>
+
+<p><em><strong>Diz se não é M-Á-G-I-C-O!</strong></em> <img class="emoji" title=":heart_eyes:" alt=":heart_eyes:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f60d.png" height="20" width="20"></p>
+
+<h2 id="filtros-busca-textual-e-ordenação">Filtros, Busca Textual e Ordenação</h2>
+
+<p>É possível adicionar as funcionalidades de Filtragem de dados, Busca Textual e Ordenação com pouquíssimas linhas de código.</p>
+
+<p>Apenas precisamos informar ao <em>framework</em> quais campos podem ser filtrados, quais possibilitarão a busca textual e quais campos poderão servir para ordenação.</p>
+
+<p>Para não alongar demais esse post, preferi separar esse assunto nesse outro <em>post</em>:</p>
+
+<p><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/filtros-busca-e-ordenacao-no-drf" target="_blank">Filtro, Busca e Ordenação no Django REST Framework</a></p>
+
+<p><em><strong>Então já clica aqui <img class="emoji" title=":point_up:" alt=":point_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" height="20" width="20"> e deixa separado em outra aba pra continuar depois</strong></em> <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+
+<h2 id="configurações-específicas">Configurações específicas</h2>
+
+<p>É possível configurar diversos aspectos do DRF através de configurações específicas.</p>
+
+<p>Fazemos isso adicionando o objeto <code class="highlighter-rouge">REST_FRAMEWORK</code> ao arquivo de configurações <code class="highlighter-rouge">settings.py</code>.</p>
+
+<p>Por exemplo, se quisermos adicionar paginação à nossa API, podemos fazer simplesmente isso:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre><span class="n">REST_FRAMEWORK</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">'DEFAULT_PAGINATION_CLASS'</span><span class="p">:</span> <span class="s">'rest_framework.pagination.PageNumberPagination'</span><span class="p">,</span>
+  <span class="s">'PAGE_SIZE'</span><span class="p">:</span> <span class="mi">10</span>
+<span class="p">}</span> 
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Agora o resultado de uma chamado, por exemplo, à <code class="highlighter-rouge">http://127.0.0.1:8000/api/v1/fundos</code> passa de:</p>
+
+<figure class="highlight"><pre><code class="language-json" data-lang="json"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+</pre></td>
+<td class="code"><pre><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ef249e21-43cf-47e4-9aac-0ed26af2d0ce"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"codigo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"XPLG11"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"setor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"logistica"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"dividend_yield_medio_12m"</span><span class="p">:</span><span class="w"> </span><span class="s2">"6.30"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"vacancia_financeira"</span><span class="p">:</span><span class="w"> </span><span class="s2">"7.87"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"vacancia_fisica"</span><span class="p">:</span><span class="w"> </span><span class="s2">"12.36"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"quantidade_ativos"</span><span class="p">:</span><span class="w"> </span><span class="mi">19</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"c41c2a9d-7aa4-4d07-b3b1-7a45df55ac79"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"codigo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MAXR11"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"setor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"hibrido"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"dividend_yield_medio_12m"</span><span class="p">:</span><span class="w"> </span><span class="s2">"5.90"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"vacancia_financeira"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0.00"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"vacancia_fisica"</span><span class="p">:</span><span class="w"> </span><span class="s2">"5.00"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"quantidade_ativos"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"d7d9e0c5-1885-4298-ae12-3f8aa8eea755"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"codigo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"HGLG11"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"setor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"logistica"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"dividend_yield_medio_12m"</span><span class="p">:</span><span class="w"> </span><span class="s2">"4.80"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"vacancia_financeira"</span><span class="p">:</span><span class="w"> </span><span class="s2">"5.00"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"vacancia_fisica"</span><span class="p">:</span><span class="w"> </span><span class="s2">"17.00"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"quantidade_ativos"</span><span class="p">:</span><span class="w"> </span><span class="mi">21</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Para:</p>
+
+<figure class="highlight"><pre><code class="language-json" data-lang="json"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+</pre></td>
+<td class="code"><pre><span class="p">{</span><span class="w">
+    </span><span class="nl">"count"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"next"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"previous"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"results"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ef249e21-43cf-47e4-9aac-0ed26af2d0ce"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"codigo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"XPLG11"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"setor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"logistica"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"dividend_yield_medio_12m"</span><span class="p">:</span><span class="w"> </span><span class="s2">"6.30"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"vacancia_financeira"</span><span class="p">:</span><span class="w"> </span><span class="s2">"7.87"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"vacancia_fisica"</span><span class="p">:</span><span class="w"> </span><span class="s2">"12.36"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"quantidade_ativos"</span><span class="p">:</span><span class="w"> </span><span class="mi">19</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"c41c2a9d-7aa4-4d07-b3b1-7a45df55ac79"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"codigo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MAXR11"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"setor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"hibrido"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"dividend_yield_medio_12m"</span><span class="p">:</span><span class="w"> </span><span class="s2">"5.90"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"vacancia_financeira"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0.00"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"vacancia_fisica"</span><span class="p">:</span><span class="w"> </span><span class="s2">"5.00"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"quantidade_ativos"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"d7d9e0c5-1885-4298-ae12-3f8aa8eea755"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"codigo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"HGLG11"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"setor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"logistica"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"dividend_yield_medio_12m"</span><span class="p">:</span><span class="w"> </span><span class="s2">"4.80"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"vacancia_financeira"</span><span class="p">:</span><span class="w"> </span><span class="s2">"5.00"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"vacancia_fisica"</span><span class="p">:</span><span class="w"> </span><span class="s2">"17.00"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"quantidade_ativos"</span><span class="p">:</span><span class="w"> </span><span class="mi">21</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Note que foram adicionados campos que servem para a aplicação chamadora se localizar:</p>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">count</code>: A quantidade de resultados retornados</li>
+  <li>
+<code class="highlighter-rouge">next</code>: A próxima página</li>
+  <li>
+<code class="highlighter-rouge">previous</code>: A página anterior</li>
+  <li>
+<code class="highlighter-rouge">results</code>: A página atual de resultados</li>
+</ul>
+
+<p>Existem diversas outras configurações muito úteis!</p>
+
+<p>Trago aqui algumas:</p>
+
+<p><img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> <code class="highlighter-rouge">DEFAULT_AUTHENTICATION_CLASSES</code> para configurar o método de autenticação da API:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td>
+<td class="code"><pre><span class="n">REST_FRAMEWORK</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="p">...</span>
+  <span class="n">DEFAULT_AUTHENTICATION_CLASSES</span><span class="p">:</span> <span class="p">[</span>
+    <span class="s">'rest_framework.authentication.SessionAuthentication'</span><span class="p">,</span>
+    <span class="s">'rest_framework.authentication.BasicAuthentication'</span>
+  <span class="p">]</span>
+  <span class="p">...</span>
+<span class="p">}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> <code class="highlighter-rouge">DEFAULT_PERMISSION_CLASSES</code> para configurar permissões necessárias para acessar a API (à nível global).</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="n">REST_FRAMEWORK</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="p">...</span>
+  <span class="n">DEFAULT_PERMISSION_CLASSES</span><span class="p">:</span> <span class="p">[</span><span class="s">'rest_framework.permissions.AllowAny'</span><span class="p">]</span>
+  <span class="p">...</span>
+<span class="p">}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em><strong>Obs</strong></em>: Também é possível definir essa configuração por <em>View</em>, utilizando o atributo <code class="highlighter-rouge">permissions_classes</code> (que utilizamos na nossa <code class="highlighter-rouge">FundoImobiliarioViewSet</code>).</p>
+
+<p><img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> <code class="highlighter-rouge">DATE_INPUT_FORMATS</code> para configurar formatos de datas aceitos pela API:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="n">REST_FRAMEWORK</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="p">...</span>
+  <span class="s">'DATE_INPUT_FORMATS'</span><span class="p">:</span> <span class="p">[</span><span class="s">'%d/%m/%Y'</span><span class="p">,</span> <span class="s">'%Y-%m-%d'</span><span class="p">,</span> <span class="s">'%d-%m-%y'</span><span class="p">,</span> <span class="s">'%d-%m-%Y'</span><span class="p">]</span>
+  <span class="p">...</span>
+<span class="p">}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em>A configuração acima fará a API permitir os seguintes formatos de data ‘25/10/2006’, ‘2006-10-25’, ‘25-10-2006’, por exemplo.</em></p>
+
+<p>Veja mais configurações <a href="https://www.django-rest-framework.org/api-guide/settings/" target="_blank">acessando aqui a Documentação</a>.</p>
+
+<h2 class="no_toc" id="conclusão">Conclusão</h2>
+
+<p>Vimos nesse <em>post</em> como é fácil construir APIs altamente customizáveis com o <em><strong>Django REST Framework</strong></em>!</p>
+
+<p>Quis trazer o máximo de informações possíveis!</p>
+
+<p>Mas fique de olho por aqui <img class="emoji" title=":eyes:" alt=":eyes:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f440.png" height="20" width="20"> pois ainda teremos muito conteúdo sobre DRF!</p>
+
+<p><em><strong>E você? Já utilizou o DRF em algum projeto? Já teve alguma dificuldade? Gostaria de sugerir algum conteúdo?</strong></em> <img class="emoji" title=":thinking:" alt=":thinking:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png" height="20" width="20"></p>
+
+<p>Conta pra gente aqui embaixo nos comentários!</p>
+
+<p>Sua participação é sempre <strong>MUITO</strong> bem vinda!</p>
+
+<p>Obrigado Pythonistas e até a próxima!</p>
+
+
+
+					<div class="blue-yellow-separator no-repeat"></div>
+
+					<div class="blog-post-footer">
+						
+						<div class="blog-post-colophon">
+							<div class="row">
+								<div class="col-xs-12 col-sm-3 text-center">									
+									<img src="/assets/authors/vinicius-ramos/avatar.png" width="100%" alt="Autor" class="profile-img">
+								</div>
+
+								<div class="col-xs-12 col-sm-9">
+									<div class="blog-post-meta">
+										<h2>
+											<span class="blog-post-by">
+												Por Vinícius Ramos
+											</span>
+
+											<b>em <time datetime="2021-05-05" pubdate>05/05/2021</time></b>
+										</h2>
+	
+										<p class="short-description">"<i>Porque o Senhor dá a sabedoria, e da sua boca vem a inteligência e o entendimento. - Provérbios 2:6 </i>"</p>
+
+										<p class="author-media-label">Minhas redes:</p>
+										
+										<ul>
+											
+											<li><a href="https://www.linkedin.com/in/vinicius-aramos" target="_blank"><i class="fa fa-linkedin-square" style="color: #0072b1;" aria-hidden="true"></i></a></li>
+																						
+											
+											<li><a href="mailto:vinicius.ramos@pythonacademy.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+																						
+											
+											<li><a href="https://github.com/viniciusramos91" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+											
+											
+											<li><a href="https://stackoverflow.com/users/6775679/viniciusramos91" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+											
+											
+										</ul>
+									</div>
+								</div>
+							</div>				
+						</div>
+					</div>
+				</div>				
+			</div>									
+		</div>	
+
+		<!-- READ MORE -->	
+		<div class="more-posts">
+			<section class="container">
+				<div class="section-header">
+		            <h2 class="black">Continue aprendendo!</h2>
+		        </div>
+
+				<div class="row">
+					<div id="random_posts"></div>
+				</div>	
+
+				<div class="text-center">
+	                <a href="/blog/index.html" class="button ripple-out-animation">
+	                    ←  Retornar ao Blog
+	                </a>
+	            </div>		
+			</section>		
+		</div>
+
+						
+			
+<div id="comment-box" class="center-block">
+    <div class="container">
+        <div id="disqus_thread"></div>        
+    </div>
+</div>
+
+		
+
+		<!-- Affix -->		
+		<div class="social-media-affix">
+			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
+			<ul>				
+				<li>
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/construcao-de-apis-com-django-rest-framework','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+						<i class="fa fa-fw fa-facebook"></i>
+					</a>
+				</li>				
+				
+				<li>							
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/construcao-de-apis-com-django-rest-framework&amp;related=PythonAcademyBR&amp;text=%22Construa%20APIs%20com%20Django%20e%20Django%20REST%20Framework%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+						<i class="fa fa-fw fa-twitter"></i>
+					</a>
+				</li>
+
+				<li>
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/construcao-de-apis-com-django-rest-framework" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/construcao-de-apis-com-django-rest-framework" data-action="share/whatsapp/share">
+						<i class="fa fa-fw fa-whatsapp"></i>
+					</a>
+				</li>
+
+				<li>
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Construa%20APIs%20com%20Django%20e%20Django%20REST%20Framework&amp;body=https://pythonacademy.com.br/blog/construcao-de-apis-com-django-rest-framework&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+						<i class="fa fa-fw fa-envelope"></i>
+					</a>
+				</li>
+
+				
+			</ul>
+		</div>		
+
+		
+
+
+<section id="footer-signup">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<h2 class="bold">Aprenda Python de Verdade!</h2>
+				<p class="mb-32">
+					Cadastre o seu <span class="bold">melhor email</span> para receber gratuitamente conteúdos exclusivos e muito mais!
+				</p>
+			</div>
+			
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
+				<!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: Eu quero! = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate>
+    <div id="mc_embed_signup_scroll" class="mailchimp-signup container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-12 col-sm-3">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required>
+            </div>
+            
+            <div class="col-xs-12 col-sm-5">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required>                
+            </div>
+
+            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <span><img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> Eu quero!</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>            
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4">
+				<div class="footer-wrapper">
+					<p>Sobre</p>
+	
+					<ul>					
+						<li>
+							<a href="/">Início</a>
+						</li>
+
+						<li>
+							<a href="/sobre">Sobre a Python Academy</a>
+						</li>
+	
+						<li>
+							<a href="/zen-of-python"><i>Zen of Python</i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-4">
+				<div class="footer-wrapper">
+					<p>Conteúdo</p>
+	
+					<ul>
+						<li>
+							<a href="/blog/">Blog</a>
+						</li>
+						<li>
+							<a href="/sliders/">Sliders</a>
+						</li>						
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-4">
+				<div class="footer-wrapper">
+					<p>Ebooks</p>
+	
+					<ul>
+						<li>
+							<a href="/ebooks/desenvolvimento-web-com-python-e-django/">Desenvolvimento Web com Python e Django</a>
+						</li>					
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="blue-yellow-separator no-repeat pt-64 pb-64"></div>
+		
+		<div class="row">
+			<div class="col-sm-12 hidden-xs text-center">
+				<div class="footer-wrapper">
+					<img src="/assets/img/logo.png" alt="Aprenda Computação de Verdade!" class="footer-logo">
+	
+					<p class="footer-label mt-16">
+						Existimos para levar o conhecimento de Python a todos de forma simples e inovadora!
+					</p>
+	
+					<ul class="social-medias">
+						<li>
+							<a href="https://www.instagram.com/pythonacademybr/" target="_blank">
+								<img src="/assets/img/instagram.png" alt="Facebook" data-aos="fade-in" data-aos-delay="0" data-aos-duration="500">
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.facebook.com/pythonacademy" target="_blank">
+								<img src="/assets/img/facebook.png" alt="Facebook" data-aos="fade-in" data-aos-delay="150" data-aos-duration="500">
+							</a>
+						</li>												
+						
+						<li>
+							<a href="https://www.linkedin.com/company/pythonacademy/" target="_blank">
+								<img src="/assets/img/linkedin.png" alt="Medium" data-aos="fade-in" data-aos-delay="300" data-aos-duration="500">
+							</a>
+						</li>						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="footer-copyright">
+	<div class="text-center">
+		<p>
+			© <b>2021</b> Python Academy <img src="/assets/img/cross.png" alt="Conheça Jesus Cristo!" height="24px" class="ml-16 mr-16 hidden-xs"> <br class="visible-xs">
+			<i>"Porque o Senhor dá a <b>sabedoria</b>, e da sua boca vem a <b>inteligência</b> e o <b>entendimento</b>" Pv 2:6</i>
+		</p>
+	</div>
+</section>
+
+<script src="/assets/vendors/bundle.min.js"></script>
+
+<!-- Custom scripts -->
+
+<script src="/assets/js/min/script.min.js"></script>
+
+
+
+
+		<!-- Cookie.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
+		
+		<!-- Javascript -->		
+		<script type="text/javascript">			
+			(function($) {
+				AOS.init({
+					easing: 'ease-out-back',
+					duration: 1500
+				});
+
+				generateRandomPosts();
+			})(jQuery);
+			
+			
+				new Vivus('featured-icon', {
+					duration: 80,
+					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
+				});
+						
+
+			$('.social-media-affix').affix({
+				offset: {
+					top: $(".post-banner").height()
+				}
+			});
+
+			// Generate random posts
+			function generateRandomPosts() {
+				var counter = 0;	            
+
+				$.getJSON("/blog/posts.json", function(data) {
+					var postsCount = data.length;					
+					var posts = data;
+
+					var randomIndexUsed = [];	
+					var numberOfPosts = 4;
+
+					var divRandomPosts = $("#random_posts");		            
+
+					while (counter < numberOfPosts) {
+						var randomIndex = Math.floor(Math.random() * postsCount);
+						
+						if (randomIndexUsed.indexOf(randomIndex) == "-1") {
+
+							var post = posts[randomIndex];
+
+							// Verify if related post is the same as the shown
+							if (post.title != "Construa APIs com Django e Django REST Framework") {
+								var postHTML = 
+									"<div class='col-lg-3 col-md-6 col-sm-6 col-xs-12'>" +
+										"<a href='" + post.href + "' class='card aos-init aos-animate' data-aos='fade-up'>" +
+											"<div class='card-frame'>" +
+												"<object id='featured-icon-" + counter + " class=featured-icon' type='image/svg+xml' data='/assets/posts/" + post.assets + "/" + post.featured_icon + "' height='175px'></object>" +
+											"</div>" + 
+											
+											"<div class='caption'>" +
+												"<h3 class='card-title'>" +
+													post.h1 +
+												"</h3>" +
+											"</div>" +
+										"</div>" +
+									"</div>"
+
+								divRandomPosts.append(postHTML);
+								randomIndexUsed.push(randomIndex);
+								
+								counter++;
+							}
+						}
+					}
+				});								
+			}
+			
+			// Show signup modal on mouse leave event
+			$( document ).ready(function() {
+				$("body").bind("mouseleave",function(){
+					if(!Cookies.get('pa_popup')) {
+	
+						// Same as included sticky-newsletter id
+						$('#email-modal').modal('show');
+
+						/* Set cookie so this does not repeat */
+						Cookies.set('pa_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/construcao-de-apis-com-django-rest-framework' });
+					}
+				});		
+				
+				// Initialize SVG animation on each related posts
+				$("#random_posts").find('.card-frame object').each(function(index, element) {
+					new Vivus(element, {
+						duration: 80,
+						type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
+					});
+				})
+			});
+
+		</script>
+		
+		<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"d818a1dcab21e0bb6fbe4a39b","lid":"11b4623db6"}) })</script>	
+
+		
+			<script type="text/javascript">
+				var disqus_config = function () {
+					this.page.url = 'https://pythonacademy.com.br/blog/construcao-de-apis-com-django-rest-framework';     // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = '/blog/construcao-de-apis-com-django-rest-framework';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+			
+				(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = '//python-academy.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+			</script>
+		
+			<noscript>Por favor, habilite o Javascript para visualizar os <a href="https://disqus.com/?ref_noscript">comentários.</a>
+</noscript>
+		
+	</body>
+</html>
+

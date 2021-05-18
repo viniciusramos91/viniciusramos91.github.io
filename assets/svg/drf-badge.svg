@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="22.063881mm"
+   height="22.063875mm"
+   viewBox="0 0 22.063881 22.063875"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
+   sodipodi:docname="drf-badge.svg">
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1201"
+       x="-0.026999993"
+       width="1.054"
+       y="-0.027000006"
+       height="1.054">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.19618971"
+         id="feGaussianBlur1203" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="43.517839"
+     inkscape:cy="39.712309"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1457"
+     inkscape:window-height="993"
+     inkscape:window-x="551"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-73.393181,-62.691543)">
+    <path
+       style="fill:#000000;fill-opacity:0.2;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter1201)"
+       d="m 74.904452,79.609021 v 1.837057 l 17.43909,-17.439082 h -1.83705 z"
+       id="path1129"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#0c4b33;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 73.393183,71.999758 9.268518,-9.308215 h 9.87851 l -19.14703,19.147022 z"
+       id="path1054" />
+    <path
+       style="fill:#6a0000;fill-opacity:1;stroke:none;stroke-width:0.33377;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 78.024912,67.36804 -4.631729,4.631718 v 9.83881 l 19.14703,-19.147024 h -9.878511 z"
+       id="path847"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#370000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 75.165682,80.066069 -1.772499,1.772493 v 1.144356 l 1.7725,1.7725 z"
+       id="path1127" />
+    <path
+       style="fill:#370000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 95.457062,64.464045 -1.77249,-1.772501 h -1.144359 l -1.772491,1.772501 z"
+       id="path1131" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.38662px;line-height:1.25;font-family:DTLProkyonST;-inkscape-font-specification:'DTLProkyonST Medium';letter-spacing:0.637646px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.159366;stroke-miterlimit:4;stroke-dasharray:none"
+       x="3.485971"
+       y="107.48357"
+       id="text1386"
+       transform="rotate(-45)"><tspan
+         sodipodi:role="line"
+         id="tspan1384"
+         x="3.485971"
+         y="107.48357"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:DTLProkyonST;-inkscape-font-specification:'DTLProkyonST Medium';letter-spacing:0.637646px;fill:#ffffff;stroke:#ffffff;stroke-width:0.159366;stroke-miterlimit:4;stroke-dasharray:none">DRF</tspan></text>
+  </g>
+</svg>

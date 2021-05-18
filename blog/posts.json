@@ -2,6 +2,42 @@
     
     
     {
+      "h1": "Filtros, Busca e Ordenação no Django REST Framework",
+      "title": "Adicione Filtros, Busca e Ordenação no Django REST Framework",
+      "href": "/blog/filtros-busca-e-ordenacao-no-drf",
+      "slug": "filtros-busca-e-ordenacao-no-drf",
+      "assets": "drf-filters",
+      "author": "Vinícius R",
+      "description": "<p>Esse post mostra como estender as funcionalidades de sua API, adicionando Filtros, Busca Textual e Ordenação às APIs desenvolvidas com o poderoso Django REST Framework</p>",
+      "featured_icon": "featured_img.svg",
+      "date": {
+         "day": "16",
+         "month": "May",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
+      "h1": "Construção de APIs com Django REST Framework",
+      "title": "Construa APIs com Django e Django REST Framework",
+      "href": "/blog/construcao-de-apis-com-django-rest-framework",
+      "slug": "construcao-de-apis-com-django-rest-framework",
+      "assets": "drf",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post vamos ver como é fácil construir APIs de maneira rápida com nosso velho conhecido Django e o poderoso Django Rest Framework</p>",
+      "featured_icon": "featured_img.svg",
+      "date": {
+         "day": "05",
+         "month": "May",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "A Biblioteca itertools do Python",
       "title": "Aprenda a utilizar a incrível biblioteca itertools do Python e vire um expert!",
       "href": "/blog/a-biblioteca-itertools-do-python",
