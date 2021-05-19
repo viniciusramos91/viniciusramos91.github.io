@@ -97,7 +97,7 @@
 		
 		
 
-		<link rel="stylesheet" href="/assets/css/post.css?1621311176408927005">
+		<link rel="stylesheet" href="/assets/css/post.css?1621438555581466153">
 	</head>
 
 	<body id="post-body">		
@@ -371,8 +371,8 @@ números (que são 0 e 1), é a soma dos últimos dois. Assim:</p>
 <td class="code"><pre><span class="k">class</span> <span class="nc">Fibonacci</span><span class="p">:</span>
   <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">maximo</span><span class="o">=</span><span class="mi">1000000</span><span class="p">):</span>
     <span class="c1"># Inicializa os dois primeiros numeros
-</span>    <span class="bp">self</span><span class="p">.</span><span class="n">elemento_atual</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">proximo_elemento</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">maximo</span> <span class="o">=</span> <span class="n">maximo</span>
+</span>    <span class="bp">self</span><span class="o">.</span><span class="n">elemento_atual</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">proximo_elemento</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">maximo</span> <span class="o">=</span> <span class="n">maximo</span>
 
   <span class="k">def</span> <span class="nf">__iter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
     <span class="c1"># Retorna o objeto iterável (ele próprio: self)
@@ -380,14 +380,14 @@ números (que são 0 e 1), é a soma dos últimos dois. Assim:</p>
 
   <span class="k">def</span> <span class="nf">__next__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
     <span class="c1"># Fim da iteração, raise StopIteration
-</span>    <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">elemento_atual</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="p">.</span><span class="n">maximo</span><span class="p">:</span>
+</span>    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">elemento_atual</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">maximo</span><span class="p">:</span>
       <span class="k">raise</span> <span class="nb">StopIteration</span>
 
     <span class="c1"># Salva o valor a ser retornado
-</span>    <span class="n">valor_de_retorno</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">elemento_atual</span>
+</span>    <span class="n">valor_de_retorno</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">elemento_atual</span>
 
     <span class="c1"># Atualiza o próximo elemento da sequencia
-</span>    <span class="bp">self</span><span class="p">.</span><span class="n">elemento_atual</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">proximo_elemento</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">proximo_elemento</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">elemento_atual</span> <span class="o">+</span> <span class="bp">self</span><span class="p">.</span><span class="n">proximo_elemento</span>
+</span>    <span class="bp">self</span><span class="o">.</span><span class="n">elemento_atual</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">proximo_elemento</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">proximo_elemento</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">elemento_atual</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">proximo_elemento</span>
 
     <span class="k">return</span> <span class="n">valor_de_retorno</span>
         
@@ -398,7 +398,7 @@ números (que são 0 e 1), é a soma dos últimos dois. Assim:</p>
 
   <span class="c1"># Itera nossa sequencia
 </span>  <span class="k">for</span> <span class="n">fibonacci</span> <span class="ow">in</span> <span class="n">objeto_fibonacci</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">"Sequencia: {}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">fibonacci</span><span class="p">))</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Sequencia: {}"</span><span class="o">.</span><span class="nb">format</span><span class="p">(</span><span class="n">fibonacci</span><span class="p">))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -623,7 +623,7 @@ o atual, salvando assim, a preciosa memória da sua máquina.</p>
 2
 </pre></td>
 <td class="code"><pre><span class="n">fibonacci_impares</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">fibonacci</span><span class="p">(</span><span class="mi">100000</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span><span class="o">%</span><span class="mi">2</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">]</span>
-<span class="k">print</span><span class="p">(</span><span class="s">"Número ímpares são: {0}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">fibonacci_impares</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Número ímpares são: {0}"</span><span class="o">.</span><span class="nb">format</span><span class="p">(</span><span class="n">fibonacci_impares</span><span class="p">))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 

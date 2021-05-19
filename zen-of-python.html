@@ -235,7 +235,7 @@
                         elementos para se fazer entender (sem nada "escondido"). Por exemplo, use:
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">os</span>
-<span class="k">print</span> <span class="n">os</span><span class="p">.</span><span class="n">getcwd</span><span class="p">()</span></code></pre></figure>  
+<span class="k">print</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span></code></pre></figure>  
                         ao invés de: 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="k">print</span> <span class="n">getcwd</span><span class="p">()</span></code></pre></figure>  
@@ -258,19 +258,19 @@
 <span class="kn">import</span> <span class="nn">sqlalchemy.types</span> <span class="k">as</span> <span class="n">sqltypes</span>
 
 <span class="k">def</span> <span class="nf">gravar</span><span class="p">(</span><span class="n">dados</span><span class="p">):</span>
-    <span class="n">db</span> <span class="o">=</span> <span class="n">sqlalchemy</span><span class="p">.</span><span class="n">create_engine</span><span class="p">(</span><span class="s">'sqlite:///dados.db'</span><span class="p">)</span>
-    <span class="n">db</span><span class="p">.</span><span class="n">echo</span> <span class="o">=</span> <span class="bp">False</span>
-    <span class="n">metadata</span> <span class="o">=</span> <span class="n">sqlalchemy</span><span class="p">.</span><span class="n">MetaData</span><span class="p">(</span><span class="n">db</span><span class="p">)</span>
-        <span class="n">table</span> <span class="o">=</span> <span class="n">sqlalchemy</span><span class="p">.</span><span class="n">Table</span><span class="p">(</span><span class="s">'dados'</span><span class="p">,</span> <span class="n">metadata</span><span class="p">,</span>
-        <span class="n">sqlalchemy</span><span class="p">.</span><span class="n">Column</span><span class="p">(</span><span class="s">'id'</span><span class="p">,</span> <span class="n">sqltypes</span><span class="p">.</span><span class="n">Integer</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="bp">True</span><span class="p">),</span>
-        <span class="n">sqlalchemy</span><span class="p">.</span><span class="n">Column</span><span class="p">(</span><span class="s">'peso'</span><span class="p">,</span> <span class="n">sqltypes</span><span class="p">.</span><span class="n">Float</span><span class="p">),</span>
-        <span class="n">sqlalchemy</span><span class="p">.</span><span class="n">Column</span><span class="p">(</span><span class="s">'cor'</span><span class="p">,</span> <span class="n">sqltypes</span><span class="p">.</span><span class="n">String</span><span class="p">(</span><span class="mi">32</span><span class="p">)),</span>
+    <span class="n">db</span> <span class="o">=</span> <span class="n">sqlalchemy</span><span class="o">.</span><span class="n">create_engine</span><span class="p">(</span><span class="s">'sqlite:///dados.db'</span><span class="p">)</span>
+    <span class="n">db</span><span class="o">.</span><span class="n">echo</span> <span class="o">=</span> <span class="bp">False</span>
+    <span class="n">metadata</span> <span class="o">=</span> <span class="n">sqlalchemy</span><span class="o">.</span><span class="n">MetaData</span><span class="p">(</span><span class="n">db</span><span class="p">)</span>
+        <span class="n">table</span> <span class="o">=</span> <span class="n">sqlalchemy</span><span class="o">.</span><span class="n">Table</span><span class="p">(</span><span class="s">'dados'</span><span class="p">,</span> <span class="n">metadata</span><span class="p">,</span>
+        <span class="n">sqlalchemy</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="s">'id'</span><span class="p">,</span> <span class="n">sqltypes</span><span class="o">.</span><span class="n">Integer</span><span class="p">,</span> <span class="n">primary_key</span><span class="o">=</span><span class="bp">True</span><span class="p">),</span>
+        <span class="n">sqlalchemy</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="s">'peso'</span><span class="p">,</span> <span class="n">sqltypes</span><span class="o">.</span><span class="n">Float</span><span class="p">),</span>
+        <span class="n">sqlalchemy</span><span class="o">.</span><span class="n">Column</span><span class="p">(</span><span class="s">'cor'</span><span class="p">,</span> <span class="n">sqltypes</span><span class="o">.</span><span class="n">String</span><span class="p">(</span><span class="mi">32</span><span class="p">)),</span>
     <span class="p">)</span>
-    <span class="n">table</span><span class="p">.</span><span class="n">create</span><span class="p">(</span><span class="n">checkfirst</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">table</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="n">checkfirst</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
 
     <span class="k">for</span> <span class="n">dado</span> <span class="ow">in</span> <span class="n">dados</span><span class="p">:</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">table</span><span class="p">.</span><span class="n">insert</span><span class="p">()</span>
-        <span class="n">i</span><span class="p">.</span><span class="n">execute</span><span class="p">(</span><span class="o">**</span><span class="n">dados</span><span class="p">)</span></code></pre></figure>  
+        <span class="n">i</span> <span class="o">=</span> <span class="n">table</span><span class="o">.</span><span class="n">insert</span><span class="p">()</span>
+        <span class="n">i</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="o">**</span><span class="n">dados</span><span class="p">)</span></code></pre></figure>  
 
                         E outro poderia vir com:
 
@@ -278,7 +278,7 @@
 
 <span class="k">def</span> <span class="nf">gravar</span><span class="p">(</span><span class="n">dados</span><span class="p">):</span>
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'dados.json'</span><span class="p">,</span> <span class="s">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-        <span class="n">f</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">json</span><span class="p">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">dados</span><span class="p">))</span></code></pre></figure>  
+        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">dados</span><span class="p">))</span></code></pre></figure>  
                         Dado o requisito de apenas <b>gravar em disco</b>, qual solução é mais simples?
                     </div>
                 </div>
@@ -297,10 +297,10 @@
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">MySQLdb</span>
 
 <span class="k">def</span> <span class="nf">gravar</span><span class="p">(</span><span class="n">dados</span><span class="p">):</span>
-    <span class="n">db</span> <span class="o">=</span> <span class="n">MySQLdb</span><span class="p">.</span><span class="n">connect</span><span class="p">(</span><span class="n">user</span><span class="o">=</span><span class="s">'usuario'</span><span class="p">,</span> <span class="n">passwd</span><span class="o">=</span><span class="s">"senha"</span><span class="p">,</span> <span class="n">host</span><span class="o">=</span><span class="s">'localhost'</span><span class="p">,</span> <span class="n">db</span><span class="o">=</span><span class="s">"dados"</span><span class="p">)</span>
+    <span class="n">db</span> <span class="o">=</span> <span class="n">MySQLdb</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">user</span><span class="o">=</span><span class="s">'usuario'</span><span class="p">,</span> <span class="n">passwd</span><span class="o">=</span><span class="s">"senha"</span><span class="p">,</span> <span class="n">host</span><span class="o">=</span><span class="s">'localhost'</span><span class="p">,</span> <span class="n">db</span><span class="o">=</span><span class="s">"dados"</span><span class="p">)</span>
 
-    <span class="n">c</span> <span class="o">=</span> <span class="n">db</span><span class="p">.</span><span class="n">cursor</span><span class="p">()</span>
-    <span class="n">c</span><span class="p">.</span><span class="n">execute</span><span class="p">(</span><span class="s">"""
+    <span class="n">c</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s">"""
         CREATE TABLE IF NOT EXISTS dados
         id int(11) NOT NULL auto_increment,
         peso float,
@@ -311,10 +311,10 @@
 
     <span class="n">insert_sql</span> <span class="o">=</span> <span class="p">(</span>
         <span class="s">"INSERT INTO dados (peso, cor) "</span>
-        <span class="s">"VALUES (%s, %s, %s)"</span><span class="p">)</span>
+        <span class="s">"VALUES (</span><span class="si">%</span><span class="s">s, </span><span class="si">%</span><span class="s">s, </span><span class="si">%</span><span class="s">s)"</span><span class="p">)</span>
 
     <span class="k">for</span> <span class="n">dado</span> <span class="ow">in</span> <span class="n">dados</span><span class="p">:</span>
-        <span class="n">c</span><span class="p">.</span><span class="n">execute</span><span class="p">(</span><span class="n">insert_sql</span><span class="p">,</span>
+        <span class="n">c</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">insert_sql</span><span class="p">,</span>
             <span class="p">(</span><span class="n">dado</span><span class="p">[</span><span class="s">'peso'</span><span class="p">],</span> <span class="n">dado</span><span class="p">[</span><span class="s">'dor'</span><span class="p">])</span>
         <span class="p">)</span></code></pre></figure>  
                         Essa solução é dita <b>complicada</b> pois é extremamente acoplada, dependente de implementação, pouco manutenível e exige conhecimento não apenas da
@@ -473,7 +473,7 @@
 <span class="kn">import</span> <span class="nn">modelos.gato</span> <span class="k">as</span> <span class="n">gato</span>
 
 <span class="k">def</span> <span class="nf">funcao</span><span class="p">():</span>
-    <span class="n">cachorro</span><span class="p">.</span><span class="n">perseguir</span><span class="p">(</span><span class="n">gato</span><span class="p">)</span>    </code></pre></figure>
+    <span class="n">cachorro</span><span class="o">.</span><span class="n">perseguir</span><span class="p">(</span><span class="n">gato</span><span class="p">)</span>    </code></pre></figure>
                     </div>
                 </div>
 

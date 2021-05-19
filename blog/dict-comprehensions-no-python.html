@@ -97,7 +97,7 @@
 		
 		
 
-		<link rel="stylesheet" href="/assets/css/post.css?1621311176408927005">
+		<link rel="stylesheet" href="/assets/css/post.css?1621438555581466153">
 	</head>
 
 	<body id="post-body">		
@@ -356,10 +356,10 @@
 </span><span class="k">print</span><span class="p">(</span><span class="n">dicionario</span><span class="p">[</span><span class="s">'nome'</span><span class="p">])</span>
 
 <span class="c1"># Saída: 29
-</span><span class="k">print</span><span class="p">(</span><span class="n">dicionario</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'idade'</span><span class="p">))</span>
+</span><span class="k">print</span><span class="p">(</span><span class="n">dicionario</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'idade'</span><span class="p">))</span>
 
 <span class="c1"># Caso não encontre, devolva o valor None
-</span><span class="k">print</span><span class="p">(</span><span class="n">dicionario</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'altura'</span><span class="p">,</span> <span class="bp">None</span><span class="p">))</span>
+</span><span class="k">print</span><span class="p">(</span><span class="n">dicionario</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'altura'</span><span class="p">,</span> <span class="bp">None</span><span class="p">))</span>
 
 <span class="c1"># Será lançada uma exceção KeyError
 </span><span class="k">print</span><span class="p">(</span><span class="n">dicionario</span><span class="p">[</span><span class="s">'endereco'</span><span class="p">])</span>
@@ -403,13 +403,13 @@
 <td class="code"><pre><span class="n">dicionario</span> <span class="o">=</span> <span class="p">{</span><span class="s">'nome'</span><span class="p">:</span> <span class="s">'Vinícius Ramos'</span><span class="p">,</span> <span class="s">'idade'</span><span class="p">:</span> <span class="mi">29</span><span class="p">,</span> <span class="s">'empresa'</span><span class="p">:</span> <span class="s">'PythonAcademy'</span><span class="p">}</span>
 
 <span class="c1"># Remove a chave/valor 'idade': 29
-</span><span class="n">dicionario</span><span class="p">.</span><span class="n">pop</span><span class="p">(</span><span class="s">'idade'</span><span class="p">)</span>
+</span><span class="n">dicionario</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s">'idade'</span><span class="p">)</span>
 
 <span class="c1"># Remove um par aleatório
-</span><span class="n">dicionario</span><span class="p">.</span><span class="n">popitem</span><span class="p">()</span>
+</span><span class="n">dicionario</span><span class="o">.</span><span class="n">popitem</span><span class="p">()</span>
 
 <span class="c1"># Remove todos os itens
-</span><span class="n">dicionario</span><span class="p">.</span><span class="n">clear</span><span class="p">()</span>
+</span><span class="n">dicionario</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
 
 <span class="c1"># Deleta 'empresa'
 </span><span class="k">del</span> <span class="n">dicionario</span><span class="p">[</span><span class="s">'empresa'</span><span class="p">]</span>
@@ -529,7 +529,7 @@
 </pre></td>
 <td class="code"><pre><span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Ferrari'</span><span class="p">,</span> <span class="s">'Lamborghini'</span><span class="p">,</span> <span class="s">'Porsche'</span><span class="p">]</span>
 <span class="n">dicionario</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">elemento</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span><span class="si">}</span><span class="s">'</span><span class="p">:</span> <span class="sa">f</span><span class="s">'Montadora: </span><span class="si">{</span><span class="n">elemento</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s">'</span> <span class="k">for</span> <span class="n">elemento</span> <span class="ow">in</span> <span class="n">lista</span>
+  <span class="n">f</span><span class="s">'{elemento.lower()}'</span><span class="p">:</span> <span class="n">f</span><span class="s">'Montadora: {elemento.upper()}'</span> <span class="k">for</span> <span class="n">elemento</span> <span class="ow">in</span> <span class="n">lista</span>
 <span class="p">}</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -576,7 +576,7 @@
 <td class="code"><pre><span class="kn">import</span> <span class="nn">locale</span>
 
 <span class="c1"># Configura o locale pra Português do Brasil (pt_BR)
-</span><span class="n">locale</span><span class="p">.</span><span class="n">setlocale</span><span class="p">(</span><span class="n">locale</span><span class="p">.</span><span class="n">LC_MONETARY</span><span class="p">,</span> <span class="s">'pt_BR.utf8'</span><span class="p">)</span>
+</span><span class="n">locale</span><span class="o">.</span><span class="n">setlocale</span><span class="p">(</span><span class="n">locale</span><span class="o">.</span><span class="n">LC_MONETARY</span><span class="p">,</span> <span class="s">'pt_BR.utf8'</span><span class="p">)</span>
 
 <span class="n">carros_esportivos</span> <span class="o">=</span> <span class="p">{</span>  
   <span class="s">'ferrari'</span><span class="p">:</span> <span class="mi">1299000</span><span class="p">,</span>
@@ -585,7 +585,7 @@
 <span class="p">}</span>
 
 <span class="n">dict_saida</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="n">chave</span><span class="p">:</span> <span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">chave</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">locale</span><span class="p">.</span><span class="n">currency</span><span class="p">(</span><span class="n">valor</span><span class="p">)</span><span class="si">}</span><span class="s">'</span> <span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">carros_esportivos</span><span class="p">.</span><span class="n">items</span><span class="p">()</span>
+  <span class="n">chave</span><span class="p">:</span> <span class="n">f</span><span class="s">'{chave.upper()}: {locale.currency(valor)}'</span> <span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">carros_esportivos</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
 <span class="p">}</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -670,7 +670,7 @@
 <td class="code"><pre><span class="kn">import</span> <span class="nn">locale</span>
 
 <span class="c1"># Configura o locale pra Português do Brasil (pt_BR)
-</span><span class="n">locale</span><span class="p">.</span><span class="n">setlocale</span><span class="p">(</span><span class="n">locale</span><span class="p">.</span><span class="n">LC_MONETARY</span><span class="p">,</span> <span class="s">'pt_BR.utf8'</span><span class="p">)</span>
+</span><span class="n">locale</span><span class="o">.</span><span class="n">setlocale</span><span class="p">(</span><span class="n">locale</span><span class="o">.</span><span class="n">LC_MONETARY</span><span class="p">,</span> <span class="s">'pt_BR.utf8'</span><span class="p">)</span>
 
 <span class="n">carros_esportivos</span> <span class="o">=</span> <span class="p">{</span>  
   <span class="s">'ferrari'</span><span class="p">:</span> <span class="mi">1299000</span><span class="p">,</span>
@@ -679,8 +679,8 @@
 <span class="p">}</span>
 
 <span class="n">dict_saida</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="n">chave</span><span class="p">:</span> <span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">chave</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">locale</span><span class="p">.</span><span class="n">currency</span><span class="p">(</span><span class="n">valor</span><span class="p">)</span><span class="si">}</span><span class="s">'</span> 
-  <span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">carros_esportivos</span><span class="p">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">valor</span> <span class="o">&gt;</span> <span class="mi">1000000</span>
+  <span class="n">chave</span><span class="p">:</span> <span class="n">f</span><span class="s">'{chave.upper()}: {locale.currency(valor)}'</span> 
+  <span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">carros_esportivos</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">valor</span> <span class="o">&gt;</span> <span class="mi">1000000</span>
 <span class="p">}</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -730,7 +730,7 @@
 <td class="code"><pre><span class="kn">import</span> <span class="nn">locale</span>
 
 <span class="c1"># Configura o locale pra Português do Brasil (pt_BR)
-</span><span class="n">locale</span><span class="p">.</span><span class="n">setlocale</span><span class="p">(</span><span class="n">locale</span><span class="p">.</span><span class="n">LC_MONETARY</span><span class="p">,</span> <span class="s">'pt_BR.utf8'</span><span class="p">)</span>
+</span><span class="n">locale</span><span class="o">.</span><span class="n">setlocale</span><span class="p">(</span><span class="n">locale</span><span class="o">.</span><span class="n">LC_MONETARY</span><span class="p">,</span> <span class="s">'pt_BR.utf8'</span><span class="p">)</span>
 
 <span class="n">carros_esportivos</span> <span class="o">=</span> <span class="p">{</span>  
   <span class="s">'ferrari'</span><span class="p">:</span> <span class="mi">1299000</span><span class="p">,</span>
@@ -739,10 +739,10 @@
 <span class="p">}</span>
 
 <span class="n">dict_saida</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="n">chave</span> <span class="k">if</span> <span class="n">valor</span> <span class="o">&gt;</span> <span class="mi">1000000</span> <span class="k">else</span> <span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">chave</span><span class="si">}</span><span class="s">-valor-abaixo'</span><span class="p">:</span>
-    <span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">chave</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">locale</span><span class="p">.</span><span class="n">currency</span><span class="p">(</span><span class="n">valor</span><span class="p">)</span><span class="si">}</span><span class="s">'</span> 
-    <span class="k">if</span> <span class="n">valor</span> <span class="o">&gt;</span> <span class="mi">1000000</span> <span class="k">else</span> <span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">chave</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s">: Valor abaixo de R$ 1.000.000,00'</span>
-  <span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">carros_esportivos</span><span class="p">.</span><span class="n">items</span><span class="p">()</span>
+  <span class="n">chave</span> <span class="k">if</span> <span class="n">valor</span> <span class="o">&gt;</span> <span class="mi">1000000</span> <span class="k">else</span> <span class="n">f</span><span class="s">'{chave}-valor-abaixo'</span><span class="p">:</span>
+    <span class="n">f</span><span class="s">'{chave.upper()}: {locale.currency(valor)}'</span> 
+    <span class="k">if</span> <span class="n">valor</span> <span class="o">&gt;</span> <span class="mi">1000000</span> <span class="k">else</span> <span class="n">f</span><span class="s">'{chave.upper()}: Valor abaixo de R$ 1.000.000,00'</span>
+  <span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">carros_esportivos</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
 <span class="p">}</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>

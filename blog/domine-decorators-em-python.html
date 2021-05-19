@@ -97,7 +97,7 @@
 		
 		
 
-		<link rel="stylesheet" href="/assets/css/post.css?1621311176408927005">
+		<link rel="stylesheet" href="/assets/css/post.css?1621438555581466153">
 	</head>
 
 	<body id="post-body">		
@@ -537,13 +537,13 @@ determinada função!</strong></p>
 </span><span class="k">def</span> <span class="nf">calcula_duracao</span><span class="p">(</span><span class="n">funcao</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">wrapper</span><span class="p">():</span>
         <span class="c1"># Calcula o tempo de execução
-</span>        <span class="n">tempo_inicial</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
+</span>        <span class="n">tempo_inicial</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
         <span class="n">funcao</span><span class="p">()</span>
-        <span class="n">tempo_final</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
+        <span class="n">tempo_final</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
 
         <span class="c1"># Formata a mensagem que será mostrada na tela
-</span>        <span class="k">print</span><span class="p">(</span><span class="s">"[{funcao}] Tempo total de execução: {tempo_total}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span>
-            <span class="n">funcao</span><span class="o">=</span><span class="n">funcao</span><span class="p">.</span><span class="n">__name__</span><span class="p">,</span>
+</span>        <span class="k">print</span><span class="p">(</span><span class="s">"[{funcao}] Tempo total de execução: {tempo_total}"</span><span class="o">.</span><span class="nb">format</span><span class="p">(</span>
+            <span class="n">funcao</span><span class="o">=</span><span class="n">funcao</span><span class="o">.</span><span class="n">__name__</span><span class="p">,</span>
             <span class="n">tempo_total</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tempo_final</span> <span class="o">-</span> <span class="n">tempo_inicial</span><span class="p">))</span>
         <span class="p">)</span>
 
@@ -643,7 +643,7 @@ corpo de toda função que trata requisições. Exemplo (utilizando Flask):</p>
 7
 8
 </pre></td>
-<td class="code"><pre><span class="o">@</span><span class="n">app</span><span class="p">.</span><span class="n">route</span><span class="p">(</span><span class="s">'/admin'</span><span class="p">)</span>
+<td class="code"><pre><span class="o">@</span><span class="n">app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s">'/admin'</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">admin_index</span><span class="p">():</span>
     <span class="c1"># Verifica se session['logado'] já foi setado
 </span>    <span class="k">if</span> <span class="p">(</span><span class="s">'logado'</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">session</span><span class="p">):</span>
@@ -704,7 +704,7 @@ queremos restringir o acesso. Exemplo:</p>
 6
 </pre></td>
 <td class="code"><pre><span class="c1"># Olha quem tá aqui... Outro decorator :D
-</span><span class="o">@</span><span class="n">app</span><span class="p">.</span><span class="n">route</span><span class="p">(</span><span class="s">'/admin/dashboard'</span><span class="p">)</span>
+</span><span class="o">@</span><span class="n">app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s">'/admin/dashboard'</span><span class="p">)</span>
 <span class="o">@</span><span class="n">requer_autenticacao</span>
 <span class="k">def</span> <span class="nf">admin_dashboard</span><span class="p">():</span>    
     <span class="c1"># Renderiza o template dashboard.html

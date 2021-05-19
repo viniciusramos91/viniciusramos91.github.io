@@ -97,7 +97,7 @@
 		
 		
 
-		<link rel="stylesheet" href="/assets/css/post.css?1621311176408927005">
+		<link rel="stylesheet" href="/assets/css/post.css?1621438555581466153">
 	</head>
 
 	<body id="post-body">		
@@ -639,7 +639,7 @@ StopIteration
   <span class="c1"># Loop sobre as possíveis combinações verificando se somam 100
 </span>  <span class="k">for</span> <span class="n">combinacao</span> <span class="ow">in</span> <span class="n">combinations</span><span class="p">(</span><span class="n">notas</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
     <span class="k">if</span> <span class="nb">sum</span><span class="p">(</span><span class="n">combinacao</span><span class="p">)</span> <span class="o">==</span> <span class="mi">100</span><span class="p">:</span>
-      <span class="n">soma_100</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">combinacao</span><span class="p">)</span>
+      <span class="n">soma_100</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">combinacao</span><span class="p">)</span>
 
 <span class="c1"># Remove os itens repetidos
 </span><span class="n">resultado</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">soma_100</span><span class="p">))</span>
@@ -763,13 +763,13 @@ StopIteration
 <span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span> 
     
 <span class="c1"># Função a ser utilizada: operator.add (padrão)
-</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">accumulate</span><span class="p">(</span><span class="n">lista</span><span class="p">)))</span> 
+</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">accumulate</span><span class="p">(</span><span class="n">lista</span><span class="p">)))</span> 
 <span class="c1"># Função a ser utilizada: operator.mul (multiplicação)
-</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">accumulate</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">operator</span><span class="p">.</span><span class="n">mul</span><span class="p">)))</span> 
+</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">accumulate</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">operator</span><span class="o">.</span><span class="n">mul</span><span class="p">)))</span> 
 <span class="c1"># Função a ser utilizada: operator.sub (subtração)
-</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">accumulate</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">operator</span><span class="p">.</span><span class="n">sub</span><span class="p">)))</span> 
+</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">accumulate</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">operator</span><span class="o">.</span><span class="n">sub</span><span class="p">)))</span> 
 <span class="c1"># Função a ser utilizada: min
-</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">accumulate</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="nb">min</span><span class="p">)))</span> 
+</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">accumulate</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="nb">min</span><span class="p">)))</span> 
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -816,7 +816,7 @@ StopIteration
 
 <span class="n">exponenciacao</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="n">a</span> <span class="o">**</span> <span class="n">b</span>
     
-<span class="k">print</span> <span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">accumulate</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">exponenciacao</span><span class="p">)))</span> 
+<span class="k">print</span> <span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">accumulate</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">exponenciacao</span><span class="p">)))</span> 
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -851,7 +851,7 @@ StopIteration
   
 <span class="n">lista</span> <span class="o">=</span> <span class="nb">list</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span> <span class="p">)</span>
 <span class="n">conjunto</span> <span class="o">=</span> <span class="nb">set</span><span class="p">({</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">})</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">chain</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">conjunto</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">))))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">chain</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">conjunto</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">))))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -896,7 +896,7 @@ StopIteration
 
 <span class="c1"># Container de dados
 </span><span class="n">container</span> <span class="o">=</span> <span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">conjunto</span><span class="p">,</span> <span class="n">serie</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">chain</span><span class="p">.</span><span class="n">from_iterable</span><span class="p">(</span><span class="n">container</span><span class="p">)))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">chain</span><span class="o">.</span><span class="n">from_iterable</span><span class="p">(</span><span class="n">container</span><span class="p">)))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -933,7 +933,7 @@ StopIteration
   
 <span class="n">entrada</span> <span class="o">=</span> <span class="p">[</span><span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">),</span> <span class="s">'0'</span><span class="p">,</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)]</span>
 
-<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">compress</span><span class="p">(</span><span class="n">entrada</span><span class="p">,</span> <span class="n">selectors</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">])))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">compress</span><span class="p">(</span><span class="n">entrada</span><span class="p">,</span> <span class="n">selectors</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">])))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -963,7 +963,7 @@ StopIteration
 <td class="code"><pre><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span><span class="p">,</span> <span class="n">chain</span>
   
 <span class="n">entrada</span> <span class="o">=</span> <span class="p">[</span><span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">),</span> <span class="s">'0'</span><span class="p">,</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">)]</span>
-<span class="n">saida</span>   <span class="o">=</span> <span class="n">compress</span><span class="p">(</span><span class="n">chain</span><span class="p">.</span><span class="n">from_iterable</span><span class="p">(</span><span class="n">entrada</span><span class="p">),</span> <span class="n">selectors</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+<span class="n">saida</span>   <span class="o">=</span> <span class="n">compress</span><span class="p">(</span><span class="n">chain</span><span class="o">.</span><span class="n">from_iterable</span><span class="p">(</span><span class="n">entrada</span><span class="p">),</span> <span class="n">selectors</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
 
 <span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">saida</span><span class="p">))</span>
 </pre></td>
@@ -1009,7 +1009,7 @@ valor <code class="highlighter-rouge">100</code> seja encontrado. Depois disso, 
   <span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">80</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">101</span><span class="p">,</span> <span class="mi">142</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span>
 <span class="p">]</span>
 
-<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">dropwhile</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">,</span> <span class="n">entrada</span><span class="p">)))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">dropwhile</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">,</span> <span class="n">entrada</span><span class="p">)))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -1064,7 +1064,7 @@ valor <code class="highlighter-rouge">100</code> seja encontrado. Depois disso, 
   <span class="mi">10</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="mi">43</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">41</span><span class="p">,</span> <span class="mi">63</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">80</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">101</span><span class="p">,</span> <span class="mi">142</span>
 <span class="p">]</span>
 
-<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">filterfalse</span><span class="p">(</span><span class="n">verifica_se_primo</span><span class="p">,</span> <span class="n">entrada</span><span class="p">)))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">filterfalse</span><span class="p">(</span><span class="n">verifica_se_primo</span><span class="p">,</span> <span class="n">entrada</span><span class="p">)))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -1119,7 +1119,7 @@ e lhe fosse pedido que agrupasse os pedidos pelo nome do prato:</p>
 
 <span class="n">funcao_chave</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 
-<span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">grupo</span> <span class="ow">in</span> <span class="n">itertools</span><span class="p">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">entrada</span><span class="p">,</span> <span class="n">funcao_chave</span><span class="p">):</span>
+<span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">grupo</span> <span class="ow">in</span> <span class="n">itertools</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">entrada</span><span class="p">,</span> <span class="n">funcao_chave</span><span class="p">):</span>
   <span class="k">print</span><span class="p">({</span><span class="n">chave</span> <span class="p">:</span> <span class="nb">list</span><span class="p">(</span><span class="n">grupo</span><span class="p">)})</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -1171,11 +1171,11 @@ e lhe fosse pedido que agrupasse os pedidos pelo nome do prato:</p>
 <span class="n">entrada</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">44</span><span class="p">,</span> <span class="mi">59</span><span class="p">,</span> <span class="mi">67</span><span class="p">,</span> <span class="mi">74</span><span class="p">]</span>
 
 <span class="c1"># Slicing do início até metade do iterável de entrada
-</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">islice</span><span class="p">(</span><span class="n">entrada</span><span class="p">,</span> <span class="nb">int</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">entrada</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">))))</span>
+</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">islice</span><span class="p">(</span><span class="n">entrada</span><span class="p">,</span> <span class="nb">int</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">entrada</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">))))</span>
 <span class="c1"># Slicing começando do índice 3 até o final 
-</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">islice</span><span class="p">(</span><span class="n">entrada</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="bp">None</span><span class="p">)))</span>
+</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">islice</span><span class="p">(</span><span class="n">entrada</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="bp">None</span><span class="p">)))</span>
 <span class="c1"># Slicing do início até o fim, pulando de 2 em 2
-</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">islice</span><span class="p">(</span><span class="n">entrada</span><span class="p">,</span> <span class="bp">None</span><span class="p">,</span> <span class="bp">None</span><span class="p">,</span> <span class="mi">2</span><span class="p">)))</span>
+</span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">islice</span><span class="p">(</span><span class="n">entrada</span><span class="p">,</span> <span class="bp">None</span><span class="p">,</span> <span class="bp">None</span><span class="p">,</span> <span class="mi">2</span><span class="p">)))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -1246,7 +1246,7 @@ e lhe fosse pedido que agrupasse os pedidos pelo nome do prato:</p>
       <span class="k">return</span> <span class="bp">True</span>
   <span class="k">return</span> <span class="bp">False</span>
 
-<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">starmap</span><span class="p">(</span><span class="n">contem_par</span><span class="p">,</span> <span class="n">entrada</span><span class="p">)))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">starmap</span><span class="p">(</span><span class="n">contem_par</span><span class="p">,</span> <span class="n">entrada</span><span class="p">)))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -1283,7 +1283,7 @@ e lhe fosse pedido que agrupasse os pedidos pelo nome do prato:</p>
   
 <span class="n">entrada</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">100</span><span class="p">]</span>
 
-<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">takewhile</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&lt;=</span> <span class="mi">5</span><span class="p">,</span> <span class="n">entrada</span><span class="p">)))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">takewhile</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&lt;=</span> <span class="mi">5</span><span class="p">,</span> <span class="n">entrada</span><span class="p">)))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -1327,8 +1327,8 @@ e lhe fosse pedido que agrupasse os pedidos pelo nome do prato:</p>
 <span class="c1"># Transforma nossa lista em um iterador com iter()
 </span><span class="n">iterador</span> <span class="o">=</span> <span class="nb">iter</span><span class="p">(</span><span class="n">entrada</span><span class="p">)</span>
     
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">itertools</span><span class="p">.</span><span class="n">tee</span><span class="p">(</span><span class="n">iterador</span><span class="p">,</span> <span class="mi">3</span><span class="p">):</span> 
-    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'Iterador: </span><span class="si">{</span><span class="nb">list</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="si">}</span><span class="s"> (Tipo = </span><span class="si">{</span><span class="nb">type</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">itertools</span><span class="o">.</span><span class="n">tee</span><span class="p">(</span><span class="n">iterador</span><span class="p">,</span> <span class="mi">3</span><span class="p">):</span> 
+    <span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s">'Iterador: {list(i)} (Tipo = {type(i)}'</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -1372,8 +1372,8 @@ Iterador: [1, 2, 3, 4] (Tipo = &lt;class 'itertools._tee'&gt;)
 <span class="n">letras</span> <span class="o">=</span> <span class="p">[</span><span class="s">'a'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">,</span> <span class="s">'c'</span><span class="p">]</span>
 <span class="n">numeros</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
 
-<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">zip_longest</span><span class="p">(</span><span class="n">letras</span><span class="p">,</span> <span class="n">numeros</span><span class="p">)))</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="p">.</span><span class="n">zip_longest</span><span class="p">(</span><span class="n">letras</span><span class="p">,</span> <span class="n">numeros</span><span class="p">,</span> <span class="n">fillvalue</span><span class="o">=</span><span class="s">"-"</span><span class="p">)))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">zip_longest</span><span class="p">(</span><span class="n">letras</span><span class="p">,</span> <span class="n">numeros</span><span class="p">)))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">zip_longest</span><span class="p">(</span><span class="n">letras</span><span class="p">,</span> <span class="n">numeros</span><span class="p">,</span> <span class="n">fillvalue</span><span class="o">=</span><span class="s">"-"</span><span class="p">)))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -1498,13 +1498,13 @@ Iterador: [1, 2, 3, 4] (Tipo = &lt;class 'itertools._tee'&gt;)
   <span class="c1"># Itera sobre o tamanho das possíveis combinações
 </span>  <span class="k">for</span> <span class="n">tamanho_combinacao</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">lista</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
     <span class="c1"># Calcula todas as possíveis combinações de tamanho "tamanho_combinacao"
-</span>    <span class="k">for</span> <span class="n">combinacao</span> <span class="ow">in</span> <span class="n">itertools</span><span class="p">.</span><span class="n">combinations</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">tamanho_combinacao</span><span class="p">):</span>
+</span>    <span class="k">for</span> <span class="n">combinacao</span> <span class="ow">in</span> <span class="n">itertools</span><span class="o">.</span><span class="n">combinations</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">tamanho_combinacao</span><span class="p">):</span>
       <span class="c1"># Soma os valores presentes na combinação
-</span>      <span class="n">somatorios</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">combinacao</span><span class="p">))</span>
+</span>      <span class="n">somatorios</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">combinacao</span><span class="p">))</span>
 
   <span class="c1"># Cria uma nova lista, removendo os elementos repetidos e ordenando-os com sort
 </span>  <span class="n">nova_lista</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">somatorios</span><span class="p">))</span>
-  <span class="n">nova_lista</span><span class="p">.</span><span class="n">sort</span><span class="p">()</span>
+  <span class="n">nova_lista</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
 
   <span class="c1"># Itera de 0 até o maior elemento da lista de somatórios +2 de padding para o 
 </span>  <span class="c1"># caso de todos os somatórios serem possíveis de serem representados
@@ -1518,8 +1518,8 @@ Iterador: [1, 2, 3, 4] (Tipo = &lt;class 'itertools._tee'&gt;)
 <span class="n">resultado_1</span> <span class="o">=</span> <span class="n">menor_inteiro_nao_representavel</span><span class="p">(</span><span class="n">lista_1</span><span class="p">)</span>
 <span class="n">resultado_2</span> <span class="o">=</span> <span class="n">menor_inteiro_nao_representavel</span><span class="p">(</span><span class="n">lista_2</span><span class="p">)</span>
 
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'O menor inteiro representável da lista </span><span class="si">{</span><span class="n">lista_1</span><span class="si">}</span><span class="s"> é </span><span class="si">{</span><span class="n">resultado_1</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'O menor inteiro representável da lista </span><span class="si">{</span><span class="n">lista_2</span><span class="si">}</span><span class="s"> é </span><span class="si">{</span><span class="n">resultado_2</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s">'O menor inteiro representável da lista {lista_1} é {resultado_1}'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s">'O menor inteiro representável da lista {lista_2} é {resultado_2}'</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 

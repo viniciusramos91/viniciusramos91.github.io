@@ -97,7 +97,7 @@
 		
 		
 
-		<link rel="stylesheet" href="/assets/css/post.css?1621311176408927005">
+		<link rel="stylesheet" href="/assets/css/post.css?1621438555581466153">
 	</head>
 
 	<body id="post-body">		
@@ -354,7 +354,7 @@ a instalacão do <em>framework</em> e (<strong>CLARO</strong>) a criação do fa
 </span>    <span class="n">path</span><span class="p">(</span><span class="s">''</span><span class="p">,</span> <span class="n">include</span><span class="p">(</span><span class="s">'website.urls'</span><span class="p">,</span> <span class="n">namespace</span><span class="o">=</span><span class="s">'website'</span><span class="p">)),</span>
 
     <span class="c1"># Interface administrativa
-</span>    <span class="n">path</span><span class="p">(</span><span class="s">'admin/'</span><span class="p">,</span> <span class="n">admin</span><span class="p">.</span><span class="n">site</span><span class="p">.</span><span class="n">urls</span><span class="p">),</span>
+</span>    <span class="n">path</span><span class="p">(</span><span class="s">'admin/'</span><span class="p">,</span> <span class="n">admin</span><span class="o">.</span><span class="n">site</span><span class="o">.</span><span class="n">urls</span><span class="p">),</span>
 <span class="p">]</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -395,7 +395,7 @@ a instalacão do <em>framework</em> e (<strong>CLARO</strong>) a criação do fa
 <span class="c1"># urlpatterns a lista de roteamentos de URLs para funções/Views
 </span><span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
     <span class="c1"># GET /
-</span>    <span class="n">url</span><span class="p">(</span><span class="sa">r</span><span class="s">'^$'</span><span class="p">,</span> <span class="n">views</span><span class="p">.</span><span class="n">index</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">'index'</span><span class="p">),</span>
+</span>    <span class="n">url</span><span class="p">(</span><span class="s">r'^$'</span><span class="p">,</span> <span class="n">views</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">'index'</span><span class="p">),</span>
 <span class="p">]</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -409,7 +409,7 @@ a instalacão do <em>framework</em> e (<strong>CLARO</strong>) a criação do fa
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 </pre></td>
-<td class="code"><pre><span class="n">url</span><span class="p">(</span><span class="sa">r</span><span class="s">'^funcionarios/(?P&lt;ano&gt;[0-9]{4})/$'</span><span class="p">,</span> <span class="n">views</span><span class="p">.</span><span class="n">funcionarios_por_ano</span><span class="p">),</span>
+<td class="code"><pre><span class="n">url</span><span class="p">(</span><span class="s">r'^funcionarios/(?P&lt;ano&gt;[0-9]{4})/$'</span><span class="p">,</span> <span class="n">views</span><span class="o">.</span><span class="n">funcionarios_por_ano</span><span class="p">),</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -418,7 +418,7 @@ a instalacão do <em>framework</em> e (<strong>CLARO</strong>) a criação do fa
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 </pre></td>
-<td class="code"><pre><span class="n">path</span><span class="p">(</span><span class="s">'funcionarios/&lt;int:ano&gt;/'</span><span class="p">,</span> <span class="n">views</span><span class="p">.</span><span class="n">funcionarios_por_ano</span><span class="p">),</span>
+<td class="code"><pre><span class="n">path</span><span class="p">(</span><span class="s">'funcionarios/&lt;int:ano&gt;/'</span><span class="p">,</span> <span class="n">views</span><span class="o">.</span><span class="n">funcionarios_por_ano</span><span class="p">),</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -456,7 +456,7 @@ a instalacão do <em>framework</em> e (<strong>CLARO</strong>) a criação do fa
 </pre></td>
 <td class="code"><pre><span class="k">def</span> <span class="nf">lista_funcionarios</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
     <span class="c1"># Primeiro, buscamos os funcionarios
-</span>    <span class="n">funcionarios</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="p">.</span><span class="n">objetos</span><span class="p">.</span><span class="nb">all</span><span class="p">()</span>
+</span>    <span class="n">funcionarios</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="o">.</span><span class="n">objetos</span><span class="o">.</span><span class="nb">all</span><span class="p">()</span>
 
     <span class="c1"># Incluímos no contexto
 </span>    <span class="n">contexto</span> <span class="o">=</span> <span class="p">{</span>
@@ -627,16 +627,16 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 </pre></td>
 <td class="code"><pre><span class="k">def</span> <span class="nf">cria_funcionario</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">pk</span><span class="p">):</span>
   <span class="c1"># Verificamos se o método POST
-</span>  <span class="k">if</span> <span class="n">request</span><span class="p">.</span><span class="n">method</span> <span class="o">==</span> <span class="s">'POST'</span><span class="p">:</span>
-    <span class="n">form</span> <span class="o">=</span> <span class="n">FormularioDeCriacao</span><span class="p">(</span><span class="n">request</span><span class="p">.</span><span class="n">POST</span><span class="p">)</span>
+</span>  <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s">'POST'</span><span class="p">:</span>
+    <span class="n">form</span> <span class="o">=</span> <span class="n">FormularioDeCriacao</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">)</span>
 
-    <span class="k">if</span> <span class="n">form</span><span class="p">.</span><span class="n">is_valid</span><span class="p">():</span>
-      <span class="n">form</span><span class="p">.</span><span class="n">save</span><span class="p">()</span>      
+    <span class="k">if</span> <span class="n">form</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
+      <span class="n">form</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>      
       <span class="k">return</span> <span class="n">HttpResponseRedirect</span><span class="p">(</span><span class="n">reverse</span><span class="p">(</span><span class="s">'list_view'</span><span class="p">))</span>
   
   <span class="c1"># Qualquer outro método: GET, OPTION, DELETE, etc...
 </span>  <span class="k">else</span><span class="p">:</span>
-    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">templates</span><span class="o">/</span><span class="n">form</span><span class="p">.</span><span class="n">html</span><span class="p">,</span> <span class="p">{</span><span class="s">'form'</span><span class="p">:</span> <span class="n">form</span><span class="p">})</span>
+    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">templates</span><span class="o">/</span><span class="n">form</span><span class="o">.</span><span class="n">html</span><span class="p">,</span> <span class="p">{</span><span class="s">'form'</span><span class="p">:</span> <span class="n">form</span><span class="p">})</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -724,7 +724,7 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 <span class="kn">from</span> <span class="nn">django.views.generic</span> <span class="kn">import</span> <span class="n">TemplateView</span>
 
 <span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="n">path</span><span class="p">(</span><span class="s">''</span><span class="p">,</span> <span class="n">TemplateView</span><span class="p">.</span><span class="n">as_view</span><span class="p">(</span><span class="n">template_name</span><span class="o">=</span><span class="s">"index.html"</span><span class="p">)),</span>
+    <span class="n">path</span><span class="p">(</span><span class="s">''</span><span class="p">,</span> <span class="n">TemplateView</span><span class="o">.</span><span class="n">as_view</span><span class="p">(</span><span class="n">template_name</span><span class="o">=</span><span class="s">"index.html"</span><span class="p">)),</span>
 <span class="p">]</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -760,7 +760,7 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 <span class="kn">from</span> <span class="nn">helloworld.views</span> <span class="kn">import</span> <span class="n">IndexTemplateView</span>
 
 <span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="n">path</span><span class="p">(</span><span class="s">''</span><span class="p">,</span> <span class="n">IndexTemplateView</span><span class="p">.</span><span class="n">as_view</span><span class="p">()),</span>
+    <span class="n">path</span><span class="p">(</span><span class="s">''</span><span class="p">,</span> <span class="n">IndexTemplateView</span><span class="o">.</span><span class="n">as_view</span><span class="p">()),</span>
 <span class="p">]</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -804,7 +804,7 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 <span class="kn">from</span> <span class="nn">helloworld.views</span> <span class="kn">import</span> <span class="n">FuncionarioListView</span>
 
 <span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="n">path</span><span class="p">(</span><span class="s">'funcionarios/'</span><span class="p">,</span> <span class="n">FuncionarioListView</span><span class="p">.</span><span class="n">as_view</span><span class="p">()),</span>
+    <span class="n">path</span><span class="p">(</span><span class="s">'funcionarios/'</span><span class="p">,</span> <span class="n">FuncionarioListView</span><span class="o">.</span><span class="n">as_view</span><span class="p">()),</span>
 <span class="p">]</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -875,10 +875,10 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 
 <span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
     <span class="c1"># Utilizando o {id} para buscar o objeto
-</span>    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/&lt;id&gt;'</span><span class="p">,</span> <span class="n">FuncionarioUpdateView</span><span class="p">.</span><span class="n">as_view</span><span class="p">()),</span>
+</span>    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/&lt;id&gt;'</span><span class="p">,</span> <span class="n">FuncionarioUpdateView</span><span class="o">.</span><span class="n">as_view</span><span class="p">()),</span>
 
     <span class="c1"># Utilizando o {slug} para buscar o objeto
-</span>    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/&lt;slug&gt;'</span><span class="p">,</span> <span class="n">FuncionarioUpdateView</span><span class="p">.</span><span class="n">as_view</span><span class="p">()),</span>
+</span>    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/&lt;slug&gt;'</span><span class="p">,</span> <span class="n">FuncionarioUpdateView</span><span class="o">.</span><span class="n">as_view</span><span class="p">()),</span>
 <span class="p">]</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -959,19 +959,19 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 
       <span class="c1"># Se você utilizar o debug, verá que os 
 </span>      <span class="c1"># campos {pk} e {slug} estão presente em self.kwargs
-</span>      <span class="nb">id</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">kwargs</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">pk_url_kwarg</span><span class="p">)</span>
-      <span class="n">slug</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">kwargs</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">slug_url_kwarg</span><span class="p">)</span>
+</span>      <span class="nb">id</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">kwargs</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">pk_url_kwarg</span><span class="p">)</span>
+      <span class="n">slug</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">kwargs</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">slug_url_kwarg</span><span class="p">)</span>
 
       <span class="k">if</span> <span class="nb">id</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
         <span class="c1"># Busca o funcionario apartir do id
-</span>        <span class="n">funcionario</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="p">.</span><span class="n">objects</span><span class="p">.</span><span class="nb">filter</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="nb">id</span><span class="p">).</span><span class="n">first</span><span class="p">()</span>
+</span>        <span class="n">funcionario</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="nb">filter</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="nb">id</span><span class="p">)</span><span class="o">.</span><span class="n">first</span><span class="p">()</span>
 
       <span class="k">elif</span> <span class="n">slug</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>        
         <span class="c1"># Pega o campo slug do Model
-</span>        <span class="n">campo_slug</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">get_slug_field</span><span class="p">()</span>
+</span>        <span class="n">campo_slug</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_slug_field</span><span class="p">()</span>
 
         <span class="c1"># Busca o funcionario apartir do slug
-</span>        <span class="n">funcionario</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="p">.</span><span class="n">objects</span><span class="p">.</span><span class="nb">filter</span><span class="p">(</span><span class="o">**</span><span class="p">{</span><span class="n">campo_slug</span><span class="p">:</span> <span class="n">slug</span><span class="p">}).</span><span class="n">first</span><span class="p">()</span>
+</span>        <span class="n">funcionario</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="nb">filter</span><span class="p">(</span><span class="o">**</span><span class="p">{</span><span class="n">campo_slug</span><span class="p">:</span> <span class="n">slug</span><span class="p">})</span><span class="o">.</span><span class="n">first</span><span class="p">()</span>
 
       <span class="c1"># Retorna o objeto encontrado
 </span>      <span class="k">return</span> <span class="n">funcionario</span>
@@ -1022,7 +1022,7 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 3
 </pre></td>
 <td class="code"><pre><span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/excluir/&lt;pk&gt;'</span><span class="p">,</span> <span class="n">FuncionarioDeleteView</span><span class="p">.</span><span class="n">as_view</span><span class="p">()),</span>
+    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/excluir/&lt;pk&gt;'</span><span class="p">,</span> <span class="n">FuncionarioDeleteView</span><span class="o">.</span><span class="n">as_view</span><span class="p">()),</span>
 <span class="p">]</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -1107,7 +1107,7 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 <span class="kn">from</span> <span class="nn">helloworld.views</span> <span class="kn">import</span> <span class="n">FuncionarioCreateView</span>
 
 <span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/cadastrar/'</span><span class="p">,</span> <span class="n">FuncionarioCreateView</span><span class="p">.</span><span class="n">as_view</span><span class="p">()),</span>
+    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/cadastrar/'</span><span class="p">,</span> <span class="n">FuncionarioCreateView</span><span class="o">.</span><span class="n">as_view</span><span class="p">()),</span>
 <span class="p">]</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -1295,8 +1295,8 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
 
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">Form</span><span class="p">):</span>
-    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
         <span class="n">label</span><span class="o">=</span><span class="s">'Nome do Funcionário'</span><span class="p">,</span> 
         <span class="n">max_length</span><span class="o">=</span><span class="mi">100</span>
     <span class="p">)</span>
@@ -1366,33 +1366,33 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
 
-<span class="k">class</span> <span class="nc">Funcionario</span><span class="p">(</span><span class="n">models</span><span class="p">.</span><span class="n">Model</span><span class="p">):</span>
+<span class="k">class</span> <span class="nc">Funcionario</span><span class="p">(</span><span class="n">models</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
 
-  <span class="n">nome</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+  <span class="n">nome</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
   <span class="p">)</span>
 
-  <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+  <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
   <span class="p">)</span>
 
-  <span class="n">cpf</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+  <span class="n">cpf</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">max_length</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
   <span class="p">)</span>
 
-  <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">IntegerField</span><span class="p">(</span>
+  <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">IntegerField</span><span class="p">(</span>
     <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
   <span class="p">)</span>
 
-  <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">DecimalField</span><span class="p">(</span>
+  <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">DecimalField</span><span class="p">(</span>
     <span class="n">max_digits</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>
     <span class="n">decimal_places</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
@@ -1433,28 +1433,28 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
 
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">Form</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">)</span>
 
-    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
         <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span>
     <span class="p">)</span>
 
-    <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
         <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span>
     <span class="p">)</span>
 
-    <span class="n">cpf</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">cpf</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
         <span class="n">max_length</span><span class="o">=</span><span class="mi">14</span>
     <span class="p">)</span>
 
-    <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">IntegerField</span><span class="p">(</span>
+    <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">IntegerField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span>
     <span class="p">)</span>
 
-    <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">DecimalField</span><span class="p">(</span>
+    <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">DecimalField</span><span class="p">(</span>
 
     <span class="p">)</span>
 </pre></td>
@@ -1495,7 +1495,7 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
 
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">ModelForm</span><span class="p">):</span>
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">ModelForm</span><span class="p">):</span>
   <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
     <span class="c1"># Modelo base
 </span>    <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
@@ -1558,17 +1558,17 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
 
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">ModelForm</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">ModelForm</span><span class="p">)</span>
 
-  <span class="n">chefe</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">BooleanField</span><span class="p">(</span>
+  <span class="n">chefe</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">BooleanField</span><span class="p">(</span>
     <span class="n">label</span><span class="o">=</span><span class="s">'Chefe?'</span><span class="p">,</span>
     <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
   <span class="p">)</span>
 
-  <span class="n">biografia</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+  <span class="n">biografia</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">label</span><span class="o">=</span><span class="s">'Biografia'</span><span class="p">,</span>
     <span class="n">required</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
-    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="p">.</span><span class="n">TextArea</span>
+    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="o">.</span><span class="n">TextArea</span>
   <span class="p">)</span>
 
   <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
@@ -1715,14 +1715,14 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 </pre></td>
 <td class="code"><pre><span class="k">class</span> <span class="nc">MiddlewareSimples</span><span class="p">:</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">get_response</span><span class="p">):</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
         <span class="c1"># Código de inicialização do Middleware
 </span>
     <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">):</span>
         <span class="c1"># Código a ser executado para cada requisição 
 </span>        <span class="c1"># antes da View, e outros middlewares, serem executada
 </span>
-        <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
 
         <span class="c1"># Código a ser executado para cada requisição/resposta
 </span>        <span class="c1"># após a execução da View que irá processar 
@@ -1827,10 +1827,10 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 <td class="code"><pre><span class="k">class</span> <span class="nc">FiltraIPMiddleware</span><span class="p">:</span>    
 
   <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">get_response</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
 
   <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">):</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
 
     <span class="k">return</span> <span class="n">response</span>
 
@@ -1839,7 +1839,7 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 </span>    <span class="n">ips_autorizados</span> <span class="o">=</span> <span class="p">[</span><span class="s">'127.0.0.1'</span><span class="p">]</span>
 
     <span class="c1"># IP do usuário
-</span>    <span class="n">ip</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">META</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'REMOTE_ADDR'</span><span class="p">)</span>
+</span>    <span class="n">ip</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">META</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'REMOTE_ADDR'</span><span class="p">)</span>
 
     <span class="c1"># Verifica se o IP do cliente está na lista de IPs autorizados
 </span>    <span class="k">if</span> <span class="n">ip</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">ips_autorizados</span><span class="p">:</span>

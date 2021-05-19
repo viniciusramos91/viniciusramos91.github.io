@@ -97,7 +97,7 @@
 		
 		
 
-		<link rel="stylesheet" href="/assets/css/post.css?1621311176408927005">
+		<link rel="stylesheet" href="/assets/css/post.css?1621438555581466153">
 	</head>
 
 	<body id="post-body">		
@@ -313,7 +313,7 @@
 </pre></td>
 <td class="code"><pre><span class="n">nome</span> <span class="o">=</span> <span class="s">'Python Academy'</span>
 
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Qual o melhor Blog sobre Python? </span><span class="si">{</span><span class="n">nome</span><span class="si">}</span><span class="s">!"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s">"Qual o melhor Blog sobre Python? {nome}!"</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -339,7 +339,7 @@
 </pre></td>
 <td class="code"><pre><span class="n">nome</span> <span class="o">=</span> <span class="s">'python academy'</span>
 
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Qual o melhor Blog sobre Python? </span><span class="si">{</span><span class="n">nome</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">+</span> <span class="s">'!'</span> <span class="o">*</span> <span class="mi">3</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s">"Qual o melhor Blog sobre Python? {nome.upper() + '!' * 3}"</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -365,7 +365,7 @@
 
 <span class="n">x</span> <span class="o">=</span> <span class="mf">0.5</span>
 
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'cos(</span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s">) = </span><span class="si">{</span><span class="n">math</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s">'cos({x}) = {math.cos(x)}'</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -389,7 +389,7 @@
 </pre></td>
 <td class="code"><pre><span class="n">dicionario</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">({</span><span class="s">'nome'</span><span class="p">:</span> <span class="s">'Vinícius'</span><span class="p">,</span> <span class="s">'ocupacao'</span><span class="p">:</span> <span class="s">'Software Engineer'</span><span class="p">})</span>
 
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">dicionario</span><span class="p">[</span><span class="s">'nome'</span><span class="p">]</span><span class="si">}</span><span class="s"> é um </span><span class="si">{</span><span class="n">dicionario</span><span class="p">[</span><span class="s">'ocupacao'</span><span class="p">]</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s">"{dicionario['nome']} é um {dicionario['ocupacao']}"</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -422,9 +422,9 @@
 <span class="n">dificuldade</span> <span class="o">=</span> <span class="s">'Básico'</span>
 
 <span class="k">print</span><span class="p">(</span>
-  <span class="sa">f</span><span class="s">"Site: </span><span class="si">{</span><span class="n">site</span><span class="si">}</span><span class="se">\n</span><span class="s">"</span>
-  <span class="sa">f</span><span class="s">"Título: </span><span class="si">{</span><span class="n">titulo</span><span class="si">}</span><span class="se">\n</span><span class="s">"</span>
-  <span class="sa">f</span><span class="s">"Dificuldade: </span><span class="si">{</span><span class="n">dificuldade</span><span class="si">}</span><span class="s">"</span>
+  <span class="n">f</span><span class="s">"Site: {site}</span><span class="se">\n</span><span class="s">"</span>
+  <span class="n">f</span><span class="s">"Título: {titulo}</span><span class="se">\n</span><span class="s">"</span>
+  <span class="n">f</span><span class="s">"Dificuldade: {dificuldade}"</span>
 <span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -511,18 +511,18 @@ Dificuldade: Básico
 </pre></td>
 <td class="code"><pre><span class="k">class</span> <span class="nc">Carro</span><span class="p">:</span>
   <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">marca</span><span class="p">,</span> <span class="n">modelo</span><span class="p">,</span> <span class="n">ano</span><span class="p">):</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">marca</span> <span class="o">=</span> <span class="n">marca</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">modelo</span> <span class="o">=</span> <span class="n">modelo</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">ano</span> <span class="o">=</span> <span class="n">ano</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">marca</span> <span class="o">=</span> <span class="n">marca</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">modelo</span> <span class="o">=</span> <span class="n">modelo</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">ano</span> <span class="o">=</span> <span class="n">ano</span>
     
   <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-    <span class="k">return</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">marca</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">modelo</span><span class="si">}</span><span class="s"> - Ano </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">ano</span><span class="si">}</span><span class="s">"</span>
+    <span class="k">return</span> <span class="n">f</span><span class="s">"{self.marca}/{self.modelo} - Ano {self.ano}"</span>
 
   <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
     <span class="k">return</span> <span class="p">(</span>
-      <span class="sa">f</span><span class="s">"Marca: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">marca</span><span class="si">}</span><span class="se">\n</span><span class="s">"</span>
-      <span class="sa">f</span><span class="s">"Modelo: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">modelo</span><span class="si">}</span><span class="se">\n</span><span class="s">"</span>
-      <span class="sa">f</span><span class="s">"Ano: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">ano</span><span class="si">}</span><span class="s">"</span>
+      <span class="n">f</span><span class="s">"Marca: {self.marca}</span><span class="se">\n</span><span class="s">"</span>
+      <span class="n">f</span><span class="s">"Modelo: {self.modelo}</span><span class="se">\n</span><span class="s">"</span>
+      <span class="n">f</span><span class="s">"Ano: {self.ano}"</span>
     <span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -536,7 +536,7 @@ Dificuldade: Básico
 </pre></td>
 <td class="code"><pre><span class="n">possante</span> <span class="o">=</span> <span class="n">Carro</span><span class="p">(</span><span class="s">'Ferrari'</span><span class="p">,</span> <span class="s">'F8 Tributo'</span><span class="p">,</span> <span class="s">'21'</span><span class="p">)</span>
 
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">possante</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s">'{possante}'</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -558,7 +558,7 @@ Dificuldade: Básico
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 </pre></td>
-<td class="code"><pre><span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">possante</span><span class="err">!</span><span class="n">r</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+<td class="code"><pre><span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s">'{possante!r}'</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -616,8 +616,8 @@ Ano: 21
 <td class="code"><pre><span class="n">valor</span> <span class="o">=</span> <span class="mf">5.5</span> <span class="o">/</span> <span class="mf">40.0</span>
 
 <span class="k">print</span><span class="p">(</span>
-  <span class="sa">f</span><span class="s">'Resultado original: </span><span class="si">{</span><span class="n">valor</span><span class="si">}</span><span class="se">\n</span><span class="s">'</span>
-  <span class="sa">f</span><span class="s">'Resultado formatado: </span><span class="si">{</span><span class="n">valor</span><span class="p">:.</span><span class="mi">1</span><span class="o">%</span><span class="si">}</span><span class="s">'</span>
+  <span class="n">f</span><span class="s">'Resultado original: {valor}</span><span class="se">\n</span><span class="s">'</span>
+  <span class="n">f</span><span class="s">'Resultado formatado: {valor:.1</span><span class="si">%</span><span class="s">}'</span>
 <span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -649,7 +649,7 @@ Resultado formatado: 13.8%
 </pre></td>
 <td class="code"><pre><span class="n">valor</span> <span class="o">=</span> <span class="mi">255</span>
 
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"'</span><span class="si">{</span><span class="n">valor</span><span class="p">:</span><span class="o">-^</span><span class="mi">10</span><span class="n">x</span><span class="si">}</span><span class="s">'"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s">"'{valor:-^10x}'"</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 

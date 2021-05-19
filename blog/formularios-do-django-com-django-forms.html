@@ -97,7 +97,7 @@
 		
 		
 
-		<link rel="stylesheet" href="/assets/css/post.css?1621311176408927005">
+		<link rel="stylesheet" href="/assets/css/post.css?1621438555581466153">
 	</head>
 
 	<body id="post-body">		
@@ -339,8 +339,8 @@
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
 
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">Form</span><span class="p">):</span>
-    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
         <span class="n">label</span><span class="o">=</span><span class="s">'Nome do Funcionário'</span><span class="p">,</span> 
         <span class="n">max_length</span><span class="o">=</span><span class="mi">100</span>
     <span class="p">)</span>
@@ -422,33 +422,33 @@
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
 
-<span class="k">class</span> <span class="nc">Funcionario</span><span class="p">(</span><span class="n">models</span><span class="p">.</span><span class="n">Model</span><span class="p">):</span>
+<span class="k">class</span> <span class="nc">Funcionario</span><span class="p">(</span><span class="n">models</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
 
-  <span class="n">nome</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+  <span class="n">nome</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
   <span class="p">)</span>
 
-  <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+  <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
   <span class="p">)</span>
 
-  <span class="n">cpf</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+  <span class="n">cpf</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">max_length</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
   <span class="p">)</span>
 
-  <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">IntegerField</span><span class="p">(</span>
+  <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">IntegerField</span><span class="p">(</span>
     <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
   <span class="p">)</span>
 
-  <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">DecimalField</span><span class="p">(</span>
+  <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">DecimalField</span><span class="p">(</span>
     <span class="n">max_digits</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>
     <span class="n">decimal_places</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
@@ -490,27 +490,27 @@
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
 
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">Form</span><span class="p">)</span>
-    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">)</span>
+    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
         <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span>
     <span class="p">)</span>
 
-    <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
         <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span>
     <span class="p">)</span>
 
-    <span class="n">cpf</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">cpf</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
         <span class="n">max_length</span><span class="o">=</span><span class="mi">14</span>
     <span class="p">)</span>
 
-    <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">IntegerField</span><span class="p">(</span>
+    <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">IntegerField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span>
     <span class="p">)</span>
 
-    <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">DecimalField</span><span class="p">(</span>
+    <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">DecimalField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span>
     <span class="p">)</span>
 </pre></td>
@@ -600,7 +600,7 @@
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
 
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">ModelForm</span><span class="p">):</span>
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">ModelForm</span><span class="p">):</span>
   <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
     <span class="c1"># Modelo base
 </span>    <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
@@ -665,17 +665,17 @@
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
 
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">ModelForm</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">ModelForm</span><span class="p">)</span>
 
-  <span class="n">chefe</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">BooleanField</span><span class="p">(</span>
+  <span class="n">chefe</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">BooleanField</span><span class="p">(</span>
     <span class="n">label</span><span class="o">=</span><span class="s">'Chefe?'</span><span class="p">,</span>
     <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
   <span class="p">)</span>
 
-  <span class="n">biografia</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+  <span class="n">biografia</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">label</span><span class="o">=</span><span class="s">'Biografia'</span><span class="p">,</span>
     <span class="n">required</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
-    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="p">.</span><span class="n">TextArea</span>
+    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="o">.</span><span class="n">TextArea</span>
   <span class="p">)</span>
 
   <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
@@ -938,10 +938,10 @@
 4
 5
 </pre></td>
-<td class="code"><pre><span class="n">biografia</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
+<td class="code"><pre><span class="n">biografia</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">label</span><span class="o">=</span><span class="s">'Biografia'</span><span class="p">,</span>
     <span class="n">required</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
-    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="p">.</span><span class="n">TextArea</span>
+    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="o">.</span><span class="n">TextArea</span>
 <span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>

@@ -97,7 +97,7 @@
 		
 		
 
-		<link rel="stylesheet" href="/assets/css/post.css?1621311176408927005">
+		<link rel="stylesheet" href="/assets/css/post.css?1621438555581466153">
 	</head>
 
 	<body id="post-body">		
@@ -403,14 +403,14 @@ primeira aplicação utilizando o Kivy.</p>
 <span class="kn">from</span> <span class="nn">kivy.app</span> <span class="kn">import</span> <span class="n">App</span>
 <span class="kn">from</span> <span class="nn">kivy.uix.label</span> <span class="kn">import</span> <span class="n">Label</span>
 
-<span class="n">kivy</span><span class="p">.</span><span class="n">require</span><span class="p">(</span><span class="s">'1.9.1'</span><span class="p">)</span>
+<span class="n">kivy</span><span class="o">.</span><span class="n">require</span><span class="p">(</span><span class="s">'1.9.1'</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">PrimeiroApp</span><span class="p">(</span><span class="n">App</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">build</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="n">Label</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s">'Hello World, Kivy!'</span><span class="p">)</span>
 
 <span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">'__main__'</span><span class="p">:</span>
-    <span class="n">PrimeiroApp</span><span class="p">().</span><span class="n">run</span><span class="p">()</span>
+    <span class="n">PrimeiroApp</span><span class="p">()</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -453,7 +453,7 @@ execução com o código:</p>
 2
 </pre></td>
 <td class="code"><pre><span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">'__main__'</span><span class="p">:</span>
-    <span class="n">PrimeiroApp</span><span class="p">().</span><span class="n">run</span><span class="p">()</span>
+    <span class="n">PrimeiroApp</span><span class="p">()</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -530,21 +530,21 @@ serve para distribuir e posicionar elementos de maneiras distintas.</p>
 
 <span class="k">class</span> <span class="nc">TelaLogin</span><span class="p">(</span><span class="n">GridLayout</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-        <span class="nb">super</span><span class="p">(</span><span class="n">TelaLogin</span><span class="p">,</span> <span class="bp">self</span><span class="p">).</span><span class="n">__init__</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">cols</span> <span class="o">=</span> <span class="mi">2</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">add_widget</span><span class="p">(</span><span class="n">Label</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s">'Usuário'</span><span class="p">))</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">username</span> <span class="o">=</span> <span class="n">TextInput</span><span class="p">(</span><span class="n">multiline</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">add_widget</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">username</span><span class="p">)</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">add_widget</span><span class="p">(</span><span class="n">Label</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s">'Senha'</span><span class="p">))</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">password</span> <span class="o">=</span> <span class="n">TextInput</span><span class="p">(</span><span class="n">password</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">multiline</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">add_widget</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">password</span><span class="p">)</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">TelaLogin</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cols</span> <span class="o">=</span> <span class="mi">2</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">add_widget</span><span class="p">(</span><span class="n">Label</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s">'Usuário'</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">username</span> <span class="o">=</span> <span class="n">TextInput</span><span class="p">(</span><span class="n">multiline</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">add_widget</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">username</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">add_widget</span><span class="p">(</span><span class="n">Label</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s">'Senha'</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">password</span> <span class="o">=</span> <span class="n">TextInput</span><span class="p">(</span><span class="n">password</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">multiline</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">add_widget</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">password</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">MyApp</span><span class="p">(</span><span class="n">App</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">build</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="n">TelaLogin</span><span class="p">()</span>
 
 <span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">'__main__'</span><span class="p">:</span>
-    <span class="n">MyApp</span><span class="p">().</span><span class="n">run</span><span class="p">()</span>
+    <span class="n">MyApp</span><span class="p">()</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -622,8 +622,8 @@ Antes teríamos:</p>
 </pre></td>
 <td class="code"><pre><span class="k">class</span> <span class="nc">MinhaClasse</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">super</span><span class="p">(</span><span class="n">MinhaClasse</span><span class="p">,</span> <span class="bp">self</span><span class="p">).</span><span class="n">__init__</span><span class="p">()</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">valor_numerico</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">MinhaClasse</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">valor_numerico</span> <span class="o">=</span> <span class="mi">1</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -1068,8 +1068,8 @@ monta um dicionário <code class="highlighter-rouge">self.ids</code> contendo os
 </pre></td>
 <td class="code"><pre><span class="k">class</span> <span class="nc">WidgetExemplo</span><span class="p">(</span><span class="n">BoxLayout</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">submit_email</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">ids</span><span class="p">.</span><span class="n">submit</span><span class="p">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"Email enviado"</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">ids</span><span class="p">[</span><span class="s">"email"</span><span class="p">].</span><span class="n">text</span> <span class="o">=</span> <span class="s">""</span>  <span class="c1"># Sintaxe alternativa</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ids</span><span class="o">.</span><span class="n">submit</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"Email enviado"</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ids</span><span class="p">[</span><span class="s">"email"</span><span class="p">]</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">""</span>  <span class="c1"># Sintaxe alternativa</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 

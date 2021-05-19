@@ -97,7 +97,7 @@
 		
 		
 
-		<link rel="stylesheet" href="/assets/css/post.css?1621311176408927005">
+		<link rel="stylesheet" href="/assets/css/post.css?1621438555581466153">
 	</head>
 
 	<body id="post-body">		
@@ -406,7 +406,7 @@
 </pre></td>
 <td class="code"><pre><span class="k">class</span> <span class="nc">MiddlewareSimples</span><span class="p">:</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">get_response</span><span class="p">):</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
         <span class="c1"># Código de inicialização do Middleware
 </span>
     <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">):</span>
@@ -414,7 +414,7 @@
 </span>        <span class="c1"># da View e de outros middlewares
 </span>        <span class="c1"># vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 </span>        
-        <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
 
         <span class="c1"># ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 </span>        <span class="c1"># Aqui vai o código a ser executado 
@@ -571,10 +571,10 @@
 <td class="code"><pre><span class="k">class</span> <span class="nc">FiltraIPMiddleware</span><span class="p">:</span>    
 
   <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">get_response</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
 
   <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">):</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
 
     <span class="k">return</span> <span class="n">response</span>
 
@@ -583,7 +583,7 @@
 </span>    <span class="n">ips_autorizados</span> <span class="o">=</span> <span class="p">[</span><span class="s">'127.0.0.1'</span><span class="p">]</span>
 
     <span class="c1"># IP do usuário
-</span>    <span class="n">ip</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">META</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'REMOTE_ADDR'</span><span class="p">)</span>
+</span>    <span class="n">ip</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">META</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'REMOTE_ADDR'</span><span class="p">)</span>
 
     <span class="c1"># Verifica se o IP do cliente está na lista de IPs autorizados
 </span>    <span class="k">if</span> <span class="n">ip</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">ips_autorizados</span><span class="p">:</span>
