@@ -1,0 +1,125 @@
+[
+    {
+        "id": "amazon-alexa",
+        "title": "Amazon Echo Dot com Alexa",
+        "marketplace": "Amazon",
+        "link": "https://amzn.to/3bLaIWM",
+        "image": "amazon-alexa-preta-800-600.png",
+        "description": "O Echo Dot é o smart speaker de maior sucesso da Amazon. Controlado por voz com a Alexa, ele é perfeito para qualquer ambiente. Você pode pedir músicas, informações e <b>MUITO MAIS!</b>",
+        "tagClass": "amazon",
+        "tagLabel": "Produto Amazon",
+        "active": true,
+        "featured": true
+    },{
+        "id": "curso-python",
+        "title": "Curso: Python Completo - Do Júnior ao Sênior",
+        "marketplace": "Parceria <b>By Learn</b>",
+        "link": "https://go.hotmart.com/X54192051B",
+        "image": "curso-python-800-600.png",
+        "description": "A solução <b>DEFINITIVA</b> para você virar um Programador Python de forma fácil, rápida e direto ao ponto, sem a enrolação dos cursos convencionais!",
+        "tagClass": "curso",
+        "tagLabel": "Curso",
+        "isAffiliate": true,
+        "active": true
+    },{
+        "id": "curso-web",
+        "title": "Curso: HTML5, CSS3 e Bootstrap 4",
+        "marketplace": "Parceria <b>Celke</b>",
+        "link": "https://go.hotmart.com/L54201537M",
+        "image": "curso-web-800-600.png",
+        "description": "Desenvolvimento Web com Python e Django combina <b>SUPER</b> com HTML, CSS e Bootstrap! Aprenda os principais elementos do HTML5, aprenda a usar o CSS3 e como usar o Bootstrap4 de forma fácil, prática e impulsione de vez sua carreira de Desenvolvedor Web.",
+        "tagClass": "curso",
+        "tagLabel": "Curso",
+        "active": true
+    },{
+        "id": "curso-git",
+        "title": "Curso: Dominando Git e Github",
+        "marketplace": "Parceria <b>By Learn</b>",
+        "link": "https://go.hotmart.com/V54192092I",
+        "image": "curso-git-800-600.png",
+        "description": "Domine de uma vez por todas as duas ferramentas <b>mais importantes</b> para um programador e conquiste hoje mesmo o diploma para se destacar no mercado de trabalho!",
+        "tagClass": "curso",
+        "tagLabel": "Curso",
+        "active": true
+    },{
+        "id": "livro-django",
+        "title": "Aprenda Django 3 com Exemplos",
+        "marketplace": "Amazon",
+        "link": "https://amzn.to/3wr3QWt",
+        "image": "livro-django-800-600.png",
+        "description": "Nesse livro você conhecerá os recursos do Django 3, verá como resolver problemas comuns no desenvolvimento web, como implementar as melhores práticas e como implantar suas aplicações com <b>sucesso</b>.",
+        "tagClass": "livro",
+        "tagLabel": "Livro",
+        "active": true
+    },{
+        "id": "livro-python",
+        "title": "Introdução à Programação com Python",
+        "marketplace": "Amazon",
+        "link": "https://amzn.to/3vehMmq",
+        "image": "livro-python-800-600.png",
+        "description": "Este livro é orientado ao iniciante em programação e traz conceitos básicos como expressões, variáveis, repetições, decisões, listas, dicionários e banco de dados com SQLite 3.",
+        "tagClass": "livro",
+        "tagLabel": "Livro",
+        "active": true
+    },{
+        "id": "livro-data-science-negocios",
+        "title": "Data science para negócios",
+        "marketplace": "Amazon",
+        "link": "https://amzn.to/3ysQrz4",
+        "image": "livro-data-science-negocios-800-600.png",
+        "description": "Este guia amplo, profundo, porém não muito técnico, apresenta a você os princípios fundamentais do <b>Data Science</b> e orienta-o através do \"pensamento analítico\" necessário para extrair conhecimento útil e valor de negócios a partir dos dados que você obtém.",
+        "tagClass": "livro",
+        "tagLabel": "Livro",
+        "active": true
+    },{
+        "id": "livro-arquitetura-limpa",
+        "title": "Arquitetura Limpa",
+        "marketplace": "Amazon",
+        "link": "https://amzn.to/3f7maht",
+        "image": "arquitetura-limpa-800-600.png",
+        "description": "As regras universais de arquitetura de software aumentam <b>dramaticamente</b> a produtividade dos desenvolvedores ao longo da vida dos sistemas de software. Agora, o lendário artesão de software Robert C. Martin vai revelar essas regras e ajudá-lo a aplicá-las.",
+        "tagClass": "livro",
+        "tagLabel": "Livro",
+        "active": true
+    },{
+        "id": "mouse-pad-gamer",
+        "title": "Mouse Pad Professional Gamer",
+        "marketplace": "Amazon",
+        "link": "https://amzn.to/3vcYpKu",
+        "image": "mouse-pad-gamer-800-600.png",
+        "description": "Mouse Pad Gamer de tamanho grande (90cm x 30cm x 3mm), para acomodar teclado, mouse e mais coisas na área do seu PC ao jogar e trabalhar, <b>é claro!</b>",
+        "tagClass": "acessorio",
+        "tagLabel": "Acessório",
+        "active": true
+    },{
+        "id": "suporte-notebook",
+        "title": "Suporte para Notebook com Cooler",
+        "marketplace": "Amazon",
+        "link": "https://amzn.to/3yt5TLz",
+        "image": "suporte-notebook-800-600.png",
+        "description": "Evite o superaquecimento da sua <b>MÁQUINA</b>! Suporte para Notebook com Cooler (até 17pol), chassi de plástico e metal, sistema de refrigeração através de uma ventoinha de 12cm.",
+        "tagClass": "acessorio",
+        "tagLabel": "Acessório",
+        "active": true
+    },{
+        "id": "prensa-francesa",
+        "title": "Prensa Francesa 350ml",
+        "marketplace": "Amazon",
+        "link": "https://amzn.to/3vh9v1e",
+        "image": "prensa-francesa-800-600.png",
+        "description": "O que combina mais com desenvolvimento que <b>CAFÉ</b>? Fala sério, nada melhor que codar com uma xícara do lado e o café feito nessa Prensa Francesa é espetacular!",
+        "tagClass": "acessorio",
+        "tagLabel": "Acessório",
+        "active": true
+    },{
+        "id": "monitor-gamer",
+        "title": "Monitor LG Gamer UltraWide 25\"",
+        "marketplace": "Amazon",
+        "link": "https://amzn.to/3oESZFQ",
+        "image": "monitor-gamer-800-600.png",
+        "description": "Quer abrir sua IDE, seu terminal e o browser no mesmo monitor? Então esse monitor <b>ULTRAWIDE</b> é pra VOCÊ!",
+        "tagClass": "acessorio",
+        "tagLabel": "Acessório",
+        "active": true
+    }
+]

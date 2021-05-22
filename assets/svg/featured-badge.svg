@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="26.040888mm"
+   height="26.04088mm"
+   viewBox="0 0 26.040888 26.04088"
+   version="1.1"
+   id="svg1407"
+   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
+   sodipodi:docname="featured-badge.svg">
+  <defs
+     id="defs1401">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1201"
+       x="-0.026999993"
+       width="1.054"
+       y="-0.027000006"
+       height="1.054">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.19618971"
+         id="feGaussianBlur1203" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="12.178355"
+     inkscape:cy="20.293276"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1457"
+     inkscape:window-height="993"
+     inkscape:window-x="551"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata1404">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-23.482878,-52.386201)">
+    <path
+       style="fill:#000000;fill-opacity:0.2;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter1201)"
+       d="m 22.372413,72.036961 v 1.837057 l 17.43909,-17.439082 h -1.83705 z"
+       id="path1129"
+       sodipodi:nodetypes="ccccc"
+       transform="matrix(1.107256,-0.10725599,-0.10725599,1.107256,8.1657394,-4.300279)" />
+    <path
+       style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.33377;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 28.114607,61.039704 -4.631729,4.631719 2e-6,9.838811 23.124037,-23.124033 h -9.878511 z"
+       id="path847"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 25.255379,73.737735 -1.772501,1.772492 2e-6,1.144356 1.7725,1.772499 z"
+       id="path1127" />
+    <path
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 49.523766,54.158701 -1.77249,-1.7725 h -1.144359 l -1.77249,1.772499 z"
+       id="path1131" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.45096px;line-height:1.25;font-family:DTLProkyonST;-inkscape-font-specification:'DTLProkyonST Medium';letter-spacing:0.179289px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.162394;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-29.464945"
+       y="67.681175"
+       id="text1386"
+       transform="rotate(-45)"><tspan
+         sodipodi:role="line"
+         id="tspan1384"
+         x="-29.464945"
+         y="67.681175"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY';fill:#ffffff;stroke:#ffffff;stroke-width:0.162394;stroke-miterlimit:4;stroke-dasharray:none">DESTAQUE</tspan></text>
+  </g>
+</svg>

@@ -97,7 +97,7 @@
 		
 		
 
-		<link rel="stylesheet" href="/assets/css/post.css?1621438555581466153">
+		<link rel="stylesheet" href="/assets/css/post.css?1621705785177833428">
 	</head>
 
 	<body id="post-body">		
@@ -140,13 +140,20 @@
 						<a href="https://pythonacademy.com.br/sliders/" title="Aprenda na prática">
 							Sliders
 						</a>
-					</li>						
+					</li>											
 
 					<li>
 						<a href="https://pythonacademy.com.br/sobre" title="Conheça-nos">
 							Sobre
 						</a>
-					</li>						
+					</li>	
+					
+					<li class="loja">
+						<a href="https://pythonacademy.com.br/loja/" title="Python Academy Indica">
+							<img src="/assets/svg/shop-icon.svg" height="30px">
+							<span>Loja</span>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -301,7 +308,7 @@
 7
 </pre></td>
 <td class="code"><pre><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span><span class="mi">200</span><span class="p">,</span> <span class="mi">350</span><span class="p">,</span> <span class="mi">550</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">([</span><span class="mi">200</span><span class="p">,</span> <span class="mi">350</span><span class="p">,</span> <span class="mi">550</span><span class="p">])</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">df</span>
      <span class="mi">0</span>
 <span class="mi">0</span>  <span class="mi">200</span>
@@ -330,7 +337,7 @@
 7
 </pre></td>
 <td class="code"><pre><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s">'calorias'</span><span class="p">:[</span><span class="mi">200</span><span class="p">,</span> <span class="mi">350</span><span class="p">,</span> <span class="mi">550</span><span class="p">],</span> <span class="s">'gordura (</span><span class="si">%</span><span class="s">)'</span><span class="p">:[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">15</span><span class="p">]})</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s">'calorias'</span><span class="p">:[</span><span class="mi">200</span><span class="p">,</span> <span class="mi">350</span><span class="p">,</span> <span class="mi">550</span><span class="p">],</span> <span class="s">'gordura (%)'</span><span class="p">:[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">15</span><span class="p">]})</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">df</span>
    <span class="n">calorias</span>  <span class="n">gordura</span> <span class="p">(</span><span class="o">%</span><span class="p">)</span>
 <span class="mi">0</span>       <span class="mi">200</span>            <span class="mi">0</span>
@@ -351,7 +358,7 @@
 7
 </pre></td>
 <td class="code"><pre><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s">'calorias'</span><span class="p">:[</span><span class="mi">200</span><span class="p">,</span> <span class="mi">350</span><span class="p">,</span> <span class="mi">550</span><span class="p">],</span> <span class="s">'gordura (</span><span class="si">%</span><span class="s">)'</span><span class="p">:[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">15</span><span class="p">]},</span> <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s">'banana'</span><span class="p">,</span> <span class="s">'prato feito'</span><span class="p">,</span> <span class="s">'big mac'</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s">'calorias'</span><span class="p">:[</span><span class="mi">200</span><span class="p">,</span> <span class="mi">350</span><span class="p">,</span> <span class="mi">550</span><span class="p">],</span> <span class="s">'gordura (%)'</span><span class="p">:[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">15</span><span class="p">]},</span> <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s">'banana'</span><span class="p">,</span> <span class="s">'prato feito'</span><span class="p">,</span> <span class="s">'big mac'</span><span class="p">])</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">df</span>
              <span class="n">calorias</span>  <span class="n">gordura</span> <span class="p">(</span><span class="o">%</span><span class="p">)</span>
 <span class="n">banana</span>            <span class="mi">200</span>            <span class="mi">0</span>
@@ -424,7 +431,7 @@
 4
 5
 </pre></td>
-<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> <span class="n">df</span><span class="p">[</span><span class="s">'gordura (</span><span class="si">%</span><span class="s">)'</span><span class="p">]</span>
+<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> <span class="n">df</span><span class="p">[</span><span class="s">'gordura (%)'</span><span class="p">]</span>
 <span class="n">banana</span>          <span class="mi">0</span>
 <span class="n">prato</span> <span class="n">feito</span>     <span class="mi">6</span>
 <span class="n">big</span> <span class="n">mac</span>        <span class="mi">15</span>
@@ -442,8 +449,8 @@
 <td class="gutter gl"><pre class="lineno">1
 2
 </pre></td>
-<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> <span class="nb">type</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s">'gordura (</span><span class="si">%</span><span class="s">)'</span><span class="p">])</span>
-<span class="o">&lt;</span><span class="k">class</span> <span class="err">'</span><span class="nc">pandas</span><span class="o">.</span><span class="n">core</span><span class="o">.</span><span class="n">series</span><span class="o">.</span><span class="n">Series</span><span class="s">'&gt;</span>
+<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> <span class="nb">type</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s">'gordura (%)'</span><span class="p">])</span>
+<span class="o">&lt;</span><span class="k">class</span> <span class="err">'</span><span class="nc">pandas</span><span class="p">.</span><span class="n">core</span><span class="p">.</span><span class="n">series</span><span class="p">.</span><span class="n">Series</span><span class="s">'&gt;</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -459,7 +466,7 @@
 5
 6
 </pre></td>
-<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s">'calorias'</span><span class="p">:[</span><span class="mi">200</span><span class="p">,</span> <span class="mi">350</span><span class="p">,</span> <span class="mi">550</span><span class="p">],</span> <span class="s">'gordura (</span><span class="si">%</span><span class="s">)'</span><span class="p">:[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">15</span><span class="p">]})</span>
+<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s">'calorias'</span><span class="p">:[</span><span class="mi">200</span><span class="p">,</span> <span class="mi">350</span><span class="p">,</span> <span class="mi">550</span><span class="p">],</span> <span class="s">'gordura (%)'</span><span class="p">:[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">15</span><span class="p">]})</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">df</span>
 <span class="n">banana</span>          <span class="mi">0</span>
 <span class="n">prato</span> <span class="n">feito</span>     <span class="mi">6</span>
@@ -493,7 +500,7 @@
 3
 4
 </pre></td>
-<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> <span class="n">df</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 <span class="n">calorias</span>       <span class="mi">200</span>
 <span class="n">gordura</span> <span class="p">(</span><span class="o">%</span><span class="p">)</span>      <span class="mi">0</span>
 <span class="n">Name</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="n">dtype</span><span class="p">:</span> <span class="n">int64</span>
@@ -693,48 +700,46 @@
 <section id="footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-4">
+			<div class="col-xs-12 col-sm-3">
 				<div class="footer-wrapper">
-					<p>Sobre</p>
+					<p>Mais</p>
 	
-					<ul>					
-						<li>
-							<a href="/">Início</a>
-						</li>
-
-						<li>
-							<a href="/sobre">Sobre a Python Academy</a>
-						</li>
-	
-						<li>
-							<a href="/zen-of-python"><i>Zen of Python</i></a>
-						</li>
+					<ul>											
+						<li><a href="/"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Início</a></li>
+						<li><a href="/zen-of-python"><i><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Zen of Python</i></a></li>
+						<li><a href="/blog/"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Blog</a></li>
+						<li><a href="/sliders/"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Sliders</a></li>
+						<li><a href="/sobre"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Sobre</a></li>
+						<li><a href="/loja/"><img src="/assets/svg/shop-icon.svg" width="20px"> Loja</a></li>
 					</ul>
 				</div>
 			</div>
 
-			<div class="col-xs-12 col-sm-4">
-				<div class="footer-wrapper">
-					<p>Conteúdo</p>
-	
-					<ul>
-						<li>
-							<a href="/blog/">Blog</a>
-						</li>
-						<li>
-							<a href="/sliders/">Sliders</a>
-						</li>						
-					</ul>
-				</div>
-			</div>
-
-			<div class="col-xs-12 col-sm-4">
+			<div class="col-xs-12 col-sm-5">
 				<div class="footer-wrapper">
 					<p>Ebooks</p>
 	
 					<ul>
 						<li>
-							<a href="/ebooks/desenvolvimento-web-com-python-e-django/">Desenvolvimento Web com Python e Django</a>
+							<a href="/ebooks/desenvolvimento-web-com-python-e-django/"><img class="emoji" title=":notebook:" alt=":notebook:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d3.png" height="20" width="20"> Desenvolvimento Web com Python e Django</a>
+						</li>					
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-4">
+				<div class="footer-wrapper">
+					<p>Cursos Parceiros</p>
+	
+					<ul>
+						<li>
+							<a href="https://go.hotmart.com/X54192051B"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"> Python Completo: do Júnior ao Sênior</a>
+						</li>	
+						<li>
+							<a href="https://go.hotmart.com/V54192092I"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"> Dominando Git e Github</a>
+						</li>	
+						<li>
+							<a href="https://go.hotmart.com/L54201537M"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"> HTML5, CSS3 e Bootstrap 4</a>
 						</li>					
 					</ul>
 				</div>

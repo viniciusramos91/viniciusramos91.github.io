@@ -97,7 +97,7 @@
 		
 		
 
-		<link rel="stylesheet" href="/assets/css/post.css?1621438555581466153">
+		<link rel="stylesheet" href="/assets/css/post.css?1621705785177833428">
 	</head>
 
 	<body id="post-body">		
@@ -140,13 +140,20 @@
 						<a href="https://pythonacademy.com.br/sliders/" title="Aprenda na prática">
 							Sliders
 						</a>
-					</li>						
+					</li>											
 
 					<li>
 						<a href="https://pythonacademy.com.br/sobre" title="Conheça-nos">
 							Sobre
 						</a>
-					</li>						
+					</li>	
+					
+					<li class="loja">
+						<a href="https://pythonacademy.com.br/loja/" title="Python Academy Indica">
+							<img src="/assets/svg/shop-icon.svg" height="30px">
+							<span>Loja</span>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -339,8 +346,8 @@
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
 
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">):</span>
-    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
         <span class="n">label</span><span class="o">=</span><span class="s">'Nome do Funcionário'</span><span class="p">,</span> 
         <span class="n">max_length</span><span class="o">=</span><span class="mi">100</span>
     <span class="p">)</span>
@@ -422,33 +429,33 @@
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
 
-<span class="k">class</span> <span class="nc">Funcionario</span><span class="p">(</span><span class="n">models</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
+<span class="k">class</span> <span class="nc">Funcionario</span><span class="p">(</span><span class="n">models</span><span class="p">.</span><span class="n">Model</span><span class="p">):</span>
 
-  <span class="n">nome</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+  <span class="n">nome</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
   <span class="p">)</span>
 
-  <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+  <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
   <span class="p">)</span>
 
-  <span class="n">cpf</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+  <span class="n">cpf</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">max_length</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
   <span class="p">)</span>
 
-  <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">IntegerField</span><span class="p">(</span>
+  <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">IntegerField</span><span class="p">(</span>
     <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
     <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
   <span class="p">)</span>
 
-  <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">DecimalField</span><span class="p">(</span>
+  <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">DecimalField</span><span class="p">(</span>
     <span class="n">max_digits</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>
     <span class="n">decimal_places</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
     <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
@@ -490,27 +497,27 @@
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
 
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">)</span>
-    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">Form</span><span class="p">)</span>
+    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
         <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span>
     <span class="p">)</span>
 
-    <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
         <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span>
     <span class="p">)</span>
 
-    <span class="n">cpf</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+    <span class="n">cpf</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
         <span class="n">max_length</span><span class="o">=</span><span class="mi">14</span>
     <span class="p">)</span>
 
-    <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">IntegerField</span><span class="p">(</span>
+    <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">IntegerField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span>
     <span class="p">)</span>
 
-    <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">DecimalField</span><span class="p">(</span>
+    <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">DecimalField</span><span class="p">(</span>
         <span class="n">required</span><span class="o">=</span><span class="bp">True</span>
     <span class="p">)</span>
 </pre></td>
@@ -600,7 +607,7 @@
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
 
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">ModelForm</span><span class="p">):</span>
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">ModelForm</span><span class="p">):</span>
   <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
     <span class="c1"># Modelo base
 </span>    <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
@@ -665,17 +672,17 @@
 </pre></td>
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
 
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">ModelForm</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">ModelForm</span><span class="p">)</span>
 
-  <span class="n">chefe</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">BooleanField</span><span class="p">(</span>
+  <span class="n">chefe</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">BooleanField</span><span class="p">(</span>
     <span class="n">label</span><span class="o">=</span><span class="s">'Chefe?'</span><span class="p">,</span>
     <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
   <span class="p">)</span>
 
-  <span class="n">biografia</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+  <span class="n">biografia</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">label</span><span class="o">=</span><span class="s">'Biografia'</span><span class="p">,</span>
     <span class="n">required</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
-    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="o">.</span><span class="n">TextArea</span>
+    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="p">.</span><span class="n">TextArea</span>
   <span class="p">)</span>
 
   <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
@@ -938,10 +945,10 @@
 4
 5
 </pre></td>
-<td class="code"><pre><span class="n">biografia</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+<td class="code"><pre><span class="n">biografia</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">label</span><span class="o">=</span><span class="s">'Biografia'</span><span class="p">,</span>
     <span class="n">required</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
-    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="o">.</span><span class="n">TextArea</span>
+    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="p">.</span><span class="n">TextArea</span>
 <span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -1131,48 +1138,46 @@
 <section id="footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-4">
+			<div class="col-xs-12 col-sm-3">
 				<div class="footer-wrapper">
-					<p>Sobre</p>
+					<p>Mais</p>
 	
-					<ul>					
-						<li>
-							<a href="/">Início</a>
-						</li>
-
-						<li>
-							<a href="/sobre">Sobre a Python Academy</a>
-						</li>
-	
-						<li>
-							<a href="/zen-of-python"><i>Zen of Python</i></a>
-						</li>
+					<ul>											
+						<li><a href="/"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Início</a></li>
+						<li><a href="/zen-of-python"><i><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Zen of Python</i></a></li>
+						<li><a href="/blog/"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Blog</a></li>
+						<li><a href="/sliders/"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Sliders</a></li>
+						<li><a href="/sobre"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Sobre</a></li>
+						<li><a href="/loja/"><img src="/assets/svg/shop-icon.svg" width="20px"> Loja</a></li>
 					</ul>
 				</div>
 			</div>
 
-			<div class="col-xs-12 col-sm-4">
-				<div class="footer-wrapper">
-					<p>Conteúdo</p>
-	
-					<ul>
-						<li>
-							<a href="/blog/">Blog</a>
-						</li>
-						<li>
-							<a href="/sliders/">Sliders</a>
-						</li>						
-					</ul>
-				</div>
-			</div>
-
-			<div class="col-xs-12 col-sm-4">
+			<div class="col-xs-12 col-sm-5">
 				<div class="footer-wrapper">
 					<p>Ebooks</p>
 	
 					<ul>
 						<li>
-							<a href="/ebooks/desenvolvimento-web-com-python-e-django/">Desenvolvimento Web com Python e Django</a>
+							<a href="/ebooks/desenvolvimento-web-com-python-e-django/"><img class="emoji" title=":notebook:" alt=":notebook:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d3.png" height="20" width="20"> Desenvolvimento Web com Python e Django</a>
+						</li>					
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-4">
+				<div class="footer-wrapper">
+					<p>Cursos Parceiros</p>
+	
+					<ul>
+						<li>
+							<a href="https://go.hotmart.com/X54192051B"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"> Python Completo: do Júnior ao Sênior</a>
+						</li>	
+						<li>
+							<a href="https://go.hotmart.com/V54192092I"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"> Dominando Git e Github</a>
+						</li>	
+						<li>
+							<a href="https://go.hotmart.com/L54201537M"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"> HTML5, CSS3 e Bootstrap 4</a>
 						</li>					
 					</ul>
 				</div>

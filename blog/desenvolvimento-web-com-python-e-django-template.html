@@ -97,7 +97,7 @@
 		
 		
 
-		<link rel="stylesheet" href="/assets/css/post.css?1621438555581466153">
+		<link rel="stylesheet" href="/assets/css/post.css?1621705785177833428">
 	</head>
 
 	<body id="post-body">		
@@ -140,13 +140,20 @@
 						<a href="https://pythonacademy.com.br/sliders/" title="Aprenda na prática">
 							Sliders
 						</a>
-					</li>						
+					</li>											
 
 					<li>
 						<a href="https://pythonacademy.com.br/sobre" title="Conheça-nos">
 							Sobre
 						</a>
-					</li>						
+					</li>	
+					
+					<li class="loja">
+						<a href="https://pythonacademy.com.br/loja/" title="Python Academy Indica">
+							<img src="/assets/svg/shop-icon.svg" height="30px">
+							<span>Loja</span>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -551,31 +558,31 @@
 <td class="code"><pre><span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
     <span class="c1"># '/'
 </span>    <span class="n">path</span><span class="p">(</span><span class="s">''</span><span class="p">,</span> 
-      <span class="n">IndexTemplateView</span><span class="o">.</span><span class="n">as_view</span><span class="p">(),</span> 
+      <span class="n">IndexTemplateView</span><span class="p">.</span><span class="n">as_view</span><span class="p">(),</span> 
       <span class="n">name</span><span class="o">=</span><span class="s">"index"</span> <span class="c1"># &lt;&lt;&lt; Adicionar
 </span>    <span class="p">),</span>
 
     <span class="c1"># '/funcionario/cadastrar'
 </span>    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/cadastrar'</span><span class="p">,</span> 
-      <span class="n">FuncionarioCreateView</span><span class="o">.</span><span class="n">as_view</span><span class="p">(),</span> 
+      <span class="n">FuncionarioCreateView</span><span class="p">.</span><span class="n">as_view</span><span class="p">(),</span> 
       <span class="n">name</span><span class="o">=</span><span class="s">"cadastra_funcionario"</span> <span class="c1"># &lt;&lt;&lt; Adicionar
 </span>    <span class="p">),</span>
 
     <span class="c1"># '/funcionarios'
 </span>    <span class="n">path</span><span class="p">(</span><span class="s">'funcionarios/'</span><span class="p">,</span> 
-      <span class="n">FuncionarioListView</span><span class="o">.</span><span class="n">as_view</span><span class="p">(),</span> 
+      <span class="n">FuncionarioListView</span><span class="p">.</span><span class="n">as_view</span><span class="p">(),</span> 
       <span class="n">name</span><span class="o">=</span><span class="s">"lista_funcionarios"</span> <span class="c1"># &lt;&lt;&lt; Adicionar
 </span>    <span class="p">),</span>
 
     <span class="c1"># '/funcionario/{pk}'
 </span>    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/&lt;pk&gt;'</span><span class="p">,</span> 
-      <span class="n">FuncionarioUpdateView</span><span class="o">.</span><span class="n">as_view</span><span class="p">(),</span> 
+      <span class="n">FuncionarioUpdateView</span><span class="p">.</span><span class="n">as_view</span><span class="p">(),</span> 
       <span class="n">name</span><span class="o">=</span><span class="s">"atualiza_funcionario"</span> <span class="c1"># &lt;&lt;&lt; Adicionar
 </span>    <span class="p">),</span>
 
     <span class="c1"># '/funcionarios/excluir/{pk}'
 </span>    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/excluir/&lt;pk&gt;'</span><span class="p">,</span> 
-      <span class="n">FuncionarioDeleteView</span><span class="o">.</span><span class="n">as_view</span><span class="p">(),</span> 
+      <span class="n">FuncionarioDeleteView</span><span class="p">.</span><span class="n">as_view</span><span class="p">(),</span> 
       <span class="n">name</span><span class="o">=</span><span class="s">"deleta_funcionario"</span> <span class="c1"># &lt;&lt;&lt; Adicionar
 </span>    <span class="p">),</span>
 <span class="p">]</span>
@@ -960,9 +967,9 @@
 5
 </pre></td>
 <td class="code"><pre><span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="o">...</span>
+    <span class="p">...</span>
     <span class="s">'widget_tweaks'</span><span class="p">,</span>
-    <span class="o">...</span>
+    <span class="p">...</span>
 <span class="p">]</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
@@ -1140,17 +1147,17 @@
 10
 11
 </pre></td>
-<td class="code"><pre><span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">ModelForm</span><span class="p">):</span>
-  <span class="o">...</span>
-  <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span>
+<td class="code"><pre><span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">ModelForm</span><span class="p">):</span>
+  <span class="p">...</span>
+  <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
     <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span>
-    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="o">.</span><span class="n">TextInput</span><span class="p">(</span>
+    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="p">.</span><span class="n">TextInput</span><span class="p">(</span>
       <span class="n">attrs</span><span class="o">=</span><span class="p">{</span>
         <span class="s">'class'</span><span class="p">:</span> <span class="s">"form-control"</span>
       <span class="p">}</span>
     <span class="p">)</span>
   <span class="p">)</span>
-  <span class="o">...</span>
+  <span class="p">...</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -1694,11 +1701,11 @@
 4
 5
 </pre></td>
-<td class="code"><pre><span class="o">@</span><span class="n">register</span><span class="o">.</span><span class="nb">filter</span><span class="p">(</span><span class="n">is_safe</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<td class="code"><pre><span class="o">@</span><span class="n">register</span><span class="p">.</span><span class="nb">filter</span><span class="p">(</span><span class="n">is_safe</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
 <span class="o">@</span><span class="n">stringfilter</span>
 <span class="k">def</span> <span class="nf">lower</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
     <span class="s">"""Convert a string into all lowercase."""</span>
-    <span class="k">return</span> <span class="n">value</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">value</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -1729,9 +1736,9 @@
 <td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">template</span>
 <span class="kn">from</span> <span class="nn">django.template.defaultfilters</span> <span class="kn">import</span> <span class="n">stringfilter</span>
 
-<span class="n">register</span> <span class="o">=</span> <span class="n">template</span><span class="o">.</span><span class="n">Library</span><span class="p">()</span>
+<span class="n">register</span> <span class="o">=</span> <span class="n">template</span><span class="p">.</span><span class="n">Library</span><span class="p">()</span>
 
-<span class="o">@</span><span class="n">register</span><span class="o">.</span><span class="nb">filter</span>
+<span class="o">@</span><span class="n">register</span><span class="p">.</span><span class="nb">filter</span>
 <span class="o">@</span><span class="n">stringfilter</span>
 <span class="k">def</span> <span class="nf">primeira_letra</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
     <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">value</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
@@ -1864,11 +1871,11 @@
 <td class="code"><pre><span class="kn">import</span> <span class="nn">datetime</span>
 <span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">template</span>
 
-<span class="n">register</span> <span class="o">=</span> <span class="n">template</span><span class="o">.</span><span class="n">Library</span><span class="p">()</span>
+<span class="n">register</span> <span class="o">=</span> <span class="n">template</span><span class="p">.</span><span class="n">Library</span><span class="p">()</span>
 
-<span class="o">@</span><span class="n">register</span><span class="o">.</span><span class="n">simple_tag</span>
+<span class="o">@</span><span class="n">register</span><span class="p">.</span><span class="n">simple_tag</span>
 <span class="k">def</span> <span class="nf">tempo_atual</span><span class="p">():</span>
-    <span class="k">return</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">'</span><span class="si">%</span><span class="s">H:</span><span class="si">%</span><span class="s">M:</span><span class="si">%</span><span class="s">S'</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">datetime</span><span class="p">.</span><span class="n">datetime</span><span class="p">.</span><span class="n">now</span><span class="p">().</span><span class="n">strftime</span><span class="p">(</span><span class="s">'%H:%M:%S'</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -2747,48 +2754,46 @@
 <section id="footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-4">
+			<div class="col-xs-12 col-sm-3">
 				<div class="footer-wrapper">
-					<p>Sobre</p>
+					<p>Mais</p>
 	
-					<ul>					
-						<li>
-							<a href="/">Início</a>
-						</li>
-
-						<li>
-							<a href="/sobre">Sobre a Python Academy</a>
-						</li>
-	
-						<li>
-							<a href="/zen-of-python"><i>Zen of Python</i></a>
-						</li>
+					<ul>											
+						<li><a href="/"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Início</a></li>
+						<li><a href="/zen-of-python"><i><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Zen of Python</i></a></li>
+						<li><a href="/blog/"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Blog</a></li>
+						<li><a href="/sliders/"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Sliders</a></li>
+						<li><a href="/sobre"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Sobre</a></li>
+						<li><a href="/loja/"><img src="/assets/svg/shop-icon.svg" width="20px"> Loja</a></li>
 					</ul>
 				</div>
 			</div>
 
-			<div class="col-xs-12 col-sm-4">
-				<div class="footer-wrapper">
-					<p>Conteúdo</p>
-	
-					<ul>
-						<li>
-							<a href="/blog/">Blog</a>
-						</li>
-						<li>
-							<a href="/sliders/">Sliders</a>
-						</li>						
-					</ul>
-				</div>
-			</div>
-
-			<div class="col-xs-12 col-sm-4">
+			<div class="col-xs-12 col-sm-5">
 				<div class="footer-wrapper">
 					<p>Ebooks</p>
 	
 					<ul>
 						<li>
-							<a href="/ebooks/desenvolvimento-web-com-python-e-django/">Desenvolvimento Web com Python e Django</a>
+							<a href="/ebooks/desenvolvimento-web-com-python-e-django/"><img class="emoji" title=":notebook:" alt=":notebook:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d3.png" height="20" width="20"> Desenvolvimento Web com Python e Django</a>
+						</li>					
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-4">
+				<div class="footer-wrapper">
+					<p>Cursos Parceiros</p>
+	
+					<ul>
+						<li>
+							<a href="https://go.hotmart.com/X54192051B"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"> Python Completo: do Júnior ao Sênior</a>
+						</li>	
+						<li>
+							<a href="https://go.hotmart.com/V54192092I"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"> Dominando Git e Github</a>
+						</li>	
+						<li>
+							<a href="https://go.hotmart.com/L54201537M"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"> HTML5, CSS3 e Bootstrap 4</a>
 						</li>					
 					</ul>
 				</div>
