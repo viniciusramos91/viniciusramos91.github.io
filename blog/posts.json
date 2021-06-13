@@ -39,7 +39,7 @@
     
     {
       "h1": "A Biblioteca itertools do Python",
-      "title": "Aprenda a utilizar a incrível biblioteca itertools do Python e vire um expert!",
+      "title": "Aprenda a utilizar a incrível biblioteca itertools do Python!",
       "href": "/blog/a-biblioteca-itertools-do-python",
       "slug": "a-biblioteca-itertools-do-python",
       "assets": "itertools",
@@ -75,7 +75,7 @@
     
     {
       "h1": "Dataframes do Pandas",
-      "title": "Dataframes do Pandas: Aprenda a manipular dados utilizando os Dataframes do Pandas!",
+      "title": "Aprenda a manipular dados utilizando os Dataframes do Pandas!",
       "href": "/blog/dataframes-do-pandas",
       "slug": "dataframes-do-pandas",
       "assets": "pandas-dataframes",
@@ -93,7 +93,7 @@
     
     {
       "h1": "Séries no Pandas",
-      "title": "Séries no Pandas: Aprenda como manipular arranjos unidimensionais em Python!",
+      "title": "Aprenda a usar arranjos unidimensionais utilizando Python e Pandas!",
       "href": "/blog/series-no-pandas",
       "slug": "series-no-pandas",
       "assets": "pandas-series",

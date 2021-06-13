@@ -12,7 +12,7 @@
    viewBox="0 0 22.063881 22.063875"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
+   inkscape:version="0.92.5 (0.92.5+69)"
    sodipodi:docname="drf-badge.svg">
   <defs
      id="defs2">
@@ -37,9 +37,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="43.517839"
-     inkscape:cy="39.712309"
+     inkscape:zoom="5.6"
+     inkscape:cx="12.27123"
+     inkscape:cy="60.385729"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -61,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -92,17 +92,23 @@
        style="fill:#370000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 95.457062,64.464045 -1.77249,-1.772501 h -1.144359 l -1.772491,1.772501 z"
        id="path1131" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.38662px;line-height:1.25;font-family:DTLProkyonST;-inkscape-font-specification:'DTLProkyonST Medium';letter-spacing:0.637646px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.159366;stroke-miterlimit:4;stroke-dasharray:none"
-       x="3.485971"
-       y="107.48357"
-       id="text1386"
-       transform="rotate(-45)"><tspan
-         sodipodi:role="line"
-         id="tspan1384"
-         x="3.485971"
-         y="107.48357"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:DTLProkyonST;-inkscape-font-specification:'DTLProkyonST Medium';letter-spacing:0.637646px;fill:#ffffff;stroke:#ffffff;stroke-width:0.159366;stroke-miterlimit:4;stroke-dasharray:none">DRF</tspan></text>
+    <g
+       aria-label="DRF"
+       transform="rotate(-45)"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.38662004px;line-height:1.25;font-family:DTLProkyonST;-inkscape-font-specification:'DTLProkyonST Medium';letter-spacing:0.63764602px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.159366;stroke-miterlimit:4;stroke-dasharray:none"
+       id="text1386">
+      <path
+         d="m 3.8009266,107.47679 c 0.074506,0.003 0.1049853,0.007 0.1591712,0.0102 0.1523979,0.007 0.3217289,0.0102 0.4267141,0.0102 0.4741268,0 0.7958557,-0.0881 1.0532388,-0.28447 0.2743163,-0.21336 0.4267142,-0.5588 0.4267142,-0.97196 0,-0.39285 -0.1388515,-0.72135 -0.392848,-0.92116 -0.2438366,-0.18965 -0.552019,-0.27093 -1.0363057,-0.27093 -0.1794909,0 -0.3318888,0.007 -0.5689522,0.0237 l -0.067732,0.003 z m 0.3352754,-2.13357 c 0.1422381,-0.0102 0.2302902,-0.0135 0.3318888,-0.0135 0.3725282,0 0.6197515,0.0779 0.8026289,0.25738 0.1625578,0.15578 0.2472233,0.38946 0.2472233,0.67394 0,0.31495 -0.098212,0.56556 -0.2810895,0.72473 -0.1930373,0.16256 -0.4301007,0.23029 -0.8127888,0.23029 -0.091439,0 -0.1625577,0 -0.2878627,-0.0135 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:DTLProkyonST;-inkscape-font-specification:'DTLProkyonST Medium';letter-spacing:0.63764602px;fill:#ffffff;stroke:#ffffff;stroke-width:0.159366;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path24320" />
+      <path
+         d="m 7.0248391,107.48357 h 0.3352754 v -1.03631 h 0.054186 c 0.067732,0.003 0.1219183,0.007 0.1591712,0.007 0.027093,0 0.074506,-0.003 0.1320781,-0.003 l 0.03048,0.044 c 0.03048,0.0406 0.081279,0.10838 0.1456247,0.19643 0.071119,0.0982 0.1320782,0.1761 0.1727176,0.23367 0.125305,0.16256 0.2031972,0.26416 0.3285022,0.41317 0.054186,0.0677 0.077892,0.0948 0.1286915,0.1524 h 0.4538071 c -0.03048,-0.0305 -0.040639,-0.0406 -0.071119,-0.0711 -0.060959,-0.0677 -0.1422381,-0.16256 -0.2031972,-0.23029 -0.2201303,-0.26077 -0.4131677,-0.49783 -0.6028184,-0.74506 l -0.040639,-0.0542 c 0.1388514,-0.044 0.213357,-0.0779 0.2912493,-0.13885 0.1490113,-0.11854 0.2302902,-0.30141 0.2302902,-0.51138 0,-0.23029 -0.094825,-0.41994 -0.2709296,-0.53509 -0.1557846,-0.10498 -0.3589818,-0.14901 -0.6671642,-0.14901 -0.1523979,0 -0.3826881,0.007 -0.5554057,0.0203 l -0.050799,0.003 z m 0.3352754,-2.15051 c 0.1286916,-0.0237 0.196424,-0.0237 0.2743162,-0.0237 0.3860747,0 0.5858853,0.15239 0.5858853,0.44703 0,0.16256 -0.071119,0.29125 -0.2031972,0.36576 -0.098212,0.0576 -0.2235169,0.0779 -0.4233275,0.0779 -0.047413,0 -0.1049852,0 -0.1727176,-0.0169 h -0.060959 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:DTLProkyonST;-inkscape-font-specification:'DTLProkyonST Medium';letter-spacing:0.63764602px;fill:#ffffff;stroke:#ffffff;stroke-width:0.159366;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path24322" />
+      <path
+         d="m 9.9246416,107.48357 h 0.3352754 v -1.0634 h 1.029532 v -0.28109 h -1.029532 v -0.79247 h 1.073559 v -0.28109 H 9.9246416 Z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:DTLProkyonST;-inkscape-font-specification:'DTLProkyonST Medium';letter-spacing:0.63764602px;fill:#ffffff;stroke:#ffffff;stroke-width:0.159366;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path24324" />
+    </g>
   </g>
 </svg>
