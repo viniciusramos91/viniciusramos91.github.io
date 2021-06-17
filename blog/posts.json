@@ -2,6 +2,42 @@
     
     
     {
+      "h1": "Manipulação de Listas no Python",
+      "title": "Manipulação de Listas no Python: O Guia Completo",
+      "href": "/blog/manipulacao-de-listas-no-python",
+      "slug": "manipulacao-de-listas-no-python",
+      "assets": "list-manipulation",
+      "author": "Erickson L",
+      "description": "<p>Vamos aprender como manipular Listas no Python de forma pythônica com esse Guia COMPLETO!</p>",
+      "featured_icon": "featured_img.svg",
+      "date": {
+         "day": "16",
+         "month": "June",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
+      "h1": "Listas no Python",
+      "title": "Listas no Python",
+      "href": "/blog/listas-no-python",
+      "slug": "listas-no-python",
+      "assets": "lists",
+      "author": "Erickson L",
+      "description": "<p>Esse post trata de um dos principais tipos de dados usados no dia a dia do Pythonista: as famosas LISTAS!</p>",
+      "featured_icon": "featured_img.svg",
+      "date": {
+         "day": "14",
+         "month": "June",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Filtros, Busca e Ordenação no Django REST Framework",
       "title": "Adicione Filtros, Busca e Ordenação no Django REST Framework",
       "href": "/blog/filtros-busca-e-ordenacao-no-drf",
