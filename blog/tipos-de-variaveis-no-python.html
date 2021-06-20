@@ -36,7 +36,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
 
 		<title>Python Academy
-      Manipulação de Strings com f-strings no Python</title>
+      Tipos de Variáveis no Python</title>
 		<link rel="icon" type="image/png" href="/assets/img/favicon.png">		
 
 		<!-- Robots -->
@@ -55,7 +55,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Raleway:100,200,300,400,500,600,700,800|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic|Space+Mono:400,700|Inconsolata:400,700|Muli:200,300,400,600,700|Quicksand:300,400,500,700|Source+Serif+Pro:400,700|Roboto+Condensed:300,400,700|Roboto:300,400,500,700|Ubuntu:300,400,500,700|Oswald:300,400,500,600" rel="stylesheet">
 
 		<!-- Canonical URL -->
-		<link rel="canonical" href="https://pythonacademy.com.br/blog/f-strings-no-python">	
+		<link rel="canonical" href="https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python">	
 
 		
 		
@@ -70,22 +70,22 @@
 
 				
 		<!-- General -->
-		<meta name="description" content="Aprenda a manipular strings em Python de um jeito fácil e descomplicado com f-strings!">		
+		<meta name="description" content="Nesse post vamos ver os tipos de variáveis que a linguagem Python nos disponibiliza para utilizar em nossos programas.">		
 		<meta name="title" content="Python Academy
-      Manipulação de Strings com f-strings no Python">
-		<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/f-strings/facebook.png">
+      Tipos de Variáveis no Python">
+		<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/variables/facebook.png">
 
 		<!-- Open Graph -->
 		<meta property="fb:app_id" content="220280761884954">
 		<meta property="og:site_name" content="Python Academy">
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="Python Academy
-      Manipulação de Strings com f-strings no Python">
-		<meta property="og:url" content="https://pythonacademy.com.br/blog/f-strings-no-python">
-		<meta property="og:description" content="Aprenda a manipular strings em Python de um jeito fácil e descomplicado com f-strings!">
-		<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/posts/f-strings/facebook.png" />
+      Tipos de Variáveis no Python">
+		<meta property="og:url" content="https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python">
+		<meta property="og:description" content="Nesse post vamos ver os tipos de variáveis que a linguagem Python nos disponibiliza para utilizar em nossos programas.">
+		<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/posts/variables/facebook.png" />
 		<meta property="og:image:alt" content="Python Academy
-      Manipulação de Strings com f-strings no Python" />
+      Tipos de Variáveis no Python" />
 		<meta property="og:image:type" content="image/png" />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
@@ -94,9 +94,9 @@
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
 		<meta name="twitter:title" content="Python Academy
-      Manipulação de Strings com f-strings no Python">
-		<meta name="twitter:description" content="Aprenda a manipular strings em Python de um jeito fácil e descomplicado com f-strings!">
-		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/f-strings/twitter.png">
+      Tipos de Variáveis no Python">
+		<meta name="twitter:description" content="Nesse post vamos ver os tipos de variáveis que a linguagem Python nos disponibiliza para utilizar em nossos programas.">
+		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/variables/twitter.png">
 		
 		<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
 		
@@ -229,18 +229,18 @@
 		<div class="main-container" data-aos="fade-in" data-aos-duration="1500">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
-					<div class="post-banner-content" style="background: #006266 url('/assets/svg/stars-bground.svg');">
+					<div class="post-banner-content" style="background: #f1c40f url('/assets/svg/stars-bground.svg');">
 						<div class="container">	
 							<div class="wrapper">
 								<div class="featured-icon-wrapper">
-									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/f-strings/featured_icon.svg" width="90%">
+									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/variables/featured_img.svg" width="90%">
 									</object>															
 								</div>
 							</div>													
 			
 							
 							<h1 class="blog-post-title font-shadow text-focus-in">
-								Como usar f-strings no Python
+								Tipos de Variáveis no Python
 							</h1>			
 						</div>			
 					</div>
@@ -255,97 +255,60 @@
 </a>
 
 					
-<p>Olá Pythonista!</p>
+<p>Salve, salve senhor ou senhora <strong>Pythonista</strong>!</p>
 
-<p>Hoje vamos aprender uma forma de manipular strings de um jeito legível e mais conciso, utilizando <strong>f-strings</strong>!</p>
+<p>Nesse post vamos falar sobre os diversos <strong>Tipos de Variáveis do Python</strong>.</p>
 
-<p>F-strings foram introduzidas no Python 3.6 através da <a href="https://www.python.org/dev/peps/pep-0498/" target="_blank">PEP 498</a>.</p>
+<p>Independente se você vem de outra linguagem ou se está começando agora no Python, saber quais são e como utilizá-las é muito importante para quem desenvolve código em Python.</p>
 
-<p>Ao fim desse post, você aprenderá como e porquê utilizar <em>f-strings</em>!</p>
-
-<p>Então faz o cafézinho nosso de cada dia e vamos nessa!</p>
+<p>Vamos falar de todos os tipo para que você vire um verdadeiro <strong>Pythonista</strong>,</p>
 
 <h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
 
 <ul id="markdown-toc">
-  <li><a href="#formata%C3%A7%C3%A3o-de-strings-em-python" id="markdown-toc-formatação-de-strings-em-python">Formatação de Strings em Python</a></li>
-  <li><a href="#formata%C3%A7%C3%A3o-com-f-strings" id="markdown-toc-formatação-com-f-strings">Formatação com <em>f-strings</em></a></li>
-  <li><a href="#utilizando-fun%C3%A7%C3%B5es" id="markdown-toc-utilizando-funções">Utilizando funções</a></li>
-  <li><a href="#acessando-dicion%C3%A1rios" id="markdown-toc-acessando-dicionários">Acessando dicionários</a></li>
-  <li><a href="#strings-multi-linha" id="markdown-toc-strings-multi-linha">Strings multi-linha</a></li>
-  <li><a href="#m%C3%A9todo-de-classe-__str__-vs-__repr__" id="markdown-toc-método-de-classe-__str__-vs-__repr__">Método de classe <code class="highlighter-rouge">__str__</code> <strong>vs</strong> <code class="highlighter-rouge">__repr__</code></a></li>
-  <li><a href="#utilizando-formatadores-especiais" id="markdown-toc-utilizando-formatadores-especiais">Utilizando formatadores especiais</a></li>
+  <li><a href="#introdu%C3%A7%C3%A3o" id="markdown-toc-introdução">Introdução</a></li>
+  <li><a href="#tipo-inteiro-int" id="markdown-toc-tipo-inteiro-int">Tipo Inteiro (<code class="highlighter-rouge">int</code>)</a></li>
+  <li><a href="#ponto-flutuante-ou-decimal-float" id="markdown-toc-ponto-flutuante-ou-decimal-float">Ponto Flutuante ou Decimal (<code class="highlighter-rouge">float</code>)</a></li>
+  <li><a href="#complexo-complex" id="markdown-toc-complexo-complex">Complexo (<code class="highlighter-rouge">complex</code>)</a></li>
+  <li><a href="#string-str" id="markdown-toc-string-str">String (<code class="highlighter-rouge">str</code>)</a></li>
+  <li><a href="#boolean-bool" id="markdown-toc-boolean-bool">Boolean (<code class="highlighter-rouge">bool</code>)</a></li>
+  <li><a href="#listas-list" id="markdown-toc-listas-list">Listas (<code class="highlighter-rouge">list</code>)</a></li>
+  <li><a href="#tuplas-tuple" id="markdown-toc-tuplas-tuple">Tuplas (<code class="highlighter-rouge">tuple</code>)</a></li>
+  <li><a href="#dicion%C3%A1rios-dict" id="markdown-toc-dicionários-dict">Dicionários (<code class="highlighter-rouge">dict</code>)</a></li>
+  <li><a href="#como-mudar-o-tipo-de-uma-vari%C3%A1vel" id="markdown-toc-como-mudar-o-tipo-de-uma-variável">Como mudar o tipo de uma variável</a></li>
+  <li><a href="#erros-comuns-relacionados-ao-tipo-da-vari%C3%A1vel" id="markdown-toc-erros-comuns-relacionados-ao-tipo-da-variável">Erros comuns relacionados ao tipo da variável</a></li>
 </ul>
 
-<h2 id="formatação-de-strings-em-python">Formatação de Strings em Python</h2>
+<h2 id="introdução">Introdução</h2>
 
-<p>Em Python nós não temos muitas formas de formatar strings, graças a um dos Zen’s do Python (não sabe qual? Então já <a href="https://pythonacademy.com.br/zen-of-python" target="_blank">clica aqui pra saber mais</a>).</p>
+<p>Vamos começar do começo!</p>
 
-<p>Antes do Python 3.6, nós tínhamos basicamente duas formas de formatar strings:</p>
+<p>Python é uma linguagem dinamicamente tipada, o que significa que não é necessário declarar o tipo de variável ou fazer <em>casting</em> (mudar o tipo de variável), pois o Interpretador se encarrega disso para nós!</p>
+
+<p>Isso significa também que o tipo da variável poder variar durante a execução do programa.</p>
+
+<p>Os tipos de dados padrão do Python são:</p>
+
 <ul>
-  <li>Utilizando <code class="highlighter-rouge">%</code>  <strong>ou</strong>
-</li>
-  <li>Utilizando <code class="highlighter-rouge">str.format()</code>, a partir do Python 3.0.</li>
+  <li>Inteiro (int)</li>
+  <li>Ponto Flutuante ou Decimal (float)</li>
+  <li>Tipo Complexo (complex)</li>
+  <li>String (str)</li>
+  <li>Boolean (bool)</li>
+  <li>List (list)</li>
+  <li>Tuple</li>
+  <li>Dictionary (dic)</li>
 </ul>
 
-<p>A partir da versão 3.6 do Python, foi introduzido o conceito de <em>f-strings</em>, que veremos <strong>AGORA</strong>!</p>
+<h2 id="tipo-inteiro-int">Tipo Inteiro (<code class="highlighter-rouge">int</code>)</h2>
 
-<h2 id="formatação-com-f-strings">Formatação com <em>f-strings</em>
-</h2>
+<p>O tipo inteiro é um tipo composto por caracteres numéricos (algarismos) inteiros.</p>
 
-<p><em>F-strings</em> foram criados para facilitar nossa vida e vieram para <strong>ficar</strong>!</p>
+<p>É um tipo usado para um número que pode ser escrito sem um componente decimal, podendo ter ou não sinal, isto é: ser positivo ou negativo.</p>
 
-<p>Também chamadas de “strings literais formatadas” (<em>formatted string literals</em>), f-strings são strings com a letra <code class="highlighter-rouge">f</code> no início e chaves <code class="highlighter-rouge">{}</code> para realizar a interpolação de expressões.</p>
+<p>Por exemplo, 21, 4, 0, e −2048 são números inteiros, enquanto 9.75, 1/2, 1.5 não são.</p>
 
-<p>As expressões são processadas em tempo de execução e formatadas utilizadas o protocolo <code class="highlighter-rouge">__format__</code>. Vamos de exemplo:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre><span class="n">nome</span> <span class="o">=</span> <span class="s">'Python Academy'</span>
-
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Qual o melhor Blog sobre Python? </span><span class="si">{</span><span class="n">nome</span><span class="si">}</span><span class="s">!"</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>E a saída seria:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>Qual o melhor Blog sobre Python? Python Academy!!!
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<h2 id="utilizando-funções">Utilizando funções</h2>
-
-<p>Como <em>f-strings</em> são processadas em tempo de execução, podemos colocar <del>quase</del> todo tipo de código dentro das expressões.</p>
-
-<p>Aqui um outro exemplo, utilizando chamada de função e mais:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre><span class="n">nome</span> <span class="o">=</span> <span class="s">'python academy'</span>
-
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Qual o melhor Blog sobre Python? </span><span class="si">{</span><span class="n">nome</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span> <span class="o">+</span> <span class="s">'!'</span> <span class="o">*</span> <span class="mi">3</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Sua saída seria:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>Qual o melhor Blog sobre Python? PYTHON ACADEMY!!!
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Ou ainda:</p>
+<p>Exemplos:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -354,50 +317,59 @@
 4
 5
 </pre></td>
-<td class="code"><pre><span class="kn">import</span> <span class="nn">math</span>
+<td class="code"><pre><span class="n">idade</span> <span class="o">=</span> <span class="mi">18</span>
+<span class="n">ano</span> <span class="o">=</span> <span class="mi">2002</span>
 
-<span class="n">x</span> <span class="o">=</span> <span class="mf">0.5</span>
-
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'cos(</span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s">) = </span><span class="si">{</span><span class="n">math</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">idade</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">ano</span><span class="p">))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>O <em>output</em> seria:</p>
+<p><strong>Saída</strong>:</p>
 
 <figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
+2
 </pre></td>
-<td class="code"><pre>cos(0.5) = 0.8775825618903728
+<td class="code"><pre>&lt;class 'int'&gt;
+&lt;class 'int'&gt;
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<h2 id="acessando-dicionários">Acessando dicionários</h2>
+<h2 id="ponto-flutuante-ou-decimal-float">Ponto Flutuante ou Decimal (<code class="highlighter-rouge">float</code>)</h2>
 
-<p>Também é possível acessar dicionários dentro de <em>f-strings</em>:</p>
+<p>É um tipo composto por caracteres numéricos (algarismo) decimais.</p>
+
+<p>O famoso ponto flutuante é um tipo usado para números racionais (números que podem ser representados por uma fração) informalmente conhecido como “número quebrado”.</p>
+
+<p>Exemplos:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
+4
+5
 </pre></td>
-<td class="code"><pre><span class="n">dicionario</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">({</span><span class="s">'nome'</span><span class="p">:</span> <span class="s">'Vinícius'</span><span class="p">,</span> <span class="s">'ocupacao'</span><span class="p">:</span> <span class="s">'Software Engineer'</span><span class="p">})</span>
+<td class="code"><pre><span class="n">altura</span> <span class="o">=</span> <span class="mf">1.80</span>
+<span class="n">peso</span> <span class="o">=</span> <span class="mf">73.55</span>
 
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">dicionario</span><span class="p">[</span><span class="s">'nome'</span><span class="p">]</span><span class="si">}</span><span class="s"> é um </span><span class="si">{</span><span class="n">dicionario</span><span class="p">[</span><span class="s">'ocupacao'</span><span class="p">]</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Seu output seria:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>Vinícius é um Software Engineer
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">peso</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">altura</span><span class="p">))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<h2 id="strings-multi-linha">Strings multi-linha</h2>
+<h2 id="complexo-complex">Complexo (<code class="highlighter-rouge">complex</code>)</h2>
 
-<p>Também podemos criar <em>f-strings</em> multilinha:</p>
+<p>Tipo de dado usado para representar números complexos (isso mesmo, aquilo que provavelmente estudou no terceiro ano do ensino médio).</p>
+
+<p>Esse tipo normalmente é usado em cálculos geométricos e científicos.</p>
+
+<p>Um tipo complexo contem duas partes: a parte <strong>real</strong> e a parte <strong>imaginária</strong>, sendo que a parte imaginária contem um <strong>j</strong> no sufixo.</p>
+
+<p>A função <code class="highlighter-rouge">complex(real[, imag])</code> do Python possibilita a criação de números imaginários passando como argumento: <code class="highlighter-rouge">real</code>, que é a parte Real do número complexo e o argumento opcional <code class="highlighter-rouge">imag</code>, representando a parte imaginária do número complexo.</p>
+
+<p>Exemplos:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -406,36 +378,134 @@
 4
 5
 6
-7
-8
-9
 </pre></td>
-<td class="code"><pre><span class="n">site</span> <span class="o">=</span> <span class="s">'Python Academy'</span>
-<span class="n">titulo</span> <span class="o">=</span> <span class="s">'f-string no Python'</span>
-<span class="n">dificuldade</span> <span class="o">=</span> <span class="s">'Básico'</span>
+<td class="code"><pre><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span><span class="o">+</span><span class="mf">2j</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">20</span><span class="o">+</span><span class="mf">6j</span>
 
-<span class="k">print</span><span class="p">(</span>
-  <span class="sa">f</span><span class="s">"Site: </span><span class="si">{</span><span class="n">site</span><span class="si">}</span><span class="se">\n</span><span class="s">"</span>
-  <span class="sa">f</span><span class="s">"Título: </span><span class="si">{</span><span class="n">titulo</span><span class="si">}</span><span class="se">\n</span><span class="s">"</span>
-  <span class="sa">f</span><span class="s">"Dificuldade: </span><span class="si">{</span><span class="n">dificuldade</span><span class="si">}</span><span class="s">"</span>
-<span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">b</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">complex</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>A saída seria a seguinte:</p>
+<p><strong>Saída</strong>:</p>
 
 <figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
 </pre></td>
-<td class="code"><pre>Site: Python Academy
-Título: f-string no Python
-Dificuldade: Básico
+<td class="code"><pre>&lt;class 'complex'&gt;
+&lt;class 'complex'&gt;
+(2+5j)
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p><em><strong>E aí? Tá curtindo nosso material? Que tal fazer parte da nossa lista exclusiva de Pythonistas?</strong></em></p>
+<h2 id="string-str">String (<code class="highlighter-rouge">str</code>)</h2>
+
+<p>É um conjunto de caracteres dispostos numa determinada ordem,geralmente utilizada para representar palavras, frases ou textos.</p>
+
+<p>Exemplos:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="n">nome</span> <span class="o">=</span> <span class="s">'Guilherme'</span>
+<span class="n">profissao</span> <span class="o">=</span> <span class="s">'Engenheiro de Software'</span>
+
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">profissao</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">nome</span><span class="p">))</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><strong>Saída</strong>:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>&lt;class 'str'&gt;
+&lt;class 'str'&gt;
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="boolean-bool">Boolean (<code class="highlighter-rouge">bool</code>)</h2>
+
+<p>Tipo de dado lógico que pode assumir apenas dois valores: falso ou verdadeiro (<code class="highlighter-rouge">False</code> ou <code class="highlighter-rouge">True</code> em Python).</p>
+
+<p>Na lógica computacional, podem ser considerados como 0 ou 1.</p>
+
+<p>Exemplos:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="n">fim_de_semana</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="n">feriado</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">fim_de_semana</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">feriado</span><span class="p">))</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><strong>Saída</strong>:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>&lt;class 'bool'&gt;
+&lt;class 'bool'&gt;
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="listas-list">Listas (<code class="highlighter-rouge">list</code>)</h2>
+
+<p>Tipo de dado muito importante e que é <strong>muito</strong> utilizado no dia a dia do desenvolvedor Python!</p>
+
+<p>Listas agrupam um conjunto de elementos variados, podendo conter: inteiros, floats, strings, outras listas e outros tipos.</p>
+
+<p>Elas são definidas utilizando-se colchetes para delimitar a lista e vírgulas para separar os elementos, veja alguns exemplo abaixo:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="n">alunos</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Amanda'</span><span class="p">,</span> <span class="s">'Ana'</span><span class="p">,</span> <span class="s">'Bruno'</span><span class="p">,</span> <span class="s">'João'</span><span class="p">]</span>
+<span class="n">notas</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mf">8.5</span><span class="p">,</span> <span class="mf">7.8</span><span class="p">,</span> <span class="mf">8.0</span><span class="p">]</span> 
+
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">alunos</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">notas</span><span class="p">))</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><strong>Saída</strong>:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>&lt;class 'list'&gt;
+&lt;class 'list'&gt;
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Aqui na Python Academy temos <strong>muito</strong> conteúdo sobre Listas para você ficar craque!</p>
+
+<p>Para saber mais sobre Listas acesse <a href="https://pythonacademy.com.br/blog/listas-no-python">nosso post sobre Listas</a>, <a href="https://pythonacademy.com.br/blog/manipulacao-de-listas-no-python">também nosso post sobre Manipulação de Listas</a>, e <a href="https://pythonacademy.com.br/blog/list-comprehensions-no-python">nosso post completo sobre List Comprehensions</a>.</p>
+
+<p><em><strong>Ahhh, antes de continuar, que tal fazer parte da nossa comunidade e receber EM PRIMEIRA MÃO nossos conteúdos? Então aproveita!</strong></em></p>
 
 <div class="email-signup" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
 	<div class="row">
@@ -478,12 +548,117 @@ Dificuldade: Básico
 	</div>      
 </div>
 
-<p>Vamos nessa! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+<h2 id="tuplas-tuple">Tuplas (<code class="highlighter-rouge">tuple</code>)</h2>
 
-<h2 id="método-de-classe-__str__-vs-__repr__">Método de classe <code class="highlighter-rouge">__str__</code> <strong>vs</strong> <code class="highlighter-rouge">__repr__</code>
-</h2>
+<p>Assim como Lista, Tupla é um tipo que agrupa um conjunto de elementos.</p>
 
-<p>Você pode até mesmo utilizar objetos instanciados dentro de <em>f-strings</em>. Por exemplo, caso você tenha a seguinte classe:</p>
+<p>Porém sua forma de definição é diferente: utilizamos parênteses e também separado por vírgula.</p>
+
+<p>A diferença para Lista é que Tuplas são <strong>imutáveis</strong>, ou seja, após sua definição, Tuplas <strong>não podem ser modificadas</strong>.</p>
+
+<p>Vamos ver alguns exemplos:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="n">valores</span> <span class="o">=</span> <span class="p">(</span><span class="mi">90</span><span class="p">,</span> <span class="mi">79</span><span class="p">,</span> <span class="mi">54</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">21</span><span class="p">)</span>
+<span class="n">pontos</span> <span class="o">=</span> <span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mf">94.05</span><span class="p">,</span> <span class="mf">86.8</span><span class="p">,</span> <span class="mi">62</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">valores</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">pontos</span><span class="p">))</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><strong>Saída</strong>:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>&lt;class 'tuple'&gt;
+&lt;class 'tuple'&gt;
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Caso haja uma tentativa de alterar os itens de uma tupla após sua definição, como no código a seguir:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre><span class="nb">tuple</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="nb">tuple</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">4</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>O seguinte erro do tipo <code class="highlighter-rouge">TypeError</code> será lançado pelo interpretador do Python:</p>
+
+<figure class="highlight terminal-output error"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+TypeError: 'tuple' object does not support item assignment
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="dicionários-dict">Dicionários (<code class="highlighter-rouge">dict</code>)</h2>
+
+<p>Dict é um tipo de dado muito flexível do Python.</p>
+
+<p>Eles são utilizados para agrupar elementos através da estrutura de chave e valor, onde a chave é o primeiro elemento seguido por dois pontos e pelo valor.</p>
+
+<p>Vamos ver alguns exemplos:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="n">altura</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Amanda'</span><span class="p">:</span> <span class="mf">1.65</span><span class="p">,</span> <span class="s">'Ana'</span><span class="p">:</span> <span class="mf">1.60</span><span class="p">,</span> <span class="s">'João'</span><span class="p">:</span> <span class="mf">1.70</span><span class="p">}</span>
+<span class="n">peso</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Amanda'</span><span class="p">:</span> <span class="mi">60</span><span class="p">,</span> <span class="s">'Ana'</span><span class="p">:</span> <span class="mi">58</span><span class="p">,</span> <span class="s">'João'</span><span class="p">:</span> <span class="mi">68</span><span class="p">}</span>
+
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">altura</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">peso</span><span class="p">))</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><strong>Saída</strong>:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>&lt;class 'dict'&gt;
+&lt;class 'dict'&gt;
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Dicionários possibilitam um tipo de manipulação muito poderosa, chamada de <em>Dict Comprehensions</em>! Você pode saber tudo sobre <a href="https://pythonacademy.com.br/blog/dict-comprehensions-no-python" target="_blank"><em>dict comprehensions</em> clicando aqui e lendo nosso post sobre o assunto!</a></p>
+
+<hr>
+
+<p><img class="emoji" title=":nerd_face:" alt=":nerd_face:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f913.png" height="20" width="20"> <strong>Quer fazer um curso COMPLETO de Python, do Básico ao Avançado, com Acesso Vitalício, Suporte individual e personalizado, com CERTIFICADO PROFISSIONAL e com 7 DIAS DE GARANTIA?</strong></p>
+
+<p><img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> <em><strong>Então <a href="https://go.hotmart.com/A55372730Q" target="_blank">clique aqui e confira nosso curso parceiro da Python Academy!</a></strong></em></p>
+
+<hr>
+
+<h2 id="como-mudar-o-tipo-de-uma-variável">Como mudar o tipo de uma variável</h2>
+
+<p>Em determinados cenários pode ser necessário mudar o tipo de uma variável e no Python isso é muito fácil, uma das vantagens de uma linguagem dinamicamente tipada.</p>
+
+<p>Abaixo veremos exemplos de como trocar o tipo de variáveis.</p>
+
+<h3 id="decimal-float-para-string-str">Decimal (<code class="highlighter-rouge">float</code>) para String (<code class="highlighter-rouge">str</code>)</h3>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -496,115 +671,34 @@ Dificuldade: Básico
 8
 9
 10
-11
-12
-13
-14
-15
 </pre></td>
-<td class="code"><pre><span class="k">class</span> <span class="nc">Carro</span><span class="p">:</span>
-  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">marca</span><span class="p">,</span> <span class="n">modelo</span><span class="p">,</span> <span class="n">ano</span><span class="p">):</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">marca</span> <span class="o">=</span> <span class="n">marca</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">modelo</span> <span class="o">=</span> <span class="n">modelo</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">ano</span> <span class="o">=</span> <span class="n">ano</span>
-    
-  <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-    <span class="k">return</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">marca</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">modelo</span><span class="si">}</span><span class="s"> - Ano </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">ano</span><span class="si">}</span><span class="s">"</span>
+<td class="code"><pre><span class="c1"># Antes da conversão
+</span><span class="n">altura</span> <span class="o">=</span> <span class="mf">1.80</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">altura</span><span class="p">))</span>
 
-  <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-    <span class="k">return</span> <span class="p">(</span>
-      <span class="sa">f</span><span class="s">"Marca: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">marca</span><span class="si">}</span><span class="se">\n</span><span class="s">"</span>
-      <span class="sa">f</span><span class="s">"Modelo: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">modelo</span><span class="si">}</span><span class="se">\n</span><span class="s">"</span>
-      <span class="sa">f</span><span class="s">"Ano: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">ano</span><span class="si">}</span><span class="s">"</span>
-    <span class="p">)</span>
+<span class="c1"># Conversão do tipo
+</span><span class="n">altura</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">altura</span><span class="p">)</span>
+
+<span class="c1"># Depois da conversão
+</span><span class="nb">type</span><span class="p">(</span><span class="n">altura</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">altura</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Seria possível fazer:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre><span class="n">possante</span> <span class="o">=</span> <span class="n">Carro</span><span class="p">(</span><span class="s">'Ferrari'</span><span class="p">,</span> <span class="s">'F8 Tributo'</span><span class="p">,</span> <span class="s">'21'</span><span class="p">)</span>
-
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">possante</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>A saída de código seria:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>Ferrari/F8 Tributo - Ano 21
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>A saída padrão é a do método <code class="highlighter-rouge">__str__</code>.</p>
-
-<p>Contudo, se quisermos apresentar a representação presente no método <code class="highlighter-rouge">__repr__</code>, podemos utilizar <em>flag</em> especial <code class="highlighter-rouge">!r</code>.</p>
-
-<p>Veja como:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">possante</span><span class="err">!</span><span class="n">r</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Dessa forma, a saída seria a seguinte:</p>
+<p><strong>Saída</strong>:</p>
 
 <figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
 </pre></td>
-<td class="code"><pre>Marca: Ferrari
-Modelo: F8 Tributo
-Ano: 21
+<td class="code"><pre>&lt;class 'float'&gt;
+&lt;class 'str'&gt;
+'1.8'
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<hr>
-
-<p><img class="emoji" title=":nerd_face:" alt=":nerd_face:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f913.png" height="20" width="20"> <strong>Quer fazer um curso COMPLETO de Python, do Básico ao Avançado, com Acesso Vitalício, Suporte individual e personalizado, com CERTIFICADO PROFISSIONAL e com 7 DIAS DE GARANTIA?</strong></p>
-
-<p><img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> <em><strong>Então <a href="https://go.hotmart.com/A55372730Q" target="_blank">clique aqui e confira nosso curso parceiro da Python Academy!</a></strong></em></p>
-
-<hr>
-
-<h2 id="utilizando-formatadores-especiais">Utilizando formatadores especiais</h2>
-
-<p>A <em>Especificação de Formatação</em> (do inglês “<em>Format Specification</em>” - acesse a <a href="https://docs.python.org/3/library/string.html#format-specification-mini-language" target="_blank">documentação aqui</a>) oferece modificadores que podem ser utilizados em conjunto com <em>f-strings</em>.</p>
-
-<p>A especificação é bem extensa e contém diversos componentes, portanto sugiro dar uma olhadinha lá.</p>
-
-<p>Sua forma é a seguinte:</p>
-
-<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>{[&lt;nome&gt;][!&lt;conversão&gt;][:&lt;modificador&gt;]}
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>A parte <code class="highlighter-rouge">[:&lt;modificador&gt;]</code> é bem complexa e possui os seguintes campos:</p>
-
-<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>:[[&lt;preenchimento&gt;]&lt;alinhamento&gt;][&lt;sinal&gt;][#][0][&lt;comprimento&gt;][&lt;grupo&gt;][.&lt;precisão&gt;][&lt;tipo&gt;]
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Cada campo desse possibilita um tipo de modificação na string resultante.</p>
-
-<p>Vamos de exemplo!</p>
-
-<p>Um modificador disponível é o símbolo de porcentagem <code class="highlighter-rouge">%</code>. Ele serve para formatar saídas numéricas. Veja a mágica:</p>
+<h3 id="inteiro-int-para-decimal-float">Inteiro (<code class="highlighter-rouge">int</code>) para Decimal (<code class="highlighter-rouge">float</code>):</h3>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -613,82 +707,158 @@ Ano: 21
 4
 5
 6
+7
+8
+9
+10
 </pre></td>
-<td class="code"><pre><span class="n">valor</span> <span class="o">=</span> <span class="mf">5.5</span> <span class="o">/</span> <span class="mf">40.0</span>
+<td class="code"><pre><span class="c1"># Antes da conversão
+</span><span class="n">idade</span> <span class="o">=</span> <span class="mi">18</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">idade</span><span class="p">))</span>
 
-<span class="k">print</span><span class="p">(</span>
-  <span class="sa">f</span><span class="s">'Resultado original: </span><span class="si">{</span><span class="n">valor</span><span class="si">}</span><span class="se">\n</span><span class="s">'</span>
-  <span class="sa">f</span><span class="s">'Resultado formatado: </span><span class="si">{</span><span class="n">valor</span><span class="p">:.</span><span class="mi">1</span><span class="o">%</span><span class="si">}</span><span class="s">'</span>
-<span class="p">)</span>
+<span class="c1"># Conversão do tipo
+</span><span class="n">idade</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">idade</span><span class="p">)</span>
+
+<span class="c1"># Depois da conversão
+</span><span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">idade</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">idade</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Olha a saída:</p>
+<p><strong>Saída</strong>:</p>
 
 <figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
+3
 </pre></td>
-<td class="code"><pre>Resultado original: 0.1375
-Resultado formatado: 13.8%
+<td class="code"><pre>&lt;class 'int'&gt;
+&lt;class 'float'&gt;
+18.0
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Explicando:</p>
-
-<ul>
-  <li>O <code class="highlighter-rouge">.1</code> diz que a string resultante deve ter apenas uma casa decimal;</li>
-  <li>O <code class="highlighter-rouge">%</code> multiplica o valor por 100 e inclui o <strong>%</strong> ao final.</li>
-</ul>
-
-<p>Agora um exemplo maluco:</p>
+<h3 id="booleano-bool-para-inteiro-int">Booleano (<code class="highlighter-rouge">bool</code>) para Inteiro (<code class="highlighter-rouge">int</code>)</h3>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
+4
+5
+6
+7
+8
+9
+10
 </pre></td>
-<td class="code"><pre><span class="n">valor</span> <span class="o">=</span> <span class="mi">255</span>
+<td class="code"><pre><span class="c1"># Antes da conversão
+</span><span class="n">fim_de_semana</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">fim_de_semana</span><span class="p">))</span>
 
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"'</span><span class="si">{</span><span class="n">valor</span><span class="p">:</span><span class="o">-^</span><span class="mi">10</span><span class="n">x</span><span class="si">}</span><span class="s">'"</span><span class="p">)</span>
+<span class="c1"># Conversão do tipo
+</span><span class="n">fim_de_semana</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">fim_de_semana</span><span class="p">)</span>
+
+<span class="c1"># Depois da conversão
+</span><span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">fim_de_semana</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">fim_de_semana</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>E a saída:</p>
+<p><strong>Saída</strong>:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>&lt;class 'bool'&gt;
+&lt;class 'int'&gt;
+1
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="erros-comuns-relacionados-ao-tipo-da-variável">Erros comuns relacionados ao tipo da variável</h2>
+
+<p>Entre os erros mais comuns que acontecem principalmente com quem está iniciando sua jornada com a linguagem Python estão os famosos <strong>TypeError</strong>!</p>
+
+<p>Portanto preste sempre atenção nesse tipo de erro pois ele está relacionado a tipagem errada de uma variável ou objeto.</p>
+
+<p>Além disso, pode representar uma operação incompatível, como tentar fazer uma operação matemática com variáveis de tipo incompatíveis.</p>
+
+<p>Por exemplo, suponha as seguintes variáveis, do tipo inteiro e string, respectivamente:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre><span class="n">peso</span> <span class="o">=</span> <span class="mf">65.55</span>
+<span class="n">altura</span> <span class="o">=</span> <span class="s">'1.7'</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Se tentarmos fazer a seguinte operação:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="n">imc</span> <span class="o">=</span> <span class="n">peso</span><span class="o">/</span><span class="n">altura</span><span class="o">**</span><span class="mi">2</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>O seguinte erro será lançado:</p>
+
+<figure class="highlight terminal-output error"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Para fazer esse cálculo corretamente a altura não pode ser string, podendo ser <code class="highlighter-rouge">float</code> ou inteiro (caso não fosse um valor decimal).</p>
+
+<p>Uma forma correta de realizar esse cálculo seria da seguinte maneira:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre><span class="n">peso</span> <span class="o">=</span> <span class="mf">65.55</span>
+<span class="n">altura</span> <span class="o">=</span> <span class="mf">1.7</span>
+<span class="n">imc</span> <span class="o">=</span> <span class="n">peso</span><span class="o">/</span><span class="n">altura</span><span class="o">**</span><span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="n">imc</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Dessa forma, obteríamos a seguinte saída:</p>
 
 <figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 </pre></td>
-<td class="code"><pre>'----ff----'
+<td class="code"><pre>22.68166089965398
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Agora vamos com calma:</p>
+<p>Sempre que o tipo <code class="highlighter-rouge">TypeError</code> aparecer em seu programa, preste atenção aos tipos dos dados e as operações que estão sendo executadas.</p>
 
-<ul>
-  <li>
-<code class="highlighter-rouge">-</code> é o <code class="highlighter-rouge">[&lt;preenchimento&gt;]</code>: é esse caracter que vai preencher os espaços vazios;</li>
-  <li>
-<code class="highlighter-rouge">^</code> é o <code class="highlighter-rouge">[&lt;alinhamento&gt;]</code>: diz como a string deve ser alinhada. No caso, <code class="highlighter-rouge">^</code> diz que a string deve ser centralizada.</li>
-  <li>
-<code class="highlighter-rouge">10</code> é o <code class="highlighter-rouge">[&lt;comprimento&gt;]</code>: diz que a string resultante deve ter 10 caracteres.</li>
-  <li>
-<code class="highlighter-rouge">x</code> é o <code class="highlighter-rouge">[&lt;tipo&gt;]</code>: diz que a string deve ser convertida em hexadecimal (portanto <code class="highlighter-rouge">ff</code> no resultado).</li>
-</ul>
-
-<p>Um tanto complexo, mas conciso!</p>
+<p>Caso seja necessário, faça a conversão das variáveis para se trabalhar com os tipos correto!</p>
 
 <h2 class="no_toc" id="conclusão">Conclusão</h2>
 
-<p>Vimos nesse post como é simples utilizar <em>f-strings</em> e como deixa nosso código mais legível!</p>
+<p>Espero que esse post tenha te ajudado a entender melhor os diversos tipos de variáveis que o Python nos disponibiliza para utilizar.</p>
 
-<p>Agora que você sabe como é simples utilizar <em>f-strings</em>, que tal refatorar aquele monte de string formatada com <code class="highlighter-rouge">%</code>? <img class="emoji" title=":thinking:" alt=":thinking:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png" height="20" width="20"></p>
+<p>Se gostou desse conteúdo, que tal fazer um <strong>CURSO COMPLETO</strong> de Python com Certificado Profissional, suporte individual e personalizado e 7 dias de garantia? <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></p>
 
-<p><em><strong>Uma boa né?!</strong></em> <img class="emoji" title=":sweat_smile:" alt=":sweat_smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f605.png" height="20" width="20"></p>
-
-<p>E aí, que ver mais do quê por aqui? <strong>Comenta aqui embaixo</strong>! <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></p>
-
-<p>Até a próxima, <strong>Pythonista</strong>!</p>
+<p><a href="https://go.hotmart.com/A55372730Q" target="_blank">
+    <img data-aos="zoom-out" class="python-course-banner hidden-xs" src="/assets/img/banner-curso-python.png" alt="Curso de Python">
+    <img data-aos="zoom-out" class="python-course-banner visible-xs" src="/assets/img/banner-curso-python-mobile.png" alt="Curso de Python">
+</a></p>
 
 
 
@@ -699,35 +869,35 @@ Resultado formatado: 13.8%
 						<div class="blog-post-colophon">
 							<div class="row">
 								<div class="col-xs-12 col-sm-3 text-center">									
-									<img src="/assets/authors/vinicius-ramos/avatar.png" width="100%" alt="Autor" class="profile-img">
+									<img src="/assets/authors/guilherme-euzebio/avatar.jpeg" width="100%" alt="Autor" class="profile-img">
 								</div>
 
 								<div class="col-xs-12 col-sm-9">
 									<div class="blog-post-meta">
 										<h2>
 											<span class="blog-post-by">
-												Por Vinícius Ramos
+												Por Guilherme Euzébio
 											</span>
 
-											<b>em <time datetime="2021-02-19" pubdate>19/02/2021</time></b>
+											<b>em <time datetime="2021-06-19" pubdate>19/06/2021</time></b>
 										</h2>
 	
-										<p class="short-description">"<i>Porque o Senhor dá a sabedoria, e da sua boca vem a inteligência e o entendimento. - Provérbios 2:6 </i>"</p>
+										<p class="short-description">"<i>Com grandes poderes vêm grandes responsabilidades – Stan Lee</i>"</p>
 
 										<p class="author-media-label">Minhas redes:</p>
 										
 										<ul>
 											
-											<li><a href="https://www.linkedin.com/in/vinicius-aramos" target="_blank"><i class="fa fa-linkedin-square" style="color: #0072b1;" aria-hidden="true"></i></a></li>
+											<li><a href="https://www.linkedin.com/in/guilhermeeuzebio" target="_blank"><i class="fa fa-linkedin-square" style="color: #0072b1;" aria-hidden="true"></i></a></li>
 																						
 											
-											<li><a href="mailto:vinicius.ramos@pythonacademy.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+											<li><a href="mailto:guilherme.e.a.pereira@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 																						
 											
-											<li><a href="https://github.com/viniciusramos91" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+											<li><a href="https://github.com/guilhermeeuzebio" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 											
 											
-											<li><a href="https://stackoverflow.com/users/6775679/viniciusramos91" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+											<li><a href="https://stackoverflow.com/users/9475099/guilherme-euzebio" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
 											
 											
 										</ul>
@@ -774,25 +944,25 @@ Resultado formatado: 13.8%
 			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
 			<ul>				
 				<li>
-					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/f-strings-no-python','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
 						<i class="fa fa-fw fa-facebook"></i>
 					</a>
 				</li>				
 				
 				<li>							
-					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/f-strings-no-python&amp;related=PythonAcademyBR&amp;text=%22Python%20Academy%20%7C%20Manipula%C3%A7%C3%A3o%20de%20Strings%20com%20f-strings%20no%20Python%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python&amp;related=PythonAcademyBR&amp;text=%22Python%20Academy%20%7C%20Tipos%20de%20Vari%C3%A1veis%20no%20Python%22%20por%20Guilherme%20Euz%C3%A9bio','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
 						<i class="fa fa-fw fa-twitter"></i>
 					</a>
 				</li>
 
 				<li>
-					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/f-strings-no-python" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/f-strings-no-python" data-action="share/whatsapp/share">
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python" data-action="share/whatsapp/share">
 						<i class="fa fa-fw fa-whatsapp"></i>
 					</a>
 				</li>
 
 				<li>
-					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Python%20Academy%20%7C%20Manipula%C3%A7%C3%A3o%20de%20Strings%20com%20f-strings%20no%20Python&amp;body=https://pythonacademy.com.br/blog/f-strings-no-python&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Python%20Academy%20%7C%20Tipos%20de%20Vari%C3%A1veis%20no%20Python&amp;body=https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
 						<i class="fa fa-fw fa-envelope"></i>
 					</a>
 				</li>
@@ -1001,7 +1171,7 @@ Resultado formatado: 13.8%
 							var post = posts[randomIndex];
 
 							// Verify if related post is the same as the shown
-							if (post.title != "Python Academy | Manipulação de Strings com f-strings no Python") {
+							if (post.title != "Python Academy | Tipos de Variáveis no Python") {
 								var postHTML = 
 									"<div class='col-lg-3 col-md-6 col-sm-6 col-xs-12'>" +
 										"<a href='" + post.href + "' class='card aos-init aos-animate' data-aos='fade-up'>" +
@@ -1036,7 +1206,7 @@ Resultado formatado: 13.8%
 						$('#email-modal').modal('show');
 
 						/* Set cookie so this does not repeat */
-						Cookies.set('pa_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/f-strings-no-python' });
+						Cookies.set('pa_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python' });
 					}
 				});		
 				
@@ -1056,8 +1226,8 @@ Resultado formatado: 13.8%
 			
 			<script type="text/javascript">
 				var disqus_config = function () {
-					this.page.url = 'https://pythonacademy.com.br/blog/f-strings-no-python';     // Replace PAGE_URL with your page's canonical URL variable
-					this.page.identifier = '/blog/f-strings-no-python';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					this.page.url = 'https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python';     // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = '/blog/tipos-de-variaveis-no-python';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 				};
 			
 				(function() { // DON'T EDIT BELOW THIS LINE
