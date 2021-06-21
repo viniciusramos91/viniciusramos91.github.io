@@ -3,7 +3,7 @@
     
     {
       "h1": "Tipos de Variáveis no Python",
-      "title": "Python Academy | Tipos de Variáveis no Python",
+      "title": "Tipos de Variáveis no Python",
       "href": "/blog/tipos-de-variaveis-no-python",
       "slug": "tipos-de-variaveis-no-python",
       "assets": "variables",
@@ -21,7 +21,7 @@
     
     {
       "h1": "Manipulação de Listas no Python",
-      "title": "Python Academy | Manipulação de Listas no Python",
+      "title": "Manipulação de Listas no Python",
       "href": "/blog/manipulacao-de-listas-no-python",
       "slug": "manipulacao-de-listas-no-python",
       "assets": "list-manipulation",
@@ -39,7 +39,7 @@
     
     {
       "h1": "Listas no Python",
-      "title": "Python Academy | Guia completo sobre Listas no Python",
+      "title": "Guia completo sobre Listas no Python",
       "href": "/blog/listas-no-python",
       "slug": "listas-no-python",
       "assets": "lists",
@@ -75,7 +75,7 @@
     
     {
       "h1": "Construção de APIs com Django REST Framework",
-      "title": "Python Academy | Construa APIs com Django e Django REST Framework",
+      "title": "Construa APIs com Django e Django REST Framework",
       "href": "/blog/construcao-de-apis-com-django-rest-framework",
       "slug": "construcao-de-apis-com-django-rest-framework",
       "assets": "drf",
@@ -93,7 +93,7 @@
     
     {
       "h1": "A Biblioteca itertools do Python",
-      "title": "Python Academy | Biblioteca itertools do Python",
+      "title": "Biblioteca itertools do Python",
       "href": "/blog/a-biblioteca-itertools-do-python",
       "slug": "a-biblioteca-itertools-do-python",
       "assets": "itertools",
@@ -129,7 +129,7 @@
     
     {
       "h1": "Dataframes do Pandas",
-      "title": "Python Academy | Manipulação de dados com Dataframes do Pandas",
+      "title": "Manipulação de dados com Dataframes do Pandas",
       "href": "/blog/dataframes-do-pandas",
       "slug": "dataframes-do-pandas",
       "assets": "pandas-dataframes",
@@ -147,7 +147,7 @@
     
     {
       "h1": "Séries no Pandas",
-      "title": "Python Academy | Séries do Pandas (Python)",
+      "title": "Séries do Pandas (Python)",
       "href": "/blog/series-no-pandas",
       "slug": "series-no-pandas",
       "assets": "pandas-series",
@@ -165,7 +165,7 @@
     
     {
       "h1": "Como usar f-strings no Python",
-      "title": "Python Academy | Manipulação de Strings com f-strings no Python",
+      "title": "Manipulação de Strings com f-strings no Python",
       "href": "/blog/f-strings-no-python",
       "slug": "f-strings-no-python",
       "assets": "f-strings",
@@ -183,7 +183,7 @@
     
     {
       "h1": "Como Importar Arquivos CSV Usando Pandas",
-      "title": "Python Academy | Como importar arquivos CSV no Pandas (Python)",
+      "title": "Como importar arquivos CSV no Pandas (Python)",
       "href": "/blog/importar-csv-no-pandas",
       "slug": "importar-csv-no-pandas",
       "assets": "pandas-csv",
@@ -237,7 +237,7 @@
     
     {
       "h1": "Iterators e Generators em Python",
-      "title": "Python Academy | Iterators e Generators do Python",
+      "title": "Iterators e Generators do Python",
       "href": "/blog/iterators-e-generators-em-python",
       "slug": "iterators-e-generators-em-python",
       "assets": "iterators-and-generators",
@@ -255,7 +255,7 @@
     
     {
       "h1": "Desenvolvimento Web com Python e Django: Template",
-      "title": "Python Academy | A Camada Template do Django (Python)",
+      "title": "A Camada Template do Django (Python)",
       "href": "/blog/desenvolvimento-web-com-python-e-django-template",
       "slug": "desenvolvimento-web-com-python-e-django-template",
       "assets": "django-template",
@@ -273,7 +273,7 @@
     
     {
       "h1": "Como criar Middlewares no Django",
-      "title": "Python Academy | Como Criar Middlewares no Django (Python)",
+      "title": "Como Criar Middlewares no Django (Python)",
       "href": "/blog/como-criar-middlewares-no-django",
       "slug": "como-criar-middlewares-no-django",
       "assets": "django-middlewares",
@@ -291,7 +291,7 @@
     
     {
       "h1": "Formulários do Django com Django Forms",
-      "title": "Python Academy | Como Criar Formulários no Django (Python)",
+      "title": "Como Criar Formulários no Django (Python)",
       "href": "/blog/formularios-do-django-com-django-forms",
       "slug": "formularios-do-django-com-django-forms",
       "assets": "django-forms",
@@ -309,7 +309,7 @@
     
     {
       "h1": "Desenvolvimento Web com Python e Django: View",
-      "title": "Python Academy | A Camada View do Django (Python)",
+      "title": "A Camada View do Django (Python)",
       "href": "/blog/desenvolvimento-web-com-python-e-django-view",
       "slug": "desenvolvimento-web-com-python-e-django-view",
       "assets": "django-view",
@@ -327,7 +327,7 @@
     
     {
       "h1": "O comando migrate do Django",
-      "title": "Python Academy | Comando migrate do Django (Python)",
+      "title": "Comando migrate do Django (Python)",
       "href": "/blog/o-comando-migrate-do-django",
       "slug": "o-comando-migrate-do-django",
       "assets": "django-command-migrate",
@@ -345,7 +345,7 @@
     
     {
       "h1": "O comando makemigrations do Django",
-      "title": "Python Academy | Comando makemigrations do Django (Python)",
+      "title": "Comando makemigrations do Django (Python)",
       "href": "/blog/o-comando-makemigrations-do-django",
       "slug": "o-comando-makemigrations-do-django",
       "assets": "django-command-makemigrations",
@@ -363,7 +363,7 @@
     
     {
       "h1": "Desenvolvimento Web com Python e Django: Model",
-      "title": "Python Academy | A Camada Model do Django (Python)",
+      "title": "A Camada Model do Django (Python)",
       "href": "/blog/desenvolvimento-web-com-python-e-django-model",
       "slug": "desenvolvimento-web-com-python-e-django-model",
       "assets": "django-model",
@@ -381,7 +381,7 @@
     
     {
       "h1": "Desenvolvimento Web com Python e Django: Introdução",
-      "title": "Python Academy | Desenvolvimento Web com Python e Django",
+      "title": "Desenvolvimento Web com Python e Django",
       "href": "/blog/desenvolvimento-web-com-python-e-django-introducao",
       "slug": "desenvolvimento-web-com-python-e-django-introducao",
       "assets": "django-introduction",
@@ -399,7 +399,7 @@
     
     {
       "h1": "Porquê aprender Python: 5 motivos para começar AGORA!",
-      "title": "Python Academy | 5 motivos para aprender Python AGORA!",
+      "title": "5 motivos para aprender Python AGORA!",
       "href": "/blog/porque-aprender-python-5-motivos-para-aprender-agora",
       "slug": "porque-aprender-python-5-motivos-para-aprender-agora",
       "assets": "why-learn-python",
@@ -417,7 +417,7 @@
     
     {
       "h1": "Como Criar Jogos com Python e Kivy",
-      "title": "Python Academy | Crie jogos com Kivy e Python",
+      "title": "Crie jogos com Kivy e Python",
       "href": "/blog/como-criar-jogos-com-python-e-kivy",
       "slug": "como-criar-jogos-com-python-e-kivy",
       "assets": "games-with-python-and-kivy",
@@ -453,7 +453,7 @@
     
     {
       "h1": "Domine Decorators em Python",
-      "title": "Python Academy | Aprenda como utilizar Decorators no Python",
+      "title": "Aprenda como utilizar Decorators no Python",
       "href": "/blog/domine-decorators-em-python",
       "slug": "domine-decorators-em-python",
       "assets": "decorators",
@@ -471,7 +471,7 @@
     
     {
       "h1": "Python e Virtualenv: Como Programar em Ambientes Virtuais",
-      "title": "Python Academy | Ambientes Virtuais com Python e Virtualenv",
+      "title": "Ambientes Virtuais com Python e Virtualenv",
       "href": "/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais",
       "slug": "python-e-virtualenv-como-programar-em-ambientes-virtuais",
       "assets": "python-and-virtualenv",
@@ -489,7 +489,7 @@
     
     {
       "h1": "Como Instalar o Python no Windows",
-      "title": "Python Academy | Guia de instalação do Python Windows",
+      "title": "Guia de instalação do Python Windows",
       "href": "/blog/como-instalar-python-no-windows",
       "slug": "como-instalar-python-no-windows",
       "assets": "windows-python-installation",
@@ -507,7 +507,7 @@
     
     {
       "h1": "Como Instalar o Python no Linux",
-      "title": "Python Academy | Guia de instalação do Python no Linux",
+      "title": "Guia de instalação do Python no Linux",
       "href": "/blog/como-instalar-python-no-linux",
       "slug": "como-instalar-python-no-linux",
       "assets": "linux-python-installation",
