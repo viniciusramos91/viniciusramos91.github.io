@@ -2,6 +2,24 @@
     
     
     {
+      "h1": "Dicionários no Python",
+      "title": "Dict ou Dicionário no Python",
+      "href": "/blog/dicts-ou-dicionarios-no-python",
+      "slug": "dicts-ou-dicionarios-no-python",
+      "assets": "dicts",
+      "author": "Erickson L",
+      "description": "<p>Dicionário no Python é um tipo de dado muito eficiente e muito poderoso. Dominá-lo é essencial para o verdadeiro Pythonista!</p>",
+      "featured_icon": "featured_img.svg",
+      "date": {
+         "day": "27",
+         "month": "June",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Tipos de Variáveis no Python",
       "title": "Tipos de Variáveis no Python",
       "href": "/blog/tipos-de-variaveis-no-python",

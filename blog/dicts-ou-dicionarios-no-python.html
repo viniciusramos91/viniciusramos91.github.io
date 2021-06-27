@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>		
+				<!-- Global site tag (gtag.js) - Google Analytics -->
+					
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116930343-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116930343-1');
+</script>
+			
+		<!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '315628773120375');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=315628773120375&ev=PageView&noscript=1"/></noscript>
+<!-- End Facebook Pixel Code -->
+		<meta name="facebook-domain-verification" content="hn1c54temf1ljujqou4htlay7ftby8" />
+		
+
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
+
+		<title>Dict ou Dicionário no Python</title>
+		<link rel="icon" type="image/png" href="/assets/img/favicon.png">		
+
+		<!-- Robots -->
+				
+		<meta name="robots" content="index, follow">
+		
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+
+		<!-- Assets -->
+		<link rel="stylesheet" href="/assets/css/master.css"/>			
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Raleway:100,200,300,400,500,600,700,800|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic|Space+Mono:400,700|Inconsolata:400,700|Muli:200,300,400,600,700|Quicksand:300,400,500,700|Source+Serif+Pro:400,700|Roboto+Condensed:300,400,700|Roboto:300,400,500,700|Ubuntu:300,400,500,700|Oswald:300,400,500,600" rel="stylesheet">
+
+		<!-- Canonical URL -->
+		<link rel="canonical" href="https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python">	
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+				
+
+				
+		<!-- General -->
+		<meta name="description" content="Dicionário no Python é um tipo de dado muito eficiente e muito poderoso. Dominá-lo é essencial para o verdadeiro Pythonista!">		
+		<meta name="title" content="Dict ou Dicionário no Python">
+		<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/dicts/facebook.png">
+
+		<!-- Open Graph -->
+		<meta property="fb:app_id" content="220280761884954">
+		<meta property="og:site_name" content="Python Academy">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Dict ou Dicionário no Python">
+		<meta property="og:url" content="https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python">
+		<meta property="og:description" content="Dicionário no Python é um tipo de dado muito eficiente e muito poderoso. Dominá-lo é essencial para o verdadeiro Pythonista!">
+		<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/posts/dicts/facebook.png" />
+		<meta property="og:image:alt" content="Dict ou Dicionário no Python" />
+		<meta property="og:image:type" content="image/png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+
+		<!-- Twitter cards -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
+		<meta name="twitter:title" content="Dict ou Dicionário no Python">
+		<meta name="twitter:description" content="Dicionário no Python é um tipo de dado muito eficiente e muito poderoso. Dominá-lo é essencial para o verdadeiro Pythonista!">
+		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/dicts/twitter.png">
+		
+		<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
+		
+		
+
+		<link rel="stylesheet" href="/assets/css/post.css?1624833864708137503">
+	</head>
+
+	<body id="post-body">		
+		
+
+
+<header class="header">
+	
+	<nav class="navbar navbar-default">
+		<div class="container">
+	
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed " onclick="showMenu()" onblur="hideMenu()" data-toggle="collapse" data-target="#main-menu" aria-expanded="true">
+					<span class="sr-only">Habilitar navegação</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" rel="home" href="https://pythonacademy.com.br">
+					<img alt="Python Academy" src="/assets/img/logo.png">
+				</a>
+			</div>
+
+			<div id="main-menu" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="https://pythonacademy.com.br" title="Volte à página inicial">
+							Início
+						</a>
+					</li>
+					
+					<li>
+						<a href="https://pythonacademy.com.br/blog/" title="Aprenda com nossos artigos">
+							Blog
+						</a>
+					</li>						
+					
+					<li>
+						<a href="https://pythonacademy.com.br/sliders/" title="Aprenda na prática">
+							Sliders
+						</a>
+					</li>											
+
+					<li>
+						<a href="https://pythonacademy.com.br/sobre" title="Conheça-nos">
+							Sobre
+						</a>
+					</li>	
+					
+					<li class="loja">
+						<a href="https://pythonacademy.com.br/loja/" title="Python Academy Indica">
+							<img src="/assets/svg/shop-icon.svg" height="30px" class="jello-horizontal">
+							<span>Loja</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>	
+
+		<a href="#" class="sticky-newsletter hidden-xs" data-toggle="modal" data-target="#email-modal">
+    <div class="rotate-text">
+        <span>Receba todas as novidades!</span>
+    </div>
+</a>
+
+<!-- Include email modal form with text, input and submit button to acquire emails to our list -->
+<!-- Parameters: email-modal = modal id  -->
+
+<div class="modal fade email-modal" id="email-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">                                    
+            <div class="modal-body text-center">
+                <a href="#" data-dismiss="modal" aria-label="Close" class="pull-right close-icon"><i class="fa fa-times" aria-hidden="true"></i></a>
+                <h3 class="modal-title">Seja o primeiro a receber o melhor conteúdo!</h3>
+                <div class="modal-label">
+                    <p class="email-label">Cadastre o seu melhor email para <strong>receber gratuitamente <br></strong><strong>conteúdos exclusivos</strong> e muito mais!</p>
+                </div>
+                <!--<i class="down-icon fa fa-arrow-down fa-fw" aria-hidden="true"></i>-->
+
+                <div class="mailchimp-input">
+                    <!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: QUERO RECEBER = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate>
+    <div id="mc_embed_signup_scroll" class="mailchimp-signup container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-3">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required>
+            </div>
+            
+            <div class="col-xs-5">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required>                
+            </div>
+
+            <div class="col-xs-4">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <span><img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> QUERO RECEBER</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>            
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+                </div>                
+
+                <p class="pos-input text-center" style="font-size: 70%; margin-top: 10px; margin-bottom: 10px;">Não se preocupe, respeitamos sua privacidade. Você pode se descadastrar a qualquer momento.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+		<div class="main-container">
+			<section class="post-banner">	
+				<div class="post-banner-wrapper">
+					<div class="post-banner-content" style="background: #f1c40f url('/assets/svg/stars-bground.svg');">
+						<div class="container">	
+							<div class="wrapper">
+								<div class="featured-icon-wrapper">
+									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/dicts/featured_img.svg" width="90%">
+									</object>															
+								</div>
+							</div>													
+			
+							
+							<h1 class="blog-post-title font-shadow text-focus-in">
+								Dicionários no Python
+							</h1>			
+						</div>			
+					</div>
+				</div>
+			</section>							
+
+			<div class="container post-container">
+				<div class="blog-post-content">
+					<a href="https://go.hotmart.com/A55372730Q" target="_blank">
+    <img data-aos="zoom-out" class="python-course-banner hidden-xs img-responsive" src="/assets/img/banner-curso-python.png" alt="Curso de Python" loading="lazy">
+    <img data-aos="zoom-out" class="python-course-banner visible-xs img-responsive" src="/assets/img/banner-curso-python-mobile.png" alt="Curso de Python" loading="lazy">
+</a>
+
+					
+<p>Opa Dev!</p>
+
+<p>Neste post vamos falar sobre algo EXTREMAMENTE importante na vida do dev Python: os famosos <strong>Dicionários</strong>!</p>
+
+<p>Eles são estruturas muito flexíveis, que possibilita a adição de (quase) tudo!</p>
+
+<p>Garanto que você vai sair daqui um craque em Dicionários, combinado? <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+
+<p>Então já deixa o café pronto <img class="emoji" title=":coffee:" alt=":coffee:" src="https://github.githubassets.com/images/icons/emoji/unicode/2615.png" height="20" width="20"> e <strong>BORA</strong>!</p>
+
+<h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#introdu%C3%A7%C3%A3o" id="markdown-toc-introdução">Introdução</a></li>
+  <li><a href="#criando-dicion%C3%A1rios" id="markdown-toc-criando-dicionários">Criando dicionários</a></li>
+  <li><a href="#acessando-itens" id="markdown-toc-acessando-itens">Acessando itens</a></li>
+  <li><a href="#obtendo-chaves-e-valores" id="markdown-toc-obtendo-chaves-e-valores">Obtendo chaves e valores</a></li>
+  <li><a href="#adicionando-e-atualizando-itens" id="markdown-toc-adicionando-e-atualizando-itens">Adicionando e atualizando itens</a></li>
+  <li><a href="#excluindo-elementos-no-dicion%C3%A1rio" id="markdown-toc-excluindo-elementos-no-dicionário">Excluindo elementos no dicionário</a></li>
+  <li><a href="#limpando-dicion%C3%A1rio" id="markdown-toc-limpando-dicionário">Limpando dicionário</a></li>
+  <li><a href="#copiando-dicion%C3%A1rio" id="markdown-toc-copiando-dicionário">Copiando Dicionário</a></li>
+  <li><a href="#o-m%C3%A9todo-dictsetdefault" id="markdown-toc-o-método-dictsetdefault">O método <code class="highlighter-rouge">dict.setdefault()</code></a></li>
+  <li><a href="#criando-dicion%C3%A1rios-a-partir-de-lista-de-valores" id="markdown-toc-criando-dicionários-a-partir-de-lista-de-valores">Criando Dicionários a partir de lista de valores</a></li>
+  <li><a href="#operador-de-desempacotamento" id="markdown-toc-operador-de-desempacotamento">Operador de “desempacotamento”</a></li>
+  <li><a href="#dicion%C3%A1rios-como-args-e-kwargs" id="markdown-toc-dicionários-como-args-e-kwargs">Dicionários como <code class="highlighter-rouge">args</code> e <code class="highlighter-rouge">kwargs</code></a></li>
+  <li><a href="#juntando-dicion%C3%A1rios-com-" id="markdown-toc-juntando-dicionários-com-">Juntando dicionários com <code class="highlighter-rouge">**</code></a></li>
+</ul>
+
+<h2 id="introdução">Introdução</h2>
+
+<p>Os dicionários são coleções de itens e seus elementos são armazenados de forma não ordenada.</p>
+
+<p>Seus elementos contém uma chave e valor, isto é:</p>
+
+<ul>
+  <li>Uma <code class="highlighter-rouge">chave</code> que vai servir para indexar (posicionar) determinado elemento no dicionário.</li>
+  <li>Um <code class="highlighter-rouge">valor</code> que contém… Bem, um valor <img class="emoji" title=":laughing:" alt=":laughing:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f606.png" height="20" width="20"> Este valor aceita diversos tipos: listas, outros dicionários, inteiros, strings e etc.</li>
+</ul>
+
+<p>Sua sintaxe básica é: <code class="highlighter-rouge">{'chave': 'valor'}</code>. Utiliza-se <code class="highlighter-rouge">{}</code> para delimitar o dicionário e a chave é separada do valor por dois pontos <code class="highlighter-rouge">:</code>.</p>
+
+<p>Exemplo de sua sintaxe:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre><span class="n">dicio</span> <span class="o">=</span> <span class="p">{</span><span class="s">'chave'</span><span class="p">:</span> <span class="s">'valor'</span><span class="p">}</span>
+
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">dicio</span><span class="p">))</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Quando utilizar <code class="highlighter-rouge">type()</code> e a saída for essa abaixo, pode ter certeza que é um dicionário!</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>&lt;class 'dict'&gt;
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="criando-dicionários">Criando dicionários</h2>
+
+<p>Agora vamos ver 6 maneiras de criar um mesmo dicionário!</p>
+
+<p>O modo mais simples de criar um dicionário:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="n">dicio_2</span> <span class="o">=</span> <span class="p">{</span><span class="s">'primeiro'</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s">'segundo'</span><span class="p">:</span>  <span class="mi">2</span><span class="p">,</span> <span class="s">'terceiro'</span><span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Também podemos utilizar a função <code class="highlighter-rouge">dict</code> do próprio Python (<em>built-in function</em>), passando as chaves e valores como parâmetros:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="n">dicio</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">primeiro</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">segundo</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">terceiro</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Utilizando a função <code class="highlighter-rouge">zip</code> para concatenar a <code class="highlighter-rouge">chave:valor</code> em um elemento do objeto <code class="highlighter-rouge">dict</code>:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="n">dicio_3</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">([</span><span class="s">'primeiro'</span><span class="p">,</span> <span class="s">'segundo'</span><span class="p">,</span> <span class="s">'terceiro'</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]))</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Utilizando uma lista de tuplas com itens simbolizando <code class="highlighter-rouge">chave</code> e <code class="highlighter-rouge">valor</code> em um objeto <code class="highlighter-rouge">dict</code>:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="n">dicio_4</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">([(</span><span class="s">'primeiro'</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="s">'segundo'</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="s">'terceiro'</span><span class="p">,</span> <span class="mi">3</span><span class="p">)])</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Com <em>Dict Comprehensions</em>!</p>
+
+<blockquote>
+  <p>Não sabe o que é? Nós temos um <a href="https://pythonacademy.com.br/blog/dict-comprehensions-no-python" target="_blank">Post completissimo sobre Dict Comprehensions!</a></p>
+</blockquote>
+
+<p>Veja como:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="n">dicio_6</span> <span class="o">=</span> <span class="p">{</span><span class="n">name</span><span class="p">:</span> <span class="n">idx</span> <span class="o">+</span> <span class="mi">1</span> <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">name</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">((</span><span class="s">'primeiro'</span><span class="p">,</span> <span class="s">'segundo'</span><span class="p">,</span> <span class="s">'terceiro'</span><span class="p">))}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Por mais estranho que pareça, podemos tentar transformar uma variável do tipo dicionário em dicionário.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="n">dicio_5</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">({</span><span class="s">'primeiro'</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s">'segundo'</span><span class="p">:</span>  <span class="mi">2</span><span class="p">,</span> <span class="s">'terceiro'</span><span class="p">:</span> <span class="mi">3</span><span class="p">})</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Todos esses exemplos tem o mesmo resultado, que esta sendo mostrado abaixo:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>{'primeiro': 1, 'segundo': 2, 'terceiro': 3}
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="acessando-itens">Acessando itens</h2>
+
+<p>Para acessar o valor de um dicionário podemos utilizar sua chave. Exemplo:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre><span class="n">pessoa</span> <span class="o">=</span> <span class="p">{</span><span class="s">'nome'</span><span class="p">:</span> <span class="s">'Pythonico'</span><span class="p">,</span> <span class="s">'altura'</span><span class="p">:</span> <span class="mf">1.65</span><span class="p">,</span> <span class="s">'idade'</span><span class="p">:</span> <span class="mi">21</span><span class="p">}</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">pessoa</span><span class="p">[</span><span class="s">'nome'</span><span class="p">])</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Saída com o valor da chave especificada:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>Pythonico
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Dicionários também contam com um método chamado <code class="highlighter-rouge">get()</code> que fornecerá o mesmo resultado:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="k">print</span><span class="p">(</span><span class="n">pessoa</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'nome'</span><span class="p">))</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>A saída será a mesma, o resultado: <code class="highlighter-rouge">Pythonico</code></p>
+
+<p>Uma coisa interessante sobre esse método é que você pode definir um valor <em>default</em>, para o caso da chave não ser encontrada, exemplo:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="k">print</span><span class="p">(</span><span class="n">pessoa</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'peso'</span><span class="p">,</span> <span class="s">'Chave não encontrada'</span><span class="p">))</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Como não existe nenhuma chave chamada <code class="highlighter-rouge">'peso'</code>, ele retorna:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>Chave não encontrada
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<hr>
+
+<p><img class="emoji" title=":nerd_face:" alt=":nerd_face:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f913.png" height="20" width="20"> <strong>Quer fazer um curso COMPLETO de Python, do Básico ao Avançado, com Acesso Vitalício, Suporte individual e personalizado, com CERTIFICADO PROFISSIONAL e com 7 DIAS DE GARANTIA?</strong></p>
+
+<p><img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> <em><strong>Então <a href="https://go.hotmart.com/A55372730Q" target="_blank">clique aqui e confira nosso curso parceiro da Python Academy!</a></strong></em></p>
+
+<hr>
+
+<h2 id="obtendo-chaves-e-valores">Obtendo chaves e valores</h2>
+
+<p>Se você deseja obter todas as chaves de um dicionário, use o método <code class="highlighter-rouge">keys()</code>:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre><span class="n">computador</span> <span class="o">=</span> <span class="p">{</span><span class="s">'CPU'</span><span class="p">:</span> <span class="s">'Intel'</span><span class="p">,</span> <span class="s">'RAM'</span><span class="p">:</span> <span class="s">'8gb'</span><span class="p">,</span> <span class="s">'SSD'</span><span class="p">:</span> <span class="s">'250bg'</span><span class="p">}</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">computador</span><span class="p">.</span><span class="n">keys</span><span class="p">())</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>A saída é um objeto do tipo <code class="highlighter-rouge">dict_keys</code> que equivale a uma lista com todas as chaves:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-texto" data-lang="texto"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>dict_keys(['CPU', 'RAM', 'SSD'])
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Para obter apenas os valores das chaves em seu dicionário:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre><span class="n">notas</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Mat'</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s">'Por'</span><span class="p">:</span> <span class="mi">7</span><span class="p">,</span> <span class="s">'His'</span><span class="p">:</span> <span class="mi">8</span><span class="p">}</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">notas</span><span class="p">.</span><span class="n">values</span><span class="p">())</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>A saída será uma lista com os valores de cada chave:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>dict_values([5, 7, 8])
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h3 id="percorrendo-os-elementos-de-um-dicionário">Percorrendo os elementos de um Dicionário</h3>
+
+<p>Podemos percorrer os elementos de um Dicionário a partir de suas chaves <code class="highlighter-rouge">dict.keys()</code> ou a partir de seus valores <code class="highlighter-rouge">dict.values()</code>.</p>
+
+<p><strong>Percorrendo elementos com a função <code class="highlighter-rouge">dict.keys()</code>:</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre><span class="n">computador</span> <span class="o">=</span> <span class="p">{</span><span class="s">'CPU'</span><span class="p">:</span> <span class="s">'Intel'</span><span class="p">,</span> <span class="s">'RAM'</span><span class="p">:</span> <span class="s">'8gb'</span><span class="p">,</span> <span class="s">'SSD'</span><span class="p">:</span> <span class="s">'250bg'</span><span class="p">}</span>
+
+<span class="k">for</span> <span class="n">chave</span> <span class="ow">in</span> <span class="n">computador</span><span class="p">.</span><span class="n">keys</span><span class="p">():</span>
+  <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'Chave = </span><span class="si">{</span><span class="n">chave</span><span class="si">}</span><span class="s"> e Valor = </span><span class="si">{</span><span class="n">computador</span><span class="p">[</span><span class="n">chave</span><span class="p">]</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>A saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>Chave = CPU e Valor = Intel
+Chave = RAM e Valor = 8gb
+Chave = SSD e Valor = 250bg
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><strong>Percorrendo elementos com a função <code class="highlighter-rouge">dict.values()</code>:</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre><span class="n">notas</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Mat'</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s">'Por'</span><span class="p">:</span> <span class="mi">7</span><span class="p">,</span> <span class="s">'His'</span><span class="p">:</span> <span class="mi">8</span><span class="p">}</span>
+
+<span class="k">for</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">notas</span><span class="p">.</span><span class="n">values</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'Valor: </span><span class="si">{</span><span class="n">valor</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>A saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>Valor: 5
+Valor: 7
+Valor: 8
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h3 id="percorrendo-as-chaves-e-valores-de-um-dicionário">Percorrendo as chaves e valores de um Dicionário</h3>
+
+<p>Uma maneira de obter chaves e valores é utilizando o método <code class="highlighter-rouge">dict.items()</code>.</p>
+
+<p>Veja como:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre><span class="n">frutas</span> <span class="o">=</span> <span class="p">{</span><span class="s">'pera'</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s">'uva'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">'maça'</span><span class="p">:</span> <span class="mi">55</span><span class="p">}</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">frutas</span><span class="p">.</span><span class="n">items</span><span class="p">())</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>A saída equivale a uma lista com elementos organizados em tuplas, sendo:</p>
+
+<ul>
+  <li>O primeiro elemento da tupla a chave do dicionário e</li>
+  <li>O segundo elemento, o valor presente naquela chave.</li>
+</ul>
+
+<p>Veja:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>dict_items([('pera', 10), ('uva', 2), ('maça', 55)])
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Podemos acessar essse valores utilizando o loop <code class="highlighter-rouge">for</code>, para percorrer esses dados:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre><span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">frutas</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Chave = </span><span class="si">{</span><span class="n">chave</span><span class="si">}</span><span class="s"> - Valor = </span><span class="si">{</span><span class="n">valor</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Uma maneira segura de acessar um elemento de um dicionário é verificando primeiro se a chave existe.</p>
+
+<p>Exemplo:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td>
+<td class="code"><pre><span class="n">dicio_cores</span> <span class="o">=</span> <span class="p">{</span><span class="s">'amarelo'</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s">'vermelho'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">'cinza'</span><span class="p">:</span> <span class="mi">55</span><span class="p">}</span>
+
+<span class="c1"># Verificando se chave existe
+</span><span class="k">if</span> <span class="s">'amarelo'</span> <span class="ow">in</span> <span class="n">dicio_cores</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Como a cor desejada existe: </span><span class="si">{</span><span class="n">dicio_cores</span><span class="p">[</span><span class="s">'amarelo'</span><span class="p">]</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+
+<span class="c1"># Verificando se valor existe
+</span><span class="k">if</span> <span class="mi">10</span> <span class="ow">in</span> <span class="n">dicio_cores</span><span class="p">.</span><span class="n">values</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'O valor desejado existe'</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>A saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>Como a cor desejada existe: 10
+O valor desejado existe
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="adicionando-e-atualizando-itens">Adicionando e atualizando itens</h2>
+
+<p>A maneira mais simples de adicionar um item a um dicionario é criar uma nova chave e atribuir um valor. Assim:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="n">dicio</span> <span class="o">=</span> <span class="p">{</span><span class="s">'nome'</span><span class="p">:</span> <span class="s">'Erick'</span><span class="p">}</span>
+
+<span class="n">dicio</span><span class="p">[</span><span class="s">'idade'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">20</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">dicio</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Resultando na adição da chave e valor especificada acima:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>{'nome': 'Erick', 'idade': 20}
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>O método <code class="highlighter-rouge">update()</code> tanto pode criar, como atualizar dados:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td>
+<td class="code"><pre><span class="n">dicio</span> <span class="o">=</span> <span class="p">{</span><span class="s">'nome'</span><span class="p">:</span> <span class="s">'Erick'</span><span class="p">}</span>
+
+<span class="c1"># Atualiza o elemento de chave 'nome'
+</span><span class="n">dicio</span><span class="p">.</span><span class="n">update</span><span class="p">({</span><span class="s">'nome'</span><span class="p">:</span><span class="s">'Matheus'</span><span class="p">})</span>
+
+<span class="c1"># Cria os elementos de chave 'idade' e 'tamanho'
+</span><span class="n">dicio</span><span class="p">.</span><span class="n">update</span><span class="p">({</span><span class="s">'idade'</span><span class="p">:</span><span class="mi">18</span><span class="p">})</span>
+<span class="n">dicio</span><span class="p">.</span><span class="n">update</span><span class="p">(</span><span class="n">tamanho</span><span class="o">=</span><span class="mf">1.60</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">dicio</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Saída:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="p">{</span><span class="s">'nome'</span><span class="p">:</span> <span class="s">'Matheus'</span><span class="p">,</span> <span class="s">'idade'</span><span class="p">:</span> <span class="mi">18</span><span class="p">,</span> <span class="s">'tamanho'</span><span class="p">:</span> <span class="mf">1.60</span><span class="p">}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em><strong>Quer ser avisado EM PRIMEIRA MÃO quando um novo conteúdo for postado por aqui? Então aproveita a oportunidade cadastrando seu melhor email aqui! <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></strong></em></p>
+
+<div class="email-signup" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="signup-body">
+				<span class="greeting">Olá <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"> Está gostando do artigo?</span>
+				<span class="signup-text">Então cadastre o seu email para <span class="underline">receber gratuitamente</span> mais conteúdos como este!</span>
+		        <!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: Quero! = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate="">
+    <div id="mc_embed_signup_scroll" class="mailchimp-signup container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-3">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="">
+            </div>
+            
+            <div class="col-xs-5">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="">                
+            </div>
+
+            <div class="col-xs-4">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <span><img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> Quero!</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>            
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+		    </div>
+		</div>
+	</div>      
+</div>
+
+<h2 id="excluindo-elementos-no-dicionário">Excluindo elementos no dicionário</h2>
+
+<p>Você pode excluir um elemento do dicionário com a keyword <code class="highlighter-rouge">del</code> do Python, especificando sua chave:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="n">pessoa</span> <span class="o">=</span> <span class="p">{</span><span class="s">'nome'</span><span class="p">:</span> <span class="s">'Matheus'</span><span class="p">,</span> <span class="s">'idade'</span><span class="p">:</span> <span class="mi">18</span><span class="p">,</span> <span class="s">'tamanho'</span><span class="p">:</span> <span class="mf">1.60</span><span class="p">}</span>
+
+<span class="k">del</span> <span class="n">pessoa</span><span class="p">[</span><span class="s">'tamanho'</span><span class="p">]</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">pessoa</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Resultando na exclusão do dado especificado:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>{'nome': 'Matheus', 'idade': 18}
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h3 id="excluindo-e-retornando-o-elemento-excluído">Excluindo e retornando o elemento excluído</h3>
+
+<p>O método <code class="highlighter-rouge">pop()</code> remove o item cujo a chave foi especificada:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td>
+<td class="code"><pre><span class="n">sacola</span> <span class="o">=</span> <span class="p">{</span><span class="s">'maça'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">'ovos'</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span> <span class="s">'farinha'</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
+
+<span class="n">ovos</span> <span class="o">=</span> <span class="n">sacola</span><span class="p">.</span><span class="n">pop</span><span class="p">(</span><span class="s">'ovos'</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">ovos</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">sacola</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Saída:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre><span class="mi">6</span>
+<span class="p">{</span><span class="s">'maça'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">'farinha'</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em>Veja que o dicionário resultante não possui mais a chave <code class="highlighter-rouge">['ovos']</code></em></p>
+
+<h3 id="excluindo-último-item">Excluindo último item</h3>
+
+<p>O método <code class="highlighter-rouge">popitem()</code> também remove o último elemento do dicionário.</p>
+
+<p>Contudo, diferente do método <code class="highlighter-rouge">pop()</code> que apenas retorna o valor daquele elemento, <code class="highlighter-rouge">popitem()</code> retorna o elemento todo, contendo chave e valor.</p>
+
+<p>Veja usando o mesmo exemplo do método <code class="highlighter-rouge">pop()</code>:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td>
+<td class="code"><pre><span class="n">sacola</span> <span class="o">=</span> <span class="p">{</span><span class="s">'maça'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">'ovos'</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span> <span class="s">'farinha'</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
+
+<span class="n">farinha</span> <span class="o">=</span> <span class="n">sacola</span><span class="p">.</span><span class="n">popitem</span><span class="p">()</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">farinha</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">sacola</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Veja que o retorno foi uma tupla e o último item foi removido:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre><span class="p">(</span><span class="s">'farinha'</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="p">{</span><span class="s">'maça'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">'ovos'</span><span class="p">:</span> <span class="mi">6</span><span class="p">}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="limpando-dicionário">Limpando dicionário</h2>
+
+<p>Uma maneira de esvaziar um dicionário é utilizando o método <code class="highlighter-rouge">clear()</code>, dessa forma:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre><span class="n">dicio</span> <span class="o">=</span> <span class="p">{</span><span class="s">'nome'</span><span class="p">:</span> <span class="s">'F9'</span><span class="p">,</span> <span class="s">'motor'</span><span class="p">:</span> <span class="s">'v8'</span><span class="p">,</span> <span class="s">'ano'</span><span class="p">:</span> <span class="mi">2019</span><span class="p">}</span>
+<span class="n">dicio</span><span class="p">.</span><span class="n">clear</span><span class="p">()</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">dicio</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>O retorno é um dicionário vazio: <code class="highlighter-rouge">{}</code>.</p>
+
+<h2 id="copiando-dicionário">Copiando Dicionário</h2>
+
+<p>Em Python, você não pode simplesmente digitar <code class="highlighter-rouge">dict1 = dict2</code> para copiar um dicionário.</p>
+
+<p>Dessa forma você esta apenas copiando a referência do <code class="highlighter-rouge">dict1</code> ao <code class="highlighter-rouge">dict2</code>.</p>
+
+<p>A maneira correta de criar uma cópia do dicionário é utilizando o método <code class="highlighter-rouge">copy()</code>, assim:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td>
+<td class="code"><pre><span class="n">dicio</span> <span class="o">=</span> <span class="p">{</span><span class="s">"operacao"</span><span class="p">:</span> <span class="s">"web scraping"</span><span class="p">,</span> <span class="s">"dados"</span><span class="p">:</span> <span class="mi">250</span><span class="p">}</span>
+
+<span class="n">copia</span> <span class="o">=</span> <span class="n">dicio</span><span class="p">.</span><span class="n">copy</span><span class="p">()</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">copia</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dicio</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Resultando na cópia exata do dicionário</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>{'operacao': 'web scraping', 'dados': 250}
+{'operacao': 'web scraping', 'dados': 250}
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="o-método-dictsetdefault">O método <code class="highlighter-rouge">dict.setdefault()</code>
+</h2>
+
+<p>O método <code class="highlighter-rouge">dict.setdefault()</code> retorna o valor da chave especificada, e, caso a chave não exista, a cria com o valor especificado.</p>
+
+<p>Vamos ao exemplo:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td>
+<td class="code"><pre><span class="n">dicio</span> <span class="o">=</span> <span class="p">{</span><span class="s">'coleta'</span><span class="p">:</span> <span class="s">'scrapy'</span><span class="p">,</span> <span class="s">'dados'</span><span class="p">:</span> <span class="mi">200</span><span class="p">}</span>
+
+<span class="n">set_dados</span> <span class="o">=</span> <span class="n">dicio</span><span class="p">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s">'dados'</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">set_dados</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dicio</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Como a chave <code class="highlighter-rouge">dados</code> existe, ela é retornada:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>200
+{'coleta': 'scrapy', 'dados': 200}
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Agora vamos adicionar apenas a chave sem valor, e outro com chave e valor:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td>
+<td class="code"><pre><span class="n">dicio</span> <span class="o">=</span> <span class="p">{</span><span class="s">'coleta'</span><span class="p">:</span> <span class="s">'scrapy'</span><span class="p">,</span> <span class="s">'dados'</span><span class="p">:</span> <span class="mi">200</span><span class="p">}</span>
+
+<span class="n">set_data</span> <span class="o">=</span> <span class="n">dicio</span><span class="p">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s">'data'</span><span class="p">)</span>
+<span class="n">set_teste</span> <span class="o">=</span> <span class="n">dicio</span><span class="p">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s">'teste'</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">set_data</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">set_teste</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dicio</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>A saída resulta em:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>None
+1
+{'coleta': 'scrapy', 'dados': 200, 'data': None, 'teste': 1}
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>O <code class="highlighter-rouge">set_data</code> que teve apenas atribuída uma chave, teve seu valor criado como <code class="highlighter-rouge">None</code>, enquanto <code class="highlighter-rouge">set_teste</code> teve o valor adicionado.</p>
+
+<h2 id="criando-dicionários-a-partir-de-lista-de-valores">Criando Dicionários a partir de lista de valores</h2>
+
+<p>Com o método <code class="highlighter-rouge">dict.fromkeys()</code> é possível criar um dicionário a partir de uma lista de chaves e um valor, que será usado em todas as chaves.</p>
+
+<p>Veja o exemplo:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td>
+<td class="code"><pre><span class="n">chaves</span> <span class="o">=</span> <span class="p">[</span><span class="s">'chave1'</span><span class="p">,</span> <span class="s">'chave2'</span><span class="p">,</span> <span class="s">'chave3'</span><span class="p">]</span>
+<span class="n">valor</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="n">dicio</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">.</span><span class="n">fromkeys</span><span class="p">(</span><span class="n">chaves</span> <span class="p">,</span> <span class="n">valor</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">dicio</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Veja que o valor 0 foi atribuído em todas as chaves:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>{'chave1': 0, 'chave2': 0, 'chave3': 0}
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="operador-de-desempacotamento">Operador de “desempacotamento”</h2>
+
+<p>O Python introduziu em sua linguagem um operador de <em>“unpacking”</em>, ou operador de desempacotamento.</p>
+
+<p>Para utilizar esse operador, devemos usar dois asteriscos antes da variável que vai ser descontruída (<code class="highlighter-rouge">**variavel</code>).</p>
+
+<p>Pode ser utilizado em tuplas, listas e em nossos queridos dicionários.</p>
+
+<p>No caso do Dicionário, o que ele faz é desconstruir cada elemento do dicionário em chave e valor, tentando casar o nome do argumento da função com a chave do dicionário.</p>
+
+<blockquote>
+  <p>Ficou confuso? <img class="emoji" title=":confused:" alt=":confused:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f615.png" height="20" width="20"> <strong>Vamos ao exemplo!</strong></p>
+</blockquote>
+
+<p>Suponha a seguinte função:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre><span class="k">def</span> <span class="nf">funcao</span><span class="p">(</span><span class="n">argumento</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">argumento</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Agora vamos chamá-la duas vezes, uma sem o operador de desempacotamento e outra com ele:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre><span class="n">dicionario</span> <span class="o">=</span> <span class="p">{</span><span class="s">'argumento'</span><span class="p">:</span> <span class="mi">1</span><span class="p">}</span>
+
+<span class="n">funcao</span><span class="p">(</span><span class="n">dicionario</span><span class="p">)</span>
+<span class="n">funcao</span><span class="p">(</span><span class="o">**</span><span class="n">dicionario</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Agora veja a saída de cada um:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>{'argumento': 1}
+1
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Na primeira chamada, sem o operador, a saída foi apenas o <code class="highlighter-rouge">print</code> daquilo que foi passado. No caso, um dicionário.</p>
+
+<p>Já na segunda, o operador fez com que a função tentasse “encaixar” a chave <code class="highlighter-rouge">argumento</code> do dicionário (de valor 1) com o argumento da função.</p>
+
+<p>Dessa forma, apenas o valor foi printado!</p>
+
+<h2 id="dicionários-como-args-e-kwargs">Dicionários como <code class="highlighter-rouge">args</code> e <code class="highlighter-rouge">kwargs</code>
+</h2>
+
+<p>Como vimos aqui em cima, dicionários podem ser passados como valores para funções.</p>
+
+<p>Além disso, podemos usar o operador de desempacotamento para casar as chaves do dicionário com os argumentos da função:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td>
+<td class="code"><pre><span class="n">regulagem</span> <span class="o">=</span> <span class="p">{</span><span class="s">'max'</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s">'meio'</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s">'min'</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
+
+<span class="k">def</span> <span class="nf">funcao</span><span class="p">(</span><span class="nb">max</span><span class="p">,</span> <span class="n">meio</span><span class="p">,</span> <span class="nb">min</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="nb">max</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">meio</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="nb">min</span><span class="p">)</span>
+
+
+<span class="n">funcao</span><span class="p">(</span><span class="o">**</span><span class="n">regulagem</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Resultando em:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>10
+5
+0
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Se caso você desconheça as chaves de um dicionário, basta adicionar em sua função o atributo <code class="highlighter-rouge">kwargs</code> (<em>Keyword Arguments</em> ou <strong>Argumentos Nomeados</strong>).</p>
+
+<p>O atributo <code class="highlighter-rouge">kwargs</code> recebe todos os argumento que tenham sido passados com nome.</p>
+
+<p>Exemplo: <code class="highlighter-rouge">funcao(arg=1)</code>. Nesse caso, <code class="highlighter-rouge">arg</code> é um <strong>Argumento Nomeado</strong> e pode ser acessado pela variável <code class="highlighter-rouge">kwargs</code>.</p>
+
+<p>Percorrendo o <code class="highlighter-rouge">kwargs</code> temos acesso às chaves, onde podemos, portanto, buscar os valores que desejamos através do método <code class="highlighter-rouge">.get()</code>.</p>
+
+<p>Veja o exemplo:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td>
+<td class="code"><pre><span class="c1"># Definição da Função recebendo kwargs
+</span><span class="k">def</span> <span class="nf">funcao</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="c1"># Percorrendo argumento nomeados
+</span>    <span class="k">for</span> <span class="n">chave</span> <span class="ow">in</span> <span class="n">kwargs</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Acessando Chave '</span><span class="si">{</span><span class="n">chave</span><span class="si">}</span><span class="s">', valor = </span><span class="si">{</span><span class="n">kwargs</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">chave</span><span class="p">)</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+
+<span class="n">regulagem</span> <span class="o">=</span> <span class="p">{</span><span class="s">'max'</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s">'meio'</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s">'min'</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
+
+<span class="n">funcao</span><span class="p">(</span><span class="o">**</span><span class="n">regulagem</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Saída impressa pela função:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>Acessando Chave 'max', valor = 10
+Acessando Chave 'meio', valor = 5
+Acessando Chave 'min', valor = 0
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Já o argumento <code class="highlighter-rouge">args</code> possui os <strong>Argumentos Não-Nomeados</strong>.</p>
+
+<p>Se necessario pegar apenas as chaves do dicionário, podemos utilizar <code class="highlighter-rouge">args</code> para isso e chamando a função passando um asterisco em nosso dicionário, da seguinte maneira:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="k">def</span> <span class="nf">funcao</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">chave</span> <span class="ow">in</span> <span class="n">args</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">chave</span><span class="p">)</span>
+
+<span class="n">funcao</span><span class="p">(</span><span class="o">*</span><span class="n">regulagem</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Veja que saída contém apenas as chaves:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre><span class="nb">max</span>
+<span class="n">meio</span>
+<span class="nb">min</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="juntando-dicionários-com-">Juntando dicionários com <code class="highlighter-rouge">**</code>
+</h2>
+
+<p>Outra coisa que podemos fazer com o operador de desempacotamento é juntar dicionários.</p>
+
+<p>Como esse operador desconstrói um dicionário em chave e valor, podemos utilizá-lo para juntar dicionários, da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td>
+<td class="code"><pre><span class="n">regulagem</span> <span class="o">=</span> <span class="p">{</span><span class="s">'max'</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s">'meio'</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s">'min'</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
+<span class="n">extra</span> <span class="o">=</span> <span class="p">{</span><span class="s">'passo'</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
+
+<span class="c1"># Junção de dicionários com **
+</span><span class="n">juncao_dicio</span> <span class="o">=</span> <span class="p">{</span><span class="o">**</span><span class="n">regulagem</span><span class="p">,</span> <span class="o">**</span><span class="n">extra</span><span class="p">}</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">juncao_dicio</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Saída:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>{'max': 10, 'meio': 5, 'min': 0, 'passo': 2}
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 class="no_toc" id="conclusão">Conclusão</h2>
+
+<p>Nesse Post vimos do básico ao avançado sobre Dicionários!</p>
+
+<p>Se ficou com alguma dúvida, fique à vontade para deixar um comentário no box aqui embaixo! Será um prazer te responder! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+
+<p>Se gostou desse conteúdo, que tal fazer um <strong>CURSO COMPLETO</strong> de Python com Certificado Profissional, suporte individual e personalizado e 7 dias de garantia? <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></p>
+
+<p><a href="https://go.hotmart.com/A55372730Q" target="_blank">
+    <img data-aos="zoom-out" class="python-course-post-banner hidden-xs img-responsive" src="/assets/img/banner-curso-python.png" alt="Curso de Python" loading="lazy">
+    <img data-aos="zoom-out" class="python-course-post-banner visible-xs img-responsive" src="/assets/img/banner-curso-python-mobile.png" alt="Curso de Python" loading="lazy">
+</a></p>
+
+
+
+					<div class="blue-yellow-separator no-repeat"></div>
+
+					<div class="blog-post-footer">
+						
+						<div class="blog-post-colophon">
+							<div class="row">
+								<div class="col-xs-12 col-sm-3 text-center">									
+									<img src="/assets/authors/erickson-lopes/avatar.png" width="100%" alt="Autor" class="profile-img">
+								</div>
+
+								<div class="col-xs-12 col-sm-9">
+									<div class="blog-post-meta">
+										<h2>
+											<span class="blog-post-by">
+												Por Erickson Lopes
+											</span>
+
+											<b>em <time datetime="2021-06-27" pubdate>27/06/2021</time></b>
+										</h2>
+	
+										<p class="short-description">"<i>O infinito é o limite</i>"</p>
+
+										<p class="author-media-label">Minhas redes:</p>
+										
+										<ul>
+											
+											<li><a href="https://www.linkedin.com/in/ericksonlopes" target="_blank"><i class="fa fa-linkedin-square" style="color: #0072b1;" aria-hidden="true"></i></a></li>
+																						
+											
+											<li><a href="mailto:ofc.ericksonlds@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+																						
+											
+											<li><a href="https://github.com/Erickson-lopes-dev" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+											
+											
+											
+										</ul>
+									</div>
+								</div>
+							</div>				
+						</div>
+					</div>
+				</div>				
+			</div>									
+		</div>	
+
+		<!-- READ MORE -->	
+		<div class="more-posts">
+			<section class="container">
+				<div class="section-header">
+		            <h2 class="black">Continue aprendendo!</h2>
+		        </div>
+
+				<div class="row">
+					<div id="random_posts"></div>
+				</div>	
+
+				<div class="text-center">
+	                <a href="/blog/index.html" class="button ripple-out-animation">
+	                    ←  Retornar ao Blog
+	                </a>
+	            </div>		
+			</section>		
+		</div>
+
+						
+			
+<div id="comment-box" class="center-block">
+    <div class="container">
+        <div id="disqus_thread"></div>        
+    </div>
+</div>
+
+		
+
+		<!-- Affix -->		
+		<div class="social-media-affix">
+			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
+			<ul>				
+				<li>
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+						<i class="fa fa-fw fa-facebook"></i>
+					</a>
+				</li>				
+				
+				<li>							
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python&amp;related=PythonAcademyBR&amp;text=%22Dict%20ou%20Dicion%C3%A1rio%20no%20Python%22%20por%20Erickson%20Lopes','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+						<i class="fa fa-fw fa-twitter"></i>
+					</a>
+				</li>
+
+				<li>
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python" data-action="share/whatsapp/share">
+						<i class="fa fa-fw fa-whatsapp"></i>
+					</a>
+				</li>
+
+				<li>
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Dict%20ou%20Dicion%C3%A1rio%20no%20Python&amp;body=https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+						<i class="fa fa-fw fa-envelope"></i>
+					</a>
+				</li>
+
+				
+			</ul>
+		</div>		
+
+		
+
+
+<section id="footer-signup">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<h2 class="bold">Aprenda Python de Verdade!</h2>
+				<p class="mb-32">
+					Cadastre o seu <span class="bold">melhor email</span> para receber gratuitamente conteúdos exclusivos e muito mais!
+				</p>
+			</div>
+			
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
+				<!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: Eu quero! = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate>
+    <div id="mc_embed_signup_scroll" class="mailchimp-signup container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-3">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required>
+            </div>
+            
+            <div class="col-xs-5">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required>                
+            </div>
+
+            <div class="col-xs-4">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <!--<i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>-->
+                    <!--<span>Enviar</span>-->
+                    <span><img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> Eu quero!</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>            
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-2">
+				<div class="footer-wrapper">
+					<p>Mais</p>
+	
+					<ul>											
+						<li><a href="/"><span class="hidden-xs"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"></span> Início</a></li>
+						<li><a href="/zen-of-python"><i><span class="hidden-xs"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"></span> Zen of Python</i></a></li>
+						<li><a href="/blog/"><span class="hidden-xs"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"></span> Blog</a></li>
+						<li><a href="/sliders/"><span class="hidden-xs"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"></span> Sliders</a></li>
+						<li><a href="/sobre"><span class="hidden-xs"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"></span> Sobre</a></li>
+						<li><a href="/loja/"><img src="/assets/svg/shop-icon.svg" width="18px"> Loja</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-5">
+				<div class="footer-wrapper">
+					<p>Ebooks</p>
+	
+					<ul>
+						<li>
+							<a href="/ebooks/desenvolvimento-web-com-python-e-django/"><span class="hidden-xs"><img class="emoji" title=":notebook:" alt=":notebook:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d3.png" height="20" width="20"></span> Desenvolvimento Web com Python e Django</a>
+						</li>					
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-5">
+				<div class="footer-wrapper">
+					<p>Cursos Parceiros</p>
+	
+					<ul>
+						<li>
+							<a href="https://go.hotmart.com/A55372730Q"><span class="hidden-xs"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"></span> Curso Completo de Python</a>
+						</li>	
+						<li>
+							<a href="https://go.hotmart.com/V54192092I"><span class="hidden-xs"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"></span> Dominando Git e Github</a>
+						</li>	
+						<li>
+							<a href="https://go.hotmart.com/L54201537M"><span class="hidden-xs"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"></span> HTML5, CSS3 e Bootstrap 4</a>
+						</li>					
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="blue-yellow-separator no-repeat pt-64 pb-64"></div>
+		
+		<div class="row">
+			<div class="col-sm-12 hidden-xs text-center">
+				<div class="footer-wrapper">
+					<img src="/assets/img/logo.png" alt="Aprenda Computação de Verdade!" class="footer-logo">
+	
+					<p class="footer-label mt-16">
+						Existimos para levar o conhecimento de Python a todos de forma simples e inovadora!
+					</p>
+	
+					<ul class="social-medias">
+						<li>
+							<a href="https://www.instagram.com/pythonacademybr/" target="_blank">
+								<img src="/assets/img/instagram.png" alt="Facebook" data-aos="fade-in" data-aos-delay="0" data-aos-duration="500" loading="lazy">
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.facebook.com/pythonacademy" target="_blank">
+								<img src="/assets/img/facebook.png" alt="Facebook" data-aos="fade-in" data-aos-delay="150" data-aos-duration="500" loading="lazy">
+							</a>
+						</li>												
+						
+						<li>
+							<a href="https://www.linkedin.com/company/pythonacademy/" target="_blank">
+								<img src="/assets/img/linkedin.png" alt="Medium" data-aos="fade-in" data-aos-delay="300" data-aos-duration="500" loading="lazy">
+							</a>
+						</li>						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="footer-copyright">
+	<div class="text-center">
+		<p>
+			© <b>2021</b> Python Academy <img src="/assets/img/cross.png" alt="Conheça Jesus Cristo!" height="24px" class="ml-16 mr-16 hidden-xs" loading="lazy"> <br class="visible-xs">
+			<i>"Porque o Senhor dá a <b>sabedoria</b>, e da sua boca vem a <b>inteligência</b> e o <b>entendimento</b>" Pv 2:6</i>
+		</p>
+	</div>
+</section>
+
+<script src="/assets/vendors/bundle.min.js"></script>
+
+<!-- Custom scripts -->
+
+<script src="/assets/js/min/script.min.js"></script>
+
+
+
+
+		<!-- Cookie.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
+		
+		<!-- Javascript -->		
+		<script type="text/javascript">			
+			(function($) {
+				AOS.init({
+					easing: 'ease-out-back',
+					duration: 1500
+				});
+
+				generateRandomPosts();
+			})(jQuery);
+			
+			
+				new Vivus('featured-icon', {
+					duration: 80,
+					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
+				});
+						
+
+			$('.social-media-affix').affix({
+				offset: {
+					top: $(".post-banner").height()
+				}
+			});
+
+			// Generate random posts
+			function generateRandomPosts() {
+				var counter = 0;	            
+
+				$.getJSON("/blog/posts.json", function(data) {
+					var postsCount = data.length;					
+					var posts = data;
+
+					var randomIndexUsed = [];	
+					var numberOfPosts = 4;
+
+					var divRandomPosts = $("#random_posts");		            
+
+					while (counter < numberOfPosts) {
+						var randomIndex = Math.floor(Math.random() * postsCount);
+						
+						if (randomIndexUsed.indexOf(randomIndex) == "-1") {
+
+							var post = posts[randomIndex];
+
+							// Verify if related post is the same as the shown
+							if (post.title != "Dict ou Dicionário no Python") {
+								var postHTML = 
+									"<div class='col-lg-3 col-md-6 col-sm-6 col-xs-12'>" +
+										"<a href='" + post.href + "' class='card'>" +
+											"<div class='card-frame'>" +
+												"<object id='featured-icon-" + counter + " class=featured-icon' type='image/svg+xml' data='/assets/posts/" + post.assets + "/" + post.featured_icon + "' height='175px'></object>" +
+											"</div>" + 
+											
+											"<div class='caption'>" +
+												"<h3 class='card-title'>" +
+													post.h1 +
+												"</h3>" +
+											"</div>" +
+										"</div>" +
+									"</div>"
+
+								divRandomPosts.append(postHTML);
+								randomIndexUsed.push(randomIndex);
+								
+								counter++;
+							}
+						}
+					}
+				});								
+			}
+			
+			// Show signup modal on mouse leave event
+			$( document ).ready(function() {
+				$("body").bind("mouseleave",function(){
+					if(!Cookies.get('pa_popup')) {
+	
+						// Same as included sticky-newsletter id
+						$('#email-modal').modal('show');
+
+						/* Set cookie so this does not repeat */
+						Cookies.set('pa_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python' });
+					}
+				});		
+				
+				// Initialize SVG animation on each related posts
+				$("#random_posts").find('.card-frame object').each(function(index, element) {
+					new Vivus(element, {
+						duration: 80,
+						type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
+					});
+				})
+			});
+
+		</script>				
+
+		
+			<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"d818a1dcab21e0bb6fbe4a39b","lid":"11b4623db6"}) })</script>	
+			
+			<script type="text/javascript">
+				var disqus_config = function () {
+					this.page.url = 'https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python';     // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = '/blog/dicts-ou-dicionarios-no-python';             // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+			
+				(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = '//python-academy.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+			</script>
+		
+			<noscript>Por favor, habilite o Javascript para visualizar os <a href="https://disqus.com/?ref_noscript">comentários.</a>
+</noscript>
+		
+	</body>
+</html>
+
