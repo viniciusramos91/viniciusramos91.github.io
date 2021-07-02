@@ -168,7 +168,7 @@
        x2="168.11253"
        y2="112.95183"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-118.93494)" />
+       gradientTransform="matrix(1,0,0,1.0055097,-118.93494,-0.84303205)" />
     <linearGradient
        gradientUnits="userSpaceOnUse"
        y2="365.94501"
@@ -289,7 +289,7 @@
        xlink:href="#linearGradient13189"
        id="linearGradient13167"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.54503578,0,0,0.64886606,-145.13024,-65.143821)"
+       gradientTransform="matrix(0.54503578,0,0,0.65244112,-145.13024,-66.345776)"
        x1="396.89523"
        y1="294.90134"
        x2="310.94458"
@@ -474,9 +474,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="1423.2157"
-     inkscape:cy="-182.58448"
+     inkscape:zoom="0.7"
+     inkscape:cx="431.48891"
+     inkscape:cy="178.63983"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -488,7 +488,7 @@
      inkscape:window-width="2560"
      inkscape:window-height="993"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="1"
      inkscape:snap-nodes="false"
      fit-margin-top="0"
@@ -503,7 +503,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -515,45 +515,53 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-python.png"
-       y="56.966217"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png"
+       y="56.43705"
        x="11.855222"
-       height="96.043747"
+       height="96.572914"
        width="71.4375"
        id="rect12670"
-       style="opacity:1;fill:url(#linearGradient12686);fill-opacity:1;stroke:none;stroke-width:0.817029;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.96601939" />
-    <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:0.05882353;stroke:none;stroke-width:0.1867357;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:url(#linearGradient12686);fill-opacity:1;stroke:none;stroke-width:0.81927669;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.96601939" />
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:0.05882353;stroke:none;stroke-width:0.18724942;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle13464"
        cx="67.644974"
-       cy="86.518471"
-       r="6.5990472"
+       cy="86.152122"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <circle
-       r="6.5990472"
-       cy="86.518471"
+       inkscape:export-ydpi="96"
+       rx="6.5990472"
+       ry="6.6354055"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png" />
+    <ellipse
+       cy="86.152122"
        cx="27.497753"
        id="circle13462"
-       style="opacity:1;fill:#ffffff;fill-opacity:0.05882353;stroke:none;stroke-width:0.1867357;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.05882353;stroke:none;stroke-width:0.18724942;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <circle
-       r="4.2839432"
-       cy="86.518471"
+       inkscape:export-ydpi="96"
+       rx="6.5990472"
+       ry="6.6354055"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png" />
+    <ellipse
+       cy="86.152122"
        cx="67.644974"
        id="circle13444"
-       style="opacity:1;fill:#ffffff;fill-opacity:0.09223304;stroke:none;stroke-width:0.12122434;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.09223304;stroke:none;stroke-width:0.12155783;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:0.09223304;stroke:none;stroke-width:0.12122434;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-ydpi="96"
+       rx="4.2839432"
+       ry="4.3075461"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png" />
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:0.09223304;stroke:none;stroke-width:0.12155783;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle13436"
        cx="27.497753"
-       cy="86.518471"
-       r="4.2839432"
+       cy="86.152122"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       rx="4.2839432"
+       ry="4.3075461"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png" />
     <circle
        clip-path="url(#clipPath13043)"
        r="148.69452"
@@ -561,9 +569,10 @@
        cx="166.50891"
        id="circle12688"
        style="opacity:1;fill:#000000;fill-opacity:0.09223304;stroke:none;stroke-width:0.57421106;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       transform="translate(-118.93494,20.183929)"
+       transform="matrix(1,0,0,1.0055097,-118.93494,19.452103)"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png" />
     <circle
        style="opacity:1;fill:#334d5b;fill-opacity:1;stroke:none;stroke-width:0.57421106;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path12672"
@@ -571,14 +580,16 @@
        cy="233.38985"
        r="148.69452"
        clip-path="url(#clipPath13033)"
-       transform="translate(-118.93494,21.771429)"
+       transform="matrix(1,0,0,1.0055097,-118.93494,21.04835)"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png" />
     <g
        id="g13525"
-       transform="matrix(0.93109862,0,0,0.93109862,-107.46225,3.5521358)"
+       transform="matrix(0.93109862,0,0,0.93622865,-107.46225,2.7286748)"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png">
       <circle
          style="opacity:1;fill:#ffffff;fill-opacity:0.09223304;stroke:none;stroke-width:0.16983758;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="circle12791"
@@ -906,33 +917,34 @@
     </g>
     <g
        id="g12992"
-       transform="matrix(0.82172392,0,0,0.82172392,-84.942036,9.3759132)"
+       transform="matrix(0.82172392,0,0,0.82625133,-84.942036,8.5845392)"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png">
       <polygon
          transform="matrix(0.01953125,0,0,0.01953125,180.69439,89.074765)"
          id="polygon2989"
-         points="107.644,470.877 74.633,100.62 437.367,100.62 404.321,470.819 255.778,512 "
+         points="74.633,100.62 437.367,100.62 404.321,470.819 255.778,512 107.644,470.877 "
          style="fill:#264de4" />
       <polygon
          transform="matrix(0.01953125,0,0,0.01953125,180.69439,89.074765)"
          id="polygon2991"
-         points="256,130.894 256,480.523 376.03,447.246 404.27,130.894 "
+         points="256,480.523 376.03,447.246 404.27,130.894 256,130.894 "
          style="fill:#2965f1" />
       <polygon
          transform="matrix(0.01953125,0,0,0.01953125,180.69439,89.074765)"
          id="polygon2993"
-         points="256,313.627 256,268.217 150.31,268.217 154.38,313.627 "
+         points="256,268.217 150.31,268.217 154.38,313.627 256,313.627 "
          style="fill:#ebebeb" />
       <polygon
          transform="matrix(0.01953125,0,0,0.01953125,180.69439,89.074765)"
          id="polygon2995"
-         points="146.26,221.716 256,221.716 256,176.305 255.843,176.305 142.132,176.305 "
+         points="256,221.716 256,176.305 255.843,176.305 142.132,176.305 146.26,221.716 "
          style="fill:#ebebeb" />
       <polygon
          transform="matrix(0.01953125,0,0,0.01953125,180.69439,89.074765)"
          id="polygon2997"
-         points="201.994,336.333 177.419,336.333 156.409,336.333 162.771,407.634 255.791,433.457 256,433.399 256,386.153 255.801,386.206 205.227,372.55 "
+         points="177.419,336.333 156.409,336.333 162.771,407.634 255.791,433.457 256,433.399 256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 "
          style="fill:#ebebeb" />
       <path
          style="fill:#ffffff;stroke-width:0.01953125"
@@ -952,14 +964,15 @@
       <polygon
          transform="matrix(0.01953125,0,0,0.01953125,180.69439,89.074765)"
          id="polygon3005"
-         points="255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 369.597,176.305 255.843,176.305 255.843,221.716 319.831,221.716 315.699,268.217 "
+         points="255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 369.597,176.305 255.843,176.305 255.843,221.716 319.831,221.716 315.699,268.217 255.843,268.217 "
          style="fill:#ffffff" />
     </g>
     <g
        id="g12981"
-       transform="matrix(0.82172392,0,0,0.82172392,-93.991533,9.2149843)"
+       transform="matrix(0.82172392,0,0,0.82625133,-93.991533,8.4227236)"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png">
       <path
          style="fill:#ffffff;stroke-width:0.01953126"
          id="path12872"
@@ -988,9 +1001,10 @@
     </g>
     <g
        id="g13387"
-       transform="translate(-118.93494,-1.0583333)"
+       transform="matrix(1,0,0,1.0055097,-118.93494,-1.9071964)"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png">
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:5.73410177px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:-0.11219767px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:0.21359223;stroke:none;stroke-width:0.14335257"
@@ -1030,19 +1044,21 @@
     </g>
     <text
        id="text1352"
-       y="118.87957"
-       x="47.378689"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.86789536px;line-height:1.25;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Light';text-align:center;letter-spacing:0.48928881px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0966974"
+       y="118.36589"
+       x="47.509029"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.87853622px;line-height:1.25;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Light';text-align:center;letter-spacing:0.49063486px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.09696341"
        xml:space="preserve"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Medium';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#ffffff;stroke-width:0.0966974"
-         y="118.87957"
-         x="47.378689"
+       inkscape:export-ydpi="96"
+       transform="scale(0.9972565,1.002751)"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Medium';text-align:center;letter-spacing:0px;text-anchor:middle;fill:#ffffff;stroke-width:0.09696341"
+         y="118.36589"
+         x="47.509029"
          sodipodi:role="line"
          id="tspan13055">Desenvolva páginas web incríveis!</tspan></text>
     <circle
-       transform="translate(-118.93494,18.596428)"
+       transform="matrix(1,0,0,1.0055097,-118.93494,17.855856)"
        style="opacity:1;fill:none;fill-opacity:0.09223304;stroke:#ffffff;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.33980581"
        id="circle13063"
        cx="166.50891"
@@ -1050,7 +1066,8 @@
        r="148.69452"
        clip-path="url(#clipPath13043)"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png" />
     <rect
        ry="1.7101141"
        rx="1.7526847"
@@ -1060,36 +1077,40 @@
        width="54.466122"
        id="rect13113"
        style="opacity:1;fill:#000000;fill-opacity:0.54807691;stroke:none;stroke-width:1.0834012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter21200)"
-       transform="matrix(0.84562314,0,0,0.78771412,-159.63538,-110.44222)"
+       transform="matrix(0.84562314,0,0,0.79205415,-159.63538,-111.89375)"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png" />
     <rect
-       ry="1.5328496"
+       ry="1.5412951"
        rx="1.5328496"
-       y="126.20765"
+       y="126.05997"
        x="23.557308"
-       height="13.526925"
+       height="13.601454"
        width="47.63456"
        id="rect13115"
-       style="opacity:1;fill:#0e987d;fill-opacity:1;stroke:none;stroke-width:0.95923358;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#0e987d;fill-opacity:1;stroke:none;stroke-width:0.96187246;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png" />
     <rect
-       style="opacity:1;fill:url(#linearGradient13167);fill-opacity:1;stroke:none;stroke-width:0.95923358;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:url(#linearGradient13167);fill-opacity:1;stroke:none;stroke-width:0.96187246;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect13117"
        width="47.63456"
-       height="13.526925"
+       height="13.601454"
        x="23.557308"
-       y="125.3149"
+       y="125.16232"
        rx="1.5328496"
-       ry="1.5328496"
+       ry="1.5412951"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png" />
     <g
        id="g13544"
-       transform="matrix(1.4101341,0,0,1.4101341,-181.72544,-51.438377)"
+       transform="matrix(1.4101341,0,0,1.4179035,-181.72544,-52.564817)"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png">
       <g
          style="fill:#000000;fill-opacity:0.3125"
          id="g13127"
@@ -1120,8 +1141,8 @@
     </g>
     <g
        id="g13165"
-       transform="matrix(0.69309292,-0.0753389,0.0753389,0.69309292,-146.98161,173.88417)"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-python.png"
+       transform="matrix(0.69309292,-0.07575399,0.0753389,0.69691162,-146.98161,173.99918)"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <g
@@ -1190,9 +1211,9 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        id="g13289"
-       transform="matrix(0.35391111,0,0,-0.35391103,167.91193,110.22595)"
+       transform="matrix(0.35391111,0,0,-0.35586096,167.91193,109.99022)"
        style="fill:#13d9af;fill-opacity:1"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-python.png">
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png">
       <path
          d="m -439.67107,-48.90287 c 0,0.35313 -0.2861,0.63888 -0.63888,0.63888 -0.35278,0 -0.63888,-0.28575 -0.63888,-0.63888 0,-0.352778 0.2861,-0.638881 0.63888,-0.638881 0.35278,0 0.63888,0.286103 0.63888,0.638881"
          style="fill:#13d9af;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.03527778"
@@ -1358,9 +1379,9 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:#13dab0;fill-opacity:1"
-       transform="matrix(-0.35391111,0,0,0.35391101,-72.763969,154.40114)"
+       transform="matrix(-0.35391111,0,0,0.35586094,-72.763969,154.4088)"
        id="g13355"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-python.png">
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png">
       <path
          inkscape:connector-curvature="0"
          id="path13291"
@@ -1524,9 +1545,10 @@
     </g>
     <g
        id="g13476"
-       transform="translate(-118.93494,-2.1166667)"
+       transform="matrix(1,0,0,1.0055097,-118.93494,-2.9713608)"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/card-curso-html-css.png">
       <circle
          r="4.2839432"
          cy="97.933624"
