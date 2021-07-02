@@ -504,8 +504,13 @@ body::-webkit-scrollbar-thumb {
     }
 
     &.featured-card {
+        min-height: 0;
         margin-bottom: 0; 
         border: 3px solid #ffd43c
+    }
+
+    &.recommended-post-card {
+        min-height: 0;
     }
 
     &.course-marketing {   
