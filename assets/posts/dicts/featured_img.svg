@@ -16,7 +16,10 @@
    version="1.1"
    id="svg27948"
    inkscape:version="0.92.5 (0.92.5+69)"
-   sodipodi:docname="featured_img.svg">
+   sodipodi:docname="featured_img.svg"
+   inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/posts/dicts/featured_img.png"
+   inkscape:export-xdpi="1152"
+   inkscape:export-ydpi="1152">
   <defs
      id="defs27942">
     <marker
@@ -1721,9 +1724,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="-230.12682"
-     inkscape:cy="273.33073"
+     inkscape:zoom="11.2"
+     inkscape:cx="-35.247478"
+     inkscape:cy="15.58589"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1734,7 +1737,7 @@
      inkscape:window-width="2560"
      inkscape:window-height="993"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -1754,7 +1757,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2095,10 +2098,14 @@
        width="6.6145835"
        height="4.7246919"
        x="-132.79585"
-       y="144.36063" />
+       y="144.36063"
+       inkscape:export-xdpi="1920"
+       inkscape:export-ydpi="1920" />
     <g
        id="g1291"
-       transform="matrix(0.04105595,0,0,0.04105595,-128.2101,143.53484)">
+       transform="matrix(0.04105595,0,0,0.04105595,-128.2101,143.53484)"
+       inkscape:export-xdpi="1920"
+       inkscape:export-ydpi="1920">
       <path
          sodipodi:nodetypes="cccccc"
          inkscape:connector-curvature="0"

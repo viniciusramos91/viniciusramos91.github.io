@@ -488,8 +488,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497474"
-     inkscape:cx="-180.876"
-     inkscape:cy="357.8452"
+     inkscape:cx="-916.26706"
+     inkscape:cy="349.76398"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -500,7 +500,7 @@
      inkscape:window-width="2560"
      inkscape:window-height="993"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -530,10 +530,14 @@
        width="197.556"
        height="141.11111"
        x="20.662477"
-       y="18.557537" />
+       y="18.557537"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <g
        id="g1116"
-       transform="translate(1.2958774e-6,-12.290238)">
+       transform="translate(1.2958774e-6,-12.290238)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <g
          id="g7045"
          transform="matrix(0.70497731,0.70497731,-0.70497731,0.70497731,153.00298,-17.178385)">
@@ -1089,7 +1093,9 @@
        cy="120.73711"
        rx="14.079613"
        ry="1.3229166"
-       transform="matrix(1.3805691,0,0,0.9298552,-26.819464,21.199558)" />
+       transform="matrix(1.3805691,0,0,0.9298552,-26.819464,21.199558)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <ellipse
        transform="matrix(1.3805691,0,0,0.9298552,38.862722,21.199558)"
        ry="1.3229166"
@@ -1097,7 +1103,9 @@
        cy="120.73711"
        cx="58.365604"
        id="ellipse7333"
-       style="opacity:1;fill:#808080;fill-opacity:0.50196078;stroke:none;stroke-width:1.74499989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter7329)" />
+       style="opacity:1;fill:#808080;fill-opacity:0.50196078;stroke:none;stroke-width:1.74499989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter7329)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <ellipse
        style="opacity:1;fill:#808080;fill-opacity:0.50196078;stroke:none;stroke-width:1.74499989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter7329)"
        id="ellipse7335"
@@ -1105,6 +1113,8 @@
        cy="120.73711"
        rx="14.079613"
        ry="1.3229166"
-       transform="matrix(1.3805691,0,0,0.9298552,104.5449,21.199558)" />
+       transform="matrix(1.3805691,0,0,0.9298552,104.5449,21.199558)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
   </g>
 </svg>

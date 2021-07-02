@@ -15,7 +15,7 @@
    viewBox="0 0 700 500.00001"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.5 (0.92.5+69)"
    sodipodi:docname="featured_icon.svg">
   <defs
      id="defs4">
@@ -203,8 +203,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="253.27804"
-     inkscape:cy="-225.11512"
+     inkscape:cx="-114.41748"
+     inkscape:cy="-67.531324"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -222,10 +222,10 @@
      inkscape:object-nodes="true"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-global="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="1005"
+     inkscape:window-width="2560"
+     inkscape:window-height="993"
      inkscape:window-x="0"
-     inkscape:window-y="1"
+     inkscape:window-y="384"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -235,7 +235,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -258,10 +258,14 @@
        height="500"
        x="-37.142845"
        y="-467.34738"
-       ry="0" />
+       ry="0"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <g
        id="g4466"
-       transform="matrix(1.0911281,0,0,1.0911281,-69.037677,-600.57779)">
+       transform="matrix(1.0911281,0,0,1.0911281,-69.037677,-600.57779)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <g
          transform="matrix(0.93094198,0,0,0.78904292,24.170361,76.192609)"
          style="fill:#dcdcdc;fill-opacity:1;stroke:#4d4d4d;stroke-width:3.16571593;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

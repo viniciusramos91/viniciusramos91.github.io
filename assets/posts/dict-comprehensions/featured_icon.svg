@@ -13,7 +13,7 @@
    viewBox="0 0 197.556 141.11111"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
+   inkscape:version="0.92.5 (0.92.5+69)"
    sodipodi:docname="featured_icon.svg">
   <defs
      id="defs2">
@@ -442,7 +442,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.12374369"
-     inkscape:cx="-1002.3956"
+     inkscape:cx="-2473.1777"
      inkscape:cy="-33.057585"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -455,7 +455,7 @@
      inkscape:window-width="1457"
      inkscape:window-height="993"
      inkscape:window-x="551"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="0"
      inkscape:snap-global="false" />
   <metadata
@@ -466,7 +466,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -735,10 +735,14 @@
        width="197.556"
        height="141.11111"
        x="-64.760139"
-       y="-178.65675" />
+       y="-178.65675"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <g
        id="g13297"
-       transform="matrix(0.85440656,0,0,0.85440656,-271.36491,-150.72016)">
+       transform="matrix(0.85440656,0,0,0.85440656,-271.36491,-150.72016)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <path
          inkscape:connector-curvature="0"
          id="path4491-4"
@@ -780,7 +784,9 @@
       </g>
     </g>
     <g
-       id="g2215">
+       id="g2215"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <g
          id="g2197">
         <g

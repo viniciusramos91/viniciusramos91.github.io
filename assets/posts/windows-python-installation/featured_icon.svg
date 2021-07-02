@@ -14,7 +14,7 @@
    version="1.1"
    id="svg9179"
    sodipodi:docname="featured_icon.svg"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)">
+   inkscape:version="0.92.5 (0.92.5+69)">
   <defs
      id="defs9173">
     <linearGradient
@@ -68,8 +68,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="413.76077"
-     inkscape:cy="173.34659"
+     inkscape:cx="153.76077"
+     inkscape:cy="170.48945"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -82,7 +82,7 @@
      inkscape:window-width="2560"
      inkscape:window-height="993"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata9176">
@@ -92,7 +92,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -102,23 +102,23 @@
      id="layer1"
      transform="translate(23.006674,155.03922)">
     <path
-       inkscape:export-ydpi="128.25133"
-       inkscape:export-xdpi="128.25133"
+       inkscape:export-ydpi="64.290001"
+       inkscape:export-xdpi="64.290001"
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path1968"
        d="M -6.7189616,-45.096087 H 158.26118 l -2.90385,1.676507 H -4.5170309 Z"
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.18519;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       inkscape:export-ydpi="128.25133"
-       inkscape:export-xdpi="128.25133"
+       inkscape:export-ydpi="64.290001"
+       inkscape:export-xdpi="64.290001"
        inkscape:connector-curvature="0"
        id="path1970"
        d="m 15.350136,-125.12692 c -2.362653,0 -4.264658,1.54231 -4.264658,3.45827 v 38.259884 h -4.75e-4 v 33.335859 H 140.45721 v -33.335859 0 -38.259884 c 0,-1.91596 -1.90203,-3.45827 -4.26467,-3.45827 H 15.352402 Z"
        style="fill:#ffffff;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.14964;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.8;stroke-opacity:1" />
     <rect
-       inkscape:export-ydpi="128.25133"
-       inkscape:export-xdpi="128.25133"
+       inkscape:export-ydpi="64.290001"
+       inkscape:export-xdpi="64.290001"
        style="fill:#e6e6e6;fill-opacity:1;stroke:#4d4d4d;stroke-width:0.776014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1972"
        width="121.26315"
@@ -127,15 +127,15 @@
        y="-121.26054" />
     <path
        sodipodi:nodetypes="cccc"
-       inkscape:export-ydpi="128.25133"
-       inkscape:export-xdpi="128.25133"
+       inkscape:export-ydpi="64.290001"
+       inkscape:export-xdpi="64.290001"
        style="fill:#cccccc;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:0.668796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 158.51955,-45.081511 -2.8072,1.48156 H -4.6896503 l -2.2878948,-1.476575"
        id="path1974"
        inkscape:connector-curvature="0" />
     <rect
-       inkscape:export-ydpi="128.25133"
-       inkscape:export-xdpi="128.25133"
+       inkscape:export-ydpi="64.290001"
+       inkscape:export-xdpi="64.290001"
        y="-50.350166"
        x="-6.7189555"
        height="4.6918273"
@@ -150,7 +150,9 @@
        height="1.8090562"
        width="20.997181"
        id="rect1978"
-       style="fill:#e6e6e6;fill-opacity:1;stroke:#4d4d4d;stroke-width:0.366758;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.8;stroke-opacity:1" />
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#4d4d4d;stroke-width:0.366758;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.8;stroke-opacity:1"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <rect
        ry="0"
        rx="0"
@@ -159,7 +161,9 @@
        height="60.669838"
        width="113.42622"
        id="rect1980"
-       style="fill:#ffffff;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.18696;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.18696;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <rect
        style="opacity:1;fill:#efefef;fill-opacity:0;stroke:none;stroke-width:3.38667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect4464"
@@ -167,10 +171,14 @@
        height="141.11111"
        x="-23.006674"
        y="-155.03922"
-       ry="0" />
+       ry="0"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <g
        id="g10287"
-       transform="translate(-2.1049763)">
+       transform="translate(-2.1049763)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <g
          id="g9996"
          transform="matrix(0.05167643,0,0,0.05167643,92.556007,-98.943128)">
@@ -191,50 +199,35 @@
            points="206.596,278.456 0,278.456 0,436.547 206.596,467.088 "
            id="polygon9938" />
         <g
-           id="g9940">
-</g>
+           id="g9940" />
         <g
-           id="g9942">
-</g>
+           id="g9942" />
         <g
-           id="g9944">
-</g>
+           id="g9944" />
         <g
-           id="g9946">
-</g>
+           id="g9946" />
         <g
-           id="g9948">
-</g>
+           id="g9948" />
         <g
-           id="g9950">
-</g>
+           id="g9950" />
         <g
-           id="g9952">
-</g>
+           id="g9952" />
         <g
-           id="g9954">
-</g>
+           id="g9954" />
         <g
-           id="g9956">
-</g>
+           id="g9956" />
         <g
-           id="g9958">
-</g>
+           id="g9958" />
         <g
-           id="g9960">
-</g>
+           id="g9960" />
         <g
-           id="g9962">
-</g>
+           id="g9962" />
         <g
-           id="g9964">
-</g>
+           id="g9964" />
         <g
-           id="g9966">
-</g>
+           id="g9966" />
         <g
-           id="g9968">
-</g>
+           id="g9968" />
       </g>
       <g
          transform="matrix(0.23541747,0,0,0.23541747,352.07526,-96.548586)"
@@ -253,75 +246,58 @@
       <g
          id="g10071"
          transform="matrix(0.02746171,0,0,0.02746171,70.701391,-92.695168)">
-	<g
-   id="g10069">
-		<path
-   d="M 355.148,234.386 H 275.83 v -79.318 c 0,-10.946 -8.864,-19.83 -19.83,-19.83 -10.966,0 -19.83,8.884 -19.83,19.83 v 79.318 h -79.318 c -10.966,0 -19.83,8.884 -19.83,19.83 0,10.946 8.864,19.83 19.83,19.83 h 79.318 v 79.318 c 0,10.946 8.864,19.83 19.83,19.83 10.966,0 19.83,-8.884 19.83,-19.83 v -79.318 h 79.318 c 10.966,0 19.83,-8.884 19.83,-19.83 0,-10.946 -8.864,-19.83 -19.83,-19.83 z"
-   id="path10067" />
-
-	</g>
-
-</g>
+        <g
+           id="g10069">
+          <path
+             d="M 355.148,234.386 H 275.83 v -79.318 c 0,-10.946 -8.864,-19.83 -19.83,-19.83 -10.966,0 -19.83,8.884 -19.83,19.83 v 79.318 h -79.318 c -10.966,0 -19.83,8.884 -19.83,19.83 0,10.946 8.864,19.83 19.83,19.83 h 79.318 v 79.318 c 0,10.946 8.864,19.83 19.83,19.83 10.966,0 19.83,-8.884 19.83,-19.83 v -79.318 h 79.318 c 10.966,0 19.83,-8.884 19.83,-19.83 0,-10.946 -8.864,-19.83 -19.83,-19.83 z"
+             id="path10067" />
+        </g>
+      </g>
     </g>
     <g
        id="g10073"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10075"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10077"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10079"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10081"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10083"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10085"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10087"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10089"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10091"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10093"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10095"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10097"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10099"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
     <g
        id="g10101"
-       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)">
-</g>
+       transform="matrix(0.02746171,0,0,0.02746171,69.093198,-92.167502)" />
   </g>
 </svg>

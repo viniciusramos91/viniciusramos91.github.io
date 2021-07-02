@@ -13,7 +13,7 @@
    viewBox="0 0 197.55556 141.11111"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
+   inkscape:version="0.92.5 (0.92.5+69)"
    sodipodi:docname="featured_icon.svg">
   <defs
      id="defs2">
@@ -14058,8 +14058,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748738"
-     inkscape:cx="20.304847"
-     inkscape:cy="471.12872"
+     inkscape:cx="-715.08619"
+     inkscape:cy="463.0475"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -14075,7 +14075,7 @@
      inkscape:window-width="2560"
      inkscape:window-height="993"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="1"
      inkscape:document-rotation="0"
      inkscape:snap-global="false" />
@@ -14087,7 +14087,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -14101,19 +14101,25 @@
        id="circle4603"
        cx="485.50217"
        cy="46.093399"
-       r="48.62331" />
+       r="48.62331"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <circle
        style="fill:none;fill-opacity:0.309739;stroke:#54c098;stroke-width:22.367;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.427451"
        id="circle4512"
        cx="485.50217"
        cy="46.093399"
-       r="37.453056" />
+       r="37.453056"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <circle
        style="fill:#3ca27c;fill-opacity:0.639356;stroke:#40a881;stroke-width:20.7443;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.792157"
        id="circle4510"
        cx="485.50217"
        cy="46.093399"
-       r="27.656975" />
+       r="27.656975"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <circle
        style="fill:#dbba35;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path6142-4-5-24-2"
@@ -14324,7 +14330,9 @@
        width="197.55556"
        height="141.11111"
        x="386.7244"
-       y="-24.46216" />
+       y="-24.46216"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <circle
        style="fill:#e06f69;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path6142-0-37"
@@ -14501,7 +14509,9 @@
        r="0" />
     <g
        id="g20858"
-       transform="translate(-1.1444092e-5)">
+       transform="translate(-1.1444092e-5)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <g
          id="g7860"
          transform="matrix(0.26109936,0,0,0.26109936,455.65271,-16.625299)">

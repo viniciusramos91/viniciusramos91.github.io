@@ -13,7 +13,7 @@
    viewBox="0 0 197.556 141.11099"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
+   inkscape:version="0.92.5 (0.92.5+69)"
    sodipodi:docname="featured_icon.svg">
   <defs
      id="defs2">
@@ -3095,8 +3095,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.25"
-     inkscape:cx="56.253729"
-     inkscape:cy="472.18288"
+     inkscape:cx="-671.74627"
+     inkscape:cy="464.18288"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -3108,7 +3108,7 @@
      inkscape:window-width="2560"
      inkscape:window-height="993"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -3142,7 +3142,9 @@
        width="197.556"
        height="141.11099"
        x="-12.379426"
-       y="49.872536" />
+       y="49.872536"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <circle
        r="0"
        cy="323.4783"
@@ -3358,7 +3360,9 @@
        transform="matrix(0.26458333,0,0,0.26458333,-200.32246,26.362917)" />
     <g
        id="g2053"
-       transform="matrix(0.9411957,0,0,0.9411957,5.0805844,7.1008696)">
+       transform="matrix(0.9411957,0,0,0.9411957,5.0805844,7.1008696)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <path
          style="fill:#f2f2f2;fill-opacity:1;stroke:#f2f2f2;stroke-width:8.00978;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 60.59409,150.8891 v 26.96917"
@@ -3623,30 +3627,44 @@
     <path
        style="fill:none;stroke:#333333;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 96.052473,149.12102 v 17.20415 h 7.248937 v -17.20415"
-       id="path2067" />
+       id="path2067"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <path
        style="fill:none;stroke:#333333;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 80.510151,149.12102 v 17.20415 h 7.248937 v -17.20415"
-       id="path2065" />
+       id="path2065"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <path
        style="fill:none;stroke:#333333;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 65.897399,149.12102 v 17.20415 h 7.248937 v -17.20415"
-       id="path2063" />
+       id="path2063"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <path
        style="fill:none;stroke:#333333;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 58.32604,149.12102 v 25.3918 h 7.579569 v -25.3918"
-       id="path2055" />
+       id="path2055"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <path
        style="fill:none;stroke:#333333;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 73.146337,149.12102 v 25.3918 h 7.579569 v -25.3918"
-       id="path2057" />
+       id="path2057"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <path
        style="fill:none;stroke:#333333;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 88.22388,149.12102 v 25.3918 h 7.579569 v -25.3918"
-       id="path2059" />
+       id="path2059"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <path
        style="fill:none;stroke:#333333;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 103.30141,149.12102 v 25.3918 h 7.57957 v -25.3918"
-       id="path2061" />
+       id="path2061"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
   </g>
 </svg>

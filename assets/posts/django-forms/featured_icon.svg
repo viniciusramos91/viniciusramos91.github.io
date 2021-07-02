@@ -14,7 +14,7 @@
    version="1.1"
    id="svg8"
    sodipodi:docname="featured_icon.svg"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)">
+   inkscape:version="0.92.5 (0.92.5+69)">
   <defs
      id="defs2">
     <linearGradient
@@ -3181,8 +3181,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-256.63777"
-     inkscape:cy="173.51855"
+     inkscape:cx="-516.63777"
+     inkscape:cy="170.66141"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -3195,7 +3195,7 @@
      inkscape:window-width="2560"
      inkscape:window-height="993"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -3228,7 +3228,9 @@
        width="197.55556"
        height="141.11111"
        x="48.495216"
-       y="55.798443" />
+       y="55.798443"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <circle
        r="0"
        cy="191.13884"
@@ -3402,28 +3404,38 @@
        d="M 17.36769,167.80385 250.80924,33.026312"
        id="path2110"
        clip-path="url(#clipPath2142)"
-       transform="matrix(0.84686643,0,0,0.84686643,22.55244,19.349039)" />
+       transform="matrix(0.84686643,0,0,0.84686643,22.55244,19.349039)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <path
        style="fill:none;stroke:#158157;stroke-width:13.1315;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.1"
        d="M 17.36769,196.97609 276.78686,47.200353"
        id="path2112"
        clip-path="url(#clipPath2146)"
-       transform="matrix(0.84686643,0,0,0.84686643,22.55244,19.349039)" />
+       transform="matrix(0.84686643,0,0,0.84686643,22.55244,19.349039)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <path
        style="fill:none;stroke:#106444;stroke-width:17.0709;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.1"
        d="M 37.745995,218.32573 276.78686,80.315415"
        id="path2114"
        clip-path="url(#clipPath2150)"
-       transform="matrix(0.84686643,0,0,0.84686643,22.55244,19.349039)" />
+       transform="matrix(0.84686643,0,0,0.84686643,22.55244,19.349039)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <path
        style="fill:none;stroke:#0c4b33;stroke-width:19.6972;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.1"
        d="M 127.54169,218.32573 276.78686,132.15898"
        id="path2116"
        clip-path="url(#clipPath2154)"
-       transform="matrix(0.84686643,0,0,0.84686643,22.55244,19.349039)" />
+       transform="matrix(0.84686643,0,0,0.84686643,22.55244,19.349039)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <g
        id="g7525"
-       transform="translate(-251.76505,15.08516)">
+       transform="translate(-251.76505,15.08516)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <rect
          style="fill:none;fill-opacity:1;stroke:#333333;stroke-width:1.28211;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4619-5"
@@ -3550,17 +3562,23 @@
        x="90.216728"
        y="91.622169"
        rx="0"
-       ry="0" />
+       ry="0"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <rect
        style="fill:#0c4b33;fill-opacity:1;stroke:#333333;stroke-width:1.093;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5164"
        width="39.05875"
        height="12.682738"
        x="159.75401"
-       y="147.11336" />
+       y="147.11336"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <g
        id="g7628"
-       transform="translate(0,2.6458334)">
+       transform="translate(0,2.6458334)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <g
          id="g7475"
          transform="matrix(0.81429245,0,0,0.81429245,171.80342,-43.656293)">
@@ -3628,6 +3646,8 @@
        width="34.704254"
        height="8.6441154"
        x="161.93126"
-       y="149.13266" />
+       y="149.13266"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
   </g>
 </svg>

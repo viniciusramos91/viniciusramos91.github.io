@@ -13,7 +13,7 @@
    viewBox="0 0 197.85602 180.94437"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
+   inkscape:version="0.92.5 (0.92.5+69)"
    sodipodi:docname="shop-icon.svg">
   <defs
      id="defs2">
@@ -514,7 +514,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.175"
-     inkscape:cx="273.09873"
+     inkscape:cx="-766.90127"
      inkscape:cy="558.50454"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -527,7 +527,7 @@
      inkscape:window-width="1457"
      inkscape:window-height="993"
      inkscape:window-x="551"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
@@ -537,7 +537,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -548,64 +548,49 @@
      transform="translate(-431.74059,171.76349)">
     <g
        id="g42"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g44"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g46"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g48"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g50"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g52"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g54"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g56"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g58"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g60"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g62"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g64"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g66"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g68"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g70"
-       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)">
-</g>
+       transform="matrix(0.26458333,0,0,0.26458333,-39.332306,32.658103)" />
     <g
        id="g1646"
        transform="matrix(0.0657177,0,0,0.0657177,1104.9542,-94.119621)" />
@@ -657,66 +642,105 @@
        style="fill:#f3f3f3;stroke:#333333;stroke-width:1.37864;stroke-miterlimit:4;stroke-dasharray:none"
        width="171.99948"
        height="119.75687"
-       id="rect2" />
+       id="rect2"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2604"
        width="12.508394"
        height="4.4829354"
        x="514.87054"
-       y="-79.767242" />
+       y="-79.767242"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <path
        style="fill:#ffd53f;fill-opacity:1;stroke:#333333;stroke-width:2.21351;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 434.22022,-133.90105 v 11.25244 c 0,10.85044 8.43923,19.28967 19.28968,19.28967 10.85044,0 19.28968,-8.43923 19.28968,-19.28967 v -11.25244 z"
-       id="path4" />
+       id="path4"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <path
        style="fill:#306998;fill-opacity:1;stroke:#333333;stroke-width:2.21351;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 472.79958,-133.90105 v 11.25244 c 0,10.85045 8.43923,19.28967 19.28967,19.28967 10.85044,0 19.28967,-8.43922 19.28967,-19.28967 v -11.25244 z"
-       id="path6" />
+       id="path6"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <path
        style="fill:#ffd53f;fill-opacity:1;stroke:#333333;stroke-width:2.21351;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 511.37892,-133.90105 v 11.25244 c 0,10.85045 8.43924,19.28967 19.28968,19.28967 10.85045,0 19.28968,-8.43922 19.28968,-19.28967 v -11.25244 z"
-       id="path8" />
+       id="path8"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <path
        style="fill:#306998;fill-opacity:1;stroke:#333333;stroke-width:2.21351;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 549.95828,-133.90105 v 11.25244 c 0,10.85045 8.43923,19.28967 19.28969,19.28967 10.85043,0 19.28966,-8.43922 19.28966,-19.28967 v -11.25244 z"
-       id="path10" />
+       id="path10"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <path
        style="fill:#ffd53f;fill-opacity:1;stroke:#333333;stroke-width:2.21351;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 588.53763,-133.90105 v 11.25244 c 0,10.85045 8.43926,19.28967 19.28969,19.28967 10.85045,0 19.28968,-8.43922 19.28968,-19.28967 v -11.25244 z"
-       id="path12" />
+       id="path12"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <polygon
        style="fill:#ffe56a;fill-opacity:1;stroke:#333333;stroke-width:5.87525;stroke-miterlimit:4;stroke-dasharray:none"
        points="140.8,62.933 65.067,62.933 0,135.467 102.4,135.467 "
        id="polygon14"
-       transform="matrix(0.3767515,0,0,0.3767515,434.22022,-186.73947)" />
+       transform="matrix(0.3767515,0,0,0.3767515,434.22022,-186.73947)"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <polygon
        style="fill:#4888bb;fill-opacity:1;stroke:#333333;stroke-width:5.87525;stroke-miterlimit:4;stroke-dasharray:none"
        points="217.6,62.933 140.8,62.933 102.4,135.467 204.8,135.467 "
        id="polygon16"
-       transform="matrix(0.3767515,0,0,0.3767515,434.22022,-186.73947)" />
+       transform="matrix(0.3767515,0,0,0.3767515,434.22022,-186.73947)"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <polygon
        style="fill:#ffe56a;fill-opacity:1;stroke:#333333;stroke-width:5.87525;stroke-miterlimit:4;stroke-dasharray:none"
        points="294.4,62.933 217.6,62.933 204.8,135.467 307.2,135.467 "
        id="polygon18"
-       transform="matrix(0.3767515,0,0,0.3767515,434.22022,-186.73947)" />
+       transform="matrix(0.3767515,0,0,0.3767515,434.22022,-186.73947)"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <polygon
        style="fill:#4888bb;fill-opacity:1;stroke:#333333;stroke-width:5.87525;stroke-miterlimit:4;stroke-dasharray:none"
        points="371.2,62.933 294.4,62.933 307.2,135.467 409.6,135.467 "
        id="polygon20"
-       transform="matrix(0.3767515,0,0,0.3767515,434.22022,-186.73947)" />
+       transform="matrix(0.3767515,0,0,0.3767515,434.22022,-186.73947)"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <polygon
        style="fill:#ffe56a;fill-opacity:1;stroke:#333333;stroke-width:5.87525;stroke-miterlimit:4;stroke-dasharray:none"
        points="446.933,62.933 371.2,62.933 409.6,135.467 512,135.467 "
        id="polygon22"
-       transform="matrix(0.3767515,0,0,0.3767515,434.22022,-186.73947)" />
+       transform="matrix(0.3767515,0,0,0.3767515,434.22022,-186.73947)"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2606"
        width="12.508394"
        height="4.4829354"
        x="511.69553"
-       y="-63.420464" />
+       y="-63.420464"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2608"
@@ -725,7 +749,10 @@
        x="453.62943"
        y="-68.115318"
        inkscape:transform-center-x="-267.93924"
-       inkscape:transform-center-y="-128.60225" />
+       inkscape:transform-center-y="-128.60225"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2610"
@@ -734,188 +761,278 @@
        x="453.62943"
        y="-34.121391"
        inkscape:transform-center-x="-267.93924"
-       inkscape:transform-center-y="-128.60225" />
+       inkscape:transform-center-y="-128.60225"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        x="460.74353"
        y="-84.263062"
        style="fill:#f3f3f3;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.71979;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        width="57.869034"
        height="77.560707"
-       id="rect26" />
+       id="rect26"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2626"
        width="12.508394"
        height="4.4829354"
        x="595.83875"
-       y="-49.19381" />
+       y="-49.19381"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        x="533.88336"
        y="-84.263062"
        style="fill:#ffffff;fill-opacity:0.563081;stroke-width:0.491204"
        width="71.93428"
        height="66.30825"
-       id="rect2120" />
+       id="rect2120"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2624"
        width="12.508394"
        height="4.4829354"
        x="599.56348"
-       y="-76.627823" />
+       y="-76.627823"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        x="533.88336"
        y="-84.263062"
        style="fill:#e3f4fb;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.71979;stroke-miterlimit:4;stroke-dasharray:none"
        width="71.934296"
        height="66.308258"
-       id="rect28" />
+       id="rect28"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        x="533.84735"
        y="-84.263062"
        style="fill:#b3b3b3;fill-opacity:0.563081;stroke-width:0.488439"
        width="71.970291"
        height="65.531097"
-       id="rect32" />
+       id="rect32"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        x="538.07117"
        y="-80.402786"
        style="fill:#89d4f3;fill-opacity:0.507866;stroke:#4d4d4d;stroke-width:0.926042;stroke-miterlimit:4;stroke-dasharray:none"
        width="63.558689"
        height="58.587723"
-       id="rect2530" />
+       id="rect2530"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        x="464.48553"
        y="-79.767242"
        style="fill:#e6e6e6;stroke:#4d4d4d;stroke-width:0.926042;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        width="50.384991"
        height="72.882454"
-       id="rect2526" />
+       id="rect2526"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        y="-7.8154984"
        style="fill:#999999;stroke:#333333;stroke-width:1.85208;stroke-miterlimit:4;stroke-dasharray:none"
        width="192.89674"
        height="12.859659"
        id="rect40"
-       x="434.22021" />
+       x="434.22021"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#808080;fill-opacity:0.563081;stroke:#333333;stroke-width:0.7024;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect2528"
        width="7.4948463"
        height="2.3883243"
        x="467.42459"
-       y="-46.976112" />
+       y="-46.976112"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ececec;fill-opacity:1;stroke:#333333;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2592"
        width="68.490036"
        height="19.731459"
        x="455.85632"
-       y="-11.608925" />
+       y="-11.608925"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2594"
        width="12.508394"
        height="4.4829354"
        x="453.8345"
-       y="-97.214676" />
+       y="-97.214676"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2596"
        width="12.508394"
        height="4.4829354"
        x="460.0871"
-       y="-92.73175" />
+       y="-92.73175"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2598"
        width="12.508394"
        height="4.4829354"
        x="466.3429"
-       y="-97.214676" />
+       y="-97.214676"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2600"
        width="12.508394"
        height="4.4829354"
        x="460.0871"
-       y="-101.69761" />
+       y="-101.69761"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2602"
        width="12.508394"
        height="4.4829354"
        x="500.06799"
-       y="-97.214676" />
+       y="-97.214676"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2614"
        width="12.508394"
        height="4.4829354"
        x="598.33264"
-       y="-97.214676" />
+       y="-97.214676"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2616"
        width="12.508394"
        height="4.4829354"
        x="549.17615"
-       y="-101.92755" />
+       y="-101.92755"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2620"
        width="12.508394"
        height="4.4829354"
        x="557.38666"
-       y="-93.745392" />
+       y="-93.745392"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.649253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2622"
        width="12.508394"
        height="4.4829354"
        x="557.38666"
-       y="-93.745392" />
+       y="-93.745392"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        x="458.73428"
        style="fill:#cccccc;stroke:#1a1a1a;stroke-width:1.93577;stroke-miterlimit:4;stroke-dasharray:none"
        width="144.27058"
        height="7.7662368"
        id="rect24"
-       y="-170.79561" />
+       y="-170.79561"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <path
        style="fill:url(#linearGradient2718);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 550.17119,-80.402789 -12.09999,12.10001 v 7.74152 l 19.84152,-19.84153 z"
-       id="path4446" />
+       id="path4446"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <path
        style="fill:url(#linearGradient2720);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 562.51877,-80.402789 -24.44757,24.44759 v 2.28445 l 26.73204,-26.73204 z"
-       id="path4448" />
+       id="path4448"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <path
        style="fill:url(#linearGradient2722);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 580.61923,-80.402789 -42.54803,42.54804 v 5.0422 l 47.59023,-47.59024 z"
-       id="path4450" />
+       id="path4450"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <path
        style="fill:url(#linearGradient2724);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 588.05072,-80.402789 -49.97952,49.97953 v 6.61078 1.99741 h 3.68074 l 58.58772,-58.58772 z"
-       id="path4452" />
+       id="path4452"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <path
        style="fill:url(#linearGradient2726);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 544.21254,-21.815059 57.41734,-57.41734 v 2.60458 l -54.81276,54.81276 z"
-       id="path4454" />
+       id="path4454"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <path
        style="fill:url(#linearGradient2728);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 568.19795,-21.815059 33.43193,-33.43194 v 6.05319 l -27.37874,27.37875 z"
-       id="path4460" />
+       id="path4460"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <path
        style="fill:url(#linearGradient4490);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 577.04929,-21.815059 24.58059,-24.58061 v 11.41764 l -13.16294,13.16297 z"
-       id="path4462" />
+       id="path4462"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
     <rect
        x="538.07117"
        y="-80.402786"
        style="fill:#89d4f3;fill-opacity:0.507866;stroke:#4d4d4d;stroke-width:0.926042;stroke-miterlimit:4;stroke-dasharray:none"
        width="63.558689"
        height="58.587723"
-       id="rect4540" />
+       id="rect4540"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/shop-icon.png"
+       inkscape:export-xdpi="4.2399998"
+       inkscape:export-ydpi="4.2399998" />
   </g>
 </svg>

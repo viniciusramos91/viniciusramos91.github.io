@@ -14,7 +14,7 @@
    version="1.1"
    id="svg8"
    sodipodi:docname="featured_icon.svg"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)">
+   inkscape:version="0.92.5 (0.92.5+69)">
   <defs
      id="defs2">
     <linearGradient
@@ -1676,8 +1676,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-302.61571"
-     inkscape:cy="119.73595"
+     inkscape:cx="-368.33"
+     inkscape:cy="345.45024"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -1689,7 +1689,7 @@
      inkscape:window-width="2560"
      inkscape:window-height="993"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="1"
      inkscape:snap-global="true"
      inkscape:snap-bbox="true"
@@ -1708,7 +1708,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1723,7 +1723,9 @@
        width="197.55556"
        height="141.11111"
        x="1.8917385"
-       y="41.98074" />
+       y="41.98074"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <circle
        r="0"
        cy="9.6107349"
@@ -2059,7 +2061,9 @@
        y="30.828096" />
     <g
        id="g3347"
-       transform="translate(1.136361)">
+       transform="translate(1.136361)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <path
          d="m 110.16145,103.91634 v -9.613038 c 0,-3.575096 0.79447,-6.196835 5.87905,-6.196835 h 1.82727 V 77.063394 h -4.7668 c -9.77192,0 -15.015399,3.733988 -15.015399,13.664812 V 102.4863 c 0,4.44901 -1.906718,5.40237 -5.402368,5.40237 v 9.2158 c 3.49565,0 5.402368,0.95336 5.402368,5.48182 v 11.75809 c 0,9.85138 5.243479,13.66482 15.015399,13.66482 h 4.7668 v -11.12252 h -1.82727 c -5.08458,0 -5.87905,-2.5423 -5.87905,-6.19684 v -9.53359 c 0,-3.97233 -1.27115,-7.52472 -5.87905,-8.63697 v -0.031 c 4.6079,-1.03281 5.87905,-4.59962 5.87905,-8.57194 z"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:112.416px;line-height:1.25;font-family:'MADE TOMMY';-inkscape-font-specification:'MADE TOMMY Bold';fill:url(#linearGradient3213);fill-opacity:1;stroke:#4d4d4d;stroke-width:0.961124;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94902"

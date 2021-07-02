@@ -13,7 +13,7 @@
    viewBox="0 0 700.0003 500.00001"
    id="svg2"
    version="1.1"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
+   inkscape:version="0.92.5 (0.92.5+69)"
    sodipodi:docname="featured_icon.svg">
   <defs
      id="defs4">
@@ -17719,8 +17719,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7071068"
-     inkscape:cx="249.4415"
-     inkscape:cy="342.54141"
+     inkscape:cx="-7.9453615"
+     inkscape:cy="339.71298"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -17741,7 +17741,7 @@
      inkscape:window-width="2560"
      inkscape:window-height="993"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="1"
      units="px"
      inkscape:document-rotation="0" />
@@ -17773,11 +17773,15 @@
        width="700.00031"
        height="500.00003"
        x="730.22565"
-       y="-51.099075" />
+       y="-51.099075"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <g
        id="g43033"
        transform="matrix(1.023941,0,0,1.023941,908.42305,109.83806)"
-       style="opacity:0.589748">
+       style="opacity:0.589748"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <circle
          style="fill:none;fill-opacity:0.172549;stroke:#74cbae;stroke-width:86.2675;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.172549"
          id="circle4603"
@@ -17799,7 +17803,9 @@
     </g>
     <g
        id="g43071"
-       transform="matrix(0.99317051,0,0,0.99317051,7.3773863,1.3583911)">
+       transform="matrix(0.99317051,0,0,0.99317051,7.3773863,1.3583911)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <path
          style="fill:none;stroke:#000000;stroke-width:14.1285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M 952.35939,41.417961 V 377.82049 h 253.15321"

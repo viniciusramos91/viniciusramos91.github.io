@@ -13,7 +13,7 @@
    viewBox="0 0 700.00001 500.00001"
    id="svg2"
    version="1.1"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
+   inkscape:version="0.92.5 (0.92.5+69)"
    sodipodi:docname="featured_icon.svg">
   <defs
      id="defs4">
@@ -1495,8 +1495,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.64"
-     inkscape:cx="129.69957"
-     inkscape:cy="141.3963"
+     inkscape:cx="-154.67543"
+     inkscape:cy="138.2713"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1507,7 +1507,7 @@
      inkscape:window-width="2560"
      inkscape:window-height="993"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -1543,7 +1543,9 @@
        width="700"
        height="500"
        x="-79.943924"
-       y="155.16328" />
+       y="155.16328"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <circle
        r="0"
        cy="40.466427"
@@ -1618,7 +1620,9 @@
        r="0" />
     <g
        id="g10582"
-       transform="matrix(0.83789002,0,0,0.83789002,43.778784,65.68101)">
+       transform="matrix(0.83789002,0,0,0.83789002,43.778784,65.68101)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <rect
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.25502;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4777"

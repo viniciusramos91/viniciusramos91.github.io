@@ -13,7 +13,7 @@
    viewBox="0 0 700.00001 500.00001"
    id="svg6091"
    version="1.1"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
+   inkscape:version="0.92.5 (0.92.5+69)"
    sodipodi:docname="featured_icon.svg">
   <defs
      id="defs6093">
@@ -9011,8 +9011,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="42.592034"
-     inkscape:cy="166.77781"
+     inkscape:cx="-217.40797"
+     inkscape:cy="163.92067"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -9033,7 +9033,7 @@
      inkscape:window-width="2560"
      inkscape:window-height="993"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="1"
      inkscape:document-rotation="0" />
   <metadata
@@ -9059,31 +9059,41 @@
        width="700"
        height="500"
        x="-235.67786"
-       y="-99.367569" />
+       y="-99.367569"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <ellipse
        style="fill:#77ccac;fill-opacity:0.175083;stroke:none;stroke-width:2.09254;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.511491"
        id="circle4603"
        cx="114.32214"
        cy="277.56998"
        rx="269.15326"
-       ry="75.794556" />
+       ry="75.794556"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <ellipse
        style="fill:#49bb90;fill-opacity:0.309739;stroke:none;stroke-width:3.20509;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.675681"
        id="circle4512"
        cx="114.32214"
        cy="277.56998"
        rx="213.91023"
-       ry="57.771446" />
+       ry="57.771446"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <ellipse
        style="fill:#3ca27c;fill-opacity:0.639356;stroke:none;stroke-width:4.03099;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.706149"
        id="circle4510"
        cx="114.32214"
        cy="277.56998"
        rx="160.6913"
-       ry="41.33744" />
+       ry="41.33744"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <g
        id="g7860"
-       transform="matrix(0.75855218,0,0,0.75855218,27.602832,52.000885)">
+       transform="matrix(0.75855218,0,0,0.75855218,27.602832,52.000885)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <path
          style="fill:#d1d1d1;fill-opacity:0.980392;stroke:none;stroke-width:0.849184px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 4.6659736,252.70813 220.6653964,-0.42333 0.70764,44.6267 -19.0277,15.79699 -30.24003,8.59705 -37.68279,3.99952 -34.92179,0.68328 -34.969428,-1.89562 -35.255579,-6.7899 L 11.62647,305.1158 2.6052749,294.46259 Z"
@@ -9409,7 +9419,9 @@
        cx="114.54128"
        cy="128.42238"
        rx="36.823418"
-       ry="8.6567259" />
+       ry="8.6567259"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <text
        id="text7817-3"
        y="328.62875"
@@ -9436,7 +9448,9 @@
        style="fill:#38d787;fill-opacity:1;stroke:none;stroke-width:1.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        id="g7869"
-       transform="matrix(0.98514233,0,0,0.98514233,1.6985635,5.4390111)">
+       transform="matrix(0.98514233,0,0,0.98514233,1.6985635,5.4390111)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <path
          d="m 115.79048,124.58903 21.98123,-19.78309 c 0.46599,-0.42204 0.72977,-1.01113 0.72977,-1.6354 V 89.981815 c 0,-0.86606 -0.50997,-1.652987 -1.3013,-2.009083 -0.79572,-0.3517 -1.72332,-0.206624 -2.36517,0.373681 L 114.32214,106.80623 93.813681,88.346413 c -0.646256,-0.580305 -1.573855,-0.729777 -2.365186,-0.373681 -0.795716,0.356096 -1.305681,1.143023 -1.305681,2.009083 v 13.188725 c 0,0.62427 0.268174,1.21336 0.725383,1.6354 l 21.981213,19.78309 c 0.83528,0.75176 2.11019,0.75176 2.94107,0 z"
          id="path7704"

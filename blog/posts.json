@@ -10,6 +10,7 @@
       "author": "Erickson L",
       "description": "<p>Dicionário no Python é um tipo de dado muito eficiente e muito poderoso. Dominá-lo é essencial para o verdadeiro Pythonista!</p>",
       "featured_icon": "featured_img.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "27",
          "month": "June",
@@ -28,6 +29,7 @@
       "author": "Guilherme E",
       "description": "<p>Nesse post vamos ver os tipos de variáveis que a linguagem Python nos disponibiliza para utilizar em nossos programas.</p>",
       "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
       "date": {
          "day": "19",
          "month": "June",
@@ -46,6 +48,7 @@
       "author": "Erickson L",
       "description": "<p>Vamos aprender como manipular Listas no Python de forma pythônica com esse Guia COMPLETO!</p>",
       "featured_icon": "featured_img.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "16",
          "month": "June",
@@ -64,6 +67,7 @@
       "author": "Erickson L",
       "description": "<p>Esse post trata de um dos principais tipos de dados usados no dia a dia do Pythonista: as famosas LISTAS!</p>",
       "featured_icon": "featured_img.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "14",
          "month": "June",
@@ -82,6 +86,7 @@
       "author": "Vinícius R",
       "description": "<p>Esse post mostra como estender as funcionalidades de sua API, adicionando Filtros, Busca Textual e Ordenação às APIs desenvolvidas com o poderoso Django REST Framework</p>",
       "featured_icon": "featured_img.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "16",
          "month": "May",
@@ -100,6 +105,7 @@
       "author": "Vinícius R",
       "description": "<p>Nesse post vamos ver como é fácil construir APIs de maneira rápida com nosso velho conhecido Django e o poderoso Django Rest Framework</p>",
       "featured_icon": "featured_img.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "05",
          "month": "May",
@@ -118,6 +124,7 @@
       "author": "Vinícius R",
       "description": "<p>Nesse post você vai dominar a biblioteca itertools do Python e adicionar mais um módulo poderosíssimo à sua caixa de ferramentas!</p>",
       "featured_icon": "featured_img.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "20",
          "month": "April",
@@ -136,6 +143,7 @@
       "author": "Guilherme E",
       "description": "<p>Quer saber como executar seu código 4x mais rápido? Então leia esse post AGORA!</p>",
       "featured_icon": "featured_img.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "05",
          "month": "April",
@@ -154,6 +162,7 @@
       "author": "Leon S",
       "description": "<p>Complemento para o post de pandas básico, vamos aprender mais sobre Pandas Dataframes! A estrutura tabular que todo cientista de dados vai ficar careca de saber (eu fiquei, literalmente :O). Cola na Python Academy que você vai sair um cientista de dados!</p>",
       "featured_icon": "featured_img.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "15",
          "month": "March",
@@ -172,6 +181,7 @@
       "author": "Leon S",
       "description": "<p>Nesse post, você irá aprender como manipular arranjos unidimensionais utilizando as Séries do Pandas.</p>",
       "featured_icon": "featured_img.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "10",
          "month": "March",
@@ -190,6 +200,7 @@
       "author": "Vinícius R",
       "description": "<p>Aprenda a manipular strings em Python de um jeito fácil e descomplicado com f-strings!</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "19",
          "month": "February",
@@ -208,6 +219,7 @@
       "author": "Leon S",
       "description": "<p>Esse post mostra como importar arquivos CSV usando a famosa biblioteca pandas! Bora que essa ferramenta é essencial pra quem quer começar na área de Data Science!</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "03",
          "month": "February",
@@ -226,6 +238,7 @@
       "author": "Vinícius R",
       "description": "<p>Nesse post, vamos aprender uma ferramenta avançada muito útil do Python para tratamento e manipulação de dicionários!</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "14",
          "month": "January",
@@ -244,6 +257,7 @@
       "author": "Vinícius R",
       "description": "<p>Aprenda a dominar o poder de List Comprehensions no Python. Nesse post você vai ver como utilizar, declarar e manipular listas com List Comprehensions.</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "25",
          "month": "October",
@@ -262,6 +276,7 @@
       "author": "Vinícius R",
       "description": "<p>Você já deve ter ouvido falar em Iterators e Generators em Python. Mas você sabe o que são? Nesse post vamos aprender um pouco mais dessas duas ferramentas poderosas do Python!</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "15",
          "month": "October",
@@ -280,6 +295,7 @@
       "author": "Vinícius R",
       "description": "<p>Nesse post, vamos tratar da camada <em>Template</em> do Django. Vamos aprender como utilizar, configurar e estender os templates do Django, como utilizar filtros e tags do Django e como criar nossas tags e filtros customizados!</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "04",
          "month": "July",
@@ -298,6 +314,7 @@
       "author": "Vinícius R",
       "description": "<p>Aprenda a criar Middlewares no Django para interceptar e processar requisições vindas dos usuários.</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "25",
          "month": "June",
@@ -316,6 +333,7 @@
       "author": "Vinícius R",
       "description": "<p>Vamos conhecer a facilidade que é criar formulários em projetos Django utilizando Django Forms!</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "22",
          "month": "June",
@@ -334,6 +352,7 @@
       "author": "Vinícius R",
       "description": "<p>Nesse post, vamos tratar da camada <em>View</em> do Django. Nela, nós desenvolvemos a lógica de negócio da nossa aplicação. Vamos ver sobre rotas, processamento de requisições e respostas, utilização de formulários e muito mais!</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "20",
          "month": "June",
@@ -352,6 +371,7 @@
       "author": "Vinícius R",
       "description": "<p>Nesse post, vamos ver o funcionamento do comando migrate do Django, suas opções e como ele ajuda os desenvolvedores na hora de criar o banco de dados da nossa aplicação Django.</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "07",
          "month": "June",
@@ -370,6 +390,7 @@
       "author": "Vinícius R",
       "description": "<p>Nesse post, vamos ver o funcionamento do comando makemigrations do Django, suas opções e quando devemos usá-lo.</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "30",
          "month": "May",
@@ -388,6 +409,7 @@
       "author": "Vinícius R",
       "description": "<p>Nesse post, vamos tratar da camada Model do Django. Vamos abordar detalhes dessa camada, mapeamento objeto-relacional, a API de acesso a dados provida pelo Django e modelagem de dados.</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "26",
          "month": "May",
@@ -406,6 +428,7 @@
       "author": "Vinícius R",
       "description": "<p>O Django é uma framework de desenvolvimento Web Python completa e robusta. Nesse post introdutório, vamos abordar os a arquitetura do framework e primeiros passos para o desenvlvimento web com Python.</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "22",
          "month": "May",
@@ -424,6 +447,7 @@
       "author": "Vinícius R",
       "description": "<p>Nesse artigo, vamos abordar 5 motivos que irão te fazer começar a aprender Python ainda hoje!</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "11",
          "month": "April",
@@ -442,6 +466,7 @@
       "author": "Vinícius R",
       "description": "<p>Que tal criar um jogo em Python utilizando o framework Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do ZERO!</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "08",
          "month": "April",
@@ -460,6 +485,7 @@
       "author": "Vinícius R",
       "description": "<p>Nesse post vamos explorar o desenvolvimento de aplicações mobile utilizando Python e Kivy. Aprenda a desenvolver aplicativos para Android, iOS, Desktop e muito mais com Kivy!</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "07",
          "month": "April",
@@ -478,6 +504,7 @@
       "author": "Vinícius R",
       "description": "<p>Decorators modificam o comportamente do código antes e depois da execução de uma dada função, sem a necessidade de modificar o próprio código da mesma, adicionando funcionalidades.</p>",
       "featured_icon": "featured_img.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "06",
          "month": "April",
@@ -496,6 +523,7 @@
       "author": "Vinícius R",
       "description": "<p>Vamos entender o funcionamento do incrível virtualenv, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "05",
          "month": "April",
@@ -514,6 +542,7 @@
       "author": "Leon S",
       "description": "<p>Nesse post, vamos aprender como instalar o Python no Windows através de um tutorial simples e descomplicado! Não tenha medo, vamos mostrar passo a passo!</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "04",
          "month": "April",
@@ -532,6 +561,7 @@
       "author": "Vinícius R",
       "description": "<p>O começo do começo! Vamos aprender como instalar o Python no Linux e começar a programar utilizando essa incrível linguagem de programação!</p>",
       "featured_icon": "featured_icon.svg",
+      "featured_image": "featured_img.png",
       "date": {
          "day": "03",
          "month": "April",

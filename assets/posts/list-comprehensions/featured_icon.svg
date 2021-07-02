@@ -13,7 +13,7 @@
    viewBox="0 0 197.556 141.11111"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
+   inkscape:version="0.92.5 (0.92.5+69)"
    sodipodi:docname="featured_icon.svg">
   <defs
      id="defs2">
@@ -442,8 +442,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.175"
-     inkscape:cx="-1447.16"
-     inkscape:cy="724.71057"
+     inkscape:cx="-2487.16"
+     inkscape:cy="713.282"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -464,7 +464,7 @@
      inkscape:window-width="2560"
      inkscape:window-height="993"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="384"
      inkscape:window-maximized="1"
      inkscape:document-rotation="0" />
   <metadata
@@ -475,7 +475,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -744,10 +744,14 @@
        width="197.556"
        height="141.11111"
        x="289.28586"
-       y="23.444761" />
+       y="23.444761"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001" />
     <g
        id="g13305"
-       transform="translate(282.23053,13.202698)">
+       transform="translate(282.23053,13.202698)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <path
          inkscape:connector-curvature="0"
          style="opacity:1;vector-effect:none;fill:#f9f9f9;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.00213;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -771,7 +775,9 @@
     </g>
     <g
        id="g13297"
-       transform="matrix(0.85440656,0,0,0.85440656,82.68108,51.381353)">
+       transform="matrix(0.85440656,0,0,0.85440656,82.68108,51.381353)"
+       inkscape:export-xdpi="64.290001"
+       inkscape:export-ydpi="64.290001">
       <path
          inkscape:connector-curvature="0"
          id="path4491-4"
