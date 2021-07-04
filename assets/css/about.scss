@@ -1,0 +1,101 @@
+// ABOUT PAGE
+// ================================================================
+
+#about {
+    
+    .about-banner {
+        padding: 148px 0;
+        border-top: 1px solid #E2E2E2;
+        border-bottom: 1px solid #E2E2E2;
+        background: #F7F7F7 url('/assets/svg/dark-bground-pattern.svg');
+        text-align: center;
+
+        h1 {
+            font-family: 'Roboto Condensed', sans-serif;
+            color: #444;
+            font-size: 4rem;
+            font-weight: bold;
+            margin: 0 auto;
+            max-width: 810px;
+        }
+    }
+    
+    .about-container {
+        padding: 64px 32px;
+        max-width: 810px;        
+        
+        p {
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        p, ul, li {
+            font-family: 'Raleway', sans-serif;
+            color: #3e464f; 
+            font-size: 1.8rem;
+            
+            &.hello {
+                font-family: 'Shadows Into Light', cursive;
+                font-size: 3rem;
+                margin-bottom: 3rem;
+            }            
+        }
+
+        .signature {
+            margin-top: 6rem;
+            margin-bottom: 0;            
+            font-size: 3rem;
+            font-family: 'Cedarville Cursive', cursive;
+        }
+        
+        .founder {
+            font-size: 1.5rem;            
+            color: #888;
+        }
+    }
+}
+
+#about-read-next {
+
+    h2 {
+        font-family: 'Lato', sans-serif;
+        color: #3e464f;
+        max-width: 810px;
+        font-size: 2.5rem;
+        margin: 0 auto;
+        padding: 64px 32px;
+    }
+
+    .read-next {     
+        font-family: 'Merriweather', sans-serif;
+        font-size: 4rem;
+        letter-spacing: -0.4px;
+        display: inline-block;
+        width: 100%;
+        padding: 148px 0;        
+        text-align: center;
+        color: #FFF;
+        // text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+        transition: all 0.15s ease;
+        
+        &.blog {
+            background: #2d98da url("/assets/svg/blog-bground-pattern.svg");
+        }
+
+        &.sliders {
+            background: #f3c30e url("/assets/svg/blog-bground-pattern.svg");
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        @media(max-width: 991px) {
+            padding: 92px 0;
+            font-size: 2.5rem;
+        }
+    }
+}

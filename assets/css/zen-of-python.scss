@@ -1,0 +1,133 @@
+// ZEN OF PYTHON PAGE
+// ================================================================
+
+#zen-of-python {
+    .terminal-wrapper {
+        padding: 64px 0;
+        background: #F2F2F2 url('assets/svg/dark-bground-pattern.svg');
+
+        .terminal {
+            width: 80%;
+            margin: 0 auto;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+            
+            pre {
+                font-family: 'Menlo', 'Monaco', 'Consolas','Courier New',monospace;
+                display: inline-block; 
+                margin: 0;
+                padding: 0;
+                position: relative;
+                top: 5px;
+                font-size: 1.4rem;                                          
+            }
+
+            .terminal-header {
+                background: #F2F2F2;
+                border-bottom: 1px solid #E2E2E2;
+                border-radius: 8px 8px 0 0;
+                padding: 4px 12px;
+                width: 100%;
+                text-align: center;
+                line-height: 21px;
+            }
+
+            .terminal-body {
+                background: #252525;
+                padding: 32px;
+                border-radius: 0 0 8px 8px;
+
+                span {
+                    font-family: 'Menlo', 'Monaco', 'Consolas','Courier New',monospace;
+                    line-height: 1.8rem;
+                    font-size: 1.5rem;
+                    display: block;
+
+                    &.command {
+                        display: inline;
+                    }
+
+                    &.u {
+                        color: #00bc06;
+                    }
+                    &.s {
+                        color: #bfb405;
+                    }
+                    &.n {
+                        color: #bdbdbd;
+                    }
+                    &.c {
+                        color: #be00bd;
+                    }
+
+                    @media (max-width: 630px) {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+
+            @media(max-width: 991px) {
+                width: 100%;
+
+                .terminal-body {
+                    padding: 16px;
+                }
+            }
+        }
+    }
+
+    .zop-explanation {
+        padding: 64px 0;
+        background: #FAFAFA;
+
+        h2 {
+            font-family: 'Merriweather', sans-serif;
+            color: #444;
+            font-size: 3rem;
+            margin-bottom: 64px;
+            letter-spacing: -0.4px;
+        }
+        
+        h3 {
+            font-family: 'Merriweather', sans-serif;
+            color: #444;
+            font-size: 2.5rem;
+        }
+        
+        .reference {
+            list-style-image: url('/assets/img/bullet-list.png');
+        }
+
+        .explanation-box {
+            background: #FFF;            
+            box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+            padding: 48px;
+            border-radius: 25px;
+            margin-bottom: 48px;
+
+            p {
+                font-size: 2rem;
+            }
+
+            .text-muted {
+                font-style: italic;
+                color: #888;
+                font-size: 1.6rem;
+            }
+
+            .explanation {            
+                font-family: 'Lato', sans-serif;
+                color: #4b545e;
+                font-size: 1.6rem;
+
+                
+                figure.highlight {
+                    margin: 12px 0;
+
+                    pre {
+                        padding: 6px 12px;
+                    }
+                }                
+            }
+        }
+    }
+}

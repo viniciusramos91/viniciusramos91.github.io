@@ -2,6 +2,44 @@
     
     
     {
+      "h1": "Domine Set Comprehensions no Python",
+      "title": "Set Comprehensions no Python",
+      "href": "/blog/set-comprehensions-no-python",
+      "slug": "set-comprehensions-no-python",
+      "assets": "set-comprehensions",
+      "author": "Erickson L",
+      "description": "<p>Domine Sets Comprehensions (ou Compreensão de Sets) com esse post completo sobre o assunto! Set Comprehensions possibilita criar e manipular sets de uma maneira concisa e eficiente!</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "03",
+         "month": "July",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
+      "h1": "Sets no Python",
+      "title": "Domine Sets no Python",
+      "href": "/blog/sets-no-python",
+      "slug": "sets-no-python",
+      "assets": "sets",
+      "author": "Erickson L",
+      "description": "<p>Domine Sets (ou Conjuntos) com esse post completo sobre o assunto! Sets são um tipo de dados muito utilizado no dia a dia da programação Python e que todo programador precisa dominar!</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "02",
+         "month": "July",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Dicionários no Python",
       "title": "Dicionários (Dicts) no Python",
       "href": "/blog/dicts-ou-dicionarios-no-python",
@@ -21,7 +59,7 @@
     
     
     {
-      "h1": "Tipos de Variáveis no Python",
+      "h1": "Tipos de Variáveis disponíveis no Python",
       "title": "Tipos de Variáveis no Python",
       "href": "/blog/tipos-de-variaveis-no-python",
       "slug": "tipos-de-variaveis-no-python",
@@ -40,7 +78,7 @@
     
     
     {
-      "h1": "Manipulação de Listas no Python",
+      "h1": "Aprenda a manipular Listas no Python",
       "title": "Manipulação de Listas no Python",
       "href": "/blog/manipulacao-de-listas-no-python",
       "slug": "manipulacao-de-listas-no-python",
@@ -78,7 +116,7 @@
     
     
     {
-      "h1": "Filtros, Busca e Ordenação no Django REST Framework",
+      "h1": "Adicione Filtros, Busca e Ordenação ao Django REST Framework",
       "title": "Filtros, Busca e Ordenação no Django REST Framework",
       "href": "/blog/filtros-busca-e-ordenacao-no-drf",
       "slug": "filtros-busca-e-ordenacao-no-drf",
