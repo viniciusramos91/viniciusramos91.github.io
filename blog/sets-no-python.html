@@ -270,7 +270,7 @@
 <ul>
   <li>Sets são desordenados</li>
   <li>Não possuem elementos duplicados, ou seja, cada elemento é único.</li>
-  <li>Um <em>set</em> em si pode ser modificado, contudo os elementos contidos dentro dele precisa ser de tipos imutáveis.</li>
+  <li>Um <em>set</em> em si pode ser modificado, contudo os elementos contidos dentro dele precisam ser de tipos imutáveis.</li>
 </ul>
 
 <p>A sintaxe para utilizar <em>sets</em> é bem simples: eles são definidos utilizando-se chaves <code class="highlighter-rouge">{}</code>. Veja um exemplo:</p>
@@ -321,9 +321,9 @@
 </pre></td>
 <td class="code"><pre><span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
 
-<span class="n">sem_duplica</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">lista</span><span class="p">)</span>
+<span class="n">sem_duplicados</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">lista</span><span class="p">)</span>
 
-<span class="k">print</span><span class="p">(</span><span class="n">sem_duplica</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">sem_duplicados</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -351,11 +351,11 @@
 4
 5
 </pre></td>
-<td class="code"><pre><span class="n">convidado</span> <span class="o">=</span> <span class="p">{</span><span class="s">'João'</span><span class="p">,</span> <span class="s">'Maria'</span><span class="p">,</span> <span class="s">'Eduarda'</span><span class="p">}</span>
+<td class="code"><pre><span class="n">convidados</span> <span class="o">=</span> <span class="p">{</span><span class="s">'João'</span><span class="p">,</span> <span class="s">'Maria'</span><span class="p">,</span> <span class="s">'Eduarda'</span><span class="p">}</span>
 
-<span class="n">convidado</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="s">'Marcela'</span><span class="p">)</span>
+<span class="n">convidados</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="s">'Marcela'</span><span class="p">)</span>
 
-<span class="k">print</span><span class="p">(</span><span class="n">convidado</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">convidados</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
@@ -430,7 +430,7 @@ TypeError: 'set' object does not support indexing
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Assim, podemos acessá-los de duas maneiras “brutas”: percorrendo o conjunto ou verificando se o mesmo se encontra no <em>set</em>.</p>
+<p>Assim, podemos acessá-los de duas maneiras “brutas”: percorrendo o conjunto ou verificando se o elemento desejado se encontra no <em>set</em>.</p>
 
 <p>Podemos percorrer seus elementos com <code class="highlighter-rouge">for</code>, por exemplo:</p>
 
@@ -465,7 +465,7 @@ Eduarda
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 </pre></td>
-<td class="code"><pre><span class="k">print</span><span class="p">(</span><span class="s">'João'</span> <span class="ow">in</span> <span class="n">esteset</span><span class="p">)</span>
+<td class="code"><pre><span class="k">print</span><span class="p">(</span><span class="s">'João'</span> <span class="ow">in</span> <span class="n">este_set</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
