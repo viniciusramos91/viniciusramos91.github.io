@@ -1386,14 +1386,14 @@ body::-webkit-scrollbar-thumb {
     span:nth-child(1) {        
         width: 15%;
         height: 75px;
-        background: #30699855;
+        background: #306998;
         right: 0;
     }
 
     span:nth-child(2) {        
         width: 30%;
         height: 65px;
-        background: #ffd43b44;
+        background: #ffd43b;
         right: 10%;
         top: 90px;
     }
@@ -1401,7 +1401,7 @@ body::-webkit-scrollbar-thumb {
     span:nth-child(3) {
         width: 20%;
         height: 65px;
-        border: 1px solid #ffd43b88;
+        border: 1px solid #ffd43b;
         background: transparent;
         right: 2.5%;
         top: 170px;
@@ -1414,6 +1414,19 @@ body::-webkit-scrollbar-thumb {
     &.second {
         bottom: 25%;
         left: -75%;
+
+        span:nth-child(1) {        
+            background: #0C4B33;
+        }
+    
+        span:nth-child(2) {        
+            background: #51be95;
+        }
+    
+        span:nth-child(3) {
+            border: 1px solid #51be95;
+            background: transparent;
+        }
     }
 }
 

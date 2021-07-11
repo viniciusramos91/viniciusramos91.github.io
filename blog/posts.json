@@ -2,6 +2,44 @@
     
     
     {
+      "h1": "Loops com range no Python",
+      "title": "A função range do Python",
+      "href": "/blog/a-funcao-range-do-python",
+      "slug": "a-funcao-range-do-python",
+      "assets": "range",
+      "author": "Erickson L",
+      "description": "<p>Vamos tratar de um assunto muito importante nesse post: como construir loops utilizando a função range do Python!</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "09",
+         "month": "July",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
+      "h1": "Loops e Estruturas de Repetição no Python",
+      "title": "For, While, Loops e Estruturas de Repetição no Python",
+      "href": "/blog/estruturas-de-repeticao",
+      "slug": "estruturas-de-repeticao",
+      "assets": "loops",
+      "author": "Erickson L",
+      "description": "<p>Nesse post vamos falar sobre as famosas Estruturas de Repetição (ou loops) do Python: for, while, for com else, for com range, enumerate e muito mais!</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "08",
+         "month": "July",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Set Comprehensions no Python",
       "title": "Domine Set Comprehensions no Python",
       "href": "/blog/set-comprehensions-no-python",

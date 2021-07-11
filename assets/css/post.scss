@@ -340,3 +340,91 @@ body#post-body {
         }
     }   
 }
+
+// EBOOK
+// ================================================================
+
+.include-ebook-wrapper {
+    width: 120%;
+    margin: 32px auto;
+    right: 10%;
+    position: relative;
+    border: 1px solid #FAFAFA;
+    padding: 48px 32px;
+    -webkit-box-shadow: 0 10px 29px #d3d9debb;
+    box-shadow: 0 10px 29px #d3d9debb;
+
+    h4 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 3rem;
+        color: #032518 !important;
+        font-weight: 400;
+        margin-bottom: 26px;
+        line-height: 3rem !important;
+    }
+
+    h5 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.7rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #44b77e !important;
+        font-weight: bold;
+        margin-top: 0;
+    }
+
+    .ebook-cover {
+        margin: 14px 0 !important;
+    }
+
+    .ebook-data {
+        padding: 24px 0 !important;
+
+        .ebook-title {
+            font-size: 2.3rem !important;
+            color: #555 !important;
+            font-weight: 400 !important;
+        }
+
+        .ebook-description {
+            padding-left: 50px !important;
+            list-style: none !important;
+            list-style-image: none !important;
+            margin-bottom: 22px !important;
+
+            li {
+                font-family: 'Lato', sans-serif;
+                font-size: 1.5rem;
+                color: #333 !important;
+            }
+        }   
+    } 
+    
+    .link-to-download {
+        margin: 0 30px;
+    }
+
+    .cta {
+        border: 0;
+        background: #44B78B;
+        border-radius: 8px;                    
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;                                                
+        color: #FFF;
+        padding: 15px 18px;
+        width: 100%;
+        display: inline-block;
+        text-align: center;    
+        
+        @media (max-width: 767px) {
+            padding: 12px 30px;
+        }
+    }
+    
+    @media (max-width: 1150px) {
+        padding: 24px 12px;
+        width: 90%;
+        right: 0;
+    }
+}
