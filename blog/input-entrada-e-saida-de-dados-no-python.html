@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        		<!-- Global site tag (gtag.js) - Google Analytics -->
+	<head>		
+				<!-- Global site tag (gtag.js) - Google Analytics -->
 					
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116930343-1"></script>
 <script>
@@ -12,16 +12,16 @@
   gtag('config', 'UA-116930343-1');
 </script>
 		
-		<meta name="facebook-domain-verification" content="hn1c54temf1ljujqou4htlay7ftby8" />
+		<meta name="facebook-domain-verification" content="hn1c54temf1ljujqou4htlay7ftby8">
 		
 
 		<meta charset="utf-8">
-		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
 
-		<title>Python Academy | Aprenda a linguagem Python de Verdade</title>
+		<title>Função input no Python: Entrada e Saída de dados</title>
 		<link rel="icon" type="image/png" href="/assets/img/favicon.png">		
 
 		<!-- Robots -->
@@ -44,9 +44,9 @@
 		</style>
 
 		<!-- Canonical URL -->
-		<link rel="canonical" href="https://pythonacademy.com.br/">	    
-        
-        
+		<link rel="canonical" href="https://pythonacademy.com.br/blog/input-entrada-e-saida-de-dados-no-python">	
+
+		
 		
 		
 		
@@ -59,49 +59,50 @@
 
 				
 		<!-- General -->
-		<meta name="description" content="Aprenda a linguagem Python de verdade! Descubra como é fácil começar a usar uma das linguagens de programação mais simples do mercado! Com a linguagem Python você vai poder desenvolver para Web, aprender Inteligência Artificial, Ciência de Dados e muito mais!">		
-		<meta name="title" content="Python Academy | Aprenda a linguagem Python de Verdade">
-		<meta itemprop="image" content="https://pythonacademy.com.br/assets/img/og-image.png">
+		<meta name="description" content="Nesse post vamos falar sobre entrada de dados, saída de dados, a função input do Python, a função print e MUITO MAIS!">		
+		<meta name="title" content="Função input no Python: Entrada e Saída de dados">
+		<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/input-output/facebook.png">
 
 		<!-- Open Graph -->
 		<meta property="fb:app_id" content="220280761884954">
 		<meta property="og:site_name" content="Python Academy">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="Python Academy | Aprenda a linguagem Python de Verdade">
-		<meta property="og:url" content="https://pythonacademy.com.br/">
-		<meta property="og:description" content="Aprenda a linguagem Python de verdade! Descubra como é fácil começar a usar uma das linguagens de programação mais simples do mercado! Com a linguagem Python você vai poder desenvolver para Web, aprender Inteligência Artificial, Ciência de Dados e muito mais!">
-		<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/img/og-image.png" />
-		<meta property="og:image:alt" content="Python Academy | Aprenda a linguagem Python de Verdade" />
-		<meta property="og:image:type" content="image/png" />
-		<meta property="og:image:width" content="1200" />
-		<meta property="og:image:height" content="630" />
+		<meta property="og:title" content="Função input no Python: Entrada e Saída de dados">
+		<meta property="og:url" content="https://pythonacademy.com.br/blog/input-entrada-e-saida-de-dados-no-python">
+		<meta property="og:description" content="Nesse post vamos falar sobre entrada de dados, saída de dados, a função input do Python, a função print e MUITO MAIS!">
+		<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/posts/input-output/facebook.png">
+		<meta property="og:image:alt" content="Função input no Python: Entrada e Saída de dados">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
 
 		<!-- Twitter cards -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-		<meta name="twitter:title" content="Python Academy | Aprenda a linguagem Python de Verdade">
-		<meta name="twitter:description" content="Aprenda a linguagem Python de verdade! Descubra como é fácil começar a usar uma das linguagens de programação mais simples do mercado! Com a linguagem Python você vai poder desenvolver para Web, aprender Inteligência Artificial, Ciência de Dados e muito mais!">
-		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/img/twitter-card-image.png">
+		<meta name="twitter:title" content="Função input no Python: Entrada e Saída de dados">
+		<meta name="twitter:description" content="Nesse post vamos falar sobre entrada de dados, saída de dados, a função input do Python, a função print e MUITO MAIS!">
+		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/input-output/twitter.png">
+		
+		<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
+		
 		
 
-        
-        <!-- Custom Css -->
+		<!-- Assets -->
 		
 
-        <style>
-            .features-section{padding:64px 0}.features-section .why-learn-python{margin-top:16px;display:inline-block;font-family:'Roboto Condensed'}.features-section .feature{text-align:center;padding:0 15%}.features-section .feature object{margin-bottom:16px;max-width:450px}.features-section .feature h2{font-family:'Roboto Condensed', sans-serif;font-size:3rem}.features-section .feature p{font-family:'Lato', serif;font-size:1.6rem;color:#4b545e;line-height:2.5rem;margin-bottom:32px}@media (max-width: 1200px){.features-section .feature{padding:0 5%}}@media (max-width: 767px){.features-section .feature{padding:0}}#blog{padding:96px 0;background:#f2f2f2}#blog .section-header{color:#454545}#sliders{padding:96px 0;background:#02b3e4}#sliders .section-header{color:#FFF}#sliders .button:hover{box-shadow:0px 4px 16px rgba(0,0,0,0.25)}#ebooks{padding:96px 0;background-image:url("/assets/svg/stars-bground.svg"),linear-gradient(to bottom, #000, #202020)}#ebooks .section-header,#ebooks .section-sub-header{color:#FAFAFA}.ebook .ebook-cover{height:375px;box-shadow:0px 2px 26px #d4d4d455;animation:rotate-cover 5s alternate infinite ease-in-out;-moz-animation:rotate-cover 5s alternate infinite ease-in-out;-webkit-animation:rotate-cover 5s alternate infinite ease-in-out}@media (max-width: 767px){.ebook .ebook-cover{height:300px}}.ebook .ebook-data{padding:28px 0;text-align:left}.ebook .ebook-data .ebook-title{font-family:'Roboto Condensed', sans-serif;color:#FFF;font-size:3.2rem;margin-top:0;margin-bottom:24px}.ebook .ebook-data .ebook-description{list-style-image:url("/assets/img/yellow-check.png") !important;margin-bottom:32px}.ebook .ebook-data .ebook-description li{font-family:'Lato', sans-serif;font-size:1.8rem;color:#FFF;margin-bottom:12px}.ebook .ebook-data .call-to-action{margin-bottom:0}@media (max-width: 767px){.ebook .ebook-data .link-to-download{text-align:center}}#zen-of-python-section{padding:96px 0;background:#1089ab url("/assets/svg/blog-bground-pattern.svg")}#zen-of-python-section h2{margin:0}#zen-of-python-section h2 a{display:inline-block;font-family:'Oswald', sans-serif;text-transform:uppercase;font-size:3.5rem;color:#FFF}#zen-of-python-section h2 a .text-small{font-size:2rem}
+		<style>
+			@media (max-width: 767px){body#post-body{padding-bottom:75px}}.main-container .post-banner .post-banner-wrapper{height:500px;display:table;width:100%}.main-container .post-banner .post-banner-wrapper .post-banner-content{background:#CCC url("/assets/svg/stars-bground.svg");display:table-cell;vertical-align:middle;text-align:center;padding:70px 12px}.main-container .post-banner .post-banner-wrapper .post-banner-content .featured-icon-wrapper{display:inline-block;background:#FFF;line-height:0;padding:58px 12px;border-radius:50%;box-shadow:0px 4px 12px rgba(0,0,0,0.25);margin-bottom:3rem;height:280px;width:280px}.main-container .post-banner .post-banner-wrapper .post-banner-content .blog-post-title{font-family:'Roboto Condensed', sans-serif;text-transform:uppercase;font-weight:bold;font-size:5rem;color:#FFF;margin:0}@media (max-width: 767px){.main-container .post-banner .post-banner-wrapper .post-banner-content .blog-post-title{font-size:3.5rem}}.main-container .post-container{padding-top:64px}.main-container .post-container .blog-post-content{display:block;max-width:810px;font-weight:400;margin-right:auto;margin-left:auto}.main-container .post-container .blog-post-content #markdown-toc{list-style:none;margin-top:0;margin-bottom:10px;padding-left:78px;list-style-image:url("/assets/img/list-style-l1.png")}.main-container .post-container .blog-post-content #markdown-toc li{padding-right:5px}.main-container .post-container .blog-post-content #markdown-toc ul{margin-top:0;margin-bottom:0 !important;padding-left:40px;list-style-image:url("/assets/img/list-style-l2.png")}.main-container .post-container .blog-post-content #markdown-toc a{font-size:16px}.main-container .post-container .blog-post-content p:not(.greeting),.main-container .post-container .blog-post-content ul,.main-container .post-container .blog-post-content ol,.main-container .post-container .blog-post-content table:not(.rouge-table){font-family:'Droid Serif', sans-serif;font-size:1.7rem;line-height:1.6;margin-bottom:1.6rem;font-weight:400}@media (max-width: 767px){.main-container .post-container .blog-post-content p:not(.greeting),.main-container .post-container .blog-post-content ul,.main-container .post-container .blog-post-content ol,.main-container .post-container .blog-post-content table:not(.rouge-table){font-size:1.55rem;line-height:1.9;margin-bottom:1.7rem}}.main-container .post-container .blog-post-content blockquote{margin-left:40px;font-style:italic;color:#444;padding:0 30px 0 20px !important}.main-container .post-container .blog-post-content blockquote p{padding:0 !important}.main-container .post-container .blog-post-content p,.main-container .post-container .blog-post-content h1,.main-container .post-container .blog-post-content h2,.main-container .post-container .blog-post-content h3,.main-container .post-container .blog-post-content h4,.main-container .post-container .blog-post-content h5,.main-container .post-container .blog-post-content ul,.main-container .post-container .blog-post-content ol,.main-container .post-container .blog-post-content blockquote,.main-container .post-container .blog-post-content table:not(.rouge-table){padding:0 30px;color:#3e464f}.main-container .post-container .blog-post-content h1,.main-container .post-container .blog-post-content h2,.main-container .post-container .blog-post-content h3,.main-container .post-container .blog-post-content h4,.main-container .post-container .blog-post-content h5{font-family:'Roboto Condensed', sans-serif;font-weight:600;color:#3e464f;line-height:1.8}.main-container .post-container .blog-post-content ul,.main-container .post-container .blog-post-content ol{list-style-image:url("/assets/img/post-list-style.png");margin-top:-.55em;padding-left:75px}.main-container .post-container .blog-post-content ul.nav,.main-container .post-container .blog-post-content ol.nav{padding-left:30px}.main-container .post-container .blog-post-content ol{margin-top:-.55em;padding-left:75px}.main-container .post-container .blog-post-content .blue-yellow-separator{margin:64px auto}.main-container .post-container .blog-post-content table.post-table{overflow-x:auto;display:block;background-color:transparent;margin:0 auto 30px auto}.main-container .post-container .blog-post-content table.post-table thead tr th{vertical-align:bottom;border-bottom:2px solid #dee2e6;padding:.75rem;border-top:1px solid #dee2e6}.main-container .post-container .blog-post-content table.post-table tbody tr:nth-of-type(odd){background-color:rgba(0,0,0,0.025)}.main-container .post-container .blog-post-content table.post-table tbody td{padding:.75rem;vertical-align:top;border-top:1px solid #dee2e6}.main-container .post-container .blog-post-content .python-course-banner{width:1170px;max-width:1170px;position:relative;left:-180px}@media (max-width: 1200px){.main-container .post-container .blog-post-content .python-course-banner{padding:0 30px;width:100%;left:0}}.main-container .post-container .blog-post-content .python-course-post-banner{width:100%}.main-container .post-container .blog-post-footer .blog-post-colophon{padding-bottom:64px}.main-container .post-container .blog-post-footer .blog-post-colophon .profile-img{border-radius:50%;max-width:152px;margin:8px 0}.main-container .post-container .blog-post-footer .blog-post-colophon h2{font-weight:400;font-size:14px}.main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta{margin:7px 0}.main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta h2{margin-top:0;font-family:'Roboto Condensed', sans-serif;font-size:1.8rem}.main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta .short-description{font-family:'Quicksand', serif;line-height:2.4rem}.main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta .author-media-label{font-family:'Roboto Condensed', sans-serif;color:#777;margin:0;font-size:1.5rem}.main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta ul{list-style:none;margin:0;padding-left:30px}.main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta ul li{display:inline}.main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta ul li a{font-size:2rem;color:#777;padding:0 30px 0 0;transition:all .15s ease}.main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta ul li a:hover{background-color:inherit;color:#333}@media (max-width: 767px){.main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta ul li a{font-size:2.3rem;padding:0 12px}}@media (max-width: 767px){.main-container .post-container .blog-post-footer .blog-post-colophon .blog-post-meta{text-align:center}}.more-posts{background:#f4f4f4 url("/assets/svg/dark-bground-pattern.svg");padding:64px 8px;text-align:center}.more-posts h2{font-size:4rem;letter-spacing:-0.3px}.more-posts .button:hover{box-shadow:0px 2px 4px rgba(0,0,0,0.1)}@media (max-width: 600px){.social-media-affix.affix{bottom:0;top:auto}.social-media-affix ul{top:0}.social-media-affix ul li{margin-bottom:8px}}@media (max-width: 767px){.social-media-affix.affix{top:auto;bottom:0;width:100%;background:#FFF;border-top:1px solid #DDD;z-index:999;box-shadow:0px -2px 8px rgba(0,0,0,0.1)}.social-media-affix h2{font-size:1.25rem;padding:10px}.social-media-affix ul{line-height:0;top:auto;text-align:center}.social-media-affix ul li{display:inline-block;text-align:center;width:22.5%;margin:0}.social-media-affix ul li a{height:100%;width:70%;padding:6px 0;background:#EEE;border-radius:2px;margin:6px;border:1px solid #ddd}.social-media-affix ul li a i{font-size:2.75rem;left:auto;top:auto;margin:0}}.include-ebook-wrapper{width:120%;margin:32px auto;right:10%;position:relative;border:1px solid #FAFAFA;padding:48px 32px;-webkit-box-shadow:0 10px 29px #d3d9debb;box-shadow:0 10px 29px #d3d9debb}.include-ebook-wrapper h4{font-family:'Roboto Condensed', sans-serif;font-size:3rem;color:#032518 !important;font-weight:400;margin-bottom:26px;line-height:3rem !important}.include-ebook-wrapper h5{font-family:'Roboto Condensed', sans-serif;font-size:1.7rem;letter-spacing:1px;text-transform:uppercase;color:#44b77e !important;font-weight:bold;margin-top:0}.include-ebook-wrapper .ebook-cover{margin:14px 0 !important}.include-ebook-wrapper .ebook-data{padding:24px 0 !important}.include-ebook-wrapper .ebook-data .ebook-title{font-size:2.3rem !important;color:#555 !important;font-weight:400 !important}.include-ebook-wrapper .ebook-data .ebook-description{padding-left:50px !important;list-style:none !important;list-style-image:none !important;margin-bottom:22px !important}.include-ebook-wrapper .ebook-data .ebook-description li{font-family:'Lato', sans-serif;font-size:1.5rem;color:#333 !important}.include-ebook-wrapper .link-to-download{margin:0 30px}.include-ebook-wrapper .cta{border:0;background:#44B78B;border-radius:8px;font-family:'Lato', sans-serif;text-transform:uppercase;font-weight:bold;color:#FFF;padding:15px 18px;width:100%;display:inline-block;text-align:center}@media (max-width: 767px){.include-ebook-wrapper .cta{padding:12px 30px}}@media (max-width: 1150px){.include-ebook-wrapper{padding:24px 12px;width:90%;right:0}}figure{margin-bottom:1em}figcaption{font-size:16px;margin-top:5px}figure.highlight{border-radius:5px;padding:0;margin:0 30px 1em}figure.highlight>pre{border:1px solid #eee;padding:0;margin:0}figure.highlight td.gutter.gl{border-right:1px solid #e8e8e8}figure.highlight td.code{padding:10px 5px}.highlight table td{padding:10px}pre{background-color:inherit;color:inherit;padding:0 5px;border:0}.highlight table td{padding:5px}.highlight table pre{margin:0}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .c,.highlight .cd{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .gd{color:#000;background-color:#fdd}.highlight .ge{color:#000;font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{color:#000;font-weight:bold}.highlight .kd{color:#000;font-weight:bold}.highlight .kn{color:#000;font-weight:bold}.highlight .kp{color:#000;font-weight:bold}.highlight .kr{color:#000;font-weight:bold}.highlight .kt{color:#458;font-weight:bold}.highlight .k,.highlight .kv{color:#000;font-weight:bold}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .il{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .m,.highlight .mb,.highlight .mx{color:#099}.highlight .sb{color:#d14}.highlight .sc{color:#d14}.highlight .sd{color:#d14}.highlight .s2{color:#d14}.highlight .se{color:#d14}.highlight .sh{color:#d14}.highlight .si{color:#d14}.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .s{color:#d14}.highlight .na{color:#008080}.highlight .bp{color:#999}.highlight .nb{color:#0086b3}.highlight .nc{color:#458;font-weight:bold}.highlight .no{color:#008080}.highlight .nd{color:#3c5d5d;font-weight:bold}.highlight .ni{color:#800080}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nl{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:#000080}.highlight .vc{color:#008080}.highlight .vg{color:#008080}.highlight .vi{color:#008080}.highlight .nv{color:#008080}.highlight .ow{color:#000;font-weight:bold}.highlight .o{color:#000;font-weight:bold}.highlight .w{color:#bbb}.highlight{background-color:#f8f8f8}.terminal-output{color:#CCC}.terminal-output td.gutter.gl{display:none}figure.highlight.terminal-output td.code{padding:0}.terminal-output td.code pre{padding:0}.terminal-output pre{background:#1e2125;border-radius:4px 4px 0 0;border:0 !important}.terminal-output pre code{padding:15px;display:inline-block}.terminal-output::after{content:'Resultado';text-align:left;max-width:750px;padding:5px 15px;font-size:14px;background:#CCC;font-weight:bold;border-radius:0 0 4px 4px;display:block;color:#777}.error{color:#dd1436 !important}.error.terminal-output::after{content:"Saída do Terminal com Erro"}
 
-        </style>
-    </head>
+		</style>
+	</head>
 
-    <body>
-
-        
+	<body id="post-body">		
+		
 
 
 <header class="header">
 	
-	<nav class="navbar navbar-default homepage">
+	<nav class="navbar navbar-default">
 		<div class="container">
 	
 			<div class="navbar-header">
@@ -113,7 +114,7 @@
 				</button>
 
 				<a class="navbar-brand" rel="home" href="https://pythonacademy.com.br">
-					<img alt="Python Academy" src="/assets/img/logo.png" width="150px" height="50px">
+					<img alt="Python Academy" width="150px" height="50px" data-src="/assets/img/logo.png" class="lazyload">
 				</a>
 			</div>
 
@@ -145,7 +146,7 @@
 					
 					<li class="loja">
 						<a href="https://pythonacademy.com.br/loja/" title="Python Academy Indica">
-							<img src="/assets/img/shop-icon.png" height="30px" width="33px" class="jello-horizontal" loading="lazy">
+							<img height="30px" width="33px" class="jello-horizontal lazyload" loading="lazy" data-src="/assets/img/shop-icon.png">
 							<span>Loja</span>
 						</a>
 					</li>
@@ -153,343 +154,499 @@
 			</div>
 		</div>
 	</nav>
-</header>     
+</header>	
 
-        <section class="header-section">
-            <div class="header-section-wrapper">
-                <div class="header-section-content center-block">
-                    <div class="container">
-                        <object id="index-banner-icon" type="image/svg+xml" data="/assets/svg/index-banner.svg">
-                        </object>
-
-                        <h1>Aprenda Python de Verdade!</h1>
-
-                        <h2>
-                            Descubra como é fácil começar a usar uma das linguagens de programação mais 
-                            simples do mercado!
-                        </h2>
-
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="col-xs-12 col-sm-4 text-center">
-                                    <a href="/blog/" class="call-to-action neumorphism white">
-                                        <img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Conheça nosso <b>Blog</b>
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-4 text-center">
-                                    <a href="/loja/" class="call-to-action neumorphism white highlight">
-                                        <img src="/assets/img/shop-icon.png" height="30px" width="32px" class="jello-horizontal"> Conheça nossa <b>Loja</b>
-                                    </a>
-                                </div>
-    
-                                <div class="col-xs-12 col-sm-4 text-center">
-                                    <a href="/ebooks/desenvolvimento-web-com-python-e-django/" class="call-to-action neumorphism white">
-                                        <img class="emoji" title=":notebook_with_decorative_cover:" alt=":notebook_with_decorative_cover:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d4.png" height="20" width="20"> <b>Ebook</b> sobre Django
-                                    </a>
-                                </div>                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="blue-yellow-separator"></section>
-
-        <section class="features-section">
-            <div class="container-fluid text-center">                
-                <h2 class="section-header">
-                    <img src="/assets/img/python-logo-64.png" alt="Python" loading="lazy" width="40px" height="40px">
-                    Porquê aprender Python
-                </h2>
-
-                <div class="row mb-32">
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="feature">                            
-                            <object id="learning" type="image/svg+xml" data="/assets/svg/learning.svg" width="100%"></object>
-
-                            <h2>Fácil de aprender</h2>
-
-                            <p>
-                                Uma das maiores vantagens do Python é a forma <b>intuitiva</b> e <b>fácil</b> com que você 
-                                consegue aprender a utilizá-la! Como sua sintaxe é <b>extremamente simples</b>, basta algumas 
-                                noções de pseudocódigo para começar a se maravilhar com essa linguagem!
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="feature">
-                            <object id="multiplatform" type="image/svg+xml" data="/assets/svg/multiplatform.svg" width="100%"></object>
-
-                            <h2>Multiplataforma</h2>
-
-                            <p>
-                                Por ser uma linguagem <b>interpretada</b> — e não compilada para uma linguagem de máquina —, 
-                                Python roda em diferentes plataformas. Além disso, a linguagem é <b>multiparadigma</b>, 
-                                ou seja, passível de desenvolvimento para qualquer tipo de ambiente e interface, 
-                                como web, móvel ou desktop. 
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="feature">
-                            <object id="market" type="image/svg+xml" data="/assets/svg/worker.svg" width="100%"></object>
-
-                            <h2>Mercado de trabalho</h2>
-
-                            <p>
-                                Uma <a href="https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2017">pesquisa </a> 
-                                mostra Python em <b>primeiro lugar</b> entre as linguagens mais adotadas — à frente das consolidadas Java e C++. 
-                                Também demonstra que simplicidade não é sinônimo de limitação: Python é um instrumento 
-                                <b>poderoso</b> de desenvolvimento de aplicações, aliando <b>intuitividade e eficiência</b>.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xs-12 text-center">
-                        <a href="/blog/porque-aprender-python-5-motivos-para-aprender-agora" class="why-learn-python call-to-action neumorphism white on-white" target="_blank">
-                            Quer mais motivos para aprender Python? Então clique aqui!
-                        </a>  
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="blue-yellow-separator"></section>
-
-        <!-- Blog -->
-        <section id="blog">
-            <div class="container">
-                <a href="https://go.hotmart.com/A55372730Q" target="_blank">
-    <img class="python-course-banner hidden-xs img-responsive" src="/assets/img/banner-curso-python.png" alt="Curso de Python" loading="lazy" height="170px" width="100%">
-    <img class="python-course-banner visible-xs img-responsive" src="/assets/img/banner-curso-python-mobile.png" alt="Curso de Python" loading="lazy" height="227px" width="100%">
+		<a href="#" class="sticky-newsletter hidden-xs" data-toggle="modal" data-target="#email-modal">
+    <div class="rotate-text">
+        <span>Receba todas as novidades!</span>
+    </div>
 </a>
 
-                <h2 class="section-header">Comece lendo nossos <b>artigos</b>...</h2>
-    
-                <div class="row mb-32">
-                    
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <a class="card index-card" href="https://pythonacademy.com.br/blog/input-entrada-e-saida-de-dados-no-python">
-                            
-                            <div class="card-frame">
-                                <img id="featured-icon-0" class="featured-icon" src="/assets/posts/input-output/featured_image.png" width="100%" height="100%" loading="lazy" alt="Função input no Python: Entrada e Saída de dados" title="Função input no Python: Entrada e Saída de dados">
-                            </div>
-                            
-                            <div class="caption">
-                                <h3 class="card-title">
-                                    Entrada e Saída de Dados no Python                                        
-                                </h3>
-    
-                                <div class="card-excerpt">
-                                    <p>Nesse post vamos falar sobre entrada de dados, saída de dados, a função input do Python, a função print e MUITO MAIS!</p>
-                                </div>
-                            </div>                            
-                        </a>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <a class="card index-card" href="https://pythonacademy.com.br/blog/a-funcao-range-do-python">
-                            
-                            <div class="card-frame">
-                                <img id="featured-icon-1" class="featured-icon" src="/assets/posts/range/featured_image.png" width="100%" height="100%" loading="lazy" alt="A função range do Python" title="A função range do Python">
-                            </div>
-                            
-                            <div class="caption">
-                                <h3 class="card-title">
-                                    Loops com range no Python                                        
-                                </h3>
-    
-                                <div class="card-excerpt">
-                                    <p>Vamos tratar de um assunto muito importante nesse post: como construir loops utilizando a função range do Python!</p>
-                                </div>
-                            </div>                            
-                        </a>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <a class="card index-card" href="https://pythonacademy.com.br/blog/estruturas-de-repeticao">
-                            
-                            <div class="card-frame">
-                                <img id="featured-icon-2" class="featured-icon" src="/assets/posts/loops/featured_image.png" width="100%" height="100%" loading="lazy" alt="For, While, Loops e Estruturas de Repetição no Python" title="For, While, Loops e Estruturas de Repetição no Python">
-                            </div>
-                            
-                            <div class="caption">
-                                <h3 class="card-title">
-                                    Loops e Estruturas de Repetição no Python                                        
-                                </h3>
-    
-                                <div class="card-excerpt">
-                                    <p>Nesse post vamos falar sobre as famosas Estruturas de Repetição (ou loops) do Python: for, while, for com else, for com range, enumerate e muito mais!</p>
-                                </div>
-                            </div>                            
-                        </a>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <a class="card index-card" href="https://pythonacademy.com.br/blog/set-comprehensions-no-python">
-                            
-                            <div class="card-frame">
-                                <img id="featured-icon-3" class="featured-icon" src="/assets/posts/set-comprehensions/featured_image.png" width="100%" height="100%" loading="lazy" alt="Domine Set Comprehensions no Python" title="Domine Set Comprehensions no Python">
-                            </div>
-                            
-                            <div class="caption">
-                                <h3 class="card-title">
-                                    Set Comprehensions no Python                                        
-                                </h3>
-    
-                                <div class="card-excerpt">
-                                    <p>Domine Sets Comprehensions (ou Compreensão de Sets) com esse post completo sobre o assunto! Set Comprehensions possibilita criar e manipular sets de uma maneira concisa e eficiente!</p>
-                                </div>
-                            </div>                            
-                        </a>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <a class="card index-card" href="https://pythonacademy.com.br/blog/sets-no-python">
-                            
-                            <div class="card-frame">
-                                <img id="featured-icon-4" class="featured-icon" src="/assets/posts/sets/featured_image.png" width="100%" height="100%" loading="lazy" alt="Domine Sets no Python" title="Domine Sets no Python">
-                            </div>
-                            
-                            <div class="caption">
-                                <h3 class="card-title">
-                                    Sets no Python                                        
-                                </h3>
-    
-                                <div class="card-excerpt">
-                                    <p>Domine Sets (ou Conjuntos) com esse post completo sobre o assunto! Sets são um tipo de dados muito utilizado no dia a dia da programação Python e que todo programador precisa dominar!</p>
-                                </div>
-                            </div>                            
-                        </a>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <a class="card index-card" href="https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python">
-                            
-                            <div class="card-frame">
-                                <img id="featured-icon-5" class="featured-icon" src="/assets/posts/dicts/featured_img.png" width="100%" height="100%" loading="lazy" alt="Dicionários (Dicts) no Python" title="Dicionários (Dicts) no Python">
-                            </div>
-                            
-                            <div class="caption">
-                                <h3 class="card-title">
-                                    Dicionários no Python                                        
-                                </h3>
-    
-                                <div class="card-excerpt">
-                                    <p>Dicionário no Python é um tipo de dado muito eficiente e muito poderoso. Dominá-lo é essencial para o verdadeiro Pythonista!</p>
-                                </div>
-                            </div>                            
-                        </a>
-                    </div>
-                    
+<!-- Include email modal form with text, input and submit button to acquire emails to our list -->
+<!-- Parameters: email-modal = modal id  -->
+
+<div class="modal fade email-modal" id="email-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">                                    
+            <div class="modal-body text-center">
+                <a href="#" data-dismiss="modal" aria-label="Close" class="pull-right close-icon">X</a>
+                <h3 class="modal-title">Seja o primeiro a receber o melhor conteúdo!</h3>
+                <div class="modal-label">
+                    <p class="email-label">Cadastre o seu melhor email para <strong>receber gratuitamente <br></strong><strong>conteúdos exclusivos</strong> e muito mais!</p>
                 </div>
 
-                <div class="text-center">
-                    <a href="/blog/" class="call-to-action neumorphism gray">
-                        Mais artigos!
-                    </a>
-                </div>
-            </div>            
-        </section> 
+                <div class="mailchimp-input">
+                    <!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: QUERO RECEBER = button label  -->
 
-        <section class="django-green-separator"></section>
-
-        <!-- EBOOKS -->
-        <section id="ebooks">
-            <div class="container">
-                <h2 class="section-header">Quer levar nosso conteúdo para <span class="django-light-green"><b>qualquer lugar</b></span>?</h2>
-                <div class="ebook">
-                    <div class="row">
-                        <div class="col-lg-5 col-md-5 col-xs-12 text-center">
-                            <img src="/assets/ebooks/desenvolvimento-web-com-python-e-django/capa-new.png" alt="Capa Ebook Desenvolvimento Web com Python e Django" class="ebook-cover" loading="lazy">
-                        </div>
-    
-                        <div class="col-lg-7 col-md-7 col-xs-12">
-                            <div class="ebook-data">
-                                <h3 class="ebook-title">Desenvolvimento Web com Python e Django</h3>
-                
-                                <ul class="ebook-description">
-                                    <li data-aos="fade-right" data-aos-duration="750" data-aos-delay="0">Veja como modelar sua aplicação</li>
-                                    <li data-aos="fade-right" data-aos-duration="750" data-aos-delay="150">Utilize a robusta API de Acesso a Dados do Django</li>
-                                    <li data-aos="fade-right" data-aos-duration="750" data-aos-delay="300">Aprenda sobre <i>Class Based Views</i>
-</li>
-                                    <li data-aos="fade-right" data-aos-duration="750" data-aos-delay="450">Construa <i>Middlewares</i> próprios</li>
-                                    <li data-aos="fade-right" data-aos-duration="750" data-aos-delay="600">Desenvolva filtros e <i>tags</i> customizados para criar lindos <i>templates</i>
-</li>
-                                </ul>
-
-                                <div class="link-to-download">                                    
-                                    <a href="/ebooks/desenvolvimento-web-com-python-e-django/" class="call-to-action neumorphism black">Baixe já!</a>
-                                </div>    
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate>
+    <div id="mc_embed_signup_scroll" class="mailchimp-signup container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-3">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required>
             </div>
-        </section>
-
-        <section class="blue-yellow-separator"></section>
-
-        <!-- Sliders -->
-        <section id="sliders">
-            <div class="container">
-                <h2 class="section-header text-center" data-aos="fade-in">Ou aprenda na prática com nossos <b>sliders</b>...</h2>
-    
-                <div class="container">
-                    <div class="row mb-32">
-                        
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="card-wrapper">
-                                    <div class="background-card first"></div>
-        
-                                    <div class="background-card second"></div>
-        
-                                    <a href="https://pythonacademy.com.br/sliders/como-instalar-o-kivy" class="card with-background">                                
-                                        <div class="card-frame">
-                                            <object id="featured-slider-icon-0" class="featured-icon" type="image/svg+xml" data="/assets/sliders/kivy-installation/featured_icon.svg" height="225px"></object>
-                                        </div>
-        
-                                        <div class="caption">
-                                            <h3 class="card-title">                                        
-                                                Guia de instalação do framework de interfaces gráficas Kivy (Python)                                        
-                                            </h3>
-                
-                                            <div class="card-footer">                                        
-                                                <p>Publicado em <b>14/07/2021</b></p>
-                                            </div>
-                                        </div> 
-                                    </a>
-                                </div>  
-                            </div>
-                        
-                    </div>
-    
-                    <div class="text-center">                        
-                        <a href="/sliders/" class="call-to-action neumorphism light-blue">
-                            Mais sliders!
-                        </a>
-                    </div>
-                </div>
-            </div>            
-        </section>         
-
-        <section id="zen-of-python-section">
-            <div class="container text-center">
-                <h2>
-                    <a href="/zen-of-python">
-                        Clique aqui e conheça o <i><b><u>"Zen of Python"</u></b></i><span class="text-small">   (Zen do Python)</span>
-                    </a>
-                </h2>
+            
+            <div class="col-xs-5">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required>                
             </div>
-        </section>
 
-        
+            <div class="col-xs-4">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <span><img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> QUERO RECEBER</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>            
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+                </div>                
+
+                <p class="pos-input text-center" style="font-size: 70%; margin-top: 10px; margin-bottom: 10px;">Não se preocupe, respeitamos sua privacidade. Você pode se descadastrar a qualquer momento.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+		<div class="main-container">
+			<section class="post-banner">	
+				<div class="post-banner-wrapper">
+					<div class="post-banner-content" style="background: #b2bec3 url('/assets/svg/stars-bground.svg');">
+						<div class="container">	
+							<div class="wrapper">
+								<div class="featured-icon-wrapper">
+									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/input-output/featured_img.svg" width="90%">
+									</object>															
+								</div>
+							</div>													
+			
+							
+							<h1 class="blog-post-title font-shadow">
+								Entrada e Saída de Dados no Python
+							</h1>			
+						</div>			
+					</div>
+				</div>
+			</section>							
+
+			<div class="container post-container">
+				<div class="blog-post-content">
+					<a href="https://go.hotmart.com/A55372730Q" target="_blank">
+    <img class="python-course-banner hidden-xs img-responsive lazyload" alt="Curso de Python" loading="lazy" height="170px" width="100%" data-src="/assets/img/banner-curso-python.png">
+    <img class="python-course-banner visible-xs img-responsive lazyload" alt="Curso de Python" loading="lazy" height="227px" width="100%" data-src="/assets/img/banner-curso-python-mobile.png">
+</a>
+
+					
+<p>Olá <strong>Pythonista</strong>!</p>
+
+<p>Nesse post vamos falar sobre entrada de dados, saída de dados, a função <code class="highlighter-rouge">input()</code> do Python, a função <code class="highlighter-rouge">print()</code> e <strong>MUITO MAIS</strong>!</p>
+
+<p>Com essa funções, podemos tornar um simples script Python muito mais dinâmico e poderoso, ao possibilitar a interação com o usuário.</p>
+
+<p>Veremos como utilizar a função <code class="highlighter-rouge">input</code> para adquirir dados de entrada passados pelo usuário, assim como mostrar informações aos usuários com a função <code class="highlighter-rouge">print</code>.</p>
+
+<p>Então, vamos <strong>nessa</strong>!</p>
+
+<h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#entrada-de-dados-com-a-fun%C3%A7%C3%A3o-input" id="markdown-toc-entrada-de-dados-com-a-função-input">Entrada de dados com a Função <code class="highlighter-rouge">input</code></a></li>
+  <li><a href="#sa%C3%ADda-de-dados-com-a-fun%C3%A7%C3%A3o-print" id="markdown-toc-saída-de-dados-com-a-função-print">Saída de dados com a Função <code class="highlighter-rouge">print</code></a></li>
+  <li><a href="#juntando-entrada-e-sa%C3%ADda-com-input-e-print" id="markdown-toc-juntando-entrada-e-saída-com-input-e-print">Juntando entrada e saída com <code class="highlighter-rouge">input</code> e <code class="highlighter-rouge">print</code></a></li>
+  <li><a href="#utilizando-print-para-gravar-dados-em-arquivos" id="markdown-toc-utilizando-print-para-gravar-dados-em-arquivos">Utilizando <code class="highlighter-rouge">print</code> para gravar dados em arquivos</a></li>
+</ul>
+
+<h2 id="entrada-de-dados-com-a-função-input">Entrada de dados com a Função <code class="highlighter-rouge">input</code>
+</h2>
+
+<p>Vamos começar falando sobre <strong>entrada do usuário</strong>.</p>
+
+<p>Esse é um artifício muito comum em programação, quando precisamos que o usuário passe ao programa algum tipo de dado.</p>
+
+<p>Em Python, fazemos isso utilizando a função <code class="highlighter-rouge">input()</code>, que é literalmente ‘entrada’ em inglês.</p>
+
+<p>A função <code class="highlighter-rouge">input()</code> recebe como parâmetro uma string que será mostrada como auxílio ao usuário, geralmente o informando que tipo de dado o programa está aguardando receber.</p>
+
+<p>Vejo um exemplo:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="nb">input</span><span class="p">(</span><span class="s">"Escreva seu nome: "</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Quando fazemos isso, o terminal ou prompt de comando irá:</p>
+<ul>
+  <li>Mostrar o texto <code class="highlighter-rouge">"Escreva seu nome: "</code> na tela; e</li>
+  <li>Aguardar até que o usuário digite alguma informação.</li>
+</ul>
+
+<p>Após a entrada de dados pelo usuário, o programa irá continuar sua execução, passando para as instruções seguintes.</p>
+
+<p>No terminal, aparecerá algo mais ou menos assim:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>&gt;&gt;&gt; Escreva seu nome: Lucas
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="saída-de-dados-com-a-função-print">Saída de dados com a Função <code class="highlighter-rouge">print</code>
+</h2>
+
+<p>A função para imprimir dados em Python é a função <code class="highlighter-rouge">print()</code>.</p>
+
+<p>Ela é responsável por mostrar valores em seu terminal:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="k">print</span><span class="p">(</span><span class="s">'Olá Mundo'</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Imprime a string no terminal:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>Olá Mundo
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h3 id="o-parâmetro-sep-da-função-print">O parâmetro <code class="highlighter-rouge">sep=</code> da função <code class="highlighter-rouge">print</code>
+</h3>
+
+<p>Por padrão, quando utilizamos virgula para separar os itens, a função <code class="highlighter-rouge">print</code> utiliza espaços para separar cada saída.</p>
+
+<p>Porém, podemos utilizar o parâmetro <code class="highlighter-rouge">sep=</code> para definir um caractere de separação.</p>
+
+<p>Entenda no exemplo a seguir:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre><span class="k">print</span><span class="p">(</span><span class="s">'Dia'</span><span class="p">,</span> <span class="s">'Mês'</span><span class="p">,</span> <span class="s">'Ano'</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">'/'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'ontem'</span><span class="p">,</span> <span class="s">'Hoje'</span><span class="p">,</span> <span class="s">'Amanhã'</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">'-'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"B"</span><span class="p">,</span> <span class="s">"n"</span><span class="p">,</span> <span class="s">"n"</span><span class="p">,</span> <span class="s">"."</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">'a'</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Observe a saída com os caracteres definidos:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>Dia/Mês/Ano
+ontem-Hoje-Amanhã
+Banana.
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Perceba que a função <code class="highlighter-rouge">print</code> incluiu o caracter indicado em <code class="highlighter-rouge">sep=</code> como separador dos dados a serem mostrados ao usuário!</p>
+
+<h3 id="o-parâmetro-end-da-função-print">O parâmetro <code class="highlighter-rouge">end=</code> da função <code class="highlighter-rouge">print</code>
+</h3>
+
+<p>Por padrão, a função <code class="highlighter-rouge">print</code> utiliza a quebra de linha (<code class="highlighter-rouge">\n</code>) como último caracter.</p>
+
+<p>O parâmetro <code class="highlighter-rouge">end=</code> é responsável por alterar esse comportamento, possibilitando ao desenvolvedor trocar qual caracter será adicionado ao final do dado impresso no terminal.</p>
+
+<p>Vamos entender melhor no exemplo a seguir:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td>
+<td class="code"><pre><span class="c1"># Exemplo com fim de linha sem nenhum caracter
+</span><span class="k">print</span><span class="p">(</span><span class="s">'Vamos estudar Na '</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s">''</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Python Academy'</span><span class="p">)</span>
+
+<span class="c1"># Exemplo com fim de linha igual à -&gt;
+</span><span class="k">print</span><span class="p">(</span><span class="s">'As rosas são'</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s">' -&gt; '</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Vermelhas'</span><span class="p">)</span>
+
+<span class="c1"># Exemplo com fim de linha igual à :
+</span><span class="k">print</span><span class="p">(</span><span class="s">"Quantidade"</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s">': '</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="mi">40</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Dessa forma, a saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>Vamos estudar Na Python Academy
+As rosas são -&gt; Vermelhas
+Quantidade: 40
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<hr>
+
+<p><img class="emoji" title=":nerd_face:" alt=":nerd_face:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f913.png" height="20" width="20"> <strong>Quer fazer um curso COMPLETO de Python, do Básico ao Avançado, com Acesso Vitalício, Suporte individual e personalizado, com CERTIFICADO PROFISSIONAL e com 7 DIAS DE GARANTIA?</strong></p>
+
+<p><img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> <em><strong>Então <a href="https://go.hotmart.com/A55372730Q" target="_blank">clique aqui e confira nosso curso parceiro da Python Academy!</a></strong></em></p>
+
+<hr>
+
+<h2 id="juntando-entrada-e-saída-com-input-e-print">Juntando entrada e saída com <code class="highlighter-rouge">input</code> e <code class="highlighter-rouge">print</code>
+</h2>
+
+<p>Agora que conhecemos as duas funções, podemos juntá-las para fazer programas mais completos.</p>
+
+<p>Vamos armazenar o nome do usuário utilizando <code class="highlighter-rouge">input</code> e mostrar o dado para ele com <code class="highlighter-rouge">print</code>.</p>
+
+<p>Podemos juntar e imprimir vários itens em <code class="highlighter-rouge">print()</code>, basta separá-los por virgula, como no exemplo abaixo:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre><span class="n">nome</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Escreva seu nome: "</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">'Seu nome é:'</span><span class="p">,</span> <span class="n">nome</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Perceba que a função <code class="highlighter-rouge">input</code> retorna para nós aquilo que o usuário digitou. Portanto, nesse caso, o que o usuário digitar será passado à variável <code class="highlighter-rouge">nome</code>!</p>
+
+<p>Observe a saída:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>Escreva seu nome: Erick
+Seu nome é: Erick
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="utilizando-print-para-gravar-dados-em-arquivos">Utilizando <code class="highlighter-rouge">print</code> para gravar dados em arquivos</h2>
+
+<p>A função <code class="highlighter-rouge">print()</code> também funciona para gravar dados em arquivos.</p>
+
+<p>Para isso, utilizamos o parâmetro <code class="highlighter-rouge">file=</code> da função print.</p>
+
+<p>Também precisamos de um arquivo aberto, o que é feito utilizando-se a função <code class="highlighter-rouge">open</code>.</p>
+
+<p>Veja o exemplo abaixo:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'arquivo.txt'</span><span class="p">,</span> <span class="s">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">arquivo</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Escreva isso dentro do arquivo,"</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">arquivo</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Escreva outra linha dentro do arquivo."</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">arquivo</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Se abrirmos o <code class="highlighter-rouge">arquivo.txt</code>, veremos o seguinte conteúdo:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>Escreva isso dentro do arquivo,
+Escreva outra linha dentro do arquivo.
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em><strong>Ficou confuso em como manipular arquivos em Python? Então deixa eu te contar um segredo: o post já está em processo de edição e sairá EM BREVE! Quer ser avisado em primeira mão? Então já aproveita aqui embaixo e cadastra o seu melhor email!</strong></em></p>
+
+<div class="email-signup" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="signup-body">
+				<span class="greeting">Olá <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"> Está gostando do artigo?</span>
+				<span class="signup-text">Então cadastre o seu email para <span class="underline">receber gratuitamente</span> mais conteúdos como este!</span>
+		        <!-- Include MailChimp email form with input and submit button -->
+<!-- Parameters: Quero! = button label  -->
+
+<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate="">
+    <div id="mc_embed_signup_scroll" class="mailchimp-signup container-fluid">        
+        <div class="row no-gutters">
+            <div class="col-xs-3">
+                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="">
+            </div>
+            
+            <div class="col-xs-5">                
+                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="">                
+            </div>
+
+            <div class="col-xs-4">
+                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
+                    <span><img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> Quero!</span>
+                </button>        
+            </div>
+        </div>
+    </div>	
+
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>            
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
+</form>
+		    </div>
+		</div>
+	</div>      
+</div>
+
+<h2 class="no_toc" id="conclusão">Conclusão</h2>
+
+<p>Vimos nesse post como utilizar as funções <code class="highlighter-rouge">input</code> e <code class="highlighter-rouge">print</code> e como utilizá-las para pegar dados <strong>do</strong> usuários e mostrar dados <strong>para</strong> o usuário.</p>
+
+<p>Esse é um conhecimento básico que todo programador Python, os chamados <strong>Pythonistas</strong>, devem saber!</p>
+
+<p>Se ficou com alguma dúvida, fique à vontade para deixar um comentário no box aqui embaixo! Será um prazer te responder! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+
+<p>Se gostou desse conteúdo, que tal fazer um <strong>CURSO COMPLETO</strong> de Python com Certificado Profissional, suporte individual e personalizado e 7 dias de garantia? <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></p>
+
+<p><a href="https://go.hotmart.com/A55372730Q" target="_blank">
+    <img data-aos="zoom-out" class="python-course-post-banner hidden-xs img-responsive lazyload" height="170px" width="100%" alt="Curso de Python" loading="lazy" data-src="/assets/img/banner-curso-python.png">
+    <img data-aos="zoom-out" class="python-course-post-banner visible-xs img-responsive lazyload" alt="Curso de Python" loading="lazy" height="227px" width="100%" data-src="/assets/img/banner-curso-python-mobile.png">
+</a></p>
+
+
+
+					<div class="blue-yellow-separator no-repeat"></div>
+
+					<div class="blog-post-footer">
+						
+						<div class="blog-post-colophon">
+							<div class="row">
+								<div class="col-xs-12 col-sm-3 text-center">									
+									<img width="152px" height="152px" alt="Autor" class="profile-img lazyload" data-src="/assets/authors/erickson-lopes/avatar.png">
+								</div>
+
+								<div class="col-xs-12 col-sm-9">
+									<div class="blog-post-meta">
+										<h2>
+											<span class="blog-post-by">
+												Por Erickson Lopes
+											</span>
+
+											<b>em <time datetime="2021-07-13" pubdate>13/07/2021</time></b>
+										</h2>
+	
+										<p class="short-description">"<i>O infinito é o limite</i>"</p>
+
+										<p class="author-media-label">Minhas redes:</p>
+										
+										<ul>
+											
+											<li><a href="https://www.linkedin.com/in/ericksonlopes" target="_blank"><i class="fa fa-linkedin-square" style="color: #0072b1;" aria-hidden="true"></i></a></li>
+																						
+											
+											<li><a href="mailto:ofc.ericksonlds@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+																						
+											
+											<li><a href="https://github.com/Erickson-lopes-dev" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+											
+											
+											
+										</ul>
+									</div>
+								</div>
+							</div>				
+						</div>
+					</div>
+				</div>				
+			</div>									
+		</div>	
+
+		<!-- READ MORE -->	
+		<div class="more-posts">
+			<section class="container">
+				<div class="section-header">
+		            <h2 class="black">Continue aprendendo!</h2>
+		        </div>
+
+				<div class="row">
+					<div id="random_posts"></div>
+				</div>	
+
+				<div class="text-center">
+	                <a href="/blog/index.html" class="button ripple-out-animation">
+	                    ←  Retornar ao Blog
+	                </a>
+	            </div>		
+			</section>		
+		</div>
+
+						
+			
+<div id="comment-box" class="center-block">
+    <div class="container">
+        <div class="disqus-comment-box">
+            <div id="disqus_thread"></div>
+        </div>        
+    </div>
+</div>
+
+		
+
+		<!-- Affix -->		
+		<div class="social-media-affix">
+			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
+			<ul>				
+				<li>
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/input-entrada-e-saida-de-dados-no-python','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+						<i class="fa fa-fw fa-facebook"></i>
+					</a>
+				</li>				
+				
+				<li>							
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/input-entrada-e-saida-de-dados-no-python&amp;related=PythonAcademyBR&amp;text=%22Fun%C3%A7%C3%A3o%20input%20no%20Python:%20Entrada%20e%20Sa%C3%ADda%20de%20dados%22%20por%20Erickson%20Lopes','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+						<i class="fa fa-fw fa-twitter"></i>
+					</a>
+				</li>
+
+				<li>
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/input-entrada-e-saida-de-dados-no-python" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/input-entrada-e-saida-de-dados-no-python" data-action="share/whatsapp/share">
+						<i class="fa fa-fw fa-whatsapp"></i>
+					</a>
+				</li>
+
+				<li>
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Fun%C3%A7%C3%A3o%20input%20no%20Python:%20Entrada%20e%20Sa%C3%ADda%20de%20dados&amp;body=https://pythonacademy.com.br/blog/input-entrada-e-saida-de-dados-no-python&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+						<i class="fa fa-fw fa-envelope"></i>
+					</a>
+				</li>
+
+				
+			</ul>
+		</div>		
+
+		
 
 
 <section id="footer-signup">
@@ -549,7 +706,7 @@
 						<li><a href="/blog/"><span class="hidden-xs"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"></span> Blog</a></li>
 						<li><a href="/sliders/"><span class="hidden-xs"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"></span> Sliders</a></li>
 						<li><a href="/sobre"><span class="hidden-xs"><img class="emoji" title=":memo:" alt=":memo:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"></span> Sobre</a></li>
-						<li><a href="/loja/"><img src="/assets/img/shop-icon.png" width="18px" height="16px" alt="Loja" loading="lazy"> Loja</a></li>
+						<li><a href="/loja/"><img width="18px" height="16px" alt="Loja" loading="lazy" data-src="/assets/img/shop-icon.png" class="lazyload"> Loja</a></li>
 					</ul>
 				</div>
 			</div>
@@ -590,7 +747,7 @@
 		<div class="row">
 			<div class="col-sm-12 hidden-xs text-center">
 				<div class="footer-wrapper">
-					<img src="/assets/img/logo.png" alt="Aprenda Computação de Verdade!" class="footer-logo" loading="lazy" width="150px" height="50px">
+					<img alt="Aprenda Computação de Verdade!" class="footer-logo lazyload" loading="lazy" width="150px" height="50px" data-src="/assets/img/logo.png">
 	
 					<p class="footer-label mt-16">
 						Existimos para levar o conhecimento de Python a todos de forma simples e inovadora!
@@ -599,19 +756,19 @@
 					<ul class="social-medias">
 						<li>
 							<a href="https://www.instagram.com/pythonacademybr/" target="_blank">
-								<img src="/assets/img/instagram.png" alt="Facebook" data-aos="fade-in" data-aos-delay="0" data-aos-duration="500" loading="lazy">
+								<img alt="Facebook" data-aos="fade-in" data-aos-delay="0" data-aos-duration="500" loading="lazy" data-src="/assets/img/instagram.png" class="lazyload">
 							</a>
 						</li>
 
 						<li>
 							<a href="https://www.facebook.com/pythonacademy" target="_blank">
-								<img src="/assets/img/facebook.png" alt="Facebook" data-aos="fade-in" data-aos-delay="150" data-aos-duration="500" loading="lazy">
+								<img alt="Facebook" data-aos="fade-in" data-aos-delay="150" data-aos-duration="500" loading="lazy" data-src="/assets/img/facebook.png" class="lazyload">
 							</a>
 						</li>												
 						
 						<li>
 							<a href="https://www.linkedin.com/company/pythonacademy/" target="_blank">
-								<img src="/assets/img/linkedin.png" alt="Medium" data-aos="fade-in" data-aos-delay="300" data-aos-duration="500" loading="lazy">
+								<img alt="Medium" data-aos="fade-in" data-aos-delay="300" data-aos-duration="500" loading="lazy" data-src="/assets/img/linkedin.png" class="lazyload">
 							</a>
 						</li>						
 					</ul>
@@ -624,7 +781,7 @@
 <section id="footer-copyright">
 	<div class="text-center">
 		<p>
-			© <b>2021</b> Python Academy <img src="/assets/img/cross.png" alt="Conheça Jesus Cristo!" height="24px" class="ml-16 mr-16 hidden-xs" loading="lazy"> <br class="visible-xs">
+			© <b>2021</b> Python Academy <img alt="Conheça Jesus Cristo!" height="24px" class="ml-16 mr-16 hidden-xs lazyload" loading="lazy" data-src="/assets/img/cross.png"> <br class="visible-xs">
 			<i>"Porque o Senhor dá a <b>sabedoria</b>, e da sua boca vem a <b>inteligência</b> e o <b>entendimento</b>" Pv 2:6</i>
 		</p>
 	</div>
@@ -649,47 +806,128 @@
         fbq('track', 'PageView');
     }, 3500);
 </script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=315628773120375&amp;ev=PageView&amp;noscript=1"></noscript>
+<noscript><img height="1" width="1" style="display:none" data-src="https://www.facebook.com/tr?id=315628773120375&amp;ev=PageView&amp;noscript=1" class="lazyload"></noscript>
 <!-- End Facebook Pixel Code -->
 <script src="/assets/js/min/script.min.js"></script>
 
 
-    
-        <!-- Javascript -->     
-        <script type="text/javascript">        
-            new Vivus('index-banner-icon', {
-                duration: 75,
-                type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-            });
-            
-            new Vivus('learning', {
-                duration: 80,
-                type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-            });
-            
-            new Vivus('multiplatform', {
-                duration: 80,
-                type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-            });            
 
-            new Vivus('market', {
-                duration: 80,
-                type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
-            });            
+		<!-- Cookie.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
+		
+		<!-- Javascript -->		
+		<script type="text/javascript">			
+			(function($) {
+				AOS.init({
+					easing: 'ease-out-back',
+					duration: 1500
+				});
 
-            
-                new Vivus('featured-slider-icon-0', {
+				generateRandomPosts();
+			})(jQuery);
+			
+			
+				new Vivus('featured-icon', {
 					duration: 80,
 					type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
 				});
-            
-        
-            (function($) {                           
-                AOS.init({
-                    easing: 'ease-out',
-                    duration: 650
-                });
-            })(jQuery);
-        </script>
-    </body>
+						
+
+			$('.social-media-affix').affix({
+				offset: {
+					top: $(".post-banner").height()
+				}
+			});
+
+			// Generate random posts
+			function generateRandomPosts() {
+				var counter = 0;	            
+
+				$.getJSON("/blog/posts.json", function(data) {
+					var postsCount = data.length;					
+					var posts = data;
+
+					var randomIndexUsed = [];	
+					var numberOfPosts = 4;
+
+					var divRandomPosts = $("#random_posts");		            
+
+					while (counter < numberOfPosts) {
+						var randomIndex = Math.floor(Math.random() * postsCount);
+						
+						if (randomIndexUsed.indexOf(randomIndex) == "-1") {
+
+							var post = posts[randomIndex];
+
+							// Verify if related post is the same as the shown
+							if (post.title != "Função input no Python: Entrada e Saída de dados") {
+								var postHTML = 
+									"<div class='col-lg-3 col-md-6 col-sm-6 col-xs-12'>" +
+										"<a href='" + post.href + "' class='card recommended-post-card'>" +
+											"<div class='card-frame'>" +
+												"<img loading='lazy' class='recommended-post-image' src='/assets/posts/" + post.assets + "/" + post.featured_image + "'/>" +
+											"</div>" + 
+											
+											"<div class='caption'>" +
+												"<h3 class='card-title'>" +
+													post.h1 +
+												"</h3>" +
+											"</div>" +
+										"</div>" +
+									"</div>"
+
+								divRandomPosts.append(postHTML);
+								randomIndexUsed.push(randomIndex);
+								
+								counter++;
+							}
+						}
+					}
+				});								
+			}
+			
+			// Show signup modal on mouse leave event
+			$( document ).ready(function() {
+				$("body").bind("mouseleave",function(){
+					if(!Cookies.get('pa_popup')) {
+	
+						// Same as included sticky-newsletter id
+						$('#email-modal').modal('show');
+
+						/* Set cookie so this does not repeat */
+						Cookies.set('pa_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/input-entrada-e-saida-de-dados-no-python' });
+					}
+				});		
+				
+				// Initialize SVG animation on each related posts
+				$("#random_posts").find('.card-frame object').each(function(index, element) {
+					new Vivus(element, {
+						duration: 80,
+						type: 'delayed' // [delayed, sync, oneByOne, script, scenario, scenario-sync]
+					});
+				})
+			});
+
+		</script>				
+
+		
+			<script type="text/javascript">
+				var options = {
+					scriptUrl: '//python-academy.disqus.com/embed.js',
+					laziness: 1,
+					throttle: 250,
+					disqusConfig: function() {
+						this.page.title       = 'Função input no Python: Entrada e Saída de dados';
+						this.page.url         = 'https://pythonacademy.com.br/blog/input-entrada-e-saida-de-dados-no-python';
+						this.page.identifier  = '/blog/input-entrada-e-saida-de-dados-no-python';
+					}
+				};
+
+				$.disqusLoader('.disqus-comment-box', options);
+			</script>
+		
+			<noscript>Por favor, habilite o Javascript para visualizar os <a href="https://disqus.com/?ref_noscript">comentários.</a>
+</noscript>
+		
+	</body>
 </html>

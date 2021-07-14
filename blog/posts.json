@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Entrada e Saída de Dados no Python",
+      "title": "Função input no Python: Entrada e Saída de dados",
+      "href": "/blog/input-entrada-e-saida-de-dados-no-python",
+      "slug": "input-entrada-e-saida-de-dados-no-python",
+      "assets": "input-output",
+      "author": "Erickson L",
+      "description": "<p>Nesse post vamos falar sobre entrada de dados, saída de dados, a função input do Python, a função print e MUITO MAIS!</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "13",
+         "month": "July",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Loops com range no Python",
       "title": "A função range do Python",
       "href": "/blog/a-funcao-range-do-python",
