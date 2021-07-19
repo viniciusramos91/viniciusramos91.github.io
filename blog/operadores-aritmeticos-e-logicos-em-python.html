@@ -21,7 +21,7 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
 
-		<title>Crie jogos com Kivy e Python</title>
+		<title>Operadores Aritméticos e Operadores Lógicos em Python</title>
 		<link rel="icon" type="image/png" href="/assets/img/favicon.png">		
 
 		<!-- Robots -->
@@ -44,7 +44,7 @@
 		</style>
 
 		<!-- Canonical URL -->
-		<link rel="canonical" href="https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy">	
+		<link rel="canonical" href="https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python">	
 
 		
 		
@@ -59,20 +59,20 @@
 
 				
 		<!-- General -->
-		<meta itemprop="description" name="description" content="Que tal criar um jogo em Python utilizando o framework Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do ZERO!">		
-		<meta name="title" content="Crie jogos com Kivy e Python">
-		<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/games-with-python-and-kivy/facebook.png">
+		<meta itemprop="description" name="description" content="Esse post trata sobre os Operadores Aritméticos (+, -, *, /, etc), Operadores de Comparação (==, &gt;=, &lt;=, etc), Operadores Lógicos (and, or e not) e muito mais!">		
+		<meta name="title" content="Operadores Aritméticos e Operadores Lógicos em Python">
+		<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/operators/facebook.png">
 
 		<!-- Open Graph -->
 		<meta property="fb:app_id" content="220280761884954">
 		<meta property="og:locale" content="pt_BR">
 		<meta property="og:site_name" content="Python Academy">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="Crie jogos com Kivy e Python">
-		<meta property="og:url" content="https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy">
-		<meta property="og:description" content="Que tal criar um jogo em Python utilizando o framework Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do ZERO!">
-		<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/posts/games-with-python-and-kivy/facebook.png">
-		<meta property="og:image:alt" content="Crie jogos com Kivy e Python">
+		<meta property="og:title" content="Operadores Aritméticos e Operadores Lógicos em Python">
+		<meta property="og:url" content="https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python">
+		<meta property="og:description" content="Esse post trata sobre os Operadores Aritméticos (+, -, *, /, etc), Operadores de Comparação (==, &gt;=, &lt;=, etc), Operadores Lógicos (and, or e not) e muito mais!">
+		<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/posts/operators/facebook.png">
+		<meta property="og:image:alt" content="Operadores Aritméticos e Operadores Lógicos em Python">
 		<meta property="og:image:type" content="image/png">
 		<meta property="og:image:width" content="1200">
 		<meta property="og:image:height" content="630">
@@ -80,9 +80,9 @@
 		<!-- Twitter cards -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-		<meta name="twitter:title" content="Crie jogos com Kivy e Python">
-		<meta name="twitter:description" content="Que tal criar um jogo em Python utilizando o framework Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do ZERO!">
-		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/games-with-python-and-kivy/twitter.png">
+		<meta name="twitter:title" content="Operadores Aritméticos e Operadores Lógicos em Python">
+		<meta name="twitter:description" content="Esse post trata sobre os Operadores Aritméticos (+, -, *, /, etc), Operadores de Comparação (==, &gt;=, &lt;=, etc), Operadores Lógicos (and, or e not) e muito mais!">
+		<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/operators/twitter.png">
 		
 		<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
 		
@@ -218,18 +218,18 @@
 		<div class="main-container">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
-					<div class="post-banner-content" style="background: #58B19F url('/assets/svg/stars-bground.svg');">
+					<div class="post-banner-content" style="background: #182C61 url('/assets/svg/stars-bground.svg');">
 						<div class="container">	
 							<div class="wrapper">
 								<div class="featured-icon-wrapper">
-									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/games-with-python-and-kivy/featured_icon.svg" width="90%">
+									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/operators/featured_img.svg" width="90%">
 									</object>															
 								</div>
 							</div>													
 			
 							
 							<h1 class="blog-post-title font-shadow">
-								Como Criar Jogos com Python e Kivy
+								Operadores Aritméticos e Lógicos em Python
 							</h1>			
 						</div>			
 					</div>
@@ -244,631 +244,92 @@
 </a>
 
 					
-<p>No <a href="https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy">post anterior</a>, nós discutimos as principais características do Kivy,
-uma ferramenta muito poderosa para o desenvolvimento de aplicações em Python.</p>
+<p>Salve, salve <strong>Pythonista</strong>!</p>
 
-<p>Agora que você já tem uma boa noção sobre as capacidades do Kivy, chegou a hora
-de colocar a mão na massa, ou melhor, no código, e usá-lo para fazer algo mais 
-complexo. Que tal um jogo? Acha uma boa ideia? <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+<p>Nesse post vamos falar de <strong>Operadores em Python</strong>: Operadores Lógicos, Operadores Aritméticos, Operadores de Associação, Operadores de Comparação, Operadores de Identidade e Operadores de Atribuição!</p>
 
-<p>Sem mais delongas, neste <em>post</em> nós iremos:</p>
+<p><em><strong>Wow, é muito Operador!</strong></em> <img class="emoji" title=":heart_eyes:" alt=":heart_eyes:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f60d.png" height="20" width="20"></p>
 
-<ul>
-  <li>Desenvolver uma aplicação gráfica baseada no jogo Pong.</li>
-  <li>Dividir a nossa aplicação em classes.</li>
-  <li>Aprender recursos fundamentais do Kivy (ex: gerenciamento de telas, inclusão
-de menus, inserção de áudio, e muito mais).</li>
-</ul>
+<p>Se você já programa em Python, já se deparou com esses operadores em algum momento: <code class="highlighter-rouge">is</code>, <code class="highlighter-rouge">is not</code>, <code class="highlighter-rouge">==</code>, <code class="highlighter-rouge">in</code>, <code class="highlighter-rouge">not in</code>, <code class="highlighter-rouge">and</code>, <code class="highlighter-rouge">or</code> ou <code class="highlighter-rouge">%=</code>.</p>
 
-<p><strong>#Partiu!</strong></p>
+<p>Nesse post, você vai dominar <strong>TODOS</strong> esses Operadores e aprender como utilizá-los em seus programas Python!</p>
 
-<h2 class="no_toc" id="vá-direto-ao-assunto">Vá direto ao assunto…</h2>
+<p>Está pronto, então vamos aprender sobre <strong>Operadores</strong>!</p>
+
+<h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
 
 <ul id="markdown-toc">
-  <li><a href="#pong-reborn" id="markdown-toc-pong-reborn">Pong Reborn!</a></li>
-  <li><a href="#conclus%C3%A3o" id="markdown-toc-conclusão">Conclusão</a></li>
+  <li><a href="#operadores-em-python" id="markdown-toc-operadores-em-python">Operadores em Python</a></li>
+  <li><a href="#operadores-aritm%C3%A9ticos" id="markdown-toc-operadores-aritméticos">Operadores Aritméticos</a></li>
+  <li><a href="#operadores-de-compara%C3%A7%C3%A3o" id="markdown-toc-operadores-de-comparação">Operadores de Comparação</a></li>
+  <li><a href="#operadores-de-atribui%C3%A7%C3%A3o" id="markdown-toc-operadores-de-atribuição">Operadores de Atribuição</a></li>
+  <li><a href="#operadores-l%C3%B3gicos" id="markdown-toc-operadores-lógicos">Operadores Lógicos</a></li>
+  <li><a href="#operadores-de-identidade" id="markdown-toc-operadores-de-identidade">Operadores de Identidade</a></li>
+  <li><a href="#operadores-de-associa%C3%A7%C3%A3o" id="markdown-toc-operadores-de-associação">Operadores de Associação</a></li>
 </ul>
 
-<h2 id="pong-reborn">Pong Reborn!</h2>
-
-<p>Nós já aprendemos no <a href="https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy"><em>post</em> anterior</a> a estruturar nossas aplicações com o
-Kivy, então vamos direto para o desenvolvimento de uma aplicação real: o famoso
-jogo Pong!</p>
-
-<p><img alt="Imagem Pong Game" class="img-responsive lazyload" data-src="/assets/posts/games-with-python-and-kivy/pong.jpg"></p>
-
-<p>É claro que nossa versão do Pong! não poderia ser tão simples como o jogo acima…  Demos
-uma repaginada e criamos uma “versão contemporânea” do jogo: o Pong Reborn!</p>
-
-<p>Nele desenvolveremos as telas, os menus, adicionaremos áudio e <strong>MUITO MAIS</strong>!!!</p>
-
-<p>Nosso objetivo final é criar a seguinte aplicação:</p>
-
-<p><img alt="Tela Pong Reborn" class="img-responsive lazyload" data-src="/assets/posts/games-with-python-and-kivy/pong-reborn.png"></p>
-
-<p>Bem, eu sei que você deve estar ansioso, mas você já se inscreveu na <strong>lista de
-emails</strong> da Python Academy?</p>
-
-<p>Quem está inscrito ficou sabendo em <strong>primeira mão</strong> do lançamento desse <em>post</em>,
-sem contar que sempre fica por dentro de tudo que acontece por aqui!</p>
-
-<p>Aproveite a oportunidade e se <strong>inscreva aí</strong>! <img class="emoji" title=":punch:" alt=":punch:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png" height="20" width="20"></p>
-
-<div class="email-signup" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="signup-body">
-				<span class="greeting">Olá <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"> Está gostando do artigo?</span>
-				<span class="signup-text">Então cadastre o seu email para <span class="underline">receber gratuitamente</span> mais conteúdos como este!</span>
-		        <!-- Include MailChimp email form with input and submit button -->
-<!-- Parameters: Quero! = button label  -->
-
-<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate="">
-    <div id="mc_embed_signup_scroll" class="mailchimp-signup container-fluid">        
-        <div class="row no-gutters">
-            <div class="col-xs-3">
-                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="">
-            </div>
-            
-            <div class="col-xs-5">                
-                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="">                
-            </div>
-
-            <div class="col-xs-4">
-                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
-                    <span><img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> Quero!</span>
-                </button>        
-            </div>
-        </div>
-    </div>	
-
-    <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>            
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
-</form>
-		    </div>
-		</div>
-	</div>      
-</div>
-
-<h3 id="aquecendo-os-motores">Aquecendo os Motores</h3>
-
-<p>Primeiro, vamos criar a estrutura de diretórios do projeto:</p>
-
-<p><img alt="Imagem estrutura de diretórios" class="img-responsive lazyload" data-src="/assets/posts/games-with-python-and-kivy/project-structure.png"></p>
-
-<p>Nela, temos:</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">/audio</code>: contém os arquivos de áudio do jogo.</li>
-  <li>
-<code class="highlighter-rouge">/img</code>: diretório para guardar as imagens (raquete, bola, botões, etc).</li>
-  <li>
-<code class="highlighter-rouge">/telas</code>: contém as classes de definição das telas do nosso jogo.</li>
-  <li>
-<code class="highlighter-rouge">/widgets</code>: contém os <em>widgets</em> necessários.</li>
-  <li>
-<code class="highlighter-rouge">main.py</code>: código de inicialização do nosso projeto</li>
-  <li>
-<code class="highlighter-rouge">pong.kv</code>: arquivo .kv contendo o <em>layout</em> da nossa aplicação na linguagem Kivy.</li>
-  <li>
-<code class="highlighter-rouge">config.ini</code>: arquivo de configuração com parâmetros do nosso jogo.</li>
-</ul>
-
-<p>Para progredirmos juntos, baixe <a href="https://github.com/pythonacademybr/PongReborn" target="_blank">aqui o código</a> completo da aplicação que será
-produzida nesse <em>post</em>. Meu conselho é que você replique a estrutura e
-desenvolva conforme vai lendo aqui no <em>post</em> e, tendo qualquer dúvida, dá uma
-espiada no código. Lembrando que você sempre tem a opção de deixar as suas
-dúvidas na seção de comentários ali embaixo…</p>
-
-<p>Não se preocupe que cada linha do código será explicada aqui.</p>
-
-<p>Vamos começar iniciando uma aplicação simples para servir de base para o nosso
-jogo.</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">kivy.uix.widget</span> <span class="kn">import</span> <span class="n">Widget</span>
-<span class="kn">from</span> <span class="nn">kivy.app</span> <span class="kn">import</span> <span class="n">App</span>
-
-<span class="k">class</span> <span class="nc">Pong</span><span class="p">(</span><span class="n">Widget</span><span class="p">):</span>
-    <span class="k">pass</span>
-
-<span class="k">class</span> <span class="nc">PongApp</span><span class="p">(</span><span class="n">App</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">build</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="n">Pong</span><span class="p">()</span>
-
-<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">'__main__'</span><span class="p">:</span>
-    <span class="n">PongApp</span><span class="p">().</span><span class="n">run</span><span class="p">()</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Se seu ambiente de desenvolvimento estiver configurado corretamente, uma tela
-preta deverá aparecer ao executar essa aplicação.</p>
-
-<h3 id="carregando-o-arquivo-de-configurações">Carregando o Arquivo de Configurações</h3>
-
-<p>Assim como vimos no <a href="https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy"><em>post</em> anterior</a>, podemos utilizar um arquivo de configurações
-para passar parâmetros de inicialização para a nossa aplicação.</p>
-
-<p>Coloque os seguintes parâmetros no arquivo <code class="highlighter-rouge">config.ini</code>:</p>
-
-<figure class="highlight"><pre><code class="language-plain" data-lang="plain"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td>
-<td class="code"><pre>[kivy]
-exit_on_escape = 1
-[graphics]
-resizable = 0
-width = 1200
-height = 800
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Eles nos dizem que:</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">exit_on_escape = 1</code>: a tecla <code class="highlighter-rouge">ESC</code> encerrará a aplicação.</li>
-  <li>
-<code class="highlighter-rouge">resizable = 0</code>: não deve ser possível redimensionar a janela da aplicação.</li>
-  <li>
-<code class="highlighter-rouge">width = 1200</code>: largura da janela.</li>
-  <li>
-<code class="highlighter-rouge">height = 800</code>: altura da janela.</li>
-</ul>
-
-<p>Para carregar o arquivo de configurações, utilizamos o método
-<code class="highlighter-rouge">read("config.ini")</code> da classe <code class="highlighter-rouge">kivy.config.Config</code>:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">kivy.config</span> <span class="kn">import</span> <span class="n">Config</span>
-
-<span class="n">Config</span><span class="p">.</span><span class="n">read</span><span class="p">(</span><span class="s">"config.ini"</span><span class="p">)</span>
-
-<span class="k">class</span> <span class="nc">Pong</span><span class="p">(</span><span class="n">Widget</span><span class="p">):</span>
-    <span class="k">pass</span>
-
-<span class="p">...</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Como o arquivo <code class="highlighter-rouge">config.ini</code> já está na pasta raiz do projeto, não precisamos
-utilizar o caminho absoluto para ele.</p>
-
-<h3 id="gerenciando-as-telas-com-o-screenmanager">Gerenciando as Telas com o <code class="highlighter-rouge">ScreenManager</code>
-</h3>
-
-<p>Uma preocupação que devemos ter quando desenvolvemos aplicações com as quais os
-usuários irão interagir é <strong>navegação</strong> e a <strong>usabilidade</strong>.</p>
-
-<p>Usuários estão acostumados a ver <em>links</em> agrupados em menus, transições entre
-telas, botões de navegação, etc.</p>
-
-<p>Felizmente, o Kivy provê formas de controlar a navegação do usuário através da
-definição de telas (<code class="highlighter-rouge">Screen</code>) e de métodos da classe <code class="highlighter-rouge">ScreenManager</code>.</p>
-
-<p>Por exemplo, para criarmos um gerenciador <code class="highlighter-rouge">ScreenManager</code> com duas telas, podemos fazer:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">kivy.uix.screenmanager</span> <span class="kn">import</span> <span class="n">ScreenManager</span><span class="p">,</span> <span class="n">Screen</span>
-
-<span class="c1"># Create the manager
-</span><span class="n">manager</span> <span class="o">=</span> <span class="n">ScreenManager</span><span class="p">()</span>
-
-<span class="c1"># Criação das telas
-</span><span class="n">tela_1</span> <span class="o">=</span> <span class="n">Screen</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Tela 1'</span><span class="p">)</span>
-<span class="n">tela_2</span> <span class="o">=</span> <span class="n">Screen</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'Tela 2'</span><span class="p">)</span>
-
-<span class="c1"># Adiciona as telas ao ScreenManager
-</span><span class="n">manager</span><span class="p">.</span><span class="n">add_widget</span><span class="p">(</span><span class="n">tela_1</span><span class="p">)</span>
-<span class="n">manager</span><span class="p">.</span><span class="n">add_widget</span><span class="p">(</span><span class="n">tela_1</span><span class="p">)</span>
-
-<span class="c1"># Por padrão, a primeira tela adicionada será aquela mostrada pelo gerenciador.
-# Para mudar para, por exemplo, a tela 2, utilizamos o parâmetro name:
-</span><span class="n">manager</span><span class="p">.</span><span class="n">current</span> <span class="o">=</span> <span class="s">'Tela 2'</span>
-
-<span class="c1"># Nesse momento, a Tela 2 será mostrada!</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Nesse caso, as telas estarão em branco (preto, na verdade), pois não adicionamos
-nada a elas.</p>
-
-<p>Podemos criar uma classe vazia e definir o <em>layout</em> da nossa tela em nosso arquivo
-<code class="highlighter-rouge">.kv</code>.</p>
-
-<p>Como exemplo, vou pegar uma tela de vencedor definida na nossa aplicação:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre><span class="c1"># Declara a Tela do Vencedor 1
-</span><span class="k">class</span> <span class="nc">TelaVencedor1</span><span class="p">(</span><span class="n">Screen</span><span class="p">):</span>
-    <span class="k">pass</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>E seu <em>layout</em> será:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-</pre></td>
-<td class="code"><pre><span class="o">&lt;</span><span class="n">TelaVencedor1</span><span class="o">&gt;</span><span class="p">:</span>
-    <span class="n">canvas</span><span class="p">:</span>
-        <span class="n">Rectangle</span><span class="p">:</span>
-            <span class="n">source</span><span class="p">:</span> <span class="s">'img/vencedor-1.png'</span>
-            <span class="n">size</span><span class="p">:</span> <span class="bp">self</span><span class="p">.</span><span class="n">width</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">height</span>
-
-    <span class="n">Button</span><span class="p">:</span>
-        <span class="n">size_hint</span><span class="p">:</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.1</span>
-        <span class="n">pos_hint</span><span class="p">:</span> <span class="p">{</span><span class="s">'top'</span><span class="p">:</span> <span class="mf">0.5</span><span class="p">,</span> <span class="s">'right'</span><span class="p">:</span> <span class="p">(</span><span class="mf">0.7</span> <span class="o">+</span> <span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span> <span class="o">/</span> <span class="n">root</span><span class="p">.</span><span class="n">width</span><span class="p">)}</span>
-        <span class="n">background_normal</span><span class="p">:</span> <span class="s">'img/voltar-ao-menu-btn.png'</span>
-        <span class="n">background_down</span><span class="p">:</span> <span class="s">'img/voltar-ao-menu-btn.png'</span>
-        <span class="n">center_x</span><span class="p">:</span> <span class="n">root</span><span class="p">.</span><span class="n">center_x</span> <span class="o">+</span> <span class="bp">self</span><span class="p">.</span><span class="n">width</span> <span class="o">/</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">20</span>
-        <span class="n">on_press</span><span class="p">:</span>
-            <span class="n">root</span><span class="p">.</span><span class="n">manager</span><span class="p">.</span><span class="n">current</span> <span class="o">=</span> <span class="s">"menu"</span>
-            <span class="n">root</span><span class="p">.</span><span class="n">manager</span><span class="p">.</span><span class="n">transition</span><span class="p">.</span><span class="n">direction</span> <span class="o">=</span> <span class="s">"right"</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Esse <em>layout</em> traz alguns conceitos novos:</p>
-
-<ul>
-  <li>Podemos definir uma imagem como <em>background</em> utilizando a propriedade <code class="highlighter-rouge">canvas</code> e
-  o elemento <code class="highlighter-rouge">Rectangle</code> com seu parâmetro <code class="highlighter-rouge">source</code> sendo uma imagem.</li>
-  <li>Para utilizarmos uma imagem de fundo no <em>widget</em> <code class="highlighter-rouge">Button</code>, podemos usar as 
-  propriedades <code class="highlighter-rouge">background_normal</code> e <code class="highlighter-rouge">background_down</code>, ambas apontando para o
-  caminho onde estão as imagens (<code class="highlighter-rouge">/img</code> no nosso caso).</li>
-  <li>Para definir o comportamento esperado quando clicarmos no botão, podemos
-  utilizar o evento <code class="highlighter-rouge">on_press</code> (“quando clicado”). Nesse caso, o botão está
-  realizando uma transição de telas, pedindo ao <code class="highlighter-rouge">manager</code> para mudar para a
-  tela <code class="highlighter-rouge">menu</code>, com uma transição da esquerda para direita.</li>
-</ul>
-
-<p>Você pode conferir as outras telas da aplicação no arquivo <code class="highlighter-rouge">pong.kv</code>.</p>
-
-<p>Lembrando: <strong>qualquer dúvida</strong>, postem aqui embaixo nos comentários!</p>
-
-<p>Agora que sabemos gerenciar as telas, podemos descrever os elementos que farão
-parte do jogo.</p>
-
-<hr>
-
-<p><img class="emoji" title=":nerd_face:" alt=":nerd_face:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f913.png" height="20" width="20"> <strong>Quer fazer um curso COMPLETO de Python, do Básico ao Avançado, com Acesso Vitalício, Suporte individual e personalizado, com CERTIFICADO PROFISSIONAL e com 7 DIAS DE GARANTIA?</strong></p>
-
-<p><img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> <em><strong>Então <a href="https://go.hotmart.com/A55372730Q" target="_blank">clique aqui e confira nosso curso parceiro da Python Academy!</a></strong></em></p>
-
-<hr>
-
-<h3 id="adicionando-áudio-com-soundloader">Adicionando Áudio com <code class="highlighter-rouge">SoundLoader</code>
-</h3>
-
-<p>O que seria de um jogo sem áudio? Já imaginou o que seria de <strong>Top Gear</strong> ou 
-<strong>F-Zero</strong> sem suas incríveis trilhas sonoras?</p>
-
-<p>Vamos então colocar áudio em nossa aplicação.</p>
-
-<p>Primeiro devemos escolher uma trilha. Para isso, temos três opções:</p>
-
-<ol>
-  <li>Criamos nossa própria trilha (infelizmente não tenho essa habilidade… <strong>Ainda</strong>!)</li>
-  <li>Compramos uma trilha</li>
-  <li>Arranjamos uma trilha 0800 na “net”</li>
-</ol>
-
-<p>Utilizei a última opção! Aqui vão alguns sites em que busquei:</p>
-
-<ul>
-  <li><a href="http://dig.ccmixter.org/" target="_blank">digCCmixter</a></li>
-  <li><a href="http://sampleswap.org/" target="_blank">SampeSwap</a></li>
-</ul>
-
-<p>Para nossa aplicação, escolhi uma trilha similar àquelas encontradas em <em>indie
-games</em>… Achei bem legal!</p>
-
-<p>Com sua trilha em mãos, basta colocá-la na pasta <code class="highlighter-rouge">/audio</code> e carregá-la com o
-método <code class="highlighter-rouge">load()</code> da classe <code class="highlighter-rouge">kivy.core.audio.SoundLoader</code>.</p>
-
-<p>Feito isso, podemos colocá-la em execução com o método <code class="highlighter-rouge">play()</code>.</p>
-
-<p>O código fica assim:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td>
-<td class="code"><pre><span class="c1"># Carrega o áudio
-</span><span class="n">sound</span> <span class="o">=</span> <span class="n">SoundLoader</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="s">'audio/bg-music.mp3'</span><span class="p">)</span>
-
-<span class="c1"># Verifica se houve o carregamento do nosso áudio e o coloca em exeução
-</span><span class="k">if</span> <span class="n">sound</span><span class="p">:</span>
-    <span class="n">sound</span><span class="p">.</span><span class="n">loop</span> <span class="o">=</span> <span class="bp">True</span>
-    <span class="n">sound</span><span class="p">.</span><span class="n">play</span><span class="p">()</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Para que o áudio volte ao começo quando terminar, configuramos o parâmetro <code class="highlighter-rouge">loop</code>
-do objeto gerado pela classe <code class="highlighter-rouge">SoundLoader</code> com <code class="highlighter-rouge">True</code>.</p>
-
-<h3 id="adicionando-elementos-gráficos">Adicionando Elementos Gráficos</h3>
-
-<p>Em nosso jogo, temos três elementos básicos: a <strong>raquete</strong>, a <strong>bola</strong> e o <strong>campo</strong>.</p>
-
-<p>Teremos duas raquetes, uma de cada lado do campo, que se moverão pelo arrastar
-do mouse (ou do dedo).</p>
-
-<p>A bola estará em constante movimento, indo de um lado para o outro de acordo com
-o toque na raquete ou nos lados do campo (significando ponto para um jogador).</p>
-
-<p>Por último, temos o campo, onde estarão os limites do nosso jogo. Nesse
-elemento, estarão a raquete e a bola, já que elas “precisam” de um campo para
-fazer sentido.</p>
-
-<h4 id="classe-raquete">Classe <code class="highlighter-rouge">Raquete</code>
-</h4>
-
-<p>Primeiro, vamos descrever o <em>widget</em> <strong>raquete</strong>.</p>
-
-<p>Esse elemento tem apenas duas obrigações dentro da lógica do nosso jogo: manter
-o placar e descrever o comportamento de como rebater a bola, ou seja, qual deve
-ser a nova direção da bolinha ao tocar na raquete.</p>
-
-<p>Assim, nossa classe <code class="highlighter-rouge">Raquete</code> será implementada da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">kivy.properties</span> <span class="kn">import</span> <span class="n">NumericProperty</span>
-<span class="kn">from</span> <span class="nn">kivy.uix.widget</span> <span class="kn">import</span> <span class="n">Widget</span>
-<span class="kn">from</span> <span class="nn">kivy.vector</span>     <span class="kn">import</span> <span class="n">Vector</span>
-
-
-<span class="k">class</span> <span class="nc">Raquete</span><span class="p">(</span><span class="n">Widget</span><span class="p">):</span>
-    <span class="n">placar</span> <span class="o">=</span> <span class="n">NumericProperty</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-
-    <span class="k">def</span> <span class="nf">rebate_bola</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">bola</span><span class="p">):</span>
-        <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">collide_widget</span><span class="p">(</span><span class="n">bola</span><span class="p">)):</span>
-            <span class="n">vx</span><span class="p">,</span> <span class="n">vy</span> <span class="o">=</span> <span class="n">bola</span><span class="p">.</span><span class="n">velocidade</span>
-
-            <span class="n">offset_raquete</span> <span class="o">=</span> <span class="p">(</span><span class="n">bola</span><span class="p">.</span><span class="n">center_y</span> <span class="o">-</span> <span class="bp">self</span><span class="p">.</span><span class="n">center_y</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">height</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>
-
-            <span class="n">inv_vel</span> <span class="o">=</span> <span class="n">Vector</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span> <span class="o">*</span> <span class="n">vx</span><span class="p">,</span> <span class="n">vy</span><span class="p">)</span>
-
-            <span class="n">vel</span> <span class="o">=</span> <span class="n">inv_vel</span> <span class="o">*</span> <span class="mf">1.15</span>
-
-            <span class="n">bola</span><span class="p">.</span><span class="n">velocidade</span> <span class="o">=</span> <span class="n">vel</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">vel</span><span class="p">.</span><span class="n">y</span> <span class="o">+</span> <span class="p">(</span><span class="n">offset_raquete</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
-
-        <span class="k">return</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Nela, temos o <code class="highlighter-rouge">placar</code>, que é uma propriedade numérica que começa em 0
-(<code class="highlighter-rouge">NumericProperty(0)</code>), e o método que controla o rebote da raquete.</p>
-
-<p>O código do método <code class="highlighter-rouge">rebate_bola</code> pode parecer complicado, então vamos explicá-lo
-linha a linha:</p>
-
-<ul>
-  <li>
-<strong>Linha 10</strong>: Verifica se houve a colisão do <em>widget</em> “raquete” com o <em>widget</em>
-“bola”.</li>
-  <li>
-<strong>Linha 11</strong>: Pega a tupla da velocidade da bola <code class="highlighter-rouge">(vx, vy)</code>.
-  Esse atributo vai ser explicado quando falarmos da classe <code class="highlighter-rouge">Bola</code>.</li>
-  <li>
-<strong>Linha 13</strong>: Verifica se a bola bateu na parte de cima ou embaixo da
-  raquete. O atributo <code class="highlighter-rouge">center_y</code> da bola traz a altura “y” da bola com relação
-  à altura total da janela e <code class="highlighter-rouge">height</code> é a altura do <em>widget</em>.</li>
-  <li>
-<strong>Linha 15</strong>: Inverte a direção da bola. A classe <code class="highlighter-rouge">Vector</code> do Kivy representa
-um vetor 2D com suas componentes “x” e “y”. É implementado como uma lista em
-Python, então podemos seus elementos com <code class="highlighter-rouge">x = vetor[0]</code> e <code class="highlighter-rouge">y = vetor[1]</code>.</li>
-  <li>
-<strong>Linha 17</strong>: Aumenta a velocidade da bolinha. Deixo aqui como sugestão você
-  brincar com esse valor (que está atualmente como “1.15”).</li>
-  <li>
-<strong>Linha 19</strong>: Atualiza a direção e velocidade da bolinha, fazendo-a subir ou
-descer (dependendo de onde ela tenha pegado na raquete: em cima ou embaixo).</li>
-</ul>
-
-<h4 id="classe-bola">Classe <code class="highlighter-rouge">Bola</code>
-</h4>
-
-<p>Essa classe mantém o estado da velocidade, sentido e direção da bola no jogo.</p>
-
-<p>A componente da velocidade no eixo X vai ser representada pela variável
-<code class="highlighter-rouge">velocidade_x</code> e a componente da velocidade no eixo Y vai ser representada pela
-variável <code class="highlighter-rouge">velocidade_y</code>.</p>
-
-<p>Para facilitar nossa vida posteriormente, definiremos também uma variável
-chamada  <code class="highlighter-rouge">velocidade</code> que será uma tupla contendo as duas componentes acima
-citadas.</p>
-
-<p>Por fim, precisaremos apenas codificar o movimento da bolinha no campo (já que a
-verificação de colisão com a raquete já foi implementada na classe <code class="highlighter-rouge">Raquete</code>).</p>
-
-<p>Uma forma é atualizar a propriedade <code class="highlighter-rouge">pos</code> (de <code class="highlighter-rouge">position</code>) do nosso <em>widget</em> bola
-com o vetor velocidade.</p>
-
-<p>Juntando tudo, chegamos à seguinte implementação:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">kivy.uix.widget</span> <span class="kn">import</span> <span class="n">Widget</span>
-<span class="kn">from</span> <span class="nn">kivy.vector</span>     <span class="kn">import</span> <span class="n">Vector</span>
-<span class="kn">from</span> <span class="nn">kivy.properties</span> <span class="kn">import</span> <span class="n">NumericProperty</span><span class="p">,</span> <span class="n">ReferenceListProperty</span>
-
-<span class="k">class</span> <span class="nc">Bola</span><span class="p">(</span><span class="n">Widget</span><span class="p">):</span>
-    <span class="n">velocidade_x</span> <span class="o">=</span> <span class="n">NumericProperty</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-    <span class="n">velocidade_y</span> <span class="o">=</span> <span class="n">NumericProperty</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-    <span class="n">velocidade</span> <span class="o">=</span> <span class="n">ReferenceListProperty</span><span class="p">(</span><span class="n">velocidade_x</span><span class="p">,</span> <span class="n">velocidade_y</span><span class="p">)</span>
-
-    <span class="k">def</span> <span class="nf">movimenta</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">pos</span> <span class="o">=</span> <span class="n">Vector</span><span class="p">(</span><span class="o">*</span><span class="bp">self</span><span class="p">.</span><span class="n">velocidade</span><span class="p">)</span> <span class="o">+</span> <span class="bp">self</span><span class="p">.</span><span class="n">pos</span>
-        <span class="k">return</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Agora só falta definir o campo, que chamaremos de <code class="highlighter-rouge">Pong</code>.</p>
-
-<h4 id="classe-pong">Classe <code class="highlighter-rouge">Pong</code>
-</h4>
-
-<p>A responsabilidade dessa classe é manter o controle sobre todo o jogo.</p>
-
-<p>A classe <code class="highlighter-rouge">Pong</code> conterá as outras classes e também verificará colisões entre a
-bola e as paredes laterais, a fim de atualizar o placar do jogo.</p>
-
-<p>Assim, precisamos de três variáveis:</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">bola</code>: referencia a bola dentro do jogo.</li>
-  <li>
-<code class="highlighter-rouge">raquete_1</code> e <code class="highlighter-rouge">raquete_2</code> referenciam as raquetes.</li>
-</ul>
-
-<p>Também precisamos de um método (ou serviço) para colocar a bola em jogo. Esse
-método consiste basicamente em colocar a bola no centro do jogo e configurar sua
-direção (direita ou esquerda) dependendo de quem está servindo o ponto.</p>
-
-<p>Finalmente, chegamos ao seguinte código:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td>
-<td class="code"><pre><span class="k">def</span> <span class="nf">servico</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">vel</span><span class="o">=</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">)):</span>
-    <span class="c1"># Posiciona a bola no centro da tela
-</span>    <span class="bp">self</span><span class="p">.</span><span class="n">bola</span><span class="p">.</span><span class="n">center</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">center</span>
-
-    <span class="c1"># Seta a velocidade da bola
-</span>    <span class="bp">self</span><span class="p">.</span><span class="n">bola</span><span class="p">.</span><span class="n">velocidade</span> <span class="o">=</span> <span class="n">vel</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Também desenvolveremos um método responsável por atualizar todo o jogo, <em>frame</em>
-a <em>frame</em>, movimentando elementos, verificando colisões e atualizando o placar.
-A lista de responsabilidades desse método é a seguinte:</p>
-
-<ul>
-  <li>Movimentar a bola pelo campo.</li>
-  <li>Rebater a bola caso haja a colisão entre a raquete e a bola.</li>
-  <li>Verificar se a bola atingiu o topo ou o fundo da janela, a fim de evitar
-  que a bola suma da janela.</li>
-  <li>Verificar se houve colisão com o lado esquerdo ou o lado direito da janela,
-  para atualizar o placar do jogo.</li>
-  <li>Quando um dos jogdores chegar ao placar máximo (5, no nosso caso), exibir a
-tela de “Parabéns” (vamos falar sobre o <code class="highlighter-rouge">ScreenManager</code> já, já).</li>
-</ul>
-
-<p>O código para fazer tudo isso é o seguinte:</p>
+<h2 id="operadores-em-python">Operadores em Python</h2>
+
+<p>Os Operadores em Python possibilitam que o desenvolvedor consiga transcrever a <strong>lógica</strong> para <strong>código</strong>.</p>
+
+<p>Python disponibiliza uma série desses operadores para os desenvolvedores e é muito importante dominá-los se você quiser se tornar um <strong>verdadeiro Pythonista</strong>!</p>
+
+<p>Veremos todos em detalhes agora, começando pelos <strong>Operadores Aritméticos</strong>!</p>
+
+<h2 id="operadores-aritméticos">Operadores Aritméticos</h2>
+
+<p>Esses operadores são utilizados para criarmos expressões matemáticas comuns, como soma, subtração, multiplicação e divisão.</p>
+
+<p>Veja quais estão disponíveis no Python:</p>
+
+<table class="post-table">
+  <thead>
+    <tr>
+      <th style="text-align: center">Operador</th>
+      <th style="text-align: center">Nome</th>
+      <th style="text-align: left">Função</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">+</code></td>
+      <td style="text-align: center"><strong>Adição</strong></td>
+      <td style="text-align: left">Realiza a soma de ambos operandos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">-</code></td>
+      <td style="text-align: center"><strong>Subtração</strong></td>
+      <td style="text-align: left">Realiza a subtração de ambos operandos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">*</code></td>
+      <td style="text-align: center"><strong>Multiplicação</strong></td>
+      <td style="text-align: left">Realiza a multiplicação  de ambos operandos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">/</code></td>
+      <td style="text-align: center"><strong>Divisão</strong></td>
+      <td style="text-align: left">Realiza a Divisão  de ambos operandos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">//</code></td>
+      <td style="text-align: center"><strong>Divisão inteira</strong></td>
+      <td style="text-align: left">Realiza a divisão entre operandos e a parte decimal de ambos operandos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">%</code></td>
+      <td style="text-align: center"><strong>Módulo</strong></td>
+      <td style="text-align: left">Retorna o resto da divisão de ambos operandos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">**</code></td>
+      <td style="text-align: center"><strong>Exponenciação</strong></td>
+      <td style="text-align: left">Retorna o resultado da elevação da potência pelo outro.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Veja agora a utilização de cada operador aritmético mencionado acima:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -894,151 +355,82 @@ tela de “Parabéns” (vamos falar sobre o <code class="highlighter-rouge">Scr
 21
 22
 23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
 </pre></td>
-<td class="code"><pre><span class="c1"># Atualiza o jogo
-</span><span class="k">def</span> <span class="nf">atualiza</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dt</span><span class="p">):</span>
-    <span class="c1"># Faz a bola se mover
-</span>    <span class="bp">self</span><span class="p">.</span><span class="n">bola</span><span class="p">.</span><span class="n">movimenta</span><span class="p">()</span>
+<td class="code"><pre><span class="n">quatro</span> <span class="o">=</span> <span class="mi">4</span>
+<span class="n">dois</span> <span class="o">=</span> <span class="mi">2</span>
 
-    <span class="c1"># Rebate a bola caso haja colisão com a bolinha
-</span>    <span class="bp">self</span><span class="p">.</span><span class="n">raquete_1</span><span class="p">.</span><span class="n">rebate_bola</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">bola</span><span class="p">)</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">raquete_2</span><span class="p">.</span><span class="n">rebate_bola</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">bola</span><span class="p">)</span>
-
-    <span class="c1"># Verifica se a bola atingiu o topo da janela
-</span>    <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">bola</span><span class="p">.</span><span class="n">y</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">bola</span><span class="p">.</span><span class="n">top</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="p">.</span><span class="n">height</span><span class="p">):</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">bola</span><span class="p">.</span><span class="n">velocidade_y</span> <span class="o">*=</span> <span class="o">-</span><span class="mi">1</span>
-
-    <span class="c1"># Verifica se colidiu com o lado esquerdo da janela para atualizar o
-</span>    <span class="c1"># placar do jogo
-</span>    <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">bola</span><span class="p">.</span><span class="n">x</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="p">.</span><span class="n">x</span><span class="p">:</span>
-        <span class="c1"># +1 para o placar da raquete_2
-</span>        <span class="bp">self</span><span class="p">.</span><span class="n">raquete_2</span><span class="p">.</span><span class="n">placar</span> <span class="o">+=</span> <span class="mi">1</span>
-
-        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">raquete_2</span><span class="p">.</span><span class="n">placar</span> <span class="o">&gt;=</span> <span class="mi">5</span><span class="p">:</span>
-            <span class="bp">self</span><span class="p">.</span><span class="n">servico</span><span class="p">(</span><span class="n">vel</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
-            <span class="bp">self</span><span class="p">.</span><span class="n">raquete_1</span><span class="p">.</span><span class="n">placar</span> <span class="o">=</span> <span class="mi">0</span>
-            <span class="bp">self</span><span class="p">.</span><span class="n">raquete_2</span><span class="p">.</span><span class="n">placar</span> <span class="o">=</span> <span class="mi">0</span>
-            <span class="bp">self</span><span class="p">.</span><span class="n">screen_manager</span><span class="p">.</span><span class="n">current</span> <span class="o">=</span> <span class="s">"vencedor_2"</span>
-
-            <span class="k">return</span>
-
-        <span class="c1"># Reinicia o jogo com a bola saindo pelo lado esquerdo
-</span>        <span class="bp">self</span><span class="p">.</span><span class="n">servico</span><span class="p">(</span><span class="n">vel</span><span class="o">=</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
-
-    <span class="c1"># Verifica se colidiu com o lado direito da janela para atualizar o
-</span>    <span class="c1"># placar do jogo
-</span>    <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">bola</span><span class="p">.</span><span class="n">x</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="p">.</span><span class="n">width</span><span class="p">:</span>
-        <span class="c1"># +1 para o placar da raquete_1
-</span>        <span class="bp">self</span><span class="p">.</span><span class="n">raquete_1</span><span class="p">.</span><span class="n">placar</span> <span class="o">+=</span> <span class="mi">1</span>
-
-        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">raquete_1</span><span class="p">.</span><span class="n">placar</span> <span class="o">&gt;=</span> <span class="mi">5</span><span class="p">:</span>
-            <span class="bp">self</span><span class="p">.</span><span class="n">servico</span><span class="p">(</span><span class="n">vel</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
-            <span class="bp">self</span><span class="p">.</span><span class="n">raquete_1</span><span class="p">.</span><span class="n">placar</span> <span class="o">=</span> <span class="mi">0</span>
-            <span class="bp">self</span><span class="p">.</span><span class="n">raquete_2</span><span class="p">.</span><span class="n">placar</span> <span class="o">=</span> <span class="mi">0</span>
-            <span class="bp">self</span><span class="p">.</span><span class="n">screen_manager</span><span class="p">.</span><span class="n">current</span> <span class="o">=</span> <span class="s">"vencedor_1"</span>
-
-            <span class="k">return</span>
-
-        <span class="c1"># Reinicia o jogo com a bola saindo pelo lado direito
-</span>        <span class="bp">self</span><span class="p">.</span><span class="n">servico</span><span class="p">(</span><span class="n">vel</span><span class="o">=</span><span class="p">(</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+<span class="n">soma</span> <span class="o">=</span> <span class="n">quatro</span> <span class="o">+</span> <span class="n">dois</span>
+<span class="k">print</span><span class="p">(</span><span class="n">soma</span><span class="p">)</span>  <span class="c1"># Resultado: 6
+</span>
+<span class="n">subtracao</span> <span class="o">=</span> <span class="n">quatro</span> <span class="o">-</span> <span class="n">dois</span>
+<span class="k">print</span><span class="p">(</span><span class="n">subtracao</span><span class="p">)</span>  <span class="c1"># Resultado: 2
+</span>
+<span class="n">multiplicacao</span> <span class="o">=</span> <span class="n">quatro</span> <span class="o">*</span> <span class="n">dois</span>
+<span class="k">print</span><span class="p">(</span><span class="n">multiplicacao</span><span class="p">)</span>  <span class="c1"># Resultado: 8
+</span>
+<span class="n">divisao</span> <span class="o">=</span> <span class="n">quatro</span> <span class="o">/</span> <span class="n">dois</span>
+<span class="k">print</span><span class="p">(</span><span class="n">divisao</span><span class="p">)</span>  <span class="c1"># Resultado: 2.0
+</span>
+<span class="n">divisao_interna</span> <span class="o">=</span> <span class="n">quatro</span> <span class="o">//</span> <span class="n">dois</span>
+<span class="k">print</span><span class="p">(</span><span class="n">divisao_interna</span><span class="p">)</span>  <span class="c1"># Resultado: 2
+</span>
+<span class="n">modulo</span> <span class="o">=</span> <span class="n">quatro</span> <span class="o">%</span> <span class="n">dois</span>
+<span class="k">print</span><span class="p">(</span><span class="n">modulo</span><span class="p">)</span>  <span class="c1"># Resultado: 0
+</span>
+<span class="n">exponenciacao</span> <span class="o">=</span> <span class="n">quatro</span> <span class="o">**</span> <span class="n">dois</span>
+<span class="k">print</span><span class="p">(</span><span class="n">exponenciacao</span><span class="p">)</span>  <span class="c1"># Resultado: 16</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Outras duas funções importantes são a <code class="highlighter-rouge">comeca_jogo()</code> e <code class="highlighter-rouge">reinicia_jogo()</code>… <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+<h2 id="operadores-de-comparação">Operadores de Comparação</h2>
 
-<p>Começar o jogo é, basicamente, colocar a bola em jogo (aqui podemos chamar o
-método <code class="highlighter-rouge">servico()</code>) e configurar qual método será periodicamente chamado no
-<em>loop</em> principal.</p>
+<p>Como o nome já diz, esses Operadores são usados para <strong>comparar</strong> dois valores:</p>
 
-<p>Isso pode ser feito com o método <code class="highlighter-rouge">schedule_interval</code> da classe
-<code class="highlighter-rouge">kivy.clock.Clock</code>, passando-se como argumento o método de atualização
-(<code class="highlighter-rouge">atualiza()</code>) e a periodicidade com que ele deve ser executado pelo Kivy.</p>
+<table class="post-table">
+  <thead>
+    <tr>
+      <th style="text-align: center">Operador</th>
+      <th style="text-align: center">Nome</th>
+      <th style="text-align: left">Função</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">==</code></td>
+      <td style="text-align: center">Igual a</td>
+      <td style="text-align: left">Verifica se um valor é igual ao outro</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">!=</code></td>
+      <td style="text-align: center">Diferente de</td>
+      <td style="text-align: left">Verifica se um valor é diferente ao outro</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">&gt;</code></td>
+      <td style="text-align: center">Maior que</td>
+      <td style="text-align: left">Verifica se um valor é maior que outro</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">&gt;=</code></td>
+      <td style="text-align: center">Maior ou igual</td>
+      <td style="text-align: left">Verifica se um valor é maior ou igual ao outro</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">&lt;</code></td>
+      <td style="text-align: center">Menor que</td>
+      <td style="text-align: left">Verifica se um valor é menor que outro</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">&lt;=</code></td>
+      <td style="text-align: center">Menor ou igual</td>
+      <td style="text-align: left">Verifica se um valor é menor ou igual ao outro</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>O código da <code class="highlighter-rouge">comeca_jogo()</code> é o seguinte:</p>
+<p>Vamos ver exemplos da utilização de cada operador de comparação mencionado acima.</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td>
-<td class="code"><pre><span class="k">def</span> <span class="nf">comeca_jogo</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-    <span class="c1"># Pôe a bola em jogo
-</span>    <span class="bp">self</span><span class="p">.</span><span class="n">servico</span><span class="p">()</span>
-
-    <span class="c1"># Agendamento do método "atualiza" a cada 1/120 = 0,008s
-</span>    <span class="n">Clock</span><span class="p">.</span><span class="n">schedule_interval</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">atualiza</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mf">120.0</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Já a <code class="highlighter-rouge">reinicia_jogo()</code> apenas põe a bola em jogo, a partir do método
-<code class="highlighter-rouge">servico()</code>, e zera o placar:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td>
-<td class="code"><pre><span class="k">def</span> <span class="nf">reinicia_jogo</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-    <span class="c1"># Pôe a bola em jogo
-</span>    <span class="bp">self</span><span class="p">.</span><span class="n">servico</span><span class="p">(</span><span class="n">vel</span><span class="o">=</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
-
-    <span class="c1"># Zera o placar
-</span>    <span class="bp">self</span><span class="p">.</span><span class="n">raquete_1</span><span class="p">.</span><span class="n">placar</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">raquete_2</span><span class="p">.</span><span class="n">placar</span> <span class="o">=</span> <span class="mi">0</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Agora só falta modelar o método para movimentar as raquetes conforme arrastamos
-o mouse ou o dedo na tela.</p>
-
-<p>Para isso, o Kivy disponibiliza algumas funções na classe <code class="highlighter-rouge">Widget</code>. São elas:</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">on_touch_down()</code>: Evento disparado quando o Kivy identifica um toque na tela.</li>
-  <li>
-<code class="highlighter-rouge">on_touch_move()</code>: Evento disparado quando o usuário arrasta o dedo ou o
-  <em>mouse</em> na tela (estamos interessados nesse evento).</li>
-  <li>
-<code class="highlighter-rouge">on_touch_up()</code>: Disparado quando o usuário estava solta determinada tecla.</li>
-</ul>
-
-<p>Com o evento <code class="highlighter-rouge">on_touch_move()</code> podemos verificar a posição “X” do toque para
-saber qual raquete foi arrastada. Caso <code class="highlighter-rouge">touch.x</code> seja menor que a largura
-dividida por 2 (<code class="highlighter-rouge">self.width / 2</code>), devemos arrastar a raquete da esquerda. Caso
-<code class="highlighter-rouge">touch.x</code> seja maior que a metade do campo, arrastamos a raquete da direita.</p>
-
-<p>Segue o código:</p>
+<p>Para facilitar o entendimento, todas as operações estão retornando um valor igual a <code class="highlighter-rouge">True</code>, para que você entenda como cada condição é aceita:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -1052,100 +444,391 @@ dividida por 2 (<code class="highlighter-rouge">self.width / 2</code>), devemos 
 9
 10
 11
+12
+13
+14
+15
+16
+17
+18
+19
 </pre></td>
-<td class="code"><pre><span class="c1"># Captura o evento on_touch_move (arrastar de dedo na tela)
-</span><span class="k">def</span> <span class="nf">on_touch_move</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">touch</span><span class="p">):</span>
-    <span class="c1"># Verifica se toque foi do lado esquerdo da tela
-</span>    <span class="k">if</span> <span class="n">touch</span><span class="p">.</span><span class="n">x</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="p">.</span><span class="n">width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">:</span>
-        <span class="c1"># Atualiza altura da raquete esquerda
-</span>        <span class="bp">self</span><span class="p">.</span><span class="n">raquete_1</span><span class="p">.</span><span class="n">center_y</span> <span class="o">=</span> <span class="n">touch</span><span class="p">.</span><span class="n">y</span>
+<td class="code"><pre><span class="n">var</span> <span class="o">=</span> <span class="mi">5</span>
 
-    <span class="c1"># Verifica se toque foi do lado direito da tela
-</span>    <span class="k">if</span> <span class="n">touch</span><span class="p">.</span><span class="n">x</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="p">.</span><span class="n">width</span> <span class="o">-</span> <span class="bp">self</span><span class="p">.</span><span class="n">width</span> <span class="o">/</span> <span class="mi">2</span><span class="p">:</span>
-        <span class="c1"># Atualiza altura da raquete direita
-</span>        <span class="bp">self</span><span class="p">.</span><span class="n">raquete_2</span><span class="p">.</span><span class="n">center_y</span> <span class="o">=</span> <span class="n">touch</span><span class="p">.</span><span class="n">y</span>
+<span class="k">if</span> <span class="n">var</span> <span class="o">==</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Os valores são iguais'</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">var</span> <span class="o">!=</span> <span class="mi">7</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'O valor não é igual a 7'</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">var</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'O valor da variável é maior de 2'</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">var</span> <span class="o">&gt;=</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'O valor da variável é maior ou igual a 5'</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">var</span> <span class="o">&lt;</span> <span class="mi">7</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'O valor da variável é menor que 7'</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">var</span> <span class="o">&lt;=</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'O valor da variável é menor ou igual a 5'</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Bom, com isso, acho que percorremos boa parte do código. Agora cabe a você 
-explorar o que ficou faltando! <img class="emoji" title=":sunglasses:" alt=":sunglasses:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png" height="20" width="20"></p>
+<p>Resultado do código acima:</p>
 
-<p>Lembrando que <strong>qualquer</strong> dúvida é sempre muito bem vinda na nossa seção de 
-discussão aqui embaixo!</p>
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td>
+<td class="code"><pre>Os valores são iguais
+O valor não é igual a 5
+O valor da variável é maior de 5
+O valor da variável é maior ou igual a 5
+O valor da variável é menor que 7
+O valor da variável é menor ou igual a 5
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
-<p>Ah, e mais uma vez, para aqueles que ainda não estão inscritos na nossa lista 
-de emails: essa é sua última chance de ficar por dentro <strong>em primeira mão dos
-nossos <em>posts</em></strong>! Se inscreve aí! <img class="emoji" title=":punch:" alt=":punch:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png" height="20" width="20"></p>
+<h2 id="operadores-de-atribuição">Operadores de Atribuição</h2>
 
-<div class="email-signup" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="signup-body">
-				<span class="greeting">Olá <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"> Está gostando do artigo?</span>
-				<span class="signup-text">Então cadastre o seu email para <span class="underline">receber gratuitamente</span> mais conteúdos como este!</span>
-		        <!-- Include MailChimp email form with input and submit button -->
-<!-- Parameters: Quero! = button label  -->
+<p>Esse Operadores são utilizados no momento da <strong>atribuição</strong> de valores à variáveis e controlam como a atribuição será realizada.</p>
 
-<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate="">
-    <div id="mc_embed_signup_scroll" class="mailchimp-signup container-fluid">        
-        <div class="row no-gutters">
-            <div class="col-xs-3">
-                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="">
-            </div>
-            
-            <div class="col-xs-5">                
-                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="">                
-            </div>
+<p>Veja quais Operadores de Atribuição estão disponíveis em Python:</p>
 
-            <div class="col-xs-4">
-                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
-                    <span><img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> Quero!</span>
-                </button>        
-            </div>
-        </div>
-    </div>	
+<table class="post-table">
+  <thead>
+    <tr>
+      <th style="text-align: center">Operador</th>
+      <th style="text-align: left">Equivalente a</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">=</code></td>
+      <td style="text-align: left">x = 1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">+=</code></td>
+      <td style="text-align: left">x = x + 1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">-=</code></td>
+      <td style="text-align: left">x = x - 1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">*=</code></td>
+      <td style="text-align: left">x = x * 1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">/=</code></td>
+      <td style="text-align: left">x = x / 1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">%=</code></td>
+      <td style="text-align: left">x = x % 1</td>
+    </tr>
+  </tbody>
+</table>
 
-    <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>            
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
-</form>
-		    </div>
-		</div>
-	</div>      
-</div>
+<p>Exemplo da utilização de cada operador de atribuição mencionado acima:</p>
 
-<p>Espero que você tenha aprendido e curtido bastante! <img class="emoji" title=":ok_hand:" alt=":ok_hand:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44c.png" height="20" width="20"></p>
+<p><img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> <strong>Operador <code class="highlighter-rouge">+=</code></strong>:</p>
 
-<h2 id="conclusão">Conclusão</h2>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre><span class="n">numero</span> <span class="o">=</span> <span class="mi">5</span>
 
-<p>O Kivy é uma ferramenta bastante poderosa na criação de interfaces gráficas! 
-Principalmente pelo fato de poder contar com a simplicidade do Python.</p>
+<span class="n">numero</span> <span class="o">+=</span> <span class="mi">7</span>
+<span class="k">print</span><span class="p">(</span><span class="n">numero</span><span class="p">)</span>  <span class="c1"># Resultado será 10</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
-<p>O que eu não achei interessante foi a forma de descrever o <em>layout</em> de maneira 
-separada, nos arquivos <code class="highlighter-rouge">.kv</code>. Achei que alguns elementos ficaram soltos, como
-por exemplo configurar a direção da transição utilizando o 
-<code class="highlighter-rouge">root.manager.transition.direction</code>.</p>
+<p><img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> <strong>Operador <code class="highlighter-rouge">-=</code></strong>:</p>
 
-<p>Outra desvantagem é a interface padrão de botões, campos de entrada, 
-<em>tabs</em> entre outros que o Kivy nos proporciona.</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre><span class="n">numero</span> <span class="o">=</span> <span class="mi">5</span>
 
-<p>Com relação à documentação, achei ela boa, mas apenas no “caminho feliz”. Quando as 
-coisas apertam, é preciso recorrer ao nosso bom e velho StackOverflow.</p>
+<span class="n">numero</span> <span class="o">-=</span> <span class="mi">3</span>
+<span class="k">print</span><span class="p">(</span><span class="n">numero</span><span class="p">)</span>  <span class="c1"># Resultado será 2</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
-<p>Achei difícil comparar o Kivy com outros <em>frameworks</em> mais maduros que 
-encontramos no mercado, como por exemplo, o Ionic, que traz a facilidade de utilizar 
-HTML/CSS/Javascript para desenvolvimento de aplicativos móveis e PyQT para 
-aplicações <em>desktop</em>.</p>
+<p><img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> <strong>Operador <code class="highlighter-rouge">*=</code></strong>:</p>
 
-<p>Em resumo, gostei de desenvolver utilizando Kivy. O código é bem estruturado e fácil 
-de desenvolver, muito por conta do Python. Mas fazer algo bonito no Kivy é uma tarefa
-bastante complicada! <img class="emoji" title=":pensive:" alt=":pensive:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f614.png" height="20" width="20"></p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre><span class="n">numero</span> <span class="o">=</span> <span class="mi">5</span>
 
-<p><strong>É isso aí pessoal!</strong></p>
+<span class="n">numero</span> <span class="o">*=</span> <span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="n">numero</span><span class="p">)</span>  <span class="c1"># Resultado será 10</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
-<p>Nos vemos no próximo <em>post</em>! <img class="emoji" title=":grin:" alt=":grin:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f601.png" height="20" width="20"></p>
+<p><img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> <strong>Operador <code class="highlighter-rouge">/=</code></strong>:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre><span class="n">numero</span> <span class="o">=</span> <span class="mi">5</span>
+
+<span class="n">numero</span> <span class="o">/=</span> <span class="mi">4</span>
+<span class="k">print</span><span class="p">(</span><span class="n">numero</span><span class="p">)</span>  <span class="c1"># Resultado será 1.25</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> <strong>Operador <code class="highlighter-rouge">%=</code></strong>:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre><span class="n">numero</span> <span class="o">=</span> <span class="mi">5</span>
+
+<span class="n">numero</span> <span class="o">%=</span> <span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="n">numero</span><span class="p">)</span>  <span class="c1"># Resultado será 1</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><em><strong>Obs: O operador <code class="highlighter-rouge">%</code> é chamado módulo e nada mais é que o resto da divisão. No exemplo acima: 5 dividido por 2 dá 2 de resultado e sobra 1. Por isso <code class="highlighter-rouge">numer %= 2</code> será <code class="highlighter-rouge">1</code>!</strong></em></p>
+
+<h2 id="operadores-lógicos">Operadores Lógicos</h2>
+
+<p>Esses Operadores nos possibilitam construir um tipo de teste muito útil e muito utilizado em qualquer programa Python: os <strong>testes lógicos</strong>.</p>
+
+<p>Python nos disponibiliza três tipos de Operadores Lógicos: o <code class="highlighter-rouge">and</code>, o <code class="highlighter-rouge">or</code> e o <code class="highlighter-rouge">not</code>.</p>
+
+<p>Vamos ver mais sobre eles agora!</p>
+
+<table class="post-table">
+  <thead>
+    <tr>
+      <th style="text-align: center">Operador</th>
+      <th style="text-align: left">Definição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">and</code></td>
+      <td style="text-align: left">Retorna True se ambas as afirmações forem verdadeiras</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">or</code></td>
+      <td style="text-align: left">Retorna True se uma das afirmações for verdadeira</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">not</code></td>
+      <td style="text-align: left">retorna Falso se o resultado for verdadeiro</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Exemplo da utilização de cada um:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+</pre></td>
+<td class="code"><pre><span class="n">num1</span> <span class="o">=</span> <span class="mi">7</span>
+<span class="n">num2</span> <span class="o">=</span> <span class="mi">4</span>
+
+<span class="c1"># Exemplo and
+</span><span class="k">if</span> <span class="n">num1</span> <span class="o">&gt;</span> <span class="mi">3</span> <span class="ow">and</span> <span class="n">num2</span> <span class="o">&lt;</span> <span class="mi">8</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"As Duas condições são verdadeiras"</span><span class="p">)</span>
+
+<span class="c1"># Exemplo or
+</span><span class="k">if</span> <span class="n">num1</span> <span class="o">&gt;</span> <span class="mi">4</span> <span class="ow">or</span> <span class="n">num2</span> <span class="o">&lt;=</span> <span class="mi">8</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Uma ou duas das condições são verdadeiras"</span><span class="p">)</span>
+
+<span class="c1"># Exemplo not
+</span><span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">num1</span> <span class="o">&lt;</span> <span class="mi">30</span> <span class="ow">and</span> <span class="n">num2</span> <span class="o">&lt;</span> <span class="mi">8</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Inverte o resultado da condição entre os parânteses'</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="operadores-de-identidade">Operadores de Identidade</h2>
+
+<p>Estes Operadores são utilizados para comparar objetos, verificando se os objetos testados referenciam o mesmo objeto (<code class="highlighter-rouge">is</code>) ou não (<code class="highlighter-rouge">is not</code>).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Operador</th>
+      <th style="text-align: left">Definição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">is</code></td>
+      <td style="text-align: left">Retorna <code class="highlighter-rouge">True</code> se ambas as variáveis são o mesmo objeto</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">is not</code></td>
+      <td style="text-align: left">Retorna <code class="highlighter-rouge">True</code> se ambas as variáveis não forem o mesmo objeto</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Agora vamos aos exemplos de como utilizar cada operador de identidade mencionado acima:</p>
+
+<p>Exemplo do operador <code class="highlighter-rouge">is</code>:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td>
+<td class="code"><pre><span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="n">outra_lista</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="n">recebe_lista</span> <span class="o">=</span> <span class="n">lista</span>
+
+<span class="c1"># Recebe True, pois são o mesmo objeto
+</span><span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"São o mesmo objeto? </span><span class="si">{</span><span class="n">lista</span> <span class="ow">is</span> <span class="n">recebe_lista</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+
+<span class="c1"># Retorna False, pois são objetos diferentes
+</span><span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"São o mesmo objeto? </span><span class="si">{</span><span class="n">lista</span> <span class="ow">is</span> <span class="n">outra_lista</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Resultado do código acima:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>São o mesmo objeto? True
+São o mesmo objeto? False
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Exemplo do operador <code class="highlighter-rouge">is not</code>:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre><span class="n">tupla</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">outra_tupla</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Os objetos são diferentes? </span><span class="si">{</span><span class="n">outra_tupla</span> <span class="ow">is</span> <span class="n">tupla</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Resultado do código acima:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>Os objetos são diferentes? True
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Muitas vezes programadores Python ficam na dúvida em quando utilizar o operador de igualdade <code class="highlighter-rouge">==</code> ou o operador de identidade <code class="highlighter-rouge">is</code>.</p>
+
+<p>Mas agora que você já conhece os dois sabe que o operador <code class="highlighter-rouge">==</code> verifica os <strong>valores</strong> testados, enquanto o operador <code class="highlighter-rouge">is</code> testa a <strong>referência</strong> dos valores testados! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+
+<h2 id="operadores-de-associação">Operadores de Associação</h2>
+
+<p>Por último, temos os Operadores de Associação.</p>
+
+<p>Eles servem para verificar se determinado objeto está <strong>associado</strong> ou <strong>pertence</strong> a determinada estrutura de dados.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Operador</th>
+      <th style="text-align: left">Função</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">in</code></td>
+      <td style="text-align: left">Retorna <code class="highlighter-rouge">True</code> caso o valor seja encontrado na sequência</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">not in</code></td>
+      <td style="text-align: left">Retorna <code class="highlighter-rouge">True</code> caso o valor não seja encontrado na sequência</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Exemplo da utilização de cada operador de associação mencionado acima:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td>
+<td class="code"><pre><span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Python"</span><span class="p">,</span> <span class="s">'Academy'</span><span class="p">,</span> <span class="s">"Operadores"</span><span class="p">,</span> <span class="s">'Condições'</span><span class="p">]</span>
+
+<span class="c1"># Verifica se existe a string dentro da lista
+</span><span class="k">print</span><span class="p">(</span><span class="s">'Python'</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">)</span>  <span class="c1"># Saída: True
+</span>
+<span class="c1"># Verifica se não existe a string dentro da lista
+</span><span class="k">print</span><span class="p">(</span><span class="s">'SQL'</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">)</span> <span class="c1"># Saída: True</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 class="no_toc" id="conclusão">Conclusão</h2>
+
+<p>Vimos nesse post os diversos tipos de Operadores que o Python disponibiliza para que possamos desenvolver nossos scripts na Linguagem!</p>
+
+<p>Agora que você já sabe como utilizá-los, você deu um passo importante para conhecer a fundo a linguagem Python!</p>
+
+<p>Se ficou com alguma dúvida, fique à vontade para deixar um comentário no box aqui embaixo! Será um prazer te responder! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+
+<p>Se gostou desse conteúdo, que tal fazer um <strong>CURSO COMPLETO</strong> de Python com Certificado Profissional, suporte individual e personalizado e 7 dias de garantia? <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></p>
+
+<p><a href="https://go.hotmart.com/A55372730Q" target="_blank">
+    <img data-aos="zoom-out" class="python-course-post-banner hidden-xs img-responsive lazyload" height="170px" width="100%" alt="Curso de Python" loading="lazy" data-src="/assets/img/banner-curso-python.png">
+    <img data-aos="zoom-out" class="python-course-post-banner visible-xs img-responsive lazyload" alt="Curso de Python" loading="lazy" height="227px" width="100%" data-src="/assets/img/banner-curso-python-mobile.png">
+</a></p>
 
 
 
@@ -1156,35 +839,33 @@ bastante complicada! <img class="emoji" title=":pensive:" alt=":pensive:" src="h
 						<div class="blog-post-colophon">
 							<div class="row">
 								<div class="col-xs-12 col-sm-3 text-center">									
-									<img width="152px" height="152px" alt="Autor" class="profile-img lazyload" data-src="/assets/authors/vinicius-ramos/avatar.png">
+									<img width="152px" height="152px" alt="Autor" class="profile-img lazyload" data-src="/assets/authors/erickson-lopes/avatar.png">
 								</div>
 
 								<div class="col-xs-12 col-sm-9">
 									<div class="blog-post-meta">
 										<h2>
 											<span class="blog-post-by">
-												Por Vinícius Ramos
+												Por Erickson Lopes
 											</span>
 
-											<b>em <time datetime="2018-04-08" pubdate>08/04/2018</time></b>
+											<b>em <time datetime="2021-07-18" pubdate>18/07/2021</time></b>
 										</h2>
 	
-										<p class="short-description">"<i>Porque o Senhor dá a sabedoria, e da sua boca vem a inteligência e o entendimento. - Provérbios 2:6 </i>"</p>
+										<p class="short-description">"<i>O infinito é o limite</i>"</p>
 
 										<p class="author-media-label">Minhas redes:</p>
 										
 										<ul>
 											
-											<li><a href="https://www.linkedin.com/in/vinicius-aramos" target="_blank"><i class="fa fa-linkedin-square" style="color: #0072b1;" aria-hidden="true"></i></a></li>
+											<li><a href="https://www.linkedin.com/in/ericksonlopes" target="_blank"><i class="fa fa-linkedin-square" style="color: #0072b1;" aria-hidden="true"></i></a></li>
 																						
 											
-											<li><a href="mailto:vinicius.ramos@pythonacademy.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+											<li><a href="mailto:ofc.ericksonlds@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 																						
 											
-											<li><a href="https://github.com/viniciusramos91" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+											<li><a href="https://github.com/Erickson-lopes-dev" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 											
-											
-											<li><a href="https://stackoverflow.com/users/6775679/viniciusramos91" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
 											
 											
 										</ul>
@@ -1233,25 +914,25 @@ bastante complicada! <img class="emoji" title=":pensive:" alt=":pensive:" src="h
 			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
 			<ul>				
 				<li>
-					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
 						<i class="fa fa-fw fa-facebook"></i>
 					</a>
 				</li>				
 				
 				<li>							
-					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy&amp;related=PythonAcademyBR&amp;text=%22Crie%20jogos%20com%20Kivy%20e%20Python%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python&amp;related=PythonAcademyBR&amp;text=%22Operadores%20Aritm%C3%A9ticos%20e%20Operadores%20L%C3%B3gicos%20em%20Python%22%20por%20Erickson%20Lopes','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
 						<i class="fa fa-fw fa-twitter"></i>
 					</a>
 				</li>
 
 				<li>
-					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy" data-action="share/whatsapp/share">
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python" data-action="share/whatsapp/share">
 						<i class="fa fa-fw fa-whatsapp"></i>
 					</a>
 				</li>
 
 				<li>
-					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Crie%20jogos%20com%20Kivy%20e%20Python&amp;body=https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Operadores%20Aritm%C3%A9ticos%20e%20Operadores%20L%C3%B3gicos%20em%20Python&amp;body=https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
 						<i class="fa fa-fw fa-envelope"></i>
 					</a>
 				</li>
@@ -1474,7 +1155,7 @@ bastante complicada! <img class="emoji" title=":pensive:" alt=":pensive:" src="h
 							var post = posts[randomIndex];
 
 							// Verify if related post is the same as the shown
-							if (post.title != "Crie jogos com Kivy e Python") {
+							if (post.title != "Operadores Aritméticos e Operadores Lógicos em Python") {
 								var postHTML = 
 									"<div class='col-lg-3 col-md-6 col-sm-6 col-xs-12'>" +
 										"<a href='" + post.href + "' class='card recommended-post-card'>" +
@@ -1509,7 +1190,7 @@ bastante complicada! <img class="emoji" title=":pensive:" alt=":pensive:" src="h
 						$('#email-modal').modal('show');
 
 						/* Set cookie so this does not repeat */
-						Cookies.set('pa_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy' });
+						Cookies.set('pa_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python' });
 					}
 				});		
 				
@@ -1531,9 +1212,9 @@ bastante complicada! <img class="emoji" title=":pensive:" alt=":pensive:" src="h
 					laziness: 1,
 					throttle: 250,
 					disqusConfig: function() {
-						this.page.title       = 'Crie jogos com Kivy e Python';
-						this.page.url         = 'https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy';
-						this.page.identifier  = '/blog/como-criar-jogos-com-python-e-kivy';
+						this.page.title       = 'Operadores Aritméticos e Operadores Lógicos em Python';
+						this.page.url         = 'https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python';
+						this.page.identifier  = '/blog/operadores-aritmeticos-e-logicos-em-python';
 					}
 				};
 
