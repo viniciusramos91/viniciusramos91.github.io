@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Estuturas Condicionais no Python",
+      "title": "If/Elif/Else: as Estuturas Condicionais do Python",
+      "href": "/blog/estruturas-condicionais-no-python",
+      "slug": "estruturas-condicionais-no-python",
+      "assets": "conditionals",
+      "author": "Erickson L",
+      "description": "<p>Esse post mostra como podemos controlar a execução de programas Python através das estruturas condicionais IF/ELIF/ELSE!</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "24",
+         "month": "July",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Operadores Aritméticos e Lógicos em Python",
       "title": "Operadores Aritméticos e Operadores Lógicos em Python",
       "href": "/blog/operadores-aritmeticos-e-logicos-em-python",
