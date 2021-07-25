@@ -1,0 +1,22 @@
+.featured-posts-section {
+    background: #efefef url('/assets/svg/blog-stars-bground.svg');
+    padding: 82px 16px;
+
+    h1 {
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        font-size: 4.5rem;
+    }
+
+    h2 {
+        font-family: 'Merriweather', serif;
+        font-weight: 100;
+        font-size: 2rem;
+        margin-bottom: 48px;
+        line-height: 32px;
+    }
+
+    .card {
+        max-height: none;
+    }
+}
