@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Programação Orientada a Objetos no Python: Introdução",
+      "title": "Introdução à Programação Orientada a Objetos no Python",
+      "href": "/blog/introducao-a-programacao-orientada-a-objetos-no-python",
+      "slug": "introducao-a-programacao-orientada-a-objetos-no-python",
+      "assets": "poo-introduction",
+      "author": "Vinícius R",
+      "description": "<p>Esse post mostra os principais conceitos do paradigma de programaçào Orientado a Objetos no Python, como: Classes, Objetos, Herança, Polimorfismo, Abstração e muito mais!</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "12",
+         "month": "August",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Estuturas Condicionais no Python",
       "title": "If/Elif/Else: as Estuturas Condicionais do Python",
       "href": "/blog/estruturas-condicionais-no-python",
