@@ -836,13 +836,14 @@
 </div>
 
 <script type="text/javascript">
-    // Show signup modal on mouse leave event
-    $( document ).ready(function() {
-        $("body").bind("mouseleave",function(){
-            // Same as included sticky-newsletter id
+    $("body").bind("mouseleave",function(){
+        if(!Cookies.get('pa_popup')) {                
             $('#follow-instagram-modal').modal('show');
-        });
-    });
+
+            /* Set cookie so this does not repeat */
+            Cookies.set('pa_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/como-instalar-python-no-linux' });
+        }                        
+    });    
 </script>
 
 		<!-- Cookie.js -->
