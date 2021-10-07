@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Python 3.10: novidades da versão",
+      "title": "Python 3.10: funcionalidades e novidades da versão",
+      "href": "/blog/python-3-10-o-que-ha-de-novo",
+      "slug": "python-3-10-o-que-ha-de-novo",
+      "assets": "python310",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post vamos ver o que há de novo na tão aguardada versão 3.10 do Python!</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "06",
+         "month": "October",
+         "year": "2021"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Programação Orientada a Objetos no Python: Introdução",
       "title": "Introdução à Programação Orientada a Objetos no Python",
       "href": "/blog/introducao-a-programacao-orientada-a-objetos-no-python",
