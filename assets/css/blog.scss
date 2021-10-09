@@ -1,11 +1,12 @@
 .featured-posts-section {
     background: #efefef url('/assets/svg/blog-stars-bground.svg');
-    padding: 82px 16px;
+    padding: 56px 16px 36px 16px;
 
     h1 {
         font-family: 'Merriweather', serif;
         font-weight: bold;
         font-size: 4.5rem;
+        color: #3e464f;
     }
 
     h2 {
@@ -14,6 +15,7 @@
         font-size: 2rem;
         margin-bottom: 48px;
         line-height: 32px;
+        color: #3e464f;
     }
 
     .card {
