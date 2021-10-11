@@ -4,25 +4,31 @@
 #about {
     
     .about-banner {
-        padding: 148px 0;
+        padding: 76px 16px;
         border-top: 1px solid #E2E2E2;
         border-bottom: 1px solid #E2E2E2;
-        background: #F7F7F7 url('/assets/svg/dark-bground-pattern.svg');
-        text-align: center;
+        background: #efefef url("/assets/svg/blog-stars-bground.svg");
 
         h1 {
-            font-family: 'Roboto Condensed', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
             color: #444;
-            font-size: 4rem;
+            font-size: 3rem;
             font-weight: bold;
             margin: 0 auto;
-            max-width: 810px;
+        }
+
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #777;
+            margin-top: 0;
+            text-transform: uppercase;
         }
     }
     
     .about-container {
         padding: 64px 32px;
-        max-width: 810px;        
         
         p {
             margin-bottom: 16px;
@@ -33,26 +39,28 @@
         }
 
         p, ul, li {
-            font-family: 'Raleway', sans-serif;
-            color: #3e464f; 
+            font-family: 'Droid Serif', sans-serif;
+            color: #3e464f;
             font-size: 1.8rem;
+            font-weight: 100;
+            line-height: 3rem;
             
             &.hello {
                 font-family: 'Shadows Into Light', cursive;
-                font-size: 3rem;
-                margin-bottom: 3rem;
+                font-size: 5rem;
+                margin-bottom: 5rem;
             }            
         }
 
         .signature {
             margin-top: 6rem;
-            margin-bottom: 0;            
-            font-size: 3rem;
+            margin-bottom: 12px;            
+            font-size: 4.5rem;
             font-family: 'Cedarville Cursive', cursive;
         }
         
         .founder {
-            font-size: 1.5rem;            
+            font-size: 1.75rem;            
             color: #888;
         }
     }

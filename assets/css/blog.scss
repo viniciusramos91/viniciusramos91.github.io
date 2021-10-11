@@ -1,19 +1,21 @@
 .featured-posts-section {
     background: #efefef url('/assets/svg/blog-stars-bground.svg');
-    padding: 56px 16px 36px 16px;
+    padding: 60px 16px;
 
     h1 {
-        font-family: 'Merriweather', serif;
+        font-family: 'Ubuntu', sans-serif;
         font-weight: bold;
-        font-size: 4.5rem;
+        color: #3e464f;
+        font-size: 4rem;
+        margin-top: 0;
         color: #3e464f;
     }
 
     h2 {
-        font-family: 'Merriweather', serif;
-        font-weight: 100;
-        font-size: 2rem;
-        margin-bottom: 48px;
+        font-family: 'Open Sans', serif;
+        font-weight: 400;
+        font-size: 1.7rem;
+        margin-bottom: 32px;
         line-height: 32px;
         color: #3e464f;
     }

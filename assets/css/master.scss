@@ -152,7 +152,7 @@ body::-webkit-scrollbar-thumb {
                     font-family: 'Oswald', sans-serif;
                     letter-spacing: 0.1px;
                     font-size: 15px;
-                    padding: 15px;
+                    padding: 15px 8px 15px 8px;
                     text-transform: uppercase;
                     color: #888;
                     position: relative;
@@ -193,6 +193,31 @@ body::-webkit-scrollbar-thumb {
             }
         }
     }
+
+    &.floating-white {
+        position: absolute;
+        width: 100%;
+
+        .navbar {
+            .navbar-toggle {
+                .icon-bar {
+                    background-color: #FFF;
+                }
+
+                &:hover, &:focus {
+                    background-color: #fff5;
+                }
+            }
+
+            &.navbar-default {
+                border-radius: 0;
+            }
+
+            .nav li a {
+                color: #FFFB;
+            }
+        }
+    }
 }
 
 // HEADER SECTION
@@ -200,7 +225,7 @@ body::-webkit-scrollbar-thumb {
 
 .header-section {
     background: linear-gradient(-45deg, #E2E2E2 0%, #FAFAFA 20%);
-    min-height: calc(70vh - 85px);
+    min-height: calc(80vh - 85px);
     width: 100%;
     display: table;
 
@@ -213,7 +238,7 @@ body::-webkit-scrollbar-thumb {
             vertical-align: middle;
             text-align: center;
             max-width: 100%;
-            height: calc(70vh - 85px);
+            height: calc(80vh - 85px);
             
             object {
                 max-width: 500px;
@@ -272,8 +297,10 @@ body::-webkit-scrollbar-thumb {
                 font-size: 1.5rem;
 
                 &.highlight {
+                    font-weight: bold;
+                    background: #ffcc02;
                     color: #FFF;
-                    background: linear-gradient(45deg, #6a78d1, #00a4bd);
+                    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25)
                 }
             }            
         }
@@ -281,7 +308,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .section-header {        
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 4rem;
     color: #3e464f;    
     letter-spacing: -0.5px;
@@ -982,21 +1009,20 @@ body::-webkit-scrollbar-thumb {
             display: table-cell;
             vertical-align: middle;
             text-align: left;
-            padding: 72px 0;
-            height: 375px;
+            padding: 76px 16px;
 
             .banner-text {
                 h1 {
-                    font-family: 'Merriweather', sans-serif;
-                    font-size: 6rem;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-size: 4rem;
                     color: #FFF;
                     margin: 0 0 38px 0;
                     font-weight: bold;
                 }
     
                 h2 {
-                    font-family: 'Muli', sans-serif;
-                    font-size: 1.6rem;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 1.8rem;
                     font-weight: 400;
                     color: #FFF;
                     margin: 0 0 14px 0;
@@ -1050,6 +1076,23 @@ body::-webkit-scrollbar-thumb {
         background: url("/assets/svg/stars-bground.svg"), #f3c30e;
     }
 
+    &.ebooks-banner {
+        // background: #f3c30e url('/assets/svg/blog-bground-pattern.svg');
+        background: #efefef url("/assets/svg/blog-stars-bground.svg");
+
+        .banner-wrapper .banner-content .banner-text {
+            h1 { color: #3e464f }
+            h2 { color: #3e464f }
+            h3 {
+                font-family: 'Open Sans';
+                font-weight: bold;
+                font-size: 1.5rem;
+                color: #555;
+                margin-top: 0;
+            }
+        }
+    }    
+
     &.zop-banner {
         // background: #232323 url('/assets/svg/blog-bground-pattern.svg');
         background: #232323;
@@ -1073,6 +1116,79 @@ body::-webkit-scrollbar-thumb {
     background: #f7f7f7;
     padding: 72px 0 38px 0;   
     position: relative;
+}
+
+// EBOOKS LIST
+// ================================================================
+
+.ebooks-list {
+    background: #f7f7f7;
+    padding: 72px 16px 84px 16px;
+    position: relative;
+
+    .ebook-covers {
+        article {
+            a {
+                display: block;
+
+                img {
+                    box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.25);
+                    transition: all 0.15s ease-in;
+                    margin-bottom: 48px;
+                    width: 80%;
+        
+                    &:not(.soon):hover {
+                        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+                    }          
+                    
+                    @media (max-width: 767px) {
+                        width: 50%;
+                        margin-bottom: 64px;
+                    }
+    
+                    @media (max-width: 500px) {
+                        width: 80%;
+                        margin-bottom: 48px;
+                    }
+                }    
+
+                &.soon {
+                    img {
+                        -webkit-filter: grayscale(100%);
+                        -moz-filter: grayscale(100%);
+                        -ms-filter: grayscale(100%);
+                        filter: grayscale(100%);
+                        filter: gray;                     
+                    }                
+
+                    &::after {
+                        content: url("/assets/svg/soon-badge.svg");
+                        position: absolute;
+                        top: -10px;
+                        left: 6px;
+
+                        @media (max-width: 767px) {
+                            display: none;
+                        }
+                    }
+                }                                
+            }   
+            
+            .soon-label {
+                font-family: 'Open Sans', serif;
+                font-weight: bold;
+                font-size: 1.7rem;
+                line-height: 32px;
+                color: #ffcc02;
+                text-transform: uppercase;
+                margin-bottom: 12px;
+            }
+        }   
+        
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+    }
 }
 
 // STICKY NEWSLETTER
@@ -1285,11 +1401,11 @@ body::-webkit-scrollbar-thumb {
     transition: all 0.25s ease-in;      
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1.5px;  
+    letter-spacing: 1px;  
     display: inline-block;
     border: 1px solid transparent;
     padding: 14px 48px;                
-    font-size: 1.75rem;
+    font-size: 1.65rem;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
     color: #FFF;        
 
@@ -1373,9 +1489,9 @@ body::-webkit-scrollbar-thumb {
             background: #efc42b url('/assets/svg/dark-bground-pattern.svg');
         }
 
-        @media (max-width: 767px) {                        
+        @media (max-width: 767px) {
             margin-bottom: 32px;
-        }                    
+        }
     }
 
     &.white {
