@@ -1,0 +1,102 @@
+body {
+    background: #1f2325 url("/assets/svg/blog-stars-bground.svg");
+    height: 100vh;
+
+    .header .navbar.navbar-default {
+        background: #FFF;
+    }
+
+    main {
+        padding: 15vh 5vw;
+        height: calc(100vh - 80px);   
+
+        img.emoji {
+            position: relative;
+            bottom: 6px;
+        }
+
+        h2 {
+            display: inline-block;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 6rem;
+            color: #FFF;
+            text-transform: uppercase;      
+            margin-top: 0;
+            margin-bottom: 16px;      
+        }
+
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 3.2rem;
+            color: #FFF;
+            margin-bottom: 30px;
+        }
+
+        h4 {
+            font-family: 'Montserrat', sans-serif;
+            color: #DDD;
+            font-size: 2rem;
+            line-height: 3.2rem;
+            margin-bottom: 40px;
+        }
+
+        ul {
+            li {
+                display: inline-block;
+
+                a.call-to-action.neumorphism.black {
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    border: 1px solid #2c3031;
+                    background: #1f2325;
+                    margin-right: 35px;
+                }
+            }
+        }        
+        
+        .welcome-wrapper {
+            padding: 40px;
+            border: 1px solid #2d3133;
+            border-radius: 6px;
+            background: #ffffff08;
+            margin-bottom: 24px;
+            backdrop-filter: blur( 3.5px );
+            -webkit-backdrop-filter: blur( 3.5px );   
+        }
+
+        @media(max-width: 600px) {
+            padding: 5vh 32px;
+
+            h2 {
+                font-size: 4rem;        
+            }
+
+            h3 {
+                margin-top: 0;
+                font-size: 2.4rem;
+                line-height: 3.5rem;
+            }
+
+            h4 {
+                font-size: 1.75rem;
+                line-height: 2.5rem;
+            }
+
+            ul {
+                li {
+                    display: block;
+
+                    a.call-to-action.neumorphism.black {
+                        padding: 18px 8px;
+                        text-align: center;
+                        width: 100%;
+                        margin-right: 0;
+                        margin-bottom: 40px;
+                    }
+                }
+            } 
+        }
+    }
+}

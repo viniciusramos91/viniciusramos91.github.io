@@ -1,0 +1,1095 @@
+#jornada-python-body {
+    background: #1f2325 url("/assets/svg/blog-stars-bground.svg");
+    
+    .header .navbar .nav li a {
+        color: #ddd;
+    }
+    
+    #jornada-python-main {
+        section#headline {
+            overflow: hidden;
+            padding: 8rem 16px;
+            background: #1f2325;
+            
+            img.logo-headline {
+                width: 500px; 
+                margin-bottom: 16px;               
+                
+                @media(max-width: 600px) {
+                    width: 90%;                    
+                }
+            }
+            
+            h1 {
+                font-family: 'Montserrat', sans-serif;
+                color: #eee;
+                font-size: 3.25rem;
+                line-height: 4rem;
+                margin-bottom: 48px;                
+                font-weight: bold;
+                
+                .highlight {
+                    background: -webkit-linear-gradient(#eee, #333);
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;                    
+                    color: #9d5eb7;
+                    text-shadow: 0px 0px 2px #9d5eb7;
+                }
+                
+                @media(max-width: 500px) {
+                    font-size: 2.5rem;
+                    line-height: 2.75rem;
+                    margin-bottom: 28px;
+                    margin-top: 12px;
+                }
+            }
+            
+            .row {
+                display: flex;
+                
+                .col-sm-6, col-md-4 {
+                    align-self: center;
+                }
+
+                @media(max-width: 767px) {
+                    & {
+                        display: block;
+                    }
+                }
+            }
+            
+            .headline-text {    
+                h2 {
+                    font-family: 'Montserrat', sans-serif;
+                    color: #ccc;
+                    font-size: 1.9rem;
+                    line-height: 3.25rem;
+                    margin-bottom: 48px;
+                    margin-top: 48px;
+                    
+                    .highlight {      
+                        color: #f1c40f;              
+                        text-shadow: 0px 0px 2px #f1c40f;
+                    }
+                    
+                    @media(max-width: 500px) {
+                        font-size: 1.4rem;
+                        line-height: 2.15rem;
+                        margin-top: 0;
+                    }
+                }            
+                
+                button.headline-cta {
+                    display: block;     
+                    text-align: center;           
+                    margin: 16px auto;
+                    background-color: #834a9a;
+                    box-shadow: 0px 0px 18px #9d5eb7;
+                    border: 1px solid #b772d4;                
+                    border-radius: 48px;
+                    padding: 0;                
+                    -webkit-animation: pulse;
+                    animation: pulse;
+                    -webkit-animation-duration: 1.5s;
+                    animation-duration: 1.5s;             
+                    -webkit-animation-iteration-count: infinite;   
+                    animation-iteration-count: infinite;                
+                    transition: all 0.15s ease-in-out;
+                    
+                    a {
+                        display: inline-block;
+                        padding: 14px 36px;
+                        font-size: 2.5rem;
+                        font-family: 'Montserrat', sans-serif;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        color: #FFF;
+                    }
+                    
+                    &:hover, 
+                    &:focus {
+                        border-color: #f1c40f88;
+                        background-color: #72388a;
+                        box-shadow: 0px 0px 0px #00000000;
+                        -webkit-animation: none;
+                        animation: none;
+                    }
+                    
+                    @-webkit-keyframes pulse {
+                        0% {
+                            box-shadow: 0px 0px 6px #9d5eb700;
+                        }
+                        50% {
+                            box-shadow: 0px 0px 6px #9d5eb700;
+                        }
+                        70% {
+                            box-shadow: 0px 0px 28px #9d5eb7;
+                        }
+                        100% {
+                            box-shadow: 0px 0px 6px #9d5eb700;
+                        }
+                    }
+                    
+                    @keyframes pulse {
+                        0% {
+                            box-shadow: 0px 0px 6px #9d5eb700;
+                        }
+                        50% {
+                            box-shadow: 0px 0px 6px #9d5eb700;
+                        }
+                        70% {
+                            box-shadow: 0px 0px 28px #9d5eb7;
+                        }
+                        100% {
+                            box-shadow: 0px 0px 6px #9d5eb700;
+                        }
+                    }
+                    
+                    @media(max-width: 500px) {
+                        width: 100%;
+                        
+                        a {
+                            padding: 14px 8px;
+                            font-size: 1.35rem;
+                        }
+                    }
+                }
+            }
+            
+            .email-form-wrapper {
+                h3 {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    font-size: 1.75rem;
+                }
+            }
+            
+            small.headline-small {
+                font-family: 'Roboto', sans-serif;
+                color: #f1c40e;
+                text-transform: uppercase;
+                font-weight: bold;
+                text-shadow: 0 0 2px rgb(241, 196, 14);
+                letter-spacing: 1px;
+                font-size: 1.1rem;
+            }
+
+            @media(max-width: 767px) {
+                padding: 4rem 16px;
+
+                .email-form-wrapper {
+                    margin-right: 0;
+                    margin-left: 0;
+                }
+            }
+        }
+        
+        section#target-audiences {
+            padding: 4rem 16px;
+            
+            h4 {
+                font-family: 'Roboto', sans-serif;
+                text-transform: uppercase;
+                font-size: 1.75rem;
+                letter-spacing: 3px;
+                color: #9d5eb7;
+                font-weight: bold;
+                margin-bottom: 30px;
+                text-shadow: 0px 0px 5px #8e44ac;
+            }
+            
+            .target-audience {
+                padding: 16px;
+                
+                img {
+                    max-width: 175px;
+                    margin-bottom: 16px;
+                }
+                
+                p.audience-name {
+                    font-family: 'Montserrat', sans-serif;
+                    color: #f1c40f;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                }
+                
+                p.audience-description {
+                    font-family: 'Roboto', sans-serif;
+                    color: #ccc;
+                    font-size: 1.55rem;
+                }
+            }
+        }
+        
+        section#vip-advantages {
+            background: #141617 url("/assets/svg/blog-stars-bground.svg");
+            border-top: 1px solid #313435;
+            padding: 6rem 16px;
+            
+            .vip-label {
+                font-family: 'Roboto', sans-serif;
+                text-transform: uppercase;
+                font-size: 2.15rem;
+                letter-spacing: 3px;
+                color: #9d5eb7;
+                font-weight: bold;
+                margin-bottom: 38px;
+                text-shadow: 0px 0px 5px #8e44ac;
+                
+                @media(max-width:500px) {
+                    font-size: 1.6rem;
+                }
+            }     
+        }
+        
+        section#why-python {
+            background: #F2F2F2;
+            padding: 8rem 16px;
+            
+            .feature {
+                display: flex;
+                align-items: center;
+                
+                .feature-description {
+                    text-align: left;
+                    align-self: center;
+                    flex: 0.6;
+                    padding-right: 64px;
+                    
+                    h2 {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 2.7rem;
+                        font-weight: bold;
+                        color: #585c61;
+                        margin: 0;
+                        margin-bottom: 16px;
+                    }
+                    
+                    p {
+                        font-family: 'Montserrat', serif;
+                        font-size: 1.55rem;
+                        color: #4b545e;
+                        line-height: 2.5rem;
+                        margin-bottom: 32px;
+                        margin: 0;
+                    }    
+                    
+                    img { 
+                        position: relative;
+                        bottom: 3px;
+                    }                    
+                }
+                
+                .feature-image {
+                    flex: 0.4;
+                    
+                    img {
+                        box-shadow: 0 3px 8px #00000033;
+                        border-radius: 8px;
+                        display: block;
+                        margin: 0 auto 10px auto;
+                    }
+                    
+                    span {
+                        font-family: 'Montserrat';
+                        font-size: 1.3rem;
+                        color: #777;
+                    }
+                }
+                
+                @media(max-width: 991px) {
+                    display: block;
+                    
+                    .feature-description {
+                        padding: 0;
+                        margin-bottom: 22px;
+                    }          
+                    
+                    .feature-image {
+                        img {
+                            width: 100%;
+                            max-width: 550px;
+                        }
+                    }
+                }
+            }
+            
+            h3 {
+                font-family: 'Ubuntu', sans-serif;
+                margin: 42px;
+                color: #3e464f;
+            }
+            
+            img.python-company {
+                box-shadow: 0px 4px 7px #0001;
+                border-radius: 8px;
+                border: 1px solid #e2e2e2;
+                margin-bottom: 8px;
+            }
+            
+            img.coders {
+                max-width: 360px;
+                border-radius: 15px;
+            }
+            
+            hr {
+                border-top: 1px solid #e2e2e2;
+            }
+            
+            @media(max-width: 500px) {
+                h3 {
+                    margin: 0;
+                    margin-bottom: 32px;
+                }
+            }
+        }
+        
+        section#modules {
+            position: relative;
+            overflow: hidden;
+            padding: 10rem 16px;
+            
+            h2 {
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 4rem;
+                color: #eee;
+                letter-spacing: -0.5px;
+                margin: 0 0 48px 0;
+                
+                img {
+                    position: relative;
+                    bottom: 3px;
+                    height: 35px;
+                    width: 33px;
+                }
+            }
+            
+            h3 {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 2rem;
+                line-height: 3rem;
+                color: #ccc;
+                margin-bottom: 64px;
+            }
+            
+            h4.bonuses {
+                display: inline-block;
+                font-family: 'Roboto Condensed', sans-serif;
+                text-transform: uppercase;
+                font-size: 1.75rem;
+                letter-spacing: 3px;
+                color: #f1c40f;
+                font-weight: bold;
+                margin-bottom: 16px;
+                text-shadow: 0px 0px 5px #f1c40f;
+            }
+            
+            h5.bonuses-description {
+                font-family: 'Muli', sans-serif;
+                color: #eee;
+                margin-bottom: 30px;
+                font-size: 1.65rem;
+            }            
+            
+            .course-component {
+                padding: 40px;
+                border: 1px solid #2d3133;
+                border-radius: 6px;
+                background: #ffffff08;
+                margin-bottom: 24px;
+                backdrop-filter: blur( 3.5px );
+                -webkit-backdrop-filter: blur( 3.5px );  
+                
+                img.career-guide-ebook {
+                    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
+                    border: 1px solid #2f2f2f;
+                    width: 100%;
+                    max-width: 170px;
+                }
+                
+                p.ebook-label {
+                    font-family: 'Roboto Condensed';
+                    color: #bbb;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    margin-bottom: 7px;
+                    margin-top: 0;
+                    font-size: 1.5rem;
+                    text-transform: uppercase;
+                    
+                    &.exclusive {
+                        display: inline-block;
+                        background: #9d5eb7;
+                        line-height: 1;
+                        padding: 6px 12px;
+                        border-radius: 11px;
+                        color: #FFF;
+                        text-shadow: 0px 0px 2px #000000aa;
+                        font-size: 1.35rem;
+                        margin-bottom: 16px;
+                    }
+                }
+                
+                h4 {
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    color: #f1c40e;
+                    font-size: 3.75rem;
+                    margin-bottom: 20px;
+                    margin-top: 0;
+                }
+                
+                h5 {
+                    color: #ddd;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 1.8rem;
+                    line-height: 2.8rem;
+                    margin-bottom: 24px;
+                    font-weight: 400;
+                }
+                
+                .btn-modal { 
+                    padding: 12px;
+                    width: 100%;
+                    border-radius: 8px;
+                    border: 0;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    padding: 12px;
+                    box-shadow: 0 0 8px #625727;
+                    background: linear-gradient(45deg, #947a11, #eccf58);
+                    border: 1px solid #f1c40f;
+                    
+                    &.yellow {
+                        background: #f1c40e;
+                        color: #4b5052;
+                    }
+                    
+                    &.blue {
+                        background: #f1c40e;
+                        color: #4b5052;
+                    }
+                    
+                    &.purple {
+                        background: #f1c40e;
+                        color: #4b5052;
+                    }
+                }
+                
+                &.career-ebook {
+                    .row {
+                        display: flex;
+                    }
+                    
+                    .col-md-3 {
+                        align-self: center;
+                    }
+                    
+                    @media(max-width: 767px) {
+                        .row {
+                            display: block;
+                        }
+                        
+                        .col-md-3 {
+                            align-self: unset;
+                        }
+                        
+                        img.career-guide-ebook {
+                            margin-bottom: 48px;
+                        }
+                    }
+                }
+                
+                @media(max-width: 500px) {
+                    padding: 30px;
+                    
+                    h4 {
+                        font-size: 3rem;
+                        margin-bottom: 16px;
+                    }
+                    
+                    h5 {
+                        font-size: 1.5rem;
+                        line-height: 2.2rem;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+            
+            .course-module {
+                padding: 20px;
+                border: 1px solid #2d3133;
+                border-radius: 6px;
+                background: #ffffff08;
+                margin-bottom: 24px;
+                backdrop-filter: blur( 3.5px );
+                -webkit-backdrop-filter: blur( 3.5px );
+                transition: all 0.15s ease-in;
+                
+                h4 {
+                    font-family: 'Roboto Condensed', sans-serif;
+                    text-transform: uppercase;
+                    color: #ccc;
+                    font-size: 1.35rem;
+                    font-weight: bold;
+                    letter-spacing: 1.6px;
+                    margin-bottom: 4px;
+                    
+                    .highlight {
+                        color: #f1c40f;
+                    }
+                }
+                
+                h5 {
+                    font-family: 'Roboto', sans-serif;                    
+                    color: #eee;
+                    font-size: 2.25rem;
+                    margin-top: 0;
+                }
+                
+                p {
+                    font-family: 'Lato', sans-serif;
+                    color: #ddd;
+                    font-size: 1.5rem;
+                    margin-bottom: 0;
+                }
+                
+                &.project {      
+                    border-color: #f1c40e33;
+                    padding: 0;
+                    
+                    .project-name {
+                        background: url("/assets/img/jornada-python/project-bground.png");
+                        padding: 14px;
+                        border-radius: 6px 6px 0 0;
+                    }
+                    
+                    .project-description {
+                        padding: 24px;
+                    }
+                }
+            }
+            
+            @media(max-width: 500px) {
+                h3 {
+                    font-size: 1.75rem;
+                    line-height: 2.5rem;
+                }
+            }
+        }
+        
+        section#signup-reminder {
+            background: #111213 url(/assets/svg/blog-stars-bground.svg);
+            padding: 7rem 16px;
+            border-top: 1px solid #333a3e;
+            
+            p.reminder-label {
+                font-family: 'Ubuntu', sans-serif;
+                color: #FFF;
+                font-size: 2.5rem;
+                margin-bottom: 64px;
+            }
+        }
+        
+        section#testimonials {
+            
+        }
+        
+        section#instructor {
+            background-image: url("/assets/img/jornada-python/space-bground.png");
+            background-clip: border-box;
+            background-origin: border-box;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            .instructor-wrapper {
+                display: flex;
+                align-items: center;
+                padding: 7rem 16px;
+                
+                .instructor-avatar {
+                    flex: 0.3;
+                    img {
+                        width: 100%;
+                    }
+                }
+                
+                .instructor-description {
+                    flex: 0.7;
+                    padding-left: 76px;
+                    
+                    h3 {
+                        font-family: 'Ubuntu', sans-serif;
+                        font-size: 3.5rem;
+                        font-weight: bold;
+                        color: #FFF;
+                        line-height: 5rem;
+                        letter-spacing: -0.5px;
+                        margin-bottom: 28px;
+                        margin-top: 0;
+                        
+                        img {
+                            height: 44px;
+                            width: 44px;
+                        }
+                        
+                        .highlight {
+                            color: #9d5eb7;
+                            text-shadow: 0 0px 3px;
+                        }
+                    }
+                    
+                    h4 {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 1.9rem;
+                        color: #eee;
+                        line-height: 30px;
+                        
+                        .highlight {
+                            font-weight: bold;
+                            color: #f1c40f;                            
+                            text-shadow: 0px 0px 2px #f1c40f99;
+                        }
+                        
+                        .highlight-cta {
+                            font-weight: bold;
+                            font-family: 'Ubuntu', sans-serif;
+                            letter-spacing: 0;
+                            font-size: 2.5rem;
+                            text-shadow: 0px 0px 4px #9d5eb799;
+                        }
+                    }
+                }
+                
+                @media(max-width: 700px) {
+                    display: initial;
+                    
+                    .instructor-avatar {                        
+                        margin-bottom: 32px;
+                        text-align: center;
+                        
+                        img {
+                            width: 100%;
+                            max-width: 275px;
+                        }
+                    }
+                    
+                    .instructor-description {
+                        padding-left: 0;
+                        
+                        h3 {
+                            font-size: 2.5rem;
+                            line-height: 3.5rem;
+                        }
+                        
+                        h4 {
+                            font-size: 1.5rem;
+                            line-height: 2.3rem;
+                        }
+                    }
+                }
+            }
+        }
+        
+        section#investment {
+            background: #111213 url(/assets/svg/blog-stars-bground.svg);
+            padding: 7rem 16px;
+            
+            h2.section-header {
+                color: #eee;
+                
+                img {
+                    height: 30px;
+                    width: 30px;
+                }
+            }          
+            
+            h3.section-subheader {
+                font-family: 'Montserrat', sans-serif;
+                color: #ccc;
+                font-size: 2.2rem;
+                line-height: 3.25rem;
+                margin-bottom: 48px;
+            }
+            
+            @media(max-width: 500px) {
+                h2.section-header {
+                    font-size: 3rem;
+                }
+                
+                h3.section-subheader {
+                    font-size: 1.8rem;
+                    line-height: 3rem;
+                }
+            }
+        }
+        
+        footer {
+            padding: 14px;
+            
+            p {
+                color: #bbb;
+                font-family: 'Roboto', sans-serif;
+                text-transform: uppercase;
+                font-size: 1.35rem;
+                margin: 0;
+            }
+            
+        }
+    }   
+    
+    .cta {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 2rem;
+        color: #FFF;
+        background: #8e44ad;
+        padding: 16px 36px;
+        font-weight: bold;
+        text-shadow: 0px 1px 2px #0003;
+        border: 2px solid transparent;
+        border-radius: 7px;
+        margin: 48px 16px;
+        box-shadow: -11px 11px 0px #fff1;
+        transition: all 0.15s ease-in-out;
+        
+        &:hover {
+            border-color: #f1c40f;
+            box-shadow: 0px 4px 0px #1118;
+        }
+    }
+    
+    .vip-advantage {
+        padding: 28px;
+        border: 1px solid #2d3133;
+        border-radius: 6px;
+        background: #ffffff08;
+        margin-bottom: 16px;
+        backdrop-filter: blur(3.5px);
+        -webkit-backdrop-filter: blur( 3.5px );
+        
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: #FFF;
+            margin-top: 0;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 2.1rem;
+            margin-bottom: 10px;
+            
+            img {
+                position: relative;
+                bottom: 4px;
+                width: 25px;
+                height: 25px;
+            }
+        }
+        
+        h4 {
+            font-family: 'Montserrat', sans-serif;
+            color: #EEE;
+            font-size: 1.5rem;
+            line-height: 2.85rem;
+            margin-bottom: 0;
+            margin-top: 6px;
+            
+            small {
+                color: #999;
+            }
+            
+            span {
+                font-weight: bold;
+                cursor: pointer;
+                text-decoration: underline;
+                color: #f1c40f;
+            }
+        }
+        
+        @media(max-width: 500px) {
+            padding: 22px;
+            
+            h3 {
+                font-size: 1.8rem;
+                margin-bottom: 6px;
+                
+                img {
+                    width: 17px;
+                    height: 17px;
+                }
+            }
+            
+            h4 {
+                font-size: 1.35rem;
+                line-height: 2.2rem;
+            }
+        }
+    }
+    
+    .email-form-wrapper {
+        border-radius: 5px;
+        border: 1px solid #393b3c;
+        background: #ffffff08;                
+        backdrop-filter: blur( 3.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        margin-right: 15px;
+        
+        .p-30 {
+            padding: 30px 30px 0px 30px;
+        }
+        
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            color: #FFF;
+            font-weight: bold;
+            font-size: 2.1rem;
+            margin-bottom: 12px;
+            margin-top: 0;
+        }
+        
+        h4 {
+            color: #eee;
+            margin-bottom: 0;
+            font-family: 'Montserrat';
+            font-size: 1.6rem;
+            line-height: 2.1rem;
+        }
+        
+        @media(max-width: 992px) {
+            margin-left: 15px;
+        }
+        
+        @media(max-width: 500px) {
+            h3 {
+                font-size: 1.65rem;
+            }
+            
+            h4 {
+                font-size: 1.4rem;
+                line-height: 2rem;
+            }
+        }
+    }
+    
+    .course-modal {        
+        .modal-content {
+            background: #1f2325f7;            
+            
+            .modal-header {
+                padding: 0; 
+                border-bottom: none;
+                
+                button.close {
+                    position: absolute;
+                    right: -70px;
+                    top: 0;
+                    opacity: 0.85;
+                    color: #FFF;
+                    font-size: 6.5rem;
+                    text-shadow: none;
+                    
+                    &.floating {
+                        right: 0;
+                        background: #FFF;
+                        border-radius: 50%;
+                        width: 50px;
+                        height: 50px;
+                        z-index: 999;
+                        
+                        span {
+                            font-size: 4rem;
+                            color: #444;
+                            line-height: 12px;
+                            position: relative;
+                            bottom: 20px;
+                        }
+                    }
+                }                
+            }
+            
+            .modal-body {
+                padding: 20px;
+                
+                h4 {
+                    font-family: 'Ubuntu';
+                    color: #bbb;
+                    font-weight: 400;
+                    font-size: 1.5rem;
+                }
+                
+                h5 {
+                    font-family: 'Montserrat';
+                    font-size: 1.6rem;
+                    color: #ddd;
+                    margin-top: 10px;
+                    margin-bottom: 9px;
+                    font-weight: bold;
+                }
+            }
+        }   
+        
+        &.course-modules {
+            .modal-body {
+                .course-module {
+                    background: #ffffff08;
+                    border: 1px solid #2d3133;
+                    padding: 0px 15px;
+                    border-radius: 5px;
+                    margin-bottom: 8px;
+                    
+                    .col-xs-3 {
+                        border-right: 1px solid #2d3133;
+                    }
+                }                
+            }            
+        }
+        
+        &.course-projects {
+            .modal-body {
+                .course-project {
+                    background: #ffffff08;
+                    border: 1px solid #2d3133;
+                    padding: 20px;
+                    border-radius: 5px;
+                    margin-bottom: 14px;
+                    
+                    h4 {
+                        font-family: 'Roboto Condensed';
+                        color: #ddd;
+                        font-weight: 400;
+                        font-size: 1.45rem;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                    }
+                    
+                    h5 {
+                        color: #FFF;
+                        font-size: 2.35rem;
+                    }
+                    
+                    .project-description {
+                        p {
+                            font-family: 'Montserrat', sans-serif;
+                            color: #ddd;
+                            font-size: 1.75rem;
+                        }
+                    }
+                }                
+            }            
+        }
+        
+        &.course-ebook {
+            .modal-content {
+                .modal-body {
+                    padding: 50px;
+                    
+                    img {
+                        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
+                        border: 1px solid #2f2f2f;
+                    }
+                    
+                    .ebook-label {
+                        font-family: 'Roboto Condensed';
+                        font-weight: bold;
+                        letter-spacing: 1px;
+                        margin-top: 0;
+                        text-transform: uppercase;
+                        display: inline-block;
+                        background: #9d5eb7;
+                        line-height: 1;
+                        padding: 6px 12px;
+                        border-radius: 11px;
+                        color: #FFF;
+                        text-shadow: 0px 0px 2px #000000aa;
+                        font-size: 1.25rem;
+                        margin-bottom: 16px;
+                    }
+                    
+                    h4 {
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: bold;
+                        color: #f1c40e;
+                        font-size: 3rem;
+                        margin-bottom: 20px;
+                        margin-top: 0;
+                    }
+                    
+                    h5 {
+                        color: #ddd;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 1.5rem;
+                        line-height: 2.8rem;
+                        margin-bottom: 0px;
+                        font-weight: 400;
+                    }
+                    
+                    @media(max-width: 991px) {
+                        img {
+                            margin-bottom: 48px;
+                        }
+                    }
+                }
+            }            
+        }        
+        
+        @media(max-width: 500px) {
+            .modal-content {
+                .modal-body {
+                    padding: 12px;
+                    
+                    h4 {
+                        font-size: 1.25rem;
+                    }
+                    
+                    h5 {
+                        margin-top: 12px;
+                        font-size: 1.3rem;
+                    }
+                }
+            }            
+        }
+    }
+    
+    .mailchimp-form {
+        #mc_embed_signup_scroll {
+            padding: 30px;
+            
+            .mc-field-group {
+                input {
+                    box-sizing: border-box;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 16px;
+                    height: 48px;
+                    padding-left: 17px;
+                    border-radius: 5px;
+                    border: 1px solid #999;
+                    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.35);
+                    width: 100%;
+                    margin-bottom: 26px;
+                    
+                    &:focus {
+                        border-color: #834a9a;
+                        box-shadow: 0px 0px 12px #834a9a;
+                    }
+                }
+            }
+            
+            .clear {
+                input {
+                    width: 100%;
+                    background: #834a9a;
+                    font-family: 'Montserrat', sans-serif;
+                    color: #FFF;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+    
+    .modal-backdrop.in {
+        opacity: 0.9;
+    }
+}
