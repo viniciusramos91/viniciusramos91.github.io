@@ -258,6 +258,16 @@ body#post-body {
                 }
             }
         }
+
+        &.padding-top {
+            padding-top: 148px;
+        }
+
+        @media(max-width: 767px) {
+            &.padding-top {
+                padding-top: 196px;
+            }            
+        }
     }
 }
 
