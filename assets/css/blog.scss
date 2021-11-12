@@ -1,6 +1,6 @@
 .featured-posts-section {
     background: #efefef url('/assets/svg/blog-stars-bground.svg');
-    padding: 60px 16px;
+    padding: 60px 0px;
 
     h1 {
         font-family: 'Ubuntu', sans-serif;
@@ -22,5 +22,17 @@
 
     .card {
         max-height: none;
+
+        @media(max-width: 1199px) {
+            min-height: 0;
+        }
+
+        @media(max-width: 1199px) {
+            .card-frame {
+                img {
+                    max-width: 350px;
+                }
+            }
+        }        
     }
 }

@@ -600,7 +600,7 @@ body::-webkit-scrollbar-thumb {
         opacity: 0.6;
     }
 
-    @media (max-width: 1200px) {
+    @media (max-width: 1199px) {
         min-height: 381px;
     }
 
@@ -767,30 +767,117 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-#footer-course-banner {
+section.jornada-python-banner {
     background: #1f2325 url("/assets/svg/blog-stars-bground.svg");
-    padding: 3.5rem 16px;
+    padding: 2rem 0;
+    width: 100%;
+    top: 0;
+    z-index: 999;
 
     img {
-        margin-bottom: 20px;
+        margin-bottom: 0;
     }
 
     p {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.45rem;
         color: #ddd;
-        margin-bottom: 24px;
+        margin-bottom: 0;
+        line-height: 3;
     }
 
-    button {
-        background: #1f2325;
+    button.call-to-action.neumorphism.black.btn-jp {
+        background: #9d57b9;
+        padding: 10px;
+        margin-bottom: 0;
+        border-radius: 5px;   
+        width: 100%;    
+        max-width: 350px; 
 
         a {
             font-family: 'Montserrat', sans-serif;
-            color: #f1c40f;
+            color: #FFF;
             font-weight: bold;
+            text-shadow: 0px 0px 3px #00000088;
         }
     }
+
+    button.btn-affix {
+        display: none;
+    }
+
+    @media(max-width: 1199px) {
+        p {
+            line-height: 2;
+        }
+    }
+
+    @media(min-width: 767px) and (max-width: 991px) {
+        img {
+            margin-top: 12px;
+        }
+    }
+
+    @media(max-width: 767px) {
+        img {
+            max-width: 250px;
+            margin-bottom: 16px;
+            margin-top: 12px;
+        }
+
+        p {
+            text-align: left;
+            padding-left: 16px;
+        }
+
+        button.call-to-action.neumorphism.black.btn-jp {
+            margin-top: 18px;
+            padding: 20px 10px;
+            
+            a {
+                font-size: 2rem;
+            }
+        }
+
+        &.affix {
+            padding: 1.25rem 0;
+    
+            img.jp-logo {
+                display: none;
+            }
+    
+            button.call-to-action.neumorphism.black.btn-jp {
+                display: none;
+            }
+    
+            button.btn-affix {
+                display: block;
+                background: #1f2325;
+                border: 1px solid #292d2f;
+                width: 100%;
+                margin-top: 8px;
+                margin-bottom: 8px;
+                padding: 10px;
+    
+                img {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+    
+                a {
+                    font-family: 'Montserrat';
+                    font-weight: bold;
+                    color: #f1c40f;
+                }
+            }
+    
+            p {
+                line-height: 1.35;
+                padding-left: 0;
+                text-align: center;
+            }
+        }
+    }    
 }
 
 #footer-signup {
