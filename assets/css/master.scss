@@ -819,64 +819,61 @@ section.jornada-python-banner {
     }
 
     @media(max-width: 767px) {
-        img {
-            max-width: 250px;
-            margin-bottom: 16px;
-            margin-top: 12px;
-        }
-
-        p {
-            text-align: left;
-            padding-left: 16px;
+        padding: 1.25rem 0;
+    
+        img.jp-logo {
+            display: none;
         }
 
         button.call-to-action.neumorphism.black.btn-jp {
-            margin-top: 18px;
-            padding: 20px 10px;
-            
+            display: none;
+        }
+
+        button.btn-affix {
+            display: block;
+            background: #1f2325;
+            border: 1px solid #292d2f;
+            width: 100%;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            padding: 10px;
+
+            img {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
             a {
-                font-size: 2rem;
+                font-family: 'Montserrat';
+                font-weight: bold;
+                color: #f1c40f;
             }
         }
 
-        &.affix {
-            padding: 1.25rem 0;
-    
-            img.jp-logo {
-                display: none;
-            }
-    
-            button.call-to-action.neumorphism.black.btn-jp {
-                display: none;
-            }
-    
-            button.btn-affix {
-                display: block;
-                background: #1f2325;
-                border: 1px solid #292d2f;
-                width: 100%;
-                margin-top: 8px;
-                margin-bottom: 8px;
-                padding: 10px;
-    
-                img {
-                    margin-top: 0;
-                    margin-bottom: 0;
-                }
-    
-                a {
-                    font-family: 'Montserrat';
-                    font-weight: bold;
-                    color: #f1c40f;
-                }
-            }
-    
-            p {
-                line-height: 1.35;
-                padding-left: 0;
-                text-align: center;
-            }
+        p {
+            line-height: 1.35;
+            padding-left: 0;
+            text-align: center;
         }
+        // img {
+        //     max-width: 250px;
+        //     margin-bottom: 16px;
+        //     margin-top: 12px;
+        // }
+
+        // p {
+        //     text-align: left;
+        //     padding-left: 16px;
+        // }
+
+        // button.call-to-action.neumorphism.black.btn-jp {
+        //     margin-top: 18px;
+        //     padding: 20px 10px;
+            
+        //     a {
+        //         font-size: 2rem;
+        //     }
+        // }
     }    
 }
 
