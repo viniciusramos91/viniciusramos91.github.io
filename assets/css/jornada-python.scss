@@ -5,10 +5,22 @@
         color: #ddd;
     }
     
+    .section-header { 
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 4.25rem;
+        text-transform: uppercase;
+        font-weight: bold;
+
+        @media(max-width: 767px) {
+            font-size: 3rem;
+        }
+
+    }
+
     #jornada-python-main {
         section#headline {
             overflow: hidden;
-            padding: 8rem 16px;
+            padding: 8rem 0px;
             background: #1f2325;
             
             img.logo-headline {
@@ -60,13 +72,15 @@
             }
             
             .headline-text {    
+                text-align: center;
+
                 h2 {
                     font-family: 'Montserrat', sans-serif;
                     color: #ccc;
                     font-size: 1.9rem;
                     line-height: 3.25rem;
-                    margin-bottom: 48px;
-                    margin-top: 48px;
+                    margin-bottom: 32px;
+                    margin-top: 42px;
                     
                     .highlight {      
                         color: #f1c40f;              
@@ -78,80 +92,29 @@
                         line-height: 2.15rem;
                         margin-top: 0;
                     }
-                }            
-                
-                button.headline-cta {
-                    display: block;     
-                    text-align: center;           
-                    margin: 16px auto;
-                    background-color: #834a9a;
-                    box-shadow: 0px 0px 18px #9d5eb7;
-                    border: 1px solid #b772d4;                
-                    border-radius: 48px;
-                    padding: 0;                
-                    -webkit-animation: pulse;
-                    animation: pulse;
-                    -webkit-animation-duration: 1.5s;
-                    animation-duration: 1.5s;             
-                    -webkit-animation-iteration-count: infinite;   
-                    animation-iteration-count: infinite;                
-                    transition: all 0.15s ease-in-out;
-                    
-                    a {
-                        display: inline-block;
-                        padding: 14px 36px;
-                        font-size: 2.5rem;
-                        font-family: 'Montserrat', sans-serif;
-                        text-transform: uppercase;
-                        font-weight: bold;
-                        color: #FFF;
-                    }
-                    
-                    &:hover, 
-                    &:focus {
-                        border-color: #f1c40f88;
-                        background-color: #72388a;
-                        box-shadow: 0px 0px 0px #00000000;
-                        -webkit-animation: none;
-                        animation: none;
-                    }
-                    
-                    @-webkit-keyframes pulse {
-                        0% {
-                            box-shadow: 0px 0px 6px #9d5eb700;
-                        }
-                        50% {
-                            box-shadow: 0px 0px 6px #9d5eb700;
-                        }
-                        70% {
-                            box-shadow: 0px 0px 28px #9d5eb7;
-                        }
-                        100% {
-                            box-shadow: 0px 0px 6px #9d5eb700;
-                        }
-                    }
-                    
-                    @keyframes pulse {
-                        0% {
-                            box-shadow: 0px 0px 6px #9d5eb700;
-                        }
-                        50% {
-                            box-shadow: 0px 0px 6px #9d5eb700;
-                        }
-                        70% {
-                            box-shadow: 0px 0px 28px #9d5eb7;
-                        }
-                        100% {
-                            box-shadow: 0px 0px 6px #9d5eb700;
-                        }
-                    }
-                    
-                    @media(max-width: 500px) {
-                        width: 100%;
-                        
-                        a {
-                            padding: 14px 8px;
-                            font-size: 1.35rem;
+                }
+
+                .payment-features {                    
+                    ul {
+                        li {
+                            font-family: 'Roboto Condensed', sans-serif;
+                            display: inline-block;
+                            color: #ccc;
+                            font-size: 1.65rem;
+
+                            b {
+                                font-size: 2.3rem;
+                                position: relative;
+                                top: 2px;
+                                margin: 0 16px;
+                            }
+                            
+                            img {
+                                position: relative;
+                                bottom: 4px;
+                                height: 20px;
+                                margin: 0 4px;
+                            }
                         }
                     }
                 }
@@ -173,7 +136,7 @@
                 text-shadow: 0 0 2px rgb(241, 196, 14);
                 letter-spacing: 1px;
                 font-size: 1.1rem;
-            }
+            }            
 
             @media(max-width: 767px) {
                 padding: 4rem 16px;
@@ -182,7 +145,23 @@
                     margin-right: 0;
                     margin-left: 0;
                 }
+
+                .cta {
+                    margin: 12px 0 24px 0;
+                    padding: 0;
+
+                    a {
+                        padding: 16px;
+                        font-size: 2rem;
+                    }
+                }
             }
+        }
+
+        section.gradient-separator {            
+            width: 100%;
+            background: url("/assets/img/jornada-python/gradient-separator.png") repeat;
+            height: 130px;
         }
         
         section#target-audiences {
@@ -245,7 +224,7 @@
         
         section#why-python {
             background: #F2F2F2;
-            padding: 8rem 16px;
+            padding: 12rem 16px;
             
             .feature {
                 display: flex;
@@ -346,16 +325,15 @@
         }
         
         section#modules {
+            background: #141617 url("/assets/svg/blog-stars-bground.svg");
             position: relative;
             overflow: hidden;
-            padding: 10rem 16px;
+            padding: 14rem 0px;
             
             h2 {
-                font-family: 'Ubuntu', sans-serif;
-                font-size: 4rem;
                 color: #eee;
                 letter-spacing: -0.5px;
-                margin: 0 0 48px 0;
+                margin: 0 0 76px 0;
                 
                 img {
                     position: relative;
@@ -572,6 +550,8 @@
             }
             
             @media(max-width: 500px) {
+                padding: 8rem 0px;
+
                 h3 {
                     font-size: 1.75rem;
                     line-height: 2.5rem;
@@ -621,14 +601,15 @@
                     padding-left: 76px;
                     
                     h3 {
-                        font-family: 'Ubuntu', sans-serif;
-                        font-size: 3.5rem;
+                        font-family: 'Roboto Condensed', sans-serif;
+                        font-size: 4rem;
                         font-weight: bold;
                         color: #FFF;
                         line-height: 5rem;
                         letter-spacing: -0.5px;
                         margin-bottom: 28px;
                         margin-top: 0;
+                        text-transform: uppercase;
                         
                         img {
                             height: 44px;
@@ -695,23 +676,184 @@
         
         section#investment {
             background: #111213 url(/assets/svg/blog-stars-bground.svg);
-            padding: 7rem 16px;
+            padding: 14rem 16px;
             
-            h2.section-header {
-                color: #eee;
+            h2 {
+                font-family: 'Roboto Condensed', sans-serif;                
+                text-transform: uppercase;
+                font-weight: bold;
+                color: #FFF;
+                font-size: 3rem;
+                margin-top: 0;
                 
                 img {
                     height: 30px;
                     width: 30px;
                 }
-            }          
+            }     
             
-            h3.section-subheader {
+            p.section-subheader-p {
                 font-family: 'Montserrat', sans-serif;
+                color: #d2d2d2;
+                font-weight: 700;
+                font-size: 2rem;
+                margin: 20px 0;
+            }
+            
+            ul.content {
+                li {      
+                    font-family: 'Montserrat', sans-serif;
+                    color: #c2c2c2;
+                    font-size: 1.9rem;
+                    list-style: none;
+                    margin-bottom: 10px;
+
+                    &::before {
+                        content: url("/assets/svg/jornada-python/check-item.svg");
+                        background-size: contain;
+                        position: relative;
+                        left: -10px;
+                        height: 0;
+                    }
+                }
+            }
+
+            hr {
+                margin-top: 8rem;
+                margin-bottom: 8rem;
+                border: 0;
+                border-top: 1px solid #242627;
+            }
+
+            .blur-box {
+                text-align: center;
+                p {
+                    margin: 0;
+
+                    &.investment {
+                        font-family: 'Montserrat';
+                        text-transform: uppercase;
+                        font-size: 4rem;
+                        color: #FFF;
+                        margin-bottom: 16px;
+                        font-weight: bold;
+                    }
+
+                    &.price-label {
+                        font-family: 'Roboto Condensed';
+                        font-weight: 100;
+                        text-transform: uppercase;
+                        color: #bbb;
+                        letter-spacing: 1px;
+                        font-size: 2.4rem;
+                    }                    
+
+                    &.full-price {
+                        font-family: 'Roboto Condensed';
+                        font-weight: 100;
+                        text-transform: uppercase;
+                        color: #bbb;
+                        letter-spacing: 1px;
+                        font-size: 1.65rem;
+                    }                    
+                }
+                
+                .price {
+                    margin: 18px 0;
+
+                    small {
+                        font-family: 'Roboto', sans-serif;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        letter-spacing: -1px;
+                        color: #f1c40e;
+                        font-size: 3rem;
+                        position: relative;
+                        bottom: 28px;
+                        right: 6px;
+                    }
+                    
+                    span {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 7rem;
+                        font-weight: bold;
+                        color: #FFF;
+                    }
+                }     
+                
+                .payment-features {                    
+                    ul {
+                        li {
+                            font-family: 'Roboto Condensed', sans-serif;
+                            display: inline-block;
+                            color: #999;
+                            font-size: 1.4rem;
+
+                            b {
+                                font-size: 2.3rem;
+                                position: relative;
+                                top: 2px;
+                                margin: 0 6px;
+                            }
+                            
+                            img {
+                                position: relative;
+                                bottom: 2px;
+                                height: 18px;
+                                margin: 0 4px;
+                            }
+                        }
+                    }
+                }
+
+                @media(max-width: 767px) {
+                    p {
+                        &.investment {
+                            font-size: 3rem;
+                        }
+
+                        &.price-label {
+                            font-size: 2.25rem;
+                        }
+
+                        &.price {
+                            font-size: 6rem;
+                        }
+                    }           
+                }
+            }
+
+            p.warranty-label {
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 4rem;
+                color: #EEE;
+                font-weight: bold;
+                text-transform: uppercase;
+
+                img {
+                    position: relative;
+                    bottom: 4px;
+                    margin-right: 8px;
+                }
+            }
+
+            p.warranty-text {
+                font-family: 'Montserrat';
                 color: #ccc;
-                font-size: 2.2rem;
-                line-height: 3.25rem;
-                margin-bottom: 48px;
+                letter-spacing: 0.2px;
+                line-height: 26px;
+                font-size: 1.75rem;
+            }
+
+            .cta {
+                margin: 38px 0 22px 0;
+                width: 100%;
+
+                a {
+                    padding: 16px;
+                    width: 100%;
+                    font-size: 2rem;
+                }
             }
             
             @media(max-width: 500px) {
@@ -722,6 +864,61 @@
                 h3.section-subheader {
                     font-size: 1.8rem;
                     line-height: 3rem;
+                }
+            }
+        }
+
+        section#faq {    
+            background: #1f2325 url("/assets/svg/blog-stars-bground.svg");        
+
+            .dotted {
+                padding: 10rem 0;
+                display: block;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0,0,0,.2);
+                background-image: url("/assets/img/jornada-python/dots.png");
+
+                h2.section-header    {
+                    color: #EEE;
+                }
+
+                .panel-group {
+                    .panel {
+                        .panel-heading {
+                            .panel-title {     
+                                margin: 0;                                                           
+                                a {
+                                    border: 1px solid #2d3133;
+                                    border-radius: 6px;
+                                    background: #ffffff08;                                    
+                                    backdrop-filter: blur(3.5px);
+                                    -webkit-backdrop-filter: blur( 3.5px );
+                                    padding: 22px 16px;
+                                    width: 100%;
+                                    display: inline-block;
+                                    font-family: 'Montserrat';
+                                    font-size: 1.65rem;
+                                    text-transform: uppercase;
+                                    color: #ccc;
+                                    font-weight: bold;
+
+                                    img.caret {
+                                        position: absolute;
+                                        right: 18px;
+                                        top: 26px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .panel-body {
+                            margin: 18px;
+                            font-family: 'Montserrat';
+                            color: #aaa;
+                            font-size: 1.6rem;
+                        }
+                    }
                 }
             }
         }
@@ -740,28 +937,80 @@
         }
     }   
     
-    .cta {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 2rem;
-        color: #FFF;
-        background: #8e44ad;
-        padding: 16px 36px;
-        font-weight: bold;
+    .cta {        
+        background: #f2a900;
+        background: -moz-linear-gradient(90deg,#f2a900 0,#ffd87d 100%);
+        background: -webkit-linear-gradient(90deg,#f2a900 0,#ffd87d 100%);
+        background: linear-gradient(90deg,#f2a900 0,#ffd87d 100%);              
         text-shadow: 0px 1px 2px #0003;
         border: 2px solid transparent;
         border-radius: 7px;
         margin: 48px 16px;
         box-shadow: -11px 11px 0px #fff1;
+        -webkit-animation: pulse;
+        animation: pulse;
+        -webkit-animation-duration: 1.5s;
+        animation-duration: 1.5s;             
+        -webkit-animation-iteration-count: infinite;   
+        animation-iteration-count: infinite;
         transition: all 0.15s ease-in-out;
         
         &:hover {
-            border-color: #f1c40f;
+            border-color: #FFF;
             box-shadow: 0px 4px 0px #1118;
+            -webkit-animation: none;
+            animation: none;
+        }
+
+        a {
+            display: inline-block;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            font-size: 2.5rem;
+            letter-spacing: -1px;
+            color: #353a3c;
+            font-weight: bold;         
+            padding: 16px 36px;
+            transition: all 0.15s ease-in-out;
+
+            &:hover {
+                color: #FFF;
+            }
+        }
+
+        @-webkit-keyframes pulse {
+            0% {
+                box-shadow: 0px 0px 6px #f2a90000;
+            }
+            50% {
+                box-shadow: 0px 0px 6px #f2a90000;
+            }
+            70% {
+                box-shadow: 0px 0px 28px #f2a900;
+            }
+            100% {
+                box-shadow: 0px 0px 6px #f2a90000;
+            }
+        }
+        
+        @keyframes pulse {
+            0% {
+                box-shadow: 0px 0px 6px #f2a90000;
+            }
+            50% {
+                box-shadow: 0px 0px 6px #f2a90000;
+            }
+            70% {
+                box-shadow: 0px 0px 28px #f2a900;
+            }
+            100% {
+                box-shadow: 0px 0px 6px #f2a90000;
+            }
         }
     }
     
-    .vip-advantage {
-        padding: 28px;
+    .blur-box {
+        padding: 32px 32px;
         border: 1px solid #2d3133;
         border-radius: 6px;
         background: #ffffff08;
