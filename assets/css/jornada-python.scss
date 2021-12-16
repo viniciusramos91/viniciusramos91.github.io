@@ -18,6 +18,10 @@
     }
 
     #jornada-python-main {
+        header {
+
+        }
+
         section#headline {
             overflow: hidden;
             padding: 8rem 0px;
@@ -329,6 +333,49 @@
             position: relative;
             overflow: hidden;
             padding: 14rem 0px;
+
+            .course-project {
+                background: #ffffff08;
+                border: 1px solid #2d3133;
+                padding: 20px;
+                border-radius: 5px;
+                margin-bottom: 14px;
+                
+                h4 {
+                    font-family: 'Roboto Condensed';
+                    color: #ddd;
+                    font-weight: 400;
+                    font-size: 1.45rem;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+                
+                h5 {
+                    color: #FFF;
+                    font-size: 2.35rem;
+                    text-transform: uppercase;
+                    font-family: 'Montserrat';
+                    line-height: 3rem;
+                    font-weight: bold;
+                }
+                
+                .project-description {
+                    p {
+                        font-family: 'Montserrat', sans-serif;
+                        color: #ddd;
+                        font-size: 1.75rem;
+                    }
+                }
+            }  
+
+            p.modules-label {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                color: #f1c40e;
+                font-size: 3.25rem;
+                margin-bottom: 28px;
+                margin-top: 0;
+            }
             
             h2 {
                 color: #eee;
@@ -491,6 +538,46 @@
                         font-size: 1.5rem;
                         line-height: 2.2rem;
                         margin-bottom: 20px;
+                    }
+                }
+            }
+
+            hr {
+                border-top-color: transparent;
+                margin-top: 3px;
+                margin-bottom: 3px;
+            }
+
+            .panel-group {
+                .panel {
+                    .panel-heading {
+                        .panel-title {     
+                            margin: 0;                                                           
+                            a {
+                                padding: 16px;
+                                font-size: 1.55rem;
+                            }
+                        }                        
+                    }
+
+                    .panel-body {
+                        ul {
+                            li {
+                                font-family: 'Montserrat', sans-serif;
+                                color: #d2d2d2;
+                                font-size: 1.6rem;
+                                list-style: none;
+                                margin-bottom: 10px;
+
+                                &::before {
+                                    content: url("/assets/svg/jornada-python/check-item.svg");
+                                    background-size: contain;
+                                    position: relative;
+                                    left: -10px;
+                                    height: 0;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -881,45 +968,7 @@
 
                 h2.section-header    {
                     color: #EEE;
-                }
-
-                .panel-group {
-                    .panel {
-                        .panel-heading {
-                            .panel-title {     
-                                margin: 0;                                                           
-                                a {
-                                    border: 1px solid #2d3133;
-                                    border-radius: 6px;
-                                    background: #ffffff08;                                    
-                                    backdrop-filter: blur(3.5px);
-                                    -webkit-backdrop-filter: blur( 3.5px );
-                                    padding: 22px 16px;
-                                    width: 100%;
-                                    display: inline-block;
-                                    font-family: 'Montserrat';
-                                    font-size: 1.65rem;
-                                    text-transform: uppercase;
-                                    color: #ccc;
-                                    font-weight: bold;
-
-                                    img.caret {
-                                        position: absolute;
-                                        right: 18px;
-                                        top: 26px;
-                                    }
-                                }
-                            }
-                        }
-
-                        .panel-body {
-                            margin: 18px;
-                            font-family: 'Montserrat';
-                            color: #aaa;
-                            font-size: 1.6rem;
-                        }
-                    }
-                }
+                }                
             }
         }
         
@@ -936,6 +985,44 @@
             
         }
     }   
+
+    .panel-group {
+        .panel {
+            .panel-heading {
+                .panel-title {     
+                    margin: 0;                                                           
+                    a {
+                        border: 1px solid #2d3133;
+                        border-radius: 6px;
+                        background: #ffffff08;                                    
+                        backdrop-filter: blur(3.5px);
+                        -webkit-backdrop-filter: blur( 3.5px );
+                        padding: 22px 16px;
+                        width: 100%;
+                        display: inline-block;
+                        font-family: 'Montserrat';
+                        font-size: 1.65rem;
+                        text-transform: uppercase;
+                        color: #ccc;
+                        font-weight: bold;
+
+                        img {
+                            @media(max-width: 767px) {
+                                height: 9px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .panel-body {
+                margin: 18px;
+                font-family: 'Montserrat';
+                color: #aaa;
+                font-size: 1.6rem;
+            }
+        }
+    }
     
     .cta {        
         background: #f2a900;
