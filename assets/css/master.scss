@@ -33,11 +33,12 @@ body::-webkit-scrollbar-thumb {
     }   
 }
 
-.instagram-modal {
+.custom-modal {
     a.close-icon {
         top: 15px;
         position: absolute;
         right: 20px;
+        z-index: 999;
     }
 
     .modal-dialog {
@@ -97,7 +98,97 @@ body::-webkit-scrollbar-thumb {
                     border-radius: 6px;
                     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.45);
                 }
+
+                .jornada-python-content {
+                    & > img {
+                        width: 85%;
+                        margin: 0 auto 64px auto;
+                    }
+
+                    a {
+                        padding: 16px ​72px;
+                        font-size: 1.5rem;
+                        background-color: #1f2325;
+                        font-family: 'Montserrat', sans-serif;
+                        border: 1px solid #282b2d;
+                        font-weight: bold;
+                        border-radius: 50px;
+                        margin-bottom: 96px;
+                        -webkit-animation: pulse;
+                        animation: pulse;
+                        -webkit-animation-duration: 2s;
+                        animation-duration: 2s;
+                        -webkit-animation-iteration-count: infinite;
+                        animation-iteration-count: infinite;
+                    }
+
+                    img.jornada-img-modal-mobile {
+                        display: none;
+                    }
+
+                    img.jornada-img-modal-mobile-xs {
+                        display: none;
+                    }
+                }
             }
+        }
+
+        @media(max-width: 450px) {
+            .modal-content {
+                .modal-body {
+                    .jornada-python-content {
+                        & > img {  
+                            display: none;                  
+                        }
+
+                        img.jornada-img-modal-mobile {
+                            display: none !important;
+                        }
+
+                        img.jornada-img-modal-mobile-xs {
+                            display: block;
+                        }
+                    }                    
+                }     
+            }       
+        }
+
+        @media(max-width: 530px) {
+            .modal-content {
+                .modal-body {
+                    .jornada-python-content {
+                        & > img {  
+                            display: none;                  
+                        }
+
+                        img.jornada-img-modal-mobile {
+                            display: block;
+                        }
+
+                        a {
+                            margin-bottom: 44px;
+                        }
+                    }                    
+                }     
+            }       
+        }
+
+        @media(max-width: 800px) {
+            .modal-content {
+                .modal-body {
+                    .jornada-python-content {
+                        & > img {                    
+                            width: 88%;
+                            margin-bottom: 44px;
+                        }
+                    }
+                }     
+            }       
+        }        
+
+        @media(max-width: 991px) {
+            width: 100%;
+            left: 0;
         }
     }
 }
@@ -210,11 +301,72 @@ body::-webkit-scrollbar-thumb {
                 border-radius: 0;
             }
 
-            .nav li a {
-                color: #FFFB;
+            .nav li {
+                z-index: 999;
+                a {
+                    color: #FFFB;
+                }
             }
         }
-    }
+
+        &.listas {
+            @media(max-width: 767px) {
+                .navbar {
+                    .navbar-collapse {
+                        &.collapse, &.collapsing {
+                            .nav {
+                                li {
+                                    z-index: 999;
+                                    background: #508dab;
+                                    border-bottom-color: #659bb5;
+                                }
+                            }
+                        }
+                    }
+
+                    &.navbar-default {
+                        .navbar-collapse {
+                            border-color: transparent;
+                        }
+                    }
+                }
+    
+                .navbar-collapse.collapse {
+                    border-color: #a5c8d8;
+                    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+                }
+            }            
+        }
+
+        &.django {
+            @media(max-width: 767px) {
+                .navbar {
+                    .navbar-collapse {
+                        &.collapse, &.collapsing {
+                            .nav {
+                                li {
+                                    z-index: 999;
+                                    background: #053723;
+                                    border-bottom-color: #065136;
+                                }
+                            }
+                        }
+                    }
+
+                    &.navbar-default {
+                        .navbar-collapse {
+                            border-color: transparent;
+                        }
+                    }
+                }
+    
+                .navbar-collapse.collapse {
+                    border-color: #053723;
+                    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+                }
+            }            
+        }
+    }    
 }
 
 // HEADER SECTION
