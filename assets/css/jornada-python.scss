@@ -18,6 +18,133 @@
     }
 
     #jornada-python-main {
+        section#discount {
+            padding: 0 0 10px 0;
+            background: #141617;
+            text-align: center;
+            color: #eee;
+            overflow: hidden;
+            border-bottom: 1px solid #323638;
+
+            .discount-images {     
+                position: relative;
+                
+                .discount-1 {
+                    position: absolute;
+                    left: calc(-370px + 35%);
+                    top: 22px;
+                    float: left;
+                    height: 80px;
+                }
+
+                .discount-2 {
+                    position: absolute;
+                    left: calc(-370px + 40%);
+                    top: -8px;
+                    float: left;
+                    height: 45px;
+                }
+            }
+
+            ul {
+                margin: 0;
+                li {
+                    display: inline-block;
+                }
+            }
+
+            ul#outer {
+                & > li {
+                    margin: 0 12px;
+                    position: relative; 
+                    top: 10px
+                }
+
+                li.middle {
+                    font-family: 'Montserrat';
+                    font-size: 1.4rem;
+                    position: relative;
+                    top: 12px;
+                    text-align: left;
+
+                    small {
+                        font-family: 'Roboto Condensed';
+                        color: #999;
+                        font-weight: bold;
+                    }
+
+                    span.highlight {
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        color: #7f2aff;
+                    }
+                }
+
+                img.jello-horizontal {
+                    position: relative; 
+                    bottom: 17px;
+                }
+            }
+
+            ul#countdown {
+                .days, .hours, .minutes, .seconds {
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    font-size: 3rem;
+                    color: #f1c40e;
+                }
+
+                .texto-dias, .texto-horas, .texto-minutos, .texto-segundos {
+                    font-family: 'Montserrat', sans-serif;
+                    margin: 0;
+                    font-size: 1.1rem;
+                    color: #999;
+                }
+
+                li {
+                    margin: 0 4px;
+                }
+            }
+
+            @media(max-width: 991px) {
+                padding: 12px 0 16px 0;
+
+                .discount-images {
+                    display: none;
+                }
+
+                ul#countdown {
+                    .days, .hours, .minutes, .seconds {
+                        font-size: 2.4rem;
+                    }                    
+                }
+
+                ul#outer {
+                    & > li {
+                        display: block;
+                        top: 0;
+                    }
+
+                    li.middle { 
+                        top: 0;
+                        text-align: center;
+                        margin: 8px 0;                                                
+                    }
+
+                    img.jello-horizontal {
+                        bottom: 0;
+                        height: 48px;
+                    }
+                }
+            }
+
+            @media (min-width: 768px) {
+                .container {
+                    width: 100%;
+                }
+            }
+        }
+
         section#headline {
             overflow: hidden;
             padding: 8rem 0px;
@@ -798,9 +925,9 @@
                 li {      
                     font-family: 'Montserrat', sans-serif;
                     color: #c2c2c2;
-                    font-size: 1.9rem;
+                    font-size: 2.1rem;
                     list-style: none;
-                    margin-bottom: 10px;
+                    margin-bottom: 14px;
 
                     &::before {
                         content: url("/assets/svg/jornada-python/check-item.svg");
@@ -839,8 +966,9 @@
                         text-transform: uppercase;
                         color: #bbb;
                         letter-spacing: 1px;
-                        font-size: 2.4rem;
-                    }                    
+                        font-size: 2rem;
+                        margin-bottom: 8px;
+                    }
 
                     &.full-price {
                         font-family: 'Roboto Condensed';
@@ -849,11 +977,61 @@
                         color: #bbb;
                         letter-spacing: 1px;
                         font-size: 1.65rem;
-                    }                    
+                        margin-bottom: 20px;
+                    }  
+                    
+                    &.discount-label-1 {
+                        font-family: 'Roboto Condensed';
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        color: #bbb;
+                        letter-spacing: 1px;
+                        font-size: 1.65rem;
+                        margin-bottom: 12px;
+
+                        img {
+                            position: relative;
+                            bottom: 2px;
+                        }
+                    }
+
+                    &.discount-label-2 {
+                        font-family: 'Roboto Condensed';
+                        text-transform: uppercase;
+                        font-weight: 100;
+                        color: #bbb;
+                        letter-spacing: 1px;
+                        font-size: 3rem;
+                    }
+
+                    &.price-with-discount {
+                        font-family: 'Roboto Condensed';
+                        font-weight: 100;
+                        text-transform: uppercase;
+                        color: #bbb;
+                        letter-spacing: 1px;
+                        font-size: 2.2rem;
+                        margin-bottom: 12px;
+                    }
+
+                    &.netflix {
+                        font-family: 'Roboto Condensed';
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        color: #999;
+                        letter-spacing: 1px;
+                        font-size: 1.35rem;
+                        margin-bottom: 12px;
+                    }
+                }
+
+                hr {
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
                 }
                 
                 .price {
-                    margin: 18px 0;
+                    margin: 0 0 6px 0;
 
                     small {
                         font-family: 'Roboto', sans-serif;
@@ -869,7 +1047,7 @@
                     
                     span {
                         font-family: 'Montserrat', sans-serif;
-                        font-size: 7rem;
+                        font-size: 8rem;
                         font-weight: bold;
                         color: #FFF;
                     }
