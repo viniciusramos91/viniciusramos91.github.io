@@ -18,7 +18,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
 
-<title>A Camada View do Django (Python)</title>
+<title>Aprenda a criar Funções em Python</title>
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">		
 
 <!-- Open Graph -->
@@ -26,27 +26,27 @@
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Python Academy">
 <meta property="og:type" content="website">
-<meta property="og:title" content="A Camada View do Django (Python)">
-<meta property="og:url" content="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view">
-<meta property="og:description" content="Nesse post, vamos tratar da camada View do Django. Nela, nós desenvolvemos a lógica de negócio da nossa aplicação. Vamos ver sobre rotas, processamento de requisições e respostas, utilização de formulários e muito mais!">
-<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/posts/django-view/facebook.png">
-<meta property="og:image:secure_url" itemprop="image" content="https://pythonacademy.com.br/assets/posts/django-view/facebook.png">
-<meta property="og:image:alt" content="A Camada View do Django (Python)">
+<meta property="og:title" content="Aprenda a criar Funções em Python">
+<meta property="og:url" content="https://pythonacademy.com.br/blog/funcoes-em-python">
+<meta property="og:description" content="Nesse post você vai aprender como não repetir linhas de código através da criação de Funções em Python!">
+<meta property="og:image" itemprop="image" content="https://pythonacademy.com.br/assets/posts/funcoes/facebook.png">
+<meta property="og:image:secure_url" itemprop="image" content="https://pythonacademy.com.br/assets/posts/funcoes/facebook.png">
+<meta property="og:image:alt" content="Aprenda a criar Funções em Python">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
 <!-- General -->
-<meta itemprop="description" name="description" content="Nesse post, vamos tratar da camada View do Django. Nela, nós desenvolvemos a lógica de negócio da nossa aplicação. Vamos ver sobre rotas, processamento de requisições e respostas, utilização de formulários e muito mais!">		
-<meta name="title" content="A Camada View do Django (Python)">
-<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/django-view/facebook.png">
+<meta itemprop="description" name="description" content="Nesse post você vai aprender como não repetir linhas de código através da criação de Funções em Python!">		
+<meta name="title" content="Aprenda a criar Funções em Python">
+<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/funcoes/facebook.png">
 
 <!-- Twitter cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-<meta name="twitter:title" content="A Camada View do Django (Python)">
-<meta name="twitter:description" content="Nesse post, vamos tratar da camada View do Django. Nela, nós desenvolvemos a lógica de negócio da nossa aplicação. Vamos ver sobre rotas, processamento de requisições e respostas, utilização de formulários e muito mais!">
-<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/django-view/twitter.png">
+<meta name="twitter:title" content="Aprenda a criar Funções em Python">
+<meta name="twitter:description" content="Nesse post você vai aprender como não repetir linhas de código através da criação de Funções em Python!">
+<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/funcoes/twitter.png">
 
 <meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
 
@@ -92,7 +92,7 @@
 </style>
 
 <!-- Canonical URL -->
-<link rel="canonical" href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view">			
+<link rel="canonical" href="https://pythonacademy.com.br/blog/funcoes-em-python">			
 
 		<!-- Assets -->
 		
@@ -226,18 +226,18 @@
 		<div class="main-container">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
-					<div class="post-banner-content" style="background: #051a12 url('/assets/svg/stars-bground.svg');">
+					<div class="post-banner-content" style="background: #576574 url('/assets/svg/stars-bground.svg');">
 						<div class="container">	
 							<div class="wrapper">
 								<div class="featured-icon-wrapper">
-									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/django-view/featured_icon.svg" width="90%">
+									<object id="featured-icon" class="featured-icon" type="image/svg+xml" data="/assets/posts/funcoes/featured_img.svg" width="90%">
 									</object>															
 								</div>
 							</div>													
 			
 							
 							<h1 class="blog-post-title font-shadow">
-								Desenvolvimento Web com Python e Django: View
+								Funções em Python
 							</h1>			
 						</div>			
 					</div>
@@ -277,75 +277,89 @@
 				<div class="blog-post-content">					
 					
 					
-<p>Continuando a nossa série de <em>posts</em> sobre Django, no artigo de hoje vamos tratar sobre a camada <em>View</em> da sua arquitetura!</p>
+<p>Salve salve Pythonista!</p>
 
-<p>Se você ainda não leu os primeiros <em>posts</em> da série, você <strong>COM CERTEZA</strong> está perdendo informações importantes.</p>
+<p>Uma <strong>função</strong> nada mais é que um trecho de código que possui uma responsabilidade específica e que damos um nome à ele.</p>
 
-<p>Se esse for o seu caso, então já <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" target="_blank">clica aqui pra ver o <em>post</em> introdutório</a> e/ou <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model" target="_blank">aqui para ler o <em>post</em> sobre a camada <em>Model</em></a> e <strong>fique por dentro</strong>!</p>
+<p>Nesse post você vai aprender:</p>
+<ul>
+  <li>Como criar funções com a palavra reservada <code class="highlighter-rouge">def</code>,</li>
+  <li>Como definir seus parâmetros,</li>
+  <li>O que são <code class="highlighter-rouge">args</code> e o que são <code class="highlighter-rouge">kwargs</code>,</li>
+  <li>Como retornar dados de funções,</li>
+  <li>Como definir funções com uma linha e <strong>muito mais</strong>!</li>
+</ul>
 
-<p>Agora, faça uma <strong>xícara de café</strong>, ajuste sua cadeira e vamos nessa que o <em>post</em> de hoje tá <strong>COMPLETÃO</strong>!!</p>
-
-<p><img class="emoji" title=":coffee:" alt=":coffee:" src="https://github.githubassets.com/images/icons/emoji/unicode/2615.png" height="20" width="20"> <img class="emoji" title=":coffee:" alt=":coffee:" src="https://github.githubassets.com/images/icons/emoji/unicode/2615.png" height="20" width="20"> <img class="emoji" title=":coffee:" alt=":coffee:" src="https://github.githubassets.com/images/icons/emoji/unicode/2615.png" height="20" width="20"></p>
+<p>Então vem com a gente!</p>
 
 <h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
 
 <ul id="markdown-toc">
-  <li><a href="#onde-estamos" id="markdown-toc-onde-estamos">Onde estamos…</a></li>
-  <li><a href="#detalhes-da-camada" id="markdown-toc-detalhes-da-camada">Detalhes da Camada</a></li>
-  <li><a href="#fun%C3%A7%C3%B5es-vs-class-based-views" id="markdown-toc-funções-vs-class-based-views">Funções vs <em>Class Based Views</em></a></li>
-  <li><a href="#fun%C3%A7%C3%B5es-function-based-views" id="markdown-toc-funções-function-based-views">Funções (<em>Function Based Views</em>)</a></li>
-  <li><a href="#classes-cbv---class-based-views" id="markdown-toc-classes-cbv---class-based-views">Classes (CBV - <em>Class Based Views</em>)</a></li>
-  <li><a href="#forms" id="markdown-toc-forms">Forms</a></li>
-  <li><a href="#middlewares" id="markdown-toc-middlewares"><em>Middlewares</em></a></li>
+  <li><a href="#introdu%C3%A7%C3%A3o" id="markdown-toc-introdução">Introdução</a></li>
+  <li><a href="#par%C3%A2metros" id="markdown-toc-parâmetros">Parâmetros</a></li>
+  <li><a href="#valores-padr%C3%A3o-ou-valores-default" id="markdown-toc-valores-padrão-ou-valores-default">Valores Padrão (ou Valores <em>Default</em>)</a></li>
+  <li><a href="#chamada-de-fun%C3%A7%C3%A3o-posicional-versus-chamada-de-fun%C3%A7%C3%A3o-nomeada" id="markdown-toc-chamada-de-função-posicional-versus-chamada-de-função-nomeada">Chamada de Função Posicional <em>versus</em> Chamada de Função Nomeada</a></li>
+  <li><a href="#par%C3%A2metro-args" id="markdown-toc-parâmetro-args">Parâmetro <code class="highlighter-rouge">*args</code></a></li>
+  <li><a href="#par%C3%A2metro-kwargs" id="markdown-toc-parâmetro-kwargs">Parâmetro <code class="highlighter-rouge">**kwargs</code></a></li>
+  <li><a href="#fun%C3%A7%C3%B5es-com-retorno-de-dados" id="markdown-toc-funções-com-retorno-de-dados">Funções com retorno de dados</a></li>
+  <li><a href="#palavra-reservada-pass" id="markdown-toc-palavra-reservada-pass">Palavra reservada <code class="highlighter-rouge">pass</code></a></li>
+  <li><a href="#fun%C3%A7%C3%A3o-de-uma-linha" id="markdown-toc-função-de-uma-linha">Função de uma linha</a></li>
 </ul>
 
-<h2 id="onde-estamos">Onde estamos…</h2>
+<h2 id="introdução">Introdução</h2>
 
-<p>Primeiramente, vamos nos situar:</p>
+<p>Funções são blocos de código que executam funcionalidades específicas.</p>
 
-<p><img alt="Arquitetura do Django - Model" class="img-responsive lazyload" data-src="/assets/posts/django-view/django-architecture.png"></p>
+<p>Normalmente são utilizados para evitar que determinada parte do seu código sejá escrito varias vezes.</p>
 
-<p>No <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" target="_blank">primeiro post</a>, tratamos da parte introdutória do Django, uma visão geral das suas camadas, 
-a instalacão do <em>framework</em> e (<strong>CLARO</strong>) a criação do famoso <strong><em>Hello World</em></strong> <em>Django-based</em>.</p>
+<p>Em Python sua sintaxe é definida usando <code class="highlighter-rouge">def</code> e atribuindo um nome a ela, veja um exemplo:</p>
 
-<p>Já no <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model" target="_blank">segundo post</a>, tratamos da camada <em>Model</em>, onde definimos as entidades do nosso sistema, a interface com o banco de dados e aprendemos como utilizar a API de acesso a dados provida pelo Django - que facilita muito nossa vida!</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre><span class="k">def</span> <span class="nf">funcao</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Bloco de código"</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
-<p>No <em>post</em> sobre a Camada <em>Model</em> desenvolvemos a base do nosso <em>HelloWorld</em>: um projeto de gerenciamento de funcionários.</p>
+<p>Observando essa função, podemos extrair algumas informações, iniciando com a palavra reservada para funções <code class="highlighter-rouge">def</code> o nome atribuido à função <code class="highlighter-rouge">funcao</code> e os parênteses <code class="highlighter-rouge">()</code> utilizado para definição dos dados de entrada da função, também chamados de <strong>parâmetros</strong>.</p>
 
-<p>Vamos continuar desenvolvendo-o nesse <em>post</em>, portanto, se você não tem o código desenvolvido, <a href="/assets/posts/django-view/helloworld.zip" target="_blank">baixe-o aqui</a> pois iremos utilizá-lo com o base!</p>
+<p>Em seguida usa-se dois pontos <code class="highlighter-rouge">:</code> e abaixo o bloco de código a ser executado, que neste caso é apenas imprimir de uma string.</p>
 
-<p>Ao final do <em>post</em> se encontra o código final com o que foi passado aqui! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+<p>Para “chamar” uma função, utilizamos o nome que foi definido, dessa forma:</p>
 
-<p>Agora, vamos um pouco mais fundo no Django e vamos tratar da camada <em>View</em> da arquitetura <strong>MTV</strong> do Django (<em>Model Template View</em>).</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="k">def</span> <span class="nf">funcao</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Bloco de código"</span><span class="p">)</span>
 
-<p>É nessa camada que descrevemos a <strong>lógica de negócio</strong> da nossa aplicação!</p>
 
-<p>Sem mais delongas, apresento-lhes: <strong>A camada <em>View</em></strong>!</p>
+<span class="n">funcao</span><span class="p">()</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
-<h2 id="detalhes-da-camada">Detalhes da Camada</h2>
+<p>Resultado do código acima:</p>
 
-<p>Essa camada tem a responsabilidade de processar as <strong>requisições</strong> vindas dos usuários, formar uma <strong>resposta</strong> e enviá-la de volta ao usuário. É aqui que residem nossas <strong>lógicas de negócio</strong>!</p>
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>Bloco de código
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
-<p>Ou seja, essa camada deve: <strong>recepcionar</strong>, <strong>processar</strong> e <strong>responder</strong>!</p>
+<h2 id="parâmetros">Parâmetros</h2>
 
-<p>Para isso, começamos pelo <strong>roteamento de URLs</strong>!</p>
+<p>Além de executar código, funções também podem <strong>receber</strong> e <strong>retornar</strong> dados.</p>
 
-<p>A partir da URL que o usuário quer acessar (<code class="highlighter-rouge">/funcionarios</code>, por exemplo), o Django irá rotear a requisicão para quem irá tratá-la.</p>
+<p>Podemos enviar dados para uma função através de seus parâmetros.</p>
 
-<p>Mas primeiro, o Django precisa ser informado para <strong>onde</strong> mandar a requisição.</p>
-
-<p>Fazemos isso no chamado <strong>URLconf</strong> e damos o nome à esse arquivo, por convenção, de <code class="highlighter-rouge">urls.py</code>!</p>
-
-<p>Geralmente, temos um arquivo de rotas por <em>app</em> do Django. Portanto, crie um arquivo <code class="highlighter-rouge">urls.py</code> dentro da pasta <code class="highlighter-rouge">/helloworld</code> e outro na pasta <code class="highlighter-rouge">/website</code>.</p>
-
-<p>Como o <em>app helloworld</em> é o núcleo da nossa aplicação, ele faz o papel de centralizador de rotas, isto é:</p>
-
-<ul>
-  <li>Primeiro, a requisição cai no arquivo <code class="highlighter-rouge">/helloworld/urls.py</code> e é roteada para o <em>app</em> correspondente.</li>
-  <li>Em seguida, o URLConf do <em>app</em> (<code class="highlighter-rouge">/website/urls.py</code>, no nosso caso) vai rotear a requisição para a <em>view</em> que irá processar dada requisição.</li>
-</ul>
-
-<p>Dessa forma, o arquivo <code class="highlighter-rouge">helloworld/urls.py</code> deve conter:</p>
+<p>Observe o exemplo:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -355,40 +369,69 @@ a instalacão do <em>framework</em> e (<strong>CLARO</strong>) a criação do fa
 5
 6
 7
-8
-9
-10
-11
 </pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django.urls.conf</span> <span class="kn">import</span> <span class="n">include</span>
-<span class="kn">from</span> <span class="nn">django.contrib</span> <span class="kn">import</span> <span class="n">admin</span>
-<span class="kn">from</span> <span class="nn">django.urls</span> <span class="kn">import</span> <span class="n">path</span>
+<td class="code"><pre><span class="k">def</span> <span class="nf">imprime_nome</span><span class="p">(</span><span class="n">nome</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Nome: </span><span class="si">{</span><span class="n">nome</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
 
-<span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="c1"># URL padrão
-</span>    <span class="n">path</span><span class="p">(</span><span class="s">''</span><span class="p">,</span> <span class="n">include</span><span class="p">(</span><span class="s">'website.urls'</span><span class="p">,</span> <span class="n">namespace</span><span class="o">=</span><span class="s">'website'</span><span class="p">)),</span>
 
-    <span class="c1"># Interface administrativa
-</span>    <span class="n">path</span><span class="p">(</span><span class="s">'admin/'</span><span class="p">,</span> <span class="n">admin</span><span class="p">.</span><span class="n">site</span><span class="p">.</span><span class="n">urls</span><span class="p">),</span>
-<span class="p">]</span>
+<span class="n">imprime_nome</span><span class="p">(</span><span class="s">"Erickson"</span><span class="p">)</span>
+<span class="n">imprime_nome</span><span class="p">(</span><span class="s">"Renan"</span><span class="p">)</span>
+<span class="n">imprime_nome</span><span class="p">(</span><span class="s">"Daniel"</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Assim, toda requisição sem o caminho (<em>path</em>) <code class="highlighter-rouge">/admin</code> vai ser roteado pela primeira regra: <code class="highlighter-rouge">website.urls</code> (URLConf do <em>app website</em>).</p>
+<p>Resultado do código acima:</p>
 
-<p>Em seguida, a requisição segue para o roteamento do <em>app</em> específico (<code class="highlighter-rouge">website</code>, no caso).</p>
-
-<p><em>Pode parecer complicado, mas ali embaixo, quando tratarmos mais sobre Views, vai fazer mais sentido (se não fizer, poste sua dúvida aqui embaixo)!</em></p>
-
-<p>A configuração do URLConf é bem simples! Basta definirmos qual função ou <code class="highlighter-rouge">View</code> irá processar requisições de <strong>tal</strong> URL.</p>
-
-<p>Por exemplo, queremos que:</p>
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>Nome: Erickson
+Nome: Renan
+Nome: Daniel
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
 <blockquote>
-  <p><em>Quando um usuário acesse a URL raíz <code class="highlighter-rouge">/</code>, o Django chame a função <code class="highlighter-rouge">index()</code> para processar tal requisição</em></p>
+  <p>Não entendeu essa notação do <code class="highlighter-rouge">print(f"Nome: {nome}")</code>? Isso se chama F-strings e é uma maneira de formatar código Python e Strings! Quer saber mais sobre esse assunto, então acesse nosso <a href="https://pythonacademy.com.br/blog/f-strings-no-python" target="_blank">Post completo sobre F-Strings</a>!</p>
 </blockquote>
 
-<p>Vejamos como poderíamos configurar esse roteamento no nosso arquivo <code class="highlighter-rouge">urls.py</code>:</p>
+<p>Quando a função é chamada, passamos uma string como dado de entrada - através do parâmetro <code class="highlighter-rouge">nome</code> - que é concatenada e impressa dentro da função.</p>
+
+<p>Caso nenhum valor seja infomado ao chamar a função, um erro será gerado. Por exemplo, o seguinte código:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="k">def</span> <span class="nf">imprime_nome</span><span class="p">(</span><span class="n">nome</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Nome: </span><span class="si">{</span><span class="n">nome</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+
+
+<span class="n">imprime_nome</span><span class="p">()</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Ocasionará o seguinte erro:</p>
+
+<figure class="highlight terminal-output error"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>TypeError: imprime_nome() missing 1 required positional argument: 'nome'
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Podemos resolver esse erro utilizando os “Valores Padrão” e é exatamente isso que veremos agora!</p>
+
+<h2 id="valores-padrão-ou-valores-default">Valores Padrão (ou Valores <em>Default</em>)</h2>
+
+<p>A utilização dos valores padrão serve para dar um valor quando quem chamou a função não passar nenhum valor para os parâmetros definidos.</p>
+
+<p>Fazemos isso dessa forma:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -397,64 +440,98 @@ a instalacão do <em>framework</em> e (<strong>CLARO</strong>) a criação do fa
 4
 5
 6
-7
-8
-9
-10
 </pre></td>
-<td class="code"><pre><span class="c1"># Importamos a função index() definida no arquivo views.py
-</span><span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">views</span>
+<td class="code"><pre><span class="k">def</span> <span class="nf">flor</span><span class="p">(</span><span class="n">flor</span><span class="o">=</span><span class="s">'Rosa'</span><span class="p">,</span> <span class="n">cor</span><span class="o">=</span><span class="s">'Vermelha'</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"A cor da {flor} é {cor}"</span><span class="p">)</span>
 
-<span class="n">app_name</span> <span class="o">=</span> <span class="s">'website'</span>
 
-<span class="c1"># urlpatterns a lista de roteamentos de URLs para funções/Views
-</span><span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="c1"># GET /
-</span>    <span class="n">url</span><span class="p">(</span><span class="sa">r</span><span class="s">'^$'</span><span class="p">,</span> <span class="n">views</span><span class="p">.</span><span class="n">index</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">'index'</span><span class="p">),</span>
-<span class="p">]</span>
+<span class="n">flor</span><span class="p">()</span>
+<span class="n">flor</span><span class="p">(</span><span class="s">"Orquídea"</span><span class="p">,</span> <span class="s">"Azul"</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p><em>O atributo <code class="highlighter-rouge">app_name = 'website'</code> define o namespace do app <strong>website</strong> (lembre-se do décimo nono Zen do Python: <strong>namespaces</strong> são uma boa ideia! - <a href="https://pythonacademy.com.br/zen-of-python" target="_blank">clique aqui para saber mais sobre o Zen do Python</a>)</em></p>
+<p>Veja o resultado:</p>
 
-<p>Django utilizava <strong>Expressões Regulares</strong> (RegEx - <em>Regular Expressions</em>) para o “casamento” de URLs.</p>
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>A cor da Rosa é Vermelha
+A cor da Orquídea é Azul
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
-<p>Já na versão 2.0 do Django, os desenvolvedores retiraram a obrigatoriedade de se utilizar RegEx!!! Agora, ao invés de fazermos isso:</p>
+<p>Ou seja, o erro anterior não ocorrou novamente!</p>
+
+<h2 id="chamada-de-função-posicional-versus-chamada-de-função-nomeada">Chamada de Função Posicional <em>versus</em> Chamada de Função Nomeada</h2>
+
+<p>Quando chamamos uma função, podemos utilizar a localização dos parâmetros para fazer o casamento entre o que foi chamado e o que foi definido na função.</p>
+
+<p>Para entender melhor, veja o exemplo a seguir:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="code"><pre><span class="k">def</span> <span class="nf">monta_computador</span><span class="p">(</span><span class="n">cpu</span><span class="o">=</span><span class="s">''</span><span class="p">,</span> <span class="n">armazenamento</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">memoria</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'A configuração é: </span><span class="se">\n\t</span><span class="s">- CPU: {cpu}</span><span class="se">\n\t</span><span class="s">- Armazenamento: {armazenamento}Tb</span><span class="se">\n\t</span><span class="s">- Memória: {memoria}Gb'</span><span class="p">)</span>
+
+
+<span class="n">monta_computador</span><span class="p">(</span><span class="s">'Intel Core i9'</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">64</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>A saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre>A configuração é: 
+    - CPU: Intel Core i9
+    - Armazenamento: 4Tb
+    - Memória: 64Gb
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>O programador que escreveu a chamada da função <code class="highlighter-rouge">monta_computador</code> está respeitando a <strong>posição</strong> dos parâmetros, ou seja:</p>
+
+<ul>
+  <li>O valor <code class="highlighter-rouge">"Intel Core i9"</code> é referente ao <strong>primeiro</strong> parâmetro (<code class="highlighter-rouge">cpu</code>)</li>
+  <li>O valor <code class="highlighter-rouge">4</code> é referente ao <strong>segundo</strong> parâmetro (<code class="highlighter-rouge">armazenamento</code>)</li>
+  <li>O valor <code class="highlighter-rouge">64</code> se refere ao <strong>terceiro</strong> parâmetro (<code class="highlighter-rouge">memoria</code>)</li>
+</ul>
+
+<p>Essa é uma chamada de função <strong>posicional</strong>, ou seja: que respeita a ordem dos parâmetros.</p>
+
+<p>Outra forma de fazer essa chamada de função é utilizar os <strong>nomes</strong> dos parâmetros!</p>
+
+<p>Dessa forma, não é necessário respeitar a ordem de definição dos parâmetros!</p>
+
+<p>Veja o mesmo exemplo, mas agora utilizando os <strong>nomes</strong> dos parâmetros:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 </pre></td>
-<td class="code"><pre><span class="n">url</span><span class="p">(</span><span class="sa">r</span><span class="s">'^funcionarios/(?P&lt;ano&gt;[0-9]{4})/$'</span><span class="p">,</span> <span class="n">views</span><span class="p">.</span><span class="n">funcionarios_por_ano</span><span class="p">),</span>
+<td class="code"><pre><span class="n">monta_computador</span><span class="p">(</span><span class="n">memoria</span><span class="o">=</span><span class="mi">64</span><span class="p">,</span> <span class="n">armazenamento</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">cpu</span><span class="o">=</span><span class="s">'Intel Core i9'</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>podemos fazer apenas:</p>
+<p>A saída será a mesma, pois como utilizamos os nomes, o Python saberá qual valor referncia qual parâmetro!</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="n">path</span><span class="p">(</span><span class="s">'funcionarios/&lt;int:ano&gt;/'</span><span class="p">,</span> <span class="n">views</span><span class="p">.</span><span class="n">funcionarios_por_ano</span><span class="p">),</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p><em><strong>Mais legível, né?!</strong></em></p>
-
-<h2 id="funções-vs-class-based-views">Funções vs <em>Class Based Views</em>
+<h2 id="parâmetro-args">Parâmetro <code class="highlighter-rouge">*args</code>
 </h2>
 
-<p>Com as URLs corretamente configuradas, o Django irá rotear a sua requisição para onde você definiu. No caso acima, sua requisição irá cair na função <code class="highlighter-rouge">views.funcionarios_por_ano()</code>.</p>
+<p>Caso você queira desenvolver uma função que recebe um número variável de parâmetros, você pode utilizar o parâmetro <code class="highlighter-rouge">*args</code>!</p>
 
-<p>Podemos tratar as requisições de duas formas: através de funções ou através de <em>Class Based Views</em> (<strong>CBVs</strong> - ou apenas <em>Views</em>).</p>
+<p>Dessa forma, a função receberá os argumentos em forma de Tupla e você poderá processá-los com um loop <code class="highlighter-rouge">for</code> por exemplo!</p>
 
-<p>Utilizando <strong>funções</strong>, você basicamente vai definir uma função que recebe como parâmetro uma requisição (<code class="highlighter-rouge">request</code>), realizar algum processamento e retornar alguma informação.</p>
-
-<p>Já as <em>Views</em> são classes que herdam de <code class="highlighter-rouge">django.views.generic.base.View</code> e que agrupam diversas funcionalidades e facilitam a vida do desenvolvedor.</p>
-
-<p>Nós podemos herdar e estender as funcionalidades das <em>Views</em> do Django para atender a lógica da nossa aplicação.</p>
-
-<p>Por exemplo, suponha você quer criar uma tela com a <strong>lista de todos os funcionários</strong>.</p>
-
-<p>Utilizando <strong>funções</strong>, você poderia fazer da seguinte forma:</p>
+<p>Veja o código abaixo para entender melhor:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -467,464 +544,133 @@ a instalacão do <em>framework</em> e (<strong>CLARO</strong>) a criação do fa
 8
 9
 10
-11
 </pre></td>
-<td class="code"><pre><span class="k">def</span> <span class="nf">lista_funcionarios</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
-    <span class="c1"># Primeiro, buscamos os funcionarios
-</span>    <span class="n">funcionarios</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="p">.</span><span class="n">objetos</span><span class="p">.</span><span class="nb">all</span><span class="p">()</span>
+<td class="code"><pre><span class="k">def</span> <span class="nf">maior_30</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">args</span><span class="p">))</span>
 
-    <span class="c1"># Incluímos no contexto
-</span>    <span class="n">contexto</span> <span class="o">=</span> <span class="p">{</span>
-      <span class="s">'funcionarios'</span><span class="p">:</span> <span class="n">funcionarios</span>
-    <span class="p">}</span>
+    <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">args</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">num</span> <span class="o">&gt;</span> <span class="mi">30</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
 
-    <span class="c1"># Retornamos o template no qual os funcionários serão dispostos
-</span>    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s">"templates/funcionarios.html"</span><span class="p">,</span> <span class="n">contexto</span><span class="p">)</span>
+
+<span class="n">maior_30</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">60</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Algumas colocações:</p>
+<p>A função acima irá receber todos os valores passados para função no parâmetro <code class="highlighter-rouge">*args</code> e irá iterar sobre eles com um loop <code class="highlighter-rouge">for</code>.</p>
 
-<ul>
-  <li>Toda função que vai processar requisições no Django recebe como primeiro parâmetro, um objeto <code class="highlighter-rouge">request</code> contendo os dados dessa requisição.</li>
-  <li>Contexto é o conjunto de dados que estarão disponíveis no <em>template</em>.</li>
-  <li>A função <code class="highlighter-rouge">django.shortcuts.render()</code> é um atalho (<em>shortcut</em>) do próprio Django que facilita a renderização de <em>templates</em>: ela recebe a própria requisição, o diretório do <em>template</em> e o contexto.</li>
-</ul>
+<p>Veja a saída:</p>
 
-<p>Já utilizando <em>Views</em>, podemos utilizar a <em>View</em> <code class="highlighter-rouge">django.views.generic.ListView</code> para listar os funcionários, da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
 4
 5
-6
 </pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django.views.generic</span> <span class="kn">import</span> <span class="n">ListView</span>
-
-<span class="k">class</span> <span class="nc">ListaFuncionarios</span><span class="p">(</span><span class="n">ListView</span><span class="p">):</span>
-    <span class="n">template_name</span> <span class="o">=</span> <span class="s">"templates/funcionarios.html"</span>
-    <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
-    <span class="n">context_object_name</span> <span class="o">=</span> <span class="s">"funcionarios"</span>
+<td class="code"><pre>(10, 20, 30, 40, 50, 60)
+&lt;class 'tuple'&gt;
+40
+50
+60
 </pre></td>
 </tr></tbody></table></code></pre></figure>
-
-<p><em>Perceba que você não precisou descrever a lógica para buscar a lista de funcionários?</em></p>
-
-<p>É <strong>exatamente isso</strong> que as <code class="highlighter-rouge">Views</code> do Django proporcionam: elas descrevem o comportamento padrão para as funcionalidades mais simples (listagem, exclusão, busca simples, atualização).</p>
-
-<p>O caso comum para uma listagem de objetos é buscar todo o conjunto de dados daquela entidade e mostrar no template, certo?! É exatamento <strong>isso</strong> que a <code class="highlighter-rouge">ListView</code> faz!</p>
-
-<p>Com isso, um objeto <code class="highlighter-rouge">funcionarios</code> estará disponível, <strong>magicamente</strong>, no seu <em>template</em> para iteração.</p>
-
-<p>Dessa forma, podemos então criar uma tabela no nosso <em>template</em> com os dados de todos os funcionários:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-</pre></td>
-<td class="code"><pre><span class="nt">&lt;table&gt;</span>
-  <span class="nt">&lt;tbody&gt;</span>
-    {% for funcionario in funcionarios %}
-      <span class="nt">&lt;tr&gt;</span>
-        <span class="nt">&lt;td&gt;</span>{{ funcionario.nome }}<span class="nt">&lt;/td&gt;</span>
-        <span class="nt">&lt;td&gt;</span>{{ funcionario.sobrenome }}<span class="nt">&lt;/td&gt;</span>
-        <span class="nt">&lt;td&gt;</span>{{ funcionario.remuneracao }}<span class="nt">&lt;/td&gt;</span>
-        <span class="nt">&lt;td&gt;</span>{{ funcionario.tempo_de_servico }}<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;/tr&gt;</span>
-    {% endfor %}
-  <span class="nt">&lt;/tbody&gt;</span>
-<span class="nt">&lt;/table&gt;</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p><em>Se já quiser saber mais sobre <strong>templates</strong>, <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template">acesse aqui o post sobre a Camada de Templates</a>!</em></p>
-
-<p>Falando nisso, que tal fazer parte da nossa comunidade e saber do lançamento dos próximos <em>posts</em> e <strong>muito mais</strong> em primeira mão?!</p>
-
-<p><strong>Então já se inscreve aí!</strong></p>
-
-<div class="email-signup" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="signup-body">
-				<span class="greeting">Olá <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"> Está gostando do artigo?</span>
-				<span class="signup-text">Então cadastre o seu email para <span class="underline">receber gratuitamente</span> mais conteúdos como este!</span>
-		        <!-- Include MailChimp email form with input and submit button -->
-<!-- Parameters: Quero! = button label  -->
-
-<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate="">
-    <div id="mc_embed_signup_scroll" class="mailchimp-signup container-fluid">        
-        <div class="row no-gutters">
-            <div class="col-xs-3">
-                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="">
-            </div>
-            
-            <div class="col-xs-5">                
-                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="">                
-            </div>
-
-            <div class="col-xs-4">
-                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
-                    <span><img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> Quero!</span>
-                </button>        
-            </div>
-        </div>
-    </div>	
-
-    <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>            
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
-</form>
-		    </div>
-		</div>
-	</div>      
-</div>
-
-<p>Continuando…</p>
-
-<p>O Django tem uma diversidade enorme de <em>Views</em>, uma para cada finalidade, por exemplo:</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">CreateView</code>: Facilita a criação de objetos (<em>É o <strong>C</strong>reate do <strong>C</strong>RUD</em>)</li>
-  <li>
-<code class="highlighter-rouge">DetailView</code>: Traz os detalhes de um objeto (<em>É o <strong>R</strong>etrieve do C<strong>R</strong>UD</em>)</li>
-  <li>
-<code class="highlighter-rouge">UpdateView</code>: Facilita a atualização de um objeto (<em>É o <strong>U</strong>pdate do CR<strong>U</strong>D</em>)</li>
-  <li>
-<code class="highlighter-rouge">DeleteView</code>: Facilita a deleção de objetos (<em>É o <strong>D</strong>elete do CRU<strong>D</strong></em>)</li>
-</ul>
-
-<p>E várias outras muito úteis!</p>
-
-<p>Agora vamos tratar detalhes do tratamento de requisições através de funções. Em seguida, trataremos mais sobre as <em>Class Based Views</em>.</p>
-
-<h2 id="funções-function-based-views">Funções (<em>Function Based Views</em>)</h2>
-
-<p>Utilizar funções é a maneira mais explícita para tratar requisições no Django (veremos que as <em>Class Based Views</em> podem ser 
-um pouco mais complexas pois muita coisa acontece implicitamente).</p>
-
-<p>Utilizando funções, geralmente tratamos primeiro o método HTTP da requisição: foi um <code class="highlighter-rouge">GET</code>? Foi um <code class="highlighter-rouge">POST</code>? Um <code class="highlighter-rouge">OPTION</code>?</p>
-
-<p>A partir dessa informação, processamos a requisição da maneira desejada.</p>
-
-<p>Vamos seguir o exemplo abaixo:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-</pre></td>
-<td class="code"><pre><span class="k">def</span> <span class="nf">cria_funcionario</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">pk</span><span class="p">):</span>
-  <span class="c1"># Verificamos se o método POST
-</span>  <span class="k">if</span> <span class="n">request</span><span class="p">.</span><span class="n">method</span> <span class="o">==</span> <span class="s">'POST'</span><span class="p">:</span>
-    <span class="n">form</span> <span class="o">=</span> <span class="n">FormularioDeCriacao</span><span class="p">(</span><span class="n">request</span><span class="p">.</span><span class="n">POST</span><span class="p">)</span>
-
-    <span class="k">if</span> <span class="n">form</span><span class="p">.</span><span class="n">is_valid</span><span class="p">():</span>
-      <span class="n">form</span><span class="p">.</span><span class="n">save</span><span class="p">()</span>      
-      <span class="k">return</span> <span class="n">HttpResponseRedirect</span><span class="p">(</span><span class="n">reverse</span><span class="p">(</span><span class="s">'list_view'</span><span class="p">))</span>
-  
-  <span class="c1"># Qualquer outro método: GET, OPTION, DELETE, etc...
-</span>  <span class="k">else</span><span class="p">:</span>
-    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">templates</span><span class="o">/</span><span class="n">form</span><span class="p">.</span><span class="n">html</span><span class="p">,</span> <span class="p">{</span><span class="s">'form'</span><span class="p">:</span> <span class="n">form</span><span class="p">})</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>O fluxo é bem simples de entender, vamos lá:</p>
-
-<ul>
-  <li>Primeiro, conforme mencionei, verificamos o método HTTP da requisição no campo <code class="highlighter-rouge">method</code> do objeto <code class="highlighter-rouge">request</code> na <strong>linha 3</strong>.</li>
-  <li>Depois instanciamos um <code class="highlighter-rouge">form</code> com os dados da requisição (no caso <code class="highlighter-rouge">POST</code>) com <code class="highlighter-rouge">FormularioDeCriacao(request.POST)</code> na <strong>linha 4</strong> (vamos falar mais sobre <code class="highlighter-rouge">Form</code> já já).</li>
-  <li>Verificamos os campos do <code class="highlighter-rouge">form</code> com <code class="highlighter-rouge">form.is_valid()</code> na <strong>linha 6</strong>..</li>
-  <li>Se tudo estiver <strong>OK</strong>, retornamos um <em>redirect</em> para uma <em>view</em> de listagem na <strong>linha 8</strong>.</li>
-  <li>Se for qualquer outro método, apenas renderizamos a página novamente com <code class="highlighter-rouge">render(request, templates/form.html, {'form': form})</code> na <strong>linha 12</strong>.</li>
-</ul>
-
-<p>Apesar de ser pouco código, foram introduzidos diversos conceitos novos. Então vamos por partes!</p>
-
-<p>Vamos começar abrindo o objeto <code class="highlighter-rouge">request</code> para ver o que tem dentro e ver o que pode ser útil para nós.</p>
-
-<p><strong><em>Observação</em></strong>: <em>Para saber mais sobre os campos do objeto <code class="highlighter-rouge">request</code>, dá uma olhada na classe <code class="highlighter-rouge">django.http.request.HttpRequest</code></em>!</p>
-
-<p>Separei aqui alguns atributos que provavelmente serão os mais utilizados por você:</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">request.scheme</code>: String representando o esquema (<em>HTTP</em> ou <em>HTTPS</em>).</li>
-  <li>
-<code class="highlighter-rouge">request.path</code>: String com o caminho da página requisitada - exemplo: <strong>/cursos/curso-de-python/detalhes</strong>.</li>
-  <li>
-<code class="highlighter-rouge">request.method</code>: Conforme citamos, contém o método <em>HTTP</em> da requisição (<strong>GET</strong>, <strong>POST</strong>, <strong>UPDATE</strong>, <strong>OPTION</strong>, etc).</li>
-  <li>
-<code class="highlighter-rouge">request.content_type</code>: Representa o tipo MIME da requisição - <code class="highlighter-rouge">text/plain</code> para texto plano, <code class="highlighter-rouge">image/png</code> para arquivos .PNG, por exemplo - saiba mais <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Basico_sobre_HTTP/MIME_types" target="_blank">clicando aqui</a>
-</li>
-  <li>
-<code class="highlighter-rouge">request.GET</code>: Um <em>dict</em> contendo os parâmetros GET da requisição.</li>
-  <li>
-<code class="highlighter-rouge">request.POST</code>: Um <em>dict</em> contendo os parâmetros do corpo de uma requisição POST.</li>
-  <li>
-<code class="highlighter-rouge">request.FILES</code>: Caso seja uma página de <em>upload</em>, contém os arquivos que foram enviados. Só contém dados se for uma requisição do tipo <em>POST</em> e o <code class="highlighter-rouge">&lt;form&gt;</code> da página <em>HTML</em> tenha o parâmetro <code class="highlighter-rouge">enctype="multipart/form-data"</code>.</li>
-  <li>
-<code class="highlighter-rouge">request.COOKIES</code>: <em>Dict</em> contendo todos os <em>COOKIES</em> no formato de string.</li>
-</ul>
-
-<p>Em 99.9% dos casos, estaremos processando dados desses campos!</p>
-
-<p><em><strong>Dica:</strong> Quer ver os campos da requisição em “tempo real” que chegaram no servidor? Então liga o debug da sua IDE (caso tenha) e coloque um breakpoint em alguma view, dispare alguma requisição e veja o que acontece! Por exemplo, utilizando o PyCharm:</em></p>
-
-<p><img alt="Debugando com o PyCharm" class="img-responsive lazyload" data-src="/assets/posts/django-view/debug.png"></p>
-
-<p><em>(Caso esteja ruim de ver a imagem, clique com o botão direito em cima da imagem e depois em “Abrir imagem em uma nova guia”).</em></p>
-
-<p><em>Do <strong>lado esquerdo</strong>, o código com o breakpoint que coloquei (círculo vermelho). Do <strong>lado direito</strong>, as variáveis do objeto <code class="highlighter-rouge">request</code> que tratamos aqui em cima!</em></p>
-
-<p><em><strong>Outra dica</strong>: Recomendo fortemente a utilização do PyCharm! Ela é MUITO boa!</em></p>
-
-<p>Dito isso, agora vamos tratar detalhes do tratamento de requisições através de <em>Class Based Views</em>.</p>
-
-<h2 id="classes-cbv---class-based-views">Classes (CBV - <em>Class Based Views</em>)</h2>
-
-<p>Conforme expliquei ali em cima, as <em>Class Based Views</em> servem para automatizar e facilitar nossa vida, encapsulando funcionalidades comuns que todo desenvolvedor sempre acaba implementando. Por exemplo, geralmente:</p>
-
-<ul>
-  <li>Queremos que quando um usuário vá para página inicial, seja mostrado <strong>apenas uma página</strong> simples.</li>
-  <li>Queremos que nossa <strong>página de listagem</strong> contenha a <strong>lista</strong> de todos os funcionários (por exemplo) cadastrados no banco de dados.</li>
-  <li>Queremos uma <strong>página com um formulário</strong> contendo todos os campos pré-preenchidos para <strong>atualização</strong> de dado funcionário.</li>
-  <li>Queremos uma <strong>página de exclusão</strong> de funcionários.</li>
-  <li>Queremos um formulário em branco para <strong>inclusão de um novo funcionário</strong>.</li>
-</ul>
-
-<p><strong><em>Certo?!</em></strong></p>
-
-<p>Pois é, as <strong>CBVs</strong> - <em>Class Based Views</em> - fazem isso!</p>
-
-<p>Temos basicamente <strong>duas formas</strong> para utilizar uma <strong>CBV</strong>.</p>
-
-<p>Primeiro, podemos utilizá-las diretamente no nosso <strong>URLConf</strong> (urls.py), assim:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django.urls</span> <span class="kn">import</span> <span class="n">path</span>
-<span class="kn">from</span> <span class="nn">django.views.generic</span> <span class="kn">import</span> <span class="n">TemplateView</span>
-
-<span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="n">path</span><span class="p">(</span><span class="s">''</span><span class="p">,</span> <span class="n">TemplateView</span><span class="p">.</span><span class="n">as_view</span><span class="p">(</span><span class="n">template_name</span><span class="o">=</span><span class="s">"index.html"</span><span class="p">)),</span>
-<span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>E a segunda maneira, a mais utilizada e mais poderosa, é herdando da <em>View</em> desejada e sobrescrever os atributos e métodos na subclasse.</p>
-
-<p><em>Eu particularmente prefiro a segunda forma, pois encapsula todas as Views no mesmo arquivo: no views.py</em></p>
-
-<h3 id="templateview"><code class="highlighter-rouge">TemplateView</code></h3>
-
-<p>Por exemplo, para o <strong>primeiro caso</strong>, podemos utilizar a <code class="highlighter-rouge">TemplateView</code> (<a href="https://docs.djangoproject.com/en/2.0/ref/class-based-views/base/#templateview" target="_blank">documentação</a>) para apenas mostrar uma página, da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="code"><pre><span class="k">class</span> <span class="nc">IndexTemplateView</span><span class="p">(</span><span class="n">TemplateView</span><span class="p">):</span>
-  <span class="n">template_name</span> <span class="o">=</span> <span class="s">"index.html"</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>E a configuração de rotas fica assim:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django.urls</span> <span class="kn">import</span> <span class="n">path</span>
-<span class="kn">from</span> <span class="nn">helloworld.views</span> <span class="kn">import</span> <span class="n">IndexTemplateView</span>
-
-<span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="n">path</span><span class="p">(</span><span class="s">''</span><span class="p">,</span> <span class="n">IndexTemplateView</span><span class="p">.</span><span class="n">as_view</span><span class="p">()),</span>
-<span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<h3 id="listview"><code class="highlighter-rouge">ListView</code></h3>
-
-<p>Já para o segundo caso, de <strong>listagem de funcionários</strong>, podemos utilizar a <code class="highlighter-rouge">ListView</code> (<a href="https://docs.djangoproject.com/en/2.0/ref/class-based-views/generic-display/#listview" target="_blank">documentação</a>). Nela, nós configuramos o <em>Model</em> que deve ser buscado (<code class="highlighter-rouge">Funcionario</code> no nosso caso), e ela automaticamente faz a busca por todos os registros presentes no banco de dados da entidade informada.</p>
-
-<p>Por exemplo, a seguinte <em>View</em>:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django.views.generic.list</span> <span class="kn">import</span> <span class="n">ListView</span>
-<span class="kn">from</span> <span class="nn">helloworld.models</span> <span class="kn">import</span> <span class="n">Funcionario</span>
-
-<span class="k">class</span> <span class="nc">FuncionarioListView</span><span class="p">(</span><span class="n">ListView</span><span class="p">):</span>
-  <span class="n">template_name</span> <span class="o">=</span> <span class="s">"website/lista.html"</span>
-  <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
-  <span class="n">context_object_name</span> <span class="o">=</span> <span class="s">"funcionarios"</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Com essa configuração:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django.urls</span> <span class="kn">import</span> <span class="n">path</span>
-<span class="kn">from</span> <span class="nn">helloworld.views</span> <span class="kn">import</span> <span class="n">FuncionarioListView</span>
-
-<span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="n">path</span><span class="p">(</span><span class="s">'funcionarios/'</span><span class="p">,</span> <span class="n">FuncionarioListView</span><span class="p">.</span><span class="n">as_view</span><span class="p">()),</span>
-<span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Resulta em uma página <strong>lista.html</strong> contendo um objeto chamado <strong>"funcionarios"</strong> contendo todos os Funcionários disponível para iteração.</p>
-
-<p><strong>Dica</strong>: <em>Eu geralmente coloco o nome da View como sendo o Model com a CBV base. Por exemplo: se eu fosse criar uma view que vai listar todos os Cursos cadastrados, eu daria o nome de <code class="highlighter-rouge">CursoListView</code> (Model = &lt;Curso&gt;, CBV = &lt;ListView&gt;)</em>.</p>
-
-<h3 id="updateview"><code class="highlighter-rouge">UpdateView</code></h3>
-
-<p>Já para <strong>aualização de usuários</strong> podemos utilizar a <code class="highlighter-rouge">UpdateView</code> (<a href="https://docs.djangoproject.com/en/2.0/ref/class-based-views/generic-editing/#updateview" target="_blank">documentação</a>). Com ela, setamos (no mínimo) qual o <em>Model</em>, quais campos e qual o nome do template, e com isso temos um formulário para atualização do modelo em questão.</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django.views.generic.edit</span> <span class="kn">import</span> <span class="n">UpdateView</span>
-<span class="kn">from</span> <span class="nn">helloworld.models</span> <span class="kn">import</span> <span class="n">Funcionario</span>
-
-<span class="k">class</span> <span class="nc">FuncionarioUpdateView</span><span class="p">(</span><span class="n">UpdateView</span><span class="p">):</span>
-    <span class="n">template_name</span> <span class="o">=</span> <span class="s">"atualiza.html"</span>
-    <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
-    <span class="n">fields</span> <span class="o">=</span> <span class="p">[</span>
-      <span class="s">'nome'</span><span class="p">,</span>
-      <span class="s">'sobrenome'</span> <span class="p">,</span>
-      <span class="s">'cpf'</span><span class="p">,</span>
-      <span class="s">'tempo_de_servico'</span><span class="p">,</span>
-      <span class="s">'remuneracao'</span>
-    <span class="p">]</span>    
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p><strong>Dica:</strong> <em>Ao invés de todos os campos em <code class="highlighter-rouge">fields</code> em formato de lista de strings, podemos utilizar <code class="highlighter-rouge">fields = '__all__'</code> que o Django irá buscar todos os campos para você!</em></p>
-
-<p><strong><em>Mas e de onde o Django vai pegar o <code class="highlighter-rouge">id</code> do objeto a ser buscado?</em></strong></p>
-
-<p>O Django precisa ser informado do <code class="highlighter-rouge">id</code> ou <code class="highlighter-rouge">slug</code> para poder buscar o objeto correto a ser atualizado.</p>
-
-<p>Podemos fazer isso de <strong>duas formas</strong>.</p>
-
-<p><strong>Primeiro</strong>, na configuração de rotas (<em>urls.py</em>), dessa forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django.urls</span> <span class="kn">import</span> <span class="n">path</span>
-<span class="kn">from</span> <span class="nn">helloworld.views</span> <span class="kn">import</span> <span class="n">FuncionarioUpdateView</span>
-
-<span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="c1"># Utilizando o {id} para buscar o objeto
-</span>    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/&lt;id&gt;'</span><span class="p">,</span> <span class="n">FuncionarioUpdateView</span><span class="p">.</span><span class="n">as_view</span><span class="p">()),</span>
-
-    <span class="c1"># Utilizando o {slug} para buscar o objeto
-</span>    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/&lt;slug&gt;'</span><span class="p">,</span> <span class="n">FuncionarioUpdateView</span><span class="p">.</span><span class="n">as_view</span><span class="p">()),</span>
-<span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p><strong><em>Mas e o que é slug?</em></strong></p>
-
-<p><em>Slug</em> é uma forma de gerar URLs mais legíveis a partir de dados já existentes.</p>
-
-<p>Exemplo: podemos criar um campo <em>slug</em> utilizando o campo <code class="highlighter-rouge">nome</code> do funcionário. Dessa forma, as URLs ficariam assim:</p>
-
-<ul>
-  <li><strong>/funcionario/vinicius-ramos</strong></li>
-</ul>
-
-<p>e não assim (utilizando o <strong>id</strong> na URL):</p>
-
-<ul>
-  <li><strong>/funcionario/175</strong></li>
-</ul>
-
-<p>No campo <em>slug</em>, <strong>todos os caracteres</strong> são transformados em minúsculos e os espaços são transformados em hífens.</p>
-
-<p>A <strong>segunda forma</strong> de buscar o objeto que estará disponível na tela de atualização é utilizando (ou <strong>sobrescrevendo</strong>) o método <code class="highlighter-rouge">get_object()</code> da classe pai <code class="highlighter-rouge">UpdateView</code>.</p>
-
-<p>A documentação desse método traz (traduzido):</p>
 
 <blockquote>
-  <p>“Retorna o objeto que a View irá mostrar. Requer <code class="highlighter-rouge">self.queryset</code> e um argumento <code class="highlighter-rouge">pk</code> ou <code class="highlighter-rouge">slug</code> no URLConf. Subclasses podem sobrescrever esse método e retornar qualquer objeto.”</p>
+  <p><strong><em>Observação</em></strong>: O nome <code class="highlighter-rouge">*args</code> é uma convenção, ou seja uma boa prática entre programadores Python! Contudo, nada te impede de alterar esse nome para <code class="highlighter-rouge">*numeros</code> por exemplo. Dessa forma, a definição da função seria: <code class="highlighter-rouge">def maior_30(*numeros):</code></p>
 </blockquote>
 
-<p>Ou seja, o Django nos dá total liberdade de utilizarmos a <strong>convenção</strong> (parâmetros passados pela <em>URLConf</em>) ou a <strong>configuração</strong> (sobrescrevendo o método <code class="highlighter-rouge">get_object()</code>).</p>
+<h2 id="parâmetro-kwargs">Parâmetro <code class="highlighter-rouge">**kwargs</code>
+</h2>
 
-<p>Basicamente, o método <code class="highlighter-rouge">get_object()</code> deve pegar o <code class="highlighter-rouge">id</code> ou <code class="highlighter-rouge">slug</code> da url e realizar a busca no banco de dados até encontrar aquele <code class="highlighter-rouge">id</code>:</p>
+<p>Agora, se quiser desenvolver uma função com número variado de parâmetros <strong>nomeados</strong>, utilize <code class="highlighter-rouge">**kwargs</code>.</p>
+
+<p>Dessa forma, todos os dados passados à função serão guardados nessa variável <code class="highlighter-rouge">**kwargs</code>, em formato de um dicionário.</p>
+
+<p>Oberve como podemos obter a chave a valor deles percorrendo os itens deste dicionário:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td>
+<td class="code"><pre><span class="k">def</span> <span class="nf">dados_pessoa</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">kwargs</span><span class="p">))</span>
+    
+    <span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">kwargs</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">chave</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">valor</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+
+
+<span class="n">dados_pessoa</span><span class="p">(</span><span class="n">nome</span><span class="o">=</span><span class="s">'João'</span><span class="p">,</span> <span class="n">idade</span><span class="o">=</span><span class="mi">35</span><span class="p">,</span> <span class="n">carreira</span><span class="o">=</span><span class="s">'Desenvolvedor Fullstack'</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Na saída podemos observar o tipo de dado que a função recebeu e a estrutura construida para percorrer o dicionário:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre>&lt;class 'dict'&gt;
+nome: João
+idade: 35
+carreira: Desenvolvedor Fullstack
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<blockquote>
+  <p><strong><em>Observação</em></strong>: O nome <code class="highlighter-rouge">**kwargs</code> é uma convenção, ou seja uma boa prática entre programadores Python! Contudo, nada te impede de alterar esse nome para <code class="highlighter-rouge">**pessoa</code> por exemplo.</p>
+</blockquote>
+
+<h2 id="funções-com-retorno-de-dados">Funções com retorno de dados</h2>
+
+<p>As funções também podem retornar valores através da palavra reservada <code class="highlighter-rouge">return</code>.</p>
+
+<p>Veja o exemplo:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td>
+<td class="code"><pre><span class="k">def</span> <span class="nf">soma_dois_numeros</span><span class="p">(</span><span class="n">valor1</span><span class="p">,</span> <span class="n">valor2</span><span class="p">):</span>
+    <span class="n">soma</span> <span class="o">=</span> <span class="n">valor1</span> <span class="o">+</span> <span class="n">valor2</span>
+    <span class="k">return</span> <span class="n">soma</span>
+
+
+<span class="n">valor_soma</span> <span class="o">=</span> <span class="n">soma_dois_numeros</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span> <span class="mi">15</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">valor_soma</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">soma_dois_numeros</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Saída com o retorno da soma dos valores introduzidos na função:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>47
+60
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h3 id="funções-com-retorno-múltiplos">Funções com retorno múltiplos</h3>
+
+<p>Funções também podem retornar múltiplos dados. Veja o exemplo:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -937,1032 +683,98 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 8
 9
 10
-11
-12
-13
-14
-15
+</pre></td>
+<td class="code"><pre><span class="k">def</span> <span class="nf">soma_dois_numeros_e_calcula_media</span><span class="p">(</span><span class="n">valor1</span><span class="p">,</span> <span class="n">valor2</span><span class="p">):</span>
+    <span class="n">soma</span> <span class="o">=</span> <span class="n">valor1</span> <span class="o">+</span> <span class="n">valor2</span>
+    <span class="n">media</span> <span class="o">=</span> <span class="p">(</span><span class="n">valor1</span> <span class="o">+</span> <span class="n">valor2</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span>
+    
+    <span class="k">return</span> <span class="n">soma</span><span class="p">,</span> <span class="n">media</span>
+
+
+<span class="n">valor_soma</span> <span class="o">=</span> <span class="n">soma_dois_numeros_e_calcula_media</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span> <span class="mi">15</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">valor_soma</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">soma_dois_numeros_e_calcula_media</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>A saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>(47, 23.5)
+(60, 30.0)
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="palavra-reservada-pass">Palavra reservada <code class="highlighter-rouge">pass</code>
+</h2>
+
+<p>Caso você deseje definir uma função sem corpo nenhum, ou seja, sem código, saiba que isso irá disparar o erro <code class="highlighter-rouge">IndentationError</code>, pois funções não podem estar vazias.</p>
+
+<p>Porém se por algum motivo precisar use a palavra reservada <code class="highlighter-rouge">pass</code>, da seguinte forma:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre><span class="k">def</span> <span class="nf">funcao</span><span class="p">():</span>
+    <span class="k">pass</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="função-de-uma-linha">Função de uma linha</h2>
+
+<p>Python possibilita a criação de funções com apenas uma linha de código. Veja os exemplo a seguir:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td>
+<td class="code"><pre><span class="c1"># Definição das funções
+</span><span class="k">def</span> <span class="nf">soma</span><span class="p">(</span><span class="n">valor1</span><span class="p">,</span> <span class="n">valor2</span><span class="p">):</span> <span class="k">return</span> <span class="n">valor1</span> <span class="o">+</span> <span class="n">valor2</span>
+<span class="k">def</span> <span class="nf">divisao</span><span class="p">(</span><span class="n">valor1</span><span class="p">,</span> <span class="n">valor2</span><span class="p">):</span> <span class="k">return</span> <span class="n">valor1</span> <span class="o">/</span> <span class="n">valor2</span>
+<span class="k">def</span> <span class="nf">multiplicacao</span><span class="p">(</span><span class="n">valor1</span><span class="p">,</span> <span class="n">valor2</span><span class="p">):</span> <span class="k">return</span> <span class="n">valor1</span> <span class="o">*</span> <span class="n">valor2</span>
+
+<span class="c1"># Chamada das funções
+</span><span class="k">print</span><span class="p">(</span><span class="n">soma</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">divisao</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">multiplicacao</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>O resultado do código acima será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>6
+4.0
 16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django.views.generic.edit</span> <span class="kn">import</span> <span class="n">UpdateView</span>
-<span class="kn">from</span> <span class="nn">helloworld.models</span> <span class="kn">import</span> <span class="n">Funcionario</span>
-
-<span class="k">class</span> <span class="nc">FuncionarioUpdateView</span><span class="p">(</span><span class="n">UpdateView</span><span class="p">):</span>
-    <span class="n">template_name</span> <span class="o">=</span> <span class="s">"atualiza.html"</span>
-    <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
-    <span class="n">fields</span> <span class="o">=</span> <span class="s">'__all__'</span>
-    <span class="n">context_object_name</span> <span class="o">=</span> <span class="s">'funcionario'</span>
-
-    <span class="k">def</span> <span class="nf">get_object</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">queryset</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
-      <span class="n">funcionario</span> <span class="o">=</span> <span class="bp">None</span>
-
-      <span class="c1"># Se você utilizar o debug, verá que os 
-</span>      <span class="c1"># campos {pk} e {slug} estão presente em self.kwargs
-</span>      <span class="nb">id</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">kwargs</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">pk_url_kwarg</span><span class="p">)</span>
-      <span class="n">slug</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">kwargs</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">slug_url_kwarg</span><span class="p">)</span>
-
-      <span class="k">if</span> <span class="nb">id</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
-        <span class="c1"># Busca o funcionario apartir do id
-</span>        <span class="n">funcionario</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="p">.</span><span class="n">objects</span><span class="p">.</span><span class="nb">filter</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="nb">id</span><span class="p">).</span><span class="n">first</span><span class="p">()</span>
-
-      <span class="k">elif</span> <span class="n">slug</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>        
-        <span class="c1"># Pega o campo slug do Model
-</span>        <span class="n">campo_slug</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">get_slug_field</span><span class="p">()</span>
-
-        <span class="c1"># Busca o funcionario apartir do slug
-</span>        <span class="n">funcionario</span> <span class="o">=</span> <span class="n">Funcionario</span><span class="p">.</span><span class="n">objects</span><span class="p">.</span><span class="nb">filter</span><span class="p">(</span><span class="o">**</span><span class="p">{</span><span class="n">campo_slug</span><span class="p">:</span> <span class="n">slug</span><span class="p">}).</span><span class="n">first</span><span class="p">()</span>
-
-      <span class="c1"># Retorna o objeto encontrado
-</span>      <span class="k">return</span> <span class="n">funcionario</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Dessa forma, os dados do funcionário de <code class="highlighter-rouge">id</code> ou <code class="highlighter-rouge">slug</code> igual ao que foi passado na URL estarão disponíveis para visualização no <em>template</em> <code class="highlighter-rouge">atualiza.html</code> utilizando o objeto <code class="highlighter-rouge">funcionario</code>!</p>
+<p>Por hoje é só pessoal!</p>
 
-<p><em>No caso geral, eu prefiro utilizar a convenção (configuração no <strong>URLConf</strong>)</em>.</p>
-
-<h3 id="deleteview"><code class="highlighter-rouge">DeleteView</code></h3>
-
-<p>Para deletar funcionários, utilizamos a <code class="highlighter-rouge">DeleteView</code> (<a href="https://docs.djangoproject.com/en/2.0/ref/class-based-views/generic-editing/#deleteview" target="_blank">documentação</a>).</p>
-
-<p>Sua configuração é similar à <code class="highlighter-rouge">UpdateView</code>: nós devemos informar via URLConf ou <code class="highlighter-rouge">get_object()</code> qual o objeto que queremos excluir.</p>
-
-<p>Precisamos configurar:</p>
-
-<ul>
-  <li>O <em>template</em> que será renderizado.</li>
-  <li>O <em>model</em> associado à essa <em>view</em>.</li>
-  <li>O nome do objeto que estará disponível no <em>template</em> (para confirmar ao usuário, por exemplo, o nome do funcionário que será excluído).</li>
-  <li>A URL de retorno, caso haja sucesso na deleção do Funcionário.</li>
-</ul>
-
-<p>Com isso, a <em>view</em> pode ser codificada da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td>
-<td class="code"><pre><span class="k">class</span> <span class="nc">FuncionarioDeleteView</span><span class="p">(</span><span class="n">DeleteView</span><span class="p">):</span>
-  <span class="n">template_name</span> <span class="o">=</span> <span class="s">"website/exclui.html"</span>
-  <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
-  <span class="n">context_object_name</span> <span class="o">=</span> <span class="s">'funcionario'</span>
-  <span class="n">success_url</span> <span class="o">=</span> <span class="n">reverse_lazy</span><span class="p">(</span><span class="s">"website:lista_funcionarios"</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Assim como na <code class="highlighter-rouge">UpdateView</code>, fazemos a configuração do <code class="highlighter-rouge">id</code> a ser buscado no <strong>URLConf</strong>, da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre><span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/excluir/&lt;pk&gt;'</span><span class="p">,</span> <span class="n">FuncionarioDeleteView</span><span class="p">.</span><span class="n">as_view</span><span class="p">()),</span>
-<span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Assim, precisamos apenas fazer um <em>template</em> de confirmação da exclusão do funcionário.</p>
-
-<p>Podemos fazer da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-</pre></td>
-<td class="code"><pre><span class="nt">&lt;form</span> <span class="na">method=</span><span class="s">"post"</span><span class="nt">&gt;</span>    
-    {% csrf_token %}
-
-    Você tem certeza que quer excluir o funcionário <span class="nt">&lt;b&gt;</span>{{ funcionario.nome }}<span class="nt">&lt;/b&gt;</span>? <span class="nt">&lt;br&gt;&lt;br&gt;</span>
-
-    <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{% url 'lista_funcionarios' %}"</span><span class="nt">&gt;</span>Cancelar<span class="nt">&lt;/a&gt;</span>
-    <span class="nt">&lt;/button&gt;</span>
-    <span class="nt">&lt;button&gt;</span>Excluir<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;/form&gt;</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Algumas colocações:</p>
-
-<ul>
-  <li>Se lembra do atributo <code class="highlighter-rouge">context_object_name</code>? Olha ele ali presente na quarta linha!</li>
-  <li>A <em>tag</em> do Django <code class="highlighter-rouge">{% csrf_token %}</code> é obrigatório em todos os <em>forms</em> pois está relacionado à proteção que o Django provê ao <strong>CSRF</strong> - <em>Cross Site Request Forgery</em> (tipo de ataque malicioso - <a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)" target="_blank">saiba mais aqui</a>).</li>
-  <li>Não se preocupe com a sintaxe do <em>template</em> veremos mais sobre ele no <strong>próximo post</strong>!</li>
-</ul>
-
-<h3 id="createview"><code class="highlighter-rouge">CreateView</code></h3>
-
-<p>Essa <em>view</em>, de criação, é bem simples!</p>
-
-<p>Precisamos apenas dizer para o Django o <em>model</em>, o nome do <em>template</em>, a classe do formulário (vamos tratar mais sobre <em>Forms</em> ali embaixo) e a URL de retorno, caso o haja sucesso na inclusão do Funcionário.</p>
-
-<p>Podemos fazer isso dessa forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django.views.generic</span> <span class="kn">import</span> <span class="n">CreateView</span>
-
-<span class="k">class</span> <span class="nc">FuncionarioCreateView</span><span class="p">(</span><span class="n">CreateView</span><span class="p">):</span>
-  <span class="n">template_name</span> <span class="o">=</span> <span class="s">"website/cria.html"</span>
-  <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
-  <span class="n">form_class</span> <span class="o">=</span> <span class="n">InsereFuncionarioForm</span>
-  <span class="n">success_url</span> <span class="o">=</span> <span class="n">reverse_lazy</span><span class="p">(</span><span class="s">"website:lista_funcionarios"</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p><em><code class="highlighter-rouge">reverse_lazy()</code> traduz a View em URL. No nosso caso, queremos que quando haja a inclusão do Funcionário, sejamos redirecionados para a página de listagem, para podermos conferir que o Funcionário foi realmente adicionado.</em></p>
-
-<p>E a configuração da rota no arquivo <em>urls.py</em>:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django.urls</span> <span class="kn">import</span> <span class="n">path</span>
-<span class="kn">from</span> <span class="nn">helloworld.views</span> <span class="kn">import</span> <span class="n">FuncionarioCreateView</span>
-
-<span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="n">path</span><span class="p">(</span><span class="s">'funcionario/cadastrar/'</span><span class="p">,</span> <span class="n">FuncionarioCreateView</span><span class="p">.</span><span class="n">as_view</span><span class="p">()),</span>
-<span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Com isso, estará disponível no <em>template</em> configurado (<code class="highlighter-rouge">website/cria.html</code>, no nosso caso), um objeto <code class="highlighter-rouge">form</code> contendo o formulário para criação do novo funcionário.</p>
-
-<p>Podemos mostrar o formulário de duas formas.</p>
-
-<p>A <strong>primeira</strong>, mostra o formulário inteiro <strong>cru</strong>, isto é, sem formatação e da forma como o Django nos entrega. Podemos mostrá-lo no nosso template da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td>
-<td class="code"><pre><span class="nt">&lt;form</span> <span class="na">method=</span><span class="s">"post"</span><span class="nt">&gt;</span>
-  {% csrf_token %}
-
-  {{ form }}
-
-  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"submit"</span><span class="nt">&gt;</span>Cadastrar<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;/form&gt;</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Uma observação: apesar de ser um <code class="highlighter-rouge">Form</code>, sua renderização não contém as <em>tags</em> <code class="highlighter-rouge">&lt;form&gt;&lt;/form&gt;</code> - cabendo a nós incluí-los no <em>template</em>.</p>
-
-<p>Já a <strong>segunda</strong>, é mais trabalhosa, pois temos que renderizar campo a campo no <em>template</em>. Porém, nos dá um nível maior de customização.</p>
-
-<p>Podemos renderizar cada campo do <em>form</em> dessa forma:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-</pre></td>
-<td class="code"><pre><span class="nt">&lt;form</span> <span class="na">method=</span><span class="s">"post"</span><span class="nt">&gt;</span>
-  {% csrf_token %}
-
-  <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"{{ form.nome.id_for_label }}"</span><span class="nt">&gt;</span>Nome<span class="nt">&lt;/label&gt;</span>
-  {{ form.nome }}
-
-  <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"{{ form.sobrenome.id_for_label }}"</span><span class="nt">&gt;</span>Sobrenome<span class="nt">&lt;/label&gt;</span>
-  {{ form.sobrenome }}
-
-  <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"{{ form.cpf.id_for_label }}"</span><span class="nt">&gt;</span>CPF<span class="nt">&lt;/label&gt;</span>
-  {{ form.cpf }}
-
-  <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"{{ form.tempo_de_servico.id_for_label }}"</span><span class="nt">&gt;</span>Tempo de Serviço<span class="nt">&lt;/label&gt;</span>
-  {{ form.tempo_de_servico }}
-
-  <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"{{ form.remuneracao.id_for_label }}"</span><span class="nt">&gt;</span>Remuneração<span class="nt">&lt;/label&gt;</span>
-  {{ form.remuneracao }}
-
-  <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"submit"</span><span class="nt">&gt;</span>Cadastrar<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;/form&gt;</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Dessa forma:</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">{{ form.campo.id_for_label }}</code> traz o <code class="highlighter-rouge">id</code> da tag <code class="highlighter-rouge">&lt;input ...&gt;</code> para adicionar à <em>tag</em> <code class="highlighter-rouge">&lt;label&gt;&lt;/label&gt;</code>.</li>
-  <li>Utilizamos o <code class="highlighter-rouge">{{ form.campo }}</code> para renderizar um campo do formulário, e não ele inteiro.</li>
-</ul>
-
-<p><em>Antes de continuarmos, vamos respirar um pouco… <strong>Encha sua xícara de café</strong> que ainda tem muita coisa!</em> <img class="emoji" title=":coffee:" alt=":coffee:" src="https://github.githubassets.com/images/icons/emoji/unicode/2615.png" height="20" width="20"></p>
-
-<p>Enquanto isso, já aproveita e se <strong>inscreve aqui embaixo</strong> pra ficar sabendo em primeira mão do lançamento do nosso conteúdo!</p>
-
-<div class="email-signup" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="signup-body">
-				<span class="greeting">Olá <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"> Está gostando do artigo?</span>
-				<span class="signup-text">Então cadastre o seu email para <span class="underline">receber gratuitamente</span> mais conteúdos como este!</span>
-		        <!-- Include MailChimp email form with input and submit button -->
-<!-- Parameters: Quero! = button label  -->
-
-<form action="https://pythonacademy.us12.list-manage.com/subscribe/post?u=d818a1dcab21e0bb6fbe4a39b&amp;id=11b4623db6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" autocomplete="off" novalidate="">
-    <div id="mc_embed_signup_scroll" class="mailchimp-signup container-fluid">        
-        <div class="row no-gutters">
-            <div class="col-xs-3">
-                <input id="mce-NAME" type="text" value="" name="NAME" class="signup-input name" placeholder="Nome" required="">
-            </div>
-            
-            <div class="col-xs-5">                
-                <input id="mce-EMAIL" type="email" value="" name="EMAIL" class="signup-input email" placeholder="Email" required="">                
-            </div>
-
-            <div class="col-xs-4">
-                <button id="mc-embedded-subscribe" type="submit" name="subscribe" class="btn">
-                    <span><img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20"> Quero!</span>
-                </button>        
-            </div>
-        </div>
-    </div>	
-
-    <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>            
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d818a1dcab21e0bb6fbe4a39b_11b4623db6" tabindex="-1" value=""></div>
-</form>
-		    </div>
-		</div>
-	</div>      
-</div>
-
-<p>Agora vamos detalhar mais a classe <code class="highlighter-rouge">Form</code>, abordada aqui em cima!</p>
-
-<h2 id="forms">Forms</h2>
-
-<p>O tratamento de formulários é uma tarefa que pode ser <strong>bem complexa</strong>.</p>
-
-<p>Considere um formulário com diversos campos e diversas regras de validação: seu tratamento não é mais um processo simples.</p>
-
-<p>Os <em>Forms</em> do Django são formas de descrever os elementos <code class="highlighter-rouge">&lt;form&gt;...&lt;/form&gt;</code> das páginas HTML, simplificando e automatizando o processo de validação.</p>
-
-<p>O Django trata três partes distintas dos formulários:</p>
-
-<ul>
-  <li>Preparação dos dados tornando-os prontos para renderização</li>
-  <li>Criação de formulários HTML para os dados</li>
-  <li>Recepção e processamento dos formulários enviados ao servidor</li>
-</ul>
-
-<p>Basicamente, queremos uma forma de renderizar em nosso <em>template</em> o código HTML:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td>
-<td class="code"><pre><span class="nt">&lt;form</span> <span class="na">action=</span><span class="s">"/insere-funcionario/"</span> <span class="na">method=</span><span class="s">"post"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"nome"</span><span class="nt">&gt;</span>Your name: <span class="nt">&lt;/label&gt;</span>
-    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"nome"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">name=</span><span class="s">"nome"</span> <span class="na">value=</span><span class="s">""</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">value=</span><span class="s">"Enviar"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;/form&gt;</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Que, ao ser submetido ao servidor, tenha seus campos de entrada validados e inseridos no banco de dados.</p>
-
-<p>No centro desse sistema de formulários do Django está a classe <code class="highlighter-rouge">Form</code>.</p>
-
-<p>Nela, nós deescrevemos os campos que estarão disponíveis no formulário HTML e os métodos de validação.</p>
-
-<p>Para o formulário acima, podemos descrevê-lo da seguinte forma.</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
-
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">Form</span><span class="p">):</span>
-    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
-        <span class="n">label</span><span class="o">=</span><span class="s">'Nome do Funcionário'</span><span class="p">,</span> 
-        <span class="n">max_length</span><span class="o">=</span><span class="mi">100</span>
-    <span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Nesse formulário:</p>
-
-<ul>
-  <li>Utilizamos a classe <code class="highlighter-rouge">forms.CharField</code> para descrever um campo de texto.</li>
-  <li>O parâmetro <code class="highlighter-rouge">label</code> descreve um rótulo para esse campo.</li>
-  <li>
-<code class="highlighter-rouge">max_length</code> decreve o tamanho máximo que esse <em>input</em> pode receber (100 caracteres, no caso).</li>
-</ul>
-
-<p><em>Veja os diversos tipos de campos disponíveis <a href="https://docs.djangoproject.com/pt-br/2.0/ref/forms/fields/" target="_blank">acessando aqui</a></em></p>
-
-<p>A classe <code class="highlighter-rouge">forms.Form</code> possui um método muito importante, chamado <code class="highlighter-rouge">is_valid()</code>.</p>
-
-<p>Quando um formulário é submetido ao servidor, esse é um dos métodos que irá realizar a validação dos campos do formulário.</p>
-
-<p>Se tudo estiver <strong>OK</strong>, ele colocará os dados do formulário no atributo <code class="highlighter-rouge">cleaned_data</code> (que pode ser acessado por você posteriormente para pegar alguma informação - como o nome que foi inserido pelo usuário no campo <code class="highlighter-rouge">&lt;input name='nome'&gt;</code>).</p>
-
-<p>Como o processo de validaçõ do Django é bem complexo e para não prolongar muito o <em>post</em>, <a href="https://docs.djangoproject.com/en/2.0/ref/forms/validation/" target="_blank">acesse a documentação aqui</a> para saber mais.</p>
-
-<p>Vamos ver agora um exemplo mais complexo com um formulário de inserção de um Funcionário com todos os campos.</p>
-
-<p>Vamos começar criando o arquivo <code class="highlighter-rouge">forms.py</code> dentro do app <em>website</em> do nosso projeto usando como base os campos do <em>model</em> <code class="highlighter-rouge">Funcionario</code>.</p>
-
-<p>Se você não se lembra dos campos - que descrevemos no <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model" target="_blank">post passado sobre a camada <em>Model</em></a> - aqui vão eles:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
-
-<span class="k">class</span> <span class="nc">Funcionario</span><span class="p">(</span><span class="n">models</span><span class="p">.</span><span class="n">Model</span><span class="p">):</span>
-
-  <span class="n">nome</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
-    <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span>
-    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
-    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
-  <span class="p">)</span>
-
-  <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
-    <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span>
-    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
-    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
-  <span class="p">)</span>
-
-  <span class="n">cpf</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
-    <span class="n">max_length</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span>
-    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
-    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
-  <span class="p">)</span>
-
-  <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">IntegerField</span><span class="p">(</span>
-    <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
-    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
-    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
-  <span class="p">)</span>
-
-  <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">DecimalField</span><span class="p">(</span>
-    <span class="n">max_digits</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>
-    <span class="n">decimal_places</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
-    <span class="n">null</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
-    <span class="n">blank</span><span class="o">=</span><span class="bp">False</span>
-  <span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Dessa forma, e consultando a <a href="https://docs.djangoproject.com/pt-br/2.0/ref/forms/fields/" target="_blank">documentação</a> dos possíveis campos do nosso formulário, nós podemos descrever um formulário de inserção da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
-
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">Form</span><span class="p">)</span>
-
-    <span class="n">nome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
-        <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
-        <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span>
-    <span class="p">)</span>
-
-    <span class="n">sobrenome</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
-        <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
-        <span class="n">max_length</span><span class="o">=</span><span class="mi">255</span>
-    <span class="p">)</span>
-
-    <span class="n">cpf</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
-        <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
-        <span class="n">max_length</span><span class="o">=</span><span class="mi">14</span>
-    <span class="p">)</span>
-
-    <span class="n">tempo_de_servico</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">IntegerField</span><span class="p">(</span>
-        <span class="n">required</span><span class="o">=</span><span class="bp">True</span>
-    <span class="p">)</span>
-
-    <span class="n">remuneracao</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">DecimalField</span><span class="p">(</span>
-
-    <span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p><em>Affff, o Model e o Form são quase iguais… Terei que reescrever os campos toda vez? <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"></em></p>
-
-<p><strong><em>Claro que não, jovem!</em></strong> <em>Pra isso o Django criou o incrível <code class="highlighter-rouge">ModelForm</code>!!!</em> <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
-
-<p>Com o <code class="highlighter-rouge">ModelForm</code> nós descrevemos os campos que queremos (atributo <code class="highlighter-rouge">fields</code>) e/ou os campos que não queremos (atributo <code class="highlighter-rouge">exclude</code>) no formulário em forma de lista.</p>
-
-<p>Para isso, utilizamos a classe interna <code class="highlighter-rouge">Meta</code> para incluirmos esses metadados na nossa classe.</p>
-
-<p>Metadado (no caso do <em>Model</em> e do <code class="highlighter-rouge">Form</code>) é tudo aquilo que não será transformado em campo, como <code class="highlighter-rouge">model</code>, <code class="highlighter-rouge">fields</code>, <code class="highlighter-rouge">ordering</code> etc (<a href="https://docs.djangoproject.com/en/2.0/topics/db/models/#meta-options" target="_blank">mais sobre <code class="highlighter-rouge">Meta</code> <em>options</em></a>)</p>
-
-<p>Nosso <code class="highlighter-rouge">ModelForm</code>, pode ser descrito da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
-
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">ModelForm</span><span class="p">):</span>
-  <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
-    <span class="c1"># Modelo base
-</span>    <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
-
-    <span class="c1"># Campos que estarão no form
-</span>    <span class="n">fields</span> <span class="o">=</span> <span class="p">[</span>
-      <span class="s">'nome'</span><span class="p">,</span>
-      <span class="s">'sobrenome'</span><span class="p">,</span>
-      <span class="s">'cpf'</span><span class="p">,</span>
-      <span class="s">'remuneracao'</span>
-    <span class="p">]</span>
-
-    <span class="c1"># Campos que não estarão no form    
-</span>    <span class="n">exclude</span> <span class="o">=</span> <span class="p">[</span>
-      <span class="s">'tempo_de_servico'</span>
-    <span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Podemos utilizar apenas o campo <code class="highlighter-rouge">fields</code>, apenas o campo <code class="highlighter-rouge">exclude</code> ou os dois juntos.</p>
-
-<p>Mesmo utilizando os atributos <code class="highlighter-rouge">fields</code> e <code class="highlighter-rouge">exclude</code>, ainda podemos adicionar outros campos, independente dos campos do <em>Model</em>.</p>
-
-<p>O resultado será um formulário com todos os campos presentes no <code class="highlighter-rouge">fields</code>, menos os campos do <code class="highlighter-rouge">exclude</code> mais os outros campos que adicionarmos.</p>
-
-<p>Ficou confuso? Então vamos ver o exemplo:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span>
-
-<span class="k">class</span> <span class="nc">InsereFuncionarioForm</span><span class="p">(</span><span class="n">forms</span><span class="p">.</span><span class="n">ModelForm</span><span class="p">)</span>
-
-  <span class="n">chefe</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">BooleanField</span><span class="p">(</span>
-    <span class="n">label</span><span class="o">=</span><span class="s">'Chefe?'</span><span class="p">,</span>
-    <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
-  <span class="p">)</span>
-
-  <span class="n">biografia</span> <span class="o">=</span> <span class="n">forms</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span>
-    <span class="n">label</span><span class="o">=</span><span class="s">'Biografia'</span><span class="p">,</span>
-    <span class="n">required</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
-    <span class="n">widget</span><span class="o">=</span><span class="n">forms</span><span class="p">.</span><span class="n">TextArea</span>
-  <span class="p">)</span>
-
-  <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
-    <span class="c1"># Modelo base
-</span>    <span class="n">model</span> <span class="o">=</span> <span class="n">Funcionario</span>
-
-    <span class="c1"># Campos que estarão no form
-</span>    <span class="n">fields</span> <span class="o">=</span> <span class="p">[</span>
-        <span class="s">'nome'</span><span class="p">,</span>
-        <span class="s">'sobrenome'</span><span class="p">,</span>
-        <span class="s">'cpf'</span><span class="p">,</span>
-        <span class="s">'remuneracao'</span>
-    <span class="p">]</span>
-
-    <span class="c1"># Campos que não estarão no form    
-</span>    <span class="n">exclude</span> <span class="o">=</span> <span class="p">[</span>
-      <span class="s">'tempo_de_servico'</span>
-    <span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Isso vai gerar um formulário com:</p>
-
-<ul>
-  <li>Todos os campos contidos em <code class="highlighter-rouge">fields</code> menos os campos contidos em <code class="highlighter-rouge">exclude</code>
-</li>
-  <li>O campo <code class="highlighter-rouge">forms.BooleanField</code>, renderizado como um <em>checkbox</em> (<code class="highlighter-rouge">&lt;input type='checkbox' name='chefe' ...&gt;</code>)</li>
-  <li>Uma área de texto (<code class="highlighter-rouge">&lt;textarea name='biografia' ...&gt;&lt;/textarea&gt;</code>)</li>
-</ul>
-
-<p>Assim como é possível definir atributos nos modelos, os campos do formulário também são customizáveis.</p>
-
-<p>Veja que o campo <code class="highlighter-rouge">biografia</code> é do tipo <code class="highlighter-rouge">CharField</code>, portanto deveria ser renderizado como um campo <code class="highlighter-rouge">&lt;input type='text' ...&gt;'</code>.</p>
-
-<p>Contudo, eu modifiquei o campo setando o atributo <code class="highlighter-rouge">widget</code> com <code class="highlighter-rouge">forms.TextArea</code>.</p>
-
-<p>Assim, ele não mais será um simples <em>input</em>, mas será renderizado como um <code class="highlighter-rouge">&lt;textarea&gt;&lt;/textarea&gt;</code> no nosso <em>template</em>!</p>
-
-<h2 id="middlewares"><em>Middlewares</em></h2>
-
-<p><em>Middlewares</em> são trechos de códigos que podem ser executados antes ou depois do processamento de requisições/respostas pelo Django.</p>
-
-<p>É uma forma que os desenvolvedores, nós, temos para alterar como o Django processa algum dado de entrada ou de saída.</p>
-
-<p>Se você olhar no arquivo <code class="highlighter-rouge">settings.py</code>, nós temos a lista <code class="highlighter-rouge">MIDDLEWARE</code> com diversos <em>middlewares</em> pré-configurados:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td>
-<td class="code"><pre><span class="n">MIDDLEWARE</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s">'django.middleware.security.SecurityMiddleware'</span><span class="p">,</span>
-    <span class="s">'django.contrib.sessions.middleware.SessionMiddleware'</span><span class="p">,</span>
-    <span class="s">'django.middleware.common.CommonMiddleware'</span><span class="p">,</span>
-    <span class="s">'django.middleware.csrf.CsrfViewMiddleware'</span><span class="p">,</span>
-    <span class="s">'django.contrib.auth.middleware.AuthenticationMiddleware'</span><span class="p">,</span>
-    <span class="s">'django.contrib.messages.middleware.MessageMiddleware'</span><span class="p">,</span>
-    <span class="s">'django.middleware.clickjacking.XFrameOptionsMiddleware'</span><span class="p">,</span>
-<span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Por exemplo, o <em>middleware</em> <code class="highlighter-rouge">AuthenticationMiddleware</code> é reponsável por adicionar a variável <code class="highlighter-rouge">user</code> a todas as requisições.</p>
-
-<p>Dessa forma, você pode, por exemplo, mostrar o usuário logado no seu <em>template</em>:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre><span class="nt">&lt;li&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{% url 'profile' id=user.id %}"</span><span class="nt">&gt;</span>Olá, {{ user.email }}<span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;/li&gt;</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Vamos ver agora como podemos criar o nosso próprio <em>middleware</em>.</p>
-
-<p>Um <em>middleware</em> é um método <em>callable</em> (que tem uma implementação do método <code class="highlighter-rouge">__call__()</code>) que recebe uma <strong>requisição</strong> e retorna uma <strong>resposta</strong>, assim como uma <em>View</em>, e pode ser escrito como função ou como Classe.</p>
-
-<p>Um exemplo de <em>middleware</em> escrito como função é:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-</pre></td>
-<td class="code"><pre><span class="k">def</span> <span class="nf">middleware_simples</span><span class="p">(</span><span class="n">get_response</span><span class="p">):</span>
-    <span class="c1"># Código de inicialização do Middleware
-</span>
-    <span class="k">def</span> <span class="nf">middleware</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
-        <span class="c1"># Código a ser executado para cada requisição 
-</span>        <span class="c1"># antes da View, e outros middlewares, serem executada
-</span>        
-        <span class="n">response</span> <span class="o">=</span> <span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
-
-        <span class="c1"># Código a ser executado para cada requisição/resposta
-</span>        <span class="c1"># após a execução da View que irá processar 
-</span>        
-        <span class="k">return</span> <span class="n">response</span>
-
-    <span class="k">return</span> <span class="n">middleware</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>E como Classe:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-</pre></td>
-<td class="code"><pre><span class="k">class</span> <span class="nc">MiddlewareSimples</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">get_response</span><span class="p">):</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
-        <span class="c1"># Código de inicialização do Middleware
-</span>
-    <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">):</span>
-        <span class="c1"># Código a ser executado para cada requisição 
-</span>        <span class="c1"># antes da View, e outros middlewares, serem executada
-</span>
-        <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
-
-        <span class="c1"># Código a ser executado para cada requisição/resposta
-</span>        <span class="c1"># após a execução da View que irá processar 
-</span>
-        <span class="k">return</span> <span class="n">response</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Como cada <em>Middleware</em> é executado de maneira encadeada, do topo da lista <code class="highlighter-rouge">MIDDLEWARE</code> para o fim, a saída de um é a entrada do próximo.</p>
-
-<p>O método <code class="highlighter-rouge">get_response()</code> pode ser a própria <em>View</em>, caso ela seja a última configurada no <code class="highlighter-rouge">MIDDLEWARE</code> do <code class="highlighter-rouge">settings.py</code>, ou o próximo <em>middleware</em> da cadeia.</p>
-
-<p>Utilizando a construção do <em>middleware</em> via Classe, nós temos três métodos importantes:</p>
-
-<h3 id="process_view"><code class="highlighter-rouge">process_view</code></h3>
-
-<p>Assinatura: <code class="highlighter-rouge">process_view(request, func, args, kwargs)</code></p>
-
-<p>Esse método é chamado logo antes do Django executar a <em>View</em> que vai processar a requisição e possui os seguintes parâmetros:</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">request</code> é o objeto <code class="highlighter-rouge">HttpRequest</code>.</li>
-  <li>
-<code class="highlighter-rouge">func</code> é a própria <em>view</em> que o Django está para chamar ao final da cadeia de <em>middlewares</em>.</li>
-  <li>
-<code class="highlighter-rouge">args</code> é a lista de parâmetros posicionais que serão passados à <em>view</em>.</li>
-  <li>
-<code class="highlighter-rouge">kwargs</code> é o <em>dict</em> contendo os argumentos nomeados (<em>keyword arguments</em>) que serão passados à <em>view</em>.</li>
-</ul>
-
-<p>Esse método deve retornar <code class="highlighter-rouge">None</code> ou um objeto <code class="highlighter-rouge">HttpResponse</code>:</p>
-
-<ul>
-  <li>Caso retorne <code class="highlighter-rouge">None</code>, o Django entenderá que deve continuar a cadeia de <em>Middlewares</em>.</li>
-  <li>Caso retorne <code class="highlighter-rouge">HttpResponse</code>, o Django entenderá que a resposta está pronta para ser enviada de volta e não vai se preocupar em chamar o resto da cadeia de <em>Middlewares</em>, nem a <em>view</em> que iria processar a requisição.</li>
-</ul>
-
-<h3 id="process_exception"><code class="highlighter-rouge">process_exception</code></h3>
-
-<p>Assinatura: <code class="highlighter-rouge">process_exception(request, exception)</code></p>
-
-<p>Esse método é chamada quando uma <em>view</em> lança uma exceção e deve retornar ou <code class="highlighter-rouge">None</code> ou <code class="highlighter-rouge">HttpResponse</code>. Caso retorne um objeto <code class="highlighter-rouge">HttpResponse</code>, o Django irá aplicar o <em>middleware</em> de resposta e o de <em>template</em>, retornando a requisição ao <em>browser</em>.</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">request</code> é o objeto <code class="highlighter-rouge">HttpRequest</code>
-</li>
-  <li>
-<code class="highlighter-rouge">exception</code> é a exceção propriamente dita lançada pela <em>view</em> (<code class="highlighter-rouge">Exception</code>).</li>
-</ul>
-
-<h3 id="process_template_response"><code class="highlighter-rouge">process_template_response</code></h3>
-
-<p>Assinatura: <code class="highlighter-rouge">process_template_response(request, response)</code></p>
-
-<p>Esse método é chamado logo após a <em>view</em> ter terminado sua execução, caso a resposta tenha uma chamada ao método <code class="highlighter-rouge">render()</code> indicando que a reposta possui um <em>template</em>.</p>
-
-<p>Possui os seguintes parâmetros:</p>
-
-<ul>
-  <li>
-<code class="highlighter-rouge">request</code> é um objeto <code class="highlighter-rouge">HttpRequest</code>.</li>
-  <li>
-<code class="highlighter-rouge">response</code> é o objeto <code class="highlighter-rouge">TemplateResponse</code> retornado pela <em>view</em> ou por outro <em>middleware</em>.</li>
-</ul>
-
-<p>Agora vamos criar um <em>middleware</em> um pouco mais complexo para exemplificar o que foi dito aqui!</p>
-
-<p>Vamos supor que queremos um <em>middleware</em> que filtre requisições e só processe aquelas que venham de uma determinada lista de IP’s.</p>
-
-<p>O que precisamos fazer é abrir o cabeçalho de todas as requisições que chegam no nosso servidor e verificar se o IP de origem bate com a nossa lista de IP’s.</p>
-
-<p>Para isso, colocamos a lógica no método <code class="highlighter-rouge">process_view</code>, da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-</pre></td>
-<td class="code"><pre><span class="k">class</span> <span class="nc">FiltraIPMiddleware</span><span class="p">:</span>    
-
-  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">get_response</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
-
-  <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">):</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
-
-    <span class="k">return</span> <span class="n">response</span>
-
-  <span class="k">def</span> <span class="nf">process_view</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="n">args</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">):</span>
-    <span class="c1"># Lista de IPs autorizados
-</span>    <span class="n">ips_autorizados</span> <span class="o">=</span> <span class="p">[</span><span class="s">'127.0.0.1'</span><span class="p">]</span>
-
-    <span class="c1"># IP do usuário
-</span>    <span class="n">ip</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">META</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'REMOTE_ADDR'</span><span class="p">)</span>
-
-    <span class="c1"># Verifica se o IP do cliente está na lista de IPs autorizados
-</span>    <span class="k">if</span> <span class="n">ip</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">ips_autorizados</span><span class="p">:</span>
-      <span class="c1"># Se usuário não autorizado &gt; HTTP 403: Não Autorizado
-</span>      <span class="k">return</span> <span class="n">HttpResponseForbidden</span><span class="p">(</span><span class="s">"IP não autorizado"</span><span class="p">)</span>
-
-    <span class="c1"># Se for autorizado, não fazemos nada
-</span>    <span class="k">return</span> <span class="bp">None</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Depois disso, precisamos registrar nosso <em>middleware</em> no arquivo de configurações <code class="highlighter-rouge">settings.py</code> (na configuração <code class="highlighter-rouge">MIDDLEWARE</code>):</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td>
-<td class="code"><pre><span class="n">MIDDLEWARE</span> <span class="o">=</span> <span class="p">[</span>
-  <span class="c1"># Middlewares do próprio Django
-</span>  <span class="s">'django.middleware.security.SecurityMiddleware'</span><span class="p">,</span>
-  <span class="s">'django.contrib.sessions.middleware.SessionMiddleware'</span><span class="p">,</span>
-  <span class="s">'django.middleware.common.CommonMiddleware'</span><span class="p">,</span>
-  <span class="s">'django.middleware.csrf.CsrfViewMiddleware'</span><span class="p">,</span>
-  <span class="s">'django.contrib.auth.middleware.AuthenticationMiddleware'</span><span class="p">,</span>
-  <span class="s">'django.contrib.messages.middleware.MessageMiddleware'</span><span class="p">,</span>
-  <span class="s">'django.middleware.clickjacking.XFrameOptionsMiddleware'</span><span class="p">,</span>
-
-  <span class="c1"># Nosso Middleware
-</span>  <span class="s">'helloworld.middlewares.FiltraIPMiddleware'</span><span class="p">,</span>
-<span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Agora, podemos testar seu funcionamento alterando a lista <code class="highlighter-rouge">ips_autorizados</code>:</p>
-
-<ul>
-  <li>Coloque <code class="highlighter-rouge">ips_autorizados = ['127.0.0.1']</code> e tente acessar alguma URL da nossa aplicação: devemos conseguir acessar normalmente nossa aplicação, pois como estamos executando o servidor localmente, nosso IP será 127.0.0.1 e, portanto, passaremos no teste.</li>
-  <li>Coloque <code class="highlighter-rouge">ips_autorizados = []</code> e tente acessar alguma URL da nossa aplicação: deve aparecer a mensagem de <strong>“IP não autorizado”</strong>, pois nosso IP (127.0.0.1) não está autorizado a  acessar o servidor.</li>
-</ul>
-
-<h2 class="no_toc" id="código">Código</h2>
-
-<p>Se quiser fazer o <em>download</em> do código desenvolvido até aqui, <a href="/assets/posts/django-view/helloworld-final.zip" target="_blank">clique aqui para baixá-lo</a>!</p>
+<p>Espero que tenham curtido este conteúdo <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
 
 <h2 class="no_toc" id="conclusão">Conclusão</h2>
 
-<p>Ufa! Acho melhor parar por aqui… <img class="emoji" title=":tired_face:" alt=":tired_face:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f62b.png" height="20" width="20"></p>
+<p>Nesse post vimos como podemos criar Funções em Python, que nada mais é que “pedaço de código nomeado”.</p>
 
-<p>Vimos vários conceitos sobre os tipos de <em>Views</em> (funções e classes), alguns tipos de CBV (<em>Class Based Views</em>), como mapear suas URL para suas <em>views</em> através do URLConf, como entender o fluxo da sua requisição utilizando o debug da sua IDE, como utilizar os poderosos <code class="highlighter-rouge">Forms</code> do Django, como utilizar <em>middlewares</em> para adicionar camadas extras de processamento às requisições e respostas que chegam e saem da nossa aplicação.</p>
+<p>Vimos a sintaxe para sua criação, parâmetros, retorno, chamada e muito mais!</p>
 
-<p>Com certeza ainda tem muita coisa para você descobrir e desvendar! MAs não se esqueça que qualquer dúvida que você tiver no seu processo de aprendizagem, não exite em entrar em contato comigo pelas minhas redes sociais ou pelo <strong><em>box</em> de comentário</strong> aqui embaixo!</p>
-
-<p>Espero ter facilitado seu entendimento sobre a camada <em>View</em> do Django!</p>
-
-<p>No <em>post</em> sobre a Camada <em>Template</em> (<a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template">que já está disponível aqui</a>) construímos os <em>templates</em> e páginas HTML da nossa aplicação!</p>
-
-<p>Quer levar esse conteúdo para onde for com nosso <strong>ebook GRÁTIS</strong>?</p>
-
-<p>Então aproveita essa chance <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"> <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"> <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></p>
-
-<div class="include-ebook-wrapper" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="650">
-    <div class="row">
-        <div class="col-xs-12 text-center">
-            <h5>Ebook GRÁTIS</h5>
-            <h4>DESENVOLVIMENTO WEB COM PYTHON E DJANGO</h4>
-        </div>
-
-        <div class="col-lg-5 col-md-5 col-xs-12 text-center">
-            <img alt="Capa Ebook Desenvolvimento Web com Python e Django" class="ebook-cover lazyload" loading="lazy" data-src="/assets/ebooks/desenvolvimento-web-com-python-e-django/capa-perspectiva.png">
-        </div>
-
-        <div class="col-lg-7 col-md-7 col-xs-12">
-            <div class="ebook-data pb-0 pt-0" data-aos="fade-in">
-                <h3 class="ebook-title">Conteúdo:</h3>
-
-                <ul class="ebook-description">
-                    <li>
-<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Veja como modelar sua aplicação</li>
-                    <li>
-<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Utilize a robusta API de Acesso a Dados do Django</li>
-                    <li>
-<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Aprenda sobre <i>Class Based Views</i>
-</li>
-                    <li>
-<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Construa <i>Middlewares</i> próprios</li>
-                    <li>
-<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Desenvolva filtros e <i>tags</i> customizados para criar lindos <i>templates</i>
-</li>
-                </ul>
-
-                <div class="link-to-download">                                    
-                    <a href="/ebooks/desenvolvimento-web-com-python-e-django/" class="cta">Baixe já!</a>
-                </div>    
-            </div>
-        </div>
-    </div>
-</div>
-
-<p>Nos vemos!</p>
-
-<p>Bom desenvolvimento! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+<p>Se ficou com alguma dúvida, fique à vontade para deixar um comentário no box aqui embaixo! Será um prazer te responder! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
 
 
 
@@ -1973,35 +785,33 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 						<div class="blog-post-colophon">
 							<div class="row">
 								<div class="col-xs-12 col-sm-3 text-center">									
-									<img width="152px" height="152px" alt="Autor" class="profile-img lazyload" data-src="/assets/authors/vinicius-ramos/avatar.png">
+									<img width="152px" height="152px" alt="Autor" class="profile-img lazyload" data-src="/assets/authors/erickson-lopes/avatar.png">
 								</div>
 
 								<div class="col-xs-12 col-sm-9">
 									<div class="blog-post-meta">
 										<h2>
 											<span class="blog-post-by">
-												Por Vinícius Ramos
+												Por Erickson Lopes
 											</span>
 
-											<b>em <time datetime="2018-06-20" pubdate>20/06/2018</time></b>
+											<b>em <time datetime="2022-02-08" pubdate>08/02/2022</time></b>
 										</h2>
 	
-										<p class="short-description">"<i>Porque o Senhor dá a sabedoria, e da sua boca vem a inteligência e o entendimento. - Provérbios 2:6 </i>"</p>
+										<p class="short-description">"<i>O infinito é o limite</i>"</p>
 
 										<p class="author-media-label">Minhas redes:</p>
 										
 										<ul>
 											
-											<li><a href="https://www.linkedin.com/in/vinicius-aramos" target="_blank"><i class="fa fa-linkedin-square" style="color: #0072b1;" aria-hidden="true"></i></a></li>
+											<li><a href="https://www.linkedin.com/in/ericksonlopes" target="_blank"><i class="fa fa-linkedin-square" style="color: #0072b1;" aria-hidden="true"></i></a></li>
 																						
 											
-											<li><a href="mailto:vinicius.ramos@pythonacademy.com.br"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+											<li><a href="mailto:ofc.ericksonlds@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 																						
 											
-											<li><a href="https://github.com/viniciusramos91" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+											<li><a href="https://github.com/Erickson-lopes-dev" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 											
-											
-											<li><a href="https://stackoverflow.com/users/6775679/viniciusramos91" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
 											
 											
 										</ul>
@@ -2050,25 +860,25 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 			<h2 class="visible-xs">Gostou do conteúdo? Compartilha aí!</h2>
 			<ul>				
 				<li>
-					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
+					<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/funcoes-em-python','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item">
 						<i class="fa fa-fw fa-facebook"></i>
 					</a>
 				</li>				
 				
 				<li>							
-					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view&amp;related=PythonAcademyBR&amp;text=%22A%20Camada%20View%20do%20Django%20(Python)%22%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
+					<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/funcoes-em-python&amp;related=PythonAcademyBR&amp;text=%22Aprenda%20a%20criar%20Fun%C3%A7%C3%B5es%20em%20Python%22%20por%20Erickson%20Lopes','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank">
 						<i class="fa fa-fw fa-twitter"></i>
 					</a>
 				</li>
 
 				<li>
-					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view" data-action="share/whatsapp/share">
+					<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/funcoes-em-python" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/funcoes-em-python" data-action="share/whatsapp/share">
 						<i class="fa fa-fw fa-whatsapp"></i>
 					</a>
 				</li>
 
 				<li>
-					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=A%20Camada%20View%20do%20Django%20(Python)&amp;body=https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
+					<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Aprenda%20a%20criar%20Fun%C3%A7%C3%B5es%20em%20Python&amp;body=https://pythonacademy.com.br/blog/funcoes-em-python&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item">
 						<i class="fa fa-fw fa-envelope"></i>
 					</a>
 				</li>
@@ -2275,7 +1085,7 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
             }, 5000);
 
             /* Set cookie so this does not repeat */
-            Cookies.set('jp_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view' });
+            Cookies.set('jp_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/funcoes-em-python' });
         }                                
     });
 </script>
@@ -2342,7 +1152,7 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 							var post = posts[randomIndex];
 
 							// Verify if related post is the same as the shown
-							if (post.title != "A Camada View do Django (Python)") {
+							if (post.title != "Aprenda a criar Funções em Python") {
 								var postHTML = 
 									"<div class='col-lg-3 col-md-6 col-sm-6 col-xs-12'>" +
 										"<a href='" + post.href + "' class='card recommended-post-card'>" +
@@ -2377,7 +1187,7 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 				// 		$('#email-modal').modal('show');
 
 						/* Set cookie so this does not repeat */
-						// Cookies.set('pa_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view' });
+						// Cookies.set('pa_popup', '1', { expires: 1, path: 'https://pythonacademy.com.br/blog/funcoes-em-python' });
 				// 	}
 				// });		
 				
@@ -2399,9 +1209,9 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 					laziness: 1,
 					throttle: 250,
 					disqusConfig: function() {
-						this.page.title       = 'A Camada View do Django (Python)';
-						this.page.url         = 'https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view';
-						this.page.identifier  = '/blog/desenvolvimento-web-com-python-e-django-view';
+						this.page.title       = 'Aprenda a criar Funções em Python';
+						this.page.url         = 'https://pythonacademy.com.br/blog/funcoes-em-python';
+						this.page.identifier  = '/blog/funcoes-em-python';
 					}
 				};
 

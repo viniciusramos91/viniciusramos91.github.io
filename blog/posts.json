@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Funções em Python",
+      "title": "Aprenda a criar Funções em Python",
+      "href": "/blog/funcoes-em-python",
+      "slug": "funcoes-em-python",
+      "assets": "funcoes",
+      "author": "Erickson L",
+      "description": "<p>Nesse post você vai aprender como não repetir linhas de código através da criação de Funções em Python!</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "08",
+         "month": "February",
+         "year": "2022"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Python 3.10: novidades da versão",
       "title": "Python 3.10: funcionalidades e novidades da versão",
       "href": "/blog/python-3-10-o-que-ha-de-novo",
