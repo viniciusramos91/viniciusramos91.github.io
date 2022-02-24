@@ -467,7 +467,7 @@
                 background: #ffffff08;
                 border: 1px solid #2d3133;
                 padding: 20px;
-                border-radius: 5px;
+                border-radius: 0;
                 margin-bottom: 14px;
                 
                 h4 {
@@ -493,6 +493,115 @@
                         font-family: 'Montserrat', sans-serif;
                         color: #ddd;
                         font-size: 1.75rem;
+                    }
+                }
+
+                .panel {
+                    background: #272829;
+                    border: 1px solid #2d3031;
+                    transition: all 0.15s ease-in;
+
+                    h4 {
+                        margin: 0;
+                    }
+
+                    a[role="button"] {
+                        font-family: 'Montserrat';
+                        color: #ccc;
+                        display: inline-block;
+                        width: 100%;
+                        padding: 12px;     
+                        
+                        img {
+                            @media(max-width: 767px) {
+                                height: 9px;
+                            }
+                        }
+                    }
+
+                    .panel-body {
+                        padding-top: 10px;
+                        background-color: #1d1e1f;
+
+                        ul.project-lectures {         
+                            margin-bottom: 0;
+                            padding-left: 45px;                   
+
+                            li {
+                                font-family: 'Montserrat', sans-serif;
+                                color: #d2d2d2;
+                                font-size: 1.4rem;
+                                list-style: none;
+                                line-height: 32px;
+
+                                b {
+                                    color: #e2e2e2;
+                                }
+
+                                &::before {
+                                    content: url("/assets/svg/jornada-python/check-item.svg");
+                                    background-size: contain;
+                                    position: absolute;
+                                    left: 20px;
+                                    height: 0;
+                                }
+
+                                
+                                @media(max-width: 767px) {
+                                    line-height: 26px;
+                                }                            
+                            }
+                        }
+
+                        div.libraries {
+                            padding: 10px 20px;
+
+                            p {
+                                font-size: 1.5rem;
+                            }
+
+                            ul {
+                                padding: 0;
+                                margin: 0;
+
+                                li {
+                                    font-family: 'Space Mono', monospace;
+                                    display: inline-block;
+                                    list-style: none;
+                                    padding: 3px 14px 4px 14px;
+                                    border-radius: 6px;
+                                    font-size: 1.35rem;
+
+                                    &.bs {
+                                        background: #18987f;
+                                        color: #FFF;
+                                        border-bottom: 3px solid #0e6554;
+                                    }
+
+                                    &.requests {
+                                        background: #832da8;
+                                        color: #FFF;
+                                        border-bottom: 3px solid #54186e;
+                                    }
+
+                                    &.openpyxl {
+                                        background: #f39c12;
+                                        color: #FFF;
+                                        border-bottom: 3px solid #915d0b;
+                                    }
+
+                                    &.ptb {
+                                        background: #3498db;
+                                        color: #FFF;
+                                        border-bottom: 3px solid #166ba3;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        background: #2e3031;
                     }
                 }
             }  
@@ -549,7 +658,7 @@
             .course-component {
                 padding: 40px;
                 border: 1px solid #2d3133;
-                border-radius: 6px;
+                border-radius: 0;
                 background: #ffffff08;
                 margin-bottom: 24px;
                 backdrop-filter: blur( 3.5px );
@@ -1178,7 +1287,7 @@
                     margin: 0;                                                           
                     a {
                         border: 1px solid #2d3133;
-                        border-radius: 6px;
+                        border-radius: 0;
                         background: #ffffff08;                                    
                         backdrop-filter: blur(3.5px);
                         -webkit-backdrop-filter: blur( 3.5px );
@@ -1284,7 +1393,7 @@
     .blur-box {
         padding: 32px 32px;
         border: 1px solid #2d3133;
-        border-radius: 6px;
+        border-radius: 0;
         background: #ffffff08;
         margin-bottom: 16px;
         backdrop-filter: blur(3.5px);
@@ -1472,7 +1581,7 @@
                     background: #ffffff08;
                     border: 1px solid #2d3133;
                     padding: 20px;
-                    border-radius: 5px;
+                    border-radius: 0;
                     margin-bottom: 14px;
                     
                     h4 {
@@ -1486,16 +1595,21 @@
                     
                     h5 {
                         color: #FFF;
-                        font-size: 2.35rem;
+                        font-size: 2.25rem;
                     }
                     
                     .project-description {
                         p {
                             font-family: 'Montserrat', sans-serif;
                             color: #ddd;
-                            font-size: 1.75rem;
-                        }
+                            font-size: 1.45rem;
+                        }                        
                     }
+
+                    
+                    @media(max-width: 767px) {
+                        padding: 15px 10px;
+                    }                    
                 }                
             }            
         }
