@@ -523,30 +523,20 @@
                         padding-top: 10px;
                         background-color: #1d1e1f;
 
-                        ul.project-lectures {         
-                            margin-bottom: 0;
-                            padding-left: 45px;                   
+                        ol.project-lectures {         
+                            margin-bottom: 10px;
+                            padding-left: 35px;                   
 
                             li {
                                 font-family: 'Montserrat', sans-serif;
                                 color: #d2d2d2;
                                 font-size: 1.4rem;
-                                list-style: none;
                                 line-height: 32px;
 
                                 b {
                                     color: #e2e2e2;
                                 }
 
-                                &::before {
-                                    content: url("/assets/svg/jornada-python/check-item.svg");
-                                    background-size: contain;
-                                    position: absolute;
-                                    left: 20px;
-                                    height: 0;
-                                }
-
-                                
                                 @media(max-width: 767px) {
                                     line-height: 26px;
                                 }                            
@@ -555,6 +545,8 @@
 
                         div.libraries {
                             padding: 10px 20px;
+                            border-top: 1px solid #242627;
+                            background: #171819;
 
                             p {
                                 font-size: 1.5rem;
@@ -602,6 +594,16 @@
 
                     &:hover {
                         background: #2e3031;
+                    }
+
+                    .panel-collapse.collapsing {
+                        ul.project-lectures {
+                            li {
+                                &::before {
+                                    display: none;
+                                }
+                            }
+                        }
                     }
                 }
             }  
