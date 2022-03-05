@@ -666,11 +666,10 @@
                 backdrop-filter: blur( 3.5px );
                 -webkit-backdrop-filter: blur( 3.5px );  
                 
-                img.career-guide-ebook {
-                    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
-                    border: 1px solid #2f2f2f;
+                img {
                     width: 100%;
-                    max-width: 170px;
+                    max-width: 600px;
+                    margin-bottom: 16px;
                 }
                 
                 p.ebook-label {
@@ -695,12 +694,21 @@
                         margin-bottom: 16px;
                     }
                 }
+
+                p.free-label {
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    background: #f1c40e;
+                    display: inline-block;
+                    padding: 2px 10px;
+                }
                 
                 h4 {
                     font-family: 'Montserrat', sans-serif;
                     font-weight: bold;
                     color: #f1c40e;
-                    font-size: 3.65rem;
+                    font-size: 2.8rem;
+                    letter-spacing: -1px;
                     margin-bottom: 20px;
                     margin-top: 0;
                 }
@@ -1036,9 +1044,9 @@
                 li {      
                     font-family: 'Montserrat', sans-serif;
                     color: #c2c2c2;
-                    font-size: 2.1rem;
+                    font-size: 1.8rem;
                     list-style: none;
-                    margin-bottom: 14px;
+                    margin-bottom: 10px;
 
                     &::before {
                         content: url("/assets/svg/jornada-python/check-item.svg");
