@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Git e seus principais comandos",
+      "title": "Aprenda Git e seus principais comandos",
+      "href": "/blog/git-e-seus-principais-comandos",
+      "slug": "git-e-seus-principais-comandos",
+      "assets": "git-e-comandos",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post você vai dominar o Git: uma ferramenta MUITO IMPORTANTE que todo desenvolvedor DEVE dominar!</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_img.png",
+      "date": {
+         "day": "09",
+         "month": "March",
+         "year": "2022"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Funções em Python",
       "title": "Aprenda a criar Funções em Python",
       "href": "/blog/funcoes-em-python",
