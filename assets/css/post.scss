@@ -4,6 +4,43 @@ body#post-body {
     }
 }
 
+.header {
+    .navbar.navbar-default {
+        position: absolute;
+        width: 100%;
+        background: rgba(18,19,19,0.45);
+        mix-blend-mode: normal;
+        -webkit-backdrop-filter: blur(6px);
+        backdrop-filter: blur(2px);
+
+        .nav {
+            li {
+                a {
+                    color: #ffffffcc;
+                }
+
+                @media(max-width: 767px) {
+                    border-bottom: 1px solid #88888822;
+                }
+            }
+        }
+
+        .navbar-collapse {
+            @media(max-width: 767px) {
+                border: 0;
+            }
+        }
+
+        @media(max-width: 767px) {
+            background: rgba(18,19,19,0.75);
+            mix-blend-mode: normal;
+            -webkit-backdrop-filter: blur(6px);
+            backdrop-filter: blur(6px);
+            z-index: 999;
+        }
+    }
+}
+
 // BLOG POST STYLE
 // =============================================
 
@@ -17,11 +54,31 @@ body#post-body {
             width: 100%;
 
             .post-banner-content {
-                background: #CCC url('/assets/svg/stars-bground.svg');
+                background: linear-gradient(-35deg, #bd6910, #032244, #722eca);
+                background-size: 400% 400%;
+                -webkit-animation: sunset;
+                animation: sunset;
+                -webkit-animation-duration: 25s;
+                animation-duration: 25s;
+                -webkit-animation-iteration-count: infinite;   
+                animation-iteration-count: infinite;
+
+                @-webkit-keyframes sunset {
+                    0%   { background-position: 0% 50% }
+                    50%  { background-position: 100% 50% }
+                    100% { background-position: 0% 50% }
+                }
+                
+                @keyframes sunset {
+                    0%   { background-position: 0% 50% }
+                    50%  { background-position: 100% 50% }
+                    100% { background-position: 0% 50% }
+                }
+
                 display: table-cell;
                 vertical-align: middle;
                 text-align: center;
-                padding: 70px 12px;
+                padding: 150px 12px 70px 12px;
 
                 .featured-icon-wrapper {
                     display: inline-block;
@@ -36,10 +93,10 @@ body#post-body {
                 }
 
                 .blog-post-title {
-                    font-family: 'Roboto Condensed', sans-serif;
+                    font-family: 'Montserrat', sans-serif;
                     text-transform: uppercase;
                     font-weight: bold;
-                    font-size: 5rem;
+                    font-size: 4rem;
                     color: #FFF;
                     margin: 0;
 
@@ -436,5 +493,145 @@ body#post-body {
         padding: 24px 12px;
         width: 90%;
         right: 0;
+    }
+}
+
+// JORNADA PYTHON AD
+// ================================================================
+
+.post-jornada-ad {
+    overflow: hidden;
+    border: 2px solid #f2be00;
+    border-radius: 12px;
+    width: 120%;
+    position: relative;
+    left: -10%;
+    background: linear-gradient(-35deg, #bd6910, #032244, #722eca);
+    background-size: 400% 400%;
+    -webkit-animation: sunset;
+    animation: sunset;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;             
+    -webkit-animation-iteration-count: infinite;   
+    animation-iteration-count: infinite;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.35);
+
+    @-webkit-keyframes sunset {
+        0%   { background-position: 0% 50% }
+        50%  { background-position: 100% 50% }
+        100% { background-position: 0% 50% }
+    }
+    
+    @keyframes sunset {
+        0%   { background-position: 0% 50% }
+        50%  { background-position: 100% 50% }
+        100% { background-position: 0% 50% }
+    }
+
+    .dotted {
+        padding: 1rem 3rem;
+        display: block;
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,0.25);
+        background-image: url("/assets/img/jornada-python/dots.png");
+
+        span.headline-1 {
+            display: block;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 100;
+            color: #fff;
+            font-size: 3.7rem;
+            margin-bottom: 14px;
+            margin-top: 31px;
+            line-height: 44px;
+
+            @media(max-width: 767px) {
+                font-size: 2.3rem;
+                margin-bottom: 14px;
+                margin-top: 0;
+                line-height: 30px;
+            }
+        }
+
+        span.headline-2 {
+            display: block;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.37rem;
+            color: #ffffffaa;
+            line-height: 20px;
+        }
+
+        .cta {        
+            background: #00000077;
+            border: 1px solid #ffffff1a;
+            border-radius: 30px;
+            margin: 28px 0px;
+            padding: 0;
+            // box-shadow: 0px 0px 6px #f2a90000;
+            width: 100%;
+            max-width: 420px;
+            -webkit-animation: pulse;
+            animation: pulse;
+            -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;             
+            -webkit-animation-iteration-count: infinite;   
+            animation-iteration-count: infinite;
+            transition: all 0.15s ease-in-out;
+            
+            &:hover {
+                border-color: #FFF;
+                box-shadow: 0px 4px 0px #1118;
+                -webkit-animation: none;
+                animation: none;
+            }
+    
+            a {
+                display: inline-block;
+                font-family: 'Montserrat', sans-serif;
+                text-transform: uppercase;
+                font-size: 1.75rem;
+                color: #bbb;
+                font-weight: bold;         
+                padding: 16px;
+                width: 100%;
+                transition: all 0.15s ease-in-out;
+
+                img {
+                    position: relative;
+                    bottom: 2px;
+                    width: 120px;
+                    margin-left: 6px;
+                }
+    
+                &:hover {
+                    color: #FFF;
+                }
+            }
+    
+            @-webkit-keyframes pulse {
+                0% { box-shadow: 0px 0px 6px #f2a90000 }
+                50% { box-shadow: 0px 0px 6px #f2a90000 }
+                70% { box-shadow: 0px 0px 28px #f2a900 }
+                100% { box-shadow: 0px 0px 6px #f2a90000 }
+            }
+            
+            @keyframes pulse {
+                0% { box-shadow: 0px 0px 6px #f2a90000 }
+                50% { box-shadow: 0px 0px 6px #f2a90000 }
+                70% { box-shadow: 0px 0px 28px #f2a900 }
+                100% { box-shadow: 0px 0px 6px #f2a90000 }
+            }
+        }
+    }
+
+    @media(max-width: 767px) {        
+        width: 100%;
+        left: unset;
+
+        .dotted {
+            padding: 1rem 2rem;
+        }
     }
 }

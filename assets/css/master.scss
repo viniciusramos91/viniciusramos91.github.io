@@ -1,3 +1,4 @@
+html { scroll-behavior: smooth }
 body {
     font-size: 18px;
     min-height: 100vh;
@@ -237,7 +238,7 @@ body::-webkit-scrollbar-thumb {
                 padding: 0;
 
                 a {
-                    padding: 25px;
+                    padding: 30px 25px;
                     font-family: 'Oswald', sans-serif;
                     letter-spacing: 0.1px;
                     font-size: 15px;
@@ -250,7 +251,16 @@ body::-webkit-scrollbar-thumb {
                     &:hover {
                         color: #333;
                         bottom: 4px;
-                    }                    
+                    }    
+                    
+                    &.jp-link {
+                        padding: 30px 25px 25px 25px;
+                        
+                        img {
+                            position: relative;
+                            bottom: 2px;
+                        }
+                    }
 
                     @media (max-width: 767px) {
                         font-size: 1.8rem;
@@ -367,148 +377,6 @@ body::-webkit-scrollbar-thumb {
             }            
         }
     }    
-}
-
-// HEADER SECTION
-// ================================================================
-
-.header-section {
-    background: #1f2325 url("/assets/svg/blog-stars-bground.svg");
-    min-height: calc(97vh - 85px);
-    width: 100%;
-    display: table;
-
-    .header-section-wrapper {
-        display: table;
-        margin: 0 auto;
-
-        .header-section-content {
-            display: table-cell;
-            vertical-align: middle;
-            text-align: left;
-            max-width: 100%;
-            height: calc(97vh - 85px);
-            
-            object {
-                max-width: 500px;
-                height: 220px;
-
-                @media(max-width: 526px) {
-                    max-width: 100%;
-                }
-            }
-    
-            h1 {
-                font-family: 'Montserrat', sans-serif;
-                font-size: 7.5rem;
-                font-weight: bold;
-                text-transform: uppercase;
-                position: relative;
-                // bottom: 35px;
-                margin: 32px 8px;
-                color: #FFF;
-
-                @media (max-width: 767px) {
-                    margin: 12px 0 24px 0;
-                    font-size: 3.4rem;
-                    text-align: center;
-                }
-            }
-        
-            h2 {
-                font-family: 'Montserrat', sans-serif;
-                font-size: 2rem;
-                line-height: 2.75rem;
-                color: #ddd;
-
-                @media (max-width: 767px) {
-                    font-size: 1.55rem;
-                    margin-bottom: 20px;
-                    text-align: center;
-                }
-            }            
-        
-            .banner-image {
-                width: 100%;
-                position: relative;
-        
-                &.editor {
-                    top: 35px;
-                    left: 35px;
-                }
-        
-                &.app {
-                    bottom: 35px;
-                    right: 50px;
-                }
-            }            
-
-            .call-to-action {
-                padding: 12px 20px;
-                width: 100%;
-                font-size: 1.5rem;
-                background-color: #1f2325;
-                font-family: 'Montserrat';
-                border: 1px solid #282b2d;
-                font-weight: bold;
-                border-radius: 50px;
-                -webkit-animation: pulse;
-                animation: pulse;
-                -webkit-animation-duration: 2s;
-                animation-duration: 2s;             
-                -webkit-animation-iteration-count: infinite;   
-                animation-iteration-count: infinite;
-
-                &:hover, &:focus {
-                    background-color: #17191b;
-                    -webkit-animation: none;
-                    animation: none;
-                }
-
-                &.highlight {
-                    font-weight: bold;
-                    background: #ffcc02;
-                    color: #FFF;
-                    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25)
-                }
-            }      
-            
-            @-webkit-keyframes pulse {
-                0% {
-                    border-color: #282b2d;
-                }
-                50% {
-                    border-color: #282b2d;
-                }
-                70% {
-                    border-color: #f1c40f;
-                }
-                100% {
-                    border-color: #282b2d;
-                }
-            }
-            
-            @keyframes pulse {
-                0% {
-                    border-color: #282b2d;
-                }
-                50% {
-                    border-color: #282b2d;
-                }
-                70% {
-                    border-color: #f1c40f;
-                }
-                100% {
-                    border-color: #282b2d;
-                }
-            }
-
-            @media(max-width: 767px) {
-                padding: 4.5rem 10px;
-                height: auto;
-            }
-        }
-    }
 }
 
 .section-header {        
@@ -1429,6 +1297,10 @@ section.jornada-python-banner {
     padding: 48px 0;   
     position: relative;
     overflow: hidden;
+
+    &.padding-top {
+        padding-top: 133px;
+    }
 }
 
 // SLIDERS LIST
