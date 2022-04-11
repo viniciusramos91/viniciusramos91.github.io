@@ -265,7 +265,6 @@ html {
                 mix-blend-mode: normal;
                 -webkit-backdrop-filter: blur(6px);
                 backdrop-filter: blur(6px);
-                top: 0;
             }                          
             
             @media(max-width: 1200px) {
@@ -1886,9 +1885,9 @@ html {
                 li {      
                     font-family: 'Montserrat', sans-serif;
                     color: #c2c2c2;
-                    font-size: 1.9rem;
+                    font-size: 1.8rem;
                     list-style: none;
-                    margin-bottom: 15px;
+                    margin-bottom: 10px;
 
                     &::before {
                         content: url("/assets/svg/jornada-python/check-item.svg");
@@ -2028,9 +2027,9 @@ html {
                         font-family: 'Roboto Condensed';
                         text-transform: uppercase;
                         font-weight: bold;
-                        color: #eee;
+                        color: #bbb;
                         letter-spacing: 1px;
-                        font-size: 1.9rem;
+                        font-size: 1.65rem;
                         margin-bottom: 12px;
 
                         img {
