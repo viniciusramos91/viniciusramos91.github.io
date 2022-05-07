@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Executando Python no seu Navegador com PyScript",
+      "title": "PyScript: O Python no Seu Browser",
+      "href": "/blog/python-no-browser-com-pyscript",
+      "slug": "python-no-browser-com-pyscript",
+      "assets": "pyscript",
+      "author": "Vinícius R",
+      "description": "<p>Já pensou executar código Python no seu Browser?! Com PyScript, agora isso é possível! Venha ver como neste Post!</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "07",
+         "month": "May",
+         "year": "2022"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "7 Principais Habilidades para se destacar em entrevistas de emprego",
       "title": "7 Habilidades para se destacar em entrevistas de emprego",
       "href": "/blog/principais-habilidades-para-se-destacar-em-entrevistas-de-emprego",

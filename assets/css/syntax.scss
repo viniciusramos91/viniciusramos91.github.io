@@ -17,6 +17,13 @@ figure.highlight {
     margin: 0 30px 1em;
 }
 
+@media(max-width: 767px) {
+    figure.highlight {
+        margin: 0 10px;
+        margin-bottom: 1em;
+    }
+}
+
 figure.highlight>pre {
     border: 1px solid #eee;
     padding: 0;
