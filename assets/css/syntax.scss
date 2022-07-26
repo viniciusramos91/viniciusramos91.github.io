@@ -352,14 +352,13 @@ figure.highlight.terminal-output td.code {
 }
 
 .terminal-output pre code {
-    padding: 15px;
+    padding: 15px 15px 10px 15px;
     display: inline-block
 }
 
 .terminal-output::after {
     content: 'Resultado';
     text-align: left;
-    max-width: 750px;
     padding: 5px 15px;
     font-size: 14px;
     background: #CCC;

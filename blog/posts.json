@@ -2,11 +2,68 @@
     
     
     {
+      "h1": "Args e Kwargs no Python",
+      "title": "Args e Kwargs no Python",
+      "href": "/blog/args-e-kwargs-do-python",
+      "slug": "args-e-kwargs-do-python",
+      "assets": "args-kwargs",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post você vai aprender o que são os argumentos não-nomeados *args e argumentos nomeados **kwargs das funções em Python.</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "25",
+         "month": "June",
+         "year": "2022"
+      }
+    }
+    ,
+    
+    
+    {
+      "h1": "Estruturas de Repetição usando Loops While no Python",
+      "title": "Estruturas de Repetição usando Loops While no Python",
+      "href": "/blog/loops-com-while-no-python",
+      "slug": "loops-com-while-no-python",
+      "assets": "loop-while",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post você vai aprender a utilizar loops while do Python para criar Estruturas de Repetição.</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "24",
+         "month": "June",
+         "year": "2022"
+      }
+    }
+    ,
+    
+    
+    {
+      "h1": "Estruturas de Repetição usando Loops For no Python",
+      "title": "Estruturas de Repetição usando Loops For no Python",
+      "href": "/blog/loops-com-for-no-python",
+      "slug": "loops-com-for-no-python",
+      "assets": "loop-for",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post você vai aprender a utilizar loops for do Python para criar Estruturas de Repetição.</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "23",
+         "month": "June",
+         "year": "2022"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Executando Python no seu Navegador com PyScript",
       "title": "PyScript: O Python no Seu Browser",
       "href": "/blog/python-no-browser-com-pyscript",
       "slug": "python-no-browser-com-pyscript",
-      "assets": "pyscript",
+      "assets": "pyscript-browser",
       "author": "Vinícius R",
       "description": "<p>Já pensou executar código Python no seu Browser?! Com PyScript, agora isso é possível! Venha ver como neste Post!</p>",
       "featured_icon": "featured_img.svg",
