@@ -1,3 +1,39 @@
+@font-face {
+    font-family: 'SpaceGrotesk';
+    font-weight: 1000;
+    src: url('/assets/fonts/space-grotesk/SpaceGrotesk-Bold.woff2') format('woff2'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Bold.otf') format('otf'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Bold.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    font-weight: 700;
+    src: url('/assets/fonts/space-grotesk/SpaceGrotesk-Medium.woff2') format('woff2'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Medium.otf') format('otf'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Medium.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    font-weight: 400;
+    src: url('/assets/fonts/space-grotesk/SpaceGrotesk-Regular.woff2') format('woff2'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Regular.otf') format('otf'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    font-weight: 100;
+    src: url('/assets/fonts/space-grotesk/SpaceGrotesk-Light.woff2') format('woff2'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Light.otf') format('otf'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Light.ttf') format('truetype');
+    font-display: swap;
+}
+
 .header {        
     .navbar.homepage {
         position: absolute;
@@ -29,6 +65,139 @@
             z-index: 999;
         }
     }
+}
+
+section#new-headline {
+    background: linear-gradient(0deg, #060810, #0c0a1a);
+
+    .headline-inner {
+        // background: url("/assets/img/jornada-python/banner-img.webp") center bottom no-repeat;
+        background: url("/assets/img/jornada-python/video-bground-md.webp") center top no-repeat;
+        background-size: 1200px;
+        width: 100%;
+        min-height: 90vh;
+        display: flex;
+        -webkit-box-align: center;
+        text-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-animation: bground-animation 1.25s cubic-bezier(0.05, 0.43, 0.03, 0.88) both;
+        animation: bground-animation 1.25s cubic-bezier(0.05, 0.43, 0.03, 0.88) both;
+        
+        h1 {                
+            font-family: 'Space Grotesk', sans-serif;    
+            font-size: 5rem;
+            color: #eee;
+            line-height: 1.35;
+            font-weight: 700;
+            margin-bottom: 1rem;
+
+            .text-gradient {
+                background: -webkit-linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
+                background: linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-weight: bold;
+            }
+        }
+        
+        h2 {
+            font-family: 'Space Grotesk', sans-serif;    
+            color: rgb(214,212,226);
+            font-size: 1.9rem;
+            line-height: 1.55;
+            margin-bottom: 5rem;
+            font-weight: 100;
+    
+            span.django-text {
+                color: #44B78B;
+                font-weight: 700;
+            }
+        }  
+
+        button {
+            background: #0e0d13;
+            padding: 16px;
+            width: 100%;
+            max-width: 450px;
+            border: 1px solid #201e2a;
+            box-shadow: 0 0 18px #00000088;
+            border-radius: 12px;
+            -webkit-animation: pulse;
+            animation: pulse;
+            -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;             
+            -webkit-animation-iteration-count: infinite;   
+            animation-iteration-count: infinite;
+            transition: all 0.15s ease-in-out;
+
+            a {
+                font-family: 'Space grotesk', sans-serif;
+                color: #b9b6cb;
+                text-transform: uppercase;
+                font-size: 2.35rem;
+
+                img {
+                    width: 120px;
+                    position: relative;
+                    bottom: 2px;
+                    margin-left: 6px;
+                }
+            }
+
+            &:hover {
+                border-color: #FFF;
+                box-shadow: 0px 4px 0px #1118;
+                -webkit-animation: none;
+                animation: none;
+
+                a {
+                    color: #FFF;
+                }
+            }
+        }
+
+        @media(max-width: 768px) {                
+            h1 {
+                font-size: 3.1rem;
+                margin-bottom: 2rem;
+            }
+
+            button {
+                a {
+                    font-size: 1.75rem;
+
+                    img {
+                        width: 80px;
+                    }
+                }
+            }
+        }
+    
+        @media(max-width: 576px) {
+            text-align: left;
+            min-height: 75vh;
+            align-items: end;
+            padding: 13rem 2px 8rem 2px;
+        }
+    }  
+    
+    .mountains {
+        background: url("/assets/img/mountains.png") repeat;
+        display: block;
+        background-size: 1200px;
+        height: 67px;
+        margin-top: 4rem;
+    }
+    
+    @-webkit-keyframes bground-animation {
+        100% { background-size: 1400px }
+    }
+
+    @keyframes bground-animation {
+        100% { background-size: 1400px }
+    }    
 }
 
 section#headline {

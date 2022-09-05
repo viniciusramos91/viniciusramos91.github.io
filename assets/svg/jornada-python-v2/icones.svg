@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="98.21534mm"
+   height="5.3329449mm"
+   viewBox="0 0 98.21534 5.3329449"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (0.92.5+69)"
+   sodipodi:docname="icones.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1115">
+      <stop
+         style="stop-color:#3771c8;stop-opacity:1"
+         offset="0"
+         id="stop1111" />
+      <stop
+         style="stop-color:#afc6e9;stop-opacity:1"
+         offset="1"
+         id="stop1113" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1703">
+      <stop
+         style="stop-color:#0044aa;stop-opacity:1"
+         offset="0"
+         id="stop1699" />
+      <stop
+         style="stop-color:#80b3ff;stop-opacity:1"
+         offset="1"
+         id="stop1701" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.15270307,0,0,0.15270307,69.887854,77.665698)"
+       id="linearGradient1681"
+       x1="19"
+       y1="6"
+       x2="19"
+       y2="37.513115"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         style="stop-color:#0055d4;stop-opacity:1"
+         stop-color="#8257E5"
+         id="stop1677" />
+      <stop
+         style="stop-color:#87aade;stop-opacity:1"
+         offset="1"
+         stop-color="#2B2146"
+         id="stop1679" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1088"
+       inkscape:collect="always">
+      <stop
+         id="stop1084"
+         offset="0"
+         style="stop-color:#3771c8;stop-opacity:1" />
+      <stop
+         id="stop1086"
+         offset="1"
+         style="stop-color:#afc6e9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="4.42665"
+       x2="2.84358"
+       y1="3.89062"
+       x1="17.25"
+       id="paint0_linear_1092_45753"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,5.8019082,49.592969)">
+      <stop
+         id="stop874"
+         stop-color="#FF9D57"
+         style="stop-color:#ffd87d;stop-opacity:1" />
+      <stop
+         id="stop876"
+         stop-color="#F94144"
+         offset="1"
+         style="stop-color:#f2a900;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="42"
+       x2="24"
+       y1="6"
+       x1="24"
+       id="paint0_linear_8585_31914"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,58.596495,29.794941)"
+       spreadMethod="pad">
+      <stop
+         id="stop933"
+         stop-color="#8257E5" />
+      <stop
+         id="stop935"
+         stop-color="#2B2146"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="22.017401"
+       x2="25.556101"
+       y1="35.8302"
+       x1="25.556101"
+       id="paint1_linear_8585_31914"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,58.596495,29.794941)">
+      <stop
+         id="stop938"
+         stop-opacity="0.25"
+         stop-color="#04D361" />
+      <stop
+         id="stop940"
+         stop-color="#04D361"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="25.508699"
+       x2="33.995602"
+       y1="32.4151"
+       x1="33.995602"
+       id="paint2_linear_8585_31914"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,58.596495,29.794941)">
+      <stop
+         id="stop943"
+         stop-opacity="0.25"
+         stop-color="#04D361" />
+      <stop
+         id="stop945"
+         stop-color="#04D361"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="25.508699"
+       x2="17.4956"
+       y1="32.4151"
+       x1="17.4956"
+       id="paint3_linear_8585_31914"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,58.596495,29.794941)">
+      <stop
+         id="stop948"
+         stop-opacity="0.25"
+         stop-color="#04D361" />
+      <stop
+         id="stop950"
+         stop-color="#04D361"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#paint0_linear_1092_45753"
+       id="linearGradient1016"
+       x1="67.917366"
+       y1="35.12925"
+       x2="62.242893"
+       y2="38.169441"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#paint0_linear_1092_45753"
+       id="linearGradient1030"
+       gradientUnits="userSpaceOnUse"
+       x1="67.917366"
+       y1="35.12925"
+       x2="62.242893"
+       y2="38.169441" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#paint0_linear_1092_45753"
+       id="linearGradient1032"
+       gradientUnits="userSpaceOnUse"
+       x1="67.917366"
+       y1="35.12925"
+       x2="62.242893"
+       y2="38.169441" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#paint0_linear_1092_45753"
+       id="linearGradient1034"
+       gradientUnits="userSpaceOnUse"
+       x1="67.917366"
+       y1="35.12925"
+       x2="62.242893"
+       y2="38.169441" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1088"
+       id="linearGradient1082"
+       gradientUnits="userSpaceOnUse"
+       x1="67.786949"
+       y1="32.4459"
+       x2="67.786949"
+       y2="36.145912"
+       gradientTransform="matrix(1.0827897,0,0,1.0827897,-59.95437,16.821817)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#paint0_linear_1092_45753"
+       id="linearGradient1090"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.28125994,0,0,0.28125994,65.092441,49.45019)"
+       x1="17.25"
+       y1="3.89062"
+       x2="2.84358"
+       y2="4.42665" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="37.513115"
+       x2="19"
+       y1="6"
+       x1="19"
+       id="paint0_linear_8592_32138"
+       gradientTransform="matrix(0.13674204,0,0,0.13674204,46.892752,49.757332)">
+      <stop
+         id="stop1168"
+         stop-color="#8257E5"
+         style="stop-color:#3771c8;stop-opacity:1" />
+      <stop
+         id="stop1170"
+         stop-color="#2B2146"
+         offset="1"
+         style="stop-color:#afc6e9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="20.027399"
+       x2="43.982498"
+       y1="41.733101"
+       x1="43.982498"
+       id="paint1_linear_8592_32138"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,65.465476,75.959523)"
+       spreadMethod="pad">
+      <stop
+         id="stop1173"
+         stop-opacity="0.25"
+         stop-color="#04D361" />
+      <stop
+         id="stop1175"
+         stop-color="#04D361"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#paint0_linear_1092_45753"
+       id="linearGradient1210"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.13674204,0,0,0.13674204,46.892752,49.757332)"
+       x1="47.155701"
+       y1="24.662878"
+       x2="29.921661"
+       y2="41.896919"
+       spreadMethod="pad" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="34.0144"
+       x2="22.009199"
+       y1="22.861544"
+       x1="22.009199"
+       id="paint0_linear_8592_32185"
+       gradientTransform="matrix(0.13002098,0,0,0.13002098,83.638751,50.047426)">
+      <stop
+         id="stop1250"
+         stop-color="#8257E5"
+         style="stop-color:#87aade;stop-opacity:1" />
+      <stop
+         id="stop1252"
+         stop-color="#2B2146"
+         offset="1"
+         style="stop-color:#3771c8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="34.024101"
+       x2="39.971699"
+       y1="41.920399"
+       x1="39.971699"
+       id="paint1_linear_8592_32185"
+       gradientTransform="matrix(0.13002098,0,0,0.13002098,83.638751,50.047426)">
+      <stop
+         id="stop1255"
+         stop-opacity="0.25"
+         stop-color="#04D361"
+         style="stop-color:#87aade;stop-opacity:1" />
+      <stop
+         id="stop1257"
+         stop-color="#04D361"
+         offset="1"
+         style="stop-color:#2c5aa0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#paint0_linear_1092_45753"
+       id="linearGradient1288"
+       x1="47.927197"
+       y1="25.025787"
+       x2="43.110409"
+       y2="30.081219"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.49141788,0,0,0.49141788,65.678581,38.223477)" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="21.4063"
+       x2="32.989498"
+       y1="44.721901"
+       x1="32.989498"
+       id="paint0_linear_8592_32166"
+       gradientTransform="matrix(-0.26458333,0,0,0.26458333,-35.444577,65.3066)">
+      <stop
+         id="stop1347"
+         stop-opacity="0.25"
+         stop-color="#04D361" />
+      <stop
+         id="stop1349"
+         stop-color="#04D361"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="39.006001"
+       x2="24.999901"
+       y1="8.1792002"
+       x1="24.999901"
+       id="paint1_linear_8592_32166"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,-48.674617,65.3066)">
+      <stop
+         id="stop1352"
+         stop-color="#8257E5"
+         style="stop-color:#806cc6;stop-opacity:1" />
+      <stop
+         id="stop1354"
+         stop-color="#2B2146"
+         offset="1"
+         style="stop-color:#806cc6;stop-opacity:0.05882353" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#paint0_linear_1092_45753"
+       id="linearGradient1379"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.26458333,0,0,0.26458333,-35.444577,65.3066)"
+       x1="18.401215"
+       y1="23.542004"
+       x2="34.506275"
+       y2="46.508408" />
+    <linearGradient
+       gradientTransform="matrix(0.17970789,0,0,0.17970789,21.995986,42.854557)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient1681"
+       id="linearGradient850"
+       x1="54.171162"
+       y1="44.495579"
+       x2="54.171162"
+       y2="60.732529"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#paint0_linear_1092_45753"
+       id="linearGradient1689"
+       x1="33.171783"
+       y1="52.12336"
+       x2="32.648087"
+       y2="53.431194"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0246322,-0.13735664,0.13848675,1.0330623,-6.5386175,2.6792595)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1703"
+       id="linearGradient1705"
+       x1="30.258348"
+       y1="53.201473"
+       x2="30.258348"
+       y2="55.602718"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0337978,0,0,1.0337978,0.5566944,-1.7763579)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1115"
+       id="linearGradient1117"
+       x1="68.46756"
+       y1="51.339436"
+       x2="68.46756"
+       y2="54.738842"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="180.17433"
+     inkscape:cy="17.495993"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1003"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(8.0796061,-50.372669)">
+    <rect
+       y="50.372669"
+       x="65.092384"
+       height="5.332943"
+       width="6.7503538"
+       id="rect1297"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.60038829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.57407406;paint-order:normal"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/facil.png" />
+    <path
+       style="fill:none;stroke:url(#linearGradient1117);stroke-width:0.56251985;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 71.561448,54.453578 v -0.308261 c 0,-0.38842 -0.31473,-0.70315 -0.703151,-0.70315 h -0.281315 m -5.20331,1.011411 v -0.308261 c 0,-0.38842 0.31473,-0.70315 0.703151,-0.70315 0,0 0.19327,0 0.281251,0 m 0.382781,-1.656584 c 0.222204,0.222215 0.222204,0.582481 0,0.804676 -0.222204,0.222195 -0.582467,0.222195 -0.804671,0 -0.222203,-0.222195 -0.222203,-0.582461 0,-0.804676 0.222204,-0.222204 0.582467,-0.222204 0.804671,0 z m 4.218894,0.0027 c 0.222223,0.222212 0.222223,0.582478 0,0.804674 -0.222196,0.222194 -0.582462,0.222194 -0.804657,0 -0.222224,-0.222196 -0.222224,-0.582462 0,-0.804674 0.222195,-0.222203 0.582461,-0.222203 0.804657,0 z"
+       id="path870"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/facil.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:url(#linearGradient1090);stroke-width:0.56251985;stroke-linecap:round;stroke-linejoin:round"
+       inkscape:connector-curvature="0"
+       d="m 69.944175,54.934758 v -0.439074 c 0,-0.530091 -0.433337,-0.959828 -0.9679,-0.959828 h -1.01743 c -0.534554,0 -0.967899,0.429737 -0.967899,0.959828 v 0.439074 m 2.073251,-3.549871 c 0.329524,0.329515 0.329524,0.863766 0,1.193279 -0.329497,0.329523 -0.86375,0.329523 -1.193279,0 -0.329516,-0.32951 -0.329516,-0.86376 0,-1.193279 0.329502,-0.329516 0.863755,-0.329516 1.193279,0 z"
+       id="path872"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/facil.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.60038829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.57407406;paint-order:normal"
+       id="rect1295"
+       width="6.7503538"
+       height="5.332943"
+       x="10.21339"
+       y="50.372669"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png" />
+    <path
+       style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round"
+       inkscape:connector-curvature="0"
+       d="m 15.776439,55.500501 h -4.375748 c -0.302202,0 -0.546969,-0.244769 -0.546969,-0.546969 v -3.828781 c 0,-0.3022 0.244767,-0.546969 0.546969,-0.546969 h 4.375748 c 0.3022,0 0.546969,0.244769 0.546969,0.546969 v 3.828781 c 0,0.3022 -0.244769,0.546969 -0.546969,0.546969 z"
+       id="path917"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#afc6e9;stroke-width:0.20356445;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 10.853722,51.945204 h 5.469686"
+       id="path915"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:url(#linearGradient1082);stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 15.776439,55.500501 h -4.375748 c -0.302202,0 -0.546969,-0.244769 -0.546969,-0.546969 v -3.828781 c 0,-0.3022 0.244767,-0.546969 0.546969,-0.546969 h 4.375748 c 0.3022,0 0.546969,0.244769 0.546969,0.546969 v 3.828781 c 0,0.3022 -0.244769,0.546969 -0.546969,0.546969 z"
+       id="path919"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#3771c8;stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 11.61375,51.300127 c -8.27e-4,0 -0.0013,5.68e-4 -0.0013,0.0013 0,8.27e-4 5.68e-4,0.0013 0.0013,0.0013 8.26e-4,0 0.0013,-5.68e-4 0.0013,-0.0013 0,-8.26e-4 -5.68e-4,-0.0013 -0.0013,-0.0013"
+       id="path921"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#3771c8;stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 12.309205,51.300127 c -8.27e-4,0 -0.0013,5.68e-4 -0.0013,0.0013 0,8.27e-4 8.26e-4,0.0013 0.0013,0.0013 8.26e-4,0 0.0013,-5.68e-4 0.0013,-0.0013 0,-8.26e-4 -5.69e-4,-0.0013 -0.0013,-0.0013"
+       id="path923"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#3771c8;stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 13.003568,51.300127 c -8.27e-4,0 -0.0013,5.68e-4 -0.0013,0.0013 0,8.27e-4 5.68e-4,0.0013 0.0013,0.0013 8.27e-4,0 0.0013,-5.68e-4 0.0013,-0.0013 0,-8.26e-4 -5.68e-4,-0.0013 -0.0013,-0.0013"
+       id="path925"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g1000"
+       style="fill:none;stroke:url(#linearGradient1016)"
+       transform="matrix(0.51682074,0,0,0.51682074,-19.977131,34.358686)"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         id="path927"
+         d="m 65.359218,35.615774 -0.8255,3.704167"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:url(#linearGradient1030);stroke-width:0.79374999;stroke-linecap:square;stroke-linejoin:round" />
+      <path
+         id="path929"
+         d="m 66.666287,36.541816 0.926041,0.926042 -0.926041,0.926041"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:url(#linearGradient1032);stroke-width:0.79374999;stroke-linecap:square;stroke-linejoin:round" />
+      <path
+         id="path931"
+         d="m 63.226703,38.393899 -0.926041,-0.926041 0.926041,-0.926042"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:url(#linearGradient1034);stroke-width:0.79374999;stroke-linecap:square;stroke-linejoin:round" />
+    </g>
+    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.60038829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.57407406;paint-order:normal"
+       id="rect1303"
+       width="6.7503538"
+       height="5.332943"
+       x="46.799385"
+       y="50.372669"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/versatil.png" />
+    <path
+       style="fill:none;stroke-width:0.41022611;stroke-linecap:round;stroke-linejoin:round"
+       inkscape:connector-curvature="0"
+       d="m 49.955774,53.829482 0.106658,0.850536 m -0.957195,-0.850536 -0.106658,0.850536 m -0.289893,1.3e-5 h 1.640905"
+       id="path1160"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/versatil.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#afc6e9;stroke:#afc6e9;stroke-width:0.41012833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:connector-curvature="0"
+       d="M 51.747094,54.885158 H 52.15732"
+       id="path1162"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/versatil.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:url(#paint0_linear_8592_32138);stroke-width:0.41022611;stroke-linecap:round;stroke-linejoin:round"
+       inkscape:connector-curvature="0"
+       d="m 49.955774,53.829496 0.106658,0.850535 m -0.957195,-0.850535 -0.106658,0.850535 m -0.289893,1.3e-5 h 1.640905 m 0.645422,-0.850809 h -2.958004 c -0.329822,0 -0.597289,-0.267467 -0.597289,-0.597289 v -2.056873 c 0,-0.329822 0.267467,-0.59729 0.597289,-0.59729 h 2.907956 c 0.329548,0 0.597016,0.267468 0.597016,0.59729 v 1.317099"
+       id="path1164"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/versatil.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:url(#linearGradient1210);stroke-width:0.41022611;stroke-linecap:round;stroke-linejoin:round"
+       inkscape:connector-curvature="0"
+       d="m 51.541981,52.492172 h 0.820452 c 0.3022,0 0.546968,0.244769 0.546968,0.546968 v 1.914389 c 0,0.3022 -0.244768,0.546968 -0.546968,0.546968 h -0.820452 c -0.3022,0 -0.546968,-0.244768 -0.546968,-0.546968 V 53.03914 c 0,-0.302199 0.244768,-0.546968 0.546968,-0.546968 z"
+       id="path1166"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/versatil.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       y="50.372669"
+       x="83.385376"
+       height="5.332943"
+       width="6.7503538"
+       id="rect1305"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.60038829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.57407406;paint-order:normal"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/comunidade.png" />
+    <path
+       style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:url(#linearGradient1288);stroke-width:0.39006293;stroke-linecap:round;stroke-linejoin:round"
+       inkscape:connector-curvature="0"
+       d="m 87.410946,52.648898 v 0.389973 c 0,0.0502 0.02889,0.09593 0.07424,0.117473 0.04534,0.02156 0.09904,0.01508 0.137965,-0.01661 l 0.602751,-0.49083 h 0.615871 c 0.287346,0 0.520292,-0.232945 0.520292,-0.520292 v -1.040606 c 0,-0.287354 -0.232946,-0.5203 -0.520292,-0.5203 h -1.821061 c -0.287347,0 -0.520292,0.232946 -0.520292,0.5203 v 1.040606 c 0,0.287347 0.232945,0.520292 0.520292,0.520292 z"
+       id="path1244"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/comunidade.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:url(#paint0_linear_8592_32185);stroke-width:0.39006293;stroke-linecap:round;stroke-linejoin:round"
+       inkscape:connector-curvature="0"
+       d="m 88.581615,54.469985 v -1.040596 m -4.162421,1.040622 v -2.601498 c -3.7e-5,-0.138005 0.05477,-0.270366 0.152351,-0.36796 0.09758,-0.09758 0.229946,-0.152385 0.367949,-0.152346 h 0.780451"
+       id="path1246"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/comunidade.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:url(#paint1_linear_8592_32185);stroke-width:0.39006293;stroke-linecap:round;stroke-linejoin:round"
+       inkscape:connector-curvature="0"
+       d="M 88.581603,54.469985 H 87.68018 c -0.08697,-1.3e-5 -0.168182,0.04343 -0.216446,0.115758 l -0.105629,0.158431 c -0.04826,0.07234 -0.129474,0.115783 -0.216446,0.11577 H 85.85912 c -0.08696,1.3e-5 -0.168183,-0.04343 -0.216446,-0.11577 l -0.105616,-0.158431 c -0.04837,-0.07236 -0.12967,-0.115784 -0.216706,-0.115758 h -0.90116 c -0.143655,5.2e-5 -0.2601,0.116486 -0.26015,0.260146 v 0.260146 c 0,0.138005 0.05477,0.270366 0.152351,0.36796 0.09758,0.09758 0.229945,0.152384 0.367949,0.152345 h 3.642102 c 0.138004,3.9e-5 0.270365,-0.05476 0.367946,-0.152345 0.09759,-0.09759 0.152359,-0.229955 0.152359,-0.36796 v -0.260146 c -5.3e-5,-0.14366 -0.116499,-0.260094 -0.260146,-0.260146 z"
+       id="path1248"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/comunidade.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g1395"
+       transform="translate(0,-7.4324174)">
+      <rect
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.60038829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.57407406;paint-order:normal"
+         id="rect1383"
+         width="6.7503538"
+         height="5.332943"
+         x="-8.0796061"
+         y="57.805088"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <g
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.50606092,0,0,0.50606092,16.580522,23.861656)"
+         id="g1388">
+        <path
+           style="fill:none;stroke:url(#linearGradient1379);stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           d="m -43.250288,74.83287 v 2.382229 l 1.191128,-0.595551 1.191127,0.595551 V 74.83287 m 0.809943,-1.409806 -0.281623,0.370575 -0.06088,0.457915 c -0.03384,0.253947 -0.233627,0.453734 -0.487574,0.487574 l -0.458973,0.06141 -0.3674,0.281093 c -0.203359,0.154623 -0.484849,0.154623 -0.688208,0 l -0.370576,-0.281093 -0.458443,-0.06141 c -0.254053,-0.03379 -0.454025,-0.233548 -0.488103,-0.487574 l -0.06141,-0.458973 c 0,0 -0.14187,-0.185817 -0.281094,-0.3674 -0.154596,-0.203333 -0.154596,-0.484849 0,-0.688208 l 0.281094,-0.370549 0.06141,-0.457941 c 0.03357,-0.253973 0.23315,-0.453972 0.487045,-0.488077 l 0.459501,-0.06088 0.370576,-0.280591 c 0.203173,-0.155125 0.485034,-0.155125 0.688208,0 l 0.370575,0.280591 0.458443,0.06088 c 0.254027,0.03365 0.453893,0.233522 0.487575,0.487548 l 0.06141,0.458999 0.281094,0.367374 c 0.153723,0.204179 0.152638,0.485749 -0.0026,0.688737 z"
+           id="path1341" />
+        <path
+           style="fill:none;stroke:url(#paint1_linear_8592_32166);stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           d="m -39.413116,75.626937 h 1.058783 c 0.58473,0 1.058757,-0.474027 1.058757,-1.058756 v -6.038718 c 0,-0.584753 -0.474027,-1.058783 -1.058757,-1.058783 h -7.411428 c -0.584745,0 -1.058776,0.47403 -1.058776,1.058783 v 6.038718 c 0,0.584729 0.474031,1.058756 1.058776,1.058756 h 1.058783"
+           id="path1343" />
+        <path
+           style="fill:#806cc6;fill-opacity:1;stroke:#806cc6;stroke-width:0.79374999;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.33333333"
+           inkscape:connector-curvature="0"
+           d="m -44.442263,69.274292 h 4.764485"
+           id="path1345" />
+      </g>
+    </g>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       y="50.372669"
+       x="28.506388"
+       height="5.332943"
+       width="6.7503538"
+       id="rect1760"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.60038829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.57407406;paint-order:normal"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/mentor.png" />
+    <g
+       id="g1794"
+       transform="matrix(0.98162074,0,0,0.98162074,0.58702218,0.97482025)"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/mentor.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/mentor.png"
+         id="path12"
+         d="m 30.397761,52.992383 v 1.393328 c -5.5e-5,0.30633 0.17304,0.586388 0.44706,0.723325 l 0.312834,0.156418 c 0.455362,0.227563 0.991287,0.227563 1.446649,0 l 0.312817,-0.156418 c 0.274037,-0.136937 0.447132,-0.416995 0.44706,-0.723325 v -1.393328"
+         style="fill:none;stroke:url(#linearGradient1705);stroke-width:0.639;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/mentor.png"
+         style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:url(#linearGradient850);stroke-width:0.639;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path14"
+         d="m 29.431866,52.509489 1.849968,0.924076 c 0.378483,0.188801 0.823673,0.188801 1.202156,0 l 1.84817,-0.924076 c 0.151888,-0.07575 0.247888,-0.230888 0.247888,-0.400622 0,-0.169734 -0.096,-0.324876 -0.247888,-0.400624 l -1.851765,-0.924075 c -0.378356,-0.189358 -0.823817,-0.189358 -1.202156,0 l -1.84817,0.924075 c -0.151726,0.07609 -0.247367,0.231446 -0.246989,0.401181 3.77e-4,0.169734 0.09672,0.32466 0.248786,0.400065 z"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/mentor.png"
+         id="path16"
+         d="m 34.399246,52.005628 0.144502,1.077929"
+         style="fill:none;stroke:url(#linearGradient1689);stroke-width:0.94099998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
