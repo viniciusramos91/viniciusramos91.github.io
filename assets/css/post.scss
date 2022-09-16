@@ -295,14 +295,14 @@ body#post-body {
             min-width: 351px;
             border-left: 1px solid #e2e2e2;
             background: #00000011;
-            padding: 64px 16px;
+            padding: 16px;
 
             h3 {
                 font-family: 'Space Grotesk', sans-serif;
                 font-weight: 700;
                 color: #3e464f;
                 margin: 0;
-                margin-bottom: 16px;
+                margin-bottom: 10px;
                 font-size: 2.1rem;
             }
 
@@ -322,7 +322,7 @@ body#post-body {
                     transition: all 0.15s ease;
 
                     .suggested-content-image {
-                        flex: 0.30;
+                        flex: 0.20;
 
                         img {
                             width: 100%;
@@ -331,7 +331,7 @@ body#post-body {
                     }
 
                     .suggested-content-details {
-                        flex: 0.70;
+                        flex: 0.80;
                         padding-left: 16px;
 
                         p.content-label {
@@ -372,14 +372,16 @@ body#post-body {
                         background: #060810;
                         padding: 0;
                         display: block;
+                        margin-bottom: 12px;
+                        overflow: hidden;
                         border: 2px solid transparent;
-                        height: calc(100% - 370px);
 
                         .inner {
                             background: url("/assets/img/jornada-python-modal-bg.png") center top no-repeat;
                             text-align: center;
                             background-size: 460px;
-                            padding: 49px 24px;
+                            padding: 24px 18px;
+                            overflow: hidden;
 
                             div.separator {
                                 height: 1px;
@@ -394,13 +396,13 @@ body#post-body {
                             p.course-label {
                                 font-family: 'Space Grotesk';
                                 color: #d6d4e2;
-                                font-size: 1.45rem;
+                                font-size: 1.35rem;
                             }
 
                             p.course-description {
                                 font-family: 'Space Grotesk';
                                 color: #d6d4e2;
-                                font-size: 1.54rem;
+                                font-size: 1.27rem;
                             }
 
                             .tech-box {
@@ -408,7 +410,7 @@ body#post-body {
                                 padding: 8px;
                                 border-radius: 8px;
                                 width: 80%;
-                                margin: 0 auto 12px auto;
+                                margin: 0 auto 8px auto;
                         
                                 img {
                                     width: 45%;
@@ -437,7 +439,7 @@ body#post-body {
                                 -webkit-animation-iteration-count: infinite;
                                 animation-iteration-count: infinite;
                                 border: 2px solid transparent;
-                                padding: 8px;
+                                padding: 6px;
                                 border-radius: 8px; 
                                 margin: 1.25rem 0 0 0;
                                 position: relative;
