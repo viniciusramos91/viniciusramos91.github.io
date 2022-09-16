@@ -564,6 +564,10 @@ body#post-body {
         @media(max-width: 1200px) {
             display: block;
 
+            .blog-post-content {
+                min-width: 0;
+            }
+
             .sticky-sidebar {
                 display: none;
             }
