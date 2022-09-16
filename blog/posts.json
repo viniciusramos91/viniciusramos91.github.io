@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Strings no Python",
+      "title": "Strings no Python",
+      "href": "/blog/strings-no-python",
+      "slug": "strings-no-python",
+      "assets": "strings",
+      "author": "Erickson L",
+      "description": "<p>Ainda com dificuldade para manipular Strings no Python? Então chega mais que você vai DOMINAR Strings depois desse Post!</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "14",
+         "month": "September",
+         "year": "2022"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Args e Kwargs no Python",
       "title": "Args e Kwargs no Python",
       "href": "/blog/args-e-kwargs-do-python",

@@ -1212,14 +1212,11 @@ section.jornada-python-banner {
 
 .email-signup {
     padding: 0;
-    margin: 60px 0;
+    margin: 60px 30px;
     -webkit-box-shadow: 0 0 25px #d3d9de;
     box-shadow: 0 0 25px #d3d9de;
     background: linear-gradient(45deg, rgb(106, 120, 209), rgb(0, 164, 189));
     border-radius: 10px;
-    width: 130%;
-    position: relative;
-    left: -15% ;    
 
     p {
         padding: 0
@@ -1262,11 +1259,6 @@ section.jornada-python-banner {
         @media(max-width: 1199px) {
             padding: 5%
         }
-    }
-
-    @media(max-width: 1199px) {
-        width:100%;
-        left: 0
     }
 }
 

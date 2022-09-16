@@ -151,7 +151,7 @@ body#post-body {
         .blog-post-content {
             flex: 0.7;
             padding-top: 64px;
-            max-width: 920px;
+            min-width: 819px;
             font-weight: 400;
             margin-right: auto;
             margin-left: auto;
@@ -292,6 +292,7 @@ body#post-body {
 
         .sticky-sidebar {
             flex: 0.3;
+            min-width: 351px;
             border-left: 1px solid #e2e2e2;
             background: #00000011;
             padding: 64px 16px;
@@ -308,6 +309,7 @@ body#post-body {
             .sticky-content {
                 position: sticky;
                 top: 24px;                
+                height: calc(100vh - 48px);
                 
                 .suggested-content {
                     display: flex;
@@ -371,33 +373,34 @@ body#post-body {
                         padding: 0;
                         display: block;
                         border: 2px solid transparent;
+                        height: calc(100% - 370px);
 
                         .inner {
                             background: url("/assets/img/jornada-python-modal-bg.png") center top no-repeat;
                             text-align: center;
                             background-size: 460px;
-                            padding: 24px;
+                            padding: 49px 24px;
 
                             div.separator {
                                 height: 1px;
                                 background: linear-gradient(45deg, rgba(38,35,49,0.333333) 0%, #988ebb 50%, rgba(38,35,49,0.333333) 100%);
-                                margin: 1rem 0;
+                                margin: 1.65rem 0;
                             }
 
                             img {
-                                margin-bottom: 6px;
+                                margin-bottom: 12px;
                             }
 
                             p.course-label {
                                 font-family: 'Space Grotesk';
                                 color: #d6d4e2;
-                                font-size: 1.15rem;
+                                font-size: 1.45rem;
                             }
 
                             p.course-description {
                                 font-family: 'Space Grotesk';
                                 color: #d6d4e2;
-                                font-size: 1.3rem;
+                                font-size: 1.54rem;
                             }
 
                             .tech-box {
@@ -405,7 +408,7 @@ body#post-body {
                                 padding: 8px;
                                 border-radius: 8px;
                                 width: 80%;
-                                margin: 0 auto 8px auto;
+                                margin: 0 auto 12px auto;
                         
                                 img {
                                     width: 45%;
