@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "A função print no Python",
+      "title": "Print no Python",
+      "href": "/blog/print-no-python",
+      "slug": "print-no-python",
+      "assets": "print",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post você vai aprender como utilizar a função print do Python para mostrar dados aos seus usuários</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "15",
+         "month": "October",
+         "year": "2022"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Strings no Python",
       "title": "Strings no Python",
       "href": "/blog/strings-no-python",
