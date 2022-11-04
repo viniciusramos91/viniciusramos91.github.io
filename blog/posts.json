@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "7 truques em Python que todo iniciante deve saber",
+      "title": "7 truques em Python que todo iniciante deve saber",
+      "href": "/blog/7-truques-em-python-que-todo-iniciante-deve-saber",
+      "slug": "7-truques-em-python-que-todo-iniciante-deve-saber",
+      "assets": "7-truques",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post você ficará mais apto a deixar seu código otimizado e melhor de ser editado.</p>",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "26",
+         "month": "October",
+         "year": "2022"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "A função print no Python",
       "title": "Print no Python",
       "href": "/blog/print-no-python",
