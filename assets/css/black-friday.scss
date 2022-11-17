@@ -1,0 +1,287 @@
+body {
+    background: linear-gradient(135deg, #0a090e, #1e1c28);
+    overflow: hidden;
+
+    h1 {
+        font-family: 'Space Grotesk', sans-serif;
+        color: #FFF;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 6rem;
+    }
+    
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        color: #FFFFFFCC;
+        font-weight: 100;
+        font-size: 1.5rem;
+        line-height: 1.45;
+        margin-top: 16px;
+    }
+    
+    input[type="text"], input[type="email"] {
+        font-family: 'Space Grotesk', sans-serif;
+        background: #00000055;
+        margin-bottom: 12px;
+        border: 1px solid #ffffff15;
+        padding: 14px;
+        color: #FFFFFF88;
+        border-radius: 6px;
+        width: 100%;
+        transition: all 0.15s ease;
+    
+        &:focus {
+            color: #FFF;
+        }
+    }
+    
+    input.signup-cta {
+        width: 100%;
+        padding: 12px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 500;
+        background: linear-gradient(135deg, #623af3, #2f0ea9);
+        color: #FFFFFFcc;
+        border: 1px solid #6945f1;
+        border-radius: 4px;
+        box-shadow: 0px 0px 16px #4417e59c;
+    
+        &:hover, &:focus {
+            border-color: #FFF;
+        }
+    }
+    
+    button {
+        width: 100%;
+        padding: 12px;    
+        background: linear-gradient(135deg, #623af3, #2f0ea9);    
+        border: 1px solid #6945f1;
+        border-radius: 4px;
+        box-shadow: 0px 0px 16px #4417e59c;
+    
+        a {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            color: #FFFFFFcc;
+        }
+    
+        &:hover, &:focus {
+            border-color: #FFF;
+    
+            a {
+                color: #FFFFFFcc;
+            }
+        }
+    }
+
+    @media(max-width: 992px) {
+        overflow: auto;
+
+        h1 {
+            font-size: 4rem;
+        }
+    }
+}
+
+main#black-friday-form {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    height: 95vh;
+
+    h2 {
+        width: 85%;
+    }
+    
+    div.inner-container {
+        display: flex;
+        align-items: center;
+        height: 65vh;
+
+        .bf-img {
+            flex: 0.5;
+
+            img {
+                max-width: 250px;
+                width: 100%;
+            }
+        }
+
+        .bf-form {
+            flex: 0.5;
+            
+        }
+    }    
+
+    @media(max-width: 992px) {
+        height: auto;
+
+        h2 {
+            width: 100%;
+        }
+
+        div.inner-container {
+            display: block;
+            height: auto;
+            text-align: center;
+
+            .bf-img {
+                img {
+                    width: 175px;
+                }
+            }
+    
+            .bf-form {
+            }
+        }    
+    }
+}
+
+main#black-friday-confirmation {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    height: 95vh;
+
+    p.heading-label { 
+        margin: 0;
+        font-family: 'Space Grotesk', sans-serif;
+        color: #ffffff77;
+        text-align: center;
+        font-size: 1.35rem;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    .card {
+        text-align: center;
+        padding: 56px 96px;
+        border: 1px solid #ffffff05;
+        border-radius: 8px;
+        background: #00000044;
+        max-height: none;
+        width: 80%;
+        margin: 32px auto 32px auto;
+        box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.5);
+
+        img {
+            width: 125px;
+            margin-bottom: 32px;
+        }
+    }
+
+    .disclaimer {
+        width: 80%;
+        margin: 32px auto;
+
+        p {
+            font-family: 'Ubuntu Mono', monospace;
+            margin: 0;
+            padding: 0;
+            font-size: 1.35rem;
+            color: #FFFFFFaa;
+            text-align: center;
+        }
+    }
+
+    @media(max-width: 550px) {
+        height: auto;
+
+        .card {
+            width: 100%;
+            padding: 32px;
+        }
+
+        .disclaimer {
+            width: 100%;
+        }
+    }
+}
+
+header {
+    text-align: center;
+    background: #0a090e;
+    border-top: 1px solid #ffffff11;    
+    padding: 10px;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    @media(max-width: 992px) {
+        box-shadow: 0 7px 12px rgba(0, 0, 0, 0.55);
+    }
+}
+
+.countdown {
+    text-align: center;
+
+    p.countdown-label {
+        font-family: 'Space Grotesk', monospace;
+        font-size: 1.5rem;
+        margin-bottom: 14px;
+        color: #ffffff99;
+        margin-top: 24px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 12px 0;
+        border: 1px solid #2b2936;
+        background: #00000055;
+        max-width: 450px;
+        margin: 0 auto;
+        width: 100%;
+
+        li {
+            display: inline-block;
+            padding: 0 12px;
+            text-align: center;
+            position: relative;
+            top: 3px;
+    
+            span {
+                font-family: 'Ubuntu Mono', sans-serif;
+                font-weight: 500;
+                font-size: 3rem;
+                color: #ffcc00;
+                line-height: 16px;
+                display: block;
+            }
+    
+            p {
+                display: inline;
+                font-family: 'Space Grotesk', sans-serif;
+                font-weight: 700;
+                font-size: 1.15rem;
+                color: #ffffffcc;
+                text-transform: uppercase;
+            }
+        }
+    }  
+    
+    @media(max-width: 500px) {
+        ul {
+            li {
+                padding: 0 8px;
+        
+                span {
+                    font-size: 2.2rem;
+                    line-height: 14px;
+                }
+        
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }  
+    }
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
+    background: linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}

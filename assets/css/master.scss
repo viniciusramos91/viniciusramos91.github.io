@@ -365,6 +365,16 @@ body::-webkit-scrollbar-thumb {
                         left: 6px;
                     }
                 }
+
+                &.black-friday {
+                    a {
+                        padding: 15px 25px 16px 25px;
+
+                        img {
+                            width: 49px;
+                        }
+                    }
+                }
             }
 
             &.navbar-nav {
@@ -2405,4 +2415,3 @@ section.jornada-python-banner {
   padding-right: 0;
   padding-left: 0;
 }
-
