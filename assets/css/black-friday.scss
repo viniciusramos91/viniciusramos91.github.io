@@ -1,22 +1,58 @@
+@font-face {
+    font-family: 'SpaceGrotesk';
+    font-weight: 1000;
+    src: url('/assets/fonts/space-grotesk/SpaceGrotesk-Bold.woff2') format('woff2'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Bold.otf') format('otf'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Bold.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    font-weight: 700;
+    src: url('/assets/fonts/space-grotesk/SpaceGrotesk-Medium.woff2') format('woff2'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Medium.otf') format('otf'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Medium.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    font-weight: 400;
+    src: url('/assets/fonts/space-grotesk/SpaceGrotesk-Regular.woff2') format('woff2'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Regular.otf') format('otf'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    font-weight: 100;
+    src: url('/assets/fonts/space-grotesk/SpaceGrotesk-Light.woff2') format('woff2'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Light.otf') format('otf'),
+    url('/assets/fonts/space-grotesk/SpaceGrotesk-Light.ttf') format('truetype');
+    font-display: swap;
+}
+
 body {
     background: linear-gradient(135deg, #0a090e, #1e1c28);
-    overflow: hidden;
 
     h1 {
         font-family: 'Space Grotesk', sans-serif;
         color: #FFF;
         font-weight: bold;
         text-transform: uppercase;
-        font-size: 6rem;
+        font-size: 3.5rem;
     }
     
     h2 {
         font-family: 'Montserrat', sans-serif;
         color: #FFFFFFCC;
         font-weight: 100;
-        font-size: 1.5rem;
+        font-size: 1.59rem;
         line-height: 1.45;
         margin-top: 16px;
+        margin-bottom: 16px;
     }
     
     input[type="text"], input[type="email"] {
@@ -83,13 +119,180 @@ body {
     }
 }
 
+header {
+    text-align: center;
+    background: linear-gradient(90deg, #100f14 20%, #262130 50%, #100f14 80%);
+    border-bottom: 1px solid #ffffff11;    
+    padding: 10px;
+    width: 100%;
+
+    @media(max-width: 992px) {
+        box-shadow: 0 7px 12px rgba(0, 0, 0, 0.55);
+    }
+}
+
+footer {
+    background: #000000aa;
+    padding: 14px 0;
+    text-align: center;
+}
+
 main#black-friday-form {
-    padding-top: 100px;
-    padding-bottom: 30px;
-    height: 95vh;
+    section.hero {
+        background: #00000055;
+        padding: 56px 0;
+        overflow: hidden;
+    }
+
+    section.promotion {
+        padding: 74px 0;
+
+        .bf-informations {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .discount {
+                flex: 0.4;
+                text-align: center;
+
+                .discount-value {
+                        font-size: 17rem;
+                        font-weight: bold;
+                        font-family: 'Oswald', sans-serif;
+                        color: #fff;
+                        letter-spacing: -5px;
+                        line-height: 155px;
+                        margin-bottom: 42px;
+                        background: -webkit-linear-gradient(180deg, #bbb 40%, #fff 50%, #ccc 58%, #FFF 100%);
+                        background: linear-gradient(180deg, #bbb 40%, #fff 50%, #ccc 58%, #FFF 100%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                }
+        
+                .discount-label {
+                    font-size: 5.75rem;
+                    line-height: 51px;
+                    padding: 10px;
+                    font-family: 'Oswald', sans-serif;
+                    color: #333;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    background: linear-gradient(135deg, #ffe375 10%, #ddb100 80%);
+                    border: 1px solid #ffe16b;
+                }
+
+                .discount-price {
+                    font-family: 'Roboto Condensed', sans-serif;
+                    font-size: 1.35rem;
+                    color: #888;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+
+                    .text-muted {
+                        color: #fff3;
+                    }
+                }
+            }
+
+            .plus {
+                flex: 0.2;
+
+                p {
+                    font-size: 15rem;
+                    font-family: 'Ubuntu Mono';
+                    font-weight: bold;
+                    color: #FFF;
+                    line-height: 0;
+                    margin: 0;
+                    text-align: center;
+                    -webkit-animation: pulse;
+                    animation: pulse;
+                    -webkit-animation-duration: 3.5s;
+                    animation-duration: 3.5s;
+                    -webkit-animation-iteration-count: infinite;
+                    animation-iteration-count: infinite;
+                }
+
+                @-webkit-keyframes pulse {
+                     0% { transform: scale(1) }
+                    60% { transform: scale(1) }
+                    70% { transform: scale(1.5) rotate(5deg) }
+                    80% { transform: scale(1) rotate(0deg) }
+                }
+                
+                @keyframes pulse {
+                     0% { transform: scale(1) }
+                    60% { transform: scale(1) }
+                    70% { transform: scale(1.5) rotate(5deg) }
+                    80% { transform: scale(1) rotate(0deg) }
+                }
+            }
+
+            .mentorship {
+                flex: 0.4;
+
+                & > img {
+                    margin-bottom: 18px;
+                }
+
+                ul {
+                    list-style: none;
+                    padding-left: 20px;
+
+                    li  {
+                        img {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+
+                p, li {
+                    color: #ffffffbb;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-size: 1.75rem;
+                    font-weight: 400;
+                }
+            }
+
+            @media(max-width: 768px) {
+                display: block;
+
+                .discount {
+                    margin-bottom: 16px;
+
+                    .discount-value {
+                        font-size: 14rem;
+                    }
+
+                    .discount-label {
+                        font-size: 4.5rem;
+                    }
+                }
+
+                .plus {
+                    p {
+                        line-height: 130px;
+                        margin: 0;
+                        margin-bottom: 28px;
+                    }
+                }
+
+                .mentorship {
+                    p, li {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    h1 {
+        margin-top: 0;
+    }
 
     h2 {
-        width: 85%;
+        // width: 85%;
     }
     
     div.inner-container {
@@ -195,21 +398,6 @@ main#black-friday-confirmation {
         .disclaimer {
             width: 100%;
         }
-    }
-}
-
-header {
-    text-align: center;
-    background: #0a090e;
-    border-top: 1px solid #ffffff11;    
-    padding: 10px;
-    z-index: 999;
-    position: fixed;
-    top: 0;
-    width: 100%;
-
-    @media(max-width: 992px) {
-        box-shadow: 0 7px 12px rgba(0, 0, 0, 0.55);
     }
 }
 
