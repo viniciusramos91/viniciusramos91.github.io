@@ -1,10 +1,19 @@
+@import "/assets/css/syntax-monokai-sublime.css";
+
+body {
+    background-color: #0f0e15;
+}
+
 // ZEN OF PYTHON PAGE
 // ================================================================
 
 #zen-of-python {
+    hr {
+        border-top: 1px solid #d1bef317;
+    }
+    
     .terminal-wrapper {
         padding: 64px 0;
-        background: #F2F2F2 url('assets/svg/dark-bground-pattern.svg');
 
         .terminal {
             width: 80%;
@@ -32,14 +41,14 @@
             }
 
             .terminal-body {
-                background: #252525;
-                padding: 32px;
+                background: #252230;
+                padding: 26px;
                 border-radius: 0 0 8px 8px;
 
                 span {
-                    font-family: 'Menlo', 'Monaco', 'Consolas','Courier New',monospace;
-                    line-height: 1.8rem;
-                    font-size: 1.5rem;
+                    font-family: 'Ubuntu Mono', monospace;
+                    line-height: 2rem;
+                    font-size: 1.75rem;
                     display: block;
 
                     &.command {
@@ -77,18 +86,17 @@
 
     .zop-explanation {
         padding: 64px 0;
-        background: #FAFAFA;
 
         h2 {
-            font-family: 'Merriweather', sans-serif;
-            color: #444;
+            font-family: 'Rubik', sans-serif;
+            color: #FFFFFFDD;
             font-size: 3rem;
             margin-bottom: 64px;
             letter-spacing: -0.4px;
         }
         
         h3 {
-            font-family: 'Merriweather', sans-serif;
+            font-family: 'Rubik', sans-serif;
             color: #444;
             font-size: 2.5rem;
         }
@@ -98,26 +106,32 @@
         }
 
         .explanation-box {
-            background: #FFF;            
-            box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+            background: linear-gradient(135deg, #39334a, #1c1828);
             padding: 48px;
-            border-radius: 25px;
+            border-radius: 16px;
             margin-bottom: 48px;
 
             p {
+                font-family: 'Rubik', sans-serif;
                 font-size: 2rem;
+
+                b {
+                    color: #FFF;
+                }
             }
 
             .text-muted {
                 font-style: italic;
-                color: #888;
+                color: #ffffff99;
                 font-size: 1.6rem;
+                font-weight: 400;
             }
 
             .explanation {            
-                font-family: 'Lato', sans-serif;
-                color: #4b545e;
+                font-family: 'Ubuntu', sans-serif;
+                color: #ffffffcc;
                 font-size: 1.6rem;
+                line-height: 2.5rem;
 
                 
                 figure.highlight {
@@ -127,6 +141,10 @@
                         padding: 6px 12px;
                     }
                 }                
+            }
+
+            @media(max-width: 500px) {
+                padding: 30px;
             }
         }
     }

@@ -811,6 +811,12 @@ body#jornada-python-body {
                         font-weight: bold;
                         text-transform: uppercase;
                     }
+
+                    .original-price {
+                        font-family: 'Space Grotesk', sans-serif;
+                        font-size: 1.75rem;
+                        color: #ffffff77;
+                    }
                 }
                 
                 .middle {
@@ -830,7 +836,7 @@ body#jornada-python-body {
                     .centavos {
                         font-size: 2.5rem;
                         position: relative;
-                        right: 12px;
+                        right: 4px;
                     }
                 }
                 

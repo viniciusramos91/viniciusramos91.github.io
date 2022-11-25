@@ -1,10 +1,6 @@
 body {
-    background: #1f2325 url("/assets/svg/blog-stars-bground.svg");
+    background: #0f0e15;
     height: 100vh;
-
-    .header .navbar.navbar-default {
-        background: #FFF;
-    }
 
     main {
         padding: 15vh 5vw;
@@ -17,8 +13,8 @@ body {
 
         h2 {
             display: inline-block;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: bold;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 600;
             font-size: 6rem;
             color: #FFF;
             text-transform: uppercase;      
@@ -27,16 +23,17 @@ body {
         }
 
         h3 {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: bold;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 400;
             font-size: 3.2rem;
             color: #FFF;
             margin-bottom: 30px;
         }
 
         h4 {
-            font-family: 'Montserrat', sans-serif;
-            color: #DDD;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 100;
+            color: #FFFA;
             font-size: 2rem;
             line-height: 3.2rem;
             margin-bottom: 40px;

@@ -1,38 +1,16 @@
-.featured-posts-section {
-    background: #efefef url('/assets/svg/blog-stars-bground.svg');
-    padding: 60px 0px;
+body {
+    background-color: #0f0e15;
+}
 
-    h1 {
-        font-family: 'Ubuntu', sans-serif;
-        font-weight: bold;
-        color: #3e464f;
-        font-size: 4rem;
-        margin-top: 0;
-        color: #3e464f;
-    }
+// POSTS LIST
+// ================================================================
 
-    h2 {
-        font-family: 'Open Sans', serif;
-        font-weight: 400;
-        font-size: 1.7rem;
-        margin-bottom: 32px;
-        line-height: 32px;
-        color: #3e464f;
-    }
+.posts-list {
+    padding: 48px 0;   
+    position: relative;
+    overflow: hidden;
 
-    .card {
-        max-height: none;
-
-        @media(max-width: 1199px) {
-            min-height: 0;
-        }
-
-        @media(max-width: 1199px) {
-            .card-frame {
-                img {
-                    max-width: 350px;
-                }
-            }
-        }        
+    &.padding-top {
+        padding-top: 133px;
     }
 }
