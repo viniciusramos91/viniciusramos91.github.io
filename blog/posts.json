@@ -2,6 +2,27 @@
     
     
     {
+      "h1": "Tratamento de erros e exceções no Python com try/except",
+      "title": "Tratamento de erros e exceções no Python com try/except",
+      "href": "/blog/tratamento-erros-excecoes-no-python",
+      "slug": "tratamento-erros-excecoes-no-python",
+      "assets": "args-kwargs",
+      "author": "Vinícius R",
+      "description": "<p>Neste post você vai aprender a tratar erros e exceções utilizando o bloco try/except do Python!</p>",
+      "header_color": "#16161677",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "09",
+         "month": "01",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "7 truques em Python que todo iniciante deve saber",
       "title": "7 truques em Python que todo iniciante deve saber",
       "href": "/blog/7-truques-em-python-que-todo-iniciante-deve-saber",
