@@ -2,6 +2,48 @@
     
     
     {
+      "h1": "As Funções Map e Filter do Python",
+      "title": "As Funções Map e Filter do Python",
+      "href": "/blog/as-funcoes-map-e-filter-no-python",
+      "slug": "as-funcoes-map-e-filter-no-python",
+      "assets": "funcoes-map-filter",
+      "author": "Vinícius R",
+      "description": "<p>Neste artigo iremos falar sobre as funções map e filter e como elas podem ser usadas para produzir códigos mais pythônicos.</p>",
+      "header_color": "#ffcc0096",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "11",
+         "month": "01",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
+      "h1": "O que são Funções Lambda no Python",
+      "title": "O que são Funções Lambda no Python",
+      "href": "/blog/funcoes-lambda-no-python",
+      "slug": "funcoes-lambda-no-python",
+      "assets": "funcoes-map-filter",
+      "author": "Vinícius R",
+      "description": "<p>Neste artigo iremos falar sobre as Funções Lambdas, como defini-las e como utilizá-las!</p>",
+      "header_color": "#222f3e77",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "10",
+         "month": "01",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Tratamento de erros e exceções no Python com try/except",
       "title": "Tratamento de erros e exceções no Python com try/except",
       "href": "/blog/tratamento-erros-excecoes-no-python",
