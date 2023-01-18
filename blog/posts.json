@@ -2,6 +2,27 @@
     
     
     {
+      "h1": "Como usar o FastAPI para construir APIs no Python",
+      "title": "Como usar o FastAPI para construir APIs no Python",
+      "href": "/blog/como-usar-o-fastapi-para-construir-apis-no-python",
+      "slug": "como-usar-o-fastapi-para-construir-apis-no-python",
+      "assets": "fastapi-intro",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post você vai aprender a construir poderosas APIs com o FastAPI: a biblioteca de construção de APIs que mais cresce no Python.</p>",
+      "header_color": "#44B78B77",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
+      "featured_icon": "featured_img.svg",
+      "featured_image": "featured_image.png",
+      "date": {
+         "day": "18",
+         "month": "01",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "As Funções Map e Filter do Python",
       "title": "As Funções Map e Filter do Python",
       "href": "/blog/as-funcoes-map-e-filter-no-python",
