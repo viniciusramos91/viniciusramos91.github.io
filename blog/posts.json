@@ -11,8 +11,6 @@
       "description": "<p>Nesse post você vai aprender a construir poderosas APIs com o FastAPI: a biblioteca de construção de APIs que mais cresce no Python.</p>",
       "header_color": "#44B78B77",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "18",
          "month": "01",
@@ -32,8 +30,6 @@
       "description": "<p>Neste artigo iremos falar sobre as funções map e filter e como elas podem ser usadas para produzir códigos mais pythônicos.</p>",
       "header_color": "#ffcc0096",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "11",
          "month": "01",
@@ -53,8 +49,6 @@
       "description": "<p>Neste artigo iremos falar sobre as Funções Lambdas, como defini-las e como utilizá-las!</p>",
       "header_color": "#222f3e77",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "10",
          "month": "01",
@@ -74,8 +68,6 @@
       "description": "<p>Neste post você vai aprender a tratar erros e exceções utilizando o bloco try/except do Python!</p>",
       "header_color": "#16161677",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "09",
          "month": "01",
@@ -95,8 +87,6 @@
       "description": "<p>Nesse post você ficará mais apto a deixar seu código otimizado e melhor de ser editado.</p>",
       "header_color": "#636e7277",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "26",
          "month": "10",
@@ -116,8 +106,6 @@
       "description": "<p>Nesse post você vai aprender como utilizar a função print do Python para mostrar dados aos seus usuários</p>",
       "header_color": "#5485e577",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_image.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "15",
          "month": "10",
@@ -137,8 +125,6 @@
       "description": "<p>Ainda com dificuldade para manipular Strings no Python? Então chega mais que você vai DOMINAR Strings depois desse Post!</p>",
       "header_color": "#2980b977",
       "author_avatar": "/assets/authors/erickson-lopes/avatar.jpeg",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "14",
          "month": "09",
@@ -158,8 +144,6 @@
       "description": "<p>Nesse post você vai aprender o que são os argumentos não-nomeados *args e argumentos nomeados **kwargs das funções em Python.</p>",
       "header_color": "#ffcc0096",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "25",
          "month": "06",
@@ -179,8 +163,6 @@
       "description": "<p>Nesse post você vai aprender a utilizar loops while do Python para criar Estruturas de Repetição.</p>",
       "header_color": "#70827777",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "24",
          "month": "06",
@@ -200,8 +182,6 @@
       "description": "<p>Nesse post você vai aprender a utilizar loops for do Python para criar Estruturas de Repetição.</p>",
       "header_color": "#04334477",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "23",
          "month": "06",
@@ -221,8 +201,6 @@
       "description": "<p>Já pensou executar código Python no seu Browser?! Com PyScript, agora isso é possível! Venha ver como neste Post!</p>",
       "header_color": "#b2bec377",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "07",
          "month": "05",
@@ -242,8 +220,6 @@
       "description": "<p>Cansado de receber “NÃOs” em entrevistas de emprego? Então venha aprender habilidades para se destacar em entrevistas de emprego!</p>",
       "header_color": "#222f3e77",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "23",
          "month": "04",
@@ -263,8 +239,6 @@
       "description": "<p>Nesse post você vai aprender como é o Fluxo de Trabalho no Git!</p>",
       "header_color": "#636e7277",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "17",
          "month": "04",
@@ -284,8 +258,6 @@
       "description": "<p>Nesse post você vai dominar o Git: uma ferramenta MUITO IMPORTANTE que todo desenvolvedor DEVE dominar!</p>",
       "header_color": "#28609077",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "09",
          "month": "03",
@@ -305,8 +277,6 @@
       "description": "<p>Nesse post você vai aprender como não repetir linhas de código através da criação de Funções em Python!</p>",
       "header_color": "#57657477",
       "author_avatar": "/assets/authors/erickson-lopes/avatar.jpeg",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "08",
          "month": "02",
@@ -326,8 +296,6 @@
       "description": "<p>Nesse post vamos ver o que há de novo na tão aguardada versão 3.10 do Python!</p>",
       "header_color": "#2980b977",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "06",
          "month": "10",
@@ -347,8 +315,6 @@
       "description": "<p>Esse post mostra os principais conceitos do paradigma de programaçào Orientado a Objetos no Python, como: Classes, Objetos, Herança, Polimorfismo, Abstração e muito mais!</p>",
       "header_color": "#222f3e77",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "12",
          "month": "08",
@@ -368,8 +334,6 @@
       "description": "<p>Esse post mostra como podemos controlar a execução de programas Python através das estruturas condicionais IF/ELIF/ELSE!</p>",
       "header_color": "#40739e77",
       "author_avatar": "/assets/authors/erickson-lopes/avatar.jpeg",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "24",
          "month": "07",
@@ -389,8 +353,6 @@
       "description": "<p>Esse post trata sobre os Operadores Aritméticos (+, -, *, /, etc), Operadores de Comparação (==, &gt;=, &lt;=, etc), Operadores Lógicos (and, or e not) e muito mais!</p>",
       "header_color": "#182C6177",
       "author_avatar": "/assets/authors/erickson-lopes/avatar.jpeg",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "18",
          "month": "07",
@@ -410,8 +372,6 @@
       "description": "<p>Nesse post vamos falar sobre entrada de dados, saída de dados, a função input do Python, a função print e MUITO MAIS!</p>",
       "header_color": "#b2bec377",
       "author_avatar": "/assets/authors/erickson-lopes/avatar.jpeg",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "13",
          "month": "07",
@@ -431,8 +391,6 @@
       "description": "<p>Vamos tratar de um assunto muito importante nesse post: como construir loops utilizando a função range do Python!</p>",
       "header_color": "#40739e77",
       "author_avatar": "/assets/authors/erickson-lopes/avatar.jpeg",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "09",
          "month": "07",
@@ -452,8 +410,6 @@
       "description": "<p>Nesse post vamos falar sobre as famosas Estruturas de Repetição (ou loops) do Python: for, while, for com else, for com range, enumerate e muito mais!</p>",
       "header_color": "#2980b977",
       "author_avatar": "/assets/authors/erickson-lopes/avatar.jpeg",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "08",
          "month": "07",
@@ -473,8 +429,6 @@
       "description": "<p>Domine Sets Comprehensions (ou Compreensão de Sets) com esse post completo sobre o assunto! Set Comprehensions possibilita criar e manipular sets de uma maneira concisa e eficiente!</p>",
       "header_color": "#ffcc0096",
       "author_avatar": "/assets/authors/erickson-lopes/avatar.jpeg",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "03",
          "month": "07",
@@ -494,8 +448,6 @@
       "description": "<p>Domine Sets (ou Conjuntos) com esse post completo sobre o assunto! Sets são um tipo de dados muito utilizado no dia a dia da programação Python e que todo programador precisa dominar!</p>",
       "header_color": "#222f3e77",
       "author_avatar": "/assets/authors/erickson-lopes/avatar.jpeg",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "02",
          "month": "07",
@@ -515,8 +467,6 @@
       "description": "<p>Dicionário no Python é um tipo de dado muito eficiente e muito poderoso. Dominá-lo é essencial para o verdadeiro Pythonista!</p>",
       "header_color": "#b2bec377",
       "author_avatar": "/assets/authors/erickson-lopes/avatar.jpeg",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "27",
          "month": "06",
@@ -536,8 +486,6 @@
       "description": "<p>Nesse post vamos ver os tipos de variáveis que a linguagem Python nos disponibiliza para utilizar em nossos programas.</p>",
       "header_color": "#636e7277",
       "author_avatar": "/assets/authors/guilherme-euzebio/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_image.png",
       "date": {
          "day": "19",
          "month": "06",
@@ -557,8 +505,6 @@
       "description": "<p>Vamos aprender como manipular Listas no Python de forma pythônica com esse Guia COMPLETO!</p>",
       "header_color": "#222f3e77",
       "author_avatar": "/assets/authors/erickson-lopes/avatar.jpeg",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "16",
          "month": "06",
@@ -578,8 +524,6 @@
       "description": "<p>Esse post trata de um dos principais tipos de dados usados no dia a dia do Pythonista: as famosas LISTAS!</p>",
       "header_color": "#00b4f277",
       "author_avatar": "/assets/authors/erickson-lopes/avatar.jpeg",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "14",
          "month": "06",
@@ -599,8 +543,6 @@
       "description": "<p>Esse post mostra como estender as funcionalidades de sua API, adicionando Filtros, Busca Textual e Ordenação às APIs desenvolvidas com o poderoso Django REST Framework</p>",
       "header_color": "#a3262677",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "16",
          "month": "05",
@@ -620,8 +562,6 @@
       "description": "<p>Nesse post vamos ver como é fácil construir APIs de maneira rápida com nosso velho conhecido Django e o poderoso Django Rest Framework</p>",
       "header_color": "#a3262677",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "05",
          "month": "05",
@@ -641,8 +581,6 @@
       "description": "<p>Nesse post você vai dominar a biblioteca itertools do Python e adicionar mais um módulo poderosíssimo à sua caixa de ferramentas!</p>",
       "header_color": "#130f4077",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "20",
          "month": "04",
@@ -662,8 +600,6 @@
       "description": "<p>Quer saber como executar seu código 4x mais rápido? Então leia esse post AGORA!</p>",
       "header_color": "#70827777",
       "author_avatar": "/assets/authors/guilherme-euzebio/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "05",
          "month": "04",
@@ -683,8 +619,6 @@
       "description": "<p>Complemento para o post de pandas básico, vamos aprender mais sobre Pandas Dataframes! A estrutura tabular que todo cientista de dados vai ficar careca de saber (eu fiquei, literalmente :O). Cola na Python Academy que você vai sair um cientista de dados!</p>",
       "header_color": "#11215e77",
       "author_avatar": "/assets/authors/leon-solon/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "15",
          "month": "03",
@@ -704,8 +638,6 @@
       "description": "<p>Nesse post, você irá aprender como manipular arranjos unidimensionais utilizando as Séries do Pandas.</p>",
       "header_color": "#11215e77",
       "author_avatar": "/assets/authors/leon-solon/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "10",
          "month": "03",
@@ -725,8 +657,6 @@
       "description": "<p>Aprenda a manipular strings em Python de um jeito fácil e descomplicado com f-strings!</p>",
       "header_color": "#2980b977",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "19",
          "month": "02",
@@ -746,8 +676,6 @@
       "description": "<p>Esse post mostra como importar arquivos CSV usando a famosa biblioteca pandas! Bora que essa ferramenta é essencial pra quem quer começar na área de Data Science!</p>",
       "header_color": "#11215e77",
       "author_avatar": "/assets/authors/leon-solon/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "03",
          "month": "02",
@@ -767,8 +695,6 @@
       "description": "<p>Nesse post, vamos aprender uma ferramenta avançada muito útil do Python para tratamento e manipulação de dicionários!</p>",
       "header_color": "#ffcc0096",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "14",
          "month": "01",
@@ -788,8 +714,6 @@
       "description": "<p>Aprenda a dominar o poder de List Comprehensions no Python. Nesse post você vai ver como utilizar, declarar e manipular listas com List Comprehensions.</p>",
       "header_color": "#04334477",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "25",
          "month": "10",
@@ -809,8 +733,6 @@
       "description": "<p>Você já deve ter ouvido falar em Iterators e Generators em Python. Mas você sabe o que são? Nesse post vamos aprender um pouco mais dessas duas ferramentas poderosas do Python!</p>",
       "header_color": "#636e7277",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "15",
          "month": "10",
@@ -830,8 +752,6 @@
       "description": "<p>Nesse post, vamos tratar da camada <em>Template</em> do Django. Vamos aprender como utilizar, configurar e estender os templates do Django, como utilizar filtros e tags do Django e como criar nossas tags e filtros customizados!</p>",
       "header_color": "#0e483277",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "04",
          "month": "07",
@@ -851,8 +771,6 @@
       "description": "<p>Aprenda a criar Middlewares no Django para interceptar e processar requisições vindas dos usuários.</p>",
       "header_color": "#0e483277",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "25",
          "month": "06",
@@ -872,8 +790,6 @@
       "description": "<p>Vamos conhecer a facilidade que é criar formulários em projetos Django utilizando Django Forms!</p>",
       "header_color": "#0e483277",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "22",
          "month": "06",
@@ -893,8 +809,6 @@
       "description": "<p>Nesse post, vamos tratar da camada <em>View</em> do Django. Nela, nós desenvolvemos a lógica de negócio da nossa aplicação. Vamos ver sobre rotas, processamento de requisições e respostas, utilização de formulários e muito mais!</p>",
       "header_color": "#0e483277",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "20",
          "month": "06",
@@ -914,8 +828,6 @@
       "description": "<p>Nesse post, vamos ver o funcionamento do comando migrate do Django, suas opções e como ele ajuda os desenvolvedores na hora de criar o banco de dados da nossa aplicação Django.</p>",
       "header_color": "#0e483277",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "07",
          "month": "06",
@@ -935,8 +847,6 @@
       "description": "<p>Nesse post, vamos ver o funcionamento do comando makemigrations do Django, suas opções e quando devemos usá-lo.</p>",
       "header_color": "#0e483277",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "30",
          "month": "05",
@@ -956,8 +866,6 @@
       "description": "<p>Nesse post, vamos tratar da camada Model do Django. Vamos abordar detalhes dessa camada, mapeamento objeto-relacional, a API de acesso a dados provida pelo Django e modelagem de dados.</p>",
       "header_color": "#0e483277",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "26",
          "month": "05",
@@ -977,8 +885,6 @@
       "description": "<p>O Django é uma framework de desenvolvimento Web Python completa e robusta. Nesse post introdutório, vamos abordar os a arquitetura do framework e primeiros passos para o desenvlvimento web com Python.</p>",
       "header_color": "#0e483277",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "22",
          "month": "05",
@@ -998,8 +904,6 @@
       "description": "<p>Nesse artigo, vamos abordar 5 motivos que irão te fazer começar a aprender Python ainda hoje!</p>",
       "header_color": "#40739e77",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "11",
          "month": "04",
@@ -1019,8 +923,6 @@
       "description": "<p>Que tal criar um jogo em Python utilizando o framework Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do ZERO!</p>",
       "header_color": "#a637c877",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "08",
          "month": "04",
@@ -1040,8 +942,6 @@
       "description": "<p>Nesse post vamos explorar o desenvolvimento de aplicações mobile utilizando Python e Kivy. Aprenda a desenvolver aplicativos para Android, iOS, Desktop e muito mais com Kivy!</p>",
       "header_color": "#a637c877",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "07",
          "month": "04",
@@ -1061,8 +961,6 @@
       "description": "<p>Decorators modificam o comportamente do código antes e depois da execução de uma dada função, sem a necessidade de modificar o próprio código da mesma, adicionando funcionalidades.</p>",
       "header_color": "#70827777",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_img.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "06",
          "month": "04",
@@ -1082,8 +980,6 @@
       "description": "<p>Vamos entender o funcionamento do incrível virtualenv, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.</p>",
       "header_color": "#2980b977",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "05",
          "month": "04",
@@ -1103,8 +999,6 @@
       "description": "<p>Nesse post, vamos aprender como instalar o Python no Windows através de um tutorial simples e descomplicado! Não tenha medo, vamos mostrar passo a passo!</p>",
       "header_color": "#00b4f277",
       "author_avatar": "/assets/authors/leon-solon/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "04",
          "month": "04",
@@ -1124,8 +1018,6 @@
       "description": "<p>O começo do começo! Vamos aprender como instalar o Python no Linux e começar a programar utilizando essa incrível linguagem de programação!</p>",
       "header_color": "#ffcc0096",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
-      "featured_icon": "featured_icon.svg",
-      "featured_image": "featured_img.png",
       "date": {
          "day": "03",
          "month": "04",

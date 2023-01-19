@@ -283,55 +283,7 @@
 					easing: 'ease-out-back',
 					duration: 1500
 				});
-
-				// generateRandomPosts();
-			})(jQuery);
-
-			// Generate random posts
-			function generateRandomPosts() {
-				var counter = 0;	            
-
-				$.getJSON("/blog/posts.json", function(data) {
-					var postsCount = data.length;					
-					var posts = data;
-
-					var randomIndexUsed = [];	
-					var numberOfPosts = 3;
-
-					var divRandomPosts = $("#random_posts");		            
-
-					while (counter < numberOfPosts) {
-						var randomIndex = Math.floor(Math.random() * postsCount);
-						
-						if (randomIndexUsed.indexOf(randomIndex) == "-1") {
-							var post = posts[randomIndex];
-
-							// Verify if related post is the same as the shown
-							if (post.title != "Ebook - Listas no Python \| Python Academy") {
-								var postHTML = 
-									"<div class='col-lg-4 col-md-4 col-sm-12 col-xs-12'>" +
-										"<a href='" + post.href + "' class='card recommended-post-card' data-aos='fade-up' data-aos-duration='1100' data-aos-delay='" + (500 + counter*150) + "'>" +
-											"<div class='card-frame'>" +
-												"<object id='featured-icon-" + counter + " class=featured-icon' type='image/svg+xml' data='/assets/posts/" + post.assets + "/" + post.featured_icon + "' height='175px'></object>" +
-											"</div>" + 
-											
-											"<div class='caption'>" +
-												"<h3 class='card-title'>" +
-													post.h1 +
-												"</h3>" +
-											"</div>" +
-										"</div>" +
-									"</div>"
-
-								divRandomPosts.append(postHTML);
-								randomIndexUsed.push(randomIndex);
-								
-								counter++;
-							}
-						}
-					}
-				});								
-			}
+			})(jQuery);			
 	    </script>
     </body>
 </html>
