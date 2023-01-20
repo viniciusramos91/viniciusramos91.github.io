@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Como criar Interfaces Gráficas (GUI) com Tkinter e Python no Windows",
+      "title": "Como criar Interfaces Gráficas (GUI) com Tkinter e Python no Windows",
+      "href": "/blog/interfaces-graficas-com-tkinter-e-python",
+      "slug": "interfaces-graficas-com-tkinter-e-python",
+      "assets": "tkinter",
+      "author": "Yuri H",
+      "description": "<p>Aprenda a usar o Tkinter em Python para criar interfaces gráficas no Windows</p>",
+      "header_color": "#16161677",
+      "author_avatar": "/assets/authors/yuri-henrique/avatar.png",
+      "date": {
+         "day": "20",
+         "month": "01",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Como usar o FastAPI para construir APIs no Python",
       "title": "Como usar o FastAPI para construir APIs no Python",
       "href": "/blog/como-usar-o-fastapi-para-construir-apis-no-python",
