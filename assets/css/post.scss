@@ -90,7 +90,7 @@ body#post-body {
             .post-banner-content {
                 background: linear-gradient(180deg, #040406, #0f0e15);
                 text-align: center;
-                padding: 170px 12px 50px 12px;
+                padding: 150px 12px 50px 12px;
 
                 .featured-icon-wrapper {
                     display: inline-block;
@@ -108,9 +108,9 @@ body#post-body {
                     font-family: 'Rubik', sans-serif;
                     text-transform: uppercase;
                     font-weight: 400;
-                    font-size: 5.85rem;
+                    font-size: 4rem;
                     color: #FFF;
-                    margin: 0 0 32px 0;
+                    margin: 0 0 48px 0;
 
                     @media (max-width: 767px) {
                         font-size: 3.5rem;
@@ -143,6 +143,10 @@ body#post-body {
                     }
                 }
 
+                @media(max-width: 768px) {
+                    padding: 110px 12px 20px 12px;
+                }
+
             }
         }
     }    
@@ -169,12 +173,13 @@ body#post-body {
 
             h2#vá-direto-ao-assunto {
                 background: #191720;
-                margin-bottom: 0;
+                margin: 15px 30px 0 30px;
                 border-radius: 10px 10px 0 0;
                 padding-top: 12px;
                 padding-bottom: 12px;
 
-                @media(max-width: 500px) {
+                @media(max-width: 768px) {
+                    margin: 15px 10px 0 10px;
                     font-size: 2rem;
                     padding: 12px 22px;
                 }
@@ -185,8 +190,7 @@ body#post-body {
                 border-radius: 0 0 8px 8px;
                 padding-bottom: 32px;
                 list-style: none;
-                margin-top: 0;
-                margin-bottom: 10px;
+                margin: 0 30px 10px 30px;
                 padding-left: 78px;
                 list-style-image: url('/assets/img/list-style-l1.png');
                 
@@ -208,8 +212,10 @@ body#post-body {
                     }
                 }
 
-                @media(max-width: 500px) {
+                @media(max-width: 768px) {
+                    margin: 0 10px 10px 10px;
                     padding-left: 55px;
+                    padding-bottom: 20px;
                     ul {
                         li {
                             margin-bottom: 0;
@@ -568,19 +574,21 @@ body#post-body {
                     }
 
                     .linkedin-anchor {
-                        font-family: 'Ubuntu Mono', monospace;
+                        font-family: 'Rubik', sans-serif;
                         background: linear-gradient(45deg, #055581, #3fade9);
                         color: #FFF;
                         border: 0;
                         display: inline-block;
                         margin-top: 12px;
-                        padding: 1px 6px;
-                        border-radius: 3px;
+                        margin-bottom: 12px;
+                        padding: 5px 14px;
+                        border-radius: 5px;
 
-                        i {
+                        img {
+                            width: 16px;
                             position: relative;
-                            top: 1px;
-                            margin-right: 4px;
+                            bottom: 1px;
+                            margin-right: 8px;
                         }
                     }
 
@@ -593,15 +601,19 @@ body#post-body {
                             display: inline;
 
                             a {
-                                font-size: 2rem;
-                                color: #777;
                                 padding: 0 30px 0 0;
                                 border-bottom: 0;
-                                transition: all .15s ease;
+
+                                img {
+                                    opacity: 0.4;
+                                    width: 30px;
+                                    transition: all 0.15s ease-in-out;
+                                }
                                 
                                 &:hover {
-                                    background-color: inherit;
-                                    color: #333
+                                    img {
+                                        opacity: 0.8;
+                                    }
                                 }
 
                                 @media (max-width: 767px) {
@@ -748,8 +760,18 @@ body#post-body {
                 color: #5c6163;
                 transition: all 0.15s ease;
 
+                img {
+                    width: 24px;
+                    opacity: 0.4;
+                    transition: all 0.15s ease;
+                }
+
                 &:hover {
                     color: #fff;
+
+                    img {
+                        opacity: 0.8;
+                    }
                 }
             }    
             
