@@ -2,13 +2,13 @@
     
     
     {
-      "h1": "Como criar Interfaces Gráficas (GUI) com Tkinter e Python no Windows",
-      "title": "Como criar Interfaces Gráficas (GUI) com Tkinter e Python no Windows",
+      "h1": "Como criar Interfaces Gráficas (GUI) com Tkinter e Python",
+      "title": "Como criar Interfaces Gráficas (GUI) com Tkinter e Python",
       "href": "/blog/interfaces-graficas-com-tkinter-e-python",
       "slug": "interfaces-graficas-com-tkinter-e-python",
       "assets": "tkinter",
       "author": "Yuri H",
-      "description": "<p>Aprenda a usar o Tkinter em Python para criar interfaces gráficas no Windows</p>",
+      "description": "<p>Aprenda a usar o Tkinter do Python para criar interfaces gráficas (GUI)</p>",
       "header_color": "#273c7577",
       "author_avatar": "/assets/authors/yuri-henrique/avatar.png",
       "date": {
