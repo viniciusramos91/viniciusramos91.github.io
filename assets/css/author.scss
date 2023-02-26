@@ -1,0 +1,141 @@
+body {
+    background-color: #0f0e15;
+
+    .author-main-container {
+        padding-top: 164px;
+        padding-bottom: 64px;
+
+        .colophon {
+            margin-top: 48px;
+            padding-bottom: 64px;
+    
+            .profile-img {
+                border-radius: 50%;
+                max-width: 152px;
+                margin: 8px 0;
+            }
+            
+            h2 {
+                font-weight: 400;
+                font-size: 14px
+            }
+            
+            .meta {
+                margin: 7px 0;
+                
+                h1 {
+                    color: #FFF;
+                    margin-top: 0;
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-size: 3rem;
+                    line-height: 0;
+                    margin-bottom: 32px;
+                }
+    
+                .short-description {
+                    font-family: 'Ubuntu', sans-serif;
+                    line-height: 2.4rem;
+                    font-size: 1.5rem;
+                    color: #FFFFFFBB;
+                }
+    
+                .author-media-label {
+                    font-family: 'Roboto Condensed', sans-serif;
+                    color: #777;
+                    margin: 0;
+                    font-size: 1.5rem;
+                }
+    
+                .linkedin-anchor {
+                    font-family: 'Rubik', sans-serif;
+                    background: linear-gradient(45deg, #055581, #3fade9);
+                    color: #FFF;
+                    border: 0;
+                    display: inline-block;
+                    margin-top: 12px;
+                    margin-bottom: 12px;
+                    padding: 5px 14px;
+                    border-radius: 5px;
+    
+                    img {
+                        width: 16px;
+                        position: relative;
+                        bottom: 1px;
+                        margin-right: 8px;
+                    }
+                }
+    
+                ul {
+                    list-style: none;
+                    margin: 0;
+                    padding-left: 0px;
+    
+                    li {
+                        display: inline;
+    
+                        a {
+                            padding: 0 30px 0 0;
+                            border-bottom: 0;
+    
+                            img {
+                                opacity: 0.4;
+                                width: 30px;
+                                transition: all 0.15s ease-in-out;
+                            }
+                            
+                            &:hover {
+                                img {
+                                    opacity: 0.8;
+                                }
+                            }
+    
+                            @media (max-width: 767px) {
+                                font-size: 2.3rem;
+                                padding: 0 12px;
+                            }
+                        }
+                    }
+                }
+    
+                @media (max-width: 767px) {
+                    text-align: center
+                }
+            }
+        }
+    }
+
+    .authors-main-container {
+        padding-bottom: 48px;
+        
+        article{
+            &.card-article {
+                &.overlay {
+                    .card {
+                        margin-bottom: 48px;
+
+                        .caption {
+                            position: relative;
+                            bottom: 0;
+                            padding: 32px;
+
+                            .author {
+                                p {
+                                    color: #ffffffdd;
+                                    font-size: 1.95rem;
+                                    margin-left: 22px;
+                                }
+
+                                img {
+                                    margin-bottom: 0;
+                                    height: 90px;
+                                    width: 90px;
+                                    max-width: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
