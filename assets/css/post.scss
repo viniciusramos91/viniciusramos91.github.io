@@ -37,7 +37,7 @@
 }
 
 body#post-body {
-    background-color: #0f0e15;
+    background-color: #0a080c;
     @media (max-width: 767px) {
         padding-bottom: 75px;
     }
@@ -161,13 +161,17 @@ body#post-body {
             margin-right: auto;
             margin-left: auto;
 
+            b, strong {
+                font-weight: 600 !important;
+            }
+
             a:not(.call-to-action) {
-                border-bottom: 1px dashed #f2a900;
+                border-bottom: 1px dashed;
                 text-decoration: none;
                 transition: all 0.15s ease;
 
                 &:hover {
-                    color: #684c99;
+                    color: #4c97d7;
                 }
             }
 
@@ -225,11 +229,11 @@ body#post-body {
             }
             
             p:not(.greeting), ul, li, ol, table:not(.rouge-table) {
-                font-family: 'Ubuntu', sans-serif;
-                font-size: 1.65rem;
-                line-height: 1.5;
+                font-family: 'Rubik', sans-serif;
+                font-size: 1.75rem;
+                line-height: 1.35;
                 margin-bottom: 1.3rem;
-                font-weight: 400;                
+                font-weight: 400;
 
                 @media (max-width: 767px) {
                     font-size: 1.55rem;
@@ -251,12 +255,13 @@ body#post-body {
 
             p, h1, h2, h3, h4, h5, ul, ol, blockquote, table:not(.rouge-table) {
                 padding: 0 30px;
-                color: #ffffffcc;
+                color: #ffffffe7;
 
                 code {
-                    font-size: 90%;
-                    color: #c1c1c1;
-                    background-color: #252230;
+                    font-size: 95%;
+                    color: #a783eb;
+                    padding: 0;
+                    background-color: unset;
                 }
                 
                 @media (max-width: 767px) {
@@ -927,7 +932,7 @@ body#post-body {
                         li {
                             font-family: 'Ubuntu', sans-serif;
                             font-size: 1.5rem;
-                            color: #ffffffcc !important;
+                            color: #ffffffe7 !important;
                             margin-bottom: 10px;
                         }
                     }   

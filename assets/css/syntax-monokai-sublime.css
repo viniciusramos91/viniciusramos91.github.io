@@ -15,7 +15,7 @@ figure.highlight {
   border-radius: 8px;
   padding: 0;
   margin: 0 30px 1em;
-  border: 1px solid #ffffff11;
+  border: 2px solid #120d1a;
 }
 
 @media(max-width: 767px) {
@@ -258,7 +258,7 @@ pre {
 }
 .highlight {
   color: #ffffff;
-  background-color: #191722;
+  background-color: #0f0b14;
 }
 .highlight .n, .highlight .py, .highlight .nx {
   color: #ffffff;
