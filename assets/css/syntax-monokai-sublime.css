@@ -32,7 +32,7 @@ figure.highlight>pre {
 }
 
 figure.highlight td.gutter.gl {
-  border-right: 1px solid #e8e8e80a
+  background: #100c14;
 }
 
 figure.highlight td.code {
@@ -56,8 +56,8 @@ pre {
 }
 
 .terminal-output pre {
-  background: #191721;
-  border-radius: 8px;
+  background: #050406;
+  border-radius: 0 0 5px 5px;
   border: 0!important
 }
 
@@ -78,7 +78,7 @@ pre {
   border-radius: 8px 8px 0 0;
   display: block;
   color: #ffffffaa;
-  border-bottom: 1px solid #6b668144;
+  border-bottom: 1px solid #130e18;
 }
 
 .error {
@@ -94,7 +94,12 @@ pre {
 /* ================================ */
 
 .highlight table td { padding: 5px; }
-.highlight table pre { margin: 0; }
+.highlight table pre { 
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.45rem;
+  line-height: 21px;
+  margin: 0; 
+}
 .highlight .gh {
   color: #999999;
 }
@@ -258,7 +263,7 @@ pre {
 }
 .highlight {
   color: #ffffff;
-  background-color: #0f0b14;
+  background-color: #050406;
 }
 .highlight .n, .highlight .py, .highlight .nx {
   color: #ffffff;

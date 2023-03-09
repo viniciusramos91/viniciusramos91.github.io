@@ -192,11 +192,11 @@ body#post-body {
             ul#markdown-toc {
                 background: #191721;
                 border-radius: 0 0 8px 8px;
-                padding-bottom: 32px;
+                padding-bottom: 22px;
                 list-style: none;
                 margin: 0 30px 10px 30px;
                 padding-left: 78px;
-                list-style-image: url('/assets/img/list-style-l1.png');
+                list-style-image: url("/assets/img/jornada-python/check-verde.webp");
                 
                 ul {
                     margin-top: 0;
@@ -207,12 +207,11 @@ body#post-body {
 
                 li {
                     padding-right: 5px;
-                    margin-bottom: 0;
+                    margin-bottom: 4px;
 
                     a {
                         color: #ffffffaa;
-                        border-bottom: 1px dashed;
-                        font-size: 16px
+                        border-bottom: unset;
                     }
                 }
 
@@ -259,7 +258,7 @@ body#post-body {
 
                 code {
                     font-size: 95%;
-                    color: #a783eb;
+                    color: #ffffff88;
                     padding: 0;
                     background-color: unset;
                 }
