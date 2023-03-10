@@ -43,7 +43,7 @@
     }
 
     .body {        
-        background: #030007;
+        background: #05050c;
         padding: 15vh 0;
         min-height: 100vh;
 
@@ -98,11 +98,11 @@
 
                 .form-container {
                     margin: 32px auto;
-                    background: #08040d;
+                    background: #090816;
                     border-radius: 4px;
-                    border: 2px solid #130b1d;
-                    -webkit-box-shadow: 0 10px 29px #d3d9debb;
-                    box-shadow: 0 10px 29px #000000;
+                    border: 2px solid #0d0c26;
+                    -webkit-box-shadow: 0 0 29px #000000;
+                    box-shadow: 0 0 29px #000000;
         
                     .form-header {
                         padding: 20px 32px;
@@ -125,7 +125,8 @@
 
                         p {
                             margin: 0;
-                            background: #000;
+                            background: #03030a;
+                            border-radius: 8px;
                             padding: 12px;
                             font-family: 'Rubik', sans-serif;
                             color: #FFFFFF99;
@@ -169,11 +170,11 @@
                                 }
                     
                                 input {
-                                    background: #433fca1c;
-                                    border: 1px solid #38358d;
+                                    background: #dbdae9;
+                                    border: 0;
                                     padding: 10px 12px;
                                     font-family: 'Space Grotesk', sans-serif;
-                                    color: #EEE;
+                                    color: #1a1946;
                                     width: 100%;
                                     border-radius: 6px;
                                     margin-bottom: 28px;
