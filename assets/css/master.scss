@@ -1028,7 +1028,7 @@ section.jornada-python-banner {
         }
     }
 
-    #mc-embedded-subscribe {
+    button.btn {
         text-shadow: none !important;        
         transition: all 0.15s ease !important;    
         color: #777 !important;
@@ -1080,10 +1080,10 @@ section.jornada-python-banner {
     .signup-input {
         font-family: 'Ubuntu', sans-serif;
         border: 1px solid transparent;
-        color: #3e464f;
+        color: #FFF;
         height: 47px;
         width: 98%;
-        background-color: #f0f2f4;
+        background-color: #17121c;
         padding: 6px 12px;
         font-size: 13px;
         border-radius: 4px;
@@ -1101,8 +1101,8 @@ section.jornada-python-banner {
         
         &:focus {
             outline: none;
-            border-color: #ae81ff;
-            box-shadow: 0 0 6px rgb(143, 94, 195);
+            border-color: #534edb;
+            box-shadow: 0 0 6px #36329b;
         }
 
         @media(max-width: 768px) {
@@ -1110,25 +1110,14 @@ section.jornada-python-banner {
         }
     }
     
-    #mc-embedded-subscribe {
-        font-family: 'Rubik', sans-serif;
-        margin: 0;
+    button.call-to-action {
         width: 100%;
         padding: 12px 4px;
-        background: #ae81ff;
-        border: 0;
         border-radius: 4px;
-        text-transform: uppercase;
         transition: all .15s ease;
         text-align: center;
         color: #FFF;
         
-        span {
-            font-weight: 600;
-            font-family: 'Roboto Condensed', sans-serif;
-            font-size: 16px !important;
-        }
-
         &.yellow {            
             background: #ffd43b url('/assets/svg/dark-bground-pattern.svg') !important;
 
@@ -1140,10 +1129,6 @@ section.jornada-python-banner {
             &:hover {
                 background: #efc42b url('/assets/svg/dark-bground-pattern.svg') !important;
             }         
-        }
-
-        &:hover, &:focus {
-            background: #8c68cf
         }
     }
     
@@ -2004,16 +1989,16 @@ section.jornada-python-banner {
                             font-family: 'Rubik', sans-serif;
                             font-size: 1.45rem;
                             width: 100%;
+                            color: #5a55e2;
                         }
 
                         button {
                             width: 100%;
-                            background: #1b6cb1;
                             font-family: 'Rubik', sans-serif;
                             color: #FFF;
                             text-transform: uppercase;
-                            font-weight: 500;
-                            padding: 8px;
+                            font-size: 1.65rem;
+                            padding: 12px 6px;
                         }
                     }
                 }
@@ -2243,12 +2228,268 @@ section.jornada-python-banner {
     color: #FFFFFF99;
     text-align: center;
     text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 24px;
+    background: #00000022;
+    border: 1px solid #ffffff09;
+    border-radius: 5px;
 
     a {
         transition: all 0.15s ease;
         
         &:hover {
             color: #5ca3df;
+        }
+    }
+}
+
+.jornada-python-in-post {
+    background: linear-gradient(135deg, #2c2838, #09090c);
+    border-radius: 12px;
+    margin: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.75);
+
+    .inner {
+        text-align: center;
+        padding: 36px;
+        border: 1px solid #2b2736aa;
+        border-radius: 12px;
+
+        img.jp-logo {
+            margin-bottom: 2rem;
+        }
+    
+        .separator {
+            height: 2px;
+            margin: 2rem 0;
+            background: linear-gradient(45deg, rgba(38,35,49,0.333333) 0%, #3a3648 50%, rgba(38,35,49,0.333333) 100%);
+        }
+    
+        .will-learn {
+            font-family: 'Rubik', sans-serif;
+            color: #d6d4e2;
+            font-size: 1.75rem;
+        }
+    
+        span.headline {
+            font-family: 'Rubik', sans-serif;
+            font-size: 3rem;
+            color: #FFF;
+            font-weight: 500;
+            line-height: 1.15;
+            margin-bottom: 2rem;
+            margin-top: 0;
+        }
+    
+        span.headline-subheading {
+            font-family: 'Ubuntu', sans-serif;
+            display: block;
+            font-size: 1.55rem;
+            color: #ffffffaa;
+            font-weight: 100;
+            line-height: 1.3;
+            margin-bottom: 2rem;
+    
+            .django-text {
+                color: #44B78B;
+                font-weight: 700;
+            }
+        }
+    
+        .tech-box {
+            background: linear-gradient(0deg, #000000, rgba(0,0,0,0.35));
+            padding: 12px;
+            border-radius: 8px;
+            width: 80%;
+            margin: 0 auto;
+    
+            img {
+                margin-bottom: 12px;
+                opacity: 0.75;
+            }
+    
+            span.tech-name {
+                color: #d6d4e2;
+                font-family: 'Rubik', sans-serif;
+                font-weight: 400;
+                font-size: 1.25rem;
+                margin-bottom: 0;
+                display: block;
+                opacity: 0.88;
+                line-height: 9px;
+            }                    
+        }
+    
+        .features {
+            list-style: none;
+            margin: 0;
+            padding: 0 !important;
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+    
+            li {
+                font-family: 'Rubik', sans-serif;
+                display: inline-block;
+                color: #d6d4e2;
+                font-size: 1.35rem;
+                background: #ffffff15;
+                padding: 4px 8px;
+                border-radius: 6px;
+                margin-bottom: 8px;
+    
+                img.plus {
+                    position: relative;
+                    bottom: 1px;
+                    margin-right: 3px;
+                    width: 10px;
+                }
+    
+                img.hotmart {
+                    position: relative;
+                    bottom: 2px;
+                }
+            }
+        }
+    
+        .modal-cta {
+            background-image: linear-gradient(to right, #f2a900 0%, #ffd87d 100%);
+            box-shadow: 0 0 12px #f2a900;
+            -webkit-animation: pulse;
+            animation: pulse;
+            -webkit-animation-duration: 2.5s;
+            animation-duration: 2.5s;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            border: 2px solid transparent;
+            padding: 12px;
+            border-radius: 8px; 
+            margin: 2rem 0;
+            position: relative;
+            width: 100%;
+            max-width: 565px;
+    
+            a {
+                font-family: 'Rubik', sans-serif;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 2.2rem;
+                text-decoration: none;
+                transition: all 0.15s ease;
+                color: #3c3742 !important;
+
+                &:hover, &:focus {
+                    color: #FFF !important;
+                }
+            }
+    
+            img.mouse-click {
+                position: absolute;
+                top: -16px;
+                right: -41px;
+                width: 100px;
+            }
+        }
+    
+        @media(max-width: 1200px) {
+            padding: 48px 100px;
+        }
+    
+        @media(max-width: 992px) {
+            padding: 24px;
+    
+            h3 {
+                font-size: 2.5rem;
+            }
+    
+            h4 {
+                font-size: 1.5rem;
+            }
+    
+            .tech-box {
+                width: 90%;
+                margin-bottom: 8px;
+    
+                img {
+                    width: 40%;
+                }
+            }
+        }
+    
+        @media(max-width: 500px) {
+            .modal-cta {
+                a {
+                    font-size: 1.75rem;
+                }
+            }
+        }
+
+        .text-gradient {
+            background: -webkit-linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
+            background: linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    } 
+    
+    @media(max-width: 768px) {
+        margin: 0;
+    }
+
+    &.ebook-download {
+        background: #0a070e;
+        border-radius: 4px;
+        border: 2px solid #12081e;
+        margin: 0 15px;
+
+        .inner {
+            border: none;
+            padding: 28px;
+
+            span{
+                &.headline {
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-size: 2.25rem;
+                }
+
+                &.headline-subheading {
+                    display: none;
+                }
+            }
+
+            .tech-box {
+                margin: 0 auto 12px auto;
+            }
+
+            .features {
+                li {
+                    background-color: #000000dd;
+                    border: 1px solid #181220;
+                }
+            }
+        }
+
+        .modal-cta {
+            background: transparent;
+            box-shadow: none;
+            border: none;
+            margin: 1rem 0;
+            padding: 22px 0;
+
+            img.mouse-click {
+                top: -20px;
+                right: 15px;
+                transform: rotate(-15deg);
+            }
+
+            a {
+                color: #f2a900 !important;
+                font-size: 1.65rem;
+                text-decoration: underline;
+
+                &:hover {
+                    text-decoration: underline !important;
+                }
+            }
         }
     }
 }
