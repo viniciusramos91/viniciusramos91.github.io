@@ -137,7 +137,7 @@ body#jornada-python-body {
         .cta {
             animation: none;
             margin: 0;
-            padding: 4px 12px;
+            padding: 0;
             background: #f2a900;
             border-radius: 4px;
             box-shadow: none;
@@ -146,6 +146,9 @@ body#jornada-python-body {
                 font-size: 1.45rem;
                 position: relative;
                 top: 1px;
+                padding: 4px 12px;
+                display: inline-block;
+                line-height: 21px;
             }
         }
     }
@@ -967,7 +970,6 @@ body#jornada-python-body {
             
             .cta {
                 width: 100%;
-                padding: 15px;
                 margin: 3rem 0 0 0;
             }
         }
@@ -1195,7 +1197,6 @@ body#jornada-python-body {
                 
                 .cta {
                     margin: 16px 0 0 0;
-                    padding: 12px 28px;
                     border-radius: 8px;                                
                     background: #0fa886;
                     transition: all 0.15s ease;
@@ -1726,7 +1727,7 @@ h3.section-subheading {
 
 .cta {
     margin: 10px 0;
-    padding: 14px;
+    padding: 0px;
     text-align: center;
     transition: all 0.15s ease;
     background-size: 200% auto;
@@ -1742,6 +1743,10 @@ h3.section-subheading {
         text-decoration: none;
         transition: all 0.15s ease;
         color: #3c3742;
+        line-height: 25px;
+        display: inline-block;
+        width: 100%;
+        padding: 12px;
     }
     
     &.yellow {
