@@ -85,7 +85,7 @@
     "datePublished": "2018-07-04T00:00:00-03:00",
     "description": "Nesse post, vamos tratar da camada Template do Django. Vamos aprender como utilizar, configurar e estender os templates do Django, como utilizar filtros e tags do Django e como criar nossas tags e filtros customizados!",
     "headline": "A Camada Template do Django (Python)",
-    "wordCount": 8469,
+    "wordCount": 8612,
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template"
@@ -261,7 +261,7 @@
 										
 										<br>
 										<small style="color: #FFF7">
-											Atualizado em: <time datetime="2023-02-26">26/02/2023</time>
+											Atualizado em: <time datetime="2023-04-22">22/04/2023</time>
 										</small>
 										
 									</p>
@@ -351,6 +351,45 @@
   <li><a href="#tags-e-filtros-customizados" id="markdown-toc-tags-e-filtros-customizados"><em>Tags</em> e Filtros customizados</a></li>
   <li><a href="#built-in-filters" id="markdown-toc-built-in-filters"><em>Built-in Filters</em></a></li>
 </ul>
+
+<div class="django-intro-video">
+    <h2>Mas primeiro...</h2>
+
+    <p>Eu disponibilizei <strong>gratuitamente</strong> a aula introdutória do nosso Curso de Django - que é parte integrante do curso <u><b>Jornada Python</b></u>, aqui da Python Academy - e acho que você pode aprender bastante com ela!</p>
+    
+    <p>Nesse vídeo você vai aprender sobre:</p>
+    
+    <ul>
+        <li>Desenvolvimento Frontend vs Backend</li>
+        <li>Arquitetura do Django</li>
+        <li>Por que aprender Django</li>
+        <li>O mercado para o Desenvolvedor Django</li>
+        <li>O salário do Dev Django trabalhando para fora</li>
+        <li>Quais empresas utilizam o Django</li>
+    </ul>
+
+    <p>É só <u><b>clicar na imagem abaixo</b></u> para assistir o vídeo!</p>
+    
+    <div id="iframe-container">
+        <button id="iframe-loader-btn" title="Thumb do Vídeo" onclick="loadVideoIframe()" class="iframe-loader-btn"></button>
+        
+        <div id="iframe-holder"></div>
+    </div>    
+    
+    <div class="text-center">
+        <button class="cta-jp">
+            <a href="/jornada-python/">QUERO CONHECER<span class="hidden-xs"> A JORNADA PYTHON</span></a>
+        </button>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function loadVideoIframe() {
+        var iframeHolder = document.getElementById("iframe-holder");
+        iframeHolder.innerHTML = "<div class='iframe-wrapper'><iframe width='100%' src='https://www.youtube.com/embed/iqrwGmNKNdE?autoplay=1&showinfo=0' title='Vídeo Apresentação da Jornada Python' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>"
+        document.getElementById("iframe-loader-btn").remove()
+    }
+</script>
 
 <h2 id="onde-estamos">Onde estamos…</h2>
 
