@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Como utilizar Class Based Views (CBV) no Django",
+      "title": "Aprenda a utilizar as Class Based Views (CBV) do Django",
+      "href": "/blog/como-utilizar-as-class-based-views-do-django",
+      "slug": "como-utilizar-as-class-based-views-do-django",
+      "assets": "",
+      "author": "Vinícius R",
+      "description": "<p>Aprenda a desenvolver views eficientes em Django com Class Based Views. Nesse post você vai aprender a utilizar as Class Based Views do Django para construir views mais especializadas, legíveis e organizadas, com menos código.</p>",
+      "header_color": "#0e4832",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
+      "date": {
+         "day": "21",
+         "month": "04",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Como criar Interfaces Gráficas (GUI) com Tkinter e Python",
       "title": "Como criar Interfaces Gráficas (GUI) com Tkinter e Python",
       "href": "/blog/interfaces-graficas-com-tkinter-e-python",

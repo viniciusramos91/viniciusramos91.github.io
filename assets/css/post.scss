@@ -121,7 +121,7 @@ body#post-body {
                     .author {
                         img {
                             border-radius: 50%;
-                            margin-bottom: 8px;
+                            margin-bottom: 22px;
                             border: 2px solid #3d5291;
                         }
 
@@ -236,7 +236,7 @@ body#post-body {
 
                 @media (max-width: 767px) {
                     font-size: 1.55rem;
-                    line-height: 1.7;
+                    line-height: 1.5;
                     margin-bottom: 1.7rem;                    
                 }
             }
@@ -341,6 +341,116 @@ body#post-body {
             .python-course-post-banner {
                 width: 100%;
             }
+
+            .django-intro-video {
+                ul {
+                    list-style-image: url("/assets/img/jornada-python/check-verde.webp");
+
+                    li {
+                        margin-bottom: 0.45rem;
+                    }
+                }
+
+                .cta-jp {
+                    margin: 10px 0;
+                    padding: 0px;
+                    text-align: center;
+                    transition: all 0.15s ease;
+                    background-size: 200% auto;
+                    border-radius: 8px;
+                    border: 0;
+                    width: 100%;
+                    max-width: 550px;
+                    background: #44B78B;
+                    box-shadow: 0 0 12px #44B78B;
+                    -webkit-animation: django-pulse;
+                    animation: django-pulse;
+                    -webkit-animation-duration: 2.5s;
+                    animation-duration: 2.5s;
+                    -webkit-animation-iteration-count: infinite;
+                    animation-iteration-count: infinite;
+                    border: 2px solid transparent;
+    
+                    a {
+                        font-family: 'Roboto', sans-serif;
+                        border-bottom: 0;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        font-size: 2.4rem;
+                        text-decoration: none;
+                        transition: all 0.15s ease;
+                        color: #FFF;
+                        line-height: 25px;
+                        display: inline-block;
+                        width: 100%;
+                        padding: 16px 12px;
+    
+                        &:hover {
+                            color: #FFF;
+                        }
+                    }
+    
+                    @keyframes django-pulse {
+                        0%   { box-shadow: 0px 0px 6px #44B78B00 }
+                        40%  { box-shadow: 0px 0px 6px #44B78B00 }
+                        60%  { box-shadow: 0px 0px 28px #44B78B }
+                        70%  { box-shadow: 0px 0px 6px #44B78B00 }
+                        80%  { box-shadow: 0px 0px 28px #44B78B }
+                        100% { box-shadow: 0px 0px 6px #44B78B00 }
+                    }
+    
+                    &:hover {
+                        background-position: right center;
+                        text-decoration: none;
+                        box-shadow: 0px 4px 0px #1118;
+                        -webkit-animation: none;
+                        animation: none;
+                        border-color: #fff;
+                        background: #359973;
+                    }
+                }
+    
+                #iframe-container {
+                    padding: 0 30px;             
+                    margin-bottom: 30px;   
+
+                    @media(max-width: 768px) {
+                        padding: 0;
+                    }
+                }   
+                
+                button.iframe-loader-btn {
+                    background: url("/assets/img/django-intro-thumbnail.png") center no-repeat;
+                    background-size: 100%;
+                    border: 1px solid #ffffff22;
+                    border-radius: 8px;
+                    box-shadow: 0 0px 25px #31cf8f2a;
+                    width: 100%;
+                    padding-bottom: calc(9 / 16 * 100%);
+                    position: relative;
+                    transition: all 0.15s ease-out;
+    
+                    &:hover {
+                        background-size: 103%;
+                        box-shadow: 0 0px 32px #31cf8f4a;
+                        border-color: #31cf9ad5;
+                    }
+                }
+    
+                .iframe-wrapper {
+                    padding-bottom: calc(9 / 16 * 100%);
+                    position: relative;
+    
+                    iframe {
+                        border: 1px solid #ffffff22;
+                        border-radius: 8px;
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        background: #0a090f;
+                    }
+                } 
+            }            
         }
 
         .sticky-sidebar {
