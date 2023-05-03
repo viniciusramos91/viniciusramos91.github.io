@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="6.6145835mm"
+   height="6.6224337mm"
+   viewBox="0 0 6.6145835 6.6224337"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (0.92.5+69)"
+   sodipodi:docname="smal-icon.svg"
+   inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python-v4/heading-intro-icon.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="26.737479"
+     inkscape:cy="20.24525"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1003"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-78.303566,-79.990783)">
+    <g
+       id="g847"
+       transform="matrix(0.73616674,0,0,0.73616674,20.659085,22.851447)">
+      <path
+         id="path817"
+         d="m 81.004116,82.115727 c 1.52249,-0.91816 2.5408,-2.58919 2.5408,-4.498344 h -1.49752 c 0,2.070114 -1.67616,3.748274 -3.74383,3.748274 v 1.50013 c 1.00739,0 1.92108,0.39762 2.59506,1.04579 0.0178,0.0171 0.0354,0.0344 0.0529,0.0519 0.2454,0.24575 0.45683,0.52533 0.62666,0.83114 0.17587,-0.55396 0.42995,-1.07302 0.74922,-1.54421 -0.10057,-0.12052 -0.20643,-0.23644 -0.31721,-0.34735 l -2.9e-4,-2.6e-4 c -0.30102,-0.30107 -0.63871,-0.56586 -1.00579,-0.78705 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffcc00;stroke-width:0.26458332" />
+      <path
+         id="path819"
+         d="m 84.588186,82.114877 c -1.52249,0.91816 -2.54082,2.58918 -2.54082,4.49834 h 1.49755 c 0,-2.07013 1.67616,-3.74827 3.74382,-3.74827 v -1.50014 c -1.0074,0 -1.92108,-0.39761 -2.59506,-1.04579 -0.0178,-0.0171 -0.0354,-0.0344 -0.0529,-0.0519 -0.24542,-0.24575 -0.45685,-0.52533 -0.62666,-0.83115 -0.17587,0.55397 -0.42995,1.07303 -0.74925,1.54423 0.10059,0.12052 0.20645,0.23643 0.31724,0.34734 l 2.6e-4,2.7e-4 c 0.30102,0.30107 0.63873,0.56586 1.00581,0.78705 z"
+         inkscape:connector-curvature="0"
+         style="fill:#2a7fff;stroke-width:0.26458332" />
+    </g>
+    <path
+       id="path3213"
+       d="m 92.452385,83.302314 c 1.120807,-0.675919 1.870452,-1.906076 1.870452,-3.311531 h -1.102424 c 0,1.523949 -1.233933,2.759354 -2.756083,2.759354 v 1.104346 c 0.741607,0 1.414235,0.292715 1.910397,0.769876 0.0131,0.01259 0.02606,0.02532 0.03894,0.03821 0.180655,0.180913 0.336303,0.386731 0.461326,0.611858 0.12947,-0.407807 0.316515,-0.789922 0.551551,-1.136796 -0.07404,-0.08872 -0.151967,-0.17406 -0.233519,-0.255708 l -2.14e-4,-1.91e-4 c -0.221601,-0.221638 -0.470197,-0.416568 -0.740429,-0.5794 z"
+       inkscape:connector-curvature="0"
+       style="fill:#44b78b;stroke-width:0.19477744;fill-opacity:1"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python-v4/django-intro-icon.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <path
+       id="path3215"
+       d="m 95.090858,83.301688 c -1.120806,0.675919 -1.870467,1.906069 -1.870467,3.311529 h 1.102446 c 0,-1.523961 1.233934,-2.759352 2.756076,-2.759352 v -1.104353 c -0.741614,0 -1.414235,-0.292708 -1.910397,-0.769876 -0.0131,-0.01259 -0.02606,-0.02532 -0.03894,-0.03821 -0.18067,-0.180913 -0.336318,-0.386731 -0.461326,-0.611865 -0.12947,0.407814 -0.316515,0.789929 -0.551573,1.136811 0.07405,0.08872 0.151982,0.174052 0.233541,0.2557 l 1.92e-4,1.99e-4 c 0.221601,0.221637 0.470212,0.416567 0.740444,0.5794 z"
+       inkscape:connector-curvature="0"
+       style="fill:#0c4b33;stroke-width:0.19477744;fill-opacity:1"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python-v4/django-intro-icon.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+  </g>
+</svg>
