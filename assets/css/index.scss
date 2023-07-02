@@ -580,27 +580,15 @@ section#headline {
         a {
             display: block;
             img {
-                -webkit-filter: grayscale(100%);
-                -moz-filter: grayscale(100%);
-                -ms-filter: grayscale(100%);
-                filter: grayscale(100%);
-                filter: gray;
                 transition: all 0.15s ease-in;
                 margin-bottom: 48px;
                 width: 80%;
 
                 &:hover { 
-                    -webkit-filter: grayscale(0%);
-                    -moz-filter: grayscale(0%);
-                    -ms-filter: grayscale(0%);
-                    filter: grayscale(0%);                    
+                    transform: scale(1.05);                    
                 }
 
                 @media (max-width: 767px) {
-                    -webkit-filter: grayscale(0%);
-                    -moz-filter: grayscale(0%);
-                    -ms-filter: grayscale(0%);
-                    filter: grayscale(0%); 
                     width: 50%;
                     margin-bottom: 64px;
                 }

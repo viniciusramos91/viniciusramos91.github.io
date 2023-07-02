@@ -68,7 +68,7 @@ pre {
 
 .terminal-output::before {
   content: 'Resultado';
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'JetBrains Mono', monospace;
   text-align: center;
   padding: 5px 15px;
   font-size: 14px;
