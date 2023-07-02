@@ -37,7 +37,7 @@
 }
 
 body#post-body {
-    background-color: #0a080c;
+    background: url("/assets/img/jornada-python-v4/noise-fill.png"),#000;
     @media (max-width: 767px) {
         padding-bottom: 75px;
     }
@@ -105,15 +105,18 @@ body#post-body {
                 }
 
                 .blog-post-title {
-                    font-family: 'Rubik', sans-serif;
+                    font-family: 'Roboto';
                     text-transform: uppercase;
-                    font-weight: 400;
-                    font-size: 4rem;
+                    font-weight: 800;
+                    font-size: 5rem;
                     color: #FFF;
-                    margin: 48px 0;
+                    width: 80%;
+                    margin: 48px auto;
+                    line-height: 6rem;
 
                     @media (max-width: 767px) {
                         font-size: 3.5rem;
+                        line-height: 4.5rem;
                     }
                 }   
                 
@@ -176,11 +179,11 @@ body#post-body {
             }
 
             h2#vá-direto-ao-assunto {
-                background: #191720;
+                font-size: 2.5rem;
+                background: #484848;
                 margin: 15px 30px 0 30px;
                 border-radius: 10px 10px 0 0;
-                padding-top: 12px;
-                padding-bottom: 12px;
+                padding: 10px 25px;
 
                 @media(max-width: 768px) {
                     margin: 15px 10px 0 10px;
@@ -190,12 +193,12 @@ body#post-body {
             }
 
             ul#markdown-toc {
-                background: #191721;
+                background: #1e1e1e;
                 border-radius: 0 0 8px 8px;
-                padding-bottom: 22px;
+                padding: 30px;
                 list-style: none;
                 margin: 0 30px 10px 30px;
-                padding-left: 78px;
+                padding-left: 70px;
                 list-style-image: url("/assets/img/jornada-python/check-verde.webp");
                 
                 ul {
@@ -207,7 +210,8 @@ body#post-body {
 
                 li {
                     padding-right: 5px;
-                    margin-bottom: 4px;
+                    margin-bottom: 10px;
+                    font-size: 1.9rem;
 
                     a {
                         color: #ffffffaa;
@@ -228,9 +232,9 @@ body#post-body {
             }
             
             p:not(.greeting), ul, li, ol, table:not(.rouge-table) {
-                font-family: 'Rubik', sans-serif;
-                font-size: 1.75rem;
-                line-height: 1.35;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.85rem;
+                line-height: 1.5;
                 margin-bottom: 1.3rem;
                 font-weight: 400;
 
@@ -254,13 +258,15 @@ body#post-body {
 
             p, h1, h2, h3, h4, h5, ul, ol, blockquote, table:not(.rouge-table) {
                 padding: 0 30px;
-                color: #ffffffe7;
+                color: #ffffff;
 
                 code {
+                    font-family: 'JetBrains Mono', monospace;
                     font-size: 95%;
                     color: #ffffff88;
-                    padding: 0;
-                    background-color: unset;
+                    padding: 4px 4px 3px 4px;
+                    background-color: #ffffff07;
+                    border: 1px solid #ffffff08;
                 }
                 
                 @media (max-width: 767px) {
@@ -269,10 +275,15 @@ body#post-body {
             }  
             
             h1, h2, h3, h4, h5 {
-                font-family: 'Rubik', sans-serif;
+                font-family: 'Roboto', sans-serif;
                 font-weight: 600;
                 color: #FFF;
                 line-height: 1.6;
+            }
+
+            h2 {
+                font-size: 3.75rem;
+                margin: 3rem 0 4.5rem 0;
             }
 
             ul, ol {
@@ -992,7 +1003,7 @@ body#post-body {
         .blog-post-content {
             .include-ebook-wrapper {
                 margin: 32px auto;
-                background: #191720;
+                background: #1a1a1a;
                 border-radius: 16px;
                 border: 1px solid #ffffff11;
                 padding: 36px;

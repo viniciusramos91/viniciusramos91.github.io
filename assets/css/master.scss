@@ -809,7 +809,7 @@ article.card-article {
 // ================================================================
 
 #footer {
-    background: #0a090e;    
+    background: #000;    
     padding: 56px 16px;
     z-index: 0;
     text-align: center;
@@ -868,10 +868,11 @@ article.card-article {
                 transition: all 0.15s ease;
 
                 a {
-                    background: #191721;
+                    background: #181818;
                     display: inline-block;
                     padding: 8px;
                     border-radius: 6px;
+                    transition: all 0.15s ease;
 
                     img {
                         opacity: 0.65;
@@ -1056,7 +1057,7 @@ section.jornada-python-banner {
 }
 
 #footer-copyright {
-    background: #09080c;
+    background: #111;
     padding: 12px 16px;
     border-top: 1px solid #ffffff0a;
     z-index: 0;
@@ -2244,7 +2245,7 @@ section.jornada-python-banner {
 }
 
 .jornada-python-in-post {
-    background: linear-gradient(135deg, #2c2838, #09090c);
+    background: #111;
     border-radius: 12px;
     margin: 30px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.75);
@@ -2252,7 +2253,7 @@ section.jornada-python-banner {
     .inner {
         text-align: center;
         padding: 36px;
-        border: 1px solid #2b2736aa;
+        border: 1px solid #3335;
         border-radius: 12px;
 
         img.jp-logo {
@@ -2262,27 +2263,27 @@ section.jornada-python-banner {
         .separator {
             height: 2px;
             margin: 2rem 0;
-            background: linear-gradient(45deg, rgba(38,35,49,0.333333) 0%, #3a3648 50%, rgba(38,35,49,0.333333) 100%);
+            background: linear-gradient(90deg, #0000 0%, #484848 50%, #0000 100%);
         }
     
         .will-learn {
-            font-family: 'Rubik', sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: #d6d4e2;
             font-size: 1.75rem;
         }
     
         span.headline {
-            font-family: 'Rubik', sans-serif;
+            font-family: 'Roboto', sans-serif;
             font-size: 3rem;
             color: #FFF;
             font-weight: 500;
             line-height: 1.15;
-            margin-bottom: 2rem;
-            margin-top: 0;
+            margin-bottom: 2.5rem;
+            margin-top: 1rem;
         }
     
         span.headline-subheading {
-            font-family: 'Ubuntu', sans-serif;
+            font-family: 'Roboto', sans-serif;
             display: block;
             font-size: 1.55rem;
             color: #ffffffaa;
@@ -2297,7 +2298,7 @@ section.jornada-python-banner {
         }
     
         .tech-box {
-            background: linear-gradient(0deg, #000000, rgba(0,0,0,0.35));
+            background: #0a0a0a;
             padding: 12px;
             border-radius: 8px;
             width: 80%;
@@ -2310,7 +2311,7 @@ section.jornada-python-banner {
     
             span.tech-name {
                 color: #d6d4e2;
-                font-family: 'Rubik', sans-serif;
+                font-family: 'Roboto', sans-serif;
                 font-weight: 400;
                 font-size: 1.25rem;
                 margin-bottom: 0;
@@ -2328,7 +2329,7 @@ section.jornada-python-banner {
             margin-bottom: 0 !important;
     
             li {
-                font-family: 'Rubik', sans-serif;
+                font-family: 'Roboto', sans-serif;
                 display: inline-block;
                 color: #d6d4e2;
                 font-size: 1.35rem;

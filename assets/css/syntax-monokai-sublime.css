@@ -15,7 +15,7 @@ figure.highlight {
   border-radius: 8px;
   padding: 0;
   margin: 0 30px 1em;
-  border: 2px solid #120d1a;
+  border: 1px solid #161616;
 }
 
 @media(max-width: 767px) {
@@ -32,7 +32,7 @@ figure.highlight>pre {
 }
 
 figure.highlight td.gutter.gl {
-  background: #100c14;
+  background: #141414;
 }
 
 figure.highlight td.code {
@@ -263,7 +263,7 @@ pre {
 }
 .highlight {
   color: #ffffff;
-  background-color: #050406;
+  background-color: #080808;
 }
 .highlight .n, .highlight .py, .highlight .nx {
   color: #ffffff;
