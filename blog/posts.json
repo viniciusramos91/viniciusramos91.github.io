@@ -2,6 +2,82 @@
     
     
     {
+      "h1": "A Biblioteca OS do Python",
+      "title": "A Biblioteca OS do Python",
+      "href": "/blog/a-biblioteca-os-do-python",
+      "slug": "a-biblioteca-os-do-python",
+      "assets": "python-os",
+      "author": "Vinícius R",
+      "description": "<p>Obtenha informações do sistema em Python com o módulo os. Aprenda a interagir com o sistema operacional para criar aplicativos poderosos e flexíveis.</p>",
+      "header_color": "#222f3e",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
+      "date": {
+         "day": "07",
+         "month": "07",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
+      "h1": "Manipulação de Datas e Horas no Python",
+      "title": "Manipulação de Datas e Horas no Python",
+      "href": "/blog/manipulacao-datas-e-horarios-no-python",
+      "slug": "manipulacao-datas-e-horarios-no-python",
+      "assets": "dates-and-times",
+      "author": "Vinícius R",
+      "description": "<p>Chega de sofrer para manipular Datas e Horas no Python. Bora aprender de uma vez por todas!</p>",
+      "header_color": "#00b4f2",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
+      "date": {
+         "day": "06",
+         "month": "07",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
+      "h1": "Fatiamento (ou Slicing) de Listas no Python",
+      "title": "Fatiamento (ou Slicing) de Listas no Python",
+      "href": "/blog/fatiamento-slicing-de-listas",
+      "slug": "fatiamento-slicing-de-listas",
+      "assets": "list-slicing",
+      "author": "Vinícius R",
+      "description": "<p>Manipular listas é um conhecimento extremamente importante para o Pythonista e nesse artigo você via aprender sobre o Slicing ou Fatiamento de Listas</p>",
+      "header_color": "#273c75",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
+      "date": {
+         "day": "04",
+         "month": "07",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
+      "h1": "Como manipular arquivos CSV no Python",
+      "title": "Como manipular arquivos CSV no Python",
+      "href": "/blog/manipulacao-csv-no-python",
+      "slug": "manipulacao-csv-no-python",
+      "assets": "csv",
+      "author": "Vinícius R",
+      "description": "<p>Nesse artigo você vai aprender a manipular arquivos CSV utilizando a biblioteca csv do próprio Python.</p>",
+      "header_color": "#b2bec3",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
+      "date": {
+         "day": "01",
+         "month": "07",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Como integrar o ChatGPT em seu código Python",
       "title": "Como integrar o ChatGPT em seu código Python",
       "href": "/blog/como-integrar-o-chatgpt-em-seu-codigo-python",
