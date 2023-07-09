@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Como abrir arquivos utilizando Python",
+      "title": "Como abrir arquivos utilizando Python",
+      "href": "/blog/como-manipular-arquivos-utilizando-python",
+      "slug": "como-manipular-arquivos-utilizando-python",
+      "assets": "file-manipulation",
+      "author": "Vinícius R",
+      "description": "<p>Neste artigo, vamos explorar como realizar operações de abertura, leitura e escrita de forma eficiente e eficaz em Python.</p>",
+      "header_color": "#5485e5",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
+      "date": {
+         "day": "08",
+         "month": "07",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "A Biblioteca OS do Python",
       "title": "A Biblioteca OS do Python",
       "href": "/blog/a-biblioteca-os-do-python",
