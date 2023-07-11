@@ -646,12 +646,13 @@ article.card-article {
                     border-radius: 4px;
                     color: #FFF;
                     font-weight: 400;
+                    display: none;
 
-                    &.drf { background-color: #a94242 }
-                    &.data-science { background-color: #7842a9 }
-                    &.django { background-color: #0e4b34 }
-                    &.kivy { background-color: #c79a1b }
-                    &.career { background-color: #00000044 }
+                    &.drf           { display: inline-block; background-color: #a94242 }
+                    &.data-science  { display: inline-block; background-color: #7842a9 }
+                    &.django        { display: inline-block; background-color: #0e4b34 }
+                    &.kivy          { display: inline-block; background-color: #c79a1b }
+                    &.career        { display: inline-block; background-color: #00000044 }
                 }
             }
         

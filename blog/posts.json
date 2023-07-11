@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Como escrever em arquivos utilizando Python",
+      "title": "Como escrever em arquivos utilizando Python",
+      "href": "/blog/como-escrever-em-arquivos-no-python",
+      "slug": "como-escrever-em-arquivos-no-python",
+      "assets": "open-file",
+      "author": "Vinícius R",
+      "description": "<p>Neste artigo, vamos explorar como realizar operações de leitura forma eficiente e eficaz em Python.</p>",
+      "header_color": "#636e72",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
+      "date": {
+         "day": "11",
+         "month": "07",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Como abrir arquivos utilizando Python",
       "title": "Como abrir arquivos utilizando Python",
       "href": "/blog/como-manipular-arquivos-utilizando-python",
@@ -120,7 +139,7 @@
       "title": "Aprenda a utilizar as Class Based Views (CBV) do Django",
       "href": "/blog/como-utilizar-as-class-based-views-do-django",
       "slug": "como-utilizar-as-class-based-views-do-django",
-      "assets": "",
+      "assets": "django-cbv",
       "author": "Vinícius R",
       "description": "<p>Aprenda a desenvolver views eficientes em Django com Class Based Views. Nesse post você vai aprender a utilizar as Class Based Views do Django para construir views mais especializadas, legíveis e organizadas, com menos código.</p>",
       "header_color": "#0e4832",
