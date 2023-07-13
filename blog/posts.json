@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Como automatizar planilhas do Excel utilizando Python",
+      "title": "Como automatizar planilhas do Excel utilizando Python",
+      "href": "/blog/automatize-planilhas-excel-usando-python",
+      "slug": "automatize-planilhas-excel-usando-python",
+      "assets": "excel-automation",
+      "author": "Vinícius R",
+      "description": "<p>Aprenda a automatizar planilhas de Excel utilizando Pyhon e a biblioteca openpyxl.</p>",
+      "header_color": "#222f3e",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.png",
+      "date": {
+         "day": "13",
+         "month": "07",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Como escrever em arquivos utilizando Python",
       "title": "Como escrever em arquivos utilizando Python",
       "href": "/blog/como-escrever-em-arquivos-no-python",
