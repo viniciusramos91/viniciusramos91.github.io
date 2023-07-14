@@ -1,3 +1,7 @@
+:root {
+    --system-ui-font: system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 @font-face {
     font-family: 'SpaceGrotesk';
     font-weight: 1000;
@@ -331,11 +335,11 @@ body::-webkit-scrollbar-thumb {
 
                 & > a {
                     padding: 21px 20px;
-                    font-family: 'Roboto', 'Helvetica', sans-serif;
+                    font-family: var(--system-ui-font);
                     letter-spacing: 0.1px;
                     font-size: 13px;
                     text-transform: uppercase;
-                    font-weight: 500;
+                    font-weight: 700;
                     color: #FFF;
                     position: relative;
                     bottom: 0;
@@ -372,7 +376,7 @@ body::-webkit-scrollbar-thumb {
                     transition: all 0.15s ease;
 
                     a {
-                        font-family: 'Roboto', sans-serif;
+                        font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
                         font-weight: 500;
                         text-transform: uppercase;
                         font-size: 13px;
@@ -671,7 +675,7 @@ article.card-article {
             }
     
             .card-excerpt p {
-                font-family: 'Ubuntu',sans-serif;
+                font-family: var(--system-ui-font);
                 font-size: 14px;
                 font-weight: 400;
                 color: #ffffff99;
@@ -854,10 +858,8 @@ article.card-article {
     .sub-footer {
         text-align: right;
 
-        img.footer-logo {
+        svg {
             float: left;
-            position: relative;
-            top: 6px;
         }
 
         ul.social-medias {
@@ -1304,7 +1306,7 @@ section.jornada-python-banner {
     }
 
     h2 {
-        font-family: 'Ubuntu', serif;
+        font-family: var(--system-ui-font);
         font-weight: 300;
         font-size: 1.6rem;
         margin-bottom: 32px;
@@ -2226,7 +2228,7 @@ section.jornada-python-banner {
 }
 
 #breadcrumbs {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--system-ui-font);
     font-size: 1.25rem;
     font-weight: 500;
     color: #FFFFFF99;
