@@ -331,7 +331,7 @@ body::-webkit-scrollbar-thumb {
 
                 & > a {
                     padding: 21px 20px;
-                    font-family: 'Rubik', sans-serif;
+                    font-family: 'Roboto', 'Helvetica', sans-serif;
                     letter-spacing: 0.1px;
                     font-size: 13px;
                     text-transform: uppercase;
@@ -372,7 +372,8 @@ body::-webkit-scrollbar-thumb {
                     transition: all 0.15s ease;
 
                     a {
-                        font-family: 'Rubik', sans-serif;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 500;
                         text-transform: uppercase;
                         font-size: 13px;
                         color: #0f0e15;
@@ -2226,7 +2227,8 @@ section.jornada-python-banner {
 
 #breadcrumbs {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.45rem;
+    font-size: 1.25rem;
+    font-weight: 500;
     color: #FFFFFF99;
     text-align: center;
     text-transform: uppercase;
