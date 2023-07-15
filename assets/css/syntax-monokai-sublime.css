@@ -15,7 +15,7 @@ figure.highlight {
   border-radius: 8px;
   padding: 0;
   margin: 0 30px 1em;
-  border: 1px solid #161616;
+  border: 0;
 }
 
 @media(max-width: 767px) {
@@ -32,7 +32,7 @@ figure.highlight>pre {
 }
 
 figure.highlight td.gutter.gl {
-  background: #141414;
+  background: #2c2c2c;
 }
 
 figure.highlight td.code {
@@ -56,7 +56,7 @@ pre {
 }
 
 .terminal-output pre {
-  background: #050406;
+  background: #1b1c1c;
   border-radius: 0 0 5px 5px;
   border: 0!important
 }
@@ -72,13 +72,13 @@ pre {
   text-align: center;
   padding: 5px 15px;
   font-size: 14px;
-  background: #141414 url("/assets/img/terminal-output-controls.png") right no-repeat;
+  background: #2c2c2c url("/assets/img/terminal-output-controls.png") right no-repeat;
   background-size: 55px;
   font-weight: 400;
   border-radius: 8px 8px 0 0;
   display: block;
   color: #ffffffaa;
-  border-bottom: 1px solid #130e18;
+  border-bottom: 0;
 }
 
 .error {
@@ -263,7 +263,7 @@ pre {
 }
 .highlight {
   color: #ffffff;
-  background-color: #080808;
+  background-color: #1b1c1c;
 }
 .highlight .n, .highlight .py, .highlight .nx {
   color: #ffffff;

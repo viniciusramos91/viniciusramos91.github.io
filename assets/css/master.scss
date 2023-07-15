@@ -2181,13 +2181,13 @@ section.jornada-python-banner {
         top: 15vh;
 
         .modal-content {
-            background: linear-gradient(135deg, #2c2838, #09090c);
+            background: linear-gradient(135deg, #262626, #0c0c0c);
             border-radius: 12px;
-            border: 1px solid #2b2736aa;
+            border: 0;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 
             .modal-body {
-                padding: 50px;
+                padding: 44px;
                 text-align: center;
 
                 h3 {
@@ -2198,11 +2198,12 @@ section.jornada-python-banner {
                 }
 
                 h4 {
-                    font-family: 'Ubuntu', sans-serif;
+                    font-family: var(--system-ui-font);
                     font-weight: 400;
                     color: #ffffff99;
-                    font-size: 1.75rem;
+                    font-size: 1.7rem;
                     margin-bottom: 20px;
+                    line-height: 2.2rem;
                 }
 
                 img.coupon {
