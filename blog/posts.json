@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Como enviar email utilizando Python",
+      "title": "Como enviar email utilizando Python",
+      "href": "/blog/como-enviar-email-utilizando-python",
+      "slug": "como-enviar-email-utilizando-python",
+      "assets": "send-email",
+      "author": "Vinícius R",
+      "description": "<p>Neste artigo você vai aprender a automatizar o envio de emails utilizando Python e o módulo smtplib.</p>",
+      "header_color": "#222f3e",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "16",
+         "month": "07",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Como automatizar planilhas do Excel utilizando Python",
       "title": "Como automatizar planilhas do Excel utilizando Python",
       "href": "/blog/automatize-planilhas-excel-usando-python",
