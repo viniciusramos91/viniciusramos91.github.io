@@ -68,7 +68,7 @@ pre {
 
 .terminal-output::before {
   content: 'Resultado';
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Courier New', monospace;
   text-align: center;
   padding: 5px 15px;
   font-size: 14px;
@@ -95,7 +95,7 @@ pre {
 
 .highlight table td { padding: 5px; }
 .highlight table pre { 
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Courier New', monospace;
   font-size: 1.45rem;
   line-height: 21px;
   margin: 0; 

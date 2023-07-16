@@ -154,11 +154,11 @@ body#post-body {
             
             h2#vá-direto-ao-assunto {
                 font-family: var(--system-ui-font);
-                font-size: 2.5rem;
+                font-size: 2rem;
                 background: #484848;
                 margin: 15px 30px 0 30px;
                 border-radius: 10px 10px 0 0;
-                padding: 10px 25px;
+                padding: 8px 20px;
                 
                 @media(max-width: 768px) {
                     margin: 15px 10px 0 10px;
@@ -170,10 +170,10 @@ body#post-body {
             ul#markdown-toc {
                 background: #1e1e1e;
                 border-radius: 0 0 8px 8px;
-                padding: 30px;
+                padding: 20px;
                 list-style: none;
                 margin: 0 30px 10px 30px;
-                padding-left: 70px;
+                padding-left: 55px;
                 list-style-image: url("/assets/img/jornada-python/check-verde.webp");
                 
                 ul {
@@ -208,7 +208,7 @@ body#post-body {
             
             p:not(.greeting), ul, li, ol, table:not(.rouge-table) {
                 font-family: var(--system-ui-font);
-                font-size: 1.85rem;
+                font-size: 1.8rem;
                 line-height: 1.5;
                 margin-bottom: 1.3rem;
                 font-weight: 400;
@@ -237,9 +237,9 @@ body#post-body {
                 
                 code {
                     font-family: 'Courier New', monospace;
-                    font-size: 90%;
+                    font-size: 85%;
                     color: #ffffff88;
-                    padding: 2px 4px;
+                    padding: 3px 4px 2px 4px;
                     background-color: #ffffff07;
                     border: 1px solid #ffffff08;
                 }
@@ -263,7 +263,13 @@ body#post-body {
             
             ul, ol {
                 list-style-image: url('/assets/img/post-list-style.png');
-                padding-left: 75px;
+                padding-left: 65px;
+
+                li {
+                    & > p {
+                        padding-left: 15px;
+                    }
+                }
                 
                 &.nav {
                     padding-left: 30px;
@@ -272,10 +278,6 @@ body#post-body {
                 @media(max-width: 767px) {
                     padding-left: 50px;
                 }
-            }
-            
-            ol {
-                padding-left: 75px;
             }
             
             .blue-yellow-separator {
