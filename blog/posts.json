@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "O guia de estilos de programação PEP8 do Python",
+      "title": "O guia de estilos de programação PEP8 do Python",
+      "href": "/blog/o-guia-de-estilos-pep8-do-python",
+      "slug": "o-guia-de-estilos-pep8-do-python",
+      "assets": "pep8-guide",
+      "author": "Vinícius R",
+      "description": "<p>Vamos aprender nesse artigo sobre o Guia de Estilo de Programação PEP8 do Python e seus principais pontos.</p>",
+      "header_color": "#ffcc00",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "17",
+         "month": "07",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Como enviar email utilizando Python",
       "title": "Como enviar email utilizando Python",
       "href": "/blog/como-enviar-email-utilizando-python",
