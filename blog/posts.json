@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Classes e Objetos no Python",
+      "title": "Classes e Objetos no Python",
+      "href": "/blog/classes-e-objetos-no-python",
+      "slug": "classes-e-objetos-no-python",
+      "assets": "python-classes",
+      "author": "Vinícius R",
+      "description": "<p>Nesse post, você vai dominar a Programação Orientada a Objetos no Python. Aprenda a declarar Classes e instanciar Objetos no Python.</p>",
+      "header_color": "#708277",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "18",
+         "month": "07",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "O guia de estilos de programação PEP8 do Python",
       "title": "O guia de estilos de programação PEP8 do Python",
       "href": "/blog/o-guia-de-estilos-pep8-do-python",

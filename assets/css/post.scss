@@ -205,6 +205,38 @@ body#post-body {
                     }
                 }
             }
+
+            .suggestions {
+                background: #101010;
+                padding: 20px;
+                list-style: none;
+                margin: 0 30px 10px 30px;
+                border-radius: 8px;
+                border: 1px solid #151515;
+
+                h2 {
+                    margin: 0;
+                    padding: 0;
+                    line-height: 21px;
+                    font-size: 1.85rem;
+                    font-weight: 400;
+                    margin-bottom: 12px;
+                }
+
+                ul {
+                    padding-left: 32px;
+                    li {
+                        a {
+                            font-size: 1.65rem;
+
+                        }
+                    }
+                }
+
+                @media(max-width: 768px) {
+                    margin: 0 10px;
+                }
+            }
             
             p:not(.greeting), ul, li, ol, table:not(.rouge-table) {
                 font-family: var(--system-ui-font);
