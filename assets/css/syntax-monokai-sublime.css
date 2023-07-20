@@ -33,6 +33,7 @@ figure.highlight>pre {
 
 figure.highlight td.gutter.gl {
   background: #2c2c2c;
+  border-radius: 8px 0 0 8px;
 }
 
 figure.highlight td.code {
@@ -49,6 +50,7 @@ pre {
   padding: 0 5px;
   border: 0;
   border-radius: 8px;
+  overflow: auto;
 }
 
 .terminal-output td.code pre {
@@ -121,19 +123,19 @@ pre {
   color: #f6aa11;
 }
 .highlight .cm {
-  color: #75715e;
+  color: #66b5ef;
 }
 .highlight .cp {
-  color: #75715e;
+  color: #66b5ef;
 }
 .highlight .c1 {
-  color: #75715e;
+  color: #66b5ef;
 }
 .highlight .cs {
-  color: #75715e;
+  color: #66b5ef;
 }
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
-  color: #75715e;
+  color: #66b5ef;
 }
 .highlight .err {
   color: #960050;

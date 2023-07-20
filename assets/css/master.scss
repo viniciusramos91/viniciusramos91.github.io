@@ -879,6 +879,8 @@ article.card-article {
                     transition: all 0.15s ease;
 
                     img {
+                        position: relative;
+                        top: 3px;
                         opacity: 0.65;
                     }
                 }
@@ -1065,6 +1067,7 @@ section.jornada-python-banner {
     padding: 12px 16px;
     border-top: 1px solid #ffffff0a;
     z-index: 0;
+    text-align: center;
     
     p {
         font-family: 'Rubik', sans-serif;
@@ -1079,31 +1082,21 @@ section.jornada-python-banner {
 // ================================================================
 
 .mailchimp-signup {
-    margin-bottom: 8px;
-    line-height: 0;
+    margin-bottom: 16px;
+    display: flex;
+    gap: 15px;
 
     .signup-input {
         font-family: 'Ubuntu', sans-serif;
         border: 1px solid transparent;
         color: #FFF;
-        height: 47px;
-        width: 98%;
         background-color: #17121c;
-        padding: 6px 12px;
-        font-size: 13px;
+        padding: 12px;
+        font-size: 1.4rem;
+        flex: 0.35;
         border-radius: 4px;
-        margin-bottom: 8px;
-        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
         transition: all 0.25s ease;
 
-        &.white {
-            background: #FFF;
-            border-color: #DADADA;
-        }
-        
         &:focus {
             outline: none;
             border-color: #534edb;
@@ -1116,30 +1109,32 @@ section.jornada-python-banner {
     }
     
     button.call-to-action {
-        width: 100%;
+        flex: 0.3;
         padding: 12px 4px;
         border-radius: 4px;
         transition: all .15s ease;
         text-align: center;
+        font-size: 1.4rem;
+        text-transform: uppercase;
         color: #FFF;
-        
-        &.yellow {            
-            background: #ffd43b url('/assets/svg/dark-bground-pattern.svg') !important;
-
-            .text {
-                text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-                letter-spacing: 1.5px;
-            }
-    
-            &:hover {
-                background: #efc42b url('/assets/svg/dark-bground-pattern.svg') !important;
-            }         
-        }
     }
     
     .mc-subscribe-wrapper {
         width: 60%;
         margin: 0 auto
+    }
+
+    @media(max-width: 992px) {
+        display: block;
+
+        .signup-input {
+            width: 100%;
+            margin-bottom: 12px;
+        }
+
+        button {
+            width: 100%;
+        }
     }
 }
 
@@ -1262,7 +1257,7 @@ section.jornada-python-banner {
             font-family: 'Ubuntu',sans-serif;
             font-weight: 800;
             font-size: 15px;
-            margin-bottom: 24px;
+            margin-bottom: 16px;
             
             .blue {
                 color: #02b3e4
@@ -1610,15 +1605,17 @@ section.jornada-python-banner {
     text-shadow: 0 0px 2px rgba(0, 0, 0, 0.45);
     display: inline-block;
     border-radius: 8px;
+    font-size: 2rem;
     padding: 16px 32px;
     box-shadow: 0px 3px 20px #4d48db99;
-    background: linear-gradient(135deg, #5c56e9, #3b35c5);
+    background: #3b35c5;
     border: 1px solid #6662e5;
     transition: all 0.15s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 
     &:hover, &:focus {
+        cursor: pointer;
         color: #FFF;
-        background: linear-gradient(135deg, #4c46d9, #2f29af);
+        background: #4c46d9;
     }
 
     @media(max-width: 500px) {
@@ -1994,7 +1991,11 @@ section.jornada-python-banner {
                             font-family: 'Rubik', sans-serif;
                             font-size: 1.45rem;
                             width: 100%;
-                            color: #5a55e2;
+                            color: #fff;
+
+                            &::placeholder {
+                                color: #888;
+                            }
                         }
 
                         button {
@@ -2248,6 +2249,10 @@ section.jornada-python-banner {
             color: #5ca3df;
         }
     }
+
+    @media(max-width: 450px) {
+        display: none;
+    }
 }
 
 .jornada-python-in-post {
@@ -2263,7 +2268,8 @@ section.jornada-python-banner {
         border-radius: 12px;
 
         img.jp-logo {
-            margin-bottom: 2rem;
+            display: block;
+            margin: 0 auto 2rem auto;
         }
     
         .separator {
@@ -2273,57 +2279,60 @@ section.jornada-python-banner {
         }
     
         .will-learn {
-            font-family: 'Roboto', sans-serif;
+            font-family: var(--system-ui-font);
             color: #d6d4e2;
             font-size: 1.75rem;
         }
     
         span.headline {
-            font-family: 'Roboto', sans-serif;
-            font-size: 3rem;
+            font-family: var(--system-ui-font);
+            font-size: 2.3rem;
             color: #FFF;
             font-weight: 500;
-            line-height: 1.15;
+            line-height: 1.25;
             margin-bottom: 2.5rem;
             margin-top: 1rem;
+            display: inline-block;
         }
     
         span.headline-subheading {
-            font-family: 'Roboto', sans-serif;
+            font-family: var(--system-ui-font);
             display: block;
-            font-size: 1.55rem;
+            font-size: 1.7rem;
             color: #ffffffaa;
-            line-height: 1.3;
+            line-height: 1.5;
             margin-bottom: 2rem;
-    
-            .django-text {
-                color: #44B78B;
-                font-weight: 700;
-            }
         }
-    
-        .tech-box {
-            background: #0a0a0a;
-            padding: 12px;
-            border-radius: 8px;
-            width: 80%;
-            margin: 0 auto;
-    
+
+        .techs {
+            margin: 24px 0;
             img {
-                margin-bottom: 12px;
-                opacity: 0.75;
+                width: 80%;
+                height: 100%;
+                margin: 0 auto;
+
+                &.img-lg {
+
+                }
+
+                &.img-xs {
+                    display: none;
+                }
             }
+
+            @media(max-width: 768px) {
+                img {
+                    width: 100%;
+
+                    &.img-lg {
+                        display: none;
+                    }
     
-            span.tech-name {
-                color: #d6d4e2;
-                font-family: 'Roboto', sans-serif;
-                font-weight: 400;
-                font-size: 1.25rem;
-                margin-bottom: 0;
-                display: block;
-                opacity: 0.88;
-                line-height: 9px;
-            }                    
+                    &.img-xs {
+                        display: block;
+                    }
+                }
+            }
         }
     
         .features {
@@ -2357,42 +2366,36 @@ section.jornada-python-banner {
             }
         }
     
-        .modal-cta {
-            background-image: linear-gradient(to right, #f2a900 0%, #ffd87d 100%);
-            box-shadow: 0 0 12px #f2a900;
-            -webkit-animation: pulse;
-            animation: pulse;
-            -webkit-animation-duration: 2.5s;
-            animation-duration: 2.5s;
-            -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-            border: 2px solid transparent;
+        
+        a {
+            font-family: 'Rubik', sans-serif;
+            text-transform: uppercase;
             padding: 12px;
-            border-radius: 8px; 
-            margin: 2rem 0;
+            min-width: 375px;
+            font-weight: 500;
+            font-size: 1.8rem;
+            border-bottom: 0px !important;
+            text-decoration: none;
+            margin-bottom: 25px;
             position: relative;
-            width: 100%;
-            max-width: 565px;
-    
-            a {
-                font-family: 'Rubik', sans-serif;
-                text-transform: uppercase;
-                font-weight: 500;
-                font-size: 2.2rem;
-                text-decoration: none;
-                transition: all 0.15s ease;
-                color: #3c3742 !important;
+            transition: all 0.15s ease;
 
-                &:hover, &:focus {
-                    color: #FFF !important;
-                }
+            &:hover, &:focus {
+                color: #FFF !important;
             }
-    
+
             img.mouse-click {
                 position: absolute;
                 top: -16px;
                 right: -41px;
                 width: 100px;
+            }
+
+            @media(max-width: 768px) {
+                min-width: 0;
+                img.mouse-click {
+                    display: none;
+                }
             }
         }
     
@@ -2422,10 +2425,8 @@ section.jornada-python-banner {
         }
     
         @media(max-width: 500px) {
-            .modal-cta {
-                a {
-                    font-size: 1.75rem;
-                }
+            a {
+                font-size: 1.75rem;
             }
         }
 
