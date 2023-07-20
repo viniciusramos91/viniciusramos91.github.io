@@ -230,13 +230,6 @@ body::-webkit-scrollbar-thumb {
                         transition: all 0.15s ease;
                         color: #3c3742;
                     }
-
-                    img.mouse-click {
-                        position: absolute;
-                        top: -16px;
-                        right: -41px;
-                        width: 100px;
-                    }
                 }
 
                 @media(max-width: 1200px) {
@@ -2384,18 +2377,8 @@ section.jornada-python-banner {
                 color: #FFF !important;
             }
 
-            img.mouse-click {
-                position: absolute;
-                top: -16px;
-                right: -41px;
-                width: 100px;
-            }
-
             @media(max-width: 768px) {
                 min-width: 0;
-                img.mouse-click {
-                    display: none;
-                }
             }
         }
     
@@ -2481,12 +2464,6 @@ section.jornada-python-banner {
             border: none;
             margin: 1rem 0;
             padding: 22px 0;
-
-            img.mouse-click {
-                top: -20px;
-                right: 15px;
-                transform: rotate(-15deg);
-            }
 
             a {
                 color: #f2a900 !important;
