@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Dataclasses no Python",
+      "title": "Dataclasses no Python",
+      "href": "/blog/dataclasses-no-python",
+      "slug": "dataclasses-no-python",
+      "assets": "dataclasses",
+      "author": "Vinícius R",
+      "description": "<p>Nesse artigo você vai aprender a utilizar dataclasses no Python para criar códigos mais limpos e enxutos.</p>",
+      "header_color": "#00b4f2",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "31",
+         "month": "07",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "O que é e como utilizar @property no Python",
       "title": "O que é e como utilizar @property no Python",
       "href": "/blog/como-utilizar-property-no-python",
