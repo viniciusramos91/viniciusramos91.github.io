@@ -2339,32 +2339,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
     <script type="text/javascript">  
-        // Função para obter parâmetros da URL
-        function getParameterByName(name) {
-            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-            var results = regex.exec(window.location.search);
-
-            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-        }
-
-        // Pegar o valor do parâmetro 'ref' da URL
-        var refValue = getParameterByName('ref');
-
-        // Verificar se o valor de 'ref' é igual ao valor desejado
-        if (refValue === 'C86022308I') {
-            // Criar o elemento iframe
-            var iframe = document.createElement('iframe');
-            iframe.src = 'https://go.hotmart.com/C86022308I';
-            iframe.frameBorder = '0';
-            iframe.style.width = '0';
-            iframe.style.height = '0';
-            iframe.style.border = 'none';
-
-            // Adicionar o iframe ao final do body
-            document.body.appendChild(iframe);
-        }
-        
         // Instantiate Parallax scenes
         [
             'companies-parallax-scene', 
