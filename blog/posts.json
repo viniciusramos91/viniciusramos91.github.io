@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Como criar gráficos com Matplotlib no Python",
+      "title": "Como criar gráficos com Matplotlib no Python",
+      "href": "/blog/como-criar-graficos-utilizando-matplotlib-no-python",
+      "slug": "como-criar-graficos-utilizando-matplotlib-no-python",
+      "assets": "matplotlib",
+      "author": "Vinícius R",
+      "description": "<p>Nesse artigo você vai aprender a criar gráficos utilizando a incrível ferramenta Matplotlib no Python. Vamos nessa!</p>",
+      "header_color": "#273c75",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "10",
+         "month": "09",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Dataclasses no Python",
       "title": "Dataclasses no Python",
       "href": "/blog/dataclasses-no-python",
