@@ -76,7 +76,7 @@ section#new-headline {
 
     .headline-inner {
         // background: url("/assets/img/jornada-python/banner-img.webp") center bottom no-repeat;
-        background: url("/assets/img/jornada-python/video-bground-md.webp") center top no-repeat;
+        background: url("/assets/img/video-bground-md.png") center top no-repeat;
         background-size: 1200px;
         width: 100%;
         min-height: 90vh;
@@ -86,12 +86,12 @@ section#new-headline {
         align-items: center;
         -webkit-box-pack: center;
         justify-content: center;
-        -webkit-animation: bground-animation 1.25s cubic-bezier(0.05, 0.43, 0.03, 0.88) both;
-        animation: bground-animation 1.25s cubic-bezier(0.05, 0.43, 0.03, 0.88) both;
+        -webkit-animation: bground-animation 5.25s cubic-bezier(0.05, 0.43, 0.03, 0.88) both;
+        animation: bground-animation 5.25s cubic-bezier(0.05, 0.43, 0.03, 0.88) both;
         
         h1 {                
             font-family: var(--system-ui-font);    
-            font-size: 5.1rem;
+            font-size: 4.2rem;
             color: #eee;
             line-height: 1.35;
             font-weight: 500;

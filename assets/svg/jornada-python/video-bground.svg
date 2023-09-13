@@ -684,7 +684,7 @@
        xlink:href="#linearGradient3172"
        id="linearGradient1838"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.2777611,0,0,1.2777611,755.85173,66.02685)"
+       gradientTransform="matrix(1.2777611,0,0,1.2777611,755.65137,66.02685)"
        x1="-173.76294"
        y1="-33.664234"
        x2="-173.76294"
@@ -694,7 +694,7 @@
        xlink:href="#linearGradient3172"
        id="linearGradient1840"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.2777611,0,0,1.2777611,755.85174,66.026884)"
+       gradientTransform="matrix(1.2777611,0,0,1.2777611,755.65138,66.026884)"
        x1="-173.76294"
        y1="-33.664234"
        x2="-173.76294"
@@ -704,7 +704,7 @@
        xlink:href="#linearGradient3172"
        id="linearGradient1842"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.2777611,0,0,1.2777611,755.85173,66.02685)"
+       gradientTransform="matrix(1.2777611,0,0,1.2777611,755.65137,66.02685)"
        x1="-173.76294"
        y1="-33.664234"
        x2="-173.76294"
@@ -714,7 +714,7 @@
        xlink:href="#linearGradient3172"
        id="linearGradient1844"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.2777611,0,0,1.2777611,755.85175,66.02689)"
+       gradientTransform="matrix(1.2777611,0,0,1.2777611,755.65139,66.02689)"
        x1="-173.76294"
        y1="-33.664234"
        x2="-173.76294"
@@ -724,21 +724,11 @@
        xlink:href="#linearGradient3172"
        id="linearGradient1846"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.2777611,0,0,1.2777611,755.85173,66.02685)"
+       gradientTransform="matrix(1.2777611,0,0,1.2777611,755.65137,66.02685)"
        x1="-173.76294"
        y1="-33.664234"
        x2="-173.76294"
        y2="350.70953" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5887"
-       id="linearGradient1848"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.53268899,0,0,0.53268899,136.3113,326.85882)"
-       x1="-573.02588"
-       y1="-173.66164"
-       x2="-554.45062"
-       y2="-155.0864" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#bs-logo-b"
@@ -748,50 +738,6 @@
        y1="109.74"
        x2="293.514"
        y2="278.872" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1333"
-       id="radialGradient1852"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0137702,1.0137702,-0.99675599,0.99675437,294.01475,152.09568)"
-       cx="-148.12599"
-       cy="292.81512"
-       fx="-148.12599"
-       fy="292.81512"
-       r="6" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1349"
-       id="radialGradient1854"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.1606234,1.1605958,-0.94221417,0.94221417,290.92874,-180.03586)"
-       cx="172.51936"
-       cy="337.89954"
-       fx="172.51936"
-       fy="337.89954"
-       r="6" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1365"
-       id="radialGradient1856"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.2817993,1.2818028,-1.0010542,1.0010532,91.694061,-128.57417)"
-       cx="100.20885"
-       cy="119.80634"
-       fx="100.20885"
-       fy="119.80634"
-       r="6" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1313"
-       id="radialGradient1858"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.2913214,1.2913204,-0.91763404,0.91760788,196.55568,14.602505)"
-       cx="2.2219296"
-       cy="215.47626"
-       fx="2.2219296"
-       fy="215.47626"
-       r="6" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4689"
@@ -817,44 +763,11 @@
        xlink:href="#linearGradient3172"
        id="linearGradient1864"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.4853276,0,0,1.4853276,790.92122,27.981146)"
+       gradientTransform="matrix(1.4853276,0,0,1.4853276,790.72086,27.981146)"
        x1="-173.76294"
        y1="-33.664234"
        x2="-173.76294"
        y2="350.70953" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1392"
-       id="radialGradient1866"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.2506554,1.2506712,-0.93806457,0.93806589,1339.2358,177.21709)"
-       cx="-138.64616"
-       cy="333.68274"
-       fx="-138.64616"
-       fy="333.68274"
-       r="7.6665664" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1486"
-       id="radialGradient1868"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.74231222,1.2857225,-1.2014009,-0.69362874,-913.18428,1469.6731)"
-       cx="-736.79529"
-       cy="308.42581"
-       fx="-736.79529"
-       fy="308.42581"
-       r="2.1381562" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1486"
-       id="radialGradient1870"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.74231222,1.2857225,-1.2014009,-0.69362874,-913.18428,1469.6731)"
-       cx="-736.79529"
-       cy="308.42581"
-       fx="-736.79529"
-       fy="308.42581"
-       r="2.1381562" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath2120">
@@ -875,8 +788,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.12374369"
-     inkscape:cx="-1508.4437"
-     inkscape:cy="-782.9568"
+     inkscape:cx="-1001.8875"
+     inkscape:cy="336.26358"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -891,7 +804,7 @@
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-nodes="false"
-     inkscape:snap-global="true" />
+     inkscape:snap-global="false" />
   <metadata
      id="metadata2569">
     <rdf:RDF>
@@ -1230,12 +1143,11 @@
       </g>
     </g>
     <g
-       id="g1976"
-       transform="translate(-0.20035666)"
-       clip-path="url(#clipPath2120)"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-md.png"
-       inkscape:export-xdpi="65.110001"
-       inkscape:export-ydpi="65.110001">
+       id="g1585"
+       style="opacity:0.8"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/video-bground-md.png"
+       inkscape:export-xdpi="47.02"
+       inkscape:export-ydpi="47.02">
       <circle
          inkscape:export-ydpi="82.68"
          inkscape:export-xdpi="82.68"
@@ -1244,12 +1156,12 @@
          cy="325.66797"
          cx="31.096527"
          id="circle1732"
-         style="opacity:0.76999996;vector-effect:none;fill:#7137c8;fill-opacity:1;stroke:none;stroke-width:0.29771522;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal;filter:url(#filter1583)"
-         transform="matrix(2.3900199,0,0,1.714563,465.64585,-371.41837)" />
+         style="opacity:0.53899997;vector-effect:none;fill:#376cc8;fill-opacity:1;stroke:none;stroke-width:0.29771522;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal;filter:url(#filter1583)"
+         transform="matrix(2.3900199,0,0,1.714563,465.44549,-371.41837)" />
       <circle
-         style="opacity:0.6;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1838);stroke-width:0.50711143;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal"
+         style="opacity:0.42000002;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1838);stroke-width:0.50711143;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal"
          id="circle1734"
-         cx="539.96716"
+         cx="539.76678"
          cy="300.23291"
          r="95.678711"
          inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
@@ -1258,16 +1170,16 @@
       <circle
          r="140.39687"
          cy="300.23282"
-         cx="539.9671"
+         cx="539.76672"
          id="circle1736"
-         style="opacity:0.6;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1840);stroke-width:0.50711143;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3.04266853, 3.04266853;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal"
+         style="opacity:0.42000002;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1840);stroke-width:0.50711143;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3.04266853, 3.04266852999999982;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal"
          inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
          inkscape:export-xdpi="82.68"
          inkscape:export-ydpi="82.68" />
       <circle
-         style="opacity:0.6;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1842);stroke-width:0.50711143;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal"
+         style="opacity:0.42000002;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1842);stroke-width:0.50711143;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal"
          id="circle1738"
-         cx="539.96716"
+         cx="539.76678"
          cy="300.23291"
          r="185.06857"
          inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
@@ -1276,118 +1188,82 @@
       <circle
          r="229.79868"
          cy="300.23361"
-         cx="539.96625"
+         cx="539.76587"
          id="circle1740"
-         style="opacity:0.6;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1844);stroke-width:0.50711143;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3.04266853, 3.04266853;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal"
+         style="opacity:0.42000002;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1844);stroke-width:0.50711143;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3.04266853, 3.04266852999999982;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal"
          inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
          inkscape:export-xdpi="82.68"
          inkscape:export-ydpi="82.68" />
       <circle
-         style="opacity:0.6;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1846);stroke-width:0.50711143;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal"
+         style="opacity:0.42000002;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1846);stroke-width:0.50711143;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal"
          id="circle1742"
-         cx="539.96716"
+         cx="539.76678"
          cy="300.23291"
          r="274.41696"
          inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
          inkscape:export-xdpi="82.68"
          inkscape:export-ydpi="82.68" />
       <g
-         id="g1748"
-         transform="matrix(1.2777611,0,0,1.2777611,447.53311,94.316677)"
-         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
-         inkscape:export-xdpi="82.68"
-         inkscape:export-ydpi="82.68"
-         style="opacity:1">
+         id="g1540"
+         style="">
         <circle
-           style="opacity:1;vector-effect:none;fill:url(#linearGradient1848);fill-opacity:1;stroke:none;stroke-width:0.17819092;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-           id="circle1744"
-           cx="-165.16437"
-           cy="238.80603"
-           r="6" />
-        <path
-           transform="matrix(0.0298178,0,0,0.0298178,-172.92895,232.6052)"
-           id="path1746"
-           d="m 267.103,312.457 c 47.297,0 75.798,-23.158 75.798,-61.355 0,-28.873 -20.336,-49.776 -50.532,-53.085 v -1.203 c 22.185,-3.609 39.594,-24.211 39.594,-47.219 0,-32.783 -25.882,-54.138 -65.322,-54.138 h -88.74 v 217 z m -54.692,-189.48 h 45.911 c 24.958,0 39.131,11.128 39.131,31.279 0,21.505 -16.484,33.535 -46.372,33.535 h -38.67 z m 0,161.961 v -71.431 h 45.602 c 32.661,0 49.608,12.03 49.608,35.49 0,23.459 -16.484,35.941 -47.605,35.941 z"
-           inkscape:connector-curvature="0"
-           style="fill:url(#linearGradient1850);stroke:#ffffff;filter:url(#bs-logo-c)" />
-      </g>
-      <g
-         id="g1754"
-         transform="matrix(1.5927413,0,0,1.5927413,588.41364,-34.69486)"
-         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
-         inkscape:export-xdpi="82.68"
-         inkscape:export-ydpi="82.68"
-         style="opacity:1">
-        <circle
-           style="opacity:1;vector-effect:none;fill:url(#radialGradient1852);fill-opacity:1;stroke:none;stroke-width:0.17819092;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+           style="opacity:1;vector-effect:none;fill:#e8d53e;fill-opacity:1;stroke:none;stroke-width:0.49217144;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
            id="circle1750"
-           cx="-145.68524"
-           cy="296.30109"
-           r="6" />
+           cx="319.96655"
+           cy="466.15591"
+           r="16.572273" />
         <path
-           style="stroke-width:0.01951108"
+           style="stroke-width:0.043633"
            id="path1752"
-           d="m -144.71507,297.45041 c 0.2476,0.40426 0.56973,0.70142 1.13946,0.70142 0.4786,0 0.78434,-0.23921 0.78434,-0.56973 0,-0.39607 -0.31413,-0.53636 -0.84093,-0.76679 l -0.28876,-0.12389 c -0.83351,-0.3551 -1.38724,-0.79996 -1.38724,-1.74039 0,-0.86629 0.66006,-1.52577 1.69161,-1.52577 0.7344,0 1.26237,0.2556 1.64284,0.92483 l -0.89947,0.57753 c -0.19803,-0.3551 -0.41168,-0.495 -0.74337,-0.495 -0.33832,0 -0.55275,0.21462 -0.55275,0.495 0,0.34651 0.21462,0.4868 0.71021,0.70142 l 0.28876,0.1237 c 0.98141,0.42086 1.53552,0.8499 1.53552,1.81453 0,1.03994 -0.81693,1.60967 -1.91404,1.60967 -1.07271,0 -1.76575,-0.51119 -2.10485,-1.1812 z m -4.08034,0.10009 c 0.18145,0.32193 0.34651,0.59411 0.74337,0.59411 0.37949,0 0.61889,-0.14848 0.61889,-0.72581 v -3.92759 h 1.15505 v 3.94319 c 0,1.19603 -0.70122,1.74039 -1.72477,1.74039 -0.92483,0 -1.46041,-0.47861 -1.73278,-1.05506 z"
+           d="m 321.21851,468.72617 c 0.5537,0.90405 1.27409,1.5686 2.54819,1.5686 1.07031,0 1.75405,-0.53495 1.75405,-1.2741 0,-0.88574 -0.70251,-1.19947 -1.8806,-1.71479 l -0.64577,-0.27704 c -1.86398,-0.79412 -3.10229,-1.78897 -3.10229,-3.89208 0,-1.9373 1.47609,-3.41211 3.78297,-3.41211 1.64235,0 2.82306,0.5716 3.6739,2.06823 l -2.01149,1.29153 c -0.44285,-0.79411 -0.92064,-1.10698 -1.66241,-1.10698 -0.75658,0 -1.23613,0.47997 -1.23613,1.10698 0,0.7749 0.47997,1.08864 1.58826,1.5686 l 0.64576,0.27662 c 2.19474,0.94119 3.43391,1.90066 3.43391,4.05788 0,2.32565 -1.82691,3.59974 -4.28041,3.59974 -2.39891,0 -3.94877,-1.1432 -4.70711,-2.64155 z m -9.12493,0.22384 c 0.40577,0.71994 0.7749,1.32861 1.66239,1.32861 0.84867,0 1.38404,-0.33205 1.38404,-1.62312 v -8.78336 h 2.58307 v 8.81823 c 0,2.67471 -1.56816,3.89206 -3.85713,3.89206 -2.06823,0 -3.26596,-1.07032 -3.87506,-2.35943 z"
            inkscape:connector-curvature="0" />
       </g>
       <g
-         id="g1768"
-         transform="matrix(1.0550365,0,0,1.0550365,560.88975,122.57219)"
-         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
-         inkscape:export-xdpi="82.68"
-         inkscape:export-ydpi="82.68"
-         style="opacity:1">
+         transform="matrix(2.3174199,0,0,2.3174199,-1028.4035,-653.6401)"
+         id="g1247"
+         style="">
         <circle
-           r="6"
-           cy="341.40039"
-           cx="175.57553"
+           r="6.3302188"
+           cy="482.76205"
+           cx="745.92798"
            id="circle1756"
-           style="opacity:1;vector-effect:none;fill:url(#radialGradient1854);fill-opacity:1;stroke:none;stroke-width:0.17819092;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-        <g
-           transform="matrix(0.49684035,0,0,0.49684035,467.26391,299.7081)"
-           id="g1766">
-          <g
-             transform="matrix(1.5556288,0,0,1.5556288,702.80212,41.384381)"
-             id="g1762">
-            <path
-               style="fill:#ebebeb;stroke-width:0.04513715"
-               inkscape:connector-curvature="0"
-               d="m -831.21023,25.965626 h 2.0393 v -1.441545 h -3.61473 l 0.0345,0.386735 0.35433,3.97252 h 3.2259 v -1.441545 h -1.90755 z m 0.3249,3.638505 h -1.44711 l 0.20196,2.263448 2.95291,0.81969 0.007,-0.0018 v -1.499812 l -0.006,0.0017 -1.60544,-0.433498 z"
-               id="path1758" />
-            <path
-               style="fill:#ffffff;stroke-width:0.04513715"
-               inkscape:connector-curvature="0"
-               d="m -829.1759,28.883336 h 1.77511 l -0.16737,1.869581 -1.60778,0.433948 v 1.499727 l 2.95526,-0.819013 0.0217,-0.24356 0.3388,-3.795132 0.0352,-0.387096 h -3.35085 z m 0,-2.921231 v 0.0035 h 3.48201 l 0.0289,-0.323994 0.0657,-0.730816 0.0345,-0.386735 h -3.61106 v 1.438069 z"
-               id="path1760" />
-          </g>
-          <path
-             inkscape:connector-curvature="0"
-             d="m -592.34887,75.596055 h 0.82085 v 0.810982 h 0.7509 v -0.810982 h 0.82088 v 2.455856 h -0.82085 v -0.822362 h -0.75088 v 0.822362 h -0.82084 v -2.455856 z m 3.47202,0.814421 h -0.72252 v -0.814421 h 2.2665 v 0.814421 h -0.72298 v 1.641435 h -0.82085 v -1.641435 h -4e-5 z m 1.90368,-0.814421 h 0.85589 l 0.52649,0.862923 0.52599,-0.862923 h 0.85624 v 2.455856 h -0.8175 v -1.217257 l -0.56473,0.87319 h -0.0142 l -0.56508,-0.87319 v 1.217257 h -0.80315 z m 3.17312,0 h 0.8211 v 1.644116 h 1.15433 v 0.81174 h -1.97548 v -2.455856 z"
-             id="path1764"
-             style="fill:#ffffff;stroke-width:0.05057571" />
-        </g>
+           style="opacity:1;vector-effect:none;fill:#d8622f;fill-opacity:1;stroke:none;stroke-width:0.18799792;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.03680649"
+           inkscape:connector-curvature="0"
+           d="m 744.26857,481.64156 h 1.66292 v -1.17549 h -2.94758 l 0.0281,0.31536 0.28894,3.23934 h 2.63051 v -1.17549 h -1.55548 z m 0.26494,2.96697 h -1.18003 l 0.16469,1.8457 2.40791,0.6684 0.006,-0.001 v -1.223 l -0.005,10e-4 -1.30913,-0.35349 z"
+           id="path1758" />
+        <path
+           style="fill:#ffffff;stroke-width:0.03680649"
+           inkscape:connector-curvature="0"
+           d="m 745.92744,484.02077 h 1.44749 l -0.13648,1.52452 -1.31104,0.35386 v 1.22293 l 2.40983,-0.66785 0.0177,-0.19861 0.27627,-3.09469 0.0287,-0.31565 h -2.7324 z m 0,-2.38208 v 0.003 h 2.83936 l 0.0236,-0.2642 0.0536,-0.59593 0.0281,-0.31536 h -2.94459 v 1.17266 z"
+           id="path1760" />
+        <path
+           style="fill:#ffffff;stroke-width:0.02651101"
+           id="path1764"
+           d="m 743.16969,478.40147 h 0.43027 v 0.4251 h 0.39361 v -0.4251 h 0.4303 v 1.28732 h -0.43028 v -0.43107 h -0.3936 v 0.43107 h -0.43027 v -1.28732 z m 1.81998,0.4269 h -0.37874 v -0.4269 h 1.18807 v 0.4269 h -0.37898 v 0.86042 h -0.43028 v -0.86042 h -2e-5 z m 0.99787,-0.4269 h 0.44865 l 0.27598,0.45233 0.27571,-0.45233 h 0.44883 v 1.28732 h -0.42852 v -0.63807 l -0.29602,0.45771 h -0.007 l -0.2962,-0.45771 v 0.63807 h -0.421 z m 1.66331,0 h 0.4304 v 0.86182 h 0.60509 v 0.4255 h -1.03552 v -1.28732 z"
+           inkscape:connector-curvature="0" />
       </g>
       <g
-         id="g1788"
-         transform="matrix(2.673555,0,0,2.673555,488.89068,18.360669)"
-         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
-         inkscape:export-xdpi="82.68"
-         inkscape:export-ydpi="82.68"
-         style="opacity:1">
+         transform="matrix(1.5005328,0,0,1.5005328,-337.08417,-166.83138)"
+         id="g1207"
+         style="">
         <circle
-           r="6"
-           cy="123.77968"
-           cx="103.05952"
+           r="16.04133"
+           cy="349.29245"
+           cx="764.22559"
            id="circle1770"
-           style="opacity:1;vector-effect:none;fill:url(#radialGradient1856);fill-opacity:1;stroke:none;stroke-width:0.17819092;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+           style="opacity:1;vector-effect:none;fill:#145f43;fill-opacity:1;stroke:none;stroke-width:0.47640321;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
         <g
-           transform="matrix(0.02229439,0,0,0.02229439,97.440329,121.37195)"
+           transform="matrix(0.05960528,0,0,0.05960528,749.2024,342.85525)"
            inkscape:export-ydpi="14.3"
            inkscape:export-xdpi="14.3"
            inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/django.png"
-           id="g1786">
+           id="g1786"
+           style="">
           <g
-             id="g1784">
+             id="g1784"
+             style="">
             <path
                style="fill:#ffffff"
                inkscape:connector-curvature="0"
@@ -1422,21 +1298,19 @@
         </g>
       </g>
       <g
-         id="g1798"
-         transform="matrix(2.7739168,0,0,2.7739168,250.88002,-325.72088)"
-         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
-         inkscape:export-xdpi="82.68"
-         inkscape:export-ydpi="82.68"
-         style="opacity:1">
+         transform="matrix(1.4941126,0,0,1.4941126,-123.64155,-183.39516)"
+         id="g1217"
+         style="">
         <circle
-           style="opacity:1;vector-effect:none;fill:url(#radialGradient1858);fill-opacity:1;stroke:none;stroke-width:0.17819092;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.49428678;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
            id="circle1790"
-           cx="5.6288557"
-           cy="218.96161"
-           r="6" />
+           cx="266.29364"
+           cy="281.6604"
+           r="16.643501" />
         <g
-           transform="matrix(0.29210152,0,0,0.29210152,141.15748,281.90446)"
-           id="g1796">
+           transform="matrix(0.81026531,0,0,0.81026531,642.23877,456.25864)"
+           id="g1796"
+           style="">
           <path
              inkscape:connector-curvature="0"
              style="fill:url(#linearGradient1860);fill-opacity:1;stroke-width:0.26458332"
@@ -1455,44 +1329,41 @@
          inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
          r="318.99475"
          cy="300.23291"
-         cx="539.96716"
+         cx="539.76678"
          id="circle1800"
-         style="opacity:0.6;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1864);stroke-width:0.50700003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3.04200012, 3.04200012;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal" />
-      <circle
-         r="7.6665664"
-         cy="320.98007"
-         cx="858.17139"
-         id="circle1802"
-         style="opacity:1;vector-effect:none;fill:url(#radialGradient1866);fill-opacity:1;stroke:none;stroke-width:0.22768542;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+         style="opacity:0.42000002;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1864);stroke-width:0.50700003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3.04200012, 3.04200011999999997;stroke-dashoffset:0;stroke-opacity:0.29411765;paint-order:normal" />
       <g
-         id="g1822"
-         transform="matrix(0.80551975,0,0,0.80551975,1609.1584,245.47296)">
+         transform="matrix(2.2150883,0,0,2.2150883,-1046.3095,-470.58599)"
+         id="g1258"
+         style="">
+        <circle
+           style="opacity:1;vector-effect:none;fill:#2653be;fill-opacity:1;stroke:none;stroke-width:0.22768542;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+           id="circle1802"
+           cx="857.97101"
+           cy="320.98007"
+           r="7.6665664" />
+        <polygon
+           transform="matrix(0.02987493,0,0,0.02987493,850.32704,313.42432)"
+           id="polygon1804"
+           points="150.31,268.217 154.38,313.627 256,313.627 256,268.217 "
+           style="fill:#ffffff;fill-opacity:1" />
+        <polygon
+           transform="matrix(0.02987493,0,0,0.02987493,850.32704,313.42432)"
+           id="polygon1806"
+           points="255.843,176.305 142.132,176.305 146.26,221.716 256,221.716 256,176.305 "
+           style="fill:#ffffff;fill-opacity:1" />
+        <polygon
+           transform="matrix(0.02987493,0,0,0.02987493,850.32704,313.42432)"
+           id="polygon1808"
+           points="156.409,336.333 162.771,407.634 255.791,433.457 256,433.399 256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 177.419,336.333 "
+           style="fill:#ffffff;fill-opacity:1" />
+        <polygon
+           transform="matrix(0.02987493,0,0,0.02987493,850.32704,313.42432)"
+           id="polygon1810"
+           points="255.843,433.435 348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 369.597,176.305 255.843,176.305 255.843,221.716 319.831,221.716 315.699,268.217 255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 "
+           style="fill:#ffffff" />
         <g
-           transform="matrix(0.13141335,0,0,0.13141335,-811.96552,60.160527)"
-           id="g1812">
-          <polygon
-             style="fill:#ebebeb"
-             points="150.31,268.217 154.38,313.627 256,313.627 256,268.217 "
-             id="polygon1804"
-             transform="matrix(0.28222221,0,0,0.28222221,-987.91426,184.12614)" />
-          <polygon
-             style="fill:#ebebeb"
-             points="255.843,176.305 142.132,176.305 146.26,221.716 256,221.716 256,176.305 "
-             id="polygon1806"
-             transform="matrix(0.28222221,0,0,0.28222221,-987.91426,184.12614)" />
-          <polygon
-             style="fill:#ebebeb"
-             points="201.994,336.333 177.419,336.333 156.409,336.333 162.771,407.634 255.791,433.457 256,433.399 256,386.153 255.801,386.206 205.227,372.55 "
-             id="polygon1808"
-             transform="matrix(0.28222221,0,0,0.28222221,-987.91426,184.12614)" />
-          <polygon
-             style="fill:#ffffff"
-             points="255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 369.597,176.305 255.843,176.305 255.843,221.716 319.831,221.716 315.699,268.217 "
-             id="polygon1810"
-             transform="matrix(0.28222221,0,0,0.28222221,-987.91426,184.12614)" />
-        </g>
-        <g
-           transform="matrix(0.38057859,0,0,0.38057859,-575.15832,54.544546)"
+           transform="matrix(0.30656357,0,0,0.30656357,1145.6566,289.40967)"
            style="fill:#ffffff"
            id="g1820">
           <path
@@ -1513,37 +1384,31 @@
         </g>
       </g>
       <g
-         transform="translate(991.46736,-16.850023)"
-         id="g1828">
+         transform="matrix(1.8476792,0,0,1.8476792,-208.85257,-373.08643)"
+         id="g1229"
+         style="">
         <circle
-           style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.44907406;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter1478)"
-           id="circle1824"
-           cx="-737.53021"
-           cy="309.69531"
-           r="2.1381562" />
-        <circle
-           r="2.1381562"
-           cy="309.69531"
-           cx="-737.53021"
-           id="circle1826"
-           style="opacity:1;vector-effect:none;fill:url(#radialGradient1868);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-      </g>
-      <g
-         transform="matrix(-1.0141176,0,0,0.99737969,26.76332,53.600871)"
-         id="g1834">
-        <circle
-           style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.44907406;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter1478-3)"
-           id="circle1830"
-           cx="-737.53021"
-           cy="309.69531"
-           r="2.1381562" />
-        <circle
-           r="2.1381562"
-           cy="309.69531"
-           cx="-737.53021"
-           id="circle1832"
-           style="opacity:1;vector-effect:none;fill:url(#radialGradient1870);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+           style="opacity:1;vector-effect:none;fill:#7810f7;fill-opacity:1;stroke:none;stroke-width:0.22768542;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+           id="circle1744"
+           cx="236.29214"
+           cy="399.45374"
+           r="7.6665664" />
+        <path
+           transform="matrix(0.03810002,0,0,0.03810002,226.90003,391.53055)"
+           id="path1746"
+           d="m 267.103,312.457 c 47.297,0 75.798,-23.158 75.798,-61.355 0,-28.873 -20.336,-49.776 -50.532,-53.085 v -1.203 c 22.185,-3.609 39.594,-24.211 39.594,-47.219 0,-32.783 -25.882,-54.138 -65.322,-54.138 h -88.74 v 217 z m -54.692,-189.48 h 45.911 c 24.958,0 39.131,11.128 39.131,31.279 0,21.505 -16.484,33.535 -46.372,33.535 h -38.67 z m 0,161.961 v -71.431 h 45.602 c 32.661,0 49.608,12.03 49.608,35.49 0,23.459 -16.484,35.941 -47.605,35.941 z"
+           inkscape:connector-curvature="0"
+           style="fill:url(#linearGradient1850);stroke:#ffffff;filter:url(#bs-logo-c)" />
       </g>
     </g>
+    <rect
+       style="opacity:1;vector-effect:none;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.24201484;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect1107"
+       width="702.18115"
+       height="399.15094"
+       x="188.67609"
+       y="144.86816"
+       rx="0"
+       ry="0" />
   </g>
 </svg>
