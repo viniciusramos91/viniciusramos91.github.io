@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Seu primeiro projeto Django em 15 minutos",
+      "title": "Seu primeiro projeto Django em 15 minutos",
+      "href": "/blog/seu-primeiro-projeto-django-em-15-minutos",
+      "slug": "seu-primeiro-projeto-django-em-15-minutos",
+      "assets": "first-django-project",
+      "author": "Vinícius R",
+      "description": "<p>Nesse artigo você vai iniciar a sua carreira no Desenvolvimento de Aplicações Web utilizando o framework Django em apenas 15 minutos.</p>",
+      "header_color": "#1b6e4f",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "12",
+         "month": "09",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Como criar gráficos com Matplotlib no Python",
       "title": "Como criar gráficos com Matplotlib no Python",
       "href": "/blog/como-criar-graficos-utilizando-matplotlib-no-python",
