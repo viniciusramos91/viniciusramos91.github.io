@@ -75,8 +75,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .img-responsive {
-    max-width: 80%;
-    margin: 0 auto;
+    max-width: 100%;
+    max-height: 500px;
+    // display: block;
+    // margin: 0 auto;
 
     @media(max-width: 500px) {
         max-width: 100%;

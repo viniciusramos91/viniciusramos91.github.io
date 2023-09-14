@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "O que é e como usar o Painel Administrativo do Django (Python)",
+      "title": "O que é e como usar o Painel Administrativo do Django (Python)",
+      "href": "/blog/o-painel-admin-do-django",
+      "slug": "o-painel-admin-do-django",
+      "assets": "django-admin",
+      "author": "Vinícius R",
+      "description": "<p>Nesse artigo você vai aprender a usar e customizar o incrível Painel Admin do Django!</p>",
+      "header_color": "#1b6e4f",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "14",
+         "month": "09",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Os principais comandos do manage.py do Django (Python)",
       "title": "Os principais comandos do manage.py do Django (Python)",
       "href": "/blog/os-principais-comandos-do-manage-py-do-django",
