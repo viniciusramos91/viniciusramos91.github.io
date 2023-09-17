@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Como conectar o Django (Python) ao Banco de Dados PostgreSQL",
+      "title": "Como conectar o Django (Python) ao Banco de Dados PostgreSQL",
+      "href": "/blog/como-conectar-o-django-ao-postgresql",
+      "slug": "como-conectar-o-django-ao-postgresql",
+      "assets": "django-postgres",
+      "author": "Vinícius R",
+      "description": "<p>Chega de usar o SQLite nas suas aplicações. Aprenda a conectar o poderoso SGBD PostgreSQL à sua aplicação Web Django!</p>",
+      "header_color": "#0e4832",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "16",
+         "month": "09",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "O que é e como usar o Painel Administrativo do Django (Python)",
       "title": "O que é e como usar o Painel Administrativo do Django (Python)",
       "href": "/blog/o-painel-admin-do-django",
