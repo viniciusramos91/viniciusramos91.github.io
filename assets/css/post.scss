@@ -104,9 +104,7 @@ body#post-body {
 // =============================================
 
 .main-container  {
-    
     .post-banner {
-        
         .post-banner-wrapper {
             display: table;
             width: 100%;
@@ -180,12 +178,149 @@ body#post-body {
             }
         }
     }    
+
+    section.jornada-banner {
+        background-color: #000000;
+
+        .content {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px 0;
+
+            .inner-content {
+                display: flex;
+                gap: 30px;
+                align-items: center;
+
+                div.image {
+                    display: flex;
+                    img {
+                        max-width: 340px;
+                        border-radius: 12px;
+                    }
+                }
+
+                div.text {
+                    display: flex;
+                    flex-direction: column;                    
+
+                    h2 {
+                        margin-top: 0;
+                        color: #FFF;
+                        font-size: 2.35rem;
+                        line-height: 2.75rem;
+                    }
+
+                    p {
+                        color: #ddd;
+                        margin-bottom: 16px;
+                        margin-top: 0;
+                        font-size: 1.6rem;
+                    }
+
+                    a {
+                        display: inline-block;
+                        margin-bottom: 0;
+                        line-height: 1.5;
+                        color: #3a382f;
+                        text-align: center;
+                        text-decoration: none;
+                        vertical-align: middle;
+                        cursor: pointer;
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        user-select: none;
+                        background-color: transparent;
+                        border: 1px solid transparent;
+                        border-radius: 0.25rem;
+                        background: #ffcc00;
+                        text-transform: uppercase;
+                        font-weight: 800;
+                        padding: 12px 32px;
+                        font-size: 1.75rem;
+                        transition: all 0.4s ease;
+
+                        .visible-lg { display: inline-block }
+                        .visible-xs { display: none }
+
+                        &:hover {
+                            background: #1489f1;
+                            color: white;
+                            outline: 6px solid #80b5e933;
+                            border: 1px solid #ffffff55;
+                        }
+                    }
+                }
+            }
+
+            .features {
+                display: flex;
+                gap: 25px;
+                margin-top: 50px;
+
+                .feature {
+                    display: flex;
+                    flex-direction: row;
+                    flex: 0.3333;
+                    gap: 14px;
+                    align-items: center;
+                    border-radius: 8px;
+
+                    div.icon {
+                        img {
+                            opacity: 0.85;
+                        }
+                    }
+
+                    div.text {
+                        h3 {
+                            font-size: 1.45rem;
+                            line-height: 1.95rem;
+                            font-weight: 400;
+                            color: #ccc;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+
+            @media(max-width: 700px) {
+                .inner-content {
+                    display: block;
+
+                    div.text {
+                        a {
+                            .visible-lg { display: none }
+                            .visible-xs { display: inline-block }
+                        }
+                    }
+
+                    div.image {
+                        text-align: center;
+                        img {
+                            width: 100%;
+                            margin: 0 auto 14px auto;
+                        }
+                    }
+                }
+
+                .features {
+                    display: block;
+    
+                    .feature {
+                        margin-bottom: 18px;
+                    }
+                }
+            }
+        }        
+    }
     
     .post-container {        
         display: flex;
         
         .blog-post-content {
-            flex: 0.8;
+            max-width: 900px;
             padding-top: 64px;
             font-weight: 400;
             margin-right: auto;
@@ -1316,3 +1451,8 @@ body#post-body {
         }
     }
 }
+
+
+.font-white  { color: #ffffff }
+.font-yellow { color: #ffcc00 }
+.font-blue   { color: #3d9aeb}

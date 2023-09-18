@@ -20,6 +20,25 @@
   <defs
      id="defs2">
     <linearGradient
+       gradientTransform="matrix(0.13002098,0,0,0.13002098,83.638751,50.047426)"
+       id="linearGradient910"
+       x1="39.971699"
+       y1="41.920399"
+       x2="39.971699"
+       y2="36.079689"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         style="stop-color:#0140a0;stop-opacity:0.21960784"
+         stop-color="#04D361"
+         stop-opacity="0.25"
+         id="stop906" />
+      <stop
+         style="stop-color:#0e5dd6;stop-opacity:1"
+         offset="1"
+         stop-color="#04D361"
+         id="stop908" />
+    </linearGradient>
+    <linearGradient
        inkscape:collect="always"
        id="linearGradient1115">
       <stop
@@ -60,18 +79,6 @@
          offset="1"
          stop-color="#2B2146"
          id="stop1679" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient1088"
-       inkscape:collect="always">
-      <stop
-         id="stop1084"
-         offset="0"
-         style="stop-color:#3771c8;stop-opacity:1" />
-      <stop
-         id="stop1086"
-         offset="1"
-         style="stop-color:#afc6e9;stop-opacity:1" />
     </linearGradient>
     <linearGradient
        gradientUnits="userSpaceOnUse"
@@ -197,13 +204,13 @@
        y2="38.169441" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1088"
+       xlink:href="#linearGradient910"
        id="linearGradient1082"
        gradientUnits="userSpaceOnUse"
-       x1="67.786949"
-       y1="32.4459"
-       x2="67.786949"
-       y2="36.145912"
+       x1="69.94046"
+       y1="35.721325"
+       x2="69.94046"
+       y2="32.343864"
        gradientTransform="matrix(1.0827897,0,0,1.0827897,-59.95437,16.821817)" />
     <linearGradient
        inkscape:collect="always"
@@ -222,7 +229,8 @@
        y1="6"
        x1="19"
        id="paint0_linear_8592_32138"
-       gradientTransform="matrix(0.13674204,0,0,0.13674204,46.892752,49.757332)">
+       gradientTransform="matrix(0.13674204,0,0,0.13674204,46.892752,49.757332)"
+       spreadMethod="pad">
       <stop
          id="stop1168"
          stop-color="#8257E5"
@@ -282,17 +290,18 @@
     </linearGradient>
     <linearGradient
        gradientUnits="userSpaceOnUse"
-       y2="34.024101"
+       y2="36.079689"
        x2="39.971699"
        y1="41.920399"
        x1="39.971699"
        id="paint1_linear_8592_32185"
-       gradientTransform="matrix(0.13002098,0,0,0.13002098,83.638751,50.047426)">
+       gradientTransform="matrix(0.13002098,0,0,0.13002098,83.638751,50.047426)"
+       xlink:href="#paint0_linear_8592_32166">
       <stop
          id="stop1255"
          stop-opacity="0.25"
          stop-color="#04D361"
-         style="stop-color:#87aade;stop-opacity:1" />
+         style="stop-color:#23477e;stop-opacity:0.22123894" />
       <stop
          id="stop1257"
          stop-color="#04D361"
@@ -393,6 +402,26 @@
        x2="68.46756"
        y2="54.738842"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient910"
+       id="linearGradient911"
+       x1="86.500404"
+       y1="55.705612"
+       x2="86.500404"
+       y2="54.66782"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient910"
+       id="linearGradient926"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.13674204,0,0,0.13674204,46.892752,49.757332)"
+       x1="28.674541"
+       y1="37.521091"
+       x2="28.674541"
+       y2="16.16127"
+       spreadMethod="pad" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -402,8 +431,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="180.17433"
-     inkscape:cy="17.495993"
+     inkscape:cx="150.41903"
+     inkscape:cy="10.778113"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -440,6 +469,15 @@
      id="layer1"
      transform="translate(8.0796061,-50.372669)">
     <rect
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.223;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect904"
+       width="129.22481"
+       height="30.735994"
+       x="-24.249413"
+       y="40.738522"
+       rx="0"
+       ry="0" />
+    <rect
        y="50.372669"
        x="65.092384"
        height="5.332943"
@@ -465,86 +503,92 @@
        inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/facil.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.60038829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.57407406;paint-order:normal"
-       id="rect1295"
-       width="6.7503538"
-       height="5.332943"
-       x="10.21339"
-       y="50.372669"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png" />
-    <path
-       style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round"
-       inkscape:connector-curvature="0"
-       d="m 15.776439,55.500501 h -4.375748 c -0.302202,0 -0.546969,-0.244769 -0.546969,-0.546969 v -3.828781 c 0,-0.3022 0.244767,-0.546969 0.546969,-0.546969 h 4.375748 c 0.3022,0 0.546969,0.244769 0.546969,0.546969 v 3.828781 c 0,0.3022 -0.244769,0.546969 -0.546969,0.546969 z"
-       id="path917"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="fill:none;stroke:#afc6e9;stroke-width:0.20356445;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:connector-curvature="0"
-       d="m 10.853722,51.945204 h 5.469686"
-       id="path915"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:url(#linearGradient1082);stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       inkscape:connector-curvature="0"
-       d="m 15.776439,55.500501 h -4.375748 c -0.302202,0 -0.546969,-0.244769 -0.546969,-0.546969 v -3.828781 c 0,-0.3022 0.244767,-0.546969 0.546969,-0.546969 h 4.375748 c 0.3022,0 0.546969,0.244769 0.546969,0.546969 v 3.828781 c 0,0.3022 -0.244769,0.546969 -0.546969,0.546969 z"
-       id="path919"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="fill:none;stroke:#3771c8;stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       inkscape:connector-curvature="0"
-       d="m 11.61375,51.300127 c -8.27e-4,0 -0.0013,5.68e-4 -0.0013,0.0013 0,8.27e-4 5.68e-4,0.0013 0.0013,0.0013 8.26e-4,0 0.0013,-5.68e-4 0.0013,-0.0013 0,-8.26e-4 -5.68e-4,-0.0013 -0.0013,-0.0013"
-       id="path921"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="fill:none;stroke:#3771c8;stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       inkscape:connector-curvature="0"
-       d="m 12.309205,51.300127 c -8.27e-4,0 -0.0013,5.68e-4 -0.0013,0.0013 0,8.27e-4 8.26e-4,0.0013 0.0013,0.0013 8.26e-4,0 0.0013,-5.68e-4 0.0013,-0.0013 0,-8.26e-4 -5.69e-4,-0.0013 -0.0013,-0.0013"
-       id="path923"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="fill:none;stroke:#3771c8;stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       inkscape:connector-curvature="0"
-       d="m 13.003568,51.300127 c -8.27e-4,0 -0.0013,5.68e-4 -0.0013,0.0013 0,8.27e-4 5.68e-4,0.0013 0.0013,0.0013 8.27e-4,0 0.0013,-5.68e-4 0.0013,-0.0013 0,-8.26e-4 -5.68e-4,-0.0013 -0.0013,-0.0013"
-       id="path925"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
     <g
-       id="g1000"
-       style="fill:none;stroke:url(#linearGradient1016)"
-       transform="matrix(0.51682074,0,0,0.51682074,-19.977131,34.358686)"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       id="g924"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/icone-pratica.png"
+       inkscape:export-xdpi="282.20999"
+       inkscape:export-ydpi="282.20999">
+      <rect
+         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         y="50.372669"
+         x="10.21339"
+         height="5.332943"
+         width="6.7503538"
+         id="rect1295"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.60038829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.57407406;paint-order:normal" />
       <path
-         id="path927"
-         d="m 65.359218,35.615774 -0.8255,3.704167"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+         id="path917"
+         d="m 15.776439,55.500501 h -4.375748 c -0.302202,0 -0.546969,-0.244769 -0.546969,-0.546969 v -3.828781 c 0,-0.3022 0.244767,-0.546969 0.546969,-0.546969 h 4.375748 c 0.3022,0 0.546969,0.244769 0.546969,0.546969 v 3.828781 c 0,0.3022 -0.244769,0.546969 -0.546969,0.546969 z"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke:url(#linearGradient1030);stroke-width:0.79374999;stroke-linecap:square;stroke-linejoin:round" />
+         style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round" />
       <path
-         id="path929"
-         d="m 66.666287,36.541816 0.926041,0.926042 -0.926041,0.926041"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+         id="path915"
+         d="m 10.853722,51.945204 h 5.469686"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke:url(#linearGradient1032);stroke-width:0.79374999;stroke-linecap:square;stroke-linejoin:round" />
+         style="fill:none;stroke:#337deb;stroke-width:0.15;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1" />
       <path
-         id="path931"
-         d="m 63.226703,38.393899 -0.926041,-0.926041 0.926041,-0.926042"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+         id="path919"
+         d="m 15.776439,55.500501 h -4.375748 c -0.302202,0 -0.546969,-0.244769 -0.546969,-0.546969 v -3.828781 c 0,-0.3022 0.244767,-0.546969 0.546969,-0.546969 h 4.375748 c 0.3022,0 0.546969,0.244769 0.546969,0.546969 v 3.828781 c 0,0.3022 -0.244769,0.546969 -0.546969,0.546969 z"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke:url(#linearGradient1034);stroke-width:0.79374999;stroke-linecap:square;stroke-linejoin:round" />
+         style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:url(#linearGradient1082);stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+         id="path921"
+         d="m 11.61375,51.300127 c -8.27e-4,0 -0.0013,5.68e-4 -0.0013,0.0013 0,8.27e-4 5.68e-4,0.0013 0.0013,0.0013 8.26e-4,0 0.0013,-5.68e-4 0.0013,-0.0013 0,-8.26e-4 -5.68e-4,-0.0013 -0.0013,-0.0013"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#3771c8;stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+         id="path923"
+         d="m 12.309205,51.300127 c -8.27e-4,0 -0.0013,5.68e-4 -0.0013,0.0013 0,8.27e-4 8.26e-4,0.0013 0.0013,0.0013 8.26e-4,0 0.0013,-5.68e-4 0.0013,-0.0013 0,-8.26e-4 -5.69e-4,-0.0013 -0.0013,-0.0013"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#3771c8;stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+         id="path925"
+         d="m 13.003568,51.300127 c -8.27e-4,0 -0.0013,5.68e-4 -0.0013,0.0013 0,8.27e-4 5.68e-4,0.0013 0.0013,0.0013 8.27e-4,0 0.0013,-5.68e-4 0.0013,-0.0013 0,-8.26e-4 -5.68e-4,-0.0013 -0.0013,-0.0013"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#3771c8;stroke-width:0.41022643;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <g
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/aplicabilidade.png"
+         transform="matrix(0.51682074,0,0,0.51682074,-19.977131,34.358686)"
+         style="fill:none;stroke:url(#linearGradient1016)"
+         id="g1000">
+        <path
+           style="fill:none;stroke:url(#linearGradient1030);stroke-width:0.79374999;stroke-linecap:square;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           d="m 65.359218,35.615774 -0.8255,3.704167"
+           id="path927" />
+        <path
+           style="fill:none;stroke:url(#linearGradient1032);stroke-width:0.79374999;stroke-linecap:square;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           d="m 66.666287,36.541816 0.926041,0.926042 -0.926041,0.926041"
+           id="path929" />
+        <path
+           style="fill:none;stroke:url(#linearGradient1034);stroke-width:0.79374999;stroke-linecap:square;stroke-linejoin:round"
+           inkscape:connector-curvature="0"
+           d="m 63.226703,38.393899 -0.926041,-0.926041 0.926041,-0.926042"
+           id="path931" />
+      </g>
     </g>
     <rect
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.60038829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.57407406;paint-order:normal"
@@ -553,41 +597,41 @@
        height="5.332943"
        x="46.799385"
        y="50.372669"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/versatil.png" />
+       inkscape:export-xdpi="282.20999"
+       inkscape:export-ydpi="282.20999"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/icone-projetos.png" />
     <path
        style="fill:none;stroke-width:0.41022611;stroke-linecap:round;stroke-linejoin:round"
        inkscape:connector-curvature="0"
        d="m 49.955774,53.829482 0.106658,0.850536 m -0.957195,-0.850536 -0.106658,0.850536 m -0.289893,1.3e-5 h 1.640905"
        id="path1160"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/versatil.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/icone-projetos.png"
+       inkscape:export-xdpi="282.20999"
+       inkscape:export-ydpi="282.20999" />
     <path
        style="fill:#afc6e9;stroke:#afc6e9;stroke-width:0.41012833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0"
        d="M 51.747094,54.885158 H 52.15732"
        id="path1162"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/versatil.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/icone-projetos.png"
+       inkscape:export-xdpi="282.20999"
+       inkscape:export-ydpi="282.20999" />
     <path
-       style="fill:none;stroke:url(#paint0_linear_8592_32138);stroke-width:0.41022611;stroke-linecap:round;stroke-linejoin:round"
+       style="fill:none;stroke:url(#linearGradient926);stroke-width:0.41022611;stroke-linecap:round;stroke-linejoin:round"
        inkscape:connector-curvature="0"
        d="m 49.955774,53.829496 0.106658,0.850535 m -0.957195,-0.850535 -0.106658,0.850535 m -0.289893,1.3e-5 h 1.640905 m 0.645422,-0.850809 h -2.958004 c -0.329822,0 -0.597289,-0.267467 -0.597289,-0.597289 v -2.056873 c 0,-0.329822 0.267467,-0.59729 0.597289,-0.59729 h 2.907956 c 0.329548,0 0.597016,0.267468 0.597016,0.59729 v 1.317099"
        id="path1164"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/versatil.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/icone-projetos.png"
+       inkscape:export-xdpi="282.20999"
+       inkscape:export-ydpi="282.20999" />
     <path
        style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:url(#linearGradient1210);stroke-width:0.41022611;stroke-linecap:round;stroke-linejoin:round"
        inkscape:connector-curvature="0"
        d="m 51.541981,52.492172 h 0.820452 c 0.3022,0 0.546968,0.244769 0.546968,0.546968 v 1.914389 c 0,0.3022 -0.244768,0.546968 -0.546968,0.546968 h -0.820452 c -0.3022,0 -0.546968,-0.244768 -0.546968,-0.546968 V 53.03914 c 0,-0.302199 0.244768,-0.546968 0.546968,-0.546968 z"
        id="path1166"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/versatil.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/icone-projetos.png"
+       inkscape:export-xdpi="282.20999"
+       inkscape:export-ydpi="282.20999" />
     <rect
        y="50.372669"
        x="83.385376"
@@ -595,33 +639,33 @@
        width="6.7503538"
        id="rect1305"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.60038829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.57407406;paint-order:normal"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/comunidade.png" />
+       inkscape:export-xdpi="282.20999"
+       inkscape:export-ydpi="282.20999"
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/icone-suporte.png" />
     <path
        style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:url(#linearGradient1288);stroke-width:0.39006293;stroke-linecap:round;stroke-linejoin:round"
        inkscape:connector-curvature="0"
        d="m 87.410946,52.648898 v 0.389973 c 0,0.0502 0.02889,0.09593 0.07424,0.117473 0.04534,0.02156 0.09904,0.01508 0.137965,-0.01661 l 0.602751,-0.49083 h 0.615871 c 0.287346,0 0.520292,-0.232945 0.520292,-0.520292 v -1.040606 c 0,-0.287354 -0.232946,-0.5203 -0.520292,-0.5203 h -1.821061 c -0.287347,0 -0.520292,0.232946 -0.520292,0.5203 v 1.040606 c 0,0.287347 0.232945,0.520292 0.520292,0.520292 z"
        id="path1244"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/comunidade.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/icone-suporte.png"
+       inkscape:export-xdpi="282.20999"
+       inkscape:export-ydpi="282.20999" />
     <path
-       style="fill:none;stroke:url(#paint0_linear_8592_32185);stroke-width:0.39006293;stroke-linecap:round;stroke-linejoin:round"
+       style="fill:none;stroke:#0e5dd6;stroke-width:0.39006293;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        inkscape:connector-curvature="0"
        d="m 88.581615,54.469985 v -1.040596 m -4.162421,1.040622 v -2.601498 c -3.7e-5,-0.138005 0.05477,-0.270366 0.152351,-0.36796 0.09758,-0.09758 0.229946,-0.152385 0.367949,-0.152346 h 0.780451"
        id="path1246"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/comunidade.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/icone-suporte.png"
+       inkscape:export-xdpi="282.20999"
+       inkscape:export-ydpi="282.20999" />
     <path
-       style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:url(#paint1_linear_8592_32185);stroke-width:0.39006293;stroke-linecap:round;stroke-linejoin:round"
+       style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:url(#linearGradient911);stroke-width:0.39;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        inkscape:connector-curvature="0"
        d="M 88.581603,54.469985 H 87.68018 c -0.08697,-1.3e-5 -0.168182,0.04343 -0.216446,0.115758 l -0.105629,0.158431 c -0.04826,0.07234 -0.129474,0.115783 -0.216446,0.11577 H 85.85912 c -0.08696,1.3e-5 -0.168183,-0.04343 -0.216446,-0.11577 l -0.105616,-0.158431 c -0.04837,-0.07236 -0.12967,-0.115784 -0.216706,-0.115758 h -0.90116 c -0.143655,5.2e-5 -0.2601,0.116486 -0.26015,0.260146 v 0.260146 c 0,0.138005 0.05477,0.270366 0.152351,0.36796 0.09758,0.09758 0.229945,0.152384 0.367949,0.152345 h 3.642102 c 0.138004,3.9e-5 0.270365,-0.05476 0.367946,-0.152345 0.09759,-0.09759 0.152359,-0.229955 0.152359,-0.36796 v -0.260146 c -5.3e-5,-0.14366 -0.116499,-0.260094 -0.260146,-0.260146 z"
        id="path1248"
-       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/comunidade.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/icone-suporte.png"
+       inkscape:export-xdpi="282.20999"
+       inkscape:export-ydpi="282.20999" />
     <g
        id="g1395"
        transform="translate(0,-7.4324174)">
