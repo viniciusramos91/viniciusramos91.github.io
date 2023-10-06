@@ -349,7 +349,12 @@ body::-webkit-scrollbar-thumb {
                             position: relative;
                             bottom: 2px;
                         }
-                    }                    
+                    }   
+
+                    @media (max-width: 992px) {
+                        font-size: 1.2rem;
+                        padding: 24px 14px;
+                    }                 
 
                     @media (max-width: 767px) {
                         font-size: 1.8rem;
@@ -432,7 +437,7 @@ body::-webkit-scrollbar-thumb {
 
             .navbar-nav {
                 @media(max-width: 768px) {
-                    background: #130f1c;
+                    background: #111;
                 }
             }
 
@@ -520,10 +525,14 @@ body::-webkit-scrollbar-thumb {
         height: 40px;
         position: relative;
         bottom: 6px;
-    }
+    }    
 
     @media (max-width: 767px) {
-        font-size: 4.25rem;
+        font-size: 3.25rem;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 2.25rem;
     }
 }
 
@@ -551,8 +560,8 @@ article.card-article {
 
     .card {
         display: block;
-        border-radius: 14px;
-        background-color: #191720;
+        border-radius: 16px;
+        background-color: #111;
         border: 1px solid transparent;
         margin-bottom: 32px;
         box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
@@ -810,7 +819,7 @@ article.card-article {
 // ================================================================
 
 #footer {
-    background: #000;    
+    background: #0c0c0c;    
     padding: 56px 16px;
     z-index: 0;
     text-align: center;
@@ -1299,8 +1308,7 @@ section.jornada-python-banner {
         font-family: var(--system-ui-font);
         font-weight: 300;
         font-size: 1.6rem;
-        margin-bottom: 32px;
-        line-height: 32px;
+        line-height: 24px;
         color: #FFFFFFCC;
         text-align: center;
         margin-bottom: 6rem;
@@ -1348,8 +1356,15 @@ section.jornada-python-banner {
     }
 
     @media(max-width: 500px) {
+        padding-top: 100px;
+        padding-bottom: 40px;
+
         h1 {
-            font-size: 3.75rem;
+            font-size: 2.75rem;
+        }
+
+        h2 {
+            margin-bottom: 3rem;
         }
 
         ul.hashtag-list {
@@ -1735,6 +1750,122 @@ section.jornada-python-banner {
     width: 100%;
     margin: 30px 0;    
 }
+
+// 30 DAYS OF PYTHON
+// ================================================================
+
+section#python-newsletter {
+    background: linear-gradient(0deg, #141921, rgba(0,0,0,0));
+    padding-top: 6rem;
+    overflow: hidden;
+    border-bottom: 1px solid #222c3d;
+
+    @media(max-width: 500px) {
+        padding-top: 2rem;
+    }
+}
+
+div.python-30-days {
+    img.logo {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    h3 {
+        font-family: var(--system-ui-font);
+        color: #bbb;
+        font-size: 1.9rem;
+        font-weight: 300;
+        line-height: 2.75rem;
+    }
+
+    .form-group {
+        margin-top: 2.5rem;
+        form {
+            label {
+                font-family: var(--system-ui-font);
+                font-weight: 600;
+                text-transform: uppercase;
+                color: #ffffffaa;
+                font-size: 1.25rem;
+                letter-spacing: 1px;
+                padding-left: 6px;
+            }
+
+            input {
+                background: #00000033;
+                border: 1px solid #3634548f;
+                border-radius: 10px;
+                padding: 13px 16px;
+                width: 100%;
+                font-size: 1.5rem;
+                color: #bbb;
+                font-family: var(--system-ui-font);
+                transition: all 0.15s ease;
+
+                &:hover, &:focus, &:focus-visible {
+                    border-color: #5993ef;
+                    outline: 4px solid #5993ef0a;
+                }
+            }
+
+            button {
+                width: 100%;
+                font-size: 1.6rem;
+                padding: 12px;
+                margin-top: 29px;
+            }
+        }
+    }
+
+    @media(max-width: 768px) {
+        h3 {
+            font-size: 1.7rem;
+            line-height: 2.25rem;
+        }
+
+        .form-group {
+            form {
+                input {
+                    margin-bottom: 2rem;
+                }
+
+                button {
+                    margin-top: 2rem;
+                    margin-bottom: 4rem;
+                }
+            }
+        }
+
+        img.inbox {
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 2rem;
+        }
+        // img.inbox {
+        //     display: block;
+        //     width: 60%;
+        //     margin: 0 auto;
+        // }
+
+        // img.logo {
+        //     margin-top: 4rem;
+        // }
+    }    
+
+    @media(max-width: 500px) {
+        img.logo {
+            width: 100%;
+        }
+    }
+
+    @media(max-width: 400px) {
+        img.inbox {
+            width: 100%;
+        }
+    }
+}
+
 
 // ANIMATIONS
 // ================================================================
