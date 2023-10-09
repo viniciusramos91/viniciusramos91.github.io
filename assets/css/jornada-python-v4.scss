@@ -1,6 +1,6 @@
 :root {
     --white: #FFF;
-    --gray: #c0c0c3;
+    --gray: #dadada;
     --yellow: #ffcc00;
     --blue: #3d9aeb;
     --dark-gray: #161718;
@@ -45,10 +45,10 @@ body {
 }
 
 .heading-1 {
-    color: #e1e1e7;
-    font-size: 2.75rem;
-    line-height: 3.5rem;
-    margin-bottom: 1.5rem;
+    color: #fff;
+    font-size: 3rem;
+    line-height: initial;
+    margin-bottom: 1.85rem;
 
     @media(max-width: 768px) {
         font-size: 2.5rem;
@@ -72,11 +72,16 @@ body {
 
 p, ul li {
     color: var(--gray);
-    line-height: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 300;
 
     @media(max-width: 768px) {
-        line-height: 1.35rem;
+        font-size: 1.25rem;
     }
+}
+
+b, strong {
+    font-weight: bold;
 }
 
 section {
@@ -156,6 +161,62 @@ section {
 .font-django-light { color: var(--django-light-color); }
 .font-django-dark { color: var(--django-dark-color); }
 
+.stars-container {
+    margin-top: 18px;
+
+    .stars{
+        display: inline-block;
+        width: 77px;
+        overflow: hidden;
+
+        svg {
+            width: 80px;
+            height: auto;
+            fill: #fec600;
+        }
+    }    
+    
+    span.reviews {
+        position: relative;
+        bottom: 7px;
+        font-family: var(--system-ui-font);
+        color: #fffd;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding-left: 5px;
+    }
+
+    span.reviews-subheadline {
+        display: block;
+        font-family: var(--system-ui-font);
+        color: #fff9;
+        font-size: 0.8rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        position: relative;
+        bottom: 3px;
+    }
+
+    @media(max-width: 576px) {
+        .stars{
+            width: 62px;
+
+            svg {
+                width: 65px;
+            }
+        }    
+        
+        span.reviews {
+            bottom: 6px;
+            font-size: 0.95rem;
+            letter-spacing: 0px;
+            padding-left: 5px;
+        }
+    }
+}
+
 // ============================================================
 // NAV
 
@@ -210,6 +271,7 @@ section {
     z-index: 999;    
 
     p {
+        font-size: 1rem;
         text-align: center;
         margin: 0;
         color: var(--dark-gray);        
@@ -635,11 +697,13 @@ section#hero {
         overflow: hidden;
     }
     
-    p.sub-headline {
-        font-size: 1.1rem;
+    h2 {
+        font-size: 1.4rem;
         margin-bottom: 1.5rem;
-        line-height: 1.6rem;
-    }
+        line-height: inherit;
+        font-weight: 300;
+        color: var(--gray);
+    }    
     
     .payment-types {
         opacity: 0.35;
@@ -791,6 +855,8 @@ section#reasons {
 // SECTION
 
 section#first-testimonial {
+    padding: 4rem 0;
+
     p.testimonial {
         font-family: 'Roboto', sans-serif;
         font-style: italic;
@@ -805,6 +871,7 @@ section#first-testimonial {
         font-size: 1.5rem;
         font-weight: bold;
         color: #FFF;
+        margin-bottom: 0.5rem;
     }
 
     p.title {
@@ -830,8 +897,11 @@ section#arguments {
     }
     
     p.larger {
-        font-size: 1.2rem;
-        line-height: 1.65rem;
+        font-size: 1.4rem;
+        line-height: inherit;
+        margin-bottom: 3rem;
+        text-align: left;
+        font-weight: 300;
     }
     
     .flex-box {
@@ -914,31 +984,78 @@ section#arguments {
 // SECTION
 
 section#testimonials {
-    .testimonial {
-        background: #9595950a;            
-        border-radius: 8px;
-        overflow: hidden;
-        margin: 6px 0;
-
-        h3 {
-            font-size: 1.25rem;
-        }
-
-        p {
-            font-size: 0.95rem;
-            line-height: 21px;
-        }
-
-        img {
-            width: 15px;
-            height: 15px;
-        }
+    .testimonials {
+        position: relative;
         
-        &.empty {
-            width: 100px;
-            background: linear-gradient(270deg, #FFFFFFdd, transparent);
+        img {
+            width: 100%;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .circle {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            filter: blur(120px);
+            -webkit-filter: blur(120px);
+            z-index: -1;
+            opacity: 0.65;
+
+            &.blue {
+                background: #3d9aeb;
+                right: 0;
+                bottom: 0;
+            }
+
+            &.yellow {
+                background: #ffcc00;
+            }
         }
     }
+
+    .stars-container {
+        .stars {
+            position: relative;
+            bottom: 3px;
+            width: 88px;
+
+            svg {
+                width: 90px;
+            }
+        }
+
+        span.reviews {
+            font-size: 0.95rem;
+        } 
+    }
+
+    // .testimonial {
+    //     background: #9595950a;            
+    //     border-radius: 8px;
+    //     overflow: hidden;
+    //     margin: 6px 0;
+
+    //     h3 {
+    //         font-size: 1.25rem;
+    //     }
+
+    //     p {
+    //         font-size: 0.95rem;
+    //         line-height: 21px;
+    //     }
+
+    //     img {
+    //         width: 15px;
+    //         height: 15px;
+    //     }
+        
+    //     &.empty {
+    //         width: 100px;
+    //         background: linear-gradient(270deg, #FFFFFFdd, transparent);
+    //     }
+    // }
 }
 
 // ============================================================
@@ -950,7 +1067,7 @@ section#methodology-intro {
 
     h2 {
         line-height: 2rem;
-        font-size: 1.5rem;
+        font-size: 1.35rem;
 
         @media(max-width: 768px) {
             line-height: 2.35rem;
@@ -1073,11 +1190,11 @@ section#methodology {
         position: absolute;
         z-index: 999;
         bottom: 0;
-        left: 0;
-        width: 100%;
+        left: 50px;
+        width: 87%;
         height: 110px;
         border-radius: 0 0 6px 6px;
-        background: linear-gradient(0deg, #0E0E0E 30%, transparent);
+        background: linear-gradient(0deg, #0d0d0d 30%, transparent);
         
         .scroll-downs {
             position: absolute;
@@ -1161,10 +1278,7 @@ section#methodology {
                     overflow-y: scroll;
                     position: relative;
                     padding: 10px 10px 85px 10px;
-                    background: #0a0a0a;
                     border-radius: 8px;
-                    border-top: 1px solid #333;
-                    border-bottom: 1px solid #333;
                     
                     &::-webkit-scrollbar {
                         background: #0c0c0c;
@@ -1256,7 +1370,7 @@ section#instructor {
 // SECTION
 
 section#investment-intro {
-    padding: 8rem 0;
+    padding: 4rem 0;
     position: relative;
     overflow: initial;
 
@@ -1267,8 +1381,83 @@ section#investment-intro {
 
     h2:not(.intro) {
         font-size: 2.5rem;
+        line-height: 2.75rem;
         color: #FFF;
         font-weight: 800;
+        margin-bottom: 6rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+        line-height: inherit;
+        margin: 3rem 0;
+        text-align: left;
+        font-weight: 300;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 8rem 0;
+
+        li {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px;
+            border-bottom: 1px dashed #fff5;
+            position: relative;
+
+            span.description {
+                flex: 0.75;
+                font-size: 1.3rem;
+                line-height: 1.65rem;
+                font-weight: 300;
+                text-align: left;
+                
+                img {
+                    width: 30px;
+                    margin-right: 8px;
+                }
+            }
+
+            span.price {
+                font-size: 2rem;
+                font-weight: bold;
+                color: #FFF;
+
+                span.currency-symbol {
+                    font-size: 0.85rem;
+                    font-weight: 400;
+                    color: #ffcc00;
+                    width: 28px;
+                    display: inline-block;
+                }
+            }
+
+            &.highlight {
+                border-bottom-color: #ffcc00;
+            }
+
+            &:last-child {
+                border-bottom-color: #ffcc00;
+                background-color: #ffcc000c;
+
+                span.description {
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    color: #FFF;
+                }
+
+                div.line-through {
+                    position: absolute;
+                    width: 116px;
+                    border-bottom: 2px solid #fff9;
+                    right: 10px;
+                }
+            }
+        }
     }
 
     .star-struck {
@@ -1283,7 +1472,7 @@ section#investment-intro {
 
         &.star-struck-2 {
             width: 50px;
-            bottom: 1vh;
+            bottom: 70vh;
             left: 5vw;
             animation: float-2 8s ease-in-out 2s infinite;
         }
@@ -1298,23 +1487,84 @@ section#investment-intro {
         &.star-struck-4 {
             width: 100px;
             right: 3vw;
-            bottom: 0;
+            bottom: 30vh;
             animation: float-2 7s ease-in-out 1s infinite;
         }
 
         &.star-struck-5 {
             width: 40px;
-            right: 35vw;
+            right: 30vw;
             bottom: -120px;
-            animation: float-2 7s ease-in-out 1s infinite;
+            animation: float-2 10s ease-in-out 1s infinite;
         }
 
         &.star-struck-6 {
             width: 100px;
-            left: 35vw;
+            left: 25vw;
             bottom: -140px;
-            animation: float-2 7s ease-in-out 1s infinite;
+            animation: float-2 5.5s ease-in-out 1s infinite;
             z-index: 99;
+        }
+
+        @media(max-width: 992px) {
+            display: none;
+        }
+    }
+
+    @media(max-width: 992px) {
+        overflow: hidden;
+    }
+
+    @media(max-width: 500px) {
+        p {
+            font-size: 1.35rem;
+            margin: 2rem 0;
+        }
+    
+        ul {
+            margin: 0 0 4rem 0;
+    
+            li {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                padding: 16px;
+                border-bottom: 1px dashed #fff5;
+                position: relative;
+    
+                span.description {
+                    font-size: 1.15rem;
+                    line-height: inherit;
+                    
+                    img {
+                        width: 23px;
+                        margin-right: 6px;
+                    }
+                }
+    
+                span.price {
+                    font-size: 1.65rem;
+    
+                    span.currency-symbol {
+                        width: 24px;
+                    }
+                }
+    
+                &:last-child {
+                    border-bottom-color: #ffcc00;
+                    background-color: #ffcc000c;
+    
+                    span.description {
+                        font-size: 1.25rem;
+                        line-height: 1.5rem;
+                    }
+    
+                    div.line-through {
+                        width: 100px;
+                    }
+                }
+            }
         }
     }
 }
@@ -1350,9 +1600,11 @@ section#investment {
                 background-image: url("/assets/svg/jornada-python-v4/circle-bground.svg");            
                 
                 .heading-3 {
+                    text-transform: uppercase;
+                    font-weight: 400;
                     color: var(--white);
-                    font-size: 1.8rem;
-                    line-height: 2.5rem;
+                    font-size: 1.25rem;
+                    letter-spacing: 5px;
                 }
                 
                 .price {
@@ -1512,6 +1764,7 @@ section#investment {
 
 section#faq-intro {
     position: relative;
+    padding: 4.5rem 0;
 
     .bground {
         background-image: url("/assets/img/jornada-python-v4/whatsapp-bground.png");

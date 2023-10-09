@@ -1,0 +1,37 @@
+body {
+    background-color: #111;
+}
+
+main {
+    padding-top: 15vh;
+
+    div.python-30-days {
+        img.logo {
+            margin-top: 23vh;
+        }
+    }        
+
+    @media(max-width: 1200px) {
+        div.python-30-days {
+            img.logo {
+                margin-top: 16vh;
+            }
+        }
+    }
+
+    @media(max-width: 992px) {
+        div.python-30-days {
+            img.logo {
+                margin-top: 3vh;
+            }
+        }
+    }
+
+    @media(max-width: 767px) {
+        div.python-30-days {
+            img.logo {
+                margin-top: 3vh;
+            }
+        }
+    }
+}

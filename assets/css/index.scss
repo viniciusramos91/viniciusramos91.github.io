@@ -39,7 +39,7 @@
 }
 
 body {
-    background-color: #0f0e15;
+    background-color: #111;
 }
 
 .header {        
@@ -72,23 +72,25 @@ body {
 }
 
 section#new-headline {
-    background: linear-gradient(0deg, #060810, #0c0a1a);
+    background: linear-gradient(0deg, #111, #000000);
 
     .headline-inner {
         // background: url("/assets/img/jornada-python/banner-img.webp") center bottom no-repeat;
         background: url("/assets/img/video-bground-md.png") center top no-repeat;
-        background-size: 1200px;
+        background-size: 1300px;
         width: 100%;
-        min-height: 90vh;
+        min-height: 86vh;
         display: flex;
         -webkit-box-align: center;
         text-align: center;
         align-items: center;
         -webkit-box-pack: center;
         justify-content: center;
-        -webkit-animation: bground-animation 5.25s cubic-bezier(0.05, 0.43, 0.03, 0.88) both;
-        animation: bground-animation 5.25s cubic-bezier(0.05, 0.43, 0.03, 0.88) both;
         
+        .jp-logo {
+            margin-bottom: 4rem;
+        }
+
         h1 {                
             font-family: var(--system-ui-font);    
             font-size: 4.2rem;
@@ -96,6 +98,7 @@ section#new-headline {
             line-height: 1.35;
             font-weight: 500;
             margin-bottom: 1rem;
+            margin-top: 0;
 
             .text-gradient {
                 background: -webkit-linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
@@ -121,6 +124,9 @@ section#new-headline {
 
         a {
             color: #333;
+            text-transform: uppercase;
+            font-family: var(--system-ui-font);
+            font-weight: bold;        
             text-shadow: unset;
             box-shadow:  0px 3px 20px #da9e3a91;
             background: linear-gradient(135deg, #ffda6b, #d79820);
@@ -132,70 +138,84 @@ section#new-headline {
             animation-iteration-count: infinite;
         }
 
-        // button {
-        //     background: #0e0d13;
-        //     padding: 16px;
-        //     width: 100%;
-        //     max-width: 450px;
-        //     border: 1px solid #201e2a;
-        //     box-shadow: 0 0 18px #00000088;
-        //     border-radius: 12px;
-        //     -webkit-animation: pulse;
-        //     animation: pulse;
-        //     -webkit-animation-duration: 1.5s;
-        //     animation-duration: 1.5s;             
-        //     -webkit-animation-iteration-count: infinite;   
-        //     animation-iteration-count: infinite;
-        //     transition: all 0.15s ease-in-out;
+        .stars-container {
+            margin-top: 18px;
+            text-align: center;
 
-        //     a {
-        //         font-family: 'Space grotesk', sans-serif;
-        //         color: #b9b6cb;
-        //         text-transform: uppercase;
-        //         font-size: 2.35rem;
+            .stars{
+                display: inline-block;
+                width: 77px;
+                overflow: hidden;
 
-        //         img {
-        //             width: 120px;
-        //             position: relative;
-        //             bottom: 2px;
-        //             margin-left: 6px;
-        //         }
-        //     }
+                svg {
+                    width: 80px;
+                    height: auto;
+                    fill: #fec600;
+                }
+            }    
+            
+            span.reviews {
+                position: relative;
+                bottom: 10px;
+                font-family: var(--system-ui-font);
+                color: #fffd;
+                font-size: 1.3rem;
+                text-transform: uppercase;
+                font-weight: 500;
+                letter-spacing: 1px;
+                padding-left: 6px;
+            }
 
-        //     &:hover {
-        //         border-color: #FFF;
-        //         box-shadow: 0px 4px 0px #1118;
-        //         -webkit-animation: none;
-        //         animation: none;
-
-        //         a {
-        //             color: #FFF;
-        //         }
-        //     }
-        // }
+            span.reviews-subheadline {
+                display: block;
+                font-family: var(--system-ui-font);
+                color: #fff7;
+                font-size: 1.15rem;
+                font-weight: 400;
+                letter-spacing: 1px;
+                position: relative;
+                bottom: 5px;
+            }
+        }
 
         @media(max-width: 768px) {                
             h1 {
-                font-size: 3.1rem;
+                font-size: 2.5rem;
                 margin-bottom: 2rem;
             }
 
-            button {
-                a {
-                    font-size: 1.75rem;
+            h2 {
+                font-size: 1.6rem;
+                margin-bottom: 3rem;
+            }
 
-                    img {
-                        width: 80px;
-                    }
-                }
+            a {
+                font-size: 1.4rem;
             }
         }
     
         @media(max-width: 576px) {
-            text-align: left;
+            text-align: center;
             min-height: 75vh;
             align-items: end;
             padding: 13rem 2px 8rem 2px;
+
+            .stars-container {
+                .stars{
+                    width: 52px;
+    
+                    svg {
+                        width: 55px;
+                    }
+                }    
+                
+                span.reviews {
+                    bottom: 9px;
+                    font-size: 1.1rem;
+                    letter-spacing: 0px;
+                    padding-left: 2px;
+                }
+            }
         }
     }  
     
@@ -206,14 +226,6 @@ section#new-headline {
         height: 67px;
         margin-top: 4rem;
     }
-    
-    @-webkit-keyframes bground-animation {
-        100% { background-size: 1400px }
-    }
-
-    @keyframes bground-animation {
-        100% { background-size: 1400px }
-    }    
 }
 
 section#headline {
@@ -388,6 +400,35 @@ section#headline {
     }
 }
 
+// 30 DAYS OF PYTHON
+// ================================================================
+
+section#python-newsletter {
+    background: linear-gradient(0deg, #141921, #0000);
+    padding-top: 6rem;
+    overflow: hidden;
+    border-bottom: 1px solid #222c3d;
+
+    div.python-30-days {
+        img.inbox {
+            display: block;
+            width: 100%;
+            max-width: 450px;
+        }
+    }
+
+    @media(max-width: 767px) {
+        div.python-30-days {
+            img.inbox {
+                margin: 0 auto 4rem auto;
+            }
+        }
+    }
+
+    @media(max-width: 500px) {
+        padding-top: 3.5rem;
+    }
+}
 
 // HEADER SECTION
 // ================================================================
@@ -517,7 +558,8 @@ section#headline {
         margin-bottom: 30px;
 
         img {
-            width: 100px;
+            width: 65px;
+            margin-bottom: 12px;
         }
 
         h2 {
@@ -537,7 +579,14 @@ section#headline {
 
         @media(max-width: 500px) {
             img {
-                width: 80px;
+                width: 60px;
+                margin-bottom: 8px;
+            }
+            h2 {
+                font-size: 1.75rem;
+            }
+            p {
+                font-size: 1.35rem;
             }
         }
     }
@@ -573,7 +622,7 @@ section#headline {
 
 #ebooks {
     padding: 96px 16px;
-    background-image: url("/assets/svg/stars-bground.svg"), linear-gradient(to bottom, #0a0712, #0f0e15);
+    background-image: url("/assets/svg/stars-bground.svg"),linear-gradient(to bottom, #111111, #000000);
 
     .section-header,
     .section-sub-header {
@@ -646,7 +695,7 @@ section#headline {
 
 #zen-of-python-section {
     padding: 96px 0;
-    background: linear-gradient(135deg, #0a0a0e, #181722);
+    background: linear-gradient(135deg, #0a0a0e, #111);
     border-top: 1px solid #ffffff0a;
     border-bottom: 1px solid #ffffff0a;
     box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.5);
