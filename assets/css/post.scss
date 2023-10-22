@@ -709,15 +709,15 @@ body#post-body {
                     animation-iteration-count: infinite;
                     
                     @-webkit-keyframes bubble {
-                        0%   { right: -50px; bottom: -50px; filter: blur(70px); opacity: 0.65; }
+                        0%   { bottom: -50px; filter: blur(70px); opacity: 0.65; }
                         50%  { bottom: 0; bottom: 0; filter: blur(80px); opacity: 0.5; }
-                        100% { right: -50px; bottom: -50px; filter: blur(70px); opacity: 0.65; }
+                        100% { bottom: -50px; filter: blur(70px); opacity: 0.65; }
                     }
                     
                     @keyframes bubble {
-                        0%   { right: -50px; bottom: -50px; filter: blur(70px); opacity: 0.65; }
+                        0%   { bottom: -50px; filter: blur(70px); opacity: 0.65; }
                         50%  { bottom: 0; bottom: 0; filter: blur(80px); opacity: 0.5; }
-                        100% { right: -50px; bottom: -50px; filter: blur(70px); opacity: 0.65; }
+                        100% { bottom: -50px; filter: blur(70px); opacity: 0.65; }
                     }
                  }
             }

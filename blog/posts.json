@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Como conectar o Django (Python) ao MySQL",
+      "title": "Como conectar o Django (Python) ao MySQL",
+      "href": "/blog/como-conectar-o-django-ao-mysql",
+      "slug": "como-conectar-o-django-ao-mysql",
+      "assets": "django-mysql",
+      "author": "Vinícius R",
+      "description": "<p>Chega de usar o SQLite nas suas aplicações. Aprenda a conectar o poderoso SGBD MySQL à sua aplicação Web Django!</p>",
+      "header_color": "#0e4832",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "22",
+         "month": "10",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Como conectar o Django (Python) ao Banco de Dados PostgreSQL",
       "title": "Como conectar o Django (Python) ao Banco de Dados PostgreSQL",
       "href": "/blog/como-conectar-o-django-ao-postgresql",
