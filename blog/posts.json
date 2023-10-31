@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Manipulando Arquivos PDF com Python",
+      "title": "Manipulando Arquivos PDF com Python",
+      "href": "/blog/manipulando-arquivos-pdf-com-python",
+      "slug": "manipulando-arquivos-pdf-com-python",
+      "assets": "python-pdf",
+      "author": "Vinícius R",
+      "description": "<p>Nesse artigo você vai aprender a manipular arquivos PDF com Python e PyPDF2</p>",
+      "header_color": "#043344",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "31",
+         "month": "10",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "O Pacote Collections do Python",
       "title": "O Pacote Collections do Python",
       "href": "/blog/o-pacote-collections-do-python",
