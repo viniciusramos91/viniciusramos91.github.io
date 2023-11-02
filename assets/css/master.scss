@@ -2381,11 +2381,30 @@ div.python-30-days {
     }
 }
 
-.jornada-python-in-post {
-    background: #111;
-    border-radius: 12px;
-    margin: 30px;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.75);
+.jornada-python-in-post {    
+    // background: #111;
+    // border-radius: 12px;
+    // margin: 30px;
+    // box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.75);
+
+    img.in-post-banner,
+    img.in-post-banner-xs {
+        border: 1px solid #181818;
+        border-radius: 12px;
+        box-shadow: 0px 9px 16px rgba(0, 0, 0, 0.65);
+        transition: all 0.15s ease-in-out;
+
+        &:hover {
+            border-color: #086d52;
+        }
+    }
+
+    img.in-post-banner-xs { display: none }
+
+    @media(max-width: 500px) {
+        img.in-post-banner    { display: none }
+        img.in-post-banner-xs { display: block }
+    }
 
     .inner {
         text-align: center;
