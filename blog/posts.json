@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Manipulando JSON com Python",
+      "title": "Manipulando JSON com Python",
+      "href": "/blog/como-manipular-json-no-python",
+      "slug": "como-manipular-json-no-python",
+      "assets": "json",
+      "author": "Vinícius R",
+      "description": "<p>Nesse artigo você vai aprender a manipular dados em JSON utilizando Python de uma maneira simples e eficiente!</p>",
+      "header_color": "#636e72",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "02",
+         "month": "11",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Manipulando Arquivos PDF com Python",
       "title": "Manipulando Arquivos PDF com Python",
       "href": "/blog/manipulando-arquivos-pdf-com-python",
