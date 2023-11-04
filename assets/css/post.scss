@@ -676,6 +676,199 @@ body#post-body {
         // IN POST 30 DAYS OF PYTHON
         // ================================================================
 
+        .sib-form {
+            position: relative;
+            
+            .sib-form-message-panel {
+                margin: 30px;
+                padding: 0.4375rem;
+                border: 1px solid;
+                font-size: 16px;
+                text-align: left;                
+                border-radius: 3px;    
+                display: none;            
+            }
+
+            #error-message {
+                color: #661d1d;
+                background-color: #ffeded;
+                border-color: #ff4949;
+            }
+
+            #success-message {
+                color: #085229;
+                background-color: #e7faf0;
+                border-color: #13ce66;   
+            }
+
+            #sib-container {
+                background-color: #ffffff07; 
+                border-radius: 8px; 
+                border-width: 0px; 
+                margin: 80px 30px 30px 30px;
+                display: flex;
+                padding: 0;
+                align-items: center;
+                overflow: hidden;
+                border: 1px solid #FFFFFF0A;
+
+                .sib-image {
+                    flex: 0.55;
+                    border-right: 1px solid #ffffff0a;
+
+                    img {
+                        position: relative;
+                        right: 7px;
+                        width: 100%;
+                        transform: scale(1.03);
+                    }
+                }
+
+                .sib-form {
+                    flex: 0.45;
+                    padding: 30px;
+                    margin: 0;
+
+                    form {
+                        .sib-form-block {
+                            padding: 0;
+                            word-wrap: break-word;
+                            outline: none;
+                            margin-bottom: 12px;
+
+                            img.logo {
+                                width: 100%;
+                                max-width: 380px;
+                            }
+
+                            .sib-text-form-block {
+                                p {
+                                    padding: 0;
+                                    font-size: 1.6rem;
+                                    font-weight: 300;
+                                }
+                            }
+
+                            label.entry__label {
+                                color: #999;
+                                font-weight: bold;
+                                text-transform: uppercase;
+                                font-size: 1.15rem;
+                                display: inline-block;
+                                margin-bottom: 4px;
+                                letter-spacing: 1px;
+                            }
+
+                            .entry__field {
+                                background: none;
+                                border: none;
+                                margin: 0;
+
+                                input {
+                                    background: #00000033;
+                                    width: 100%;
+                                    border: 1px solid #ffffff0a;
+                                    padding: 12px 16px;
+                                    font-size: 1.25rem;
+                                    color: #bbb;
+                                    font-family: var(--system-ui-font);
+                                    transition: all 0.15s ease;
+                                }
+                            }
+
+                            .call-to-action {
+                                width: 100%;
+                                font-size: 1.75rem;
+                                padding: 12px;
+                            }
+                        }
+
+                        .input--hidden {
+                            display: none;
+                        }
+
+                        .sib-captcha {
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+
+            .circle {
+                position: absolute;
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                filter: blur(80px);
+                -webkit-filter: blur(80px);
+                z-index: -1;
+                opacity: 0.5;                
+
+                &.yellow { 
+                    background: #ffcc00;
+                    left: 0;
+                    top: 44px;                    
+                }
+
+                &.blue { 
+                    background: #3d9aeb;
+                    right: 0;
+                    bottom: -150px;
+
+                    -webkit-animation: bubble;
+                    animation: bubble;
+                    -webkit-animation-duration: 4.5s;
+                    animation-duration: 4.5s;
+                    -webkit-animation-iteration-count: infinite;   
+                    animation-iteration-count: infinite;
+                    
+                    @-webkit-keyframes bubble {
+                        0%   { bottom: -50px; filter: blur(70px); opacity: 0.65; }
+                        50%  { bottom: 0; bottom: 0; filter: blur(80px); opacity: 0.5; }
+                        100% { bottom: -50px; filter: blur(70px); opacity: 0.65; }
+                    }
+                    
+                    @keyframes bubble {
+                        0%   { bottom: -50px; filter: blur(70px); opacity: 0.65; }
+                        50%  { bottom: 0; bottom: 0; filter: blur(80px); opacity: 0.5; }
+                        100% { bottom: -50px; filter: blur(70px); opacity: 0.65; }
+                    }
+                 }
+            }
+
+            @media(max-width: 992px) {
+                #sib-container {
+                    display: block;
+    
+                    .sib-image {
+                        display: none;
+                    }
+    
+                    .sib-form {
+                        flex: auto;
+                    }
+                }
+            }
+
+            @media(max-width: 768px) {
+                #sib-container {
+                    margin: 80px 0px 30px 0px;
+                }
+            }
+
+            @media(max-width: 500px) {
+                #sib-container {
+                    .sib-image {
+                        display: initial;
+                    }
+
+                    .sib-form {
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+
         .in-post-30-days-of-python {
             padding: 0;
             margin: 80px 30px 30px 30px;
