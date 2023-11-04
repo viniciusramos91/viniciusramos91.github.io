@@ -85,7 +85,7 @@
     "datePublished": "2018-04-08T00:00:00-03:00",
     "description": "Que tal criar um jogo em Python utilizando o framework Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do ZERO!",
     "headline": "Crie jogos com Kivy e Python",
-    "wordCount": 4162,
+    "wordCount": 4138,
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy"
@@ -355,14 +355,8 @@ uma repaginada e criamos uma “versão contemporânea” do jogo: o Pong Reborn
                         <button type="submit" class="call-to-action">Quero!</button>
                     </div>                    
                 </div>
-
+                
                 <div class="recaptcha">
-                    <script>
-                        function handleCaptchaResponse() {
-                            var event = new Event('captchaChange');
-                            document.getElementById('sib-captcha').dispatchEvent(event);
-                        }
-                    </script>
                     <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LfMcvMoAAAAANV_uBYuVh_2VMogRuQaupzsRRQV" data-callback="handleCaptchaResponse" style="direction:ltr"></div>
                 </div>
             </form>
@@ -1169,14 +1163,8 @@ discussão aqui embaixo!</p>
                         <button type="submit" class="call-to-action">Quero!</button>
                     </div>                    
                 </div>
-
+                
                 <div class="recaptcha">
-                    <script>
-                        function handleCaptchaResponse() {
-                            var event = new Event('captchaChange');
-                            document.getElementById('sib-captcha').dispatchEvent(event);
-                        }
-                    </script>
                     <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LfMcvMoAAAAANV_uBYuVh_2VMogRuQaupzsRRQV" data-callback="handleCaptchaResponse" style="direction:ltr"></div>
                 </div>
             </form>
@@ -1625,6 +1613,30 @@ bastante complicada! <img class="emoji" title=":pensive:" alt=":pensive:" src="h
 
 
 		<!-- Javascript -->		
+		<script type="text/javascript">
+			function handleCaptchaResponse() {
+				var event = new Event('captchaChange');
+				console.log(event);
+				document.getElementById('sib-captcha').dispatchEvent(event);
+			}
+			window.REQUIRED_CODE_ERROR_MESSAGE = 'Escolha um código de país';
+			window.LOCALE = 'pt';
+			window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
+			window.REQUIRED_ERROR_MESSAGE = "Este campo não pode ser deixado em branco. ";
+			window.GENERIC_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
+			
+			window.translation = {
+				common: {
+					selectedList: '{quantity} lista selecionada',
+					selectedLists: '{quantity} listas selecionadas'
+				}
+			};
+			
+			var AUTOHIDE = Boolean(0);
+		</script>
+		<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+		<script src="https://www.google.com/recaptcha/api.js?hl=pt"></script>
+
 		<script type="text/javascript">
 			// $(document).ready(function() {
 			// 	var requestSent = false;

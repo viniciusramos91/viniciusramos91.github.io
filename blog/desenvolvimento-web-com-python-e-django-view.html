@@ -85,7 +85,7 @@
     "datePublished": "2018-06-20T00:00:00-03:00",
     "description": "Nesse post, vamos tratar da camada View do Django. Nela, nós desenvolvemos a lógica de negócio da nossa aplicação. Vamos ver sobre rotas, processamento de requisições e respostas, utilização de formulários e muito mais!",
     "headline": "A Camada View do Django (Python)",
-    "wordCount": 7825,
+    "wordCount": 7813,
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view"
@@ -775,14 +775,8 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
                         <button type="submit" class="call-to-action">Quero!</button>
                     </div>                    
                 </div>
-
+                
                 <div class="recaptcha">
-                    <script>
-                        function handleCaptchaResponse() {
-                            var event = new Event('captchaChange');
-                            document.getElementById('sib-captcha').dispatchEvent(event);
-                        }
-                    </script>
                     <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LfMcvMoAAAAANV_uBYuVh_2VMogRuQaupzsRRQV" data-callback="handleCaptchaResponse" style="direction:ltr"></div>
                 </div>
             </form>
@@ -2452,6 +2446,30 @@ um pouco mais complexas pois muita coisa acontece implicitamente).</p>
 
 
 		<!-- Javascript -->		
+		<script type="text/javascript">
+			function handleCaptchaResponse() {
+				var event = new Event('captchaChange');
+				console.log(event);
+				document.getElementById('sib-captcha').dispatchEvent(event);
+			}
+			window.REQUIRED_CODE_ERROR_MESSAGE = 'Escolha um código de país';
+			window.LOCALE = 'pt';
+			window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
+			window.REQUIRED_ERROR_MESSAGE = "Este campo não pode ser deixado em branco. ";
+			window.GENERIC_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
+			
+			window.translation = {
+				common: {
+					selectedList: '{quantity} lista selecionada',
+					selectedLists: '{quantity} listas selecionadas'
+				}
+			};
+			
+			var AUTOHIDE = Boolean(0);
+		</script>
+		<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+		<script src="https://www.google.com/recaptcha/api.js?hl=pt"></script>
+
 		<script type="text/javascript">
 			// $(document).ready(function() {
 			// 	var requestSent = false;

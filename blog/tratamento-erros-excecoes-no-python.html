@@ -85,7 +85,7 @@
     "datePublished": "2023-01-09T00:00:00-03:00",
     "description": "Neste post você vai aprender a tratar erros e exceções utilizando o bloco try/except do Python!",
     "headline": "Tratamento de erros e exceções no Python com try/except",
-    "wordCount": 1071,
+    "wordCount": 1059,
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://pythonacademy.com.br/blog/tratamento-erros-excecoes-no-python"
@@ -376,14 +376,8 @@
                         <button type="submit" class="call-to-action">Quero!</button>
                     </div>                    
                 </div>
-
+                
                 <div class="recaptcha">
-                    <script>
-                        function handleCaptchaResponse() {
-                            var event = new Event('captchaChange');
-                            document.getElementById('sib-captcha').dispatchEvent(event);
-                        }
-                    </script>
                     <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LfMcvMoAAAAANV_uBYuVh_2VMogRuQaupzsRRQV" data-callback="handleCaptchaResponse" style="direction:ltr"></div>
                 </div>
             </form>
@@ -963,6 +957,30 @@
 
 
 		<!-- Javascript -->		
+		<script type="text/javascript">
+			function handleCaptchaResponse() {
+				var event = new Event('captchaChange');
+				console.log(event);
+				document.getElementById('sib-captcha').dispatchEvent(event);
+			}
+			window.REQUIRED_CODE_ERROR_MESSAGE = 'Escolha um código de país';
+			window.LOCALE = 'pt';
+			window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
+			window.REQUIRED_ERROR_MESSAGE = "Este campo não pode ser deixado em branco. ";
+			window.GENERIC_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
+			
+			window.translation = {
+				common: {
+					selectedList: '{quantity} lista selecionada',
+					selectedLists: '{quantity} listas selecionadas'
+				}
+			};
+			
+			var AUTOHIDE = Boolean(0);
+		</script>
+		<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+		<script src="https://www.google.com/recaptcha/api.js?hl=pt"></script>
+
 		<script type="text/javascript">
 			// $(document).ready(function() {
 			// 	var requestSent = false;

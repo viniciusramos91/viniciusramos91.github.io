@@ -85,7 +85,7 @@
     "datePublished": "2018-04-11T00:00:00-03:00",
     "description": "Nesse artigo, vamos abordar 5 motivos que irão te fazer começar a aprender Python ainda hoje!",
     "headline": "5 motivos para aprender Python AGORA!",
-    "wordCount": 1343,
+    "wordCount": 1331,
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://pythonacademy.com.br/blog/porque-aprender-python-5-motivos-para-aprender-agora"
@@ -413,14 +413,8 @@ Windows, Mac, Linux, iOS e Android!</p>
                         <button type="submit" class="call-to-action">Quero!</button>
                     </div>                    
                 </div>
-
+                
                 <div class="recaptcha">
-                    <script>
-                        function handleCaptchaResponse() {
-                            var event = new Event('captchaChange');
-                            document.getElementById('sib-captcha').dispatchEvent(event);
-                        }
-                    </script>
                     <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LfMcvMoAAAAANV_uBYuVh_2VMogRuQaupzsRRQV" data-callback="handleCaptchaResponse" style="direction:ltr"></div>
                 </div>
             </form>
@@ -956,6 +950,30 @@ um universo de 48 linguagens (como Java, C, Objective-C, C#, etc), tendo atingid
 
 
 		<!-- Javascript -->		
+		<script type="text/javascript">
+			function handleCaptchaResponse() {
+				var event = new Event('captchaChange');
+				console.log(event);
+				document.getElementById('sib-captcha').dispatchEvent(event);
+			}
+			window.REQUIRED_CODE_ERROR_MESSAGE = 'Escolha um código de país';
+			window.LOCALE = 'pt';
+			window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
+			window.REQUIRED_ERROR_MESSAGE = "Este campo não pode ser deixado em branco. ";
+			window.GENERIC_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
+			
+			window.translation = {
+				common: {
+					selectedList: '{quantity} lista selecionada',
+					selectedLists: '{quantity} listas selecionadas'
+				}
+			};
+			
+			var AUTOHIDE = Boolean(0);
+		</script>
+		<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+		<script src="https://www.google.com/recaptcha/api.js?hl=pt"></script>
+
 		<script type="text/javascript">
 			// $(document).ready(function() {
 			// 	var requestSent = false;
