@@ -7,14 +7,22 @@ main {
 
     div.python-30-days {
         img.logo {
-            margin-top: 23vh;
+            margin-top: 19vh;
         }
-    }        
 
+        .sib-form {
+            #sib-container {
+                .sib-form {
+                    padding: 0;
+                }
+            }
+        }
+    }     
+    
     @media(max-width: 1200px) {
         div.python-30-days {
             img.logo {
-                margin-top: 16vh;
+                margin-top: 13vh;
             }
         }
     }

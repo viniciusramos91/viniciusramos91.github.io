@@ -1766,9 +1766,149 @@ section#python-newsletter {
 }
 
 div.python-30-days {
-    img.logo {
-        width: 100%;
-        max-width: 450px;
+    // IN POST 30 DAYS OF PYTHON
+    // ================================================================
+
+    .sib-form {
+        position: relative;
+        
+        .sib-form-message-panel {
+            margin: 30px;
+            padding: 0.4375rem;
+            border: 1px solid;
+            font-size: 16px;
+            text-align: left;                
+            border-radius: 3px;    
+            display: none;            
+        }
+
+        #error-message {
+            color: #661d1d;
+            background-color: #ffeded;
+            border-color: #ff4949;
+        }
+
+        #success-message {
+            color: #085229;
+            background-color: #e7faf0;
+            border-color: #13ce66;   
+        }
+
+        #sib-container {
+            padding: 0;
+
+            .sib-form {
+                margin: 0;
+
+                form {
+                    .sib-form-block {
+                        padding: 0;
+                        word-wrap: break-word;
+                        outline: none;
+                        margin-bottom: 10px;
+
+                        img.logo {
+                            width: 100%;
+                            max-width: 500px;
+                            margin-bottom: 12px;
+                        }
+
+                        .sib-text-form-block {
+                            p {
+                                color: #ddd;
+                                padding: 0;
+                                font-size: 2rem;
+                                font-weight: 300;
+                            }
+                        }
+
+                        label.entry__error {
+                            display: none;
+                        }
+
+                        label.entry__label {
+                            color: #999;
+                            font-weight: bold;
+                            text-transform: uppercase;
+                            font-size: 1.15rem;
+                            display: inline-block;
+                            margin-bottom: 4px;
+                            letter-spacing: 1px;
+                        }
+
+                        .entry__field {
+                            background: none;
+                            border: none;
+                            margin: 0;
+
+                            input {
+                                background: #00000033;
+                                width: 100%;
+                                border: 1px solid #ffffff0a;
+                                padding: 12px 16px;
+                                font-size: 1.25rem;
+                                color: #bbb;
+                                font-family: var(--system-ui-font);
+                                transition: all 0.15s ease;
+                            }
+                        }
+
+                        .call-to-action {
+                            width: 100%;
+                            font-size: 1.6rem;
+                            padding: 10px;
+                            line-height: 21px;
+                        }
+                    }
+
+                    .input--hidden {
+                        display: none;
+                    }
+
+                    .sib-captcha {
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+
+        @media(max-width: 1200px) {
+            #sib-container {
+                .sib-form {
+                    form {
+                        .sib-form-block {
+                            img.logo {
+                                max-width: 450px;
+                                margin-bottom: 5px;
+                            }
+
+                            .sib-text-form-block {
+                                p {
+                                    font-size: 1.75rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @media(max-width: 992px) {
+            #sib-container {
+                display: block;
+
+                .sib-form {
+                    flex: auto;
+                    padding: 36px 0;
+                }
+            }
+        }
+
+        @media(max-width: 768px) {
+            #sib-container {
+                padding: 20px 0;
+            }
+        }
     }
 
     h3 {

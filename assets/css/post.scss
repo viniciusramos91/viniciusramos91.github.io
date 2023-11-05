@@ -718,15 +718,15 @@ body#post-body {
 
                     img {
                         position: relative;
-                        right: 7px;
+                        right: -14px;
                         width: 100%;
-                        transform: scale(1.03);
+                        transform: scale(1.07);
                     }
                 }
 
                 .sib-form {
                     flex: 0.45;
-                    padding: 30px;
+                    padding: 30px 30px 30px 60px;
                     margin: 0;
 
                     form {
@@ -846,6 +846,7 @@ body#post-body {
     
                     .sib-form {
                         flex: auto;
+                        padding: 36px;
                     }
                 }
             }
@@ -863,7 +864,7 @@ body#post-body {
                     }
 
                     .sib-form {
-                        padding: 20px;
+                        padding: 40px 20px 20px 20px;
                     }
                 }
             }
