@@ -423,6 +423,7 @@ body::-webkit-scrollbar-thumb {
         position: absolute;
         width: 100%;
         z-index: 999;
+        top: 38px;
 
         .navbar {
             .navbar-toggle {
