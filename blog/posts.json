@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Programação Assíncrona com Python",
+      "title": "Programação Assíncrona com Python",
+      "href": "/blog/programacao-assincrona-no-python",
+      "slug": "programacao-assincrona-no-python",
+      "assets": "python-async",
+      "author": "Vinícius R",
+      "description": "<p>Nesse artigo, vamos desvendar os mistérios da programação assíncrona no Python!</p>",
+      "header_color": "#ffcc00",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "22",
+         "month": "11",
+         "year": "2023"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Como manipular JSON com Python",
       "title": "Como manipular JSON com Python",
       "href": "/blog/como-manipular-json-no-python",
