@@ -425,6 +425,15 @@ body::-webkit-scrollbar-thumb {
         z-index: 999;
         top: 38px;
 
+        // Banner da BF
+        @media(max-width: 626px) {
+            top: 59px;
+        }
+
+        @media(max-width: 344px) {
+            top: 80px;
+        }
+
         .navbar {
             .navbar-toggle {
                 .icon-bar {
