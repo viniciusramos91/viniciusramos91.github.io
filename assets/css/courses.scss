@@ -1,0 +1,139 @@
+body { 
+    background: #111;
+}
+
+h3 {
+    color: #FFF;
+    margin: 32px 0 48px 0;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+.box {
+    position: relative;
+    background: #000;
+    border: 1px solid #ffffff22;
+    border-radius: 8px;
+
+    .image {
+        img {
+            border-radius: 8px 8px 0 0;
+        }        
+    }
+
+    .information {
+        padding: 25px;
+
+        p {
+            font-size: 1.65rem;
+            color: #fffb;
+            margin-bottom: 16px;
+
+            &.mbottom {
+                margin-bottom: 28px;
+            }
+        }
+
+        span {
+            font-size: 1.65rem;
+            color: #fffd;
+            text-align: left;
+        }
+
+        small {
+            display: inline-block;
+            color: #fff9;
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-transform: uppercase;
+            font-size: 1.85rem;
+            font-weight: 1000;
+            display: inline-block;
+            width: 100%;
+            padding: 12px 0;            
+            letter-spacing: 1px;
+            border: 5px solid #000;            
+            transition: all 0.15s ease;
+
+            &.yellow {
+                background: #ffcc00;
+                color: #222;
+                outline: 1px solid #ffcc0044;
+
+                &:hover {
+                    outline: 1px solid #ffcc00aa;
+                }
+            }
+            
+            &.green {
+                background: #3ba17a;
+                color: #222;
+                outline: 1px solid #3ba17a44;
+
+                &:hover {
+                    outline: 1px solid #3ba17aaa;
+                }
+            }
+        }
+
+        &.flex {
+            padding: 15px;
+            gap: 5px;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .circle {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        filter: blur(80px);
+        -webkit-filter: blur(80px);
+        z-index: -1;
+        opacity: 0.5;     
+        
+        &.top-left {
+            left: 0;
+            top: 0;
+        }
+
+        &.bottom-right {
+            right: 0;
+            bottom: -44px;
+        }
+
+        &.yellow { 
+            background: #ffcc00;            
+        }
+
+        &.blue { 
+            background: #3d9aeb;            
+        }
+
+        &.green { 
+            background: #3ba17a;            
+        }
+    }
+
+    @media(max-width: 500px) {
+        margin-bottom: 18px;
+
+        .information {
+            a {
+                font-size: 1.35rem;
+            }
+        }
+    }
+}
+
+.testimonials {
+    img {
+        margin-bottom: 30px;
+    }
+}
