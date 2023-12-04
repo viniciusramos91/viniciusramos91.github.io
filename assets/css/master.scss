@@ -2921,7 +2921,7 @@ div.python-30-days {
                     flex-direction: row;
                     gap: 10px;
                     align-items: center;
-                    justify-content: center;
+                    justify-content: flex-start;
 
                     .image {
                         line-height: 0.9;
@@ -2990,6 +2990,16 @@ div.python-30-days {
             .box {
                 .features {
                     display: block;
+
+                    .feature {
+                        padding-left: 25%;
+
+                        .image {
+                            img {
+                                width: 20px;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -2998,7 +3008,7 @@ div.python-30-days {
     @media(max-width: 600px) {
         .wrapper {
             .box {
-                padding-bottom: 4200px;
+                padding-bottom: 420px;
 
                 .information {
                     a { font-size: 1.35rem }
@@ -3008,13 +3018,7 @@ div.python-30-days {
                 .features {
                     .feature {
                         gap: 6px;
-                        margin-bottom: 8px;
-
-                        .image {
-                            img {
-                                width: 15px;
-                            }
-                        }
+                        margin-bottom: 8px;                        
                     }
                 }
             }
@@ -3029,6 +3033,24 @@ div.python-30-days {
             .box {
                 .information {
                     padding: 170px 15px 15px 15px;
+                }
+
+                .features {
+                    .feature {
+                        padding-left: 15%;
+                    }
+                }
+            }
+        }        
+    }
+
+    @media(max-width: 380px) {
+        .wrapper {
+            .box {
+                .features {
+                    .feature {
+                        padding-left: 0;
+                    }
                 }
             }
         }        
