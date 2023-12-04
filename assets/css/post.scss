@@ -447,14 +447,21 @@ body#post-body {
             }
             
             blockquote {
-                margin-left: 30px;
+                margin: 30px;
                 font-style: italic;
-                color: #444;
+                color: #ffffffdd;
+                background: #ffffff07;
                 border-left: 4px solid #fff;
-                padding: 0 30px 0 20px !important;
+                padding: 15px 30px 15px 20px !important;
                 
                 p {
                     padding: 0 !important;
+                    margin: 0 !important;
+
+                    img {
+                        position: relative;
+                        top: 3px;
+                    }
                 }
             }
             
@@ -1635,4 +1642,5 @@ body#post-body {
 
 .font-white  { color: #ffffff }
 .font-yellow { color: #ffcc00 }
-.font-blue   { color: #3d9aeb}
+.font-blue   { color: #3d9aeb }
+.font-green  { color: rgb(57, 224, 160)}
