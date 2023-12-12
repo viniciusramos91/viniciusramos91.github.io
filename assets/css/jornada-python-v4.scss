@@ -313,7 +313,6 @@ section {
 
 .navbar {         
     position: fixed;   
-    top: 36px;
     border-radius: 0;
     margin-bottom: 0;
     min-height: 56px;
@@ -1621,7 +1620,7 @@ section#investment {
                 
                 .price {
                     font-family: 'Roboto', sans-serif;
-                    margin: 2.5rem 0;
+                    margin: 2rem 0 2.5rem 0;
 
                     .currency-symbol {
                         font-size: 1.5rem;
