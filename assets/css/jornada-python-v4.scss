@@ -72,11 +72,12 @@ body {
 
 p, ul li {
     color: var(--gray);
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 300;
+    line-height: 1.3;
 
     @media(max-width: 768px) {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
 }
 
@@ -85,7 +86,7 @@ b, strong {
 }
 
 section {
-    padding: 8rem 0;
+    padding: 4.5rem 0;
     overflow: hidden;
 
     @media(max-width: 768px) {
@@ -94,11 +95,9 @@ section {
 }
 
 .heading-intro {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-family: "Covered By Your Grace", cursive;
     margin-bottom: 10px;
-    font-size: 0.8rem;
+    font-size: 1.35rem;
     letter-spacing: 1px;
     
     img.heading-icon {
@@ -316,6 +315,7 @@ section {
     border-radius: 0;
     margin-bottom: 0;
     min-height: 56px;
+    top: 33px; // special-offer positioning
     padding: 0;
     border: 0;
     width: 100%;   
@@ -364,6 +364,10 @@ section {
             position: relative;
             top: 1px;
         }
+    }
+
+    @media(max-width: 769px) {
+        top: 21px; // special-offer positioning
     }
 }
 
@@ -686,7 +690,7 @@ section {
 section#hero {
     min-height: 85vh;
     padding-top: calc(8rem + 64px);
-    background: url("/assets/img/jornada-python-v4/noise-fill.png"), linear-gradient(315deg, rgba(0,90,255,0.0666667) 20%, #000 70%, #ffcc0033);
+    background: url("/assets/img/jornada-python-v4/noise-fill.png"), #000;
 
     #parallax-scene {
         width: 100%;
@@ -722,7 +726,7 @@ section#hero {
 // SECTION
 
 section#pitch {
-    padding-top: 12rem;
+    padding-top: 8rem;
 
     h2 {
         font-size: 2.1rem;
@@ -789,6 +793,65 @@ section#reasons {
     .heading-3 {
         font-size: 1.4rem;
         margin-bottom: 4rem;
+    }
+
+    .scenario {
+        display: flex;
+        align-items: center;
+
+        .image {
+            flex: 0.25;
+
+            img {
+                border-radius: 16px;
+                transform: rotate(-4deg);
+            }
+        }
+
+        .floating {
+            flex: 0.75;
+            
+            ul {
+                list-style: none;
+                padding: 12px 0;
+                margin: 0;
+                position: relative;
+                right: 24px;
+
+                li {
+                    background: #161718;
+                    border: 1px solid #222;
+                    border-radius: 8px;
+                    padding: 10px 16px;
+                    margin: 12px 0;
+
+                    img {
+                        width: 34px;
+                        opacity: 0.85;
+                        margin-right: 12px;
+                    }
+
+                    span {
+                        font-size: 1.2rem;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+        @media(max-width: 992px) {
+            display: block;
+
+            .image {
+                display: none;
+            }
+
+            .floating {
+                ul {
+                    right: 0;
+                }
+            }
+        }
     }
     
     .feature {
@@ -918,6 +981,42 @@ section#arguments {
         height: 320px;
         margin: 64px 0;
         position: relative;
+
+        .salary {
+            border-radius: 8px;
+            padding: 1px;
+            margin-bottom: 1rem;
+            background: linear-gradient(180deg, #ffffff33, rgba(0,0,0,0));
+
+            .salary-inner {
+                background: #161718;
+                padding: 26px 10px;
+                border-radius: 8px;
+                text-align: center;
+
+                p.heading {
+                    color: #999;
+                    font-size: 0.8rem;
+                    letter-spacing: 1px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    margin-bottom: 0.4rem;
+                }
+                
+                p.earning {
+                    font-size: 1.75rem;
+                    color: #ddd;
+                    font-weight: 700;
+                    margin: 0;
+                }
+
+                p.earning-real {
+                    font-size: 0.95rem;
+                    color: #FFF;
+                    margin: 0;
+                }
+            }
+        }
         
         .salaries-br {
             transform: skew(7deg, 4deg);
@@ -1058,6 +1157,7 @@ section#testimonials {
 // SECTION
 
 section#methodology-intro {
+    background: linear-gradient(0deg, #141921 0%, #00000000 30%);
     padding: 7rem 0 10rem 0;
     position: relative;
 
@@ -1359,6 +1459,58 @@ section#instructor {
         h2 {
             font-size: 2.5rem;
         }
+    }
+}
+
+// ============================================================
+// SECTION
+
+section#bonus {
+    padding: 4rem 0;
+    
+    .bonus {
+        border: 1px solid #ffffff17;
+        border-radius: 8px;
+        overflow: hidden;
+        position: relative;
+
+        &.ebook {
+            padding: 24px;
+
+            p.heading {
+                font-family: 'Covered by your Grace', cursive;
+                text-transform: lowercase;
+                color: #3788cf;
+            }
+            
+            p.heading,
+            p.title,
+            p.description {
+                padding-right: 134px;
+                text-align: left;
+            }
+
+            p.title {
+                color: #FFF;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+
+            p.description {
+                font-size: 1.05rem;
+            }
+
+            img.ebook-cover {
+                width: 170px;
+                position: absolute;
+                right: -25px;
+                bottom: 9px;
+                transform: rotate(10deg);
+                border-radius: 5px;
+                box-shadow: 0 0 25px rgb(0,0,0);
+            }
+        }        
     }
 }
 

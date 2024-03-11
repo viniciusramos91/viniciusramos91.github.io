@@ -72,7 +72,7 @@ body {
 }
 
 section#new-headline {
-    background: linear-gradient(0deg, #111, #000000);
+    background: #070707;
 
     .headline-inner {
         // background: url("/assets/img/jornada-python/banner-img.webp") center bottom no-repeat;
@@ -404,7 +404,7 @@ section#headline {
 // ================================================================
 
 section#python-newsletter {
-    background: linear-gradient(0deg, #141921, #0000);
+    background: linear-gradient(0deg, #141921 0%, #070707 5%);
     padding-top: 6rem;
     overflow: hidden;
     border-bottom: 1px solid #222c3d;

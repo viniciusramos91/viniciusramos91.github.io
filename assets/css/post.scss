@@ -313,6 +313,18 @@ body#post-body {
                     }
                 }
             }
+
+            @media(max-width: 450px) {
+                .inner-content {
+                    display: block;
+
+                    div.image {
+                        img {
+                            display: none;
+                        }
+                    }
+                }
+            }
         }        
     }
     
