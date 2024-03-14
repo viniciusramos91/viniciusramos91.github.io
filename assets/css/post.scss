@@ -1766,3 +1766,130 @@ body#post-body {
     from { opacity: 1; }
     to { opacity: 0; }
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.7);
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+
+    .modal-content {
+        background-color: #1f2122;
+        margin: 5% auto;
+        position: relative;
+        padding: 32px;
+        border: 1px solid #2d3132;
+        max-width: 600px;
+        width: 90%;
+        border-radius: 4px;
+        animation-name: fadeIn;
+        animation-duration: 0.4s;
+
+        h4 {
+            font-size: 2rem;
+            padding-right: 40px;
+            margin-top: 0;
+            color: #FFF;
+        }
+
+        p {
+            color: #ddd;
+            font-size: 1.65rem;
+        }
+
+        img {
+            margin: 0 auto 26px auto;
+            display: block;
+        }
+    
+        .close {
+            position: absolute;
+            color: #777;
+            right: 32px;
+            top: 19px;
+            font-size: 36px;
+            font-weight: bold;
+            transition: all 0.15s ease;
+
+            &:hover,
+            &:focus {
+                color: #ccc;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+
+        a {
+            width: 100%;
+            display: block;
+            text-align: center;
+            padding: 12px;
+            background: #ffcc00;
+            border: 1px solid transparent;
+            text-transform: uppercase;
+            color: #333;
+            font-size: 1.95rem;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: all 0.15s ease;
+
+            &:hover {
+                background: #1489f1;
+                color: white;
+                outline: 6px solid #80b5e933;
+                border: 1px solid #ffffff55;
+            }
+        }
+    }
+
+    .yellow-blur {
+        background: #ffcc00;
+        width: 750px;
+        height: 750px;
+        filter: blur(180px);
+        position: absolute;
+        top: -300px;
+        left: -300px;
+        border-radius: 50%;
+        opacity: 0.35;
+    }
+
+    .blue-blur {
+        background: #3498db;
+        width: 500px;
+        height: 500px;
+        filter: blur(180px);
+        position: absolute;
+        bottom: -250px;
+        right: -250px;
+        border-radius: 50%;
+        opacity: 0.5;
+    }
+
+    @media(max-width: 1500px) {
+        .modal-content {
+            margin: 130px auto;
+        }
+
+        .blue-blur,
+        .yellow-blur {
+            display: none;
+        }
+    }
+
+    @media(max-width: 450px) {
+        .modal-content {
+            margin-top: 70px;
+            a {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
