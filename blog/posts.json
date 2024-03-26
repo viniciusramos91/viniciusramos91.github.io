@@ -2,6 +2,44 @@
     
     
     {
+      "h1": "WebScraping com Python e BeautifulSoup",
+      "title": "WebScraping com Python e BeautifulSoup",
+      "href": "/blog/web-scraping-com-python-e-beautifulsoup",
+      "slug": "web-scraping-com-python-e-beautifulsoup",
+      "assets": "python-beautiful-soup",
+      "author": "Vinícius R",
+      "description": "<p>Nesse artigo você vai aprender a desenvolver aplicações WebScraping utilizando Python e BeautifulSoup</p>",
+      "header_color": "#043344",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "25",
+         "month": "03",
+         "year": "2024"
+      }
+    }
+    ,
+    
+    
+    {
+      "h1": "O que é WebScraping",
+      "title": "O que é WebScraping",
+      "href": "/blog/o-que-e-webscraping",
+      "slug": "o-que-e-webscraping",
+      "assets": "python-webscraping",
+      "author": "Vinícius R",
+      "description": "<p>Nesse artigo você verá uma Introdução aos principais conceitos relacionadoas ao WebScraping</p>",
+      "header_color": "#00b4f2",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "24",
+         "month": "03",
+         "year": "2024"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Programação Assíncrona com Python",
       "title": "Programação Assíncrona com Python",
       "href": "/blog/programacao-assincrona-no-python",
