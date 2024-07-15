@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Aprenda sobre Concorrência e Paralelismo em Python",
+      "title": "Aprenda sobre Concorrência e Paralelismo em Python",
+      "href": "/blog/aprenda-sobre-concorrencia-e-paralelismo-em-python",
+      "slug": "aprenda-sobre-concorrencia-e-paralelismo-em-python",
+      "assets": "concurrency",
+      "author": "Erickson L",
+      "description": "<p>Vamos explorar os principais conceitos de concorrência e paralelismo em Python! Aprenda sobre threads, processos, programação assíncrona e como usar essas técnicas para tornar seus programas mais rápidos e responsivos.</p>",
+      "header_color": "#40739e",
+      "author_avatar": "/assets/authors/erickson-lopes/avatar.webp",
+      "date": {
+         "day": "15",
+         "month": "07",
+         "year": "2024"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "WebScraping com Python e BeautifulSoup",
       "title": "WebScraping com Python e BeautifulSoup",
       "href": "/blog/web-scraping-com-python-e-beautifulsoup",
