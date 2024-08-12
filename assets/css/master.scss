@@ -685,6 +685,11 @@ article.card-article {
                 display: table-cell;
                 vertical-align: middle;
                 text-align: left;
+
+                code {
+                    color: #aaa;
+                    background-color: transparent;
+                }
             }
     
             .card-excerpt p {

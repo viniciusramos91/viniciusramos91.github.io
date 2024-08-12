@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Pra que serve o `__init__.py` em Python?",
+      "title": "Pra que serve o `__init__.py` em Python?",
+      "href": "/blog/pra-que-serve-__init__-py-no-python",
+      "slug": "pra-que-serve-__init__-py-no-python",
+      "assets": "pra-que-serve-o-init-py-em-python",
+      "author": "Vinícius R",
+      "description": "<p>Entenda o que é o <strong>init</strong>.py e como ele é utilizado em projetos Python.</p>",
+      "header_color": "#5485e5",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "12",
+         "month": "08",
+         "year": "2024"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Filas em Python (queues)",
       "title": "Filas em Python",
       "href": "/blog/como-gerenciar-filas-em-python-com-a-biblioteca-queue",

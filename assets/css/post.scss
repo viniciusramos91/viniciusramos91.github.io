@@ -505,14 +505,27 @@ body#post-body {
             h2 {
                 font-size: 2.75rem;
                 margin: 3rem 0 4.5rem 0;
+                text-decoration: underline;
+                text-decoration-color: #FFF7;
+                text-underline-offset: 15px;
+                text-decoration-style: dashed;
+                
             }
 
             h3 {
                 font-size: 2.25rem;
+                text-decoration: underline;
+                text-decoration-color: #FFF4;
+                text-underline-offset: 5px;
+                text-decoration-style: dotted;
             }
 
             h4 {
                 font-size: 1.95rem;
+                text-decoration: underline;
+                text-decoration-color: #FFF3;
+                text-underline-offset: 5px;
+                text-decoration-style: dotted;
             }
             
             ul, ol {
