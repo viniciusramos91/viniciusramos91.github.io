@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "O que é o Django Rest Framework?",
+      "title": "O que é o Django Rest Framework?",
+      "href": "/blog/o-que-e-o-django-rest-framework",
+      "slug": "o-que-e-o-django-rest-framework",
+      "assets": "drf-intro",
+      "author": "Vinícius R",
+      "description": "<p>Entenda o que é o Django Rest Framework e como ele pode facilitar o desenvolvimento de APIs REST em Django.</p>",
+      "header_color": "#0b3022",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "27",
+         "month": "08",
+         "year": "2024"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Pra que serve o `__init__.py` em Python?",
       "title": "Pra que serve o `__init__.py` em Python?",
       "href": "/blog/pra-que-serve-__init__-py-no-python",
