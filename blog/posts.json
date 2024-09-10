@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Serializadores (Serializers) no Django Rest Framework",
+      "title": "Serializadores (Serializers) no Django Rest Framework",
+      "href": "/blog/serializers-no-django-rest-framework",
+      "slug": "serializers-no-django-rest-framework",
+      "assets": "drf-serializers",
+      "author": "Vinícius R",
+      "description": "<p>Aprenda a configurar e utilizar Serializadores (Serializers) no Django Rest Framework para criar APIs REST.</p>",
+      "header_color": "#a32626",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "10",
+         "month": "09",
+         "year": "2024"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Configurando um projeto Django Rest Framework",
       "title": "Configurando um projeto Django Rest Framework",
       "href": "/blog/configurando-um-projeto-django-rest-framework",
