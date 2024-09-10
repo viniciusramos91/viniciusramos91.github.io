@@ -2,8 +2,8 @@
     
     
     {
-      "h1": "Serializadores (Serializers) no Django Rest Framework",
-      "title": "Serializadores (Serializers) no Django Rest Framework",
+      "h1": "Serializadores (Serializers) no Django Rest Framework (DRF)",
+      "title": "Serializadores (Serializers) no Django Rest Framework (DRF)",
       "href": "/blog/serializers-no-django-rest-framework",
       "slug": "serializers-no-django-rest-framework",
       "assets": "drf-serializers",
@@ -21,8 +21,8 @@
     
     
     {
-      "h1": "Configurando um projeto Django Rest Framework",
-      "title": "Configurando um projeto Django Rest Framework",
+      "h1": "Configurando um projeto Django Rest Framework (DRF)",
+      "title": "Configurando um projeto Django Rest Framework (DRF)",
       "href": "/blog/configurando-um-projeto-django-rest-framework",
       "slug": "configurando-um-projeto-django-rest-framework",
       "assets": "drf-setup",
@@ -40,13 +40,13 @@
     
     
     {
-      "h1": "O que é o Django Rest Framework?",
-      "title": "O que é o Django Rest Framework?",
+      "h1": "O que é o Django Rest Framework (DRF)?",
+      "title": "O que é o Django Rest Framework (DRF)?",
       "href": "/blog/o-que-e-o-django-rest-framework",
       "slug": "o-que-e-o-django-rest-framework",
       "assets": "drf-intro",
       "author": "Vinícius R",
-      "description": "<p>Entenda o que é o Django Rest Framework e como ele pode facilitar o desenvolvimento de APIs REST em Django.</p>",
+      "description": "<p>Entenda o que é o Django Rest Framework (DRF) e como ele pode facilitar o desenvolvimento de APIs REST em Django.</p>",
       "header_color": "#a32626",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
       "date": {
