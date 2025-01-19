@@ -2,42 +2,6 @@
     --system-ui-font: system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
 }
 
-@font-face {
-    font-family: 'SpaceGrotesk';
-    font-weight: 1000;
-    src: url('/assets/fonts/space-grotesk/SpaceGrotesk-Bold.woff2') format('woff2'),
-    url('/assets/fonts/space-grotesk/SpaceGrotesk-Bold.otf') format('otf'),
-    url('/assets/fonts/space-grotesk/SpaceGrotesk-Bold.ttf') format('truetype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SpaceGrotesk';
-    font-weight: 700;
-    src: url('/assets/fonts/space-grotesk/SpaceGrotesk-Medium.woff2') format('woff2'),
-    url('/assets/fonts/space-grotesk/SpaceGrotesk-Medium.otf') format('otf'),
-    url('/assets/fonts/space-grotesk/SpaceGrotesk-Medium.ttf') format('truetype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SpaceGrotesk';
-    font-weight: 400;
-    src: url('/assets/fonts/space-grotesk/SpaceGrotesk-Regular.woff2') format('woff2'),
-    url('/assets/fonts/space-grotesk/SpaceGrotesk-Regular.otf') format('otf'),
-    url('/assets/fonts/space-grotesk/SpaceGrotesk-Regular.ttf') format('truetype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SpaceGrotesk';
-    font-weight: 100;
-    src: url('/assets/fonts/space-grotesk/SpaceGrotesk-Light.woff2') format('woff2'),
-    url('/assets/fonts/space-grotesk/SpaceGrotesk-Light.otf') format('otf'),
-    url('/assets/fonts/space-grotesk/SpaceGrotesk-Light.ttf') format('truetype');
-    font-display: swap;
-}
-
 body {
     background-color: #111;
 }

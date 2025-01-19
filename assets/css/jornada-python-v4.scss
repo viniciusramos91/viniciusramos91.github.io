@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-    background: url("/assets/img/jornada-python-v4/noise-fill.png"), #000;
+    background: #000;
 }
 
 .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, p, li, a {
@@ -690,7 +690,7 @@ section {
 section#hero {
     min-height: 85vh;
     padding-top: calc(8rem + 64px);
-    background: url("/assets/img/jornada-python-v4/noise-fill.png"), #000;
+    background: #000;
 
     #parallax-scene {
         width: 100%;
@@ -787,7 +787,7 @@ section#pitch {
 // SECTION
 
 section#reasons {
-    background: url("/assets/img/jornada-python-v4/noise-fill.png"), linear-gradient(180deg, transparent 0%, #000 80%);
+    background: linear-gradient(180deg, transparent 0%, #000 80%);
     border-radius: 50px 50px 0 0;
     
     .heading-3 {
