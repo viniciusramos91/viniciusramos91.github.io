@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Introdução ao Pydantic: Validação e Modelagem de Dados Simplificada com Python",
+      "title": "Introdução ao Pydantic: Validação e Modelagem de Dados Simplificada com Python",
+      "href": "/blog/introducao-ao-pydantic-validacao-e-modelagem-de-dados-simplificada-com-python",
+      "slug": "introducao-ao-pydantic-validacao-e-modelagem-de-dados-simplificada-com-python",
+      "assets": "pydantic-intro",
+      "author": "Vinícius R",
+      "description": "<p>Nesse artigo veremos como utilizar o Pydantic para validação e modelagem de dados em Python de forma simplificada.</p>",
+      "header_color": "#636e72",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "19",
+         "month": "01",
+         "year": "2025"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Serializadores (Serializers) no Django Rest Framework (DRF)",
       "title": "Serializadores (Serializers) no Django Rest Framework (DRF)",
       "href": "/blog/serializers-no-django-rest-framework",
