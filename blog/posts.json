@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Modelos Aninhados no Pydantic: Trabalhando com Estruturas Complexas",
+      "title": "Trabalhando com Estruturas Complexas no Pydantic",
+      "href": "/blog/modelos-complexos-no-pydantic",
+      "slug": "modelos-complexos-no-pydantic",
+      "assets": "modelos-aninhados-no-pydantic-trabalhando-com-estruturas-complexas",
+      "author": "Vinícius R",
+      "description": "<p>Neste artigo, veremos como o Pydantic lida com modelos aninhados, permitindo representar relações entre dados em Python. Vamos explorar como o Pydantic lida com listas, dicionários e estruturas JSON complexas.</p>",
+      "header_color": "#00b4f2",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "19",
+         "month": "01",
+         "year": "2025"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Introdução ao Pydantic: Validação e Modelagem de Dados Simplificada com Python",
       "title": "Introdução ao Pydantic: Validação e Modelagem de Dados Simplificada com Python",
       "href": "/blog/introducao-ao-pydantic-validacao-e-modelagem-de-dados-simplificada-com-python",
@@ -12,7 +31,7 @@
       "header_color": "#636e72",
       "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
       "date": {
-         "day": "19",
+         "day": "18",
          "month": "01",
          "year": "2025"
       }
