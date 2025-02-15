@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Pydantic e Tipos Avançados: Personalizando a Validação de Dados",
+      "title": "Pydantic e Tipos Avançados: Personalizando a Validação de Dados",
+      "href": "/blog/pydantic-e-tipos-avancados",
+      "slug": "pydantic-e-tipos-avancados",
+      "assets": "pydantic-e-tipos-avancados",
+      "author": "Vinícius R",
+      "description": "<p>Neste artigo, abordaremos como trabalhar com tipos complexos como Decimal, UUID e DateTime, utilizar campos opcionais e valores padrão, implementar validações personalizadas com validator, e introduzir o uso de Field para configurar validações e metadados.</p>",
+      "header_color": "#273c75",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "15",
+         "month": "02",
+         "year": "2025"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Modelos Aninhados no Pydantic: Trabalhando com Estruturas Complexas",
       "title": "Trabalhando com Estruturas Complexas no Pydantic",
       "href": "/blog/modelos-complexos-no-pydantic",
