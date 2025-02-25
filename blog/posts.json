@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Trabalhando com datas no Python",
+      "title": "Trabalhando com datas no Python",
+      "href": "/blog/trabalhando-com-datas-no-python",
+      "slug": "trabalhando-com-datas-no-python",
+      "assets": "python-datas",
+      "author": "Vinícius R",
+      "description": "<p>Neste artigo, abordaremos o módulo datetime do Python, explorando desde operações básicas até manipulações avançadas de datas e horários.</p>",
+      "header_color": "#ffcc00",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "25",
+         "month": "02",
+         "year": "2025"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Pydantic e Tipos Avançados: Personalizando a Validação de Dados",
       "title": "Pydantic e Tipos Avançados: Personalizando a Validação de Dados",
       "href": "/blog/pydantic-e-tipos-avancados",
