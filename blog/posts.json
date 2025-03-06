@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Padrões de Projeto em Python (Design Patterns)",
+      "title": "Padrões de Projeto em Python (Design Patterns)",
+      "href": "/blog/padroes-de-projeto-em-python",
+      "slug": "padroes-de-projeto-em-python",
+      "assets": "dp-python-intro",
+      "author": "Vinícius R",
+      "description": "<p>Neste artigo, você aprenderá sobre Padrões de Projeto em Python (Design Patterns) e sua importância.</p>",
+      "header_color": "#2980b9",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "26",
+         "month": "02",
+         "year": "2025"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Trabalhando com datas no Python",
       "title": "Trabalhando com datas no Python",
       "href": "/blog/trabalhando-com-datas-no-python",
