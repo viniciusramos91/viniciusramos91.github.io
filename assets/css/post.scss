@@ -528,6 +528,10 @@ body#post-body {
                 text-underline-offset: 5px;
                 text-decoration-style: dotted;
             }
+
+            h4 {
+                font-size: 1.95rem;
+            }
             
             ul, ol {
                 list-style-image: url('/assets/img/post-list-style.png');
