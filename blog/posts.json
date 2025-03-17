@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Padrões de Projeto em Python (Design Patterns): Builder",
+      "title": "Padrões de Projeto em Python (Design Patterns): Builder",
+      "href": "/blog/padroes-de-projeto-em-python-builder",
+      "slug": "padroes-de-projeto-em-python-builder",
+      "assets": "dp-python-builder",
+      "author": "Vinícius R",
+      "description": "<p>Conheça o padrão de projeto Builder em Python, um dos Design Patterns mais utilizados no desenvolvimento de software.</p>",
+      "header_color": "#708277",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "28",
+         "month": "02",
+         "year": "2025"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Padrões de Projeto em Python (Design Patterns): Abstract Factory",
       "title": "Padrões de Projeto em Python (Design Patterns): Abstract Factory",
       "href": "/blog/padroes-de-projeto-em-python-abstract-factory",
