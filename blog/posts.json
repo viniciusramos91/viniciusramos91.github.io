@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Padrões de Projeto em Python (Design Patterns): Factory Method",
+      "title": "Padrões de Projeto em Python (Design Patterns): Factory Method",
+      "href": "/blog/padroes-de-projeto-em-python-factory-method",
+      "slug": "padroes-de-projeto-em-python-factory-method",
+      "assets": "dp-python-factory-method",
+      "author": "Vinícius R",
+      "description": "<p>Conheça o padrão de projeto Factory Method em Python, um padrão creacional que resolve o problema de instanciação de objetos.</p>",
+      "header_color": "#00b4f2",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "02",
+         "month": "03",
+         "year": "2025"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Padrões de Projeto em Python (Design Patterns): Builder",
       "title": "Padrões de Projeto em Python (Design Patterns): Builder",
       "href": "/blog/padroes-de-projeto-em-python-builder",

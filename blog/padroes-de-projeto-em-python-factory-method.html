@@ -18,7 +18,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1">		
 
-<title>Como importar arquivos CSV no Pandas (Python)</title>
+<title>Padrões de Projeto em Python (Design Patterns): Factory Method</title>
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">		
 
 <!-- Open Graph -->
@@ -26,32 +26,32 @@
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Python Academy">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Como importar arquivos CSV no Pandas (Python)">
-<meta property="og:url" content="https://pythonacademy.com.br/blog/importar-csv-no-pandas">
-<meta property="og:description" content="Esse post mostra como importar arquivos CSV usando a famosa biblioteca pandas! Bora que essa ferramenta é essencial pra quem quer começar na área de Data Science!">
-<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/pandas-csv/thumbnail.png">
-<meta property="og:image:secure_url" content="https://pythonacademy.com.br/assets/posts/pandas-csv/thumbnail.png">
-<meta property="og:image:alt" content="Como importar arquivos CSV no Pandas (Python)">
+<meta property="og:title" content="Padrões de Projeto em Python (Design Patterns): Factory Method">
+<meta property="og:url" content="https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-factory-method">
+<meta property="og:description" content="Conheça o padrão de projeto Factory Method em Python, um padrão creacional que resolve o problema de instanciação de objetos.">
+<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/dp-python-factory-method/thumbnail.png">
+<meta property="og:image:secure_url" content="https://pythonacademy.com.br/assets/posts/dp-python-factory-method/thumbnail.png">
+<meta property="og:image:alt" content="Padrões de Projeto em Python (Design Patterns): Factory Method">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
-<meta property="article:author" content="Leon S">
+<meta property="article:author" content="Vinícius R">
 <meta property="article:section" content="Tecnologia">    
-<meta property="article:published_time" content="2021-02-03">
-<meta property="article:modified_time" content="2021-02-03">
+<meta property="article:published_time" content="2025-03-02">
+<meta property="article:modified_time" content="2025-03-02">
 
 <!-- General -->
-<meta itemprop="description" name="description" content="Esse post mostra como importar arquivos CSV usando a famosa biblioteca pandas! Bora que essa ferramenta é essencial pra quem quer começar na área de Data Science!">		
-<meta name="title" content="Como importar arquivos CSV no Pandas (Python)">
-<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/pandas-csv/thumbnail.png">
+<meta itemprop="description" name="description" content="Conheça o padrão de projeto Factory Method em Python, um padrão creacional que resolve o problema de instanciação de objetos.">		
+<meta name="title" content="Padrões de Projeto em Python (Design Patterns): Factory Method">
+<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/dp-python-factory-method/thumbnail.png">
 
 <!-- Twitter cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-<meta name="twitter:title" content="Como importar arquivos CSV no Pandas (Python)">
-<meta name="twitter:description" content="Esse post mostra como importar arquivos CSV usando a famosa biblioteca pandas! Bora que essa ferramenta é essencial pra quem quer começar na área de Data Science!">
-<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/pandas-csv/thumbnail.png">
+<meta name="twitter:title" content="Padrões de Projeto em Python (Design Patterns): Factory Method">
+<meta name="twitter:description" content="Conheça o padrão de projeto Factory Method em Python, um padrão creacional que resolve o problema de instanciação de objetos.">
+<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/dp-python-factory-method/thumbnail.png">
 
 <meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
 
@@ -61,11 +61,11 @@
     "@type": "BlogPosting",
     "author": {
         "@type": "Person",
-        "name": "Leon S",
-        "url": "https://pythonacademy.com.br/autores/leon-solon",
+        "name": "Vinícius R",
+        "url": "https://pythonacademy.com.br/autores/vinicius-ramos",
         "image": {
             "@type": "ImageObject",
-            "url": "https://pythonacademy.com.br/assets/authors/leon-solon/avatar.png",
+            "url": "https://pythonacademy.com.br/assets/authors/vinicius-ramos/avatar.webp",
             "height": 152,
             "width": 152
         }
@@ -81,23 +81,23 @@
           "height": 630
         }
     },
-    "dateModified": "2021-02-03T00:00:00-03:00",
-    "datePublished": "2021-02-03T00:00:00-03:00",
-    "description": "Esse post mostra como importar arquivos CSV usando a famosa biblioteca pandas! Bora que essa ferramenta é essencial pra quem quer começar na área de Data Science!",
-    "headline": "Como importar arquivos CSV no Pandas (Python)",
-    "wordCount": 1834,
+    "dateModified": "2025-03-02T00:00:00-03:00",
+    "datePublished": "2025-03-02T00:00:00-03:00",
+    "description": "Conheça o padrão de projeto Factory Method em Python, um padrão creacional que resolve o problema de instanciação de objetos.",
+    "headline": "Padrões de Projeto em Python (Design Patterns): Factory Method",
+    "wordCount": 1873,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://pythonacademy.com.br/blog/importar-csv-no-pandas"
+        "@id": "https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-factory-method"
     },
-    "url": "https://pythonacademy.com.br/blog/importar-csv-no-pandas",
-    "thumbnailUrl": "https://pythonacademy.com.br/assets/posts/pandas-csv/thumbnail.png",
+    "url": "https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-factory-method",
+    "thumbnailUrl": "https://pythonacademy.com.br/assets/posts/dp-python-factory-method/thumbnail.png",
     "image": {
         "@type": "ImageObject",
-        "url": "https://pythonacademy.com.br/assets/posts/pandas-csv/thumbnail.png",
+        "url": "https://pythonacademy.com.br/assets/posts/dp-python-factory-method/thumbnail.png",
         "width": 1200,
         "height": 630,
-        "caption": "Como importar arquivos CSV no Pandas (Python)"
+        "caption": "Padrões de Projeto em Python (Design Patterns): Factory Method"
     }
 }
 </script>
@@ -145,7 +145,7 @@
 </style>
 
 <!-- Canonical URL -->
-<link rel="canonical" href="https://pythonacademy.com.br/blog/importar-csv-no-pandas">			
+<link rel="canonical" href="https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-factory-method">			
 
 		<!-- Assets -->
 		
@@ -178,7 +178,7 @@
 		<div class="main-container">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
-					<div class="post-banner-content" style="background: linear-gradient(180deg, #070707 60%, #11215e29 100%);">
+					<div class="post-banner-content" style="background: linear-gradient(180deg, #070707 60%, #00b4f229 100%);">
 						<div class="container">	
 							<div id="breadcrumbs">
     
@@ -189,27 +189,27 @@
       
     
       
-        / Como Importar Arquivos CSV Usando Pandas
+        / Padrões de Projeto em Python (Design Patterns): Factory Method
       
     
 </div>
 							
 							
 							<h1 class="blog-post-title font-shadow">
-								Como Importar Arquivos CSV Usando Pandas
+								Padrões de Projeto em Python (Design Patterns): Factory Method
 							</h1>
 
 							<div class="post-metadata">
 								<div class="author">
-									<!-- <img src="/assets/authors/leon-solon/avatar.png" width="50px" height="50px" alt="Autor"> -->
+									<!-- <img src="/assets/authors/vinicius-ramos/avatar.webp" width="50px" height="50px" alt="Autor"> -->
 									<p class="text-left">
-										Leon Solon
+										Vinícius Ramos
 										<span class="text-gradient">•</span>
-										<time datetime="2021-02-03" pubdate>03/02/2021</time>
+										<time datetime="2025-03-02" pubdate>02/03/2025</time>
 										
 										<br>
 										<small style="color: #FFF7">
-											<b>Atualizado em:</b> <time datetime="2023-02-26">26/02/2023</time>
+											<b>Atualizado em:</b> <time datetime="2025-03-02">02/03/2025</time>
 										</small>
 										
 									</p>
@@ -285,213 +285,315 @@
 					<div class="blog-post-content">					
 						
 						
-<p>Olá, futuro <strong>Cientista de Dados</strong>!</p>
+<p>Salve salve Pythonista <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"></p>
 
-<p>No <em>post</em> de hoje vamos começar a nossa jornada nessa área que tem chamado muita atenção de profissionais e de empresas!</p>
+<p>Os <strong>Padrões de Projeto</strong> são soluções recorrentes para desafios comuns no desenvolvimento de software.</p>
 
-<p>E não é à toa: o mercado está cada vez mais procurando profissionais com esse perfil, no Brasil e no mundo.</p>
+<p>Em Python, o uso de padrões de projeto como o <strong>Factory Method</strong> pode incrementar a flexibilidade e a escalabilidade das aplicações.</p>
 
-<p>Até a <a href="https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century" target="_blank">Harvard Business Review</a> concorda comigo!</p>
+<p>Neste artigo, abordaremos o que é o <em>Factory Method</em>, o problema que ele resolve, sua estrutura, aplicabilidade e como implementá-lo na prática com exemplos em Python.</p>
 
-<p><img alt="Sexiest Job" class="img-responsive lazyload" data-src="/assets/posts/pandas-csv/sexiest-job.png"></p>
-
-<p>Esse post dá início à uma <strong>série de posts</strong> da biblioteca que é considerada por muitos um dos motivos de Python ser cada vez mais utilizado por cientista de dados: <strong>o poderoso Pandas</strong>! <img class="emoji" title=":punch:" alt=":punch:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44a.png" height="20" width="20"></p>
-
-<p><em><strong>Mas calma! Sem medo galera!</strong></em></p>
-
-<p>Você vai ver que, apesar de versátil - como as boas bibliotecas pythonistas - Pandas é extremamente simples de utilizar.</p>
-
-<p>Entendendo o básico de dataframes, series e índices, vocês dominarão o mundo do <em>data wrangling</em> (nome bonito para: <em><strong>FUÇAR OS DADOS</strong></em> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">).</p>
-
-<p>Mas antes de aprender isso tudo em outros posts, vamos direto ao assunto para quebrar logo o gelo e começar com o pé direito: importar arquivos CSV e visualizar os dados!</p>
+<p>Compreender e aplicar o <em>Factory Method</em> é essencial para desenvolver códigos mais limpos e manuteníveis.</p>
 
 <h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
 
 <ul id="markdown-toc">
-  <li><a href="#arquivo-csv" id="markdown-toc-arquivo-csv">Arquivo CSV</a></li>
-  <li><a href="#instala%C3%A7%C3%A3o-do-pandas" id="markdown-toc-instalação-do-pandas">Instalação do Pandas</a></li>
-  <li><a href="#importar-arquivo-csv-com-pandas" id="markdown-toc-importar-arquivo-csv-com-pandas">Importar Arquivo CSV com Pandas</a></li>
-  <li><a href="#b%C3%B4nus-e-exportar-para-csv" id="markdown-toc-bônus-e-exportar-para-csv">Bônus: e exportar para CSV?</a></li>
+  <li><a href="#o-que-%C3%A9-o-factory-method-e-por-que-utiliz%C3%A1-lo" id="markdown-toc-o-que-é-o-factory-method-e-por-que-utilizá-lo">O que é o Factory Method e por que utilizá-lo?</a></li>
+  <li><a href="#problema-que-o-factory-method-resolve" id="markdown-toc-problema-que-o-factory-method-resolve">Problema que o Factory Method resolve</a></li>
+  <li><a href="#racional-por-tr%C3%A1s-do-factory-method-como-solu%C3%A7%C3%A3o" id="markdown-toc-racional-por-trás-do-factory-method-como-solução">Racional por trás do Factory Method como solução</a></li>
+  <li><a href="#estrutura-do-padr%C3%A3o-de-projeto-factory-method" id="markdown-toc-estrutura-do-padrão-de-projeto-factory-method">Estrutura do padrão de projeto Factory Method</a></li>
+  <li><a href="#aplicabilidade-do-padr%C3%A3o-de-projeto-factory-method" id="markdown-toc-aplicabilidade-do-padrão-de-projeto-factory-method">Aplicabilidade do padrão de projeto Factory Method</a></li>
+  <li><a href="#implementando-o-factory-method-na-pr%C3%A1tica" id="markdown-toc-implementando-o-factory-method-na-prática">Implementando o Factory Method na prática</a></li>
+  <li><a href="#exemplos-pr%C3%A1ticos-de-factory-method-em-python" id="markdown-toc-exemplos-práticos-de-factory-method-em-python">Exemplos Práticos de Factory Method em Python</a></li>
 </ul>
 
-<h2 id="arquivo-csv">Arquivo CSV</h2>
+<h2 id="o-que-é-o-factory-method-e-por-que-utilizá-lo">O que é o Factory Method e por que utilizá-lo?</h2>
 
-<p><em><strong>Cara, não devo saber nada mesmo, o que é um arquivo CSV???</strong></em></p>
+<p>O <strong>Factory Method</strong> é um padrão de criação que define uma interface para criar objetos, mas deixa as subclasses decidirem qual classe instanciar.</p>
 
-<p>Não tema meu amigo pythonista, um arquivos CSV nada mais é que um arquivo de texto com valores separados por vírgula (<em><strong>C</strong>omma <strong>S</strong>eparated <strong>V</strong>alues</em>).</p>
+<p>Ele promove o <strong>princípio de responsabilidade única</strong>, separando o processo de criação do uso dos objetos.</p>
 
-<p>Ou seja, nada mais é que um arquivo onde cada linha possui valores separados por vírgulas. Bora de exemplo?</p>
+<h2 id="problema-que-o-factory-method-resolve">Problema que o Factory Method resolve</h2>
 
-<p><img alt="Arquivo CSV" class="img-responsive lazyload" data-src="/assets/posts/pandas-csv/arquivo-csv.png"></p>
+<p>Em aplicações complexas, a criação de objetos diretamente pode levar a um acoplamento rígido entre classes.</p>
 
-<p>O arquivo mostra os dados de 5 músicas, com banda e ano de lançamento, além da última coluna que contém o nome completo.</p>
+<p>Isso dificulta a manutenção e a escalabilidade do sistema.</p>
 
-<p>Percebam que a primeira linha é o cabeçalho, com o nome descritivo de cada coluna.</p>
+<p>O <strong>Factory Method</strong> resolve esse problema ao centralizar a criação de objetos, permitindo maior flexibilidade e facilitando a extensão do código.</p>
 
-<p><em><strong>Viu? Moleza, não é?</strong></em></p>
+<h2 id="racional-por-trás-do-factory-method-como-solução">Racional por trás do Factory Method como solução</h2>
 
-<p>Claro que, na maioria dos casos práticos, os arquivo terão milhares ou mesmo milhões de linhas. Contudo, enquanto seu computador tiver memória para aguentar, o Pandas estará do seu lado!</p>
+<p>A ideia central é delegar a responsabilidade de criação de objetos para subclasses específicas.</p>
 
-<p>Quando não estiver do nosso lado, bem, aí é assunto pra um outro post (deixem comentários aqui embaixo se gostariam de um post com esse assunto <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20">)</p>
+<p>Dessa forma, o código cliente não precisa conhecer as classes concretas, reduzindo o acoplamento e aumentando a reutilização de código.</p>
 
-<p>Vamos então ao que interessa: <strong>Pandas</strong>!!!</p>
+<h2 id="estrutura-do-padrão-de-projeto-factory-method">Estrutura do padrão de projeto Factory Method</h2>
 
-<p><img alt="Pandas! Not these!?!" class="img-responsive lazyload" data-src="/assets/posts/pandas-csv/panda-bear.jpg"></p>
+<p>A estrutura do <strong>Factory Method</strong> inclui:</p>
 
-<p><em><strong>Ops, esse não, produtor!!</strong></em> <img class="emoji" title=":man_facepalming:" alt=":man_facepalming:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f926-2642.png" height="20" width="20"></p>
+<ol>
+  <li>
+<strong>Produto (Product)</strong>: Interface ou classe abstrata para os objetos criados.</li>
+  <li>
+<strong>Produto Concreto (Concrete Product)</strong>: Implementações específicas do Produto.</li>
+  <li>
+<strong>Criador (Creator)</strong>: Classe abstrata que declara o método de fábrica.</li>
+  <li>
+<strong>Criador Concreto (Concrete Creator)</strong>: Subclasses que implementam o método de fábrica para criar instâncias de Produtos Concretos.</li>
+</ol>
 
-<h2 id="instalação-do-pandas">Instalação do Pandas</h2>
+<h2 id="aplicabilidade-do-padrão-de-projeto-factory-method">Aplicabilidade do padrão de projeto Factory Method</h2>
 
-<p>Caso você utilize o Anaconda, o Pandas já vem instalado por padrão.</p>
+<p>O <strong>Factory Method</strong> é aplicável quando:</p>
 
-<p>Caso contrário, sigam-me os bons.</p>
+<ul>
+  <li>Uma classe não pode antecipar os tipos de objetos que precisa criar.</li>
+  <li>A classe deseja delegar a responsabilidade de criação para subclasses.</li>
+  <li>É necessário promover o acoplamento fraco entre criador e produtos.</li>
+</ul>
 
-<p>Vamos instalá-lo utilizando nosso bom e velho <code class="language-plaintext highlighter-rouge">pip</code>.</p>
+<h2 id="implementando-o-factory-method-na-prática">Implementando o Factory Method na prática</h2>
 
-<p>Primeiro, vamos ao básico: <strong>ative</strong> seu <em>ambiente virtual</em> para começar a instalação.</p>
+<p>Vamos implementar o <strong>Factory Method</strong> em Python com um exemplo simples.</p>
 
-<p><em><strong>COMO ASSIM você não usa ambientes virtuais?! <img class="emoji" title=":scream:" alt=":scream:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f631.png" height="20" width="20"></strong></em></p>
+<h3 id="estrutura-básica">Estrutura Básica</h3>
 
-<p>Se você é desses, já vai lá no post sobre <a href="https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais" target="_blank">ambientes virtuais pra começarmos direito!</a></p>
-
-<p><strong>Para instalar o Pandas</strong> (após ativar seu ambiente virtual), basta executar o comando:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>pip <span class="nb">install </span>pandas
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p><em>Voilá</em>, temos nossa ferramenta pronta pra trabalhar!</p>
-
-<p>Agora escolha sua melhor IDE, seu notebook jupyter ou mesmo a linha de comando e <strong>mãos à obra</strong> - ou melhor - <strong>mãos ao código</strong> <img class="emoji" title=":muscle:" alt=":muscle:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4aa.png" height="20" width="20"></p>
-
-<div class="jornada-python-in-post ">
-    <a href="https://bit.ly/banner-jornada-python" class="in-post-banner-cta">
-        <img class="in-post-banner lazyload" alt="Jornada Python" width="100%" loading="lazy" data-src="/assets/img/in-post-banner-new.png">
-        <img class="in-post-banner-xs lazyload" alt="Jornada Python" width="100%" loading="lazy" data-src="/assets/img/in-post-banner-xs-new.png">
-    </a>
-    <!-- <div class="inner">
-        <img class="jp-logo" src="/assets/img/jornada-python/logo-jornada-python-navbar.webp" alt="Jornada Python" width="120px" height="28px" loading="lazy">
-        <span class="headline">
-            Seja um Desenvolvedor Web <b class="yellow-font">Profissional</b> com Python e Django.
-        </span>
-        <span class="headline-subheading hidden-xs">
-            A melhor, mais completa e moderna formação para quem quer desenvolver aplicações Web utilizando Python e o poderoso framework Django.
-        </span>
-
-        <div class="separator"></div>
-
-        <span class="headline-subheading">Veja o que você vai aprender na Jornada Python:</span>
-
-        <div class="techs">
-            <img class="img-lg" src="/assets/img/banner-jornada-python.webp" alt="Jornada Python" width="80%" loading="lazy">
-            <img class="img-xs" src="/assets/img/banner-jornada-python-mobile.webp" alt="Jornada Python" width="100%" loading="lazy">
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <a class="call-to-action" href="/jornada-python/">
-                    Quero conhecer a Jornada!
-                </a>
-
-                <ul class="features">
-                    <li><img class="plus" src="/assets/img/plus-symbol.png" alt="Mais" loading="lazy" width="10px" height="10px"> Ebooks</li>
-                    <li><img class="plus" src="/assets/img/plus-symbol.png" alt="Mais" loading="lazy" width="10px" height="10px"> Dicas de Carreira</li>
-                    <li><img class="plus" src="/assets/img/plus-symbol.png" alt="Mais" loading="lazy" width="10px" height="10px"> Suporte à dúvidas</li>
-                </ul>
-            </div>
-        </div>
-    </div> -->
-</div>
-
-<h2 id="importar-arquivo-csv-com-pandas">Importar Arquivo CSV com Pandas</h2>
-
-<p>Primeramente temos que importar a biblioteca!</p>
-
-<p>Sabemos que na hora de importar qualquer biblioteca em Python, podemos criar um apelido (alias) para facilitar o acesso.</p>
-
-<p>No caso do Pandas, o padrão é chamá-lo carinhosamente de ‘pd’:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> import pandas as pd
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Com o Pandas importado, vamos utilizar o método <code class="language-plaintext highlighter-rouge">read_csv()</code>, passando como parâmetro o arquivo CSV que queremos importar.</p>
-
-<p>No nosso caso, vamos usar o arquivo <em>bandas.csv</em>, que você pode <a href="/assets/posts/pandas-csv/bandas.csv" target="_blank">clicar aqui para baixá-lo</a>.</p>
-
-<p>O método retorna uma estrutura tabular que é a base do Pandas, chamada de <code class="language-plaintext highlighter-rouge">Dataframe</code>.</p>
-
-<p>Um dataframe nada mais é que uma estrutura bidimensional, com linhas e colunas.</p>
-
-<p>Imagine uma planilha do Excel ou uma tabela do seu banco de dados e terá uma boa noção de como ele se comporta:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> import pandas as pd
-<span class="o">&gt;&gt;&gt;</span> musicas <span class="o">=</span> pd.read_csv<span class="o">(</span><span class="s1">'./bandas.csv'</span><span class="o">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p><em><strong>Como assim, só isso?</strong></em></p>
-
-<p>Sim, jovem padawan!! Mais mole, só sentando na gelatina.</p>
-
-<p><em><strong>Mas… O que aconteceu?</strong></em></p>
-
-<p>Nosso querido <em>pandas</em> leu o arquivo CSV, já entendeu que a primeira linha é o cabeçalho, e separou as colunas direitinho pra você!</p>
-
-<p><em><strong>Ainda duvida?</strong></em></p>
-
-<p>Vamos rodar o comando abaixo para verificar as 5 primeiras linhas do nosso <em>Dataframe</em> com músicas do arquivo CSV importado:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> import pandas as pd
-<span class="o">&gt;&gt;&gt;</span> musicas <span class="o">=</span> pd.read_csv<span class="o">(</span><span class="s1">'./bandas.csv'</span><span class="o">)</span>
-<span class="o">&gt;&gt;&gt;</span> musicas.head<span class="o">()</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>E o resultado será:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
 4
 5
 6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
 </pre></td>
-<td class="code"><pre>                musica            artista  ano de lancamento                           nome completo
-0          Radioactive    Imagine Dragons               2012          Radioactive by Imagine Dragons
-1      Good Vibrations     The Beach Boys               1966       Good Vibrations by The Beach Boys
-2    A Day In The Life        The Beatles               1967        A Day In The Life by The Beatles
-3  Message In A Bottle         The Police               1979       Message In A Bottle by The Police
-4    Seven Nation Army  The White Stripes               2003  Seven Nation Army by The White Stripes
+<td class="code"><pre><span class="kn">from</span> <span class="n">abc</span> <span class="kn">import</span> <span class="n">ABC</span><span class="p">,</span> <span class="n">abstractmethod</span>
+
+<span class="c1"># Produto
+</span><span class="k">class</span> <span class="nc">Produto</span><span class="p">(</span><span class="n">ABC</span><span class="p">):</span>
+    <span class="nd">@abstractmethod</span>
+    <span class="k">def</span> <span class="nf">operacao</span><span class="p">(</span><span class="n">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">pass</span>
+
+<span class="c1"># Produtos Concretos
+</span><span class="k">class</span> <span class="nc">ProdutoConcretoA</span><span class="p">(</span><span class="n">Produto</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">operacao</span><span class="p">(</span><span class="n">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="sh">"</span><span class="s">Resultado do Produto A</span><span class="sh">"</span>
+
+<span class="k">class</span> <span class="nc">ProdutoConcretoB</span><span class="p">(</span><span class="n">Produto</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">operacao</span><span class="p">(</span><span class="n">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="sh">"</span><span class="s">Resultado do Produto B</span><span class="sh">"</span>
+
+<span class="c1"># Criador
+</span><span class="k">class</span> <span class="nc">Criador</span><span class="p">(</span><span class="n">ABC</span><span class="p">):</span>
+    <span class="nd">@abstractmethod</span>
+    <span class="k">def</span> <span class="nf">factory_method</span><span class="p">(</span><span class="n">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Produto</span><span class="p">:</span>
+        <span class="k">pass</span>
+
+    <span class="k">def</span> <span class="nf">alguma_operacao</span><span class="p">(</span><span class="n">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">produto</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">factory_method</span><span class="p">()</span>
+        <span class="n">resultado</span> <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="s">Criador: Trabalhando com </span><span class="si">{</span><span class="n">produto</span><span class="p">.</span><span class="nf">operacao</span><span class="p">()</span><span class="si">}</span><span class="sh">"</span>
+        <span class="k">return</span> <span class="n">resultado</span>
+
+<span class="c1"># Criadores Concretos
+</span><span class="k">class</span> <span class="nc">CriadorConcretoA</span><span class="p">(</span><span class="n">Criador</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">factory_method</span><span class="p">(</span><span class="n">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Produto</span><span class="p">:</span>
+        <span class="k">return</span> <span class="nc">ProdutoConcretoA</span><span class="p">()</span>
+
+<span class="k">class</span> <span class="nc">CriadorConcretoB</span><span class="p">(</span><span class="n">Criador</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">factory_method</span><span class="p">(</span><span class="n">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Produto</span><span class="p">:</span>
+        <span class="k">return</span> <span class="nc">ProdutoConcretoB</span><span class="p">()</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p><em><strong>Uai… E essa primeira coluna com valores de 0 a 4, que não estava no arquivo original!?!</strong></em></p>
+<h3 id="explicação-do-código">Explicação do Código</h3>
 
-<p>Esse padawan é esperto! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+<ol>
+  <li>
+<strong>Importações</strong>: Utilizamos <code class="language-plaintext highlighter-rouge">ABC</code> e <code class="language-plaintext highlighter-rouge">abstractmethod</code> da biblioteca <code class="language-plaintext highlighter-rouge">abc</code> para definir classes abstratas.</li>
+  <li>
+<strong>Produto</strong>: Classe abstrata que declara o método <code class="language-plaintext highlighter-rouge">operacao</code>.</li>
+  <li>
+<strong>Produtos Concretos</strong>: <code class="language-plaintext highlighter-rouge">ProdutoConcretoA</code> e <code class="language-plaintext highlighter-rouge">ProdutoConcretoB</code> implementam o método <code class="language-plaintext highlighter-rouge">operacao</code>.</li>
+  <li>
+<strong>Criador</strong>: Classe abstrata que declara o método de fábrica <code class="language-plaintext highlighter-rouge">factory_method</code> e um método concreto <code class="language-plaintext highlighter-rouge">alguma_operacao</code> que utiliza o produto.</li>
+  <li>
+<strong>Criadores Concretos</strong>: <code class="language-plaintext highlighter-rouge">CriadorConcretoA</code> e <code class="language-plaintext highlighter-rouge">CriadorConcretoB</code> implementam o método de fábrica para retornar instâncias dos produtos concretos.</li>
+</ol>
 
-<p>Veremos num próximo post que o Pandas não cria “nomes” somente para as colunas, mas também para as linhas!!</p>
+<h2 id="exemplos-práticos-de-factory-method-em-python">Exemplos Práticos de Factory Method em Python</h2>
 
-<p>Esse “nome” é chamado de <strong>índice</strong> e será muito importante para realizarmos seleções de partes dos dados de um <em>Dataframe</em> Pandas.</p>
+<p>Vamos ver como utilizar o <strong>Factory Method</strong> na prática.</p>
 
-<p>Maaaaaas… Cenas para um próximo capítulo :bowtie:</p>
+<h3 id="exemplo-1-logger-configurável">Exemplo 1: Logger Configurável</h3>
 
-<p><em><strong>Está curtindo esse conteúdo?</strong></em> <img class="emoji" title=":thumbsup:" alt=":thumbsup:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20"></p>
+<p>Imagine um sistema que precisa de diferentes tipos de loggers.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+</pre></td>
+<td class="code"><pre><span class="kn">from</span> <span class="n">abc</span> <span class="kn">import</span> <span class="n">ABC</span><span class="p">,</span> <span class="n">abstractmethod</span>
+
+<span class="c1"># Produto
+</span><span class="k">class</span> <span class="nc">Logger</span><span class="p">(</span><span class="n">ABC</span><span class="p">):</span>
+    <span class="nd">@abstractmethod</span>
+    <span class="k">def</span> <span class="nf">log</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">mensagem</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">pass</span>
+
+<span class="c1"># Produtos Concretos
+</span><span class="k">class</span> <span class="nc">ConsoleLogger</span><span class="p">(</span><span class="n">Logger</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">log</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">mensagem</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Console: </span><span class="si">{</span><span class="n">mensagem</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">FileLogger</span><span class="p">(</span><span class="n">Logger</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">log</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">mensagem</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nf">open</span><span class="p">(</span><span class="sh">"</span><span class="s">log.txt</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">a</span><span class="sh">"</span><span class="p">)</span> <span class="k">as</span> <span class="n">arquivo</span><span class="p">:</span>
+            <span class="n">arquivo</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">File: </span><span class="si">{</span><span class="n">mensagem</span><span class="si">}</span><span class="se">\n</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># Criador
+</span><span class="k">class</span> <span class="nc">Aplicacao</span><span class="p">(</span><span class="n">ABC</span><span class="p">):</span>
+    <span class="nd">@abstractmethod</span>
+    <span class="k">def</span> <span class="nf">criar_logger</span><span class="p">(</span><span class="n">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Logger</span><span class="p">:</span>
+        <span class="k">pass</span>
+
+    <span class="k">def</span> <span class="nf">executar</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">mensagem</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">logger</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">criar_logger</span><span class="p">()</span>
+        <span class="n">logger</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="n">mensagem</span><span class="p">)</span>
+
+<span class="c1"># Criadores Concretos
+</span><span class="k">class</span> <span class="nc">AplicacaoConsole</span><span class="p">(</span><span class="n">Aplicacao</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">criar_logger</span><span class="p">(</span><span class="n">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Logger</span><span class="p">:</span>
+        <span class="k">return</span> <span class="nc">ConsoleLogger</span><span class="p">()</span>
+
+<span class="k">class</span> <span class="nc">AplicacaoFile</span><span class="p">(</span><span class="n">Aplicacao</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">criar_logger</span><span class="p">(</span><span class="n">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Logger</span><span class="p">:</span>
+        <span class="k">return</span> <span class="nc">FileLogger</span><span class="p">()</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h3 id="utilização-do-exemplo">Utilização do Exemplo</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td>
+<td class="code"><pre><span class="c1"># Cliente
+</span><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">app_console</span> <span class="o">=</span> <span class="nc">AplicacaoConsole</span><span class="p">()</span>
+    <span class="n">app_console</span><span class="p">.</span><span class="nf">executar</span><span class="p">(</span><span class="sh">"</span><span class="s">Esta é uma mensagem para o console.</span><span class="sh">"</span><span class="p">)</span>
+
+    <span class="n">app_file</span> <span class="o">=</span> <span class="nc">AplicacaoFile</span><span class="p">()</span>
+    <span class="n">app_file</span><span class="p">.</span><span class="nf">executar</span><span class="p">(</span><span class="sh">"</span><span class="s">Esta é uma mensagem para o arquivo.</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="sh">"</span><span class="s">__main__</span><span class="sh">"</span><span class="p">:</span>
+    <span class="nf">main</span><span class="p">()</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>E a saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>Console: Esta é uma mensagem para o console.
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>File: Esta é uma mensagem para o arquivo.
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h3 id="explicação-do-exemplo">Explicação do Exemplo</h3>
+
+<ol>
+  <li>
+<strong>Logger</strong>: Interface para diferentes tipos de loggers.</li>
+  <li>
+<strong>ConsoleLogger e FileLogger</strong>: Implementações concretas que logam no console e em um arquivo, respectivamente.</li>
+  <li>
+<strong>Aplicacao</strong>: Classe abstrata que declara o método de fábrica <code class="language-plaintext highlighter-rouge">criar_logger</code> e um método <code class="language-plaintext highlighter-rouge">executar</code> que utiliza o logger.</li>
+  <li>
+<strong>AplicacaoConsole e AplicacaoFile</strong>: Criadores concretos que retornam instâncias de <code class="language-plaintext highlighter-rouge">ConsoleLogger</code> e <code class="language-plaintext highlighter-rouge">FileLogger</code>.</li>
+  <li>
+<strong>Cliente</strong>: No método <code class="language-plaintext highlighter-rouge">main</code>, criamos instâncias de aplicações que logam de formas diferentes sem alterar o código que usa os loggers.</li>
+</ol>
+
+<p><em><strong>Antes de continuar… Está curtindo esse conteúdo?</strong></em> <img class="emoji" title=":thumbsup:" alt=":thumbsup:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20"></p>
 
 <p><em><strong>Que tal receber 30 dias de conteúdo direto na sua Caixa de Entrada?</strong></em></p>
 
@@ -611,84 +713,53 @@
     <div class="circle blue"></div>
 </div>
 
-<p>Claro que esse CSV já estava todo arrumadinho, limpinho e cheiroso. Mas <em>não</em> se engane: nem sempre será assim.</p>
-
-<p>Um dos trabalhos do cientista de dados é <strong>limpar os dados</strong>, que consiste em:</p>
-
-<ul>
-  <li>Consertar codificação de dados de entrada;</li>
-  <li>Converter tipos;</li>
-  <li>Configurar separadores de decimais;</li>
-  <li>Limpar caracteres indesejados;</li>
-  <li>Tratar dados faltantes entre outros vários problemas.</li>
-</ul>
-
-<p>Podemos já tratar alguns desses problemas no momento da importação dos dados, no próprio método <code class="language-plaintext highlighter-rouge">read_csv()</code></p>
-
-<p>Um exemplo de parâmetro é dizer para o Pandas que não queremos que a primeira linha seja considerada o cabeçalho, mas sim parte dos dados.</p>
-
-<p>Para isso, podemos executar o método <code class="language-plaintext highlighter-rouge">read_csv()</code> com o parâmetro <em>header</em> com o valor <em>None</em>:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> musicas_sem_cabecalho <span class="o">=</span> pd.read_csv<span class="o">(</span><span class="s1">'./bandas.csv'</span>, <span class="nv">header</span><span class="o">=</span>None<span class="o">)</span>
-<span class="o">&gt;&gt;&gt;</span> musicas_sem_cabecalho.head<span class="o">()</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Com esse parâmetro, temos o resultado:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td>
-<td class="code"><pre>                     0                1                  2                                  3
-0               musica          artista  ano de lancamento                      nome completo
-1          Radioactive  Imagine Dragons               2012     Radioactive by Imagine Dragons
-2      Good Vibrations   The Beach Boys               1966  Good Vibrations by The Beach Boys
-3    A Day In The Life      The Beatles               1967   A Day In The Life by The Beatles
-4  Message In A Bottle       The Police               1979  Message In A Bottle by The Police
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Percebam que agora temos outros nomes para cada coluna! O Pandas cria os nomes automaticamente, começando do 0.</p>
-
-<h2 id="bônus-e-exportar-para-csv">Bônus: e exportar para CSV?</h2>
-
-<p>Uma vez com o <em>Dataframe</em> Pandas em memória (após a execução do <code class="language-plaintext highlighter-rouge">read_csv()</code>), podemos escrever um arquivo CSV de saída utilizando o método <code class="language-plaintext highlighter-rouge">to_csv()</code>, da seguinte forma:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="o">&gt;&gt;&gt;</span> musicas_sem_cabecalho.to_csv<span class="o">(</span><span class="s1">'./bandas_sem_cabecalho.csv'</span><span class="o">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p><em><strong>Prontinho!</strong></em> temos nosso arquivo CSV exportado! <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"></p>
-
 <h2 class="no_toc" id="conclusão">Conclusão</h2>
 
-<p>Primeiro contato com Pandas, o que achou? Fácil, difícil?</p>
+<p>O <strong>Factory Method</strong> é um padrão de projeto poderoso que promove a <strong>flexibilidade</strong> e a <strong>manutenibilidade</strong> em aplicações Python.</p>
 
-<p>Comenta aqui embaixo suas dores e/ou sugestões! A gente quer te ouvir <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+<p>Ao centralizar a criação de objetos, ele reduz o acoplamento e facilita a extensão do sistema sem modificar o código existente.</p>
 
-<p>Esse foi somente o primeiro de muitos posts, pois esse assunto é muito extenso e importante para quem está iniciando a carreira de cientista de dados.</p>
+<p>Vimos como implementar e aplicar o <em>Factory Method</em> com exemplos práticos, demonstrando sua utilidade em cenários reais.</p>
 
-<p>Ter destreza na manipulação de dados tabulares é essencial nesse ramo e estamos aqui pra fazer você chegar lá!</p>
+<p>Incorporar esse padrão em seus projetos Python pode levar a um código mais organizado e escalável.</p>
 
-<p>Vamos juntos que o caminho é longo, mas possível e gratificante!</p>
+<div class="jornada-python-in-post ">
+    <a href="https://bit.ly/banner-jornada-python" class="in-post-banner-cta">
+        <img class="in-post-banner lazyload" alt="Jornada Python" width="100%" loading="lazy" data-src="/assets/img/in-post-banner-new.png">
+        <img class="in-post-banner-xs lazyload" alt="Jornada Python" width="100%" loading="lazy" data-src="/assets/img/in-post-banner-xs-new.png">
+    </a>
+    <!-- <div class="inner">
+        <img class="jp-logo" src="/assets/img/jornada-python/logo-jornada-python-navbar.webp" alt="Jornada Python" width="120px" height="28px" loading="lazy">
+        <span class="headline">
+            Seja um Desenvolvedor Web <b class="yellow-font">Profissional</b> com Python e Django.
+        </span>
+        <span class="headline-subheading hidden-xs">
+            A melhor, mais completa e moderna formação para quem quer desenvolver aplicações Web utilizando Python e o poderoso framework Django.
+        </span>
 
-<p>Antes de terminar: sabia que a gente está no <a href="https://www.instagram.com/pythonacademybr" target="_blank">Instagram</a>?</p>
+        <div class="separator"></div>
 
-<p>Vai lá e deixe seu comentário, interaja com a gente! Tem posts complementares ao blog e muitos desafios: procurem nos destaques <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+        <span class="headline-subheading">Veja o que você vai aprender na Jornada Python:</span>
 
-<p>Até o próximo post!</p>
+        <div class="techs">
+            <img class="img-lg" src="/assets/img/banner-jornada-python.webp" alt="Jornada Python" width="80%" loading="lazy">
+            <img class="img-xs" src="/assets/img/banner-jornada-python-mobile.webp" alt="Jornada Python" width="100%" loading="lazy">
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="call-to-action" href="/jornada-python/">
+                    Quero conhecer a Jornada!
+                </a>
+
+                <ul class="features">
+                    <li><img class="plus" src="/assets/img/plus-symbol.png" alt="Mais" loading="lazy" width="10px" height="10px"> Ebooks</li>
+                    <li><img class="plus" src="/assets/img/plus-symbol.png" alt="Mais" loading="lazy" width="10px" height="10px"> Dicas de Carreira</li>
+                    <li><img class="plus" src="/assets/img/plus-symbol.png" alt="Mais" loading="lazy" width="10px" height="10px"> Suporte à dúvidas</li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+</div>
 
 
 	
@@ -699,24 +770,24 @@
 							<div class="blog-post-colophon">
 								<div class="row">
 									<div class="col-xs-12 col-sm-3 text-center">									
-										<img width="152px" height="152px" alt="Autor" class="profile-img lazyload" data-src="/assets/authors/leon-solon/avatar.png">
+										<img width="152px" height="152px" alt="Autor" class="profile-img lazyload" data-src="/assets/authors/vinicius-ramos/avatar.webp">
 									</div>
 	
 									<div class="col-xs-12 col-sm-9">
 										<div class="blog-post-meta">
 											<p>
 												<span class="blog-post-by">
-													Por Leon Solon
+													Por Vinícius Ramos
 												</span>
 	
-												<b>em <time datetime="2021-02-03" pubdate>03/02/2021</time></b>
+												<b>em <time datetime="2025-03-02" pubdate>02/03/2025</time></b>
 											</p>
 		
-											<!-- <p class="short-description">"<i>Pai, cientista de dados, apaixonado por resolver problemas.</i>"</p> -->
+											<!-- <p class="short-description">"<i>Porque o Senhor dá a sabedoria, e da sua boca vem a inteligência e o entendimento. - Provérbios 2:6 </i>"</p> -->
 	
 											
 											<p style="margin-bottom: 0">
-												<a href="https://www.linkedin.com/in/leonsolon" title="Linkedin" target="_blank" class="linkedin-anchor">
+												<a href="https://www.linkedin.com/in/vinicius-aramos" title="Linkedin" target="_blank" class="linkedin-anchor">
 													<img alt="Linkedin" loading="lazy" width="16px" height="16px" data-src="/assets/img/icone-linkedin-50.png" class="lazyload">
 													Bora se conectar no <b>LinkedIn</b>!
 												</a>
@@ -727,11 +798,13 @@
 											
 											<ul>											
 												
-												<li><a href="mailto:leonsolon@gmail.com.br" title="Email"><img alt="Email" loading="lazy" width="30px" height="30px" data-src="/assets/img/icone-email-50.png" class="lazyload"></a></li>
+												<li><a href="mailto:vinicius.ramos@pythonacademy.com.br" title="Email"><img alt="Email" loading="lazy" width="30px" height="30px" data-src="/assets/img/icone-email-50.png" class="lazyload"></a></li>
 																							
 												
-												<li><a href="https://github.com/leonsolon" title="Github" target="_blank"><img alt="Github" loading="lazy" width="30px" height="30px" data-src="/assets/img/icone-github-50.png" class="lazyload"></a></li>
+												<li><a href="https://github.com/viniciusramos91" title="Github" target="_blank"><img alt="Github" loading="lazy" width="30px" height="30px" data-src="/assets/img/icone-github-50.png" class="lazyload"></a></li>
 												
+												
+												<li><a href="https://stackoverflow.com/users/6775679/viniciusramos91" title="Stackoverflow" target="_blank"><img alt="StackOverflow" loading="lazy" width="30px" height="30px" data-src="/assets/img/icone-stackoverflow-50.png" class="lazyload"></a></li>
 												
 												
 											</ul>
@@ -759,25 +832,25 @@
 
 				<ul>									
 					<li>
-						<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/importar-csv-no-pandas','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item" title="Facebook">
+						<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-factory-method','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item" title="Facebook">
 							<img alt="Facebook" loading="lazy" width="24px" height="24px" data-src="/assets/img/icone-facebook-50.png" class="lazyload">
 						</a>
 					</li>
 					
 					<li>							
-						<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/importar-csv-no-pandas&amp;related=PythonAcademyBR&amp;text=&quot;Como%20importar%20arquivos%20CSV%20no%20Pandas%20(Python)&quot;%20por%20Leon%20Solon','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank" title="Twitter">
+						<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-factory-method&amp;related=PythonAcademyBR&amp;text=&quot;Padr%C3%B5es%20de%20Projeto%20em%20Python%20(Design%20Patterns):%20Factory%20Method&quot;%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank" title="Twitter">
 							<img alt="Twitter" loading="lazy" width="24px" height="24px" data-src="/assets/img/icone-twitter-50.png" class="lazyload">
 						</a>
 					</li>
 	
 					<li>
-						<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/importar-csv-no-pandas" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/importar-csv-no-pandas" data-action="share/whatsapp/share" title="Whatsapp">
+						<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-factory-method" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-factory-method" data-action="share/whatsapp/share" title="Whatsapp">
 							<img alt="Whatsapp" loading="lazy" width="24px" height="24px" data-src="/assets/img/icone-whatsapp-50.png" class="lazyload">
 						</a>
 					</li>
 	
 					<li>
-						<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Como%20importar%20arquivos%20CSV%20no%20Pandas%20(Python)&amp;body=https://pythonacademy.com.br/blog/importar-csv-no-pandas&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item" title="Email">
+						<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Padr%C3%B5es%20de%20Projeto%20em%20Python%20(Design%20Patterns):%20Factory%20Method&amp;body=https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-factory-method&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item" title="Email">
 							<img alt="Email" loading="lazy" width="24px" height="24px" data-src="/assets/img/icone-email-50.png" class="lazyload">
 						</a>
 					</li>						
@@ -1277,7 +1350,7 @@
 							var post = posts[randomIndex];
 
 							// Verify if related post is the same as the shown
-							if (post.title != "Como importar arquivos CSV no Pandas (Python)") {
+							if (post.title != "Padrões de Projeto em Python (Design Patterns): Factory Method") {
 								var postDate = `${post.date.day}/${post.date.month}/${post.date.year}`
 								var postHTML = 
 									`<article class='col-lg-6 col-md-6 col-sm-6 col-xs-12 card-article overlay'>
@@ -1315,9 +1388,9 @@
 					laziness: 1,
 					throttle: 250,
 					disqusConfig: function() {
-						this.page.title       = 'Como importar arquivos CSV no Pandas (Python)';
-						this.page.url         = 'https://pythonacademy.com.br/blog/importar-csv-no-pandas';
-						this.page.identifier  = '/blog/importar-csv-no-pandas';
+						this.page.title       = 'Padrões de Projeto em Python (Design Patterns): Factory Method';
+						this.page.url         = 'https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-factory-method';
+						this.page.identifier  = '/blog/padroes-de-projeto-em-python-factory-method';
 					}
 				};
 
