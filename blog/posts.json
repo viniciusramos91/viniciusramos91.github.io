@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Python e LangChain: Web scraping com IA",
+      "title": "Python e LangChain: Web scraping com IA",
+      "href": "/blog/web-scraping-com-ia-langchain-e-playwright",
+      "slug": "web-scraping-com-ia-langchain-e-playwright",
+      "assets": "web-scraping-ai",
+      "author": "Erickson L",
+      "description": "<p>Nesse artigo, você vai desvendar como usar Langchain e Inteligência Artificial para extrair conteúdos de páginas web</p>",
+      "header_color": "#636e72",
+      "author_avatar": "/assets/authors/erickson-lopes/avatar.webp",
+      "date": {
+         "day": "03",
+         "month": "03",
+         "year": "2025"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Padrões de Projeto em Python (Design Patterns): Factory Method",
       "title": "Padrões de Projeto em Python (Design Patterns): Factory Method",
       "href": "/blog/padroes-de-projeto-em-python-factory-method",
