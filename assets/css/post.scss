@@ -339,7 +339,8 @@ body#post-body {
             margin-left: auto;
             
             b, strong {
-                font-weight: 600 !important;
+                font-weight: 500 !important;
+                color: #f7f7f7;
             }
             
             a:not(.call-to-action) {
@@ -446,11 +447,12 @@ body#post-body {
             
             p:not(.greeting), ul, li, ol, table:not(.rouge-table) {
                 font-family: var(--system-ui-font);
-                font-size: 1.8rem;
+                font-size: 1.7rem;
                 line-height: 1.5;
                 margin-bottom: 1.3rem;
-                font-weight: 400;
+                font-weight: 300;
                 margin-top: 0;
+                color: #e7e7e7;
                 
                 @media (max-width: 767px) {
                     font-size: 1.7rem;
@@ -498,7 +500,7 @@ body#post-body {
             
             h1, h2, h3, h4, h5 {
                 font-family: 'Roboto', sans-serif;
-                font-weight: 600;
+                font-weight: 500;
                 color: #FFF;
                 line-height: 1.6;
             }
@@ -506,11 +508,6 @@ body#post-body {
             h2 {
                 font-size: 2.75rem;
                 margin: 3rem 0 4.5rem 0;
-                text-decoration: underline;
-                text-decoration-color: #FFF7;
-                text-underline-offset: 15px;
-                text-decoration-style: dashed;
-                
             }
 
             h3 {

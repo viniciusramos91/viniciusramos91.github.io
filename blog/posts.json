@@ -21,6 +21,25 @@
     
     
     {
+      "h1": "O que é o LangChain e como funciona",
+      "title": "O que é o LangChain e como funciona",
+      "href": "/blog/o-que-e-e-como-funciona-o-langchain",
+      "slug": "o-que-e-e-como-funciona-o-langchain",
+      "assets": "langchain-intro",
+      "author": "Vinícius R",
+      "description": "<p>Descubra o LangChain, o framework revolucionário para construir aplicações poderosas com modelos de linguagem de grande escala (LLMs).</p>",
+      "header_color": "#708277",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "01",
+         "month": "03",
+         "year": "2025"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Padrões de Projeto em Python (Design Patterns): Builder",
       "title": "Padrões de Projeto em Python (Design Patterns): Builder",
       "href": "/blog/padroes-de-projeto-em-python-builder",
