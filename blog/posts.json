@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "LangChain: Seu 1º App com LLMs",
+      "title": "LangChain: Seu 1º App com LLMs",
+      "href": "/blog/seu-primeiro-app-com-llms-e-langchain",
+      "slug": "seu-primeiro-app-com-llms-e-langchain",
+      "assets": "langchain-first-app",
+      "author": "Vinícius R",
+      "description": "<p>Use o poder do LangChain e crie sua primeira aplicação com modelos de linguagem de grande porte (LLM).</p>",
+      "header_color": "#5485e5",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "05",
+         "month": "03",
+         "year": "2025"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Python e LangChain: Web scraping com IA",
       "title": "Python e LangChain: Web scraping com IA",
       "href": "/blog/web-scraping-com-ia-langchain-e-playwright",
