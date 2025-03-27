@@ -18,7 +18,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1">		
 
-<title>Função input e print no Python: Entrada e Saída de dados</title>
+<title>Como utilizar Prompts e PromptTemplates no LangChain</title>
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">		
 
 <!-- Open Graph -->
@@ -26,32 +26,32 @@
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Python Academy">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Função input e print no Python: Entrada e Saída de dados">
-<meta property="og:url" content="https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python">
-<meta property="og:description" content="Nesse post vamos falar sobre entrada de dados, saída de dados, a função input do Python, a função print e MUITO MAIS!">
-<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/input-output/thumbnail.png">
-<meta property="og:image:secure_url" content="https://pythonacademy.com.br/assets/posts/input-output/thumbnail.png">
-<meta property="og:image:alt" content="Função input e print no Python: Entrada e Saída de dados">
+<meta property="og:title" content="Como utilizar Prompts e PromptTemplates no LangChain">
+<meta property="og:url" content="https://pythonacademy.com.br/blog/como-utilizar-prompts-no-langchain">
+<meta property="og:description" content="Aprenda a criar prompts eficazes para obter as melhores respostas dos seus LLMs.">
+<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/langchain-prompts/thumbnail.png">
+<meta property="og:image:secure_url" content="https://pythonacademy.com.br/assets/posts/langchain-prompts/thumbnail.png">
+<meta property="og:image:alt" content="Como utilizar Prompts e PromptTemplates no LangChain">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
-<meta property="article:author" content="Erickson L">
+<meta property="article:author" content="Vinícius R">
 <meta property="article:section" content="Tecnologia">    
-<meta property="article:published_time" content="2021-07-13">
-<meta property="article:modified_time" content="2021-07-13">
+<meta property="article:published_time" content="2025-03-07">
+<meta property="article:modified_time" content="2025-03-07">
 
 <!-- General -->
-<meta itemprop="description" name="description" content="Nesse post vamos falar sobre entrada de dados, saída de dados, a função input do Python, a função print e MUITO MAIS!">		
-<meta name="title" content="Função input e print no Python: Entrada e Saída de dados">
-<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/input-output/thumbnail.png">
+<meta itemprop="description" name="description" content="Aprenda a criar prompts eficazes para obter as melhores respostas dos seus LLMs.">		
+<meta name="title" content="Como utilizar Prompts e PromptTemplates no LangChain">
+<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/langchain-prompts/thumbnail.png">
 
 <!-- Twitter cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-<meta name="twitter:title" content="Função input e print no Python: Entrada e Saída de dados">
-<meta name="twitter:description" content="Nesse post vamos falar sobre entrada de dados, saída de dados, a função input do Python, a função print e MUITO MAIS!">
-<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/input-output/thumbnail.png">
+<meta name="twitter:title" content="Como utilizar Prompts e PromptTemplates no LangChain">
+<meta name="twitter:description" content="Aprenda a criar prompts eficazes para obter as melhores respostas dos seus LLMs.">
+<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/langchain-prompts/thumbnail.png">
 
 <meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
 
@@ -61,11 +61,11 @@
     "@type": "BlogPosting",
     "author": {
         "@type": "Person",
-        "name": "Erickson L",
-        "url": "https://pythonacademy.com.br/autores/erickson-lopes",
+        "name": "Vinícius R",
+        "url": "https://pythonacademy.com.br/autores/vinicius-ramos",
         "image": {
             "@type": "ImageObject",
-            "url": "https://pythonacademy.com.br/assets/authors/erickson-lopes/avatar.webp",
+            "url": "https://pythonacademy.com.br/assets/authors/vinicius-ramos/avatar.webp",
             "height": 152,
             "width": 152
         }
@@ -81,23 +81,23 @@
           "height": 630
         }
     },
-    "dateModified": "2021-07-13T00:00:00-03:00",
-    "datePublished": "2021-07-13T00:00:00-03:00",
-    "description": "Nesse post vamos falar sobre entrada de dados, saída de dados, a função input do Python, a função print e MUITO MAIS!",
-    "headline": "Função input e print no Python: Entrada e Saída de dados",
-    "wordCount": 1609,
+    "dateModified": "2025-03-07T00:00:00-03:00",
+    "datePublished": "2025-03-07T00:00:00-03:00",
+    "description": "Aprenda a criar prompts eficazes para obter as melhores respostas dos seus LLMs.",
+    "headline": "Como utilizar Prompts e PromptTemplates no LangChain",
+    "wordCount": 2911,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python"
+        "@id": "https://pythonacademy.com.br/blog/como-utilizar-prompts-no-langchain"
     },
-    "url": "https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python",
-    "thumbnailUrl": "https://pythonacademy.com.br/assets/posts/input-output/thumbnail.png",
+    "url": "https://pythonacademy.com.br/blog/como-utilizar-prompts-no-langchain",
+    "thumbnailUrl": "https://pythonacademy.com.br/assets/posts/langchain-prompts/thumbnail.png",
     "image": {
         "@type": "ImageObject",
-        "url": "https://pythonacademy.com.br/assets/posts/input-output/thumbnail.png",
+        "url": "https://pythonacademy.com.br/assets/posts/langchain-prompts/thumbnail.png",
         "width": 1200,
         "height": 630,
-        "caption": "Função input e print no Python: Entrada e Saída de dados"
+        "caption": "Como utilizar Prompts e PromptTemplates no LangChain"
     }
 }
 </script>
@@ -145,7 +145,7 @@
 </style>
 
 <!-- Canonical URL -->
-<link rel="canonical" href="https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python">			
+<link rel="canonical" href="https://pythonacademy.com.br/blog/como-utilizar-prompts-no-langchain">			
 
 		<!-- Assets -->
 		
@@ -178,7 +178,7 @@
 		<div class="main-container">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
-					<div class="post-banner-content" style="background: linear-gradient(180deg, #070707 60%, #b2bec329 100%);">
+					<div class="post-banner-content" style="background: linear-gradient(180deg, #070707 60%, #182C6129 100%);">
 						<div class="container">	
 							<div id="breadcrumbs">
     
@@ -189,27 +189,27 @@
       
     
       
-        / Entrada e Saída de Dados no Python
+        / Como utilizar Prompts e PromptTemplates no LangChain
       
     
 </div>
 							
 							
 							<h1 class="blog-post-title font-shadow">
-								Entrada e Saída de Dados no Python
+								Como utilizar Prompts e PromptTemplates no LangChain
 							</h1>
 
 							<div class="post-metadata">
 								<div class="author">
-									<!-- <img src="/assets/authors/erickson-lopes/avatar.webp" width="50px" height="50px" alt="Autor"> -->
+									<!-- <img src="/assets/authors/vinicius-ramos/avatar.webp" width="50px" height="50px" alt="Autor"> -->
 									<p class="text-left">
-										Erickson Lopes
+										Vinícius Ramos
 										<span class="text-gradient">•</span>
-										<time datetime="2021-07-13" pubdate>13/07/2021</time>
+										<time datetime="2025-03-07" pubdate>07/03/2025</time>
 										
 										<br>
 										<small style="color: #FFF7">
-											<b>Atualizado em:</b> <time datetime="2023-02-26">26/02/2023</time>
+											<b>Atualizado em:</b> <time datetime="2025-03-07">07/03/2025</time>
 										</small>
 										
 									</p>
@@ -285,86 +285,426 @@
 					<div class="blog-post-content">					
 						
 						
-<p>Olá <strong>Pythonista</strong>!</p>
+<p>Salve salve Pythonista <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"></p>
 
-<p>Nesse post vamos falar sobre entrada de dados, saída de dados, a função <code class="language-plaintext highlighter-rouge">input()</code> do Python, a função <code class="language-plaintext highlighter-rouge">print()</code> e <strong>MUITO MAIS</strong>!</p>
+<p><strong>Prompts</strong> e <strong>PromptTemplates</strong> são elementos fundamentais no desenvolvimento de aplicações com <strong>Inteligência Artificial</strong> e <strong>Processamento de Linguagem Natural</strong>.</p>
 
-<p>Com essa funções, podemos tornar um simples script Python muito mais dinâmico e poderoso, ao possibilitar a interação com o usuário.</p>
+<p>No contexto do <strong>LangChain</strong>, uma poderosa framework em Python para construção de aplicativos de linguagem, entender como utilizar esses conceitos é essencial para criar interações eficientes e precisas com modelos de linguagem.</p>
 
-<p>Veremos como utilizar a função <code class="language-plaintext highlighter-rouge">input</code> para adquirir dados de entrada passados pelo usuário, assim como mostrar informações aos usuários com a função <code class="language-plaintext highlighter-rouge">print</code>.</p>
+<p>Neste artigo, exploraremos o conceito de prompts, seus tipos, técnicas avançadas de construção e como implementá-los usando <strong>LangChain</strong>. Também compartilharemos dicas para otimizar seus prompts e exemplos práticos para diferentes tarefas.</p>
 
-<p>Então, vamos <strong>nessa</strong>!</p>
+<p>Dominar esses conhecimentos é crucial para desenvolver aplicações robustas e inteligentes que aproveitam ao máximo as capacidades dos modelos de linguagem.</p>
+
+<p>Esse artigo faz parte de uma sequência completa sobre o LangChain. Leia também os outros artigos:</p>
+<ul>
+  <li><a href="https://pythonacademy.com.br/blog/o-que-e-e-como-funciona-o-langchain" target="_blank">O que é o LangChain e como funciona</a></li>
+  <li><a href="https://pythonacademy.com.br/blog/seu-primeiro-app-com-llms-e-langchain" target="_blank">Sua primeira aplicação com LLMs</a></li>
+</ul>
+
+<p>E fique ligado que outros vão aparecer em breve <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
 
 <h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
 
 <ul id="markdown-toc">
-  <li><a href="#entrada-de-dados-com-a-fun%C3%A7%C3%A3o-input" id="markdown-toc-entrada-de-dados-com-a-função-input">Entrada de dados com a Função <code class="language-plaintext highlighter-rouge">input</code></a></li>
-  <li><a href="#sa%C3%ADda-de-dados-com-a-fun%C3%A7%C3%A3o-print" id="markdown-toc-saída-de-dados-com-a-função-print">Saída de dados com a Função <code class="language-plaintext highlighter-rouge">print</code></a></li>
-  <li><a href="#juntando-entrada-e-sa%C3%ADda-com-input-e-print" id="markdown-toc-juntando-entrada-e-saída-com-input-e-print">Juntando entrada e saída com <code class="language-plaintext highlighter-rouge">input</code> e <code class="language-plaintext highlighter-rouge">print</code></a></li>
-  <li><a href="#utilizando-print-para-gravar-dados-em-arquivos" id="markdown-toc-utilizando-print-para-gravar-dados-em-arquivos">Utilizando <code class="language-plaintext highlighter-rouge">print</code> para gravar dados em arquivos</a></li>
+  <li><a href="#o-que-s%C3%A3o-prompts-e-sua-import%C3%A2ncia" id="markdown-toc-o-que-são-prompts-e-sua-importância">O que são Prompts e sua importância</a></li>
+  <li><a href="#tipos-de-prompts" id="markdown-toc-tipos-de-prompts">Tipos de Prompts</a></li>
+  <li><a href="#t%C3%A9cnicas-avan%C3%A7adas-de-constru%C3%A7%C3%A3o-de-prompts" id="markdown-toc-técnicas-avançadas-de-construção-de-prompts">Técnicas Avançadas de Construção de Prompts</a></li>
+  <li><a href="#utilizando-prompts-no-langchain" id="markdown-toc-utilizando-prompts-no-langchain">Utilizando Prompts no LangChain</a></li>
+  <li><a href="#utilizando-prompttemplates-no-langchain" id="markdown-toc-utilizando-prompttemplates-no-langchain">Utilizando PromptTemplates no LangChain</a></li>
+  <li><a href="#dicas-e-truques-para-otimizar-seus-prompts" id="markdown-toc-dicas-e-truques-para-otimizar-seus-prompts">Dicas e Truques para Otimizar seus Prompts</a></li>
+  <li><a href="#exemplos-de-prompts-para-diferentes-tarefas" id="markdown-toc-exemplos-de-prompts-para-diferentes-tarefas">Exemplos de Prompts para Diferentes Tarefas</a></li>
 </ul>
 
-<h2 id="entrada-de-dados-com-a-função-input">Entrada de dados com a Função <code class="language-plaintext highlighter-rouge">input</code>
-</h2>
+<h2 id="o-que-são-prompts-e-sua-importância">O que são Prompts e sua importância</h2>
 
-<p>Vamos começar falando sobre <strong>entrada do usuário</strong>.</p>
+<p><strong>Prompts</strong> são instruções ou perguntas fornecidas a modelos de linguagem como o GPT-4 para gerar respostas específicas.</p>
 
-<p>Esse é um artifício muito comum em programação, quando precisamos que o usuário passe ao programa algum tipo de dado.</p>
+<p>Eles são a base para direcionar o comportamento do modelo, determinando a qualidade e a relevância das respostas obtidas.</p>
 
-<p>Em Python, fazemos isso utilizando a função <code class="language-plaintext highlighter-rouge">input()</code>, que é literalmente ‘entrada’ em inglês.</p>
+<p>A importância dos prompts reside na capacidade de controlar e refinar as respostas dos modelos, tornando-os úteis para uma variedade de aplicações, desde chatbots até geração de conteúdo automatizado.</p>
 
-<p>A função <code class="language-plaintext highlighter-rouge">input()</code> recebe como parâmetro uma string que será mostrada como auxílio ao usuário, geralmente o informando que tipo de dado o programa está aguardando receber.</p>
+<h2 id="tipos-de-prompts">Tipos de Prompts</h2>
 
-<p>Vejo um exemplo:</p>
+<h3 id="prompts-simples">Prompts Simples</h3>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<p>Prompts simples são instruções diretas e concisas que solicitam uma resposta específica do modelo.</p>
+
+<p><strong>Exemplo:</strong></p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 </pre></td>
-<td class="code"><pre><span class="nf">input</span><span class="p">(</span><span class="sh">"</span><span class="s">Escreva seu nome: </span><span class="sh">"</span><span class="p">)</span>
+<td class="code"><pre>Explique o conceito de programação orientada a objetos
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Quando fazemos isso, o terminal ou prompt de comando irá:</p>
-<ul>
-  <li>Mostrar o texto <code class="language-plaintext highlighter-rouge">"Escreva seu nome: "</code> na tela; e</li>
-  <li>Aguardar até que o usuário digite alguma informação.</li>
-</ul>
-
-<p>Após a entrada de dados pelo usuário, o programa irá continuar sua execução, passando para as instruções seguintes.</p>
-
-<p>No terminal, aparecerá algo mais ou menos assim:</p>
+<p>E a saída será:</p>
 
 <figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
+2
+3
 </pre></td>
-<td class="code"><pre>&gt;&gt;&gt; Escreva seu nome: Lucas
+<td class="code"><pre>Conceito de Programação Orientada a Objetos: A Programação Orientada a Objetos (POO) é um 
+paradigma de programação que utiliza "objetos" para modelar dados e comportamentos através 
+de classes, facilitando a organização e reutilização de código.
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<h2 id="saída-de-dados-com-a-função-print">Saída de dados com a Função <code class="language-plaintext highlighter-rouge">print</code>
-</h2>
+<h3 id="prompts-few-shot">Prompts Few-shot</h3>
 
-<p>A função para imprimir dados em Python é a função <code class="language-plaintext highlighter-rouge">print()</code>.</p>
+<p>Prompts <strong>few-shot</strong> fornecem ao modelo alguns exemplos de entrada e saída antes da pergunta principal.</p>
 
-<p>Ela é responsável por mostrar valores em seu terminal:</p>
+<p>Isso ajuda o modelo a entender o contexto, o formato e o tipo de resposta esperado.</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
 </pre></td>
-<td class="code"><pre><span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="s">Olá Mundo</span><span class="sh">'</span><span class="p">)</span>
+<td class="code"><pre>Exemplo 1:
+Pergunta: O que é herança em POO?
+Resposta: Herança é um princípio onde uma classe pode herdar atributos e 
+métodos de outra classe.
+
+Exemplo 2:
+Pergunta: O que é encapsulamento?
+Resposta: Encapsulamento é o conceito de esconder os detalhes internos de uma 
+classe e expor apenas o necessário.
+
+Pergunta: O que é polimorfismo?
+Resposta:
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Imprime a string no terminal:</p>
+<p>E a saída será:</p>
 
 <figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
+2
 </pre></td>
-<td class="code"><pre>Olá Mundo
+<td class="code"><pre>Polimorfismo é a capacidade de diferentes classes responderem ao mesmo método de maneira 
+específica, permitindo flexibilidade e reutilização de código.
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p><em><strong>Está curtindo esse conteúdo?</strong></em> <img class="emoji" title=":thumbsup:" alt=":thumbsup:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20"></p>
+<h2 id="técnicas-avançadas-de-construção-de-prompts">Técnicas Avançadas de Construção de Prompts</h2>
+
+<p>Construir prompts eficazes requer entender nuances e aplicar técnicas que maximizem a qualidade das respostas.</p>
+
+<h3 id="uso-de-instruções-claras">Uso de Instruções Claras</h3>
+
+<p>Forneça instruções precisas para evitar ambiguidades.</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>Liste três vantagens da programação funcional em Python.
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>E a saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>1. Imutabilidade dos dados  
+2. Facilita a depuração e manutenção  
+3. Suporte aprimorado para processamento paralelo
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h3 id="contextualização">Contextualização</h3>
+
+<p>Adicione contexto relevante para guiar o modelo.</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>Você é um assistente de programação especializado em Python. 
+
+Explique como funciona a função map().
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>E a saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>A função `map()` aplica uma função específica a cada item de um iterável (como listas ou 
+tuplas) e retorna um iterador com os resultados. É útil para realizar operações 
+repetitivas de forma concisa e eficiente.
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h3 id="limitação-de-respostas">Limitação de Respostas</h3>
+
+<p>Defina limites para a resposta desejada, como o número de itens ou o comprimento.</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>Resuma o capítulo 1 do livro 'Python para Iniciantes' em até 100 palavras.
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>E a saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre>O capítulo 1 de 'Python para Iniciantes' introduz os conceitos básicos da programação, 
+incluindo sintaxe fundamental, tipos de dados e estruturas de controle. Ele estabelece 
+as bases necessárias para o desenvolvimento de habilidades em Python, preparando o 
+leitor para tópicos mais avançados nas próximas seções.
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h2 id="utilizando-prompts-no-langchain">Utilizando Prompts no LangChain</h2>
+
+<p>O <strong>LangChain</strong> facilita a integração e gestão de prompts em aplicações Python.</p>
+
+<p>Vamos ver como utilizar prompts simples e few-shot com LangChain.</p>
+
+<h3 id="instalação-do-langchain">Instalação do LangChain</h3>
+
+<p>Primeiro, instale o LangChain usando <code class="language-plaintext highlighter-rouge">pip</code> - de preferência um <a href="https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais" target="_blank">ambiente virtual</a>:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>pip <span class="nb">install </span>langchain langchain-community langchain-openai
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h3 id="exemplo-de-uso-de-prompt-simples">Exemplo de Uso de Prompt Simples</h3>
+
+<p>Agora vamos ver como é simples criar</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+</pre></td>
+<td class="code"><pre><span class="kn">import</span> <span class="n">getpass</span>
+<span class="kn">import</span> <span class="n">os</span>
+<span class="kn">from</span> <span class="n">langchain_openai</span> <span class="kn">import</span> <span class="n">OpenAI</span>
+<span class="kn">from</span> <span class="n">langchain.prompts</span> <span class="kn">import</span> <span class="n">PromptTemplate</span>
+
+<span class="c1"># Defina e salve a chave de API da OpenAI nas variáveis de ambiente
+</span><span class="n">os</span><span class="p">.</span><span class="n">environ</span><span class="p">[</span><span class="sh">"</span><span class="s">OPENAI_API_KEY</span><span class="sh">"</span><span class="p">]</span> <span class="o">=</span> <span class="n">getpass</span><span class="p">.</span><span class="nf">getpass</span><span class="p">(</span><span class="sh">"</span><span class="s">OpenAI API key: </span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># Definindo o prompt simples
+</span><span class="n">template</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Explique o conceito de {assunto}.</span><span class="sh">"</span>
+
+<span class="c1"># Criando o template
+</span><span class="n">prompt</span> <span class="o">=</span> <span class="nc">PromptTemplate</span><span class="p">(</span>
+    <span class="n">input_variables</span><span class="o">=</span><span class="p">[</span><span class="sh">"</span><span class="s">assunto</span><span class="sh">"</span><span class="p">],</span>
+    <span class="n">template</span><span class="o">=</span><span class="n">template</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="c1"># Inicializando o modelo OpenAI
+</span><span class="n">llm</span> <span class="o">=</span> <span class="nc">OpenAI</span><span class="p">(</span><span class="n">temperature</span><span class="o">=</span><span class="mf">0.7</span><span class="p">)</span>
+
+<span class="c1"># Gerando a resposta
+</span><span class="n">resposta</span> <span class="o">=</span> <span class="n">llm</span><span class="p">.</span><span class="nf">invoke</span><span class="p">(</span><span class="n">prompt</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">assunto</span><span class="o">=</span><span class="sh">"</span><span class="s">programação orientada a objetos</span><span class="sh">"</span><span class="p">))</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">resposta</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>E a saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="code"><pre>Conceito de Programação Orientada a Objetos: A Programação Orientada a Objetos (POO) é um 
+paradigma de programação que utiliza "objetos" para modelar dados e comportamentos através 
+de classes, facilitando a organização e reutilização de código.
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><strong>Explicação do código:</strong></p>
+
+<ol>
+  <li>
+<strong>Importações</strong>: Importamos <code class="language-plaintext highlighter-rouge">OpenAI</code> e <code class="language-plaintext highlighter-rouge">PromptTemplate</code> do LangChain.</li>
+  <li>
+<strong>Definição da Chave de API da OpenAI</strong>: Inserimos a chave de API da OpenAI nas variáveis de ambiente (<a href="https://pythonacademy.com.br/blog/como-integrar-o-chatgpt-em-seu-codigo-python" target="_blank">clique aqui para aprender a gerar as suas próprias chaves</a>).</li>
+  <li>
+<strong>Definição do Template</strong>: Criamos um template que inclui uma variável <code class="language-plaintext highlighter-rouge">{assunto}</code>.</li>
+  <li>
+<strong>Criação do Prompt</strong>: Passamos as variáveis de entrada e o template para <code class="language-plaintext highlighter-rouge">PromptTemplate</code>.</li>
+  <li>
+<strong>Inicialização do Modelo</strong>: Configuramos o modelo OpenAI com uma temperatura para controle de criatividade.</li>
+  <li>
+<strong>Geração da Resposta</strong>: Preenchemos o template com o assunto desejado e invocamos a resposta do modelo.</li>
+</ol>
+
+<h2 id="utilizando-prompttemplates-no-langchain">Utilizando PromptTemplates no LangChain</h2>
+
+<p><strong>PromptTemplates</strong> permitem criar prompts parametrizados, tornando-os reutilizáveis e flexíveis para diferentes entradas.</p>
+
+<h3 id="exemplo-de-prompttemplate-com-vários-exemplos">Exemplo de PromptTemplate com Vários Exemplos</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+</pre></td>
+<td class="code"><pre><span class="kn">import</span> <span class="n">os</span>
+<span class="kn">import</span> <span class="n">getpass</span>
+<span class="kn">from</span> <span class="n">langchain_openai</span> <span class="kn">import</span> <span class="n">OpenAI</span>
+<span class="kn">from</span> <span class="n">langchain.prompts</span> <span class="kn">import</span> <span class="n">PromptTemplate</span>
+
+<span class="c1"># Defina e salve a chave de API da OpenAI nas variáveis de ambiente
+</span><span class="n">os</span><span class="p">.</span><span class="n">environ</span><span class="p">[</span><span class="sh">"</span><span class="s">OPENAI_API_KEY</span><span class="sh">"</span><span class="p">]</span> <span class="o">=</span> <span class="n">getpass</span><span class="p">.</span><span class="nf">getpass</span><span class="p">(</span><span class="sh">"</span><span class="s">OpenAI API key: </span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># Definindo o prompt com exemplos few-shot
+</span><span class="n">template</span> <span class="o">=</span> <span class="sh">"""</span><span class="s">
+Exemplo 1:
+Pergunta: O que é herança em POO?
+Resposta: Herança é um princípio onde uma classe pode herdar atributos e 
+métodos de outra classe.
+
+Exemplo 2:
+Pergunta: O que é encapsulamento?
+Resposta: Encapsulamento é o conceito de esconder os detalhes internos de 
+uma classe e expor apenas o necessário.
+
+Pergunta: {pergunta}
+Resposta:
+</span><span class="sh">"""</span>
+
+<span class="c1"># Criando o template
+</span><span class="n">prompt</span> <span class="o">=</span> <span class="nc">PromptTemplate</span><span class="p">(</span>
+    <span class="n">input_variables</span><span class="o">=</span><span class="p">[</span><span class="sh">"</span><span class="s">pergunta</span><span class="sh">"</span><span class="p">],</span>
+    <span class="n">template</span><span class="o">=</span><span class="n">template</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="c1"># Inicializando o modelo OpenAI
+</span><span class="n">llm</span> <span class="o">=</span> <span class="nc">OpenAI</span><span class="p">(</span><span class="n">temperature</span><span class="o">=</span><span class="mf">0.7</span><span class="p">)</span>
+
+<span class="c1"># Gerando a resposta
+</span><span class="n">resposta</span> <span class="o">=</span> <span class="n">llm</span><span class="p">.</span><span class="nf">invoke</span><span class="p">(</span><span class="n">prompt</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">pergunta</span><span class="o">=</span><span class="sh">"</span><span class="s">O que é polimorfismo?</span><span class="sh">"</span><span class="p">))</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">resposta</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>E a saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>Polimorfismo é a capacidade de diferentes classes responderem ao mesmo método 
+de maneira específica, permitindo flexibilidade e reutilização de código.
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><strong>Explicação do código:</strong></p>
+
+<ol>
+  <li>
+<strong>Definição do Template</strong>: Incluímos exemplos de perguntas e respostas para guiar o modelo.</li>
+  <li>
+<strong>Criação do Prompt</strong>: Usamos <code class="language-plaintext highlighter-rouge">PromptTemplate</code> com a variável <code class="language-plaintext highlighter-rouge">{pergunta}</code>.</li>
+  <li>
+<strong>Geração da Resposta</strong>: Preenchemos o template com a nova pergunta e obtemos a resposta.</li>
+</ol>
+
+<h2 id="dicas-e-truques-para-otimizar-seus-prompts">Dicas e Truques para Otimizar seus Prompts</h2>
+
+<h3 id="seja-claro-e-conciso">Seja Claro e Conciso</h3>
+
+<p>Evite ambiguidades e mantenha o prompt direto ao ponto.</p>
+
+<h3 id="use-formatação-adequada">Use Formatação Adequada</h3>
+
+<p>Utilize listas, negrito e itálico para destacar informações importantes.</p>
+
+<h3 id="experimente-com-parâmetros">Experimente com Parâmetros</h3>
+
+<p>Ajuste parâmetros como <code class="language-plaintext highlighter-rouge">temperature</code> e <code class="language-plaintext highlighter-rouge">max_tokens</code> para controlar a criatividade e o tamanho da resposta.</p>
+
+<h3 id="teste-e-itere">Teste e Itere</h3>
+
+<p>Teste diferentes versões dos prompts e itere com base nas respostas obtidas para aprimorar a eficácia.</p>
+
+<p><em><strong>Antes de continuar… Está curtindo esse conteúdo?</strong></em> <img class="emoji" title=":thumbsup:" alt=":thumbsup:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20"></p>
 
 <p><em><strong>Que tal receber 30 dias de conteúdo direto na sua Caixa de Entrada?</strong></em></p>
 
@@ -484,49 +824,9 @@
     <div class="circle blue"></div>
 </div>
 
-<h3 id="o-parâmetro-sep-da-função-print">O parâmetro <code class="language-plaintext highlighter-rouge">sep=</code> da função <code class="language-plaintext highlighter-rouge">print</code>
-</h3>
+<h2 id="exemplos-de-prompts-para-diferentes-tarefas">Exemplos de Prompts para Diferentes Tarefas</h2>
 
-<p>Por padrão, quando utilizamos virgula para separar os itens, a função <code class="language-plaintext highlighter-rouge">print</code> utiliza espaços para separar cada saída.</p>
-
-<p>Porém, podemos utilizar o parâmetro <code class="language-plaintext highlighter-rouge">sep=</code> para definir um caractere de separação.</p>
-
-<p>Entenda no exemplo a seguir:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre><span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="s">Dia</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">Mês</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">Ano</span><span class="sh">'</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="sh">'</span><span class="s">/</span><span class="sh">'</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="s">ontem</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">Hoje</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">Amanhã</span><span class="sh">'</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="sh">'</span><span class="s">-</span><span class="sh">'</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">B</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">n</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">n</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">.</span><span class="sh">"</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="sh">'</span><span class="s">a</span><span class="sh">'</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Observe a saída com os caracteres definidos:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre>Dia/Mês/Ano
-ontem-Hoje-Amanhã
-Banana.
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Perceba que a função <code class="language-plaintext highlighter-rouge">print</code> incluiu o caracter indicado em <code class="language-plaintext highlighter-rouge">sep=</code> como separador dos dados a serem mostrados ao usuário!</p>
-
-<h3 id="o-parâmetro-end-da-função-print">O parâmetro <code class="language-plaintext highlighter-rouge">end=</code> da função <code class="language-plaintext highlighter-rouge">print</code>
-</h3>
-
-<p>Por padrão, a função <code class="language-plaintext highlighter-rouge">print</code> utiliza a quebra de linha (<code class="language-plaintext highlighter-rouge">\n</code>) como último caracter.</p>
-
-<p>O parâmetro <code class="language-plaintext highlighter-rouge">end=</code> é responsável por alterar esse comportamento, possibilitando ao desenvolvedor trocar qual caracter será adicionado ao final do dado impresso no terminal.</p>
-
-<p>Vamos entender melhor no exemplo a seguir:</p>
+<h3 id="geração-de-resumo">Geração de Resumo</h3>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -540,33 +840,202 @@ Banana.
 9
 10
 11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
 </pre></td>
-<td class="code"><pre><span class="c1"># Exemplo com fim de linha sem nenhum caracter
-</span><span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="s">Vamos estudar Na </span><span class="sh">'</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="sh">''</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="s">Python Academy</span><span class="sh">'</span><span class="p">)</span>
+<td class="code"><pre><span class="kn">import</span> <span class="n">os</span>
+<span class="kn">import</span> <span class="n">getpass</span>
+<span class="kn">from</span> <span class="n">langchain_openai</span> <span class="kn">import</span> <span class="n">OpenAI</span>
+<span class="kn">from</span> <span class="n">langchain.prompts</span> <span class="kn">import</span> <span class="n">PromptTemplate</span>
 
-<span class="c1"># Exemplo com fim de linha igual à -&gt;
-</span><span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="s">As rosas são</span><span class="sh">'</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="sh">'</span><span class="s"> -&gt; </span><span class="sh">'</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="s">Vermelhas</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">os</span><span class="p">.</span><span class="n">environ</span><span class="p">[</span><span class="sh">"</span><span class="s">OPENAI_API_KEY</span><span class="sh">"</span><span class="p">]</span> <span class="o">=</span> <span class="n">getpass</span><span class="p">.</span><span class="nf">getpass</span><span class="p">(</span><span class="sh">"</span><span class="s">OpenAI API key: </span><span class="sh">"</span><span class="p">)</span>
 
-<span class="c1"># Exemplo com fim de linha igual à :
-</span><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Quantidade</span><span class="sh">"</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="sh">'</span><span class="s">: </span><span class="sh">'</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="mi">40</span><span class="p">)</span>
+<span class="n">template</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Resuma o seguinte texto em uma frase: {texto}</span><span class="sh">"</span>
+
+<span class="n">prompt</span> <span class="o">=</span> <span class="nc">PromptTemplate</span><span class="p">(</span>
+    <span class="n">input_variables</span><span class="o">=</span><span class="p">[</span><span class="sh">"</span><span class="s">texto</span><span class="sh">"</span><span class="p">],</span>
+    <span class="n">template</span><span class="o">=</span><span class="n">template</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">llm</span> <span class="o">=</span> <span class="nc">OpenAI</span><span class="p">(</span><span class="n">temperature</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+
+<span class="n">resumo</span> <span class="o">=</span> <span class="n">llm</span><span class="p">.</span><span class="nf">invoke</span><span class="p">(</span>
+    <span class="n">prompt</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span>
+        <span class="n">texto</span><span class="o">=</span><span class="sh">"""</span><span class="s">
+        O LangChain é uma biblioteca em Python projetada para facilitar a criação 
+        de aplicações que utilizam modelos de linguagem de grande porte (LLMs), 
+        como o GPT-4, o DeepSeek ou o Grok.
+
+        Sua importância reside na capacidade de integrar e orquestrar diferentes 
+        componentes necessários para desenvolver funcionalidades avançadas, como 
+        chatbots inteligentes, sistemas de perguntas e respostas (Q&amp;A) e 
+        ferramentas de sumarização de texto.
+        </span><span class="sh">"""</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">resumo</span><span class="p">)</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Dessa forma, a saída será:</p>
+<p>E a saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>LangChain é uma framework poderosa que utiliza modelos de linguagem avançados 
+para criar aplicações de linguagem eficientes.
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h3 id="tradução-de-texto">Tradução de Texto</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+</pre></td>
+<td class="code"><pre><span class="kn">import</span> <span class="n">os</span>
+<span class="kn">import</span> <span class="n">getpass</span>
+<span class="kn">from</span> <span class="n">langchain_openai</span> <span class="kn">import</span> <span class="n">OpenAI</span>
+<span class="kn">from</span> <span class="n">langchain.prompts</span> <span class="kn">import</span> <span class="n">PromptTemplate</span>
+
+<span class="n">os</span><span class="p">.</span><span class="n">environ</span><span class="p">[</span><span class="sh">"</span><span class="s">OPENAI_API_KEY</span><span class="sh">"</span><span class="p">]</span> <span class="o">=</span> <span class="n">getpass</span><span class="p">.</span><span class="nf">getpass</span><span class="p">(</span><span class="sh">"</span><span class="s">OpenAI API key: </span><span class="sh">"</span><span class="p">)</span>
+
+<span class="n">template</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Traduza o seguinte texto para inglês: {texto}</span><span class="sh">"</span>
+
+<span class="n">prompt</span> <span class="o">=</span> <span class="nc">PromptTemplate</span><span class="p">(</span>
+    <span class="n">input_variables</span><span class="o">=</span><span class="p">[</span><span class="sh">"</span><span class="s">texto</span><span class="sh">"</span><span class="p">],</span>
+    <span class="n">template</span><span class="o">=</span><span class="n">template</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">llm</span> <span class="o">=</span> <span class="nc">OpenAI</span><span class="p">(</span><span class="n">temperature</span><span class="o">=</span><span class="mf">0.3</span><span class="p">)</span>
+
+<span class="n">traducao</span> <span class="o">=</span> <span class="n">llm</span><span class="p">.</span><span class="nf">invoke</span><span class="p">(</span><span class="n">prompt</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">texto</span><span class="o">=</span><span class="sh">"</span><span class="s">Olá, como você está?</span><span class="sh">"</span><span class="p">))</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">traducao</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>E a saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>Hello, how are you?
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h3 id="geração-de-código">Geração de Código</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+</pre></td>
+<td class="code"><pre><span class="kn">import</span> <span class="n">os</span>
+<span class="kn">import</span> <span class="n">getpass</span>
+<span class="kn">from</span> <span class="n">langchain_openai</span> <span class="kn">import</span> <span class="n">OpenAI</span>
+<span class="kn">from</span> <span class="n">langchain.prompts</span> <span class="kn">import</span> <span class="n">PromptTemplate</span>
+
+<span class="n">os</span><span class="p">.</span><span class="n">environ</span><span class="p">[</span><span class="sh">"</span><span class="s">OPENAI_API_KEY</span><span class="sh">"</span><span class="p">]</span> <span class="o">=</span> <span class="n">getpass</span><span class="p">.</span><span class="nf">getpass</span><span class="p">(</span><span class="sh">"</span><span class="s">OpenAI API key: </span><span class="sh">"</span><span class="p">)</span>
+
+<span class="n">template</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Crie uma função em Python que {descricao}.</span><span class="sh">"</span>
+
+<span class="n">prompt</span> <span class="o">=</span> <span class="nc">PromptTemplate</span><span class="p">(</span>
+    <span class="n">input_variables</span><span class="o">=</span><span class="p">[</span><span class="sh">"</span><span class="s">descricao</span><span class="sh">"</span><span class="p">],</span>
+    <span class="n">template</span><span class="o">=</span><span class="n">template</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">llm</span> <span class="o">=</span> <span class="nc">OpenAI</span><span class="p">(</span><span class="n">temperature</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
+
+<span class="n">codigo</span> <span class="o">=</span> <span class="n">llm</span><span class="p">.</span><span class="nf">invoke</span><span class="p">(</span><span class="n">prompt</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">descricao</span><span class="o">=</span><span class="sh">"</span><span class="s">verifique se um número é primo</span><span class="sh">"</span><span class="p">))</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">codigo</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>E a saída será:</p>
 
 <figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
 3
+4
+5
+6
+7
 </pre></td>
-<td class="code"><pre>Vamos estudar Na Python Academy
-As rosas são -&gt; Vermelhas
-Quantidade: 40
+<td class="code"><pre>def eh_primo(numero):
+    if numero &lt; 2:
+        return False
+    for i in range(2, int(numero ** 0.5) + 1):
+        if numero % i == 0:
+            return False
+    return True
 </pre></td>
 </tr></tbody></table></code></pre></figure>
+
+<p><strong>Explicação do código:</strong></p>
+
+<ol>
+  <li>
+<strong>Resumir Texto</strong>: Cria um prompt para resumir um texto específico.</li>
+  <li>
+<strong>Tradução</strong>: Define um prompt para traduzir texto do português para o inglês.</li>
+  <li>
+<strong>Geração de Código</strong>: Configura um prompt para gerar uma função Python com base em uma descrição.</li>
+</ol>
+
+<p><em><strong>Antes de continuar… Está curtindo esse conteúdo?</strong></em> <img class="emoji" title=":thumbsup:" alt=":thumbsup:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20"></p>
+
+<p><em><strong>Então faça parte da Jornada Python e aprimore ainda mais suas habilidades de Programação!</strong></em></p>
 
 <div class="jornada-python-in-post ">
     <a href="https://bit.ly/banner-jornada-python" class="in-post-banner-cta">
@@ -606,78 +1075,15 @@ Quantidade: 40
     </div> -->
 </div>
 
-<h2 id="juntando-entrada-e-saída-com-input-e-print">Juntando entrada e saída com <code class="language-plaintext highlighter-rouge">input</code> e <code class="language-plaintext highlighter-rouge">print</code>
-</h2>
-
-<p>Agora que conhecemos as duas funções, podemos juntá-las para fazer programas mais completos.</p>
-
-<p>Vamos armazenar o nome do usuário utilizando <code class="language-plaintext highlighter-rouge">input</code> e mostrar o dado para ele com <code class="language-plaintext highlighter-rouge">print</code>.</p>
-
-<p>Podemos juntar e imprimir vários itens em <code class="language-plaintext highlighter-rouge">print()</code>, basta separá-los por virgula, como no exemplo abaixo:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre><span class="n">nome</span> <span class="o">=</span> <span class="nf">input</span><span class="p">(</span><span class="sh">"</span><span class="s">Escreva seu nome: </span><span class="sh">"</span><span class="p">)</span>
-
-<span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="s">Seu nome é:</span><span class="sh">'</span><span class="p">,</span> <span class="n">nome</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Perceba que a função <code class="language-plaintext highlighter-rouge">input</code> retorna para nós aquilo que o usuário digitou. Portanto, nesse caso, o que o usuário digitar será passado à variável <code class="language-plaintext highlighter-rouge">nome</code>!</p>
-
-<p>Observe a saída:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="code"><pre>Escreva seu nome: Erick
-Seu nome é: Erick
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<h2 id="utilizando-print-para-gravar-dados-em-arquivos">Utilizando <code class="language-plaintext highlighter-rouge">print</code> para gravar dados em arquivos</h2>
-
-<p>A função <code class="language-plaintext highlighter-rouge">print()</code> também funciona para gravar dados em arquivos.</p>
-
-<p>Para isso, utilizamos o parâmetro <code class="language-plaintext highlighter-rouge">file=</code> da função print.</p>
-
-<p>Também precisamos de um arquivo aberto, o que é feito utilizando-se a função <code class="language-plaintext highlighter-rouge">open</code>.</p>
-
-<p>Veja o exemplo abaixo:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre><span class="k">with</span> <span class="nf">open</span><span class="p">(</span><span class="sh">'</span><span class="s">arquivo.txt</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">w</span><span class="sh">'</span><span class="p">)</span> <span class="k">as</span> <span class="n">arquivo</span><span class="p">:</span>
-    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Escreva isso dentro do arquivo,</span><span class="sh">"</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">arquivo</span><span class="p">)</span>
-    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Escreva outra linha dentro do arquivo.</span><span class="sh">"</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">arquivo</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Se abrirmos o <code class="language-plaintext highlighter-rouge">arquivo.txt</code>, veremos o seguinte conteúdo:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="code"><pre>Escreva isso dentro do arquivo,
-Escreva outra linha dentro do arquivo.
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
 <h2 class="no_toc" id="conclusão">Conclusão</h2>
 
-<p>Vimos nesse post como utilizar as funções <code class="language-plaintext highlighter-rouge">input</code> e <code class="language-plaintext highlighter-rouge">print</code> e como utilizá-las para pegar dados <strong>do</strong> usuários e mostrar dados <strong>para</strong> o usuário.</p>
+<p>Neste artigo, exploramos como utilizar <strong>Prompts</strong> e <strong>PromptTemplates</strong> no <strong>LangChain</strong> para desenvolver aplicações inteligentes em Python.</p>
 
-<p>Esse é um conhecimento básico que todo programador Python, os chamados <strong>Pythonistas</strong>, devem saber!</p>
+<p>Abordamos o conceito de prompts, seus diferentes tipos como simples e few-shot, e técnicas avançadas para construir prompts eficazes.</p>
 
-<p>Se ficou com alguma dúvida, fique à vontade para deixar um comentário no box aqui embaixo! Será um prazer te responder! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+<p>Aprendemos a implementar esses prompts utilizando o LangChain, além de compartilhar dicas valiosas para otimização e exemplos práticos para diversas tarefas.</p>
+
+<p>Com essas ferramentas e conhecimentos, você está preparado para criar aplicações robustas que tiram o máximo proveito dos modelos de linguagem, oferecendo interações precisas e eficientes.</p>
 
 
 	
@@ -688,24 +1094,24 @@ Escreva outra linha dentro do arquivo.
 							<div class="blog-post-colophon">
 								<div class="row">
 									<div class="col-xs-12 col-sm-3 text-center">									
-										<img width="152px" height="152px" alt="Autor" class="profile-img lazyload" data-src="/assets/authors/erickson-lopes/avatar.webp">
+										<img width="152px" height="152px" alt="Autor" class="profile-img lazyload" data-src="/assets/authors/vinicius-ramos/avatar.webp">
 									</div>
 	
 									<div class="col-xs-12 col-sm-9">
 										<div class="blog-post-meta">
 											<p>
 												<span class="blog-post-by">
-													Por Erickson Lopes
+													Por Vinícius Ramos
 												</span>
 	
-												<b>em <time datetime="2021-07-13" pubdate>13/07/2021</time></b>
+												<b>em <time datetime="2025-03-07" pubdate>07/03/2025</time></b>
 											</p>
 		
-											<!-- <p class="short-description">"<i>O infinito é o limite</i>"</p> -->
+											<!-- <p class="short-description">"<i>Porque o Senhor dá a sabedoria, e da sua boca vem a inteligência e o entendimento. - Provérbios 2:6 </i>"</p> -->
 	
 											
 											<p style="margin-bottom: 0">
-												<a href="https://www.linkedin.com/in/ericksonlopes" title="Linkedin" target="_blank" class="linkedin-anchor">
+												<a href="https://www.linkedin.com/in/vinicius-aramos" title="Linkedin" target="_blank" class="linkedin-anchor">
 													<img alt="Linkedin" loading="lazy" width="16px" height="16px" data-src="/assets/img/icone-linkedin-50.png" class="lazyload">
 													Bora se conectar no <b>LinkedIn</b>!
 												</a>
@@ -716,11 +1122,13 @@ Escreva outra linha dentro do arquivo.
 											
 											<ul>											
 												
-												<li><a href="mailto:ofc.ericksonlds@gmail.com" title="Email"><img alt="Email" loading="lazy" width="30px" height="30px" data-src="/assets/img/icone-email-50.png" class="lazyload"></a></li>
+												<li><a href="mailto:vinicius.ramos@pythonacademy.com.br" title="Email"><img alt="Email" loading="lazy" width="30px" height="30px" data-src="/assets/img/icone-email-50.png" class="lazyload"></a></li>
 																							
 												
-												<li><a href="https://github.com/ericksonlopes" title="Github" target="_blank"><img alt="Github" loading="lazy" width="30px" height="30px" data-src="/assets/img/icone-github-50.png" class="lazyload"></a></li>
+												<li><a href="https://github.com/viniciusramos91" title="Github" target="_blank"><img alt="Github" loading="lazy" width="30px" height="30px" data-src="/assets/img/icone-github-50.png" class="lazyload"></a></li>
 												
+												
+												<li><a href="https://stackoverflow.com/users/6775679/viniciusramos91" title="Stackoverflow" target="_blank"><img alt="StackOverflow" loading="lazy" width="30px" height="30px" data-src="/assets/img/icone-stackoverflow-50.png" class="lazyload"></a></li>
 												
 												
 											</ul>
@@ -748,25 +1156,25 @@ Escreva outra linha dentro do arquivo.
 
 				<ul>									
 					<li>
-						<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item" title="Facebook">
+						<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/como-utilizar-prompts-no-langchain','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item" title="Facebook">
 							<img alt="Facebook" loading="lazy" width="24px" height="24px" data-src="/assets/img/icone-facebook-50.png" class="lazyload">
 						</a>
 					</li>
 					
 					<li>							
-						<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python&amp;related=PythonAcademyBR&amp;text=&quot;Fun%C3%A7%C3%A3o%20input%20e%20print%20no%20Python:%20Entrada%20e%20Sa%C3%ADda%20de%20dados&quot;%20por%20Erickson%20Lopes','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank" title="Twitter">
+						<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/como-utilizar-prompts-no-langchain&amp;related=PythonAcademyBR&amp;text=&quot;Como%20utilizar%20Prompts%20e%20PromptTemplates%20no%20LangChain&quot;%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank" title="Twitter">
 							<img alt="Twitter" loading="lazy" width="24px" height="24px" data-src="/assets/img/icone-twitter-50.png" class="lazyload">
 						</a>
 					</li>
 	
 					<li>
-						<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python" data-action="share/whatsapp/share" title="Whatsapp">
+						<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/como-utilizar-prompts-no-langchain" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/como-utilizar-prompts-no-langchain" data-action="share/whatsapp/share" title="Whatsapp">
 							<img alt="Whatsapp" loading="lazy" width="24px" height="24px" data-src="/assets/img/icone-whatsapp-50.png" class="lazyload">
 						</a>
 					</li>
 	
 					<li>
-						<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Fun%C3%A7%C3%A3o%20input%20e%20print%20no%20Python:%20Entrada%20e%20Sa%C3%ADda%20de%20dados&amp;body=https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item" title="Email">
+						<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Como%20utilizar%20Prompts%20e%20PromptTemplates%20no%20LangChain&amp;body=https://pythonacademy.com.br/blog/como-utilizar-prompts-no-langchain&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item" title="Email">
 							<img alt="Email" loading="lazy" width="24px" height="24px" data-src="/assets/img/icone-email-50.png" class="lazyload">
 						</a>
 					</li>						
@@ -1274,7 +1682,7 @@ Escreva outra linha dentro do arquivo.
 							var post = posts[randomIndex];
 
 							// Verify if related post is the same as the shown
-							if (post.title != "Função input e print no Python: Entrada e Saída de dados") {
+							if (post.title != "Como utilizar Prompts e PromptTemplates no LangChain") {
 								var postDate = `${post.date.day}/${post.date.month}/${post.date.year}`
 								var postHTML = 
 									`<article class='col-lg-6 col-md-6 col-sm-6 col-xs-12 card-article overlay'>
@@ -1312,9 +1720,9 @@ Escreva outra linha dentro do arquivo.
 					laziness: 1,
 					throttle: 250,
 					disqusConfig: function() {
-						this.page.title       = 'Função input e print no Python: Entrada e Saída de dados';
-						this.page.url         = 'https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python';
-						this.page.identifier  = '/blog/input-e-print-entrada-e-saida-de-dados-no-python';
+						this.page.title       = 'Como utilizar Prompts e PromptTemplates no LangChain';
+						this.page.url         = 'https://pythonacademy.com.br/blog/como-utilizar-prompts-no-langchain';
+						this.page.identifier  = '/blog/como-utilizar-prompts-no-langchain';
 					}
 				};
 

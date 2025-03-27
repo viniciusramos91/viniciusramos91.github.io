@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Como utilizar Prompts e PromptTemplates no LangChain",
+      "title": "Como utilizar Prompts e PromptTemplates no LangChain",
+      "href": "/blog/como-utilizar-prompts-no-langchain",
+      "slug": "como-utilizar-prompts-no-langchain",
+      "assets": "langchain-prompts",
+      "author": "Vinícius R",
+      "description": "<p>Aprenda a criar prompts eficazes para obter as melhores respostas dos seus LLMs.</p>",
+      "header_color": "#182C61",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "07",
+         "month": "03",
+         "year": "2025"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "LangChain: Seu 1º App com LLMs",
       "title": "LangChain: Seu 1º App com LLMs",
       "href": "/blog/seu-primeiro-app-com-llms-e-langchain",
