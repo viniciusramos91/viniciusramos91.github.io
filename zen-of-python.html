@@ -225,33 +225,7 @@
                         </div>
                     
                         <div class="col-sm-12 col-md-7">
-                            <!-- <img class="logo mt-3" src="/assets/img/30-dias-de-python.png" alt="Logo">
-<h3>Já pensou receber dicas e truques de Python direto na sua Caixa de Entrada durante 30 dias!? <b>Sem enrolação e direto ao ponto</b>?!</h3>
-<h3>Faça como centenas de Pythonistas e evolua <b class="text-gradient">diariamente</b><span class="hidden-xs hidden-sm hidden-md"> 👇</span></h3>
-
-<div class="form-group">
-    <form id="sib-form" method="POST" action="https://653dd21e.sibforms.com/serve/MUIFAGnsCP1bwGjaPr5yL3ASTFmi91ABIKKZ1SLCd2XZfmDVhNYNwz2uiP23Q3RqSNW5PfgXpaq486O1qKoGNl-jKjR7BCJX_37A21hZMwBkAl5cSiASzDxezHEkcc9m76gEYa4zVqHCo-CDuWqJwgI_65EAkcZzikUNCix6AQ1BNowEDRVnUECoxkIoRMlil4O0BaVt42BKre7B">
-        <div class="row">
-            <div class="col-sm-4 col-md-4">
-                <label for="NOME">Nome</label>
-                <input class="input" maxlength="200" type="text" id="NOME" name="NOME" autocomplete="off" placeholder="Seu nome" data-required="true" required />
-            </div>
-            <div class="col-sm-5 col-md-5">
-                <label for="EMAIL">Seu melhor e-mail</label>
-                <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Seu melhor email" data-required="true" required />
-                <input type="hidden" name="locale" value="pt">
-                <input type="hidden" name="html_type" value="simple">
-            </div>
-            <div class="col-sm-3 col-md-3">
-                <button type="submit" class="call-to-action">
-                    Quero<span class="hidden-xs hidden-sm hidden-md"> evoluir!</span>
-                </button>
-            </div>
-        </div>
-    </form>
-</div> -->
-
-<div class="sib-form" >
+                            <div class="sib-form" >
     <div id="sib-form-container" class="sib-form-container">
         <div id="error-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
             <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
@@ -270,8 +244,8 @@
         </div>
         <div></div>
         <div id="sib-container" class="sib-container--large sib-container--vertical">
-            <div class="sib-form">
-                <form id="sib-form" method="POST" action="https://653dd21e.sibforms.com/serve/MUIFAOzeo_26583zDlkX06IVSEfLdy2lldPMQQ-buaMms6wV0AH6ta0dXKf1PQ1ClMB3at_fUWWxfNE6vzFxtInp0_xOfNt0O3BAdoxKB1-G9rVjspES-wNfJTgLaImy2C42dzVUsVYyyldeFoxH3ZZHfUxELi8KiyyZHQ4jfdP0XBahExHE0yvo77Xna4KcrzC855BOW04GONpS" data-type="subscription">
+            <div class="sib-form">                
+                <form id="sib-form" method="POST" action="https://653dd21e.sibforms.com/serve/MUIFAJZoZuHRU69z-i2tBs_EP-d0Qw5VAM6PqdFp1z9QojssrrVcDGlRJzk3WEbJs-slYJVZL9N2bU_cHhASAvUcHTZk1qNtBkG0jGWi2weIUlLDV7eNBZtkyJvK3kt5dFoKQsIrP6SDXENQ_WCcZ_pdVfONsLxfNer1N9OCTC97of0QxgO20h042FzqYCf0_5J-muw1zdH_8Ihn" data-type="subscription">
                     <div class="sib-form-block">
                         <img class="logo" src="/assets/img/30-dias-de-python.png" width="380px" alt="Logo" title="Logo" loading="lazy"/>
                     </div>
@@ -814,28 +788,29 @@
         <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
 		<script src="https://www.google.com/recaptcha/api.js?hl=pt"></script>
 
+        <script type="text/javascript">
+    function handleCaptchaResponse() {
+        var event = new Event('captchaChange');
+        document.getElementById('sib-captcha').dispatchEvent(event);
+    }
+    window.REQUIRED_CODE_ERROR_MESSAGE = 'Escolha um código de país';
+    window.LOCALE = 'pt';
+    window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
+    window.REQUIRED_ERROR_MESSAGE = "Este campo não pode ser deixado em branco. ";
+    window.GENERIC_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
+    
+    window.translation = {
+        common: {
+            selectedList: '{quantity} lista selecionada',
+            selectedLists: '{quantity} listas selecionadas'
+        }
+    };
+    
+    var AUTOHIDE = Boolean(1);
+</script>
+
 		<script type="text/javascript">
-			function handleCaptchaResponse() {
-				var event = new Event('captchaChange');
-				console.log(event);
-				document.getElementById('sib-captcha').dispatchEvent(event);
-			}
-			window.REQUIRED_CODE_ERROR_MESSAGE = 'Escolha um código de país';
-			window.LOCALE = 'pt';
-			window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
-			window.REQUIRED_ERROR_MESSAGE = "Este campo não pode ser deixado em branco. ";
-			window.GENERIC_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
-			
-			window.translation = {
-				common: {
-					selectedList: '{quantity} lista selecionada',
-					selectedLists: '{quantity} listas selecionadas'
-				}
-			};
-			
-			var AUTOHIDE = Boolean(0);
-            
-            (function($) {
+			(function($) {
                 AOS.init({
                     easing: 'linear',
                     duration: 650

@@ -1348,6 +1348,27 @@ PÁGINA 2:
 		<script src="https://www.google.com/recaptcha/api.js?hl=pt"></script>
 
 		<script type="text/javascript">
+    function handleCaptchaResponse() {
+        var event = new Event('captchaChange');
+        document.getElementById('sib-captcha').dispatchEvent(event);
+    }
+    window.REQUIRED_CODE_ERROR_MESSAGE = 'Escolha um código de país';
+    window.LOCALE = 'pt';
+    window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
+    window.REQUIRED_ERROR_MESSAGE = "Este campo não pode ser deixado em branco. ";
+    window.GENERIC_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
+    
+    window.translation = {
+        common: {
+            selectedList: '{quantity} lista selecionada',
+            selectedLists: '{quantity} listas selecionadas'
+        }
+    };
+    
+    var AUTOHIDE = Boolean(1);
+</script>
+
+		<script type="text/javascript">
 			var frases = [
 				"Não deixe para amanhã o sucesso que você pode começar a construir hoje! <br><img src='/assets/img/cupom-blog-popup.png' alt='Cupom' loading='lazy'><br> e <b>garanta 30% de desconto na Jornada Python</b>: a melhor e mais completa formação de Python e Django. Sua carreira em tecnologia aguarda!",
 				//"Erro 404: Cupom Não Encontrado. Brincadeira! Aqui está ele: BLOG30 para 30% de desconto. Mais fácil de achar que bug em código novo!",
@@ -1405,37 +1426,6 @@ PÁGINA 2:
 				}
 			}
 
-			function handleCaptchaResponse() {
-				var event = new Event('captchaChange');
-				console.log(event);
-				document.getElementById('sib-captcha').dispatchEvent(event);
-			}
-			window.REQUIRED_CODE_ERROR_MESSAGE = 'Escolha um código de país';
-			window.LOCALE = 'pt';
-			window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
-			window.REQUIRED_ERROR_MESSAGE = "Este campo não pode ser deixado em branco. ";
-			window.GENERIC_INVALID_MESSAGE = "A informação fornecida não é valida. Verifique o formato do campo e tente novamente.";
-			
-			window.translation = {
-				common: {
-					selectedList: '{quantity} lista selecionada',
-					selectedLists: '{quantity} listas selecionadas'
-				}
-			};
-			
-			var AUTOHIDE = Boolean(0);
-			// $(document).ready(function() {
-			// 	var requestSent = false;
-
-			// 	$(window).scroll(function() {
-			// 		// Verifica se o usuário chegou a 50% da página
-			// 		if (!requestSent && (window).pageYOffset >= ($(document).height() - $(window).height()) / 2) {
-			// 			requestSent = true;
-			// 			generateRandomPosts();
-			// 		}
-			// 	});
-			// });
-			
 			// Generate random posts
 			function generateRandomPosts() {
 				var counter = 0;	            
