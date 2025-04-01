@@ -20,6 +20,7 @@
 
 <title>Construa APIs com Django e Django REST Framework</title>
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">		
+<link rel="alternate" type="application/rss+xml" href="https://pythonacademy.com.br/feed.xml">
 
 <!-- Open Graph -->
 <meta property="fb:app_id" content="220280761884954">
@@ -2050,23 +2051,25 @@ pip <span class="nb">install </span>django djangorestframework
 				</button>
 			</div>
 		</div>
-	
-		<!-- =================================== -->
-		<!-- MODAL                               -->
-		<!-- =================================== -->
-		<div id="myModal" class="modal">
-			<div class="modal-content">
-				<span class="close">×</span>
-				<h4>Não se vá sem levar um de nossos <b style="color: #ffcc00;"><u>Ebooks</u></b>!</h4>
-				<p>Baixe <b>gratuitamente</b> nossos E-Books exclusivos e leve esse conteúdo que fiz com muito carinho para continuar estudando com a Python Academy!</p>
-				<img src="/assets/img/ebook-mockups.png" alt="Ebooks" width="80%" class="ignore-lazyload">
 
-				<a href="/ebooks/">Quero conhecer os Ebooks</a>
+		
+			<!-- =================================== -->
+			<!-- MODAL                               -->
+			<!-- =================================== -->
+			<div id="myModal" class="modal">
+				<div class="modal-content">
+					<span class="close">×</span>
+					<h4>Não se vá sem levar um de nossos <b style="color: #ffcc00;"><u>Ebooks</u></b>!</h4>
+					<p>Baixe <b>gratuitamente</b> nossos E-Books exclusivos e leve esse conteúdo que fiz com muito carinho para continuar estudando com a Python Academy!</p>
+					<img src="/assets/img/ebook-mockups.png" alt="Ebooks" width="80%" class="ignore-lazyload">
+
+					<a href="/ebooks/">Quero conhecer os Ebooks</a>
+				</div>
+
+				<div class="yellow-blur"></div>
+				<div class="blue-blur"></div>
 			</div>
-
-			<div class="yellow-blur"></div>
-			<div class="blue-blur"></div>
-		</div>
+		
 
 		
 
@@ -2192,28 +2195,30 @@ pip <span class="nb">install </span>django djangorestframework
 				}, 500);
 			});			
 
-			function showModal() {
-				if (!hasModalShown) {
+			
+				function showModal() {
+					if (!hasModalShown) {
+						var modal = document.getElementById("myModal");
+						var body = document.getElementById("post-body")
+						modal.style.display = "block";
+						body.style.overflow = "hidden"
+						hasModalShown = true;
+					}
+				}
+
+				window.onload = function() {
+					var closeButton = document.getElementsByClassName("close")[0];
 					var modal = document.getElementById("myModal");
-					var body = document.getElementById("post-body")
-					modal.style.display = "block";
-					body.style.overflow = "hidden"
-					hasModalShown = true;
-				}
-			}
+					var body = document.getElementById("post-body")				
 
-			window.onload = function() {
-				var closeButton = document.getElementsByClassName("close")[0];
-				var modal = document.getElementById("myModal");
-				var body = document.getElementById("post-body")				
-
-				closeButton.onclick = function() {
-					body.style.overflow = "auto"
-					modal.style.animationName = "fadeOut";
-					modal.style.animationDuration = "0.4s";
-					setTimeout(function(){ modal.style.display = "none"; }, 400);
+					closeButton.onclick = function() {
+						body.style.overflow = "auto"
+						modal.style.animationName = "fadeOut";
+						modal.style.animationDuration = "0.4s";
+						setTimeout(function(){ modal.style.display = "none"; }, 400);
+					}
 				}
-			}
+			
 
 			// Generate random posts
 			function generateRandomPosts() {

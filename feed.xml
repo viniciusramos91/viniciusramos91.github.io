@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>Aprenda Python de verdade! Descubra como é fácil começar a usar uma das linguagens de programação mais simples do mercado! Com Python você vai poder automatizar tarefas do dia a dia, desenvolver para Web, aprender Data Science, conhecer Machine Learning e muito mais!</description>
+    <link>https://pythonacademy.com.br/</link>
+    <atom:link href="https://pythonacademy.com.br/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 01 Apr 2025 20:52:37 -0300</pubDate>
+    <lastBuildDate>Tue, 01 Apr 2025 20:52:37 -0300</lastBuildDate>
+    <generator>Jekyll v4.3.3</generator>
+    
+    <item>
+        <title>Como utilizar Prompts e PromptTemplates no LangChain</title>
+        <description>Aprenda a criar prompts eficazes para obter as melhores respostas dos seus LLMs.</description>
+        <pubDate>Fri, 07 Mar 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-utilizar-prompts-no-langchain</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-utilizar-prompts-no-langchain</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>LangChain: Seu 1º App com LLMs</title>
+        <description>Use o poder do LangChain e crie sua primeira aplicação com modelos de linguagem de grande porte (LLM).</description>
+        <pubDate>Wed, 05 Mar 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/seu-primeiro-app-com-llms-e-langchain</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/seu-primeiro-app-com-llms-e-langchain</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Python e LangChain: Web scraping com IA</title>
+        <description>Nesse artigo, você vai desvendar como usar Langchain e Inteligência Artificial para extrair conteúdos de páginas web</description>
+        <pubDate>Mon, 03 Mar 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/web-scraping-com-ia-langchain-e-playwright</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/web-scraping-com-ia-langchain-e-playwright</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>langchain</category>
+        <category>playwright</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Padrões de Projeto em Python (Design Patterns): Factory Method</title>
+        <description>Conheça o padrão de projeto Factory Method em Python, um padrão creacional que resolve o problema de instanciação de objetos.</description>
+        <pubDate>Sun, 02 Mar 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-factory-method</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-factory-method</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>O que é o LangChain e como funciona</title>
+        <description>Descubra o LangChain, o framework revolucionário para construir aplicações poderosas com modelos de linguagem de grande escala (LLMs).</description>
+        <pubDate>Sat, 01 Mar 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/o-que-e-e-como-funciona-o-langchain</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/o-que-e-e-como-funciona-o-langchain</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Padrões de Projeto em Python (Design Patterns): Builder</title>
+        <description>Conheça o padrão de projeto Builder em Python, um dos Design Patterns mais utilizados no desenvolvimento de software.</description>
+        <pubDate>Fri, 28 Feb 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-builder</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-builder</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Padrões de Projeto em Python (Design Patterns): Abstract Factory</title>
+        <description>Conheça o padrão de projeto Abstract Factory em Python. Veja exemplos práticos e aprenda a implementar em seus projetos.</description>
+        <pubDate>Thu, 27 Feb 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-abstract-factory</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-abstract-factory</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Padrões de Projeto em Python (Design Patterns)</title>
+        <description>Neste artigo, você aprenderá sobre Padrões de Projeto em Python (Design Patterns) e sua importância.</description>
+        <pubDate>Wed, 26 Feb 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/padroes-de-projeto-em-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/padroes-de-projeto-em-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Trabalhando com datas no Python</title>
+        <description>Neste artigo, abordaremos o módulo datetime do Python, explorando desde operações básicas até manipulações avançadas de datas e horários.</description>
+        <pubDate>Tue, 25 Feb 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/trabalhando-com-datas-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/trabalhando-com-datas-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Pydantic e Tipos Avançados: Personalizando a Validação de Dados</title>
+        <description>Neste artigo, abordaremos como trabalhar com tipos complexos como Decimal, UUID e DateTime, utilizar campos opcionais e valores padrão, implementar validações personalizadas com validator, e introduzir o uso de Field para configurar validações e metadados.</description>
+        <pubDate>Sat, 15 Feb 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/pydantic-e-tipos-avancados</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/pydantic-e-tipos-avancados</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Trabalhando com Estruturas Complexas no Pydantic</title>
+        <description>Neste artigo, veremos como o Pydantic lida com modelos aninhados, permitindo representar relações entre dados em Python. Vamos explorar como o Pydantic lida com listas, dicionários e estruturas JSON complexas.</description>
+        <pubDate>Sun, 19 Jan 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/modelos-complexos-no-pydantic</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/modelos-complexos-no-pydantic</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Introdução ao Pydantic: Validação e Modelagem de Dados Simplificada com Python</title>
+        <description>Nesse artigo veremos como utilizar o Pydantic para validação e modelagem de dados em Python de forma simplificada.</description>
+        <pubDate>Sat, 18 Jan 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/introducao-ao-pydantic-validacao-e-modelagem-de-dados-simplificada-com-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/introducao-ao-pydantic-validacao-e-modelagem-de-dados-simplificada-com-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Serializadores (Serializers) no Django Rest Framework (DRF)</title>
+        <description>Aprenda a configurar e utilizar Serializadores (Serializers) no Django Rest Framework para criar APIs REST.</description>
+        <pubDate>Tue, 10 Sep 2024 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/serializers-no-django-rest-framework</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/serializers-no-django-rest-framework</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Configurando um projeto Django Rest Framework (DRF)</title>
+        <description>Aprenda um passo a passo para configurar um projeto Django Rest Framework e começar a desenvolver APIs REST.</description>
+        <pubDate>Sat, 07 Sep 2024 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/configurando-um-projeto-django-rest-framework</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/configurando-um-projeto-django-rest-framework</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>drf</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>O que é o Django Rest Framework (DRF)?</title>
+        <description>Entenda o que é o Django Rest Framework (DRF) e como ele pode facilitar o desenvolvimento de APIs REST em Django.</description>
+        <pubDate>Tue, 27 Aug 2024 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>drf</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Pra que serve o `__init__.py` em Python?</title>
+        <description>Entenda o que é o __init__.py e como ele é utilizado em projetos Python. </description>
+        <pubDate>Mon, 12 Aug 2024 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/pra-que-serve-__init__-py-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/pra-que-serve-__init__-py-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Filas em Python</title>
+        <description>Filas são estruturas de dados fundamentais em programação. Nesse artigo você vai aprender a gerenciar filas da maneira certa em Python!</description>
+        <pubDate>Mon, 22 Jul 2024 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-gerenciar-filas-em-python-com-a-biblioteca-queue</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-gerenciar-filas-em-python-com-a-biblioteca-queue</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>queue</category>
+        <category>programação</category>
+        <category>software</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Aprenda sobre Concorrência e Paralelismo em Python</title>
+        <description>Vamos explorar os principais conceitos de concorrência e paralelismo em Python! Aprenda sobre threads, processos, programação assíncrona e como usar essas técnicas para tornar seus programas mais rápidos e responsivos. </description>
+        <pubDate>Mon, 15 Jul 2024 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/aprenda-sobre-concorrencia-e-paralelismo-em-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/aprenda-sobre-concorrencia-e-paralelismo-em-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>WebScraping com Python e BeautifulSoup</title>
+        <description>Nesse artigo você vai aprender a desenvolver aplicações WebScraping utilizando Python e BeautifulSoup</description>
+        <pubDate>Mon, 25 Mar 2024 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/web-scraping-com-python-e-beautifulsoup</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/web-scraping-com-python-e-beautifulsoup</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>O que é WebScraping</title>
+        <description>Nesse artigo você verá uma Introdução aos principais conceitos relacionadoas ao WebScraping</description>
+        <pubDate>Sun, 24 Mar 2024 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/o-que-e-webscraping</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/o-que-e-webscraping</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Programação Assíncrona com Python</title>
+        <description>Nesse artigo, vamos desvendar os mistérios da programação assíncrona no Python!</description>
+        <pubDate>Wed, 22 Nov 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/programacao-assincrona-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/programacao-assincrona-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como manipular JSON com Python</title>
+        <description>Nesse artigo você vai aprender a manipular dados em JSON utilizando Python de uma maneira simples e eficiente!</description>
+        <pubDate>Thu, 02 Nov 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-manipular-json-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-manipular-json-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Manipulando Arquivos PDF com Python</title>
+        <description>Nesse artigo você vai aprender a manipular arquivos PDF com Python e PyPDF2</description>
+        <pubDate>Tue, 31 Oct 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/manipulando-arquivos-pdf-com-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/manipulando-arquivos-pdf-com-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>O Pacote Collections do Python</title>
+        <description>Nesse artigo você vai aprender a utilizar as estruturas de dados presentes no no famoso pacote collections do Python</description>
+        <pubDate>Sun, 29 Oct 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/o-pacote-collections-do-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/o-pacote-collections-do-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como conectar o Django (Python) ao MySQL</title>
+        <description>Chega de usar o SQLite nas suas aplicações. Aprenda a conectar o poderoso SGBD MySQL à sua aplicação Web Django!</description>
+        <pubDate>Sun, 22 Oct 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-conectar-o-django-ao-mysql</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-conectar-o-django-ao-mysql</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como conectar o Django (Python) ao Banco de Dados PostgreSQL</title>
+        <description>Chega de usar o SQLite nas suas aplicações. Aprenda a conectar o poderoso SGBD PostgreSQL à sua aplicação Web Django!</description>
+        <pubDate>Sat, 16 Sep 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-conectar-o-django-ao-postgresql</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-conectar-o-django-ao-postgresql</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>O que é e como usar o Painel Administrativo do Django (Python)</title>
+        <description>Nesse artigo você vai aprender a usar e customizar o incrível Painel Admin do Django!</description>
+        <pubDate>Thu, 14 Sep 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/o-painel-admin-do-django</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/o-painel-admin-do-django</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Os principais comandos do manage.py do Django (Python)</title>
+        <description>Nesse post você vai aprender quais são e como utilizar os principais comandos do arquivo manage.py do Django (Python)</description>
+        <pubDate>Wed, 13 Sep 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Seu primeiro projeto Django em 15 minutos</title>
+        <description>Nesse artigo você vai iniciar a sua carreira no Desenvolvimento de Aplicações Web utilizando o framework Django em apenas 15 minutos.</description>
+        <pubDate>Tue, 12 Sep 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/seu-primeiro-projeto-django-em-15-minutos</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/seu-primeiro-projeto-django-em-15-minutos</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como criar gráficos com Matplotlib no Python</title>
+        <description>Nesse artigo você vai aprender a criar gráficos utilizando a incrível ferramenta Matplotlib no Python. Vamos nessa!</description>
+        <pubDate>Sun, 10 Sep 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-criar-graficos-utilizando-matplotlib-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-criar-graficos-utilizando-matplotlib-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Dataclasses no Python</title>
+        <description>Nesse artigo você vai aprender a utilizar dataclasses no Python para criar códigos mais limpos e enxutos.</description>
+        <pubDate>Mon, 31 Jul 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/dataclasses-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/dataclasses-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>O que é e como utilizar @property no Python</title>
+        <description>Nesse artigo você vai aprender o que é e como utilizar o @property no Python para deixar seu código mais elegante e fácil de entender</description>
+        <pubDate>Mon, 24 Jul 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-utilizar-property-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-utilizar-property-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Classes e Objetos no Python</title>
+        <description>Nesse post, você vai dominar a Programação Orientada a Objetos no Python. Aprenda a declarar Classes e instanciar Objetos no Python.</description>
+        <pubDate>Tue, 18 Jul 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/classes-e-objetos-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/classes-e-objetos-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>O guia de estilos de programação PEP8 do Python</title>
+        <description>Vamos aprender nesse artigo sobre o Guia de Estilo de Programação PEP8 do Python e seus principais pontos.</description>
+        <pubDate>Mon, 17 Jul 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/o-guia-de-estilos-pep8-do-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/o-guia-de-estilos-pep8-do-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como enviar email utilizando Python</title>
+        <description>Neste artigo você vai aprender a automatizar o envio de emails utilizando Python e o módulo smtplib.</description>
+        <pubDate>Sun, 16 Jul 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-enviar-email-utilizando-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-enviar-email-utilizando-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como automatizar planilhas do Excel utilizando Python</title>
+        <description>Aprenda a automatizar planilhas de Excel utilizando Pyhon e a biblioteca openpyxl.</description>
+        <pubDate>Thu, 13 Jul 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/automatize-planilhas-excel-usando-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/automatize-planilhas-excel-usando-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como escrever em arquivos utilizando Python</title>
+        <description>Neste artigo, vamos explorar como realizar operações de leitura forma eficiente e eficaz em Python.</description>
+        <pubDate>Tue, 11 Jul 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-escrever-em-arquivos-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-escrever-em-arquivos-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como abrir arquivos utilizando Python</title>
+        <description>Neste artigo, vamos explorar como realizar operações de abertura, leitura e escrita de forma eficiente e eficaz em Python.</description>
+        <pubDate>Sat, 08 Jul 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-manipular-arquivos-utilizando-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-manipular-arquivos-utilizando-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>A Biblioteca OS do Python</title>
+        <description>Obtenha informações do sistema em Python com o módulo os. Aprenda a interagir com o sistema operacional para criar aplicativos poderosos e flexíveis.</description>
+        <pubDate>Fri, 07 Jul 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/a-biblioteca-os-do-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/a-biblioteca-os-do-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Manipulação de Datas e Horas no Python</title>
+        <description>Chega de sofrer para manipular Datas e Horas no Python. Bora aprender de uma vez por todas!</description>
+        <pubDate>Thu, 06 Jul 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/manipulacao-datas-e-horarios-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/manipulacao-datas-e-horarios-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Fatiamento (ou Slicing) de Listas no Python</title>
+        <description>Manipular listas é um conhecimento extremamente importante para o Pythonista e nesse artigo você via aprender sobre o Slicing ou Fatiamento de Listas</description>
+        <pubDate>Tue, 04 Jul 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/fatiamento-slicing-de-listas</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/fatiamento-slicing-de-listas</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como manipular arquivos CSV no Python</title>
+        <description>Nesse artigo você vai aprender a manipular arquivos CSV utilizando a biblioteca csv do próprio Python.</description>
+        <pubDate>Sat, 01 Jul 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/manipulacao-csv-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/manipulacao-csv-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como integrar o ChatGPT em seu código Python</title>
+        <description>Aprenda a integrar o famoso e poderoso ChatGPT a seus códigos Python de maneira rápida e fácil.</description>
+        <pubDate>Thu, 04 May 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-integrar-o-chatgpt-em-seu-codigo-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-integrar-o-chatgpt-em-seu-codigo-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Aprenda a utilizar as Class Based Views (CBV) do Django</title>
+        <description>Aprenda a desenvolver views eficientes em Django com Class Based Views. Nesse post você vai aprender a utilizar as Class Based Views do Django para construir views mais especializadas, legíveis e organizadas, com menos código.</description>
+        <pubDate>Fri, 21 Apr 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-utilizar-as-class-based-views-do-django</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-utilizar-as-class-based-views-do-django</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como criar Interfaces Gráficas (GUI) com Tkinter e Python</title>
+        <description>Aprenda a usar o Tkinter do Python para criar interfaces gráficas (GUI)</description>
+        <pubDate>Fri, 20 Jan 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/interfaces-graficas-com-tkinter-e-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/interfaces-graficas-com-tkinter-e-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como usar o FastAPI para construir APIs no Python</title>
+        <description>Nesse post você vai aprender a construir poderosas APIs com o FastAPI: a biblioteca de construção de APIs que mais cresce no Python.</description>
+        <pubDate>Wed, 18 Jan 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-usar-o-fastapi-para-construir-apis-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-usar-o-fastapi-para-construir-apis-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>As Funções Map e Filter do Python</title>
+        <description>Neste artigo iremos falar sobre as funções map e filter e como elas podem ser usadas para produzir códigos mais pythônicos.</description>
+        <pubDate>Wed, 11 Jan 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/as-funcoes-map-e-filter-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/as-funcoes-map-e-filter-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>O que são Funções Lambda no Python</title>
+        <description>Neste artigo iremos falar sobre as Funções Lambdas, como defini-las e como utilizá-las!</description>
+        <pubDate>Tue, 10 Jan 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/funcoes-lambda-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/funcoes-lambda-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Tratamento de erros e exceções no Python com try/except</title>
+        <description>Neste post você vai aprender a tratar erros e exceções utilizando o bloco try/except do Python!</description>
+        <pubDate>Mon, 09 Jan 2023 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/tratamento-erros-excecoes-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/tratamento-erros-excecoes-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>7 truques em Python que todo iniciante deve saber</title>
+        <description>Nesse post você ficará mais apto a deixar seu código otimizado e melhor de ser editado.</description>
+        <pubDate>Wed, 26 Oct 2022 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/7-truques-em-python-que-todo-iniciante-deve-saber</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/7-truques-em-python-que-todo-iniciante-deve-saber</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Print no Python</title>
+        <description>Nesse post você vai aprender como utilizar a função print do Python para mostrar dados aos seus usuários</description>
+        <pubDate>Sat, 15 Oct 2022 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/print-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/print-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Strings no Python</title>
+        <description>Ainda com dificuldade para manipular Strings no Python? Então chega mais que você vai DOMINAR Strings depois desse Post!</description>
+        <pubDate>Wed, 14 Sep 2022 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/strings-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/strings-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Args e Kwargs no Python</title>
+        <description>Nesse post você vai aprender o que são os argumentos não-nomeados *args e argumentos nomeados **kwargs das funções em Python.</description>
+        <pubDate>Sat, 25 Jun 2022 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/args-e-kwargs-do-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/args-e-kwargs-do-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Estruturas de Repetição usando Loops While no Python</title>
+        <description>Nesse post você vai aprender a utilizar loops while do Python para criar Estruturas de Repetição.</description>
+        <pubDate>Fri, 24 Jun 2022 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/loops-com-while-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/loops-com-while-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Estruturas de Repetição usando Loops For no Python</title>
+        <description>Nesse post você vai aprender a utilizar loops for do Python para criar Estruturas de Repetição.</description>
+        <pubDate>Thu, 23 Jun 2022 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/loops-com-for-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/loops-com-for-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>PyScript: O Python no Seu Browser</title>
+        <description>Já pensou executar código Python no seu Browser?! Com PyScript, agora isso é possível! Venha ver como neste Post!</description>
+        <pubDate>Sat, 07 May 2022 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/python-no-browser-com-pyscript</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/python-no-browser-com-pyscript</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>7 Habilidades para se destacar em entrevistas de emprego</title>
+        <description>Cansado de receber &quot;NÃOs&quot; em entrevistas de emprego? Então venha aprender habilidades para se destacar em entrevistas de emprego!</description>
+        <pubDate>Sat, 23 Apr 2022 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/principais-habilidades-para-se-destacar-em-entrevistas-de-emprego</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/principais-habilidades-para-se-destacar-em-entrevistas-de-emprego</guid>
+        <category>career</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Fluxo de Trabalho no Git</title>
+        <description>Nesse post você vai aprender como é o Fluxo de Trabalho no Git!</description>
+        <pubDate>Sun, 17 Apr 2022 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/fluxo-de-trabalho-no-git</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/fluxo-de-trabalho-no-git</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Aprenda Git e seus principais comandos</title>
+        <description>Nesse post você vai dominar o Git: uma ferramenta MUITO IMPORTANTE que todo desenvolvedor DEVE dominar!</description>
+        <pubDate>Wed, 09 Mar 2022 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/git-e-seus-principais-comandos</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/git-e-seus-principais-comandos</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Aprenda a criar Funções em Python</title>
+        <description>Nesse post você vai aprender como não repetir linhas de código através da criação de Funções em Python!</description>
+        <pubDate>Tue, 08 Feb 2022 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/funcoes-em-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/funcoes-em-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Python 3.10: funcionalidades e novidades da versão</title>
+        <description>Nesse post vamos ver o que há de novo na tão aguardada versão 3.10 do Python!</description>
+        <pubDate>Wed, 06 Oct 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/python-3-10-o-que-ha-de-novo</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/python-3-10-o-que-ha-de-novo</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Introdução à Programação Orientada a Objetos no Python</title>
+        <description>Esse post mostra os principais conceitos do paradigma de programaçào Orientado a Objetos no Python, como: Classes, Objetos, Herança, Polimorfismo, Abstração e muito mais!</description>
+        <pubDate>Thu, 12 Aug 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/introducao-a-programacao-orientada-a-objetos-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/introducao-a-programacao-orientada-a-objetos-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>If/Elif/Else: as Estuturas Condicionais do Python</title>
+        <description>Esse post mostra como podemos controlar a execução de programas Python através das estruturas condicionais IF/ELIF/ELSE!</description>
+        <pubDate>Sat, 24 Jul 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/estruturas-condicionais-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/estruturas-condicionais-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Operadores Aritméticos e Operadores Lógicos em Python</title>
+        <description>Esse post trata sobre os Operadores Aritméticos (+, -, *, /, etc), Operadores de Comparação (==, &gt;=, &lt;=, etc), Operadores Lógicos (and, or e not) e muito mais!</description>
+        <pubDate>Sun, 18 Jul 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Função input e print no Python: Entrada e Saída de dados</title>
+        <description>Nesse post vamos falar sobre entrada de dados, saída de dados, a função input do Python, a função print e MUITO MAIS!</description>
+        <pubDate>Tue, 13 Jul 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>A função range do Python</title>
+        <description>Vamos tratar de um assunto muito importante nesse post: como construir loops utilizando a função range do Python!</description>
+        <pubDate>Fri, 09 Jul 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/a-funcao-range-do-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/a-funcao-range-do-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>For, While, Loops e Estruturas de Repetição no Python</title>
+        <description>Nesse post vamos falar sobre as famosas Estruturas de Repetição (ou loops) do Python: for, while, for com else, for com range, enumerate e muito mais!</description>
+        <pubDate>Thu, 08 Jul 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/estruturas-de-repeticao</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/estruturas-de-repeticao</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Domine Set Comprehensions no Python</title>
+        <description>Domine Sets Comprehensions (ou Compreensão de Sets) com esse post completo sobre o assunto! Set Comprehensions possibilita criar e manipular sets de uma maneira concisa e eficiente!</description>
+        <pubDate>Sat, 03 Jul 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/set-comprehensions-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/set-comprehensions-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Domine Sets no Python</title>
+        <description>Domine Sets (ou Conjuntos) com esse post completo sobre o assunto! Sets são um tipo de dados muito utilizado no dia a dia da programação Python e que todo programador precisa dominar!</description>
+        <pubDate>Fri, 02 Jul 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/sets-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/sets-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Dicionários (Dicts) no Python</title>
+        <description>Dicionário no Python é um tipo de dado muito eficiente e muito poderoso. Dominá-lo é essencial para o verdadeiro Pythonista!</description>
+        <pubDate>Sun, 27 Jun 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Tipos de Variáveis no Python</title>
+        <description>Nesse post vamos ver os tipos de variáveis que a linguagem Python nos disponibiliza para utilizar em nossos programas.</description>
+        <pubDate>Sat, 19 Jun 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Manipulação de Listas no Python</title>
+        <description>Vamos aprender como manipular Listas no Python de forma pythônica com esse Guia COMPLETO!</description>
+        <pubDate>Wed, 16 Jun 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/manipulacao-de-listas-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/manipulacao-de-listas-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Guia completo sobre Listas no Python</title>
+        <description>Esse post trata de um dos principais tipos de dados usados no dia a dia do Pythonista: as famosas LISTAS!</description>
+        <pubDate>Mon, 14 Jun 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/listas-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/listas-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Filtros, Busca e Ordenação no Django REST Framework</title>
+        <description>Esse post mostra como estender as funcionalidades de sua API, adicionando Filtros, Busca Textual e Ordenação às APIs desenvolvidas com o poderoso Django REST Framework</description>
+        <pubDate>Sun, 16 May 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/filtros-busca-e-ordenacao-no-drf</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/filtros-busca-e-ordenacao-no-drf</guid>
+        <category>web</category>
+        <category>api</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>drf</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Construa APIs com Django e Django REST Framework</title>
+        <description>Nesse post vamos ver como é fácil construir APIs de maneira rápida com nosso velho conhecido Django e o poderoso Django Rest Framework</description>
+        <pubDate>Wed, 05 May 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/construcao-de-apis-com-django-rest-framework</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/construcao-de-apis-com-django-rest-framework</guid>
+        <category>web</category>
+        <category>api</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>drf</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Biblioteca itertools do Python</title>
+        <description>Nesse post você vai dominar a biblioteca itertools do Python e adicionar mais um módulo poderosíssimo à sua caixa de ferramentas!</description>
+        <pubDate>Tue, 20 Apr 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/a-biblioteca-itertools-do-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/a-biblioteca-itertools-do-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>PyPy: Execute códigos Python até 4x mais rápido!</title>
+        <description>Quer saber como executar seu código 4x mais rápido? Então leia esse post AGORA!</description>
+        <pubDate>Mon, 05 Apr 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/pypy-seu-projeto-python-mais-rapido</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/pypy-seu-projeto-python-mais-rapido</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Manipulação de dados com Dataframes do Pandas</title>
+        <description>Complemento para o post de pandas básico, vamos aprender mais sobre Pandas Dataframes! A estrutura tabular que todo cientista de dados vai ficar careca de saber (eu fiquei, literalmente :O). Cola na Python Academy que você vai sair um cientista de dados!</description>
+        <pubDate>Mon, 15 Mar 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/dataframes-do-pandas</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/dataframes-do-pandas</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>data-science</category>
+        <category>pandas</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Séries do Pandas (Python)</title>
+        <description>Nesse post, você irá aprender como manipular arranjos unidimensionais utilizando as Séries do Pandas.</description>
+        <pubDate>Wed, 10 Mar 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/series-no-pandas</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/series-no-pandas</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>data-science</category>
+        <category>pandas</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Manipulação de Strings com f-strings no Python</title>
+        <description>Aprenda a manipular strings em Python de um jeito fácil e descomplicado com f-strings!</description>
+        <pubDate>Fri, 19 Feb 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/f-strings-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/f-strings-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como importar arquivos CSV no Pandas (Python)</title>
+        <description>Esse post mostra como importar arquivos CSV usando a famosa biblioteca pandas! Bora que essa ferramenta é essencial pra quem quer começar na área de Data Science!</description>
+        <pubDate>Wed, 03 Feb 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/importar-csv-no-pandas</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/importar-csv-no-pandas</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>data-science</category>
+        <category>pandas</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Dict Comprehension (compreensão de dict) no Python</title>
+        <description>Nesse post, vamos aprender uma ferramenta avançada muito útil do Python para tratamento e manipulação de dicionários!</description>
+        <pubDate>Thu, 14 Jan 2021 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/dict-comprehensions-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/dict-comprehensions-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>List Comprehensions (compreensão de listas) no Python</title>
+        <description>Aprenda a dominar o poder de List Comprehensions no Python. Nesse post você vai ver como utilizar, declarar e manipular listas com List Comprehensions.</description>
+        <pubDate>Thu, 25 Oct 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/list-comprehensions-no-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/list-comprehensions-no-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Iterators e Generators do Python</title>
+        <description>Você já deve ter ouvido falar em Iterators e Generators em Python. Mas você sabe o que são? Nesse post vamos aprender um pouco mais dessas duas ferramentas poderosas do Python!</description>
+        <pubDate>Mon, 15 Oct 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/iterators-e-generators-em-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/iterators-e-generators-em-python</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>A Camada Template do Django (Python)</title>
+        <description>Nesse post, vamos tratar da camada _Template_ do Django. Vamos aprender como utilizar, configurar e estender os templates do Django, como utilizar filtros e tags do Django e como criar nossas tags e filtros customizados!</description>
+        <pubDate>Wed, 04 Jul 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>web</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>css</category>
+        <category>html</category>
+        <category>template</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como Criar Middlewares no Django (Python)</title>
+        <description>Aprenda a criar Middlewares no Django para interceptar e processar requisições vindas dos usuários.</description>
+        <pubDate>Mon, 25 Jun 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-criar-middlewares-no-django</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-criar-middlewares-no-django</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>web</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Como Criar Formulários no Django (Python)</title>
+        <description>Vamos conhecer a facilidade que é criar formulários em projetos Django utilizando Django Forms!</description>
+        <pubDate>Fri, 22 Jun 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/formularios-do-django-com-django-forms</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/formularios-do-django-com-django-forms</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>web</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>A Camada View do Django (Python)</title>
+        <description>Nesse post, vamos tratar da camada _View_ do Django. Nela, nós desenvolvemos a lógica de negócio da nossa aplicação. Vamos ver sobre rotas, processamento de requisições e respostas, utilização de formulários e muito mais!</description>
+        <pubDate>Wed, 20 Jun 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>web</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>middleware</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Comando migrate do Django (Python)</title>
+        <description>Nesse post, vamos ver o funcionamento do comando migrate do Django, suas opções e como ele ajuda os desenvolvedores na hora de criar o banco de dados da nossa aplicação Django.</description>
+        <pubDate>Thu, 07 Jun 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/o-comando-migrate-do-django</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/o-comando-migrate-do-django</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>web</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>banco de dados</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Comando makemigrations do Django (Python)</title>
+        <description>Nesse post, vamos ver o funcionamento do comando makemigrations do Django, suas opções e quando devemos usá-lo.</description>
+        <pubDate>Wed, 30 May 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/o-comando-makemigrations-do-django</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/o-comando-makemigrations-do-django</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>web</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>banco de dados</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>A Camada Model do Django (Python)</title>
+        <description>Nesse post, vamos tratar da camada Model do Django. Vamos abordar detalhes dessa camada, mapeamento objeto-relacional, a API de acesso a dados provida pelo Django e modelagem de dados.</description>
+        <pubDate>Sat, 26 May 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>web</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>banco de dados</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Desenvolvimento Web com Python e Django</title>
+        <description>O Django é uma framework de desenvolvimento Web Python completa e robusta. Nesse post introdutório, vamos abordar os a arquitetura do framework e primeiros passos para o desenvlvimento web com Python.</description>
+        <pubDate>Tue, 22 May 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>web</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>5 motivos para aprender Python AGORA!</title>
+        <description>Nesse artigo, vamos abordar 5 motivos que irão te fazer começar a aprender Python ainda hoje!</description>
+        <pubDate>Wed, 11 Apr 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/porque-aprender-python-5-motivos-para-aprender-agora</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/porque-aprender-python-5-motivos-para-aprender-agora</guid>
+        <category>python</category>
+        <category>artigo</category>
+    </item>
+    <item>
+        <title>Crie jogos com Kivy e Python</title>
+        <description>Que tal criar um jogo em Python utilizando o framework Kivy? Nesse post vamos falar sobre menus, telas, áudio e desenvolver um jogo completamente do ZERO!</description>
+        <pubDate>Sun, 08 Apr 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-criar-jogos-com-python-e-kivy</guid>
+        <category>kivy</category>
+        <category>cross-platform</category>
+        <category>python</category>
+        <category>mobile</category>
+        <category>software</category>
+        <category>programacao</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Desenvolva Apps para Android e iOS com Python e Kivy</title>
+        <description>Nesse post vamos explorar o desenvolvimento de aplicações mobile utilizando Python e Kivy. Aprenda a desenvolver aplicativos para Android, iOS, Desktop e muito mais com Kivy!</description>
+        <pubDate>Sat, 07 Apr 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy</guid>
+        <category>python</category>
+        <category>kivy</category>
+        <category>mobile</category>
+        <category>software</category>
+        <category>programacao</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Aprenda como utilizar Decorators no Python</title>
+        <description>Decorators modificam o comportamente do código antes e depois da execução de uma dada função, sem a necessidade de modificar o próprio código da mesma, adicionando funcionalidades.</description>
+        <pubDate>Fri, 06 Apr 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/domine-decorators-em-python</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/domine-decorators-em-python</guid>
+        <category>python</category>
+        <category>software</category>
+        <category>metaprogramacao</category>
+        <category>programacao</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Ambientes Virtuais com Python e Virtualenv</title>
+        <description>Vamos entender o funcionamento do incrível virtualenv, uma ferramenta simples e poderosa que permite criar ambientes isolados de desenvolvimento Python.</description>
+        <pubDate>Thu, 05 Apr 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais</guid>
+        <category>python</category>
+        <category>virtualenv</category>
+        <category>software</category>
+        <category>programacao</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Guia de instalação do Python Windows</title>
+        <description>Nesse post, vamos aprender como instalar o Python no Windows através de um tutorial simples e descomplicado! Não tenha medo, vamos mostrar passo a passo!</description>
+        <pubDate>Wed, 04 Apr 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-instalar-python-no-windows</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-instalar-python-no-windows</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Guia de instalação do Python no Linux</title>
+        <description>O começo do começo! Vamos aprender como instalar o Python no Linux e começar a programar utilizando essa incrível linguagem de programação!</description>
+        <pubDate>Tue, 03 Apr 2018 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/como-instalar-python-no-linux</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-instalar-python-no-linux</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
+  </channel>
+</rss>
