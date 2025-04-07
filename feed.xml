@@ -5,10 +5,22 @@
     <description>Aprenda Python de verdade! Descubra como é fácil começar a usar uma das linguagens de programação mais simples do mercado! Com Python você vai poder automatizar tarefas do dia a dia, desenvolver para Web, aprender Data Science, conhecer Machine Learning e muito mais!</description>
     <link>https://pythonacademy.com.br/</link>
     <atom:link href="https://pythonacademy.com.br/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Apr 2025 19:03:00 -0300</pubDate>
-    <lastBuildDate>Sat, 05 Apr 2025 19:03:00 -0300</lastBuildDate>
+    <pubDate>Mon, 07 Apr 2025 10:42:09 -0300</pubDate>
+    <lastBuildDate>Mon, 07 Apr 2025 10:42:09 -0300</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     
+    <item>
+        <title>Padrões de Projeto em Python (Design Patterns): Prototype</title>
+        <description>Conheça o padrão criacional Prototype que possibilita realizar cópias de objetos sem faezr seu código dependente de outras classes.</description>
+        <pubDate>Thu, 13 Mar 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-prototype</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-prototype</guid>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>tutorial</category>
+    </item>
     <item>
         <title>Como utilizar Prompts e PromptTemplates no LangChain</title>
         <description>Aprenda a criar prompts eficazes para obter as melhores respostas dos seus LLMs.</description>

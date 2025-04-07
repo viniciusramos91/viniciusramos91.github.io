@@ -18,7 +18,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1">		
 
-<title>O que é o Django Rest Framework (DRF)?</title>
+<title>Padrões de Projeto em Python (Design Patterns): Prototype</title>
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">		
 <link rel="alternate" type="application/rss+xml" href="https://pythonacademy.com.br/feed.xml">
 
@@ -27,32 +27,32 @@
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Python Academy">
 <meta property="og:type" content="article">
-<meta property="og:title" content="O que é o Django Rest Framework (DRF)?">
-<meta property="og:url" content="https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework">
-<meta property="og:description" content="Entenda o que é o Django Rest Framework (DRF) e como ele pode facilitar o desenvolvimento de APIs REST em Django.">
-<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/drf-intro/thumbnail.png">
-<meta property="og:image:secure_url" content="https://pythonacademy.com.br/assets/posts/drf-intro/thumbnail.png">
-<meta property="og:image:alt" content="O que é o Django Rest Framework (DRF)?">
+<meta property="og:title" content="Padrões de Projeto em Python (Design Patterns): Prototype">
+<meta property="og:url" content="https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-prototype">
+<meta property="og:description" content="Conheça o padrão criacional Prototype que possibilita realizar cópias de objetos sem faezr seu código dependente de outras classes.">
+<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/dp-python-prototype/thumbnail.png">
+<meta property="og:image:secure_url" content="https://pythonacademy.com.br/assets/posts/dp-python-prototype/thumbnail.png">
+<meta property="og:image:alt" content="Padrões de Projeto em Python (Design Patterns): Prototype">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
 <meta property="article:author" content="Vinícius R">
 <meta property="article:section" content="Tecnologia">    
-<meta property="article:published_time" content="2024-08-27">
-<meta property="article:modified_time" content="2024-08-27">
+<meta property="article:published_time" content="2025-03-13">
+<meta property="article:modified_time" content="2025-03-13">
 
 <!-- General -->
-<meta itemprop="description" name="description" content="Entenda o que é o Django Rest Framework (DRF) e como ele pode facilitar o desenvolvimento de APIs REST em Django.">		
-<meta name="title" content="O que é o Django Rest Framework (DRF)?">
-<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/drf-intro/thumbnail.png">
+<meta itemprop="description" name="description" content="Conheça o padrão criacional Prototype que possibilita realizar cópias de objetos sem faezr seu código dependente de outras classes.">		
+<meta name="title" content="Padrões de Projeto em Python (Design Patterns): Prototype">
+<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/dp-python-prototype/thumbnail.png">
 
 <!-- Twitter cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
-<meta name="twitter:title" content="O que é o Django Rest Framework (DRF)?">
-<meta name="twitter:description" content="Entenda o que é o Django Rest Framework (DRF) e como ele pode facilitar o desenvolvimento de APIs REST em Django.">
-<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/drf-intro/thumbnail.png">
+<meta name="twitter:title" content="Padrões de Projeto em Python (Design Patterns): Prototype">
+<meta name="twitter:description" content="Conheça o padrão criacional Prototype que possibilita realizar cópias de objetos sem faezr seu código dependente de outras classes.">
+<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/dp-python-prototype/thumbnail.png">
 
 <meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
 
@@ -82,23 +82,23 @@
           "height": 630
         }
     },
-    "dateModified": "2024-08-27T00:00:00-03:00",
-    "datePublished": "2024-08-27T00:00:00-03:00",
-    "description": "Entenda o que é o Django Rest Framework (DRF) e como ele pode facilitar o desenvolvimento de APIs REST em Django.",
-    "headline": "O que é o Django Rest Framework (DRF)?",
-    "wordCount": 1999,
+    "dateModified": "2025-03-13T00:00:00-03:00",
+    "datePublished": "2025-03-13T00:00:00-03:00",
+    "description": "Conheça o padrão criacional Prototype que possibilita realizar cópias de objetos sem faezr seu código dependente de outras classes.",
+    "headline": "Padrões de Projeto em Python (Design Patterns): Prototype",
+    "wordCount": 1381,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework"
+        "@id": "https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-prototype"
     },
-    "url": "https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework",
-    "thumbnailUrl": "https://pythonacademy.com.br/assets/posts/drf-intro/thumbnail.png",
+    "url": "https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-prototype",
+    "thumbnailUrl": "https://pythonacademy.com.br/assets/posts/dp-python-prototype/thumbnail.png",
     "image": {
         "@type": "ImageObject",
-        "url": "https://pythonacademy.com.br/assets/posts/drf-intro/thumbnail.png",
+        "url": "https://pythonacademy.com.br/assets/posts/dp-python-prototype/thumbnail.png",
         "width": 1200,
         "height": 630,
-        "caption": "O que é o Django Rest Framework (DRF)?"
+        "caption": "Padrões de Projeto em Python (Design Patterns): Prototype"
     }
 }
 </script>
@@ -146,7 +146,7 @@
 </style>
 
 <!-- Canonical URL -->
-<link rel="canonical" href="https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework">			
+<link rel="canonical" href="https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-prototype">			
 
 		<!-- Assets -->
 		
@@ -179,7 +179,7 @@
 		<div class="main-container">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
-					<div class="post-banner-content" style="background: linear-gradient(180deg, #070707 60%, #a3262629 100%);">
+					<div class="post-banner-content" style="background: linear-gradient(180deg, #070707 60%, #b2bec329 100%);">
 						<div class="container">	
 							<div id="breadcrumbs">
     
@@ -190,14 +190,14 @@
       
     
       
-        / O que é o Django Rest Framework (DRF)?
+        / Padrões de Projeto em Python (Design Patterns): Prototype
       
     
 </div>
 							
 							
 							<h1 class="blog-post-title font-shadow">
-								O que é o Django Rest Framework (DRF)?
+								Padrões de Projeto em Python (Design Patterns): Prototype
 							</h1>
 
 							<div class="post-metadata">
@@ -206,11 +206,11 @@
 									<p class="text-left">
 										Vinícius Ramos
 										<span class="text-gradient">•</span>
-										<time datetime="2024-08-27" pubdate>27/08/2024</time>
+										<time datetime="2025-03-13" pubdate>13/03/2025</time>
 										
 										<br>
 										<small style="color: #FFF7">
-											<b>Atualizado em:</b> <time datetime="2024-08-27">27/08/2024</time>
+											<b>Atualizado em:</b> <time datetime="2025-03-13">13/03/2025</time>
 										</small>
 										
 									</p>
@@ -286,104 +286,125 @@
 					<div class="blog-post-content">					
 						
 						
-<p>Salve salve Pythonista!</p>
+<p>Salve salve Pythonista <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"></p>
 
-<p>No desenvolvimento moderno de aplicações web, a criação de APIs RESTful é uma habilidade essencial.</p>
+<p>No desenvolvimento de software, a eficiência na criação de objetos é essencial.</p>
 
-<p>O <strong>Django Rest Framework (DRF)</strong> é uma poderosa ferramenta que facilita e agiliza esse processo.</p>
+<p>O <strong>Padrão de Projeto Prototype</strong> é uma solução poderosa para esse desafio em Python.</p>
 
-<p>Neste artigo, vamos explorar <strong>o que é o Django Rest Framework</strong>, como ele simplifica o desenvolvimento de APIs REST, as principais funcionalidades que ele oferece e como ele pode aumentar significativamente a eficiência e a robustez do desenvolvimento de aplicações Web RESTful em Python.</p>
+<p>Neste artigo, exploraremos o que é o Prototype, o problema que ele resolve, sua estrutura, aplicabilidade e como implementá-lo na prática.</p>
 
-<p>Ah, e esse artigo dá o <em>start</em> em uma sequência incrível de artigos sobre essa importante e requisitada ferramenta!</p>
-
-<p>Então fica ligado e não perca os próximos artigos! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+<p>Entender este padrão pode melhorar significativamente a performance e a escalabilidade das suas aplicações Python.</p>
 
 <h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
 
 <ul id="markdown-toc">
-  <li><a href="#mas-primeiro" id="markdown-toc-mas-primeiro">Mas primeiro…</a></li>
-  <li><a href="#o-que-%C3%A9-o-django-rest-framework" id="markdown-toc-o-que-é-o-django-rest-framework">O que é o Django Rest Framework?</a></li>
-  <li><a href="#como-o-django-rest-framework-facilita-o-desenvolvimento-de-apis-rest" id="markdown-toc-como-o-django-rest-framework-facilita-o-desenvolvimento-de-apis-rest">Como o Django Rest Framework facilita o desenvolvimento de APIs REST</a></li>
+  <li><a href="#o-que-%C3%A9-o-padr%C3%A3o-de-projeto-prototype" id="markdown-toc-o-que-é-o-padrão-de-projeto-prototype">O que é o Padrão de Projeto Prototype?</a></li>
+  <li><a href="#problema-que-o-prototype-resolve" id="markdown-toc-problema-que-o-prototype-resolve">Problema que o Prototype Resolve</a></li>
+  <li><a href="#racional-por-tr%C3%A1s-do-prototype" id="markdown-toc-racional-por-trás-do-prototype">Racional por trás do Prototype</a></li>
+  <li><a href="#estrutura-do-padr%C3%A3o-de-projeto-prototype" id="markdown-toc-estrutura-do-padrão-de-projeto-prototype">Estrutura do Padrão de Projeto Prototype</a></li>
+  <li><a href="#aplicabilidade-do-padr%C3%A3o-prototype" id="markdown-toc-aplicabilidade-do-padrão-prototype">Aplicabilidade do Padrão Prototype</a></li>
+  <li><a href="#implementando-o-prototype-na-pr%C3%A1tica" id="markdown-toc-implementando-o-prototype-na-prática">Implementando o Prototype na Prática</a></li>
+  <li><a href="#exemplos-pr%C3%A1ticos-de-prototype-em-python" id="markdown-toc-exemplos-práticos-de-prototype-em-python">Exemplos Práticos de Prototype em Python</a></li>
 </ul>
 
-<h2 id="mas-primeiro">Mas primeiro…</h2>
+<h2 id="o-que-é-o-padrão-de-projeto-prototype">O que é o Padrão de Projeto Prototype?</h2>
 
-<p>O Django REST Framework utiliza - como o próprio nome sugere - o nosso querido Django como base!</p>
+<p>O <strong>Prototype</strong> é um padrão de criação que permite copiar objetos existentes sem depender de suas classes.</p>
 
-<p>Por isso é interessante que você já possua certo conhecimento na construção de aplicações web utilizando o Django.</p>
+<p>Ele facilita a criação de novas instâncias por clonagem, evitando a necessidade de repetição de código.</p>
+
+<p>Essa abordagem é especialmente útil quando a criação de um objeto é complexa ou custosa em termos de recursos.</p>
+
+<h2 id="problema-que-o-prototype-resolve">Problema que o Prototype Resolve</h2>
+
+<p>Criar objetos diretamente pode ser ineficiente, especialmente quando envolve processos complexos ou demorados.</p>
+
+<p>Além disso, a criação direta vincula o código à classe concreta, dificultando a manutenção e a expansão.</p>
+
+<p>O <strong>Prototype</strong> resolve esses problemas permitindo a clonagem de objetos existentes, promovendo flexibilidade e reutilização.</p>
+
+<h2 id="racional-por-trás-do-prototype">Racional por trás do Prototype</h2>
+
+<p>A ideia central do <strong>Prototype</strong> é utilizar objetos existentes como “protótipos” para criar novos objetos.</p>
+
+<p>Isso elimina a necessidade de instanciar objetos do zero, reduzindo a sobrecarga de criação.</p>
+
+<p>Além disso, promove o desacoplamento entre o código cliente e as classes concretas, facilitando futuras modificações.</p>
+
+<h2 id="estrutura-do-padrão-de-projeto-prototype">Estrutura do Padrão de Projeto Prototype</h2>
+
+<p>A estrutura do <strong>Prototype</strong> consiste em:</p>
+
+<ol>
+  <li>
+<strong>Prototype</strong>: Interface que declara o método de clonagem.</li>
+  <li>
+<strong>ConcretePrototype</strong>: Implementa o método de clonagem definido na interface.</li>
+  <li>
+<strong>Cliente</strong>: Cria novos objetos clonando os protótipos existentes.</li>
+</ol>
+
+<p>Essa estrutura garante que a clonagem seja realizada de maneira consistente e controlada.</p>
+
+<h2 id="aplicabilidade-do-padrão-prototype">Aplicabilidade do Padrão Prototype</h2>
+
+<p>O <strong>Prototype</strong> é aplicável quando:</p>
+
+<ul>
+  <li>A criação de objetos é custosa em termos de recursos.</li>
+  <li>É necessário criar cópias de objetos existentes.</li>
+  <li>O sistema deve ser independente das classes que precisa para criar novos objetos.</li>
+  <li>Os ambientes de runtime do programa devem permitir a criação dinâmica de novos objetos.</li>
+</ul>
 
 <blockquote>
-  <p><em>Ainda não é <strong>craque</strong> em Django?</em></p>
+  <p><em><strong>Antes de continuar… Está curtindo esse conteúdo?</strong></em> <img class="emoji" title=":thumbsup:" alt=":thumbsup:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20"> <br> <em><strong>Então faça parte da Jornada Python e aprimore ainda mais suas habilidades de Programação!</strong></em></p>
 </blockquote>
 
-<p>Não tem problema, aqui na Python Academy você conta com o melhor material sobre essa importante ferramenta!</p>
+<div class="jornada-python-in-post ">
+    <a href="https://bit.ly/banner-jornada-python" class="in-post-banner-cta">
+        <img class="in-post-banner lazyload" alt="Jornada Python" width="100%" loading="lazy" data-src="/assets/img/in-post-banner-new.png">
+        <img class="in-post-banner-xs lazyload" alt="Jornada Python" width="100%" loading="lazy" data-src="/assets/img/in-post-banner-xs-new.png">
+    </a>
+    <!-- <div class="inner">
+        <img class="jp-logo" src="/assets/img/jornada-python/logo-jornada-python-navbar.webp" alt="Jornada Python" width="120px" height="28px" loading="lazy">
+        <span class="headline">
+            Seja um Desenvolvedor Web <b class="yellow-font">Profissional</b> com Python e Django.
+        </span>
+        <span class="headline-subheading hidden-xs">
+            A melhor, mais completa e moderna formação para quem quer desenvolver aplicações Web utilizando Python e o poderoso framework Django.
+        </span>
 
-<p>Acesse agora:</p>
+        <div class="separator"></div>
 
-<p><img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao" target="_blank">Django: Introdução ao <em>framework</em></a><br>
-<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model" target="_blank">Django: A Camada <em>Model</em></a><br>
-<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view" target="_blank">Django: A Camada <em>View</em></a><br>
-<img class="emoji" title=":ballot_box_with_check:" alt=":ballot_box_with_check:" src="https://github.githubassets.com/images/icons/emoji/unicode/2611.png" height="20" width="20"> <a href="https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template" target="_blank">Django: A Camada <em>Template</em></a></p>
+        <span class="headline-subheading">Veja o que você vai aprender na Jornada Python:</span>
 
-<p>Ou se preferir, baixe nosso ebook <strong>GRÁTIS</strong> de Desenvolvimento Web com Python e Django:</p>
-
-<div class="include-ebook-wrapper">
-    <div class="text-center">
-        <h5 class="text-gradient">Ebook GRÁTIS</h5>
-        <h4>DESENVOLVIMENTO WEB COM PYTHON E DJANGO</h4>
-    </div>
-
-    <div class="ebook">
-        <div class="cover">
-            <img alt="Capa Ebook Desenvolvimento Web com Python e Django" class="ebook-cover lazyload" width="100%" loading="lazy" data-src="/assets/ebooks/desenvolvimento-web-com-python-e-django/ebook-cover.webp">
+        <div class="techs">
+            <img class="img-lg" src="/assets/img/banner-jornada-python.webp" alt="Jornada Python" width="80%" loading="lazy">
+            <img class="img-xs" src="/assets/img/banner-jornada-python-mobile.webp" alt="Jornada Python" width="100%" loading="lazy">
         </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="call-to-action" href="/jornada-python/">
+                    Quero conhecer a Jornada!
+                </a>
 
-        <div class="info">
-            <h3 class="ebook-title">Conteúdo:</h3>
-
-            <ul class="ebook-description">
-                <li>
-<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Veja como modelar sua aplicação</li>
-                <li>
-<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Utilize a robusta API de Acesso a Dados do Django</li>
-                <li>
-<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Aprenda sobre <i>Class Based Views</i>
-</li>
-                <li>
-<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Construa <i>Middlewares</i> próprios</li>
-                <li>
-<img class="emoji" title=":point_right:" alt=":point_right:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f449.png" height="20" width="20"> Desenvolva filtros e <i>tags</i> customizados para criar lindos <i>templates</i>
-</li>
-            </ul>
-
-            <a href="/ebooks/desenvolvimento-web-com-python-e-django/" class="call-to-action">Baixe já!</a>
+                <ul class="features">
+                    <li><img class="plus" src="/assets/img/plus-symbol.png" alt="Mais" loading="lazy" width="10px" height="10px"> Ebooks</li>
+                    <li><img class="plus" src="/assets/img/plus-symbol.png" alt="Mais" loading="lazy" width="10px" height="10px"> Dicas de Carreira</li>
+                    <li><img class="plus" src="/assets/img/plus-symbol.png" alt="Mais" loading="lazy" width="10px" height="10px"> Suporte à dúvidas</li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </div> -->
 </div>
 
-<p>Sem mais delongas, vamos para o Django REST Framework, ou DRF para os íntimos.</p>
+<h2 id="implementando-o-prototype-na-prática">Implementando o Prototype na Prática</h2>
 
-<h2 id="o-que-é-o-django-rest-framework">O que é o Django Rest Framework?</h2>
+<p>Vamos implementar o <strong>Prototype</strong> em Python.</p>
 
-<p>O <strong>Django Rest Framework (DRF)</strong> é uma biblioteca de alta performance, flexível e robusta para criar <strong>APIs RESTful</strong> usando <strong>Django</strong>.</p>
-
-<p>Ele fornece um kit de ferramentas de ponta para criar APIs, oferecendo uma série de vantagens como autenticação, permissões, serialização e muito mais.</p>
-
-<p><strong>A integração com Django é perfeita</strong>, tornando-o ideal para desenvolvedores que já estão familiarizados com o ecossistema Django.</p>
-
-<h2 id="como-o-django-rest-framework-facilita-o-desenvolvimento-de-apis-rest">Como o Django Rest Framework facilita o desenvolvimento de APIs REST</h2>
-
-<p>Vamos ver algumas das várias vantagens de se utiliar o DRF para construção de APIs Rest:</p>
-
-<h3 id="serialização-de-dados">Serialização de Dados</h3>
-
-<p>A <strong><em>serialização</em></strong> é um conceito crucial ao trabalhar com APIs.</p>
-
-<p>Ela permite converter complexos tipos de dados do Django para formatos JSON, XML, etc., e vice-versa.</p>
-
-<p>O DRF facilita essa tarefa com suas poderosas classes de serialização.</p>
-
-<p>Veja como é fácil criar uma classe de Serialização para converter um Model do Django - chamado de <code class="language-plaintext highlighter-rouge">Livro</code> - e seus campos: <code class="language-plaintext highlighter-rouge">titulo</code>, <code class="language-plaintext highlighter-rouge">autor</code>, <code class="language-plaintext highlighter-rouge">isbn</code> e <code class="language-plaintext highlighter-rouge">publicacao</code>:</p>
+<p>Primeiro, definimos a interface <code class="language-plaintext highlighter-rouge">Prototype</code> com o método <code class="language-plaintext highlighter-rouge">clone</code>:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -394,52 +415,30 @@
 6
 7
 </pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="n">rest_framework</span> <span class="kn">import</span> <span class="n">serializers</span>
-<span class="kn">from</span> <span class="n">.models</span> <span class="kn">import</span> <span class="n">Livro</span>
+<td class="code"><pre><span class="kn">from</span> <span class="n">abc</span> <span class="kn">import</span> <span class="n">ABC</span><span class="p">,</span> <span class="n">abstractmethod</span>
+<span class="kn">import</span> <span class="n">copy</span>
 
-<span class="k">class</span> <span class="nc">LivroSerializer</span><span class="p">(</span><span class="n">serializers</span><span class="p">.</span><span class="n">ModelSerializer</span><span class="p">):</span>
-    <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
-        <span class="n">model</span> <span class="o">=</span> <span class="n">Livro</span>
-        <span class="n">fields</span> <span class="o">=</span> <span class="p">[</span><span class="sh">'</span><span class="s">titulo</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">autor</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">isbn</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">publicacao</span><span class="sh">'</span><span class="p">]</span>
+<span class="k">class</span> <span class="nc">Prototype</span><span class="p">(</span><span class="n">ABC</span><span class="p">):</span>
+    <span class="nd">@abstractmethod</span>
+    <span class="k">def</span> <span class="nf">clone</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="k">pass</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<h3 id="views-genéricas-baseadas-em-classes">Views Genéricas Baseadas em Classes</h3>
+<p><strong>Explicação do código:</strong></p>
 
-<p>O DRF oferece um conjunto de <strong>Views Genéricas</strong> que simplificam a criação de operações CRUD.</p>
+<ol>
+  <li>
+<strong>Importações</strong>: Importamos <code class="language-plaintext highlighter-rouge">ABC</code> e <code class="language-plaintext highlighter-rouge">abstractmethod</code> para definir classes abstratas, e <code class="language-plaintext highlighter-rouge">copy</code> para clonagem.</li>
+  <li>
+<strong>Classe Abstrata</strong>: <code class="language-plaintext highlighter-rouge">Prototype</code> é uma classe abstrata que declara o método <code class="language-plaintext highlighter-rouge">clone</code>.</li>
+  <li>
+<strong>Método Abstrato</strong>: <code class="language-plaintext highlighter-rouge">clone</code> será implementado pelas classes concretas.</li>
+</ol>
 
-<p>Usar essas views genéricas economiza muito tempo e reduz a complexidade do código:</p>
+<h2 id="exemplos-práticos-de-prototype-em-python">Exemplos Práticos de Prototype em Python</h2>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="n">rest_framework</span> <span class="kn">import</span> <span class="n">generics</span>
-<span class="kn">from</span> <span class="n">.models</span> <span class="kn">import</span> <span class="n">Livro</span>
-<span class="kn">from</span> <span class="n">.serializers</span> <span class="kn">import</span> <span class="n">LivroSerializer</span>
-
-<span class="k">class</span> <span class="nc">LivroListCreateView</span><span class="p">(</span><span class="n">generics</span><span class="p">.</span><span class="n">ListCreateAPIView</span><span class="p">):</span>
-    <span class="n">queryset</span> <span class="o">=</span> <span class="n">Livro</span><span class="p">.</span><span class="n">objects</span><span class="p">.</span><span class="nf">all</span><span class="p">()</span>
-    <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">LivroSerializer</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>No exemplo acima, é utilizada a <code class="language-plaintext highlighter-rouge">generics.ListCreateAPIView</code> para criar uma View que vai possibilitar a Listagem de Livros (o <em>Retrieve</em> do CRUD) e a Criação de Livros (o <em>Create</em> do CRUD).</p>
-
-<p>Nenhum código adicional é necessário! Essa é a <strong>mágica</strong>!</p>
-
-<h3 id="autenticação-e-permissões">Autenticação e Permissões</h3>
-
-<p>Outra área onde o DRF brilha é na <strong>autenticação e controle de permissões</strong>.</p>
-
-<p>Ele oferece diversos métodos de autenticação e uma infraestrutura fácil de usar para definir permissões que controlam o acesso às diferentes partes da API.</p>
-
-<p>Vamos a um exemplo:</p>
+<p>Agora, criamos uma classe concreta que implementa <code class="language-plaintext highlighter-rouge">Prototype</code>:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -451,30 +450,84 @@
 7
 8
 9
+10
 </pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="n">rest_framework.permissions</span> <span class="kn">import</span> <span class="n">IsAuthenticated</span>
-<span class="kn">from</span> <span class="n">rest_framework.decorators</span> <span class="kn">import</span> <span class="n">api_view</span><span class="p">,</span> <span class="n">permission_classes</span>
+<td class="code"><pre><span class="k">class</span> <span class="nc">Documento</span><span class="p">(</span><span class="n">Prototype</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">titulo</span><span class="p">,</span> <span class="n">conteudo</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">titulo</span> <span class="o">=</span> <span class="n">titulo</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">conteudo</span> <span class="o">=</span> <span class="n">conteudo</span>
 
-<span class="nd">@api_view</span><span class="p">([</span><span class="sh">'</span><span class="s">GET</span><span class="sh">'</span><span class="p">])</span>
-<span class="nd">@permission_classes</span><span class="p">([</span><span class="n">IsAuthenticated</span><span class="p">])</span>
-<span class="k">def</span> <span class="nf">lista_livros</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
-    <span class="n">livros</span> <span class="o">=</span> <span class="n">Livro</span><span class="p">.</span><span class="n">objects</span><span class="p">.</span><span class="nf">all</span><span class="p">()</span>
-    <span class="n">serializer</span> <span class="o">=</span> <span class="nc">LivroSerializer</span><span class="p">(</span><span class="n">livros</span><span class="p">,</span> <span class="n">many</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
-    <span class="k">return</span> <span class="nc">Response</span><span class="p">(</span><span class="n">serializer</span><span class="p">.</span><span class="n">data</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">clone</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">copy</span><span class="p">.</span><span class="nf">deepcopy</span><span class="p">(</span><span class="n">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="sh">"</span><span class="s">Documento: </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">titulo</span><span class="si">}</span><span class="se">\n</span><span class="s">Conteúdo: </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">conteudo</span><span class="si">}</span><span class="sh">"</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Explicações:</p>
-<ul>
-  <li>Nesse código é utilizado o decorator <code class="language-plaintext highlighter-rouge">@api_view</code> definindo que a View só permite o método <code class="language-plaintext highlighter-rouge">HTTP GET</code>.</li>
-  <li>O decorator <code class="language-plaintext highlighter-rouge">@permission_classes</code> define os tipos permitidos de autenticação para essa View. <code class="language-plaintext highlighter-rouge">IsAuthenticated</code> define que essa View só estará disponível para usuários já autenticados no sistema.</li>
+<p><strong>Explicação do código:</strong></p>
+
+<ol>
   <li>
-<code class="language-plaintext highlighter-rouge">def lista_livros</code> define uma Function Based View que irá buscar todos os registros de Livros (com <code class="language-plaintext highlighter-rouge">Livro.objects.all()</code>), serializá-los (com <code class="language-plaintext highlighter-rouge">LivroSerializer(livros, many=True)</code>) e formula uma Resposta HTTP com os dados serializados (em <code class="language-plaintext highlighter-rouge">Response(serializer.data)</code>).</li>
-</ul>
+<strong>Classe Documento</strong>: Herda de <code class="language-plaintext highlighter-rouge">Prototype</code>.</li>
+  <li>
+<strong>Construtor</strong>: Recebe <code class="language-plaintext highlighter-rouge">titulo</code> e <code class="language-plaintext highlighter-rouge">conteudo</code>.</li>
+  <li>
+<strong>Método clone</strong>: Retorna uma cópia profunda do objeto.</li>
+  <li>
+<strong>Método __str__</strong>: Define a representação em string do objeto.</li>
+</ol>
 
-<p>Além de oferecer suporte a diversos mecanismos de autenticação como <strong>token-based authentication</strong>, <strong>session-based authentication</strong>, <strong>OAuth</strong>, entre outros.</p>
+<p>Vamos testar a clonagem:</p>
 
-<p><em><strong>Está curtindo esse conteúdo?</strong></em> <img class="emoji" title=":thumbsup:" alt=":thumbsup:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20"></p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td>
+<td class="code"><pre><span class="c1"># Criando o protótipo original
+</span><span class="n">doc_original</span> <span class="o">=</span> <span class="nc">Documento</span><span class="p">(</span><span class="sh">"</span><span class="s">Relatório Anual</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">Conteúdo do relatório anual.</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># Clonando o documento
+</span><span class="n">doc_clone</span> <span class="o">=</span> <span class="n">doc_original</span><span class="p">.</span><span class="nf">clone</span><span class="p">()</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="n">doc_original</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">doc_clone</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>E a saída será:</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre>Documento: Relatório Anual
+Conteúdo: Conteúdo do relatório anual.
+Documento: Relatório Anual
+Conteúdo: Conteúdo do relatório anual.
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p><strong>Explicação do código:</strong></p>
+
+<ol>
+  <li>
+<strong>Instância Original</strong>: Criamos <code class="language-plaintext highlighter-rouge">doc_original</code> com título e conteúdo específicos.</li>
+  <li>
+<strong>Clonagem</strong>: <code class="language-plaintext highlighter-rouge">doc_clone</code> é uma cópia de <code class="language-plaintext highlighter-rouge">doc_original</code> criada pelo método <code class="language-plaintext highlighter-rouge">clone</code>.</li>
+  <li>
+<strong>Impressão</strong>: Exibimos ambos os documentos, que possuem os mesmos valores.</li>
+</ol>
+
+<p><em><strong>Antes de continuar… Está curtindo esse conteúdo?</strong></em> <img class="emoji" title=":thumbsup:" alt=":thumbsup:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20"></p>
 
 <p><em><strong>Que tal receber 30 dias de conteúdo direto na sua Caixa de Entrada?</strong></em></p>
 
@@ -594,154 +647,15 @@
     <div class="circle blue"></div>
 </div>
 
-<h3 id="browsable-api">Browsable API</h3>
-
-<p>Uma das funcionalidades mais incríveis do DRF é sua <strong>Interface Navegável</strong> (do inglês <em>Browsable API</em>), que permite testar e interagir com sua API diretamente pelo navegador, tornando o desenvolvimento e o debug muito mais simples.</p>
-
-<p>Nela você pode:</p>
-<ul>
-  <li>Acessar os dados cadastrados;</li>
-  <li>Testar sua API, realizando chamadas HTTP pelo próprio browser;</li>
-  <li>Possui autenticação e autorização integrados;</li>
-  <li>Possui uma ótima e amigável interface.</li>
-</ul>
-
-<p>Por exemplo, a seguinte imagem é um exemplo dessa interface:</p>
-
-<p><img alt="Interface Navegável" class="img-responsive lazyload" data-src="/assets/posts/drf-intro/browsable-1.png"></p>
-
-<p>E também:</p>
-
-<p><img alt="Interface Navegável" class="img-responsive lazyload" data-src="/assets/posts/drf-intro/browsable-2.png"></p>
-
-<p>E isso tudo sem desenvolver uma linha sequer de código HTML, CSS ou Javascript!</p>
-
-<blockquote>
-  <p>Incrível não é mesmo?! <img class="emoji" title=":heart_eyes:" alt=":heart_eyes:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f60d.png" height="20" width="20"></p>
-</blockquote>
-
-<h3 id="filtragem-e-paginação">Filtragem e Paginação</h3>
-
-<p>O DRF facilita a <strong>filtragem</strong> e <strong>paginação</strong> dos dados, o que é essencial para a performance e experiência do usuário em APIs que lidam com grandes volumes de dados.</p>
-
-<p>Veja como é simples adicionar, por exemplo, a paginação à respostas de sua API:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="n">rest_framework.pagination</span> <span class="kn">import</span> <span class="n">PageNumberPagination</span>
-
-<span class="k">class</span> <span class="nc">LivroPagination</span><span class="p">(</span><span class="n">PageNumberPagination</span><span class="p">):</span>
-    <span class="n">page_size</span> <span class="o">=</span> <span class="mi">10</span>
-
-<span class="k">class</span> <span class="nc">LivroListView</span><span class="p">(</span><span class="n">generics</span><span class="p">.</span><span class="n">ListAPIView</span><span class="p">):</span>
-    <span class="n">queryset</span> <span class="o">=</span> <span class="n">Livro</span><span class="p">.</span><span class="n">objects</span><span class="p">.</span><span class="nf">all</span><span class="p">()</span>
-    <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">LivroSerializer</span>
-    <span class="n">pagination_class</span> <span class="o">=</span> <span class="n">LivroPagination</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Apenas herdando de <code class="language-plaintext highlighter-rouge">PageNumberPagination</code> e configurando <code class="language-plaintext highlighter-rouge">page_size</code> você já é capaz de adicionar paginação à sua API!</p>
-
-<blockquote>
-  <p><img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"> <b>Ei, você aí</b>! Quer se sentir realmente capaz ao desenvolver Aplicações Web com Django? Então <b class="font-green">clique no link abaixo</b> e dê o próximo passo agora mesmo!</p>
-</blockquote>
-
-<div class="jornada-python-in-post ">
-    <a href="https://bit.ly/banner-jornada-python" class="in-post-banner-cta">
-        <img class="in-post-banner lazyload" alt="Jornada Python" width="100%" loading="lazy" data-src="/assets/img/in-post-banner-new.png">
-        <img class="in-post-banner-xs lazyload" alt="Jornada Python" width="100%" loading="lazy" data-src="/assets/img/in-post-banner-xs-new.png">
-    </a>
-    <!-- <div class="inner">
-        <img class="jp-logo" src="/assets/img/jornada-python/logo-jornada-python-navbar.webp" alt="Jornada Python" width="120px" height="28px" loading="lazy">
-        <span class="headline">
-            Seja um Desenvolvedor Web <b class="yellow-font">Profissional</b> com Python e Django.
-        </span>
-        <span class="headline-subheading hidden-xs">
-            A melhor, mais completa e moderna formação para quem quer desenvolver aplicações Web utilizando Python e o poderoso framework Django.
-        </span>
-
-        <div class="separator"></div>
-
-        <span class="headline-subheading">Veja o que você vai aprender na Jornada Python:</span>
-
-        <div class="techs">
-            <img class="img-lg" src="/assets/img/banner-jornada-python.webp" alt="Jornada Python" width="80%" loading="lazy">
-            <img class="img-xs" src="/assets/img/banner-jornada-python-mobile.webp" alt="Jornada Python" width="100%" loading="lazy">
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <a class="call-to-action" href="/jornada-python/">
-                    Quero conhecer a Jornada!
-                </a>
-
-                <ul class="features">
-                    <li><img class="plus" src="/assets/img/plus-symbol.png" alt="Mais" loading="lazy" width="10px" height="10px"> Ebooks</li>
-                    <li><img class="plus" src="/assets/img/plus-symbol.png" alt="Mais" loading="lazy" width="10px" height="10px"> Dicas de Carreira</li>
-                    <li><img class="plus" src="/assets/img/plus-symbol.png" alt="Mais" loading="lazy" width="10px" height="10px"> Suporte à dúvidas</li>
-                </ul>
-            </div>
-        </div>
-    </div> -->
-</div>
-
-<h3 id="throttling">Throttling</h3>
-
-<p>O <strong>throttling</strong> limita a taxa de pedidos a uma API, prevenindo abuso e evitando sobrecarregar o servidor.</p>
-
-<p>Muito importante para proteger sua aplicação e evitar que seu servidor seja “derrubado” por algum cliente que esteja tentando acessar sua API mais do que o esperado.</p>
-
-<h3 id="testes-integrados">Testes Integrados</h3>
-
-<p>O DRF também fornece ferramentas para facilitar os testes, como <strong>APITestCase</strong>, que estende as funcionalidades do Django <strong>TestCase</strong>.</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="n">rest_framework.test</span> <span class="kn">import</span> <span class="n">APITestCase</span>
-
-<span class="k">class</span> <span class="nc">LivroAPITests</span><span class="p">(</span><span class="n">APITestCase</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">test_lista_livros</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
-        <span class="n">response</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">client</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="sh">'</span><span class="s">/api/livros/</span><span class="sh">'</span><span class="p">)</span>
-        <span class="n">self</span><span class="p">.</span><span class="nf">assertEqual</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">status_code</span><span class="p">,</span> <span class="mi">200</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Dessa forma, criar testes se torna uma tarefa simples!</p>
-
-<h3 id="documentação-integrada">Documentação Integrada</h3>
-
-<p>O DRF possui diversas ferramentas para geração automática de documentação da sua API.</p>
-
-<p>Ao integrar com ferramentas como <strong>Swagger</strong> ou <strong>CoreAPI</strong>, o DRF permite gerar documentação automática e interativa com pouco trabalho adicional.</p>
-
 <h2 class="no_toc" id="conclusão">Conclusão</h2>
 
-<p>Neste artigo, exploramos <strong>o que é o Django Rest Framework</strong> e <em>como ele facilita o desenvolvimento de APIs RESTful</em>.</p>
+<p>O <strong>Padrão de Projeto Prototype</strong> é uma ferramenta valiosa para otimizar a criação de objetos em Python.</p>
 
-<p>Também vimos algumas de suas <strong>principais funcionalidades</strong>, como serialização, autenticação, permissões e roteamento automatizado.</p>
+<p>Ele resolve problemas de eficiência e acoplamento, facilitando a clonagem de objetos existentes.</p>
 
-<p>O uso do DRF pode transformar a maneira como você desenvolve APIs, tornando o processo mais rápido e eficiente.</p>
+<p>Com sua estrutura simples e aplicabilidade ampla, o Prototype pode melhorar a flexibilidade e a manutenção das suas aplicações.</p>
 
-<p>Se você trabalha com Django e precisa criar APIs robustas e escaláveis, o <strong>Django Rest Framework é uma ferramenta indispensável</strong>.</p>
-
-<p>Fique ligado nos próximos artigos, vamos aprender muito mais sobre cada característica que vimos aqui!</p>
-
-<p>Até lá, dev.</p>
-
+<p>Esperamos que este artigo tenha esclarecido como implementar e utilizar o Prototype em seus projetos Python.</p>
 
 	
 						<div class="blue-yellow-separator no-repeat"></div>
@@ -761,7 +675,7 @@
 													Por Vinícius Ramos
 												</span>
 	
-												<b>em <time datetime="2024-08-27" pubdate>27/08/2024</time></b>
+												<b>em <time datetime="2025-03-13" pubdate>13/03/2025</time></b>
 											</p>
 		
 											<!-- <p class="short-description">"<i>Porque o Senhor dá a sabedoria, e da sua boca vem a inteligência e o entendimento. - Provérbios 2:6 </i>"</p> -->
@@ -813,25 +727,25 @@
 
 				<ul>									
 					<li>
-						<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item" title="Facebook">
+						<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-prototype','Compartilhe%20no%20Facebook','width=600,height=400')" class="facebook-item" title="Facebook">
 							<img alt="Facebook" loading="lazy" width="24px" height="24px" data-src="/assets/img/icone-facebook-50.png" class="lazyload">
 						</a>
 					</li>
 					
 					<li>							
-						<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework&amp;related=PythonAcademyBR&amp;text=&quot;O%20que%20%C3%A9%20o%20Django%20Rest%20Framework%20(DRF)?&quot;%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank" title="Twitter">
+						<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-prototype&amp;related=PythonAcademyBR&amp;text=&quot;Padr%C3%B5es%20de%20Projeto%20em%20Python%20(Design%20Patterns):%20Prototype&quot;%20por%20Vin%C3%ADcius%20Ramos','Compartilhe%20no%20Twitter','width=600,height=400')" class="twitter-item" target="_blank" title="Twitter">
 							<img alt="Twitter" loading="lazy" width="24px" height="24px" data-src="/assets/img/icone-twitter-50.png" class="lazyload">
 						</a>
 					</li>
 	
 					<li>
-						<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework" data-action="share/whatsapp/share" title="Whatsapp">
+						<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-prototype" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-prototype" data-action="share/whatsapp/share" title="Whatsapp">
 							<img alt="Whatsapp" loading="lazy" width="24px" height="24px" data-src="/assets/img/icone-whatsapp-50.png" class="lazyload">
 						</a>
 					</li>
 	
 					<li>
-						<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=O%20que%20%C3%A9%20o%20Django%20Rest%20Framework%20(DRF)?&amp;body=https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item" title="Email">
+						<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Padr%C3%B5es%20de%20Projeto%20em%20Python%20(Design%20Patterns):%20Prototype&amp;body=https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-prototype&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item" title="Email">
 							<img alt="Email" loading="lazy" width="24px" height="24px" data-src="/assets/img/icone-email-50.png" class="lazyload">
 						</a>
 					</li>						
@@ -1335,7 +1249,7 @@
 							var post = posts[randomIndex];
 
 							// Verify if related post is the same as the shown
-							if (post.title != "O que é o Django Rest Framework (DRF)?") {
+							if (post.title != "Padrões de Projeto em Python (Design Patterns): Prototype") {
 								var postDate = `${post.date.day}/${post.date.month}/${post.date.year}`
 								var postHTML = 
 									`<article class='col-lg-6 col-md-6 col-sm-6 col-xs-12 card-article overlay'>
@@ -1373,9 +1287,9 @@
 					laziness: 1,
 					throttle: 250,
 					disqusConfig: function() {
-						this.page.title       = 'O que é o Django Rest Framework (DRF)?';
-						this.page.url         = 'https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework';
-						this.page.identifier  = '/blog/o-que-e-o-django-rest-framework';
+						this.page.title       = 'Padrões de Projeto em Python (Design Patterns): Prototype';
+						this.page.url         = 'https://pythonacademy.com.br/blog/padroes-de-projeto-em-python-prototype';
+						this.page.identifier  = '/blog/padroes-de-projeto-em-python-prototype';
 					}
 				};
 
