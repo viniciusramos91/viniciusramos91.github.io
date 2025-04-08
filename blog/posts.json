@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "O que é MCP (Model Context Protocol)",
+      "title": "O que é MCP (Model Context Protocol)",
+      "href": "/blog/o-que-e-mcp-model-context-protocol",
+      "slug": "o-que-e-mcp-model-context-protocol",
+      "assets": "mcp",
+      "author": "Vinícius R",
+      "description": "<p>Conheça o poderoso MCP (Model Context Protocol), um padrão aberto que permite que grande modelos de Linguagem (LLM) interajam dinamicamente com ferramentas externas.</p>",
+      "header_color": "#222f3e",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "15",
+         "month": "03",
+         "year": "2025"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Padrões de Projeto em Python (Design Patterns): Prototype",
       "title": "Padrões de Projeto em Python (Design Patterns): Prototype",
       "href": "/blog/padroes-de-projeto-em-python-prototype",
