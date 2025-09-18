@@ -1,9 +1,9 @@
 :root {
-    --system-ui-font: system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+    --system-ui-font: "Inter", sans-serif;
 }
 
 body {
-    background-color: #111;
+    background-color: #0c151d;
 }
 
 .header {        
@@ -36,14 +36,14 @@ body {
 }
 
 section#new-headline {
-    background: #070707;
+    background: #101214;
 
     .headline-inner {
         // background: url("/assets/img/jornada-python/banner-img.webp") center bottom no-repeat;
-        background: url("/assets/img/video-bground-md.webp") center top no-repeat;
+        background: url("/assets/img/video-bground.png") center top no-repeat;
         background-size: 1300px;
         width: 100%;
-        min-height: 86vh;
+        min-height: 90vh;
         display: flex;
         -webkit-box-align: center;
         text-align: center;
@@ -55,27 +55,28 @@ section#new-headline {
             margin-bottom: 4rem;
         }
 
-        h1 {                
-            font-family: var(--system-ui-font);    
-            font-size: 4.2rem;
-            color: #eee;
-            line-height: 1.35;
-            font-weight: 500;
-            margin-bottom: 1rem;
-            margin-top: 0;
+        label {
+            font-family: "Chakra Petch", sans-serif;
+            color: #01b6ff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1.25rem;
+        }
 
-            .text-gradient {
-                background: -webkit-linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
-                background: linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-            }
+        h1 {                
+            font-family: "Chakra Petch", sans-serif;
+            font-size: 3rem;
+            color: #fff;
+            line-height: 1.25;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            margin-top: 2rem;
         }
         
         h2 {
             font-family: var(--system-ui-font);    
             color: rgb(214,212,226);
-            font-size: 1.9rem;
+            font-size: 1.61rem;
             line-height: 1.55;
             margin-bottom: 5rem;
             font-weight: 400;
@@ -86,21 +87,28 @@ section#new-headline {
             }
         }  
 
-        a {
-            color: #333;
-            text-transform: uppercase;
-            font-family: var(--system-ui-font);
-            font-weight: bold;        
-            text-shadow: unset;
-            box-shadow:  0px 3px 20px #da9e3a91;
-            background: linear-gradient(135deg, #ffda6b, #d79820);
-            -webkit-animation: pulse;
-            animation: pulse;
-            -webkit-animation-duration: 1.5s;
-            animation-duration: 1.5s;             
-            -webkit-animation-iteration-count: infinite;   
-            animation-iteration-count: infinite;
+        button.new-cta {
+            font-size: 2.15rem;
+            letter-spacing: 1px;
+
+            a {
+                padding: 16px 40px;
+            }
+
+            &::after {
+                top: 65px;
+            }
         }
+
+        // a {
+        //     color: #333;
+        //     text-transform: uppercase;
+        //     font-family: "Chakra Petch", sans-serif;
+        //     font-weight: bold;        
+        //     text-shadow: unset;
+        //     // box-shadow:  0px 3px 20px #da9e3a91;
+        //     background: linear-gradient(135deg, #459bff, #9ad7ff);
+        // }
 
         .stars-container {
             margin-top: 18px;
@@ -368,7 +376,7 @@ section#headline {
 // ================================================================
 
 section#python-newsletter {
-    background: linear-gradient(0deg, #141921 0%, #070707 5%);
+    background: #101214;
     padding-top: 6rem;
     overflow: hidden;
     border-bottom: 1px solid #222c3d;
@@ -446,11 +454,6 @@ section#python-newsletter {
                 line-height: 2.75rem;
                 color: #ddd;
 
-                .text-gradient {
-                    font-size: 4rem;
-                    line-height: 0;
-                }
-
                 @media (max-width: 767px) {
                     font-size: 1.55rem;
                     margin-bottom: 20px;
@@ -516,10 +519,12 @@ section#python-newsletter {
     
     .feature {
         text-align: center;
-        padding: 10%;
-        background: #ffffff05;
-        border-radius: 20px;
+        padding: 43px 20px;
+        background-image: url("/assets/img/dot-bground.png"), linear-gradient(45deg, #00000001, #00000001);
+        background-size: 16px;
         margin-bottom: 30px;
+        border: 1px solid #149cea;
+        border-bottom-width: 6px;
 
         img {
             width: 65px;
@@ -527,18 +532,32 @@ section#python-newsletter {
         }
 
         h2 {
-            font-family: 'Rubik', sans-serif;
-            font-size: 2.75rem;
-            color: #FFF;
-            font-weight: 500;
+            font-family: 'Chakra Petch', sans-serif;
+            font-size: 2.35rem;
+            color: #ddd;
+            font-weight: 600;
+            margin-top: 0;
         }
 
         p {
-            font-family: 'Ubuntu', serif;
+            font-family: 'Inter', serif;
             font-size: 1.5rem;
             color: #bbb8c3;
             line-height: 2.2rem;
             margin-bottom: 0;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 29px;
+            left: 12px;
+            width: 70%;
+            height: 5px;
+            background-color: #0c151d;
+            transition: .25s ease-in-out;
+            transform-origin: center;
+            transform: skewX(45deg);
         }
 
         @media(max-width: 500px) {
@@ -586,7 +605,7 @@ section#python-newsletter {
 
 #ebooks {
     padding: 96px 16px;
-    background-image: url("/assets/svg/stars-bground.svg"),linear-gradient(to bottom, #111111, #000000);
+    background-image: url("/assets/svg/stars-bground.svg"), linear-gradient(to bottom, #0c151d, #070E13);
 
     .section-header,
     .section-sub-header {
@@ -659,7 +678,7 @@ section#python-newsletter {
 
 #zen-of-python-section {
     padding: 96px 0;
-    background: linear-gradient(135deg, #0a0a0e, #111);
+    background: #0c151d;
     border-top: 1px solid #ffffff0a;
     border-bottom: 1px solid #ffffff0a;
     box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.5);
@@ -669,7 +688,7 @@ section#python-newsletter {
         
         a {
             display: inline-block;
-            font-family: 'Rubik', sans-serif;
+            font-family: 'Chakra Petch', sans-serif;
             text-transform: uppercase;
             font-size: 3.5rem;
             color: #FFF;

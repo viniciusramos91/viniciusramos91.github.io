@@ -61,7 +61,7 @@
 
                 h1 {
                     font-size: 3.5rem;
-                    font-family: var(--system-ui-font);
+                    font-family: 'Chakra Petch', sans-serif;
                     font-weight: bold;
                     letter-spacing: -0.4px;
                     color: #FFF;
@@ -69,11 +69,13 @@
                 }
         
                 h2 {
-                    font-family: 'Rubik', sans-serif;
+                    font-family: 'Chakra Petch', sans-serif;
                     text-transform: uppercase;
-                    color: #fffd;
-                    font-size: 1.45rem;
+                    color: #777;
+                    font-size: 1.3rem;
                     margin-top: 0;
+                    letter-spacing: 1px;
+                    font-weight: bold;
                 }        
         
                 ul {
@@ -83,7 +85,7 @@
         
                 p, ul > li {
                     font-family: 'Inter', sans-serif;
-                    font-size: 1.65rem;
+                    font-size: 1.5rem;
                     color: #ffffffcc;
                     margin-bottom: 10px;
                     font-weight: 400;
@@ -109,14 +111,14 @@
                     box-shadow: 0 0 29px #000000;
         
                     .form-header {
-                        padding: 20px 32px;
+                        padding: 16px 32px;
                         background: #2c2c2c;
                         border-radius: 4px 4px 0 0;
                         border-bottom: none;
         
                         h3 {
                             text-align: center;
-                            font-family: var(--system-ui-font);
+                            font-family: 'Chakra Petch', sans-serif;
                             color: #FFF;
                             text-transform: uppercase;
                             font-size: 1.75rem;
@@ -166,23 +168,24 @@
         
                             form.ebook-form {
                                 label {
-                                    font-family: 'Rubik', sans-serif;
-                                    font-weight: 400;
-                                    font-size: 1.35rem;
+                                    font-family: 'Chakra Petch', sans-serif;
+                                    font-weight: bold;
+                                    font-size: 1.15rem;
                                     color: #FFFFFF99;
                                     text-transform: uppercase;
+                                    letter-spacing: 1px;
                                 }
                     
                                 input {
-                                    background: #dbdae9;
-                                    border: 0;
+                                    background: #121313;
+                                    border: 1px solid #272727;
                                     padding: 10px 12px;
                                     font-family: var(--system-ui-font);
-                                    color: #1a1946;
+                                    color: #121313;
                                     width: 100%;
-                                    border-radius: 6px;
+                                    border-radius: 2px;
                                     margin-bottom: 28px;
-                                    font-size: 1.65rem;
+                                    font-size: 1.45rem;
                                 }
                     
                                 button {
@@ -214,9 +217,8 @@
 }
 
 .ebook-download-page {
-    min-height: 100vh;
     padding: 20vh 0;
-    background-color: #030007;
+    background-color: #0c151d;
 
     .ebook-cover {
         max-width: 250px;
@@ -227,7 +229,8 @@
         .download-information {
             display: flex;
             align-items: center;
-            gap: 32px;
+            justify-content: center;
+            gap: 48px;
 
             .ebook-cover {
                 display: flex;
@@ -244,25 +247,28 @@
                 flex: 0.35;
                 h1 {
                     font-size: 2.7rem;
-                    font-family: var(--system-ui-font);
+                    font-family: "Chakra Petch", sans-serif;
                     font-weight: bold;
                     letter-spacing: -0.4px;
                     color: #FFF;
                 }
         
                 h2 {
-                    font-family: 'Rubik', sans-serif;
+                    font-family: "Chakra Petch", sans-serif;
                     text-transform: uppercase;
-                    color: #fffd;
-                    font-size: 1.5rem;
+                    color: #777;
+                    font-size: 1.15rem;
                     margin-top: 0;
-                    margin-bottom: 16px;
+                    margin-bottom: 0;
+                    letter-spacing: 1px;
+                    font-weight: bold;
                 }
         
                 h3 {
                     font-family: 'Inter', sans-serif;
                     color: #ffffffaa;
-                    font-size: 1.75rem;
+                    font-size: 1.6rem;
+                    line-height: 1.35;
                     margin-bottom: 32px;
                     font-weight: 400;
                 }        

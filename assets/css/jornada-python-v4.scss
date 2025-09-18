@@ -1,6 +1,6 @@
 :root {
     --white: #FFF;
-    --gray: #dadada;
+    --gray: #eaeaea;
     --yellow: #ffcc00;
     --blue: #3d9aeb;
     --dark-gray: #161718;
@@ -9,8 +9,7 @@
     --django-dark-color: #0C4B33;
 }
 
-html {
-    font-family: 'Roboto', sans-serif;
+html {    
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     height: 100%;
@@ -19,6 +18,11 @@ html {
     @media(max-width: 768px) {
         font-size: 14px;
     }
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #070b0e;
 }
 
 body::-webkit-scrollbar {
@@ -36,17 +40,18 @@ body::-webkit-scrollbar-thumb {
     background: #555
 }
 
-body {
-    background: #000;
+.heading-1, .heading-2, .heading-3, .heading-4, .heading-5 {
+    font-family: 'Chakra Petch', sans-serif;
 }
 
-.heading-1, .heading-2, .heading-3, .heading-4, .heading-5, p, li, a {
-    font-family: 'Roboto', sans-serif;
+p, li, a {
+    font-family: 'Inter', sans-serif;
 }
 
 .heading-1 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-weight: bold;
     line-height: initial;
     margin-bottom: 1.85rem;
 
@@ -59,6 +64,7 @@ body {
 .heading-2 {
     color: #e1e1e7;
     line-height: 2.65rem;
+    font-weight: bold;
 
     @media(max-width: 768px) {
         font-size: 1.6rem;
@@ -72,9 +78,9 @@ body {
 
 p, ul li {
     color: var(--gray);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 300;
-    line-height: 1.3;
+    line-height: 1.6;
 
     @media(max-width: 768px) {
         font-size: 1.15rem;
@@ -95,10 +101,13 @@ section {
 }
 
 .heading-intro {
-    font-family: "Covered By Your Grace", cursive;
+    font-family: "Chakra Petch", sans-serif;
     margin-bottom: 10px;
-    font-size: 1.35rem;
+    font-size: 0.8rem;
     letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #21aaff;
     
     img.heading-icon {
         display: inline-block;
@@ -135,6 +144,64 @@ section {
     }
 }
 
+button.new-cta {
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 0;
+    position: relative;
+    border: 6px solid #21303c;
+    outline: none;
+    background-color: #1b91ed;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;    
+
+    a {
+        width: 100%;
+        display: inline-block;
+        padding: 16px 48px;
+        color: #FFF;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 0.05rem;
+
+        &:hover {
+            color: #FFF;
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 63px;
+        left: 10%;
+        width: 80%;
+        height: 3px;
+        background-color: #000000;
+        transition: .25s ease-in-out;
+        transform-origin: center;
+    }
+
+    &::before {
+        content: "";
+        transform-origin: center;
+        position: absolute;
+        top: -6px;
+        left: 10%;
+        width: 80%;
+        height: 3px;
+        background-color: #000;
+        transition: .25s ease-in-out;
+    }
+
+    &:hover {
+        border-color: #1facf4;
+        background: #147cce;
+        box-shadow: inset 0px 0px 18px #0a294b;
+    }
+}
+
+
 .list-unstyled {
     padding-left: 1.25rem;
 }
@@ -160,6 +227,20 @@ section {
 .font-django-light { color: var(--django-light-color); }
 .font-django-dark { color: var(--django-dark-color); }
 
+.text-gradient {
+    background: -webkit-linear-gradient(51deg, #0064ff 0%, #00a4ff 50%, #49c5ff 90%, #86fffc 100%);
+    background: linear-gradient(51deg, #0064ff 0%, #00a4ff 50%, #49c5ff 90%, #86fffc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-2 {
+    background: -webkit-linear-gradient(105deg, #463c77 0%, #b51582 20%, #ff0547 38%, #ff5c49 52%, #ffa715 82%, #fff6d5 82%, #1071b8 100%);
+    background: linear-gradient(105deg, #463c77 0%, #b51582 20%, #ff0547 38%, #ff5c49 52%, #ffa715 82%, #fff6d5 82%, #1071b8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .stars-container {
     margin-top: 18px;
 
@@ -171,7 +252,7 @@ section {
         svg {
             width: 80px;
             height: auto;
-            fill: #fec600;
+            fill: var(--blue);
         }
     }    
     
@@ -245,14 +326,14 @@ section {
                 &.active {
                     border-color: transparent;                
                     background-color: transparent;
-                    border-bottom: 3px solid var(--yellow)
+                    border-bottom: 3px solid var(--blue)
                 }
                 
                 &:hover {
                     border-top-color: transparent;
                     border-right-color: transparent;
                     border-left-color: transparent;
-                    border-bottom: 3px solid var(--yellow)
+                    border-bottom: 3px solid var(--blue)
                 }
             }
         }
@@ -263,18 +344,33 @@ section {
 // SPECIAL-OFFER
 
 #special-offer {
-    position: fixed;
-    padding: 6px;
-    background: #fd5656;
+    padding: 12px;
+    background: linear-gradient(105deg, #463c77 0%, #b51582 20%, #ff0547 38%, #ff5c49 52%, #ffa715 82%, #fff6d5 82%, #1071b8 100%);
     width: 100%;
-    z-index: 999;    
+    position: relative;
+
+    .grid {
+        background-image: url("/assets/img/grid-bg.png");
+        background-repeat: repeat;
+        background-color: rgba(0, 0, 0, .0666666667);
+        position: absolute;
+        background-size: 100px;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        color: rgba(0, 0, 0, 0);
+    }
 
     p {
+        font-family: "Chakra Petch", sans-serif;
         font-weight: 400;
         font-size: 1rem;
         text-align: center;
         margin: 0;
-        color: var(--dark-gray);        
+        color: var(--white);
 
         img {
             position: relative;
@@ -311,12 +407,10 @@ section {
 // NAVBAR
 
 .navbar {         
-    position: fixed;   
     border-radius: 0;
     margin-bottom: 0;
     min-height: 56px;
-    top: 33px; // special-offer positioning
-    padding: 0;
+    padding: 12px;
     border: 0;
     width: 100%;   
     z-index: 1000;
@@ -351,18 +445,24 @@ section {
         backdrop-filter: blur(4px);
     }
 
-    .cta {
-        animation: none;
-        margin: 0;
-        padding: 4px 12px;
-        background: #f2a900;
-        border-radius: 4px;
-        box-shadow: none;
+    button.new-cta {
+        border-width: 4px;
 
         a {
-            font-size: 1.45rem;
-            position: relative;
-            top: 1px;
+            padding: 10px 48px;
+            font-size: 0.9rem;
+        }
+
+        &::before {
+            top: -4px;
+            height: 4px;
+            background-color: #070b0e;
+        }
+
+        &::after {
+            top: 43px;
+            height: 4px;
+            background-color: #070b0e;
         }
     }
 
@@ -468,19 +568,20 @@ section {
     padding: 0;
     
     .badge-with-icon {
-        border-radius: 20px;
-        background: #161718;
+        border-radius: 0px;
+        border: 1px solid #b5deff1f;
+        background: #11151b;
         overflow: hidden;
         
         .icon {
-            padding: 4px 0px 4px 15px;
+            padding: 6px 0px 6px 15px;
             display: inline-block;
         }
         
         .caption {
-            padding: 4px 15px 4px 4px;
+            padding: 4px 15px 4px 8px;
             display: inline-block;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Chakra Petch', sans-serif;
             font-size: 0.8rem;
             text-transform: uppercase;
             font-weight: 600;
@@ -491,15 +592,7 @@ section {
         display: block;
 
         .badge-with-icon {
-            border-radius: 10px;
             margin-bottom: 6px;
-            .icon {
-
-            }
-
-            .caption {
-
-            }
         }
     }
 }
@@ -510,16 +603,16 @@ section {
 .accordion {
     .accordion-item {
         margin-bottom: 8px;
-        background: #111212;
-        border-radius: 6px;
-        border: 0;
+        background: #0b0e12;
+        border-radius: 0px;
+        border: 1px solid #ffffff11;
         
         .accordion-header {
             button {
                 display: block;
-                background: #161718;
+                background: #11151b;
                 padding: 18px;
-                border-radius: 6px;
+                border-radius: 0;
                 color: #fff;
                 box-shadow: unset;
                 
@@ -606,7 +699,7 @@ section {
                     
                     p {
                         font-size: 1rem;
-                        color: #ffffff88;
+                        color: #b4bdc9;
                         margin-bottom: 0;
                     }
                     
@@ -665,14 +758,14 @@ section {
 // WARRANTY
 
 .warranty {
-    background-color: var(--dark-gray);
-    border-radius: 8px;
-    border: 1px solid #ffffff09;
+    background-color: #11151b;
+    border-radius: 0px;
+    border: 1px solid #b5deff1f;
     padding: 32px;        
     
     p:not(.heading-intro) {
-        font-size: 1.35rem;
-        line-height: 2rem;
+        font-size: 1.1rem;
+        line-height: 1.5;
     }
 
     @media(max-width: 576px) {
@@ -690,7 +783,7 @@ section {
 section#hero {
     min-height: 85vh;
     padding-top: calc(8rem + 64px);
-    background: #000;
+    background: #070b0e;
 
     #parallax-scene {
         width: 100%;
@@ -698,9 +791,9 @@ section#hero {
     }
     
     h2 {
-        font-size: 1.4rem;
+        font-size: 1.05rem;
         margin-bottom: 1.5rem;
-        line-height: inherit;
+        line-height: 1.4;
         font-weight: 300;
         color: var(--gray);
     }    
@@ -729,8 +822,9 @@ section#pitch {
     padding-top: 8rem;
 
     h2 {
-        font-size: 2.1rem;
+        font-size: 1.75rem;
         line-height: 2.5rem;
+        font-weight: bold;
     }
 
     .pitch-video {
@@ -747,9 +841,9 @@ section#pitch {
         button.iframe-loader-btn {
             background: url("/assets/img/jornada-python-v4/pitch-thumb.png") center no-repeat;
             background-size: 100%;
-            border: 1px solid #ffffff22;
+            border: 1px solid #8dc1ff3b;
             border-radius: 8px;
-            box-shadow: 0 0px 25px #cfb03b4a;
+            box-shadow: 0 0px 25px #3b81cf4a;
             width: 100%;
             padding-bottom: calc(9 / 16 * 100%);
             position: relative;
@@ -757,8 +851,8 @@ section#pitch {
     
             &:hover {
                 background-size: 103%;
-                box-shadow: 0 0px 32px #cfb03b7a;
-                border-color: #ffcc0099;
+                box-shadow: 0 0px 32px #3b88cf7a;
+                border-color: #0099ff99;
             }
         }
     
@@ -767,9 +861,9 @@ section#pitch {
             position: relative;
     
             iframe {
-                border: 1px solid #ffffff33;
+                border: 1px solid #8dc1ff3b;
                 border-radius: 8px;
-                box-shadow: 0 0px 25px #cfb03b4a;
+                box-shadow: 0 0px 25px #3b81cf4a;
                 position: absolute;
                 height: 100%;
                 width: 100%;
@@ -787,9 +881,6 @@ section#pitch {
 // SECTION
 
 section#reasons {
-    background: linear-gradient(180deg, transparent 0%, #000 80%);
-    border-radius: 50px 50px 0 0;
-    
     .heading-3 {
         font-size: 1.4rem;
         margin-bottom: 4rem;
@@ -819,11 +910,11 @@ section#reasons {
                 right: 24px;
 
                 li {
-                    background: #161718;
-                    border: 1px solid #222;
-                    border-radius: 8px;
+                    background: #11151b;
+                    border: 1px solid #ffffff11;
+                    border-radius: 0px;
                     padding: 10px 16px;
-                    margin: 12px 0;
+                    margin: 18px 0;
 
                     img {
                         width: 34px;
@@ -832,7 +923,8 @@ section#reasons {
                     }
 
                     span {
-                        font-size: 1.2rem;
+                        font-family: "Chakra Petch", sans-serif;
+                        font-size: 0.95rem;
                         font-weight: 400;
                     }
                 }
@@ -956,9 +1048,9 @@ section#arguments {
     }
     
     p.larger {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: inherit;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
         text-align: left;
         font-weight: 300;
     }
@@ -978,23 +1070,25 @@ section#arguments {
     }
     
     .salaries {
-        height: 320px;
         margin: 64px 0;
         position: relative;
 
         .salary {
-            border-radius: 8px;
+            border-radius: 0px;
             padding: 1px;
             margin-bottom: 1rem;
-            background: linear-gradient(180deg, #ffffff33, rgba(0,0,0,0));
+            background: linear-gradient(38deg, #3a3a3a00 73%, #005e83a3 90%, #36cdfa 100%);
+            position: relative;
 
             .salary-inner {
-                background: #161718;
+                background: #11151b;
                 padding: 26px 10px;
-                border-radius: 8px;
                 text-align: center;
+                position: relative;
+                z-index: 999;
 
                 p.heading {
+                    font-family: "Chakra Petch", sans-serif;
                     color: #999;
                     font-size: 0.8rem;
                     letter-spacing: 1px;
@@ -1004,17 +1098,33 @@ section#arguments {
                 }
                 
                 p.earning {
-                    font-size: 1.75rem;
-                    color: #ddd;
-                    font-weight: 700;
+                    font-family: "Chakra Petch", sans-serif;
+                    font-size: 1.55rem;
+                    color: #fff;
+                    font-weight: bold;
                     margin: 0;
                 }
 
                 p.earning-real {
-                    font-size: 0.95rem;
+                    font-family: "Inter", sans-serif;
+                    font-size: 0.9rem;
                     color: #FFF;
                     margin: 0;
                 }
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 13%;
+                right: -2%;
+                height: 30%;
+                top: -1%;
+                background: rgba(108, 202, 255, 0.2);
+                filter: blur(20px);
+                border-radius: 230px;
+                will-change: filter;
+                transform: rotate(45deg);
             }
         }
         
@@ -1162,8 +1272,8 @@ section#methodology-intro {
     position: relative;
 
     h2 {
-        line-height: 2rem;
-        font-size: 1.35rem;
+        line-height: 1.5;
+        font-size: 1.25rem;
 
         @media(max-width: 768px) {
             line-height: 2.35rem;
@@ -1290,7 +1400,7 @@ section#methodology {
         width: 87%;
         height: 110px;
         border-radius: 0 0 6px 6px;
-        background: linear-gradient(0deg, #0d0d0d 30%, transparent);
+        background: linear-gradient(0deg, #070b0e 30%, transparent);
         
         .scroll-downs {
             position: absolute;
@@ -1374,7 +1484,7 @@ section#methodology {
                     overflow-y: scroll;
                     position: relative;
                     padding: 10px 10px 85px 10px;
-                    border-radius: 8px;
+                    border-radius: 0px;
                     
                     &::-webkit-scrollbar {
                         background: #0c0c0c;
@@ -1388,7 +1498,7 @@ section#methodology {
                     
                     &::-webkit-scrollbar-thumb {
                         border-radius: 50%;
-                        background: radial-gradient(#ffcc00 43%, transparent 80%);
+                        background: radial-gradient(#0084ff 43%, transparent 80%);
                     }                    
                 }    
                 
@@ -1469,18 +1579,20 @@ section#bonus {
     padding: 4rem 0;
     
     .bonus {
-        border: 1px solid #ffffff17;
-        border-radius: 8px;
+        border: 1px solid #b5deff1f;
+        background: #11151b;
+        border-radius: 0px;
         overflow: hidden;
-        position: relative;
+        position: relative;        
 
         &.ebook {
             padding: 24px;
 
             p.heading {
-                font-family: 'Covered by your Grace', cursive;
-                text-transform: lowercase;
-                color: #3788cf;
+                font-family: 'Chakra Petch', sans-serif;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 0.85rem;                
             }
             
             p.heading,
@@ -1491,14 +1603,15 @@ section#bonus {
             }
 
             p.title {
+                font-family: "Chakra Petch", sans-serif;
                 color: #FFF;
                 text-transform: uppercase;
                 font-weight: bold;
-                font-size: 1.2rem;
+                font-size: 1.1rem;
             }
 
             p.description {
-                font-size: 1.05rem;
+                font-size: 0.97rem;
             }
 
             img.ebook-cover {
@@ -1536,7 +1649,7 @@ section#investment-intro {
     }
 
     p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: inherit;
         margin: 3rem 0;
         text-align: left;
@@ -1558,8 +1671,9 @@ section#investment-intro {
             position: relative;
 
             span.description {
+                font-family: "Chakra Petch", sans-serif;
                 flex: 0.75;
-                font-size: 1.3rem;
+                font-size: 1.2rem;
                 line-height: 1.65rem;
                 font-weight: 300;
                 text-align: left;
@@ -1571,6 +1685,7 @@ section#investment-intro {
             }
 
             span.price {
+                font-family: "Chakra Petch", sans-serif;
                 font-size: 2rem;
                 font-weight: bold;
                 color: #FFF;
@@ -1578,22 +1693,22 @@ section#investment-intro {
                 span.currency-symbol {
                     font-size: 0.85rem;
                     font-weight: 400;
-                    color: #ffcc00;
+                    color: #0082ff;
                     width: 28px;
                     display: inline-block;
                 }
             }
 
             &.highlight {
-                border-bottom-color: #ffcc00;
+                border-bottom-color: #0082ff;
             }
 
             &:last-child {
-                border-bottom-color: #ffcc00;
-                background-color: #ffcc000c;
+                border-bottom-color: #0082ff;
+                background-color: #0082ff0c;
 
                 span.description {
-                    font-size: 1.4rem;
+                    font-size: 1.2rem;
                     font-weight: 400;
                     color: #FFF;
                 }
@@ -1723,17 +1838,16 @@ section#investment-intro {
 section#investment {
     .price-wrapper {
         padding: 1px;
-        background: linear-gradient(90deg, #fc00 10%, #ffcc00 30%, #ffcc00 70%, #fc00 90%);
-        margin-bottom: 3rem;
-        border-radius: 8px;
+        background: linear-gradient(105deg, #463c77 0%, #b51582 20%, #ff0547 38%, #ff5c49 52%, #ffa715 82%, #fff6d5 82%, #1071b8 100%);
+        margin-bottom: 18px;
+        border-radius: 0px;
     
         .price-box {
-            border-radius: 8px;
+            border-radius: 0px;
             overflow: hidden;
             display: flex;
-            background-color: #111111ee;
+            background-color: #0b0e12;
             align-items: center;
-            border: 1px solid #ffffff10;
         
             .price-container {
                 text-align: center;
@@ -1741,7 +1855,7 @@ section#investment {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                flex: 0.6;
+                flex: 0.5;
                 background-color: #16171888;
                 background-position: 50% 50%;
                 background-size: cover;
@@ -1756,18 +1870,16 @@ section#investment {
                 }
 
                 .heading-4 {
-                    width: 100%;
                     font-size: 1rem;
                     letter-spacing: 2px;
-                    background: #f74545;
-                    margin: 0;
-                    padding: 9px 0;
+                    color: #f7457b;
+                    margin: 9px 0;
                     text-transform: uppercase;
                     line-height: 20px;
                 }
                 
                 .price {
-                    font-family: 'Roboto', sans-serif;
+                    font-family: 'Chakra Petch', sans-serif;
                     margin: 2rem 0 2.5rem 0;
 
                     .currency-symbol {
@@ -1805,6 +1917,7 @@ section#investment {
                 }
                 
                 p.installments {
+                    font-family: "Chakra Petch", sans-serif;
                     font-size: 0.8rem;
                     color: var(--gray);
                     text-transform: uppercase;
@@ -1812,9 +1925,13 @@ section#investment {
                     font-weight: 400;
                 }
                 
-                .call-to-action {
-                    width: 100%;
-                    padding: 16px;
+                .new-cta {
+                    width: 90%;
+
+                    &::before,
+                    &::after {
+                        background: #111315;
+                    }
                 }
                 
                 .payment-methods {
@@ -1843,12 +1960,14 @@ section#investment {
         .info-container {
             display: flex;
             flex-direction: column;
-            flex: 0.4;
+            flex: 0.5;
             padding: 32px;
             
             ul {
                 padding-left: 0.8rem;
                 li {
+                    font-family: "Chakra Petch";
+                    color: #b4bdc9;
                     margin-bottom: 6px;
                     font-size: 1.15rem;
                 }
@@ -1868,13 +1987,13 @@ section#investment {
     }
 
     .special-offer {
-        background-color: #ffc107;
-        border-radius: 8px;
-        border: 1px solid #ffffff09;
+        background-color: #11151b;
+        border-radius: 0px;
+        border: 1px solid #b5deff1f;
         padding: 26px 40px;
-        display: flex;
-        align-items: center;
-        margin-bottom: 24px;
+        margin-bottom: 18px;
+        color: #b4bdc9;
+        font-size: 0.9rem;
 
         .icon {
             flex: 0.1;
@@ -2011,7 +2130,7 @@ a.whatsapp-fixed {
 footer {
     padding: 1rem 0;
     display: flex;
-    background: #ffffff08;
+    background: #11151b;
     
     .wrapper {
         display: flex;
@@ -2025,9 +2144,9 @@ footer {
         
         button {
             font-family: 'Roboto', sans-serif;
-            background: #ffffff0a;
+            background: #1f252f;
             border: 0;
-            color: #FFFFFFAA;
+            color: #b4bdc9;
             padding: 8px 12px 6px 20px;
             border-radius: 5px;
             font-size: 1rem;

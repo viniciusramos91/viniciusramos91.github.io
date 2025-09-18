@@ -54,7 +54,7 @@ a {
 }
 
 body::-webkit-scrollbar {
-    background: #306998;
+    background: #070c11;
     height: 8px;
     width: 8px
 }
@@ -65,7 +65,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
     border-radius: 5px;
-    background: #ffd43c
+    background: #199ce6
 }
 
 @media (min-width: 1200px) {
@@ -273,14 +273,6 @@ body::-webkit-scrollbar-thumb {
             top: 0;
         }
     }
-
-    .text-gradient {
-        background: -webkit-linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
-        background: linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: bold;
-    }
 }
 
 // HEADER
@@ -330,7 +322,7 @@ body::-webkit-scrollbar-thumb {
 
                 & > a {
                     padding: 21px 20px;
-                    font-family: var(--system-ui-font);
+                    font-family: 'Chakra Petch';
                     letter-spacing: 0.1px;
                     font-size: 13px;
                     text-transform: uppercase;
@@ -341,7 +333,7 @@ body::-webkit-scrollbar-thumb {
                     transition: all 0.15s ease;
 
                     &:hover, &:focus {
-                        color: #f2bf00;
+                        color: #47a0e9;
                     }
     
                     &.jp-link {
@@ -367,36 +359,18 @@ body::-webkit-scrollbar-thumb {
                     border-bottom: 1px solid #88888822;
                 }
 
-                button {
-                    background: #fbbf33;
-                    margin: 17px 0 17px 25px;
-                    border: 0;
-                    border-radius: 4px;
-                    padding: 1px 12px;
-                    transition: all 0.15s ease;
+                button.new-cta {
+                    border-width: 4px;
+                    margin: 8px 0 8px 20px;
 
                     a {
-                        font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-                        font-weight: 500;
-                        text-transform: uppercase;
                         font-size: 13px;
-                        color: #0f0e15;
-
-                        img {
-                            position: relative;
-                            bottom: 1px;
-                            width: 10px;
-                            opacity: 0.75;
-                            margin-right: 2px;
-                        }
+                        padding: 8px 24px;
                     }
 
-                    &:hover, &:focus {
-                        background: #bf880b
-                    }
-
-                    @media(max-width: 768px) {
-                        margin: 17px 0;
+                    &::after,
+                    &::before {
+                        display: none;
                     }
                 }
 
@@ -520,8 +494,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .section-header {        
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     font-size: 4rem;
+    font-weight: bold;
     color: #FFF;    
     letter-spacing: -0.5px;
     margin: 0 0 72px 0;
@@ -568,10 +543,9 @@ article.card-article {
     min-height: 400px;
 
     .card {
+        padding: 1px;
         display: block;
-        border-radius: 16px;
-        background-color: #111;
-        border: 1px solid transparent;
+        background: linear-gradient(45deg, #3b3d40 90%, #2b6bc0);
         margin-bottom: 32px;
         box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
         position: relative;
@@ -598,10 +572,10 @@ article.card-article {
     
         .card-frame {
             padding: 0;
-            background: #00000033;
+            background: #191a1d;
             text-align: center;
             white-space: nowrap;
-            border-radius: 7px 7px 0 0;
+            border-radius: 0;
             line-height: 0;
             min-height: 193px;
             display: flex;
@@ -658,24 +632,29 @@ article.card-article {
                 }
 
                 .badge {
-                    font-family: 'Rubik', sans-serif;
-                    font-size: 1.25rem;
-                    padding: 3px 7px;
-                    border-radius: 4px;
+                    font-family: "Chakra Petch", sans-serif;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    font-size: 1.17rem;
+                    line-height: 1rem;
+                    padding: 8px 8px 6px 8px;
+                    border-radius: 2px;
+                    background: #0f1014;
+                    border: 1px solid #222;
+                    text-transform: uppercase;
                     color: #FFF;
-                    font-weight: 400;
                     display: none;
 
-                    &.drf           { display: inline-block; background-color: #a94242 }
-                    &.data-science  { display: inline-block; background-color: #7842a9 }
-                    &.django        { display: inline-block; background-color: #0e4b34 }
-                    &.kivy          { display: inline-block; background-color: #c79a1b }
-                    &.career        { display: inline-block; background-color: #00000044 }
+                    &.drf           { display: inline-block }
+                    &.data-science  { display: inline-block }
+                    &.django        { display: inline-block }
+                    &.kivy          { display: inline-block }
+                    &.career        { display: inline-block }
                 }
             }
         
             .card-title {            
-                font-family: 'Rubik',sans-serif;
+                font-family: 'Chakra Petch',sans-serif;
                 margin-top: 0;
                 color: #FFF;
                 font-weight: 600;
@@ -775,7 +754,6 @@ article.card-article {
         .card {
             .card-frame {
                 min-height: 270px;
-                border-radius: 14px;
             }
 
             .caption {
@@ -833,7 +811,7 @@ article.card-article {
 // ================================================================
 
 #footer {
-    background: #0c0c0c;    
+    background: #080e14;    
     padding: 56px 16px;
     z-index: 0;
     text-align: center;
@@ -850,15 +828,13 @@ article.card-article {
             display: inline;
             
             a {
-                font-family: 'Rubik', sans-serif;
+                font-family: 'Chakra Petch', sans-serif;
                 color: #ffffffcc;
                 font-size: 1.65rem;
-                border-bottom: 1px dashed #ffffff44;
                 transition: all 0.15s ease;
 
                 &:hover {
-                    border-bottom-style: solid;
-                    color: #FFF;
+                    color: #47a0e9;
                 }
             }
         }
@@ -890,15 +866,14 @@ article.card-article {
                 transition: all 0.15s ease;
 
                 a {
-                    background: #181818;
+                    background: #00000077;
+                    border: 1px solid #ffffff11;
                     display: inline-block;
                     padding: 8px;
                     border-radius: 6px;
                     transition: all 0.15s ease;
 
                     img {
-                        position: relative;
-                        top: 3px;
                         opacity: 0.65;
                     }
                 }
@@ -1081,9 +1056,9 @@ section.jornada-python-banner {
 }
 
 #footer-copyright {
-    background: #111;
+    background: #060a0e;
     padding: 12px 16px;
-    border-top: 1px solid #ffffff0a;
+    border-top: 1px solid #0f1317;
     z-index: 0;
     text-align: center;
     
@@ -1312,7 +1287,7 @@ section.jornada-python-banner {
     text-align: center;
 
     h1 {
-        font-family: 'Rubik', sans-serif;
+        font-family: 'Chakra Petch', sans-serif;
         font-size: 5.5rem;
         color: #FFF;
         text-align: center;
@@ -1623,14 +1598,14 @@ section.jornada-python-banner {
 // ================================================================
 
 .call-to-action {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     font-weight: 500;
     color: #fff;
     text-shadow: 0 0px 2px rgba(0, 0, 0, 0.45);
     display: inline-block;
     border-radius: 8px;
     font-size: 2rem;
-    padding: 16px 32px;
+    padding: 12px 32px;
     box-shadow: 0px 3px 20px #4881db99;
     background: #2265ce;
     border: 1px solid #6190ee;
@@ -1644,6 +1619,73 @@ section.jornada-python-banner {
 
     @media(max-width: 500px) {
         padding: 16px 24px;
+    }
+}
+
+button.new-cta {
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 0;
+    position: relative;
+    border: 6px ridge #149CEA;
+    outline: none;
+    background-color: #0d426b3d;
+    color: white;
+    transition: 0.25s ease-in-out;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 0.05rem;
+    color: #FFF;
+    font-weight: bold;    
+
+    a {
+        width: 100%;
+        display: inline-block;
+        padding: 13px 30px;
+        color: #FFF !important;
+        font-weight: bold;
+        border-bottom: unset !important;
+
+        &:hover {
+            color: #FFF;
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 50px;
+        left: 7%;
+        width: 86%;
+        height: 3px;
+        background-color: #000000;
+        transition: .25s ease-in-out;
+        transform-origin: center;
+    }
+
+    &::before {
+        content: "";
+        transform-origin: center;
+        position: absolute;
+        top: -6px;
+        left: 7%;
+        width: 86%;
+        height: 3px;
+        background-color: #000;
+        transition: .25s ease-in-out;
+    }
+
+    &:hover {
+        border-color: #98d9ff;
+        box-shadow: inset 0px 0px 18px #1479EA;
+    }
+
+    @media(max-width: 768px) {
+        &::after,
+        &::before {
+            display: none;
+        }
     }
 }
 
@@ -1821,6 +1863,16 @@ div.python-30-days {
                         outline: none;
                         margin-bottom: 10px;
 
+                        h3.logo {
+                            font-family: 'Chakra Petch', sans-serif;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            color: #fff;
+                            font-size: 3rem;
+                            letter-spacing: 1px;
+                            margin-bottom: 16px;
+                        }
+
                         img.logo {
                             width: 100%;
                             max-width: 500px;
@@ -1829,9 +1881,10 @@ div.python-30-days {
 
                         .sib-text-form-block {
                             p {
+                                font-family: "Inter", sans-serif;
                                 color: #ddd;
                                 padding: 0;
-                                font-size: 2rem;
+                                font-size: 1.75rem;
                                 font-weight: 300;
                             }
                         }
@@ -1841,6 +1894,7 @@ div.python-30-days {
                         }
 
                         label.entry__label {
+                            font-family: "Chakra Petch", sans-serif;
                             color: #999;
                             font-weight: bold;
                             text-transform: uppercase;
@@ -1868,10 +1922,13 @@ div.python-30-days {
                         }
 
                         .call-to-action {
+                            font-family: "Chakra Petch", sans-serif;
                             width: 100%;
                             font-size: 1.6rem;
-                            padding: 10px;
+                            padding: 12px;
                             line-height: 21px;
+                            font-weight: 600;
+                            letter-spacing: 1px;
                         }
                     }
 
@@ -2210,20 +2267,20 @@ div.python-30-days {
             align-items: center;
 
             .greetings {
-                flex: 0.75;
+                flex: 0.6;
                 padding-right: 24px;
 
                 .hashtag {
-                    font-family: 'Rubik', sans-serif;
+                    font-family: 'Chakra Petch', sans-serif;
                     text-transform: uppercase;
                     font-size: 1.2rem;
                     color: #ffffff55;
-                    font-weight: 500;
+                    font-weight: bold;
                     letter-spacing: 1px;
                 }
 
                 .greeting {
-                    font-family: 'Rubik', sans-serif;
+                    font-family: 'Chakra Petch', sans-serif;
                     color: #FFF;
                     font-weight: 500;
                     font-size: 2.2rem;
@@ -2232,7 +2289,7 @@ div.python-30-days {
                 }
 
                 .signup-text {
-                    font-family: 'Ubuntu', sans-serif;
+                    font-family: 'Roboto', sans-serif;
                     color: #FFFFFFCC;
                     font-size: 1.75rem;
                     display: inline-block;
@@ -2240,7 +2297,7 @@ div.python-30-days {
                 }
 
                 .privacy {
-                    font-family: 'Ubuntu', sans-serif;
+                    font-family: 'Chakra Petch', sans-serif;
                     font-size: 1.25rem;
                     color: #ffffff88;
                     display: block;
@@ -2254,7 +2311,7 @@ div.python-30-days {
             }
 
             .signup-form {
-                flex: 0.25;
+                flex: 0.4;
 
                 ul {
                     list-style: none;
@@ -2280,11 +2337,6 @@ div.python-30-days {
 
                         button {
                             width: 100%;
-                            font-family: 'Rubik', sans-serif;
-                            color: #FFF;
-                            text-transform: uppercase;
-                            font-size: 1.65rem;
-                            padding: 12px 6px;
                         }
                     }
                 }
@@ -2408,8 +2460,8 @@ div.python-30-days {
 .django-light-green { color: #44B78B !important }
 
 .text-gradient {
-    background: -webkit-linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
-    background: linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
+    background: -webkit-linear-gradient(140deg, #0071f2 0, #7dd1ff 100%);
+    background: linear-gradient(140deg, #0071f2 0, #7dd1ff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2722,13 +2774,6 @@ div.python-30-days {
             a {
                 font-size: 1.75rem;
             }
-        }
-
-        .text-gradient {
-            background: -webkit-linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
-            background: linear-gradient(140deg, #f2a900 0, #ffd87d 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
         }
     } 
     

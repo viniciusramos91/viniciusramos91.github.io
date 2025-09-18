@@ -1,7 +1,7 @@
 @import "/assets/css/syntax-monokai-sublime.css";
 
 body {
-    background-color: #111;
+    background-color: #0c151d;
 }
 
 // ZEN OF PYTHON PAGE
@@ -40,14 +40,14 @@ body {
             }
 
             .terminal-body {
-                background: #212121;
+                background: #192027;
                 padding: 26px;
                 border-radius: 0 0 8px 8px;
 
                 span {
                     font-family: 'JetBrains Mono', monospace;
                     line-height: 2rem;
-                    font-size: 1.75rem;
+                    font-size: 1.5rem;
                     display: block;
 
                     &.command {
@@ -87,7 +87,7 @@ body {
         padding: 64px 0;
 
         h2 {
-            font-family: 'Rubik', sans-serif;
+            font-family: 'Chakra Petch', sans-serif;
             color: #FFFFFFDD;
             font-size: 3rem;
             margin-bottom: 64px;
@@ -95,8 +95,8 @@ body {
         }
         
         h3 {
-            font-family: 'Rubik', sans-serif;
-            color: #444;
+            font-family: 'Chakra Petch', sans-serif;
+            color: #fff;
             font-size: 2.5rem;
         }
         
@@ -105,13 +105,13 @@ body {
         }
 
         .explanation-box {
-            background: #212121;
+            background: #192027;
             padding: 48px;
             border-radius: 16px;
             margin: 48px 0;
 
             p {
-                font-family: 'Rubik', sans-serif;
+                font-family: 'Chakra Petch', sans-serif;
                 font-size: 2rem;
 
                 b {
@@ -127,7 +127,7 @@ body {
             }
 
             .explanation {            
-                font-family: 'Ubuntu', sans-serif;
+                font-family: 'Inter', sans-serif;
                 color: #ffffffcc;
                 font-size: 1.6rem;
                 line-height: 2.5rem;
@@ -137,10 +137,19 @@ body {
                     margin: 12px 0;
 
                     pre {
+                    background: #13181d;
                         padding: 6px 12px;
                         line-height: 1.5;
                     }
-                }                
+                }
+
+                code {
+                    padding: 3px 6px;
+                    font-size: 90%;
+                    color: #2577c7;
+                    background-color: #0e141a;
+                    border-radius: 4px;
+                }          
             }
 
             @media(max-width: 500px) {

@@ -2,21 +2,21 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
    height="297mm"
    viewBox="0 0 210 297"
    version="1.1"
    id="svg2572"
-   inkscape:version="0.92.5 (0.92.5+69)"
-   sodipodi:docname="video-bground.svg">
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="video-bground.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2566">
     <linearGradient
@@ -482,9 +482,9 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter1583"
-       x="-0.8076"
+       x="-0.80759999"
        width="2.6152"
-       y="-0.8076"
+       y="-0.80759999"
        height="2.6152">
       <feGaussianBlur
          inkscape:collect="always"
@@ -779,6 +779,79 @@
          x="188.87666"
          y="144.78723" />
     </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3172"
+       id="linearGradient29"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2777611,0,0,1.2777611,1665.818,66.02685)"
+       x1="-173.76294"
+       y1="-33.664234"
+       x2="-173.76294"
+       y2="350.70953" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3172"
+       id="linearGradient30"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2777611,0,0,1.2777611,1665.818,66.026884)"
+       x1="-173.76294"
+       y1="-33.664234"
+       x2="-173.76294"
+       y2="350.70953" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3172"
+       id="linearGradient31"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2777611,0,0,1.2777611,1665.818,66.02685)"
+       x1="-173.76294"
+       y1="-33.664234"
+       x2="-173.76294"
+       y2="350.70953" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3172"
+       id="linearGradient32"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2777611,0,0,1.2777611,1665.818,66.02689)"
+       x1="-173.76294"
+       y1="-33.664234"
+       x2="-173.76294"
+       y2="350.70953" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3172"
+       id="linearGradient33"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2777611,0,0,1.2777611,1665.818,66.02685)"
+       x1="-173.76294"
+       y1="-33.664234"
+       x2="-173.76294"
+       y2="350.70953" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3172"
+       id="linearGradient36"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4853276,0,0,1.4853276,1700.8875,27.981146)"
+       x1="-173.76294"
+       y1="-33.664234"
+       x2="-173.76294"
+       y2="350.70953" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38">
+      <rect
+         style="vector-effect:none;fill:#ffffff;fill-opacity:0.0929296;stroke:none;stroke-width:0.242015;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="rect38"
+         width="702.18115"
+         height="399.15094"
+         x="1098.8428"
+         y="144.86816"
+         rx="0"
+         ry="0" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -787,15 +860,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.12374369"
-     inkscape:cx="-1001.8875"
-     inkscape:cy="336.26358"
+     inkscape:zoom="0.175"
+     inkscape:cx="3854.2856"
+     inkscape:cy="1151.4285"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="2560"
-     inkscape:window-height="1003"
-     inkscape:window-x="0"
+     inkscape:window-height="996"
+     inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
@@ -804,7 +877,10 @@
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-nodes="false"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="false"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata2569">
     <rdf:RDF>
@@ -822,12 +898,21 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.71794873;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98039216;paint-order:normal"
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.90849;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.980392;paint-order:normal"
        id="rect6153"
-       width="1996.6656"
+       width="3197.1179"
        height="1614.0238"
        x="-994.83405"
        y="-613.27344" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.09292962;stroke:none;stroke-width:0.24201484;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect1107"
+       width="702.18115"
+       height="399.15094"
+       x="188.67609"
+       y="144.86816"
+       rx="0"
+       ry="0" />
     <g
        id="g1582"
        clip-path="url(#clipPath1726)"
@@ -1401,14 +1486,79 @@
            style="fill:url(#linearGradient1850);stroke:#ffffff;filter:url(#bs-logo-c)" />
       </g>
     </g>
-    <rect
-       style="opacity:1;vector-effect:none;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.24201484;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       id="rect1107"
-       width="702.18115"
-       height="399.15094"
-       x="188.67609"
-       y="144.86816"
-       rx="0"
-       ry="0" />
+    <g
+       id="g38"
+       clip-path="url(#clipPath38)"
+       inkscape:export-filename="/home/vinicius/Development/pythonacademy/pythonacademy.github.io/img/video-bground-md.png"
+       inkscape:export-xdpi="47.024902"
+       inkscape:export-ydpi="47.024902">
+      <circle
+         inkscape:export-ydpi="82.68"
+         inkscape:export-xdpi="82.68"
+         inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
+         r="56.171101"
+         cy="325.66797"
+         cx="31.096527"
+         id="circle1"
+         style="opacity:0.4312;vector-effect:none;fill:#376cc8;fill-opacity:1;stroke:none;stroke-width:0.297715;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.294118;paint-order:normal;filter:url(#filter1583)"
+         transform="matrix(2.3900199,0,0,1.714563,1375.6121,-371.41837)" />
+      <g
+         id="g37">
+        <circle
+           style="opacity:0.336;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient29);stroke-width:0.507111;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.294118;paint-order:normal"
+           id="circle2"
+           cx="1449.9335"
+           cy="300.23291"
+           r="95.678711"
+           inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
+           inkscape:export-xdpi="82.68"
+           inkscape:export-ydpi="82.68" />
+        <circle
+           r="140.39687"
+           cy="300.23282"
+           cx="1449.9333"
+           id="circle3"
+           style="opacity:0.336;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient30);stroke-width:0.507111;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3.04267, 3.04267;stroke-dashoffset:0;stroke-opacity:0.294118;paint-order:normal"
+           inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
+           inkscape:export-xdpi="82.68"
+           inkscape:export-ydpi="82.68" />
+        <circle
+           style="opacity:0.336;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient31);stroke-width:0.507111;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.294118;paint-order:normal"
+           id="circle4"
+           cx="1449.9335"
+           cy="300.23291"
+           r="185.06857"
+           inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
+           inkscape:export-xdpi="82.68"
+           inkscape:export-ydpi="82.68" />
+        <circle
+           r="229.79868"
+           cy="300.23361"
+           cx="1449.9325"
+           id="circle5"
+           style="opacity:0.336;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient32);stroke-width:0.507111;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3.04267, 3.04267;stroke-dashoffset:0;stroke-opacity:0.294118;paint-order:normal"
+           inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
+           inkscape:export-xdpi="82.68"
+           inkscape:export-ydpi="82.68" />
+        <circle
+           style="opacity:0.336;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient33);stroke-width:0.507111;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.294118;paint-order:normal"
+           id="circle6"
+           cx="1449.9335"
+           cy="300.23291"
+           r="274.41696"
+           inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
+           inkscape:export-xdpi="82.68"
+           inkscape:export-ydpi="82.68" />
+        <circle
+           inkscape:export-ydpi="82.68"
+           inkscape:export-xdpi="82.68"
+           inkscape:export-filename="/home/viniciusramos/Development/pythonacademy/pythonacademy.github.io/assets/img/jornada-python/video-bground-2.png"
+           r="318.99475"
+           cy="300.23291"
+           cx="1449.9335"
+           id="circle20"
+           style="opacity:0.336;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient36);stroke-width:0.507;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3.042, 3.042;stroke-dashoffset:0;stroke-opacity:0.294118;paint-order:normal" />
+      </g>
+    </g>
   </g>
 </svg>
