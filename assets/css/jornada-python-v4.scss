@@ -148,7 +148,7 @@ button.new-cta {
     font-family: 'Chakra Petch', sans-serif;
     padding: 0;
     position: relative;
-    border: 6px solid #21303c;
+    border: 5px solid #21303c;
     outline: none;
     background-color: #1b91ed;
     transition: 0.25s ease-in-out;
@@ -170,29 +170,29 @@ button.new-cta {
         }
     }
 
-    &::after {
-        content: "";
-        position: absolute;
-        top: 63px;
-        left: 10%;
-        width: 80%;
-        height: 3px;
-        background-color: #000000;
-        transition: .25s ease-in-out;
-        transform-origin: center;
-    }
+    // &::after {
+    //     content: "";
+    //     position: absolute;
+    //     top: 63px;
+    //     left: 10%;
+    //     width: 80%;
+    //     height: 3px;
+    //     background-color: #000000;
+    //     transition: .25s ease-in-out;
+    //     transform-origin: center;
+    // }
 
-    &::before {
-        content: "";
-        transform-origin: center;
-        position: absolute;
-        top: -6px;
-        left: 10%;
-        width: 80%;
-        height: 3px;
-        background-color: #000;
-        transition: .25s ease-in-out;
-    }
+    // &::before {
+    //     content: "";
+    //     transform-origin: center;
+    //     position: absolute;
+    //     top: -6px;
+    //     left: 10%;
+    //     width: 80%;
+    //     height: 3px;
+    //     background-color: #000;
+    //     transition: .25s ease-in-out;
+    // }
 
     &:hover {
         border-color: #1facf4;
@@ -749,6 +749,16 @@ button.new-cta {
             .accordion-body {
                 background: unset;
                 border-radius: 0 0 6px 6px;
+            }
+        }
+
+        &.drf {
+            background: linear-gradient(45deg, #4e13136a 55%, #4e131325);
+
+            .accordion-header {
+                button {
+                    background: unset;
+                }
             }
         }
     }
@@ -1980,6 +1990,28 @@ section#investment {
                     padding-left: 0.5rem;
                     li {
                         margin-bottom: 4px;
+                    }
+                }
+            }
+        }
+
+        .course-techs {
+            width: 100%;
+            padding: 12px;
+            background-color: #090b0d;
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+
+                li {
+                    display: inline-block;
+                    margin: 6px;
+
+                    img {
+
                     }
                 }
             }

@@ -1472,6 +1472,10 @@ body#jornada-python-body {
                         border-radius: 0 0 6px 6px;
                     }
                 }
+
+                &.drf {
+                    background: linear-gradient(45deg, #4e13136a 55%, #4e131325);
+                }
             }
         }                
     }
