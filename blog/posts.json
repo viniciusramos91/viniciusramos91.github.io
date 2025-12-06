@@ -2,6 +2,25 @@
     
     
     {
+      "h1": "Por que criei o DevBook.ai: A dor de escrever ebooks técnicos com Word e Google Docs",
+      "title": "Por que criei o DevBook.ai: A dor de escrever ebooks técnicos com Word e Google Docs",
+      "href": "/blog/devbook-ai-um-saas-pra-chamar-de-meu",
+      "slug": "devbook-ai-um-saas-pra-chamar-de-meu",
+      "assets": "devbook-intro",
+      "author": "Vinícius R",
+      "description": "<p>A história por trás do DevBook.ai e os desafios que enfrentei ao criar ebooks técnicos para a Python Academy usando ferramentas tradicionais.</p>",
+      "header_color": "#7839ee",
+      "author_avatar": "/assets/authors/vinicius-ramos/avatar.webp",
+      "date": {
+         "day": "06",
+         "month": "12",
+         "year": "2025"
+      }
+    }
+    ,
+    
+    
+    {
       "h1": "Como conseguir sua primeira vaga no exterior",
       "title": "Como conseguir sua primeira vaga no exterior",
       "href": "/blog/como-conseguir-sua-primeira-vaga-para-o-exterior",

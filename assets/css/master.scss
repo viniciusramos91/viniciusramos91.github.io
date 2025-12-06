@@ -646,6 +646,30 @@ article.card-article {
                     &.kivy          { display: inline-block }
                     &.career        { display: inline-block }
                 }
+
+                .devbook-badges {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    li {
+                        display: inline-block;
+                        padding: 0 12px;
+                        background: #7839ee;
+                        border-radius: 16px;
+                        margin: 2px;
+
+                        span {
+                            text-transform: uppercase;
+                            font-size: 0.9rem;
+                            font-weight: bold;
+                            color: #FFF;
+                            letter-spacing: 0.25px;
+                            position: relative;
+                            bottom: 3px;
+                        }
+                    }
+                }
             }
         
             .card-title {            
