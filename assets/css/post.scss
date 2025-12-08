@@ -1251,7 +1251,11 @@ body#post-body {
         @media(max-width: 767px) {
             &.padding-top {
                 padding-top: 196px;
-            }            
+            }
+
+            .blog-post-content blockquote {
+                margin: 10px;
+            }
         }
     }
 }
