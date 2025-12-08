@@ -841,7 +841,7 @@ Escreva outra linha dentro do arquivo.
 				<div class="suggested-posts">
 					<div class="post-column">
 						
-							<a href="https://pythonacademy.com.br/blog/devbook-ai-um-saas-pra-chamar-de-meu">🔗 Por que criei o DevBook.ai: A dor de escrever ebooks técnicos com Word e Google Docs</a>
+							<a href="https://pythonacademy.com.br/blog/por-que-criei-o-devbook">🔗 Por que criei o DevBook.ai: A dor de escrever ebooks técnicos com Word e Google Docs</a>
 						
 							<a href="https://pythonacademy.com.br/blog/como-conseguir-sua-primeira-vaga-para-o-exterior">🔗 Como conseguir sua primeira vaga no exterior</a>
 						
@@ -1214,31 +1214,31 @@ Escreva outra linha dentro do arquivo.
 			var hasModalShown = false;
 
 			
-			window.addEventListener('scroll', function() {
-				if (popupDisplayed) return; // Se o popup já foi exibido, não faz mais nada
-				
-				var popupText = document.getElementById('popup-text');
-				var popup = document.getElementById('popup');
-				var scrollTotal = document.body.scrollHeight;
-				var scrollPosition = window.scrollY + window.innerHeight;
+				window.addEventListener('scroll', function() {
+					if (popupDisplayed) return; // Se o popup já foi exibido, não faz mais nada
+					
+					var popupText = document.getElementById('popup-text');
+					var popup = document.getElementById('popup');
+					var scrollTotal = document.body.scrollHeight;
+					var scrollPosition = window.scrollY + window.innerHeight;
 
-				if (scrollPosition > scrollTotal * 0.3) { // 30% do scroll
-					var fraseAleatoria = frases[Math.floor(Math.random() * frases.length)];
-        			popupText.innerHTML = fraseAleatoria;
-					popup.style.opacity = '1';
-					popup.style.animation = 'fadeIn 0.5s';
-					popupDisplayed = true; // Marca que o popup foi exibido
-				}
-			});
-			
+					if (scrollPosition > scrollTotal * 0.3) { // 30% do scroll
+						var fraseAleatoria = frases[Math.floor(Math.random() * frases.length)];
+						popupText.innerHTML = fraseAleatoria;
+						popup.style.opacity = '1';
+						popup.style.animation = 'fadeIn 0.5s';
+						popupDisplayed = true; // Marca que o popup foi exibido
+					}
+				});
 
-			document.getElementById('closePopup').addEventListener('click', function() {
-				var popup = document.getElementById('popup');
-				popup.style.animation = 'fadeOut 0.5s';
-				setTimeout(function() {
-					popup.style.display = 'none'; // Altera para display 'none' em vez de apenas mudar a opacidade
-				}, 500);
-			});			
+				document.getElementById('closePopup').addEventListener('click', function() {
+					var popup = document.getElementById('popup');
+					popup.style.animation = 'fadeOut 0.5s';
+					setTimeout(function() {
+						popup.style.display = 'none'; // Altera para display 'none' em vez de apenas mudar a opacidade
+					}, 500);
+				});
+						
 
 			
 				function showModal() {
