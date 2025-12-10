@@ -1,1 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
 Sitemap: https://pythonacademy.com.br/sitemap.xml
+
+# Disallow URLs with query parameters
+Disallow: /*?*
+
+# Disallow Black Friday temporária
+Disallow: /black-friday/
+
+# Allow crawling of assets
+Allow: /assets/
+
+# Disallow admin/private areas (se existirem)
+Disallow: /admin/
+Disallow: /_*
