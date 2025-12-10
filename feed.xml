@@ -5,8 +5,8 @@
     <description>Aprenda Python de verdade! Descubra como é fácil começar a usar uma das linguagens de programação mais simples do mercado! Com Python você vai poder automatizar tarefas do dia a dia, desenvolver para Web, aprender Data Science, conhecer Machine Learning e muito mais!</description>
     <link>https://pythonacademy.com.br/</link>
     <atom:link href="https://pythonacademy.com.br/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Dec 2025 23:22:30 -0300</pubDate>
-    <lastBuildDate>Tue, 09 Dec 2025 23:22:30 -0300</lastBuildDate>
+    <pubDate>Wed, 10 Dec 2025 15:41:16 -0300</pubDate>
+    <lastBuildDate>Wed, 10 Dec 2025 15:41:16 -0300</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     
     <item>
@@ -17,6 +17,38 @@
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/por-que-criei-o-devbook</guid>
         <category>devbook</category>
         </item>
+    <item>
+        <title>Guia Completo de Django 2025: Do Básico ao Avançado</title>
+        <description>Guia definitivo Django 5.1 em 2025: instalação, MTV, models, views, templates, forms, admin, REST API, PostgreSQL, MySQL, middlewares, async. Tutorial completo para iniciantes e avançados.</description>
+        <pubDate>Sun, 20 Jul 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/guia-completo-django-2025</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/guia-completo-django-2025</guid>
+        <category>django</category>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>web</category>
+        <category>framework</category>
+        <category>api</category>
+        <category>rest</category>
+        <category>backend</category>
+        <category>tutorial</category>
+    </item>
+    <item>
+        <title>Guia Completo Django REST Framework 2025: APIs Profissionais do Zero</title>
+        <description>Guia completo DRF 3.15 em 2025: serializers, viewsets, authentication, permissions, filtros, paginação, testes. Construa APIs REST profissionais com Django REST Framework do básico ao avançado.</description>
+        <pubDate>Sat, 03 May 2025 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/guia-completo-drf-2025</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/guia-completo-drf-2025</guid>
+        <category>django-rest-framework</category>
+        <category>drf</category>
+        <category>api</category>
+        <category>rest</category>
+        <category>django</category>
+        <category>python</category>
+        <category>backend</category>
+        <category>serializers</category>
+        <category>tutorial</category>
+    </item>
     <item>
         <title>Como conseguir sua primeira vaga no exterior</title>
         <description>Neste artigo vamos explorar como você pode conseguir sua primeira vaga no exterior e ganhar o tão sonhado salário em dólares!</description>
@@ -226,15 +258,18 @@
     </item>
     <item>
         <title>O que é o Django Rest Framework (DRF)?</title>
-        <description>Entenda o que é o Django Rest Framework (DRF) e como ele pode facilitar o desenvolvimento de APIs REST em Django.</description>
+        <description>Guia completo Django REST Framework (DRF): serializers, viewsets, authentication, permissions, browsable API. Aprenda a criar APIs RESTful profissionais com Django 5.1.</description>
         <pubDate>Tue, 27 Aug 2024 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/o-que-e-o-django-rest-framework</guid>
         <category>python</category>
+        <category>django</category>
         <category>desenvolvimento</category>
         <category>software</category>
         <category>programação</category>
         <category>drf</category>
+        <category>rest</category>
+        <category>api</category>
         <category>tutorial</category>
     </item>
     <item>
@@ -264,7 +299,7 @@
     </item>
     <item>
         <title>Aprenda sobre Concorrência e Paralelismo em Python</title>
-        <description>Vamos explorar os principais conceitos de concorrência e paralelismo em Python! Aprenda sobre threads, processos, programação assíncrona e como usar essas técnicas para tornar seus programas mais rápidos e responsivos. </description>
+        <description>Guia completo de Concorrência vs Paralelismo em Python: diferenças, GIL, threading vs multiprocessing vs async, quando usar cada abordagem (I/O-bound vs CPU-bound), exemplos práticos.</description>
         <pubDate>Mon, 15 Jul 2024 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/aprenda-sobre-concorrencia-e-paralelismo-em-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/aprenda-sobre-concorrencia-e-paralelismo-em-python</guid>
@@ -300,7 +335,7 @@
     </item>
     <item>
         <title>Programação Assíncrona com Python</title>
-        <description>Nesse artigo, vamos desvendar os mistérios da programação assíncrona no Python!</description>
+        <description>Guia completo de Programação Assíncrona em Python: async/await, asyncio, quando usar vs threads vs sync, casos de uso (APIs, I/O), diferenças entre concorrência e paralelismo.</description>
         <pubDate>Wed, 22 Nov 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/programacao-assincrona-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/programacao-assincrona-no-python</guid>
@@ -312,7 +347,7 @@
     </item>
     <item>
         <title>Como manipular JSON com Python</title>
-        <description>Nesse artigo você vai aprender a manipular dados em JSON utilizando Python de uma maneira simples e eficiente!</description>
+        <description>Guia completo json: loads/dumps, load/dump (arquivos), indent, ensure_ascii, casos práticos (APIs, configuração, nested), json vs dict, validação.</description>
         <pubDate>Thu, 02 Nov 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/como-manipular-json-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-manipular-json-no-python</guid>
@@ -348,7 +383,7 @@
     </item>
     <item>
         <title>Como conectar o Django (Python) ao MySQL</title>
-        <description>Chega de usar o SQLite nas suas aplicações. Aprenda a conectar o poderoso SGBD MySQL à sua aplicação Web Django!</description>
+        <description>Guia prático: conecte Django 5.1 ao MySQL. Configure DATABASES, use mysqlclient, Docker, migrations. Integração completa com MariaDB também suportada.</description>
         <pubDate>Sun, 22 Oct 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/como-conectar-o-django-ao-mysql</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-conectar-o-django-ao-mysql</guid>
@@ -361,7 +396,7 @@
     </item>
     <item>
         <title>Como conectar o Django (Python) ao Banco de Dados PostgreSQL</title>
-        <description>Chega de usar o SQLite nas suas aplicações. Aprenda a conectar o poderoso SGBD PostgreSQL à sua aplicação Web Django!</description>
+        <description>Tutorial completo: conecte Django 5.1 ao PostgreSQL. Aprenda a configurar DATABASES, usar psycopg3, Docker, migrations e boas práticas para produção.</description>
         <pubDate>Sat, 16 Sep 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/como-conectar-o-django-ao-postgresql</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-conectar-o-django-ao-postgresql</guid>
@@ -374,7 +409,7 @@
     </item>
     <item>
         <title>O que é e como usar o Painel Administrativo do Django (Python)</title>
-        <description>Nesse artigo você vai aprender a usar e customizar o incrível Painel Admin do Django!</description>
+        <description>Tutorial completo do Django Admin: aprenda a configurar, customizar e usar o painel administrativo. ModelAdmin, list_display, search_fields, list_filter e mais no Django 5.1.</description>
         <pubDate>Thu, 14 Sep 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/o-painel-admin-do-django</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/o-painel-admin-do-django</guid>
@@ -387,7 +422,7 @@
     </item>
     <item>
         <title>Os principais comandos do manage.py do Django (Python)</title>
-        <description>Nesse post você vai aprender quais são e como utilizar os principais comandos do arquivo manage.py do Django (Python)</description>
+        <description>Guia completo dos comandos manage.py do Django 5.1: runserver, makemigrations, migrate, createsuperuser, startapp, test e mais. Domine a CLI do Django para desenvolvimento eficiente.</description>
         <pubDate>Wed, 13 Sep 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django</guid>
@@ -400,7 +435,7 @@
     </item>
     <item>
         <title>Seu primeiro projeto Django em 15 minutos</title>
-        <description>Nesse artigo você vai iniciar a sua carreira no Desenvolvimento de Aplicações Web utilizando o framework Django em apenas 15 minutos.</description>
+        <description>Tutorial completo: crie seu primeiro projeto Django 5.1 em 15 minutos. Aprenda instalação, estrutura de arquivos, manage.py, runserver e comandos essenciais para começar no desenvolvimento web Python.</description>
         <pubDate>Tue, 12 Sep 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/seu-primeiro-projeto-django-em-15-minutos</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/seu-primeiro-projeto-django-em-15-minutos</guid>
@@ -425,7 +460,7 @@
     </item>
     <item>
         <title>Dataclasses no Python</title>
-        <description>Nesse artigo você vai aprender a utilizar dataclasses no Python para criar códigos mais limpos e enxutos.</description>
+        <description>Guia completo de Dataclasses: menos boilerplate, __init__ automático, field(), frozen, order, asdict(), casos práticos (configuração, DTO), dataclass vs classe normal vs NamedTuple.</description>
         <pubDate>Mon, 31 Jul 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/dataclasses-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/dataclasses-no-python</guid>
@@ -437,7 +472,7 @@
     </item>
     <item>
         <title>O que é e como utilizar @property no Python</title>
-        <description>Nesse artigo você vai aprender o que é e como utilizar o @property no Python para deixar seu código mais elegante e fácil de entender</description>
+        <description>Guia completo de @property: getters/setters Pythônicos, validação de dados, atributos computados, casos reais (temperatura, idade, preço), @property vs atributos públicos.</description>
         <pubDate>Mon, 24 Jul 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/como-utilizar-property-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-utilizar-property-no-python</guid>
@@ -449,7 +484,7 @@
     </item>
     <item>
         <title>Classes e Objetos no Python</title>
-        <description>Nesse post, você vai dominar a Programação Orientada a Objetos no Python. Aprenda a declarar Classes e instanciar Objetos no Python.</description>
+        <description>Guia completo de Classes e Objetos: declaração, __init__, métodos de instância/classe/estáticos, __str__/__repr__, casos reais (produto, usuário), atributos classe vs instância.</description>
         <pubDate>Tue, 18 Jul 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/classes-e-objetos-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/classes-e-objetos-no-python</guid>
@@ -509,7 +544,7 @@
     </item>
     <item>
         <title>Como abrir arquivos utilizando Python</title>
-        <description>Neste artigo, vamos explorar como realizar operações de abertura, leitura e escrita de forma eficiente e eficaz em Python.</description>
+        <description>Guia de arquivos: open(), read(), write(), close(), with, modos (r/w/a/rb), pathlib, context managers, casos práticos (ler TXT, escrever logs, copiar arquivos). Neste artigo, vamos explorar como realizar operações de abertura, leitura e escrita de forma eficiente e eficaz em Python.</description>
         <pubDate>Sat, 08 Jul 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/como-manipular-arquivos-utilizando-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-manipular-arquivos-utilizando-python</guid>
@@ -545,7 +580,7 @@
     </item>
     <item>
         <title>Fatiamento (ou Slicing) de Listas no Python</title>
-        <description>Manipular listas é um conhecimento extremamente importante para o Pythonista e nesse artigo você via aprender sobre o Slicing ou Fatiamento de Listas</description>
+        <description>Guia de slicing: sintaxe [start:stop:step], índices negativos, reverter lista, cópia rasa, casos práticos (extrair, modificar, inverter), slicing em strings.</description>
         <pubDate>Tue, 04 Jul 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/fatiamento-slicing-de-listas</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/fatiamento-slicing-de-listas</guid>
@@ -557,7 +592,7 @@
     </item>
     <item>
         <title>Como manipular arquivos CSV no Python</title>
-        <description>Nesse artigo você vai aprender a manipular arquivos CSV utilizando a biblioteca csv do próprio Python.</description>
+        <description>Guia da biblioteca csv nativa: DictReader, DictWriter, dialetos (delimiter, quotechar), casos práticos (filtrar, transformar), csv vs pandas, quando usar cada um.</description>
         <pubDate>Sat, 01 Jul 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/manipulacao-csv-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/manipulacao-csv-no-python</guid>
@@ -581,7 +616,7 @@
     </item>
     <item>
         <title>Aprenda a utilizar as Class Based Views (CBV) do Django</title>
-        <description>Aprenda a desenvolver views eficientes em Django com Class Based Views. Nesse post você vai aprender a utilizar as Class Based Views do Django para construir views mais especializadas, legíveis e organizadas, com menos código.</description>
+        <description>Guia completo de Class Based Views (CBV) no Django 5.1. Aprenda ListView, CreateView, UpdateView, DeleteView e TemplateView com exemplos práticos. Domine CBVs para código mais organizado e reusável.</description>
         <pubDate>Fri, 21 Apr 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/como-utilizar-as-class-based-views-do-django</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/como-utilizar-as-class-based-views-do-django</guid>
@@ -618,7 +653,7 @@
     </item>
     <item>
         <title>As Funções Map e Filter do Python</title>
-        <description>Neste artigo iremos falar sobre as funções map e filter e como elas podem ser usadas para produzir códigos mais pythônicos.</description>
+        <description>Guia completo de map() e filter() em Python: sintaxe, diferenças vs list comprehension, quando usar programação funcional vs Pythônica, casos de uso e exemplos práticos.</description>
         <pubDate>Wed, 11 Jan 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/as-funcoes-map-e-filter-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/as-funcoes-map-e-filter-no-python</guid>
@@ -630,7 +665,7 @@
     </item>
     <item>
         <title>O que são Funções Lambda no Python</title>
-        <description>Neste artigo iremos falar sobre as Funções Lambdas, como defini-las e como utilizá-las!</description>
+        <description>Guia completo de Funções Lambda em Python: sintaxe, casos de uso reais (sort, filter, map, max/min), quando usar funções anônimas e quando evitar complexidade.</description>
         <pubDate>Tue, 10 Jan 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/funcoes-lambda-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/funcoes-lambda-no-python</guid>
@@ -642,7 +677,7 @@
     </item>
     <item>
         <title>Tratamento de erros e exceções no Python com try/except</title>
-        <description>Neste post você vai aprender a tratar erros e exceções utilizando o bloco try/except do Python!</description>
+        <description>Guia de try/except: tratamento de erros, except específico vs genérico, else, finally, raise, custom exceptions, casos práticos (input, arquivos, APIs).</description>
         <pubDate>Mon, 09 Jan 2023 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/tratamento-erros-excecoes-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/tratamento-erros-excecoes-no-python</guid>
@@ -666,7 +701,7 @@
     </item>
     <item>
         <title>Print no Python</title>
-        <description>Nesse post você vai aprender como utilizar a função print do Python para mostrar dados aos seus usuários</description>
+        <description>Guia de print(): parâmetros (sep, end, file, flush), formatação, múltiplos valores, redirecionar output, casos práticos (progress, tabelas, cores).</description>
         <pubDate>Sat, 15 Oct 2022 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/print-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/print-no-python</guid>
@@ -690,7 +725,7 @@
     </item>
     <item>
         <title>Args e Kwargs no Python</title>
-        <description>Nesse post você vai aprender o que são os argumentos não-nomeados *args e argumentos nomeados **kwargs das funções em Python.</description>
+        <description>Guia completo de *args e **kwargs: argumentos variáveis, desempacotamento, casos práticos (logger, decorators, wrappers), ordem de parâmetros, *args vs **kwargs.</description>
         <pubDate>Sat, 25 Jun 2022 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/args-e-kwargs-do-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/args-e-kwargs-do-python</guid>
@@ -702,7 +737,7 @@
     </item>
     <item>
         <title>Estruturas de Repetição usando Loops While no Python</title>
-        <description>Nesse post você vai aprender a utilizar loops while do Python para criar Estruturas de Repetição.</description>
+        <description>Guia de loops while: repetição com condição, break/continue, loop infinito, validação input, casos práticos (menu, senha), while vs for.</description>
         <pubDate>Fri, 24 Jun 2022 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/loops-com-while-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/loops-com-while-no-python</guid>
@@ -714,7 +749,7 @@
     </item>
     <item>
         <title>Estruturas de Repetição usando Loops For no Python</title>
-        <description>Nesse post você vai aprender a utilizar loops for do Python para criar Estruturas de Repetição.</description>
+        <description>Guia de loops for: iterar listas/strings/dicts, range(), enumerate(), break/continue, for-else, casos práticos (processa dados, soma valores), for vs while.</description>
         <pubDate>Thu, 23 Jun 2022 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/loops-com-for-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/loops-com-for-no-python</guid>
@@ -775,7 +810,7 @@
     </item>
     <item>
         <title>Aprenda a criar Funções em Python</title>
-        <description>Nesse post você vai aprender como não repetir linhas de código através da criação de Funções em Python!</description>
+        <description>Guia de funções: def, parâmetros, return, *args/**kwargs, funções puras, casos práticos (validação, cálculo, formatadores), DRY principle, funções vs classes.</description>
         <pubDate>Tue, 08 Feb 2022 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/funcoes-em-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/funcoes-em-python</guid>
@@ -799,7 +834,7 @@
     </item>
     <item>
         <title>Introdução à Programação Orientada a Objetos no Python</title>
-        <description>Esse post mostra os principais conceitos do paradigma de programaçào Orientado a Objetos no Python, como: Classes, Objetos, Herança, Polimorfismo, Abstração e muito mais!</description>
+        <description>Guia completo de POO em Python: classes, objetos, herança, polimorfismo, encapsulamento, abstração. Casos reais (conta bancária, sistema escolar), quando usar OOP vs funcional.</description>
         <pubDate>Thu, 12 Aug 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/introducao-a-programacao-orientada-a-objetos-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/introducao-a-programacao-orientada-a-objetos-no-python</guid>
@@ -811,7 +846,7 @@
     </item>
     <item>
         <title>If/Elif/Else: as Estuturas Condicionais do Python</title>
-        <description>Esse post mostra como podemos controlar a execução de programas Python através das estruturas condicionais IF/ELIF/ELSE!</description>
+        <description>Guia completo de if/elif/else: estruturas condicionais, operadores (==, !=, &gt;, &lt;, and, or), ternário, casos práticos (validação, nota, idade), nested if.</description>
         <pubDate>Sat, 24 Jul 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/estruturas-condicionais-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/estruturas-condicionais-no-python</guid>
@@ -823,7 +858,7 @@
     </item>
     <item>
         <title>Operadores Aritméticos e Operadores Lógicos em Python</title>
-        <description>Esse post trata sobre os Operadores Aritméticos (+, -, *, /, etc), Operadores de Comparação (==, &gt;=, &lt;=, etc), Operadores Lógicos (and, or e not) e muito mais!</description>
+        <description>Guia de operadores: aritméticos (+, -, *, /, //, %, **), comparação (==, !=, &gt;, &lt;), lógicos (and, or, not), atribuição (+=, -=), casos práticos.</description>
         <pubDate>Sun, 18 Jul 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python</guid>
@@ -835,7 +870,7 @@
     </item>
     <item>
         <title>Função input e print no Python: Entrada e Saída de dados</title>
-        <description>Nesse post vamos falar sobre entrada de dados, saída de dados, a função input do Python, a função print e MUITO MAIS!</description>
+        <description>Guia de I/O: input() para entrada, print() para saída, conversão de tipos, sep/end, f-strings com print, casos práticos (calculadora, menu, validação).</description>
         <pubDate>Tue, 13 Jul 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/input-e-print-entrada-e-saida-de-dados-no-python</guid>
@@ -847,7 +882,7 @@
     </item>
     <item>
         <title>A função range do Python</title>
-        <description>Vamos tratar de um assunto muito importante nesse post: como construir loops utilizando a função range do Python!</description>
+        <description>Guia de range(): sintaxe (start, stop, step), range vs list, casos práticos (loops numéricos, índices, regressão), lazy evaluation, range em for loops.</description>
         <pubDate>Fri, 09 Jul 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/a-funcao-range-do-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/a-funcao-range-do-python</guid>
@@ -859,7 +894,7 @@
     </item>
     <item>
         <title>For, While, Loops e Estruturas de Repetição no Python</title>
-        <description>Nesse post vamos falar sobre as famosas Estruturas de Repetição (ou loops) do Python: for, while, for com else, for com range, enumerate e muito mais!</description>
+        <description>Guia completo de loops: for, while, break, continue, else, enumerate, range, casos práticos (iteração, processamento, validação), for vs while, quando usar cada um.</description>
         <pubDate>Thu, 08 Jul 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/estruturas-de-repeticao</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/estruturas-de-repeticao</guid>
@@ -871,7 +906,7 @@
     </item>
     <item>
         <title>Domine Set Comprehensions no Python</title>
-        <description>Domine Sets Comprehensions (ou Compreensão de Sets) com esse post completo sobre o assunto! Set Comprehensions possibilita criar e manipular sets de uma maneira concisa e eficiente!</description>
+        <description>Guia completo de Set Comprehensions em Python: sintaxe, performance, benchmarks, casos de uso reais (remover duplicatas, validação, operações de conjunto), comparações com alternativas e quando evitar.</description>
         <pubDate>Sat, 03 Jul 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/set-comprehensions-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/set-comprehensions-no-python</guid>
@@ -883,7 +918,7 @@
     </item>
     <item>
         <title>Domine Sets no Python</title>
-        <description>Domine Sets (ou Conjuntos) com esse post completo sobre o assunto! Sets são um tipo de dados muito utilizado no dia a dia da programação Python e que todo programador precisa dominar!</description>
+        <description>Guia completo de Sets (conjuntos) em Python: criação, operações (união, interseção, diferença), casos reais (remover duplicatas, validação, comparações), set vs frozenset, O(1) lookups.</description>
         <pubDate>Fri, 02 Jul 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/sets-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/sets-no-python</guid>
@@ -895,7 +930,7 @@
     </item>
     <item>
         <title>Dicionários (Dicts) no Python</title>
-        <description>Dicionário no Python é um tipo de dado muito eficiente e muito poderoso. Dominá-lo é essencial para o verdadeiro Pythonista!</description>
+        <description>Guia completo de Dicionários (dicts) em Python: criação, métodos (get, update, pop), iteração, casos reais (cache, contadores, config), dict vs defaultdict vs Counter, O(1) lookups.</description>
         <pubDate>Sun, 27 Jun 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python</guid>
@@ -907,7 +942,7 @@
     </item>
     <item>
         <title>Tipos de Variáveis no Python</title>
-        <description>Nesse post vamos ver os tipos de variáveis que a linguagem Python nos disponibiliza para utilizar em nossos programas.</description>
+        <description>Guia de tipos: int, float, str, bool, list, tuple, dict, set, None, type(), conversão de tipos (int(), str()), mutabilidade, casos práticos. Nesse post vamos ver os tipos de variáveis que a linguagem Python nos disponibiliza para utilizar em nossos programas.</description>
         <pubDate>Sat, 19 Jun 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python</guid>
@@ -919,7 +954,7 @@
     </item>
     <item>
         <title>Manipulação de Listas no Python</title>
-        <description>Vamos aprender como manipular Listas no Python de forma pythônica com esse Guia COMPLETO!</description>
+        <description>Guia completo de manipulação de Listas: métodos (append, extend, insert, remove, pop, sort), slicing avançado, casos práticos (remover duplicatas, filtrar, ordenar), complexidade O(n).</description>
         <pubDate>Wed, 16 Jun 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/manipulacao-de-listas-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/manipulacao-de-listas-no-python</guid>
@@ -931,7 +966,7 @@
     </item>
     <item>
         <title>Guia completo sobre Listas no Python</title>
-        <description>Esse post trata de um dos principais tipos de dados usados no dia a dia do Pythonista: as famosas LISTAS!</description>
+        <description>Guia completo de Listas em Python: criação, operações, métodos (append, extend, insert), slicing, casos de uso reais (filas, pilhas, processamento dados), lista vs tupla vs array.</description>
         <pubDate>Mon, 14 Jun 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/listas-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/listas-no-python</guid>
@@ -972,17 +1007,12 @@
         <category>tutorial</category>
     </item>
     <item>
-        <title>Biblioteca itertools do Python</title>
-        <description>Nesse post você vai dominar a biblioteca itertools do Python e adicionar mais um módulo poderosíssimo à sua caixa de ferramentas!</description>
+        <title>A Biblioteca Itertools Do Python</title>
+        <description></description>
         <pubDate>Tue, 20 Apr 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/a-biblioteca-itertools-do-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/a-biblioteca-itertools-do-python</guid>
-        <category>python</category>
-        <category>desenvolvimento</category>
-        <category>software</category>
-        <category>programação</category>
-        <category>tutorial</category>
-    </item>
+        </item>
     <item>
         <title>PyPy: Execute códigos Python até 4x mais rápido!</title>
         <description>Quer saber como executar seu código 4x mais rápido? Então leia esse post AGORA!</description>
@@ -997,7 +1027,7 @@
     </item>
     <item>
         <title>Manipulação de dados com Dataframes do Pandas</title>
-        <description>Complemento para o post de pandas básico, vamos aprender mais sobre Pandas Dataframes! A estrutura tabular que todo cientista de dados vai ficar careca de saber (eu fiquei, literalmente :O). Cola na Python Academy que você vai sair um cientista de dados!</description>
+        <description>Guia completo de DataFrames: estrutura 2D do pandas, seleção (loc, iloc, at, iat), filtros booleanos, groupby, merge/join, casos práticos (análise vendas, agregações), DataFrame vs Series.</description>
         <pubDate>Mon, 15 Mar 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/dataframes-do-pandas</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/dataframes-do-pandas</guid>
@@ -1011,7 +1041,7 @@
     </item>
     <item>
         <title>Séries do Pandas (Python)</title>
-        <description>Nesse post, você irá aprender como manipular arranjos unidimensionais utilizando as Séries do Pandas.</description>
+        <description>Guia completo de Series: estrutura 1D do pandas, indexação (loc, iloc), operações vetorizadas, métodos (mean, sum, value_counts), casos práticos (estatísticas, filtros), Series vs List.</description>
         <pubDate>Wed, 10 Mar 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/series-no-pandas</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/series-no-pandas</guid>
@@ -1025,7 +1055,7 @@
     </item>
     <item>
         <title>Manipulação de Strings com f-strings no Python</title>
-        <description>Aprenda a manipular strings em Python de um jeito fácil e descomplicado com f-strings!</description>
+        <description>Guia completo de f-strings: formatação avançada, debug (=), largura/alinhamento, casos práticos (logs, SQL, templates), f-strings vs .format() vs %, Python 3.6+.</description>
         <pubDate>Fri, 19 Feb 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/f-strings-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/f-strings-no-python</guid>
@@ -1037,7 +1067,7 @@
     </item>
     <item>
         <title>Como importar arquivos CSV no Pandas (Python)</title>
-        <description>Esse post mostra como importar arquivos CSV usando a famosa biblioteca pandas! Bora que essa ferramenta é essencial pra quem quer começar na área de Data Science!</description>
+        <description>Guia completo de read_csv(): parâmetros essenciais (sep, header, dtype), encodings, dados ausentes, chunks, parse_dates, casos práticos (grandes arquivos, múltiplos CSVs), pandas vs csv nativo.</description>
         <pubDate>Wed, 03 Feb 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/importar-csv-no-pandas</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/importar-csv-no-pandas</guid>
@@ -1051,7 +1081,7 @@
     </item>
     <item>
         <title>Dict Comprehension (compreensão de dict) no Python</title>
-        <description>Nesse post, vamos aprender uma ferramenta avançada muito útil do Python para tratamento e manipulação de dicionários!</description>
+        <description>Guia completo de Dict Comprehensions em Python: sintaxe, performance, benchmarks vs loops, casos de uso reais (JSON, APIs, transformação de dados) e quando evitar. Tutorial com exemplos práticos.</description>
         <pubDate>Thu, 14 Jan 2021 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/dict-comprehensions-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/dict-comprehensions-no-python</guid>
@@ -1063,7 +1093,7 @@
     </item>
     <item>
         <title>List Comprehensions (compreensão de listas) no Python</title>
-        <description>Aprenda a dominar o poder de List Comprehensions no Python. Nesse post você vai ver como utilizar, declarar e manipular listas com List Comprehensions.</description>
+        <description>Guia completo de List Comprehensions em Python: sintaxe, performance, benchmarks, comparação com generators, casos de uso reais e quando evitar. Tutorial com exemplos práticos e análise de memória.</description>
         <pubDate>Thu, 25 Oct 2018 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/list-comprehensions-no-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/list-comprehensions-no-python</guid>
@@ -1075,7 +1105,7 @@
     </item>
     <item>
         <title>Iterators e Generators do Python</title>
-        <description>Você já deve ter ouvido falar em Iterators e Generators em Python. Mas você sabe o que são? Nesse post vamos aprender um pouco mais dessas duas ferramentas poderosas do Python!</description>
+        <description>Guia completo de Iterators e Generators em Python: protocolo Iterator, yield, lazy evaluation, economia de memória, casos de uso reais (processar arquivos grandes, streams) e quando usar cada um.</description>
         <pubDate>Mon, 15 Oct 2018 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/iterators-e-generators-em-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/iterators-e-generators-em-python</guid>
@@ -1192,7 +1222,7 @@
     </item>
     <item>
         <title>Desenvolvimento Web com Python e Django</title>
-        <description>O Django é uma framework de desenvolvimento Web Python completa e robusta. Nesse post introdutório, vamos abordar os a arquitetura do framework e primeiros passos para o desenvlvimento web com Python.</description>
+        <description>O Django é uma framework de desenvolvimento Web Python completa e robusta. Nesse post introdutório, vamos abordar a arquitetura do framework e primeiros passos para o desenvolvimento web com Python.</description>
         <pubDate>Tue, 22 May 2018 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao</guid>
@@ -1242,7 +1272,7 @@
     </item>
     <item>
         <title>Aprenda como utilizar Decorators no Python</title>
-        <description>Decorators modificam o comportamente do código antes e depois da execução de uma dada função, sem a necessidade de modificar o próprio código da mesma, adicionando funcionalidades.</description>
+        <description>Guia completo de Decorators em Python: conceito, sintaxe, nested functions, casos de uso reais (logging, timing, cache, autenticação, validação), @wraps e quando usar decorators.</description>
         <pubDate>Fri, 06 Apr 2018 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/domine-decorators-em-python</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/domine-decorators-em-python</guid>

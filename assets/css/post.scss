@@ -601,6 +601,31 @@ body#post-body {
                     padding-left: 50px;
                 }
             }
+
+            table:not(.rouge-table) {
+                margin: 30px;
+
+                thead {
+                    tr {
+                        border: 1px solid #191d21;
+
+                        th {
+                            padding: 4px 12px;
+                        }
+                    }                    
+                }
+
+                tbody {
+                    tr {
+                        border: 1px solid #191d21;
+
+                        td {
+                            padding: 8px 16px;
+                            font-size: 90%;
+                        }
+                    }                    
+                }
+            }
             
             .blue-yellow-separator {
                 margin: 64px auto;
