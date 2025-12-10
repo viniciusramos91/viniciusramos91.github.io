@@ -2228,3 +2228,17 @@ body#post-body {
         left: calc(50% - 100px);
     }
 }
+
+.pdf-download-widget {
+    margin-bottom: 1.5rem;
+    display: inline-block;
+
+    img {
+        transform: scale(1.0);
+        transition: all 0.15s ease;
+
+        &:hover {
+            transform: scale(1.035);
+        }
+    }
+}
