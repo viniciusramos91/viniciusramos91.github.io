@@ -5,18 +5,22 @@
     <description>Aprenda Python de verdade! Descubra como é fácil começar a usar uma das linguagens de programação mais simples do mercado! Com Python você vai poder automatizar tarefas do dia a dia, desenvolver para Web, aprender Data Science, conhecer Machine Learning e muito mais!</description>
     <link>https://pythonacademy.com.br/</link>
     <atom:link href="https://pythonacademy.com.br/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Dec 2025 22:48:42 -0300</pubDate>
-    <lastBuildDate>Thu, 11 Dec 2025 22:48:42 -0300</lastBuildDate>
+    <pubDate>Wed, 11 Feb 2026 19:02:15 -0300</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2026 19:02:15 -0300</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     
     <item>
-        <title>Por que criei o DevBook.ai: A dor de escrever ebooks técnicos com Word e Google Docs</title>
-        <description>A história por trás do DevBook.ai e os desafios que enfrentei ao criar ebooks técnicos para a Python Academy usando ferramentas tradicionais.</description>
-        <pubDate>Sat, 06 Dec 2025 00:00:00 -0300</pubDate>
-        <link>https://pythonacademy.com.br/blog/por-que-criei-o-devbook</link>
-        <guid isPermaLink="true">https://pythonacademy.com.br/blog/por-que-criei-o-devbook</guid>
-        <category>devbook</category>
-        </item>
+        <title>Por que criei o Ebookr.ai: A dor de criar ebooks profissionais com Word e Google Docs</title>
+        <description>A história por trás do Ebookr.ai e os desafios que enfrentei ao criar ebooks profissionais usando ferramentas tradicionais como Word, Google Docs e Canva.</description>
+        <pubDate>Wed, 11 Feb 2026 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/por-que-criei-o-ebookr-ai</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/por-que-criei-o-ebookr-ai</guid>
+        <category>python</category>
+        <category>ebookr</category>
+        <category>empreendedorismo</category>
+        <category>ia</category>
+        <category>devlog</category>
+    </item>
     <item>
         <title>Guia Completo de Django 2025: Do Básico ao Avançado</title>
         <description>Guia definitivo Django 5.1 em 2025: instalação, MTV, models, views, templates, forms, admin, REST API, PostgreSQL, MySQL, middlewares, async. Tutorial completo para iniciantes e avançados.</description>
