@@ -20,6 +20,9 @@
 
 <title>Manipulação de dados com Dataframes do Pandas</title>
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">		
+<link rel="apple-touch-icon" href="/assets/img/favicon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#11215e">
 <link rel="alternate" type="application/rss+xml" href="https://pythonacademy.com.br/feed.xml">
 
 <!-- Open Graph -->
@@ -39,8 +42,8 @@
 
 <meta property="article:author" content="Leon Solon">
 <meta property="article:section" content="Tecnologia">    
-<meta property="article:published_time" content="2021-03-15">
-<meta property="article:modified_time" content="2025-12-10">
+<meta property="article:published_time" content="2021-03-15T00:00:00-03:00">
+<meta property="article:modified_time" content="2025-12-10T00:00:00-03:00">
 
 <!-- General -->
 <meta itemprop="description" name="description" content="Guia completo de DataFrames: estrutura 2D do pandas, seleção (loc, iloc, at, iat), filtros booleanos, groupby, merge/join, casos práticos (análise vendas, agregações), DataFrame vs Series.">		
@@ -49,12 +52,12 @@
 
 <!-- Twitter cards -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
+<meta name="twitter:site" content="@PythonAcademyBR">
 <meta name="twitter:title" content="Manipulação de dados com Dataframes do Pandas">
 <meta name="twitter:description" content="Guia completo de DataFrames: estrutura 2D do pandas, seleção (loc, iloc, at, iat), filtros booleanos, groupby, merge/join, casos práticos (análise vendas, agregações), DataFrame vs Series.">
-<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/pandas-dataframes/thumbnail.png">
+<meta name="twitter:image" content="https://pythonacademy.com.br/assets/posts/pandas-dataframes/thumbnail.png">
 
-<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
+<meta name="twitter:creator" content="@PythonAcademyBR">
 
 <script type="application/ld+json">
 {
@@ -72,11 +75,7 @@
             "height": 152,
             "width": 152
         },
-        "sameAs": [
-            "https://www.linkedin.com/in/leonsolon",
-            "https://github.com/leonsolon",
-            "https://stackoverflow.com/users/"
-        ]
+        "sameAs": ["https://www.linkedin.com/in/leonsolon","https://github.com/leonsolon"]
     },
     "publisher": {
         "@type": "Organization",
@@ -197,7 +196,7 @@
 				</div>
 			</nav>
 		</header>
-		<div class="main-container">
+		<main class="main-container">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
 					<div class="post-banner-content" style="background: linear-gradient(180deg, #070707 60%, #11215e29 100%);">						
@@ -241,7 +240,7 @@
 									<p class="text-left">
 										Leon Solon
 										<span class="text-gradient">•</span>
-										<time datetime="2021-03-15" pubdate>15/03/2021</time>
+										<time datetime="2021-03-15">15/03/2021</time>
 										
 										<br>
 										<small style="color: #FFF7">
@@ -859,7 +858,7 @@ Pandas 2.2+ com DataFrames otimizados e casos práticos essenciais.</p>
 													Por Leon Solon
 												</span>
 	
-												<b>em <time datetime="2021-03-15" pubdate>15/03/2021</time></b>
+												<b>em <time datetime="2021-03-15">15/03/2021</time></b>
 											</p>
 		
 											<p class="short-description">Pai, cientista de dados, apaixonado por resolver problemas.</p>
@@ -894,8 +893,8 @@ Pandas 2.2+ com DataFrames otimizados e casos práticos essenciais.</p>
 						</div>
 					</div>	
 				</div>	
-			</section>								
-		</div>	
+			</section>
+		</main>
 
 		<div class="end-post-banner">
 			<img alt="Jornada Python" class="jp-logo lazyload" data-src="/assets/img/jp-logo-banner-final.png">
@@ -1009,6 +1008,8 @@ Pandas 2.2+ com DataFrames otimizados e casos práticos essenciais.</p>
 				<div class="suggested-posts">
 					<div class="post-column">
 						
+							<a href="https://pythonacademy.com.br/blog/rag-na-pratica-em-python">🔗 RAG na Prática: um Chatbot que Responde com Base nos Seus Documentos</a>
+						
 							<a href="https://pythonacademy.com.br/blog/claude-opus-4-8-e-o-modo-ultracode">🔗 Claude Opus 4.8 e o modo Ultracode: o que muda pra quem programa em Python</a>
 						
 							<a href="https://pythonacademy.com.br/blog/por-que-criei-o-ebookr-ai">🔗 Por que criei o Ebookr.ai: A dor de criar ebooks profissionais com Word e Google Docs</a>
@@ -1077,11 +1078,11 @@ Pandas 2.2+ com DataFrames otimizados e casos práticos essenciais.</p>
 						
 							<a href="https://pythonacademy.com.br/blog/o-painel-admin-do-django">🔗 O que é e como usar o Painel Administrativo do Django (Python)</a>
 						
-							<a href="https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django">🔗 Os principais comandos do manage.py do Django (Python)</a>
-						
 					</div>
 					
 					<div class="post-column">
+						
+							<a href="https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django">🔗 Os principais comandos do manage.py do Django (Python)</a>
 						
 							<a href="https://pythonacademy.com.br/blog/seu-primeiro-projeto-django-em-15-minutos">🔗 Seu primeiro projeto Django em 15 minutos</a>
 						
@@ -1151,11 +1152,11 @@ Pandas 2.2+ com DataFrames otimizados e casos práticos essenciais.</p>
 						
 							<a href="https://pythonacademy.com.br/blog/introducao-a-programacao-orientada-a-objetos-no-python">🔗 Programação Orientada a Objetos no Python: Introdução</a>
 						
-							<a href="https://pythonacademy.com.br/blog/estruturas-condicionais-no-python">🔗 Estruturas Condicionais no Python</a>
-						
 					</div>
 					
 					<div class="post-column">
+						
+							<a href="https://pythonacademy.com.br/blog/estruturas-condicionais-no-python">🔗 Estruturas Condicionais no Python</a>
 						
 							<a href="https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python">🔗 Operadores Aritméticos e Lógicos em Python</a>
 						

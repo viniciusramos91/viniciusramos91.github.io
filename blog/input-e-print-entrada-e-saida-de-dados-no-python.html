@@ -20,6 +20,9 @@
 
 <title>Função input e print no Python: Entrada e Saída de dados</title>
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">		
+<link rel="apple-touch-icon" href="/assets/img/favicon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#b2bec3">
 <link rel="alternate" type="application/rss+xml" href="https://pythonacademy.com.br/feed.xml">
 
 <!-- Open Graph -->
@@ -39,8 +42,8 @@
 
 <meta property="article:author" content="Erickson Lopes">
 <meta property="article:section" content="Tecnologia">    
-<meta property="article:published_time" content="2021-07-13">
-<meta property="article:modified_time" content="2026-05-30">
+<meta property="article:published_time" content="2021-07-13T00:00:00-03:00">
+<meta property="article:modified_time" content="2026-05-30T00:00:00-03:00">
 
 <!-- General -->
 <meta itemprop="description" name="description" content="Como usar input() e print() no Python: input() sempre retorna str, conversão com int()/float(), erros TypeError e ValueError, sep, end, flush e f-strings.">		
@@ -49,12 +52,12 @@
 
 <!-- Twitter cards -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
+<meta name="twitter:site" content="@PythonAcademyBR">
 <meta name="twitter:title" content="Função input e print no Python: Entrada e Saída de dados">
 <meta name="twitter:description" content="Como usar input() e print() no Python: input() sempre retorna str, conversão com int()/float(), erros TypeError e ValueError, sep, end, flush e f-strings.">
-<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/input-output/thumbnail.png">
+<meta name="twitter:image" content="https://pythonacademy.com.br/assets/posts/input-output/thumbnail.png">
 
-<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
+<meta name="twitter:creator" content="@PythonAcademyBR">
 
 <script type="application/ld+json">
 {
@@ -72,11 +75,7 @@
             "height": 152,
             "width": 152
         },
-        "sameAs": [
-            "https://www.linkedin.com/in/ericksonlopes",
-            "https://github.com/ericksonlopes",
-            "https://stackoverflow.com/users/"
-        ]
+        "sameAs": ["https://www.linkedin.com/in/ericksonlopes","https://github.com/ericksonlopes"]
     },
     "publisher": {
         "@type": "Organization",
@@ -242,7 +241,7 @@
 				</div>
 			</nav>
 		</header>
-		<div class="main-container">
+		<main class="main-container">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
 					<div class="post-banner-content" style="background: linear-gradient(180deg, #070707 60%, #b2bec329 100%);">						
@@ -282,7 +281,7 @@
 									<p class="text-left">
 										Erickson Lopes
 										<span class="text-gradient">•</span>
-										<time datetime="2021-07-13" pubdate>13/07/2021</time>
+										<time datetime="2021-07-13">13/07/2021</time>
 										
 										<br>
 										<small style="color: #FFF7">
@@ -464,7 +463,7 @@
 
 <h3 id="convertendo-cast-a-entrada-para-número">Convertendo (cast) a entrada para número</h3>
 
-<p><strong>Para tratar a entrada como número, você precisa converter a string explicitamente — isso se chama <em>cast</em>.</strong> As duas conversões mais comuns são:</p>
+<p><strong>Para tratar a entrada como número, você precisa converter a string explicitamente - isso se chama <em>cast</em>.</strong> As duas conversões mais comuns são:</p>
 
 <ul>
   <li>
@@ -528,7 +527,7 @@ TypeError: can only concatenate str (not "int") to str
 
 <p>A mensagem é literal: o Python só sabe <strong>concatenar</strong> (juntar) uma <code class="language-plaintext highlighter-rouge">str</code> com outra <code class="language-plaintext highlighter-rouge">str</code>. Ele não tenta adivinhar se você queria somar ou colar os valores.</p>
 
-<p>A correção é converter antes de somar — aí o <code class="language-plaintext highlighter-rouge">+</code> vira uma soma de verdade:</p>
+<p>A correção é converter antes de somar - aí o <code class="language-plaintext highlighter-rouge">+</code> vira uma soma de verdade:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -550,7 +549,7 @@ TypeError: can only concatenate str (not "int") to str
 
 <h3 id="cuidado-somar-dois-inputs-sem-cast-só-junta-as-strings">Cuidado: somar dois inputs sem cast só junta as strings</h3>
 
-<p><strong>Há um caso traiçoeiro: como <code class="language-plaintext highlighter-rouge">input()</code> sempre retorna <code class="language-plaintext highlighter-rouge">str</code>, o operador <code class="language-plaintext highlighter-rouge">+</code> entre dois inputs não soma — ele <em>concatena</em> (cola) os textos.</strong> O programa não dá erro, mas o resultado fica errado.</p>
+<p><strong>Há um caso traiçoeiro: como <code class="language-plaintext highlighter-rouge">input()</code> sempre retorna <code class="language-plaintext highlighter-rouge">str</code>, o operador <code class="language-plaintext highlighter-rouge">+</code> entre dois inputs não soma - ele <em>concatena</em> (cola) os textos.</strong> O programa não dá erro, mas o resultado fica errado.</p>
 
 <p>Imagine uma “calculadora” que pede dois números:</p>
 
@@ -819,7 +818,7 @@ Banana.
 <h3 id="o-parâmetro-end-da-função-print">O parâmetro <code class="language-plaintext highlighter-rouge">end=</code> da função <code class="language-plaintext highlighter-rouge">print</code>
 </h3>
 
-<p><strong>O <code class="language-plaintext highlighter-rouge">end=</code> controla o que vem <em>depois</em> do que foi impresso — é ele que decide se a próxima impressão fica em uma nova linha ou continua na mesma.</strong></p>
+<p><strong>O <code class="language-plaintext highlighter-rouge">end=</code> controla o que vem <em>depois</em> do que foi impresso - é ele que decide se a próxima impressão fica em uma nova linha ou continua na mesma.</strong></p>
 
 <p>Por padrão, a função <code class="language-plaintext highlighter-rouge">print</code> utiliza a quebra de linha (<code class="language-plaintext highlighter-rouge">\n</code>) como último caracter.</p>
 
@@ -872,7 +871,7 @@ Quantidade: 40
 
 <p><strong>O <code class="language-plaintext highlighter-rouge">flush=</code> força o texto a aparecer na tela imediatamente, em vez de ficar aguardando em um buffer interno.</strong></p>
 
-<p>Por padrão (<code class="language-plaintext highlighter-rouge">flush=False</code>), o Python pode segurar a saída em memória e só exibi-la quando “junta o suficiente” ou quando o programa encontra uma quebra de linha. Na maioria dos casos isso passa despercebido — mas faz diferença quando você imprime aos poucos, sem <code class="language-plaintext highlighter-rouge">\n</code>, e quer ver o progresso na hora (como uma barra de carregamento).</p>
+<p>Por padrão (<code class="language-plaintext highlighter-rouge">flush=False</code>), o Python pode segurar a saída em memória e só exibi-la quando “junta o suficiente” ou quando o programa encontra uma quebra de linha. Na maioria dos casos isso passa despercebido - mas faz diferença quando você imprime aos poucos, sem <code class="language-plaintext highlighter-rouge">\n</code>, e quer ver o progresso na hora (como uma barra de carregamento).</p>
 
 <p>Veja um exemplo que imprime pontinhos um a um:</p>
 
@@ -904,12 +903,12 @@ Quantidade: 40
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Sem o <code class="language-plaintext highlighter-rouge">flush=True</code>, todos os pontos só apareceriam de uma vez, no fim — o que estragaria o efeito de progresso.</p>
+<p>Sem o <code class="language-plaintext highlighter-rouge">flush=True</code>, todos os pontos só apareceriam de uma vez, no fim - o que estragaria o efeito de progresso.</p>
 
 <h3 id="imprimindo-variáveis-com-f-strings-no-print">Imprimindo variáveis com f-strings no <code class="language-plaintext highlighter-rouge">print</code>
 </h3>
 
-<p><strong>A forma mais legível de juntar texto e variáveis dentro do <code class="language-plaintext highlighter-rouge">print()</code> é usar uma f-string</strong> — uma string iniciada por <code class="language-plaintext highlighter-rouge">f</code> em que você coloca variáveis entre <code class="language-plaintext highlighter-rouge">{ }</code>:</p>
+<p><strong>A forma mais legível de juntar texto e variáveis dentro do <code class="language-plaintext highlighter-rouge">print()</code> é usar uma f-string</strong> - uma string iniciada por <code class="language-plaintext highlighter-rouge">f</code> em que você coloca variáveis entre <code class="language-plaintext highlighter-rouge">{ }</code>:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -933,7 +932,7 @@ Quantidade: 40
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Repare que, dentro da f-string, o <code class="language-plaintext highlighter-rouge">{idade}</code> já mostra o número sem precisar de cast — o Python cuida da conversão para texto na hora de imprimir. Para se aprofundar nesse recurso, veja o guia completo de <a href="/blog/f-strings-no-python">f-strings no Python</a>.</p>
+<p>Repare que, dentro da f-string, o <code class="language-plaintext highlighter-rouge">{idade}</code> já mostra o número sem precisar de cast - o Python cuida da conversão para texto na hora de imprimir. Para se aprofundar nesse recurso, veja o guia completo de <a href="/blog/f-strings-no-python">f-strings no Python</a>.</p>
 
 <blockquote>
   <p><img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20"> Estou construindo o <strong><a href="https://ebookr.ai">Ebookr.ai</a></strong>, uma plataforma onde você cria ebooks profissionais com IA sobre qualquer assunto - do zero ao PDF pronto, com capas e infográficos gerados automaticamente. Dá uma olhada!</p>
@@ -1056,7 +1055,7 @@ Seu nome é: Erick
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Quando você precisar pedir vários dados em sequência — ou repetir uma pergunta até o usuário responder corretamente — vale combinar o <code class="language-plaintext highlighter-rouge">input()</code> com as <a href="https://pythonacademy.com.br/blog/estruturas-de-repeticao">estruturas de repetição</a> (os <em>loops</em>).</p>
+<p>Quando você precisar pedir vários dados em sequência - ou repetir uma pergunta até o usuário responder corretamente - vale combinar o <code class="language-plaintext highlighter-rouge">input()</code> com as <a href="https://pythonacademy.com.br/blog/estruturas-de-repeticao">estruturas de repetição</a> (os <em>loops</em>).</p>
 
 <h2 id="utilizando-print-para-gravar-dados-em-arquivos">Utilizando <code class="language-plaintext highlighter-rouge">print</code> para gravar dados em arquivos</h2>
 
@@ -1094,7 +1093,7 @@ Escreva outra linha dentro do arquivo.
 
 <p>Vimos nesse post como utilizar as funções <code class="language-plaintext highlighter-rouge">input</code> e <code class="language-plaintext highlighter-rouge">print</code> e como utilizá-las para pegar dados <strong>do</strong> usuários e mostrar dados <strong>para</strong> o usuário.</p>
 
-<p>O ponto mais importante para guardar: <strong>o <code class="language-plaintext highlighter-rouge">input()</code> sempre retorna <code class="language-plaintext highlighter-rouge">str</code></strong>, então, sempre que precisar de número, faça o <em>cast</em> com <code class="language-plaintext highlighter-rouge">int()</code> ou <code class="language-plaintext highlighter-rouge">float()</code> — caso contrário, você esbarra no famoso <code class="language-plaintext highlighter-rouge">TypeError</code>. No <code class="language-plaintext highlighter-rouge">print()</code>, lembre que <code class="language-plaintext highlighter-rouge">sep</code>, <code class="language-plaintext highlighter-rouge">end</code> e <code class="language-plaintext highlighter-rouge">flush</code> dão controle total sobre a saída, e que f-strings deixam tudo mais legível.</p>
+<p>O ponto mais importante para guardar: <strong>o <code class="language-plaintext highlighter-rouge">input()</code> sempre retorna <code class="language-plaintext highlighter-rouge">str</code></strong>, então, sempre que precisar de número, faça o <em>cast</em> com <code class="language-plaintext highlighter-rouge">int()</code> ou <code class="language-plaintext highlighter-rouge">float()</code> - caso contrário, você esbarra no famoso <code class="language-plaintext highlighter-rouge">TypeError</code>. No <code class="language-plaintext highlighter-rouge">print()</code>, lembre que <code class="language-plaintext highlighter-rouge">sep</code>, <code class="language-plaintext highlighter-rouge">end</code> e <code class="language-plaintext highlighter-rouge">flush</code> dão controle total sobre a saída, e que f-strings deixam tudo mais legível.</p>
 
 <p>Esse é um conhecimento básico que todo programador Python, os chamados <strong>Pythonistas</strong>, devem saber!</p>
 
@@ -1157,7 +1156,7 @@ Escreva outra linha dentro do arquivo.
 													Por Erickson Lopes
 												</span>
 	
-												<b>em <time datetime="2021-07-13" pubdate>13/07/2021</time></b>
+												<b>em <time datetime="2021-07-13">13/07/2021</time></b>
 											</p>
 		
 											<p class="short-description">O infinito é o limite</p>
@@ -1192,8 +1191,8 @@ Escreva outra linha dentro do arquivo.
 						</div>
 					</div>	
 				</div>	
-			</section>								
-		</div>	
+			</section>
+		</main>
 
 		<div class="end-post-banner">
 			<img alt="Jornada Python" class="jp-logo lazyload" data-src="/assets/img/jp-logo-banner-final.png">
@@ -1307,6 +1306,8 @@ Escreva outra linha dentro do arquivo.
 				<div class="suggested-posts">
 					<div class="post-column">
 						
+							<a href="https://pythonacademy.com.br/blog/rag-na-pratica-em-python">🔗 RAG na Prática: um Chatbot que Responde com Base nos Seus Documentos</a>
+						
 							<a href="https://pythonacademy.com.br/blog/claude-opus-4-8-e-o-modo-ultracode">🔗 Claude Opus 4.8 e o modo Ultracode: o que muda pra quem programa em Python</a>
 						
 							<a href="https://pythonacademy.com.br/blog/por-que-criei-o-ebookr-ai">🔗 Por que criei o Ebookr.ai: A dor de criar ebooks profissionais com Word e Google Docs</a>
@@ -1375,11 +1376,11 @@ Escreva outra linha dentro do arquivo.
 						
 							<a href="https://pythonacademy.com.br/blog/o-painel-admin-do-django">🔗 O que é e como usar o Painel Administrativo do Django (Python)</a>
 						
-							<a href="https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django">🔗 Os principais comandos do manage.py do Django (Python)</a>
-						
 					</div>
 					
 					<div class="post-column">
+						
+							<a href="https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django">🔗 Os principais comandos do manage.py do Django (Python)</a>
 						
 							<a href="https://pythonacademy.com.br/blog/seu-primeiro-projeto-django-em-15-minutos">🔗 Seu primeiro projeto Django em 15 minutos</a>
 						
@@ -1449,11 +1450,11 @@ Escreva outra linha dentro do arquivo.
 						
 							<a href="https://pythonacademy.com.br/blog/introducao-a-programacao-orientada-a-objetos-no-python">🔗 Programação Orientada a Objetos no Python: Introdução</a>
 						
-							<a href="https://pythonacademy.com.br/blog/estruturas-condicionais-no-python">🔗 Estruturas Condicionais no Python</a>
-						
 					</div>
 					
 					<div class="post-column">
+						
+							<a href="https://pythonacademy.com.br/blog/estruturas-condicionais-no-python">🔗 Estruturas Condicionais no Python</a>
 						
 							<a href="https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python">🔗 Operadores Aritméticos e Lógicos em Python</a>
 						

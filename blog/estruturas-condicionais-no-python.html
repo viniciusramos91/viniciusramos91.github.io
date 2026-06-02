@@ -20,6 +20,9 @@
 
 <title>If/Elif/Else: as Estruturas Condicionais do Python</title>
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">		
+<link rel="apple-touch-icon" href="/assets/img/favicon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#40739e">
 <link rel="alternate" type="application/rss+xml" href="https://pythonacademy.com.br/feed.xml">
 
 <!-- Open Graph -->
@@ -39,8 +42,8 @@
 
 <meta property="article:author" content="Erickson Lopes">
 <meta property="article:section" content="Tecnologia">    
-<meta property="article:published_time" content="2021-07-24">
-<meta property="article:modified_time" content="2026-05-30">
+<meta property="article:published_time" content="2021-07-24T00:00:00-03:00">
+<meta property="article:modified_time" content="2026-05-30T00:00:00-03:00">
 
 <!-- General -->
 <meta itemprop="description" name="description" content="Guia completo de if/elif/else: estruturas condicionais, operadores (==, !=, &gt;, &lt;, and, or), ternário, casos práticos (validação, nota, idade), nested if.">		
@@ -49,12 +52,12 @@
 
 <!-- Twitter cards -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
+<meta name="twitter:site" content="@PythonAcademyBR">
 <meta name="twitter:title" content="If/Elif/Else: as Estruturas Condicionais do Python">
 <meta name="twitter:description" content="Guia completo de if/elif/else: estruturas condicionais, operadores (==, !=, &gt;, &lt;, and, or), ternário, casos práticos (validação, nota, idade), nested if.">
-<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/conditionals/thumbnail.png">
+<meta name="twitter:image" content="https://pythonacademy.com.br/assets/posts/conditionals/thumbnail.png">
 
-<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
+<meta name="twitter:creator" content="@PythonAcademyBR">
 
 <script type="application/ld+json">
 {
@@ -72,11 +75,7 @@
             "height": 152,
             "width": 152
         },
-        "sameAs": [
-            "https://www.linkedin.com/in/ericksonlopes",
-            "https://github.com/ericksonlopes",
-            "https://stackoverflow.com/users/"
-        ]
+        "sameAs": ["https://www.linkedin.com/in/ericksonlopes","https://github.com/ericksonlopes"]
     },
     "publisher": {
         "@type": "Organization",
@@ -142,7 +141,7 @@
             "name": "Quando usar match/case em vez de if/elif/else?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Use match/case (Python 3.10+) quando comparar uma mesma variável contra vários valores ou padrões fixos — fica mais legível que muitos elif. Para condições com intervalos, ranges ou lógica composta (and/or), prefira if/elif/else."
+                "text": "Use match/case (Python 3.10+) quando comparar uma mesma variável contra vários valores ou padrões fixos - fica mais legível que muitos elif. Para condições com intervalos, ranges ou lógica composta (and/or), prefira if/elif/else."
             }
         },{
             "@type": "Question",
@@ -242,7 +241,7 @@
 				</div>
 			</nav>
 		</header>
-		<div class="main-container">
+		<main class="main-container">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
 					<div class="post-banner-content" style="background: linear-gradient(180deg, #070707 60%, #40739e29 100%);">						
@@ -282,7 +281,7 @@
 									<p class="text-left">
 										Erickson Lopes
 										<span class="text-gradient">•</span>
-										<time datetime="2021-07-24" pubdate>24/07/2021</time>
+										<time datetime="2021-07-24">24/07/2021</time>
 										
 										<br>
 										<small style="color: #FFF7">
@@ -407,7 +406,7 @@ If/elif/else, <code class="language-plaintext highlighter-rouge">match/case</cod
 <h2 id="introdução">Introdução</h2>
 
 <blockquote>
-  <p><strong>O que são estruturas condicionais (if/elif/else) em Python?</strong> São comandos que executam um bloco de código <strong>apenas se</strong> uma condição for verdadeira. O <code class="language-plaintext highlighter-rouge">if</code> testa a condição principal, o <code class="language-plaintext highlighter-rouge">elif</code> testa condições alternativas e o <code class="language-plaintext highlighter-rouge">else</code> cobre o caso em que nenhuma das anteriores foi atendida — é assim que o programa toma decisões e controla seu fluxo.</p>
+  <p><strong>O que são estruturas condicionais (if/elif/else) em Python?</strong> São comandos que executam um bloco de código <strong>apenas se</strong> uma condição for verdadeira. O <code class="language-plaintext highlighter-rouge">if</code> testa a condição principal, o <code class="language-plaintext highlighter-rouge">elif</code> testa condições alternativas e o <code class="language-plaintext highlighter-rouge">else</code> cobre o caso em que nenhuma das anteriores foi atendida - é assim que o programa toma decisões e controla seu fluxo.</p>
 </blockquote>
 
 <p>É muito comum na programação, precisarmos que determinado bloco de código seja executado <strong>apenas se</strong> determinada condição for satisfeita.</p>
@@ -916,7 +915,7 @@ If/elif/else, <code class="language-plaintext highlighter-rouge">match/case</cod
 <h2 id="matchcase-structural-pattern-matching-python-310">
 <code class="language-plaintext highlighter-rouge">match/case</code>: Structural Pattern Matching (Python 3.10+)</h2>
 
-<p>A partir do <strong>Python 3.10</strong> (PEP 634), surgiu o <code class="language-plaintext highlighter-rouge">match/case</code>, uma alternativa ao <code class="language-plaintext highlighter-rouge">if/elif/else</code> para comparar uma <strong>mesma variável</strong> contra vários valores ou padrões — semelhante ao <code class="language-plaintext highlighter-rouge">switch</code> de outras linguagens, porém mais poderoso.</p>
+<p>A partir do <strong>Python 3.10</strong> (PEP 634), surgiu o <code class="language-plaintext highlighter-rouge">match/case</code>, uma alternativa ao <code class="language-plaintext highlighter-rouge">if/elif/else</code> para comparar uma <strong>mesma variável</strong> contra vários valores ou padrões - semelhante ao <code class="language-plaintext highlighter-rouge">switch</code> de outras linguagens, porém mais poderoso.</p>
 
 <p>Veja como tratar diferentes códigos de status HTTP:</p>
 
@@ -962,7 +961,7 @@ If/elif/else, <code class="language-plaintext highlighter-rouge">match/case</cod
   <li>O <code class="language-plaintext highlighter-rouge">|</code> (barra vertical) permite testar <strong>vários valores no mesmo <code class="language-plaintext highlighter-rouge">case</code></strong>, como em <code class="language-plaintext highlighter-rouge">case 301 | 302:</code>.</li>
 </ul>
 
-<p><strong>Quando usar <code class="language-plaintext highlighter-rouge">match/case</code> vs <code class="language-plaintext highlighter-rouge">if/elif/else</code>?</strong> Use <code class="language-plaintext highlighter-rouge">match/case</code> quando você compara <strong>uma única variável</strong> contra valores ou padrões fixos — fica mais legível que uma pilha de <code class="language-plaintext highlighter-rouge">elif</code>. Já para condições com <strong>intervalos</strong> (<code class="language-plaintext highlighter-rouge">if 0 &lt; x &lt; 10:</code>), lógica composta (<code class="language-plaintext highlighter-rouge">and</code>/<code class="language-plaintext highlighter-rouge">or</code>) ou testes de variáveis diferentes, o <code class="language-plaintext highlighter-rouge">if/elif/else</code> continua sendo a melhor escolha.</p>
+<p><strong>Quando usar <code class="language-plaintext highlighter-rouge">match/case</code> vs <code class="language-plaintext highlighter-rouge">if/elif/else</code>?</strong> Use <code class="language-plaintext highlighter-rouge">match/case</code> quando você compara <strong>uma única variável</strong> contra valores ou padrões fixos - fica mais legível que uma pilha de <code class="language-plaintext highlighter-rouge">elif</code>. Já para condições com <strong>intervalos</strong> (<code class="language-plaintext highlighter-rouge">if 0 &lt; x &lt; 10:</code>), lógica composta (<code class="language-plaintext highlighter-rouge">and</code>/<code class="language-plaintext highlighter-rouge">or</code>) ou testes de variáveis diferentes, o <code class="language-plaintext highlighter-rouge">if/elif/else</code> continua sendo a melhor escolha.</p>
 
 <blockquote>
   <p><img class="emoji" title=":warning:" alt=":warning:" src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png" height="20" width="20"> O <code class="language-plaintext highlighter-rouge">match/case</code> só funciona no <strong>Python 3.10 ou superior</strong>. Em versões anteriores, ele causa um <code class="language-plaintext highlighter-rouge">SyntaxError</code>.</p>
@@ -1159,7 +1158,7 @@ O número 4 é par
 	
 	<div class="faq-item">
 		<h3>Quando usar match/case em vez de if/elif/else?</h3>
-		<p>Use <code class="language-plaintext highlighter-rouge">match/case</code> (Python 3.10+) quando comparar <strong>uma mesma variável</strong> contra vários valores ou padrões fixos — fica mais legível que muitos <code class="language-plaintext highlighter-rouge">elif</code>. Para condições com intervalos, ranges ou lógica composta (<code class="language-plaintext highlighter-rouge">and</code>/<code class="language-plaintext highlighter-rouge">or</code>), prefira <code class="language-plaintext highlighter-rouge">if/elif/else</code>.</p>
+		<p>Use <code class="language-plaintext highlighter-rouge">match/case</code> (Python 3.10+) quando comparar <strong>uma mesma variável</strong> contra vários valores ou padrões fixos - fica mais legível que muitos <code class="language-plaintext highlighter-rouge">elif</code>. Para condições com intervalos, ranges ou lógica composta (<code class="language-plaintext highlighter-rouge">and</code>/<code class="language-plaintext highlighter-rouge">or</code>), prefira <code class="language-plaintext highlighter-rouge">if/elif/else</code>.</p>
 
 	</div>
 	
@@ -1190,7 +1189,7 @@ O número 4 é par
 													Por Erickson Lopes
 												</span>
 	
-												<b>em <time datetime="2021-07-24" pubdate>24/07/2021</time></b>
+												<b>em <time datetime="2021-07-24">24/07/2021</time></b>
 											</p>
 		
 											<p class="short-description">O infinito é o limite</p>
@@ -1225,8 +1224,8 @@ O número 4 é par
 						</div>
 					</div>	
 				</div>	
-			</section>								
-		</div>	
+			</section>
+		</main>
 
 		<div class="end-post-banner">
 			<img alt="Jornada Python" class="jp-logo lazyload" data-src="/assets/img/jp-logo-banner-final.png">
@@ -1340,6 +1339,8 @@ O número 4 é par
 				<div class="suggested-posts">
 					<div class="post-column">
 						
+							<a href="https://pythonacademy.com.br/blog/rag-na-pratica-em-python">🔗 RAG na Prática: um Chatbot que Responde com Base nos Seus Documentos</a>
+						
 							<a href="https://pythonacademy.com.br/blog/claude-opus-4-8-e-o-modo-ultracode">🔗 Claude Opus 4.8 e o modo Ultracode: o que muda pra quem programa em Python</a>
 						
 							<a href="https://pythonacademy.com.br/blog/por-que-criei-o-ebookr-ai">🔗 Por que criei o Ebookr.ai: A dor de criar ebooks profissionais com Word e Google Docs</a>
@@ -1408,11 +1409,11 @@ O número 4 é par
 						
 							<a href="https://pythonacademy.com.br/blog/o-painel-admin-do-django">🔗 O que é e como usar o Painel Administrativo do Django (Python)</a>
 						
-							<a href="https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django">🔗 Os principais comandos do manage.py do Django (Python)</a>
-						
 					</div>
 					
 					<div class="post-column">
+						
+							<a href="https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django">🔗 Os principais comandos do manage.py do Django (Python)</a>
 						
 							<a href="https://pythonacademy.com.br/blog/seu-primeiro-projeto-django-em-15-minutos">🔗 Seu primeiro projeto Django em 15 minutos</a>
 						
@@ -1482,11 +1483,11 @@ O número 4 é par
 						
 							<a href="https://pythonacademy.com.br/blog/introducao-a-programacao-orientada-a-objetos-no-python">🔗 Programação Orientada a Objetos no Python: Introdução</a>
 						
-							<a href="https://pythonacademy.com.br/blog/estruturas-condicionais-no-python">🔗 Estruturas Condicionais no Python</a>
-						
 					</div>
 					
 					<div class="post-column">
+						
+							<a href="https://pythonacademy.com.br/blog/estruturas-condicionais-no-python">🔗 Estruturas Condicionais no Python</a>
 						
 							<a href="https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python">🔗 Operadores Aritméticos e Lógicos em Python</a>
 						

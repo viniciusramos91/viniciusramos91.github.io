@@ -20,6 +20,9 @@
 
 <title>Python Academy | Aprenda a linguagem Python de Verdade</title>
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="apple-touch-icon" href="/assets/img/favicon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#070707">
 <link rel="alternate" type="application/rss+xml" href="https://pythonacademy.com.br/feed.xml">
 
 <!-- Open Graph -->
@@ -44,10 +47,10 @@
 
 <!-- Twitter cards -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
+<meta name="twitter:site" content="@PythonAcademyBR">
 <meta name="twitter:title" content="Python Academy | Aprenda a linguagem Python de Verdade">
 <meta name="twitter:description" content="Venha aprender Python com o melhor conteúdo da Internet!">
-<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/img/default-twitter-image.png">
+<meta name="twitter:image" content="https://pythonacademy.com.br/assets/img/default-twitter-image.png">
 
 
 
@@ -94,27 +97,51 @@
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
-    "@type":"WebPage",
-    "@id":"https://pythonacademy.com.br/",
-    "url":"https://pythonacademy.com.br/",
-    "name":"Python Academy | Aprenda a linguagem Python de Verdade",
-    "image": {
-        "@type": "ImageObject",
-        "url": "https://pythonacademy.com.br/assets/img/default-facebook-image.png",
-        "height": 1200,
-        "width": 600
-    },
-    "thumbnailUrl":"https://pythonacademy.com.br/assets/img/default-facebook-image.png",
-    "datePublished":"2018-04-15T13:20:47+00:00",
-    "dateModified":"2023-02-25T23:08:28+00:00",
-    "description":"Python Academy | Aprenda a linguagem Python de Verdade!",
-    "inLanguage":"pt-BR",
-    "potentialAction":[
+    "@graph": [
         {
-            "@type":"ReadAction",
-            "target":[
-                "https://pythonacademy.com.br/"
+            "@type": "WebSite",
+            "@id": "https://pythonacademy.com.br/#website",
+            "url": "https://pythonacademy.com.br/",
+            "name": "Python Academy",
+            "description": "Aprenda Python de verdade! Descubra como é fácil começar a usar uma das linguagens de programação mais simples do mercado! Com Python você vai poder automatizar tarefas do dia a dia, desenvolver para Web, aprender Data Science, conhecer Machine Learning e muito mais!",
+            "inLanguage": "pt-BR",
+            "publisher": { "@id": "https://pythonacademy.com.br/#organization" }
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://pythonacademy.com.br/#organization",
+            "name": "Python Academy",
+            "url": "https://pythonacademy.com.br/",
+            "foundingDate": "2018",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://pythonacademy.com.br/assets/img/og-image.png",
+                "width": 1200,
+                "height": 630
+            },
+            "sameAs": [
+                "https://www.facebook.com/pythonacademy",
+                "https://www.instagram.com/pythonacademybr/",
+                "https://www.linkedin.com/company/pythonacademy/",
+                "https://twitter.com/PythonAcademyBR",
+                "https://medium.com/@python.academy"
             ]
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://pythonacademy.com.br/#webpage",
+            "url": "https://pythonacademy.com.br/",
+            "name": "Python Academy | Aprenda a linguagem Python de Verdade",
+            "isPartOf": { "@id": "https://pythonacademy.com.br/#website" },
+            "about": { "@id": "https://pythonacademy.com.br/#organization" },
+            "description": "Venha aprender Python com o melhor conteúdo da Internet!",
+            "inLanguage": "pt-BR",
+            "primaryImageOfPage": {
+                "@type": "ImageObject",
+                "url": "https://pythonacademy.com.br/assets/img/default-facebook-image.png",
+                "width": 1200,
+                "height": 600
+            }
         }
     ]
 }
@@ -456,6 +483,30 @@
                 <div class="row mb-32">
                     
                     <article class="col-xs-12 col-sm-6 col-md-4 card-article overlay">
+                        <a href="https://pythonacademy.com.br/blog/rag-na-pratica-em-python"
+                            class="card" >
+                            
+                            <div class="card-frame"></div>
+
+                            <div class="caption">
+                                <div class="date-and-badge">
+                                    <time datetime="2026-06-02">02/06/2026</time>
+                                    <span class="badge ">
+                                        
+                                    </span>
+                                </div>
+                                <h3 class="card-title">RAG na Prática: um Chatbot que Responde com Base nos Seus Documentos</h3>
+                                <div class="card-excerpt"><p>Aprenda RAG na prática em Python: monte um chatbot que responde com base nos seus próprios documentos, com código funcional do zero ao fim.</p></div>
+                                <div class="author">
+                                    
+                                    <img src="/assets/authors/vinicius-ramos/avatar.webp" width="30px" height="30px" alt="Autor">
+                                    <p>Vinícius Ramos</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </article>
+                    
+                    <article class="col-xs-12 col-sm-6 col-md-4 card-article overlay">
                         <a href="https://pythonacademy.com.br/blog/claude-opus-4-8-e-o-modo-ultracode"
                             class="card" >
                             
@@ -463,7 +514,7 @@
 
                             <div class="caption">
                                 <div class="date-and-badge">
-                                    <time datetime="2026-06-01" pubdate>01/06/2026</time>
+                                    <time datetime="2026-06-01">01/06/2026</time>
                                     <span class="badge ">
                                         
                                     </span>
@@ -487,7 +538,7 @@
 
                             <div class="caption">
                                 <div class="date-and-badge">
-                                    <time datetime="2026-02-11" pubdate>11/02/2026</time>
+                                    <time datetime="2026-02-11">11/02/2026</time>
                                     <span class="badge ">
                                         
                                     </span>
@@ -511,7 +562,7 @@
 
                             <div class="caption">
                                 <div class="date-and-badge">
-                                    <time datetime="2025-07-20" pubdate>20/07/2025</time>
+                                    <time datetime="2025-07-20">20/07/2025</time>
                                     <span class="badge  django">
                                         💻 Django
                                     </span>
@@ -535,7 +586,7 @@
 
                             <div class="caption">
                                 <div class="date-and-badge">
-                                    <time datetime="2025-05-03" pubdate>03/05/2025</time>
+                                    <time datetime="2025-05-03">03/05/2025</time>
                                     <span class="badge  drf django">
                                         🌐 DRF💻 Django
                                     </span>
@@ -559,7 +610,7 @@
 
                             <div class="caption">
                                 <div class="date-and-badge">
-                                    <time datetime="2025-03-21" pubdate>21/03/2025</time>
+                                    <time datetime="2025-03-21">21/03/2025</time>
                                     <span class="badge ">
                                         
                                     </span>
@@ -583,7 +634,7 @@
 
                             <div class="caption">
                                 <div class="date-and-badge">
-                                    <time datetime="2025-03-15" pubdate>15/03/2025</time>
+                                    <time datetime="2025-03-15">15/03/2025</time>
                                     <span class="badge ">
                                         
                                     </span>
@@ -607,7 +658,7 @@
 
                             <div class="caption">
                                 <div class="date-and-badge">
-                                    <time datetime="2025-03-13" pubdate>13/03/2025</time>
+                                    <time datetime="2025-03-13">13/03/2025</time>
                                     <span class="badge ">
                                         
                                     </span>
@@ -631,37 +682,13 @@
 
                             <div class="caption">
                                 <div class="date-and-badge">
-                                    <time datetime="2025-03-07" pubdate>07/03/2025</time>
+                                    <time datetime="2025-03-07">07/03/2025</time>
                                     <span class="badge ">
                                         
                                     </span>
                                 </div>
                                 <h3 class="card-title">Como utilizar Prompts e PromptTemplates no LangChain</h3>
                                 <div class="card-excerpt"><p>Aprenda a criar prompts eficazes para obter as melhores respostas dos seus LLMs.</p></div>
-                                <div class="author">
-                                    
-                                    <img src="/assets/authors/vinicius-ramos/avatar.webp" width="30px" height="30px" alt="Autor">
-                                    <p>Vinícius Ramos</p>
-                                </div>
-                            </div> 
-                        </a>
-                    </article>
-                    
-                    <article class="col-xs-12 col-sm-6 col-md-4 card-article overlay">
-                        <a href="https://pythonacademy.com.br/blog/seu-primeiro-app-com-llms-e-langchain"
-                            class="card" >
-                            
-                            <div class="card-frame"></div>
-
-                            <div class="caption">
-                                <div class="date-and-badge">
-                                    <time datetime="2025-03-05" pubdate>05/03/2025</time>
-                                    <span class="badge ">
-                                        
-                                    </span>
-                                </div>
-                                <h3 class="card-title">LangChain: Seu 1º App com LLMs</h3>
-                                <div class="card-excerpt"><p>Use o poder do LangChain e crie sua primeira aplicação com modelos de linguagem de grande porte (LLM).</p></div>
                                 <div class="author">
                                     
                                     <img src="/assets/authors/vinicius-ramos/avatar.webp" width="30px" height="30px" alt="Autor">

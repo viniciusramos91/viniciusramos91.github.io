@@ -1,0 +1,33 @@
+# Python Academy
+
+> Blog e formação em Python e Django em português do Brasil (pt-BR). Tutoriais aprofundados sobre Python, Django, Django REST Framework, ciência de dados, Pandas e Inteligência Artificial, publicados desde 2018.
+
+A Python Academy (https://pythonacademy.com.br) produz conteúdo educacional gratuito em português e mantém a formação paga "Jornada Python". O conteúdo prioriza exemplos de código testados, benchmarks, comparações e seções "Quando NÃO usar". Autor principal: Vinícius Ramos, Engenheiro de Computação pela UnB e Sr. Software Engineer com mais de 10 anos de Python e Django.
+
+## Guias principais (pillar pages)
+
+- [Guia Completo de Django 2025](https://pythonacademy.com.br/blog/guia-completo-django-2025): referência de Django atualizada para a versão 5.x.
+- [Guia Completo de Django REST Framework 2025](https://pythonacademy.com.br/blog/guia-completo-drf-2025): construção de APIs REST com DRF, do básico ao avançado.
+- [RAG na Prática em Python](https://pythonacademy.com.br/blog/rag-na-pratica-em-python): chatbot que responde com base nos seus próprios documentos, com código do zero ao fim.
+
+## Fundamentos de Python
+
+- [List Comprehensions no Python](https://pythonacademy.com.br/blog/list-comprehensions-no-python)
+- [Set Comprehensions no Python](https://pythonacademy.com.br/blog/set-comprehensions-no-python)
+- [Dict Comprehensions no Python](https://pythonacademy.com.br/blog/dict-comprehensions-no-python)
+- [Tipos de Variáveis no Python](https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python)
+
+## Django e APIs
+
+- [Desenvolvimento Web com Python e Django: Introdução](https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao)
+- [Seu Primeiro Projeto Django em 15 Minutos](https://pythonacademy.com.br/blog/seu-primeiro-projeto-django-em-15-minutos)
+
+## Ciência de dados
+
+- [DataFrames do Pandas](https://pythonacademy.com.br/blog/dataframes-do-pandas)
+
+## Sobre
+
+- [Todos os artigos do blog](https://pythonacademy.com.br/blog/)
+- [Sobre a Python Academy](https://pythonacademy.com.br/sobre)
+- Contato: contato@pythonacademy.com.br

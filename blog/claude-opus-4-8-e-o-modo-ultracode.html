@@ -20,6 +20,9 @@
 
 <title>Claude Opus 4.8 e o modo Ultracode no seu dia a dia</title>
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">		
+<link rel="apple-touch-icon" href="/assets/img/favicon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#a637c8">
 <link rel="alternate" type="application/rss+xml" href="https://pythonacademy.com.br/feed.xml">
 
 <!-- Open Graph -->
@@ -39,8 +42,8 @@
 
 <meta property="article:author" content="Vinícius Ramos">
 <meta property="article:section" content="Tecnologia">    
-<meta property="article:published_time" content="2026-06-01">
-<meta property="article:modified_time" content="2026-06-01">
+<meta property="article:published_time" content="2026-06-01T00:00:00-03:00">
+<meta property="article:modified_time" content="2026-06-01T00:00:00-03:00">
 
 <!-- General -->
 <meta itemprop="description" name="description" content="Conheça o Claude Opus 4.8 e o modo Ultracode do Claude Code: o que muda no dia a dia de quem escreve Python e Django com uma IA ao lado.">		
@@ -49,12 +52,12 @@
 
 <!-- Twitter cards -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
+<meta name="twitter:site" content="@PythonAcademyBR">
 <meta name="twitter:title" content="Claude Opus 4.8 e o modo Ultracode no seu dia a dia">
 <meta name="twitter:description" content="Conheça o Claude Opus 4.8 e o modo Ultracode do Claude Code: o que muda no dia a dia de quem escreve Python e Django com uma IA ao lado.">
-<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/claude-opus-4-8/thumbnail.png">
+<meta name="twitter:image" content="https://pythonacademy.com.br/assets/posts/claude-opus-4-8/thumbnail.png">
 
-<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
+<meta name="twitter:creator" content="@PythonAcademyBR">
 
 <script type="application/ld+json">
 {
@@ -72,11 +75,7 @@
             "height": 152,
             "width": 152
         },
-        "sameAs": [
-            
-            "https://github.com/viniciusramos91",
-            "https://stackoverflow.com/users/6775679/viniciusramos91"
-        ]
+        "sameAs": ["https://github.com/viniciusramos91","https://stackoverflow.com/users/6775679/viniciusramos91"]
     },
     "publisher": {
         "@type": "Organization",
@@ -93,7 +92,7 @@
     "datePublished": "2026-06-01T00:00:00-03:00",
     "description": "Conheça o Claude Opus 4.8 e o modo Ultracode do Claude Code: o que muda no dia a dia de quem escreve Python e Django com uma IA ao lado.",
     "headline": "Claude Opus 4.8 e o modo Ultracode no seu dia a dia",
-    "wordCount": 1696,
+    "wordCount": 1717,
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://pythonacademy.com.br/blog/claude-opus-4-8-e-o-modo-ultracode"
@@ -197,7 +196,7 @@
 				</div>
 			</nav>
 		</header>
-		<div class="main-container">
+		<main class="main-container">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
 					<div class="post-banner-content" style="background: linear-gradient(180deg, #070707 60%, #a637c829 100%);">						
@@ -239,7 +238,7 @@
 									<p class="text-left">
 										Vinícius Ramos
 										<span class="text-gradient">•</span>
-										<time datetime="2026-06-01" pubdate>01/06/2026</time>
+										<time datetime="2026-06-01">01/06/2026</time>
 										
 										<br>
 										<small style="color: #FFF7">
@@ -399,7 +398,7 @@
       <td style="text-align: center">51,4%</td>
     </tr>
     <tr>
-      <td style="text-align: left">Trabalho de conhecimento (GDPval-AA)</td>
+      <td style="text-align: left">Trabalho de conhecimento (GDPval-AA, Elo)</td>
       <td style="text-align: center"><strong>1890</strong></td>
       <td style="text-align: center">1753</td>
       <td style="text-align: center">1769</td>
@@ -474,14 +473,20 @@
 
 <p>Agora o que eu mais queria te mostrar.</p>
 
-<p>O <strong>Ultracode</strong> é uma configuração do Claude Code que junta duas coisas: o nível máximo de raciocínio (o <code class="language-plaintext highlighter-rouge">xhigh</code>) com <strong>orquestração automática de workflows</strong>. Traduzindo da <a href="https://code.claude.com/docs/en/workflows" target="_blank">documentação oficial</a>: com ele ligado, o Claude <strong>planeja um fluxo de trabalho pra cada tarefa relevante</strong>, em vez de esperar você pedir.</p>
+<p>O <strong>Ultracode</strong> é uma configuração do Claude Code que junta duas coisas: um dos níveis mais altos de raciocínio (o <code class="language-plaintext highlighter-rouge">xhigh</code>) com <strong>orquestração automática de workflows</strong>. Traduzindo da <a href="https://code.claude.com/docs/en/workflows" target="_blank">documentação oficial</a>: com ele ligado, o Claude <strong>planeja um fluxo de trabalho pra cada tarefa relevante</strong>, em vez de esperar você pedir.</p>
 
 <p>Você liga assim:</p>
 
-<figure class="highlight"><pre><code class="language-text" data-lang="text">/effort ultracode    # liga o modo pra sessão inteira
-/effort high         # volta ao normal quando terminar</code></pre></figure>
+<figure class="highlight"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre>/effort ultracode    # liga o modo pra sessão inteira
+/effort high         # volta ao normal quando terminar
+</pre></td>
+</tr></tbody></table></code></pre></figure>
 
-<p>O que muda no comportamento: um único pedido seu pode virar <strong>vários fluxos em sequência</strong>. Um pra entender o código, outro pra fazer a mudança, outro pra verificar se não quebrou nada. Por baixo, o Claude escreve um script que coordena vários <strong>subagentes</strong> (de dezenas a centenas), e eles chegam a revisar o trabalho uns dos outros antes de te entregar o resultado.</p>
+<p>O que muda no comportamento: um único pedido seu pode virar <strong>vários fluxos em sequência</strong>. Um pra entender o código, outro pra fazer a mudança, outro pra verificar se não quebrou nada. Por baixo, o Claude escreve um script que coordena vários <strong>subagentes</strong> - que podem chegar a dezenas ou centenas, dependendo do tamanho da tarefa -, e eles chegam a revisar o trabalho uns dos outros antes de te entregar o resultado.</p>
 
 <p>Tem um porém honesto, e a própria Anthropic avisa: isso <strong>gasta mais tokens e demora mais</strong> que uma conversa comum. Não é pra trocar uma vírgula no código. É pra tarefa grande, onde vale a pena soltar a IA pra trabalhar mais a fundo.</p>
 
@@ -613,7 +618,7 @@
 													Por Vinícius Ramos
 												</span>
 	
-												<b>em <time datetime="2026-06-01" pubdate>01/06/2026</time></b>
+												<b>em <time datetime="2026-06-01">01/06/2026</time></b>
 											</p>
 		
 											<p class="short-description">Engenheiro de Computação pela UnB com especialização em Inteligência Artificial. Sr. Software Engineer com 10+ anos de experiência desenvolvendo sistemas críticos em Python e Django. Atuei no Banco do Brasil liderando equipes para monitoramento de mainframe, trabalhei como desenvolvedor sênior em projetos forenses para a Polícia Federal, e atualmente sou engenheiro de software na Labcorp (Estados Unidos), desenvolvendo soluções escaláveis para testes genéticos. Fundador da Python Academy, compartilhando conhecimento técnico com a comunidade brasileira desde 2018.</p>
@@ -641,8 +646,8 @@
 						</div>
 					</div>	
 				</div>	
-			</section>								
-		</div>	
+			</section>
+		</main>
 
 		<div class="end-post-banner">
 			<img alt="Jornada Python" class="jp-logo lazyload" data-src="/assets/img/jp-logo-banner-final.png">
@@ -756,6 +761,8 @@
 				<div class="suggested-posts">
 					<div class="post-column">
 						
+							<a href="https://pythonacademy.com.br/blog/rag-na-pratica-em-python">🔗 RAG na Prática: um Chatbot que Responde com Base nos Seus Documentos</a>
+						
 							<a href="https://pythonacademy.com.br/blog/claude-opus-4-8-e-o-modo-ultracode">🔗 Claude Opus 4.8 e o modo Ultracode: o que muda pra quem programa em Python</a>
 						
 							<a href="https://pythonacademy.com.br/blog/por-que-criei-o-ebookr-ai">🔗 Por que criei o Ebookr.ai: A dor de criar ebooks profissionais com Word e Google Docs</a>
@@ -824,11 +831,11 @@
 						
 							<a href="https://pythonacademy.com.br/blog/o-painel-admin-do-django">🔗 O que é e como usar o Painel Administrativo do Django (Python)</a>
 						
-							<a href="https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django">🔗 Os principais comandos do manage.py do Django (Python)</a>
-						
 					</div>
 					
 					<div class="post-column">
+						
+							<a href="https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django">🔗 Os principais comandos do manage.py do Django (Python)</a>
 						
 							<a href="https://pythonacademy.com.br/blog/seu-primeiro-projeto-django-em-15-minutos">🔗 Seu primeiro projeto Django em 15 minutos</a>
 						
@@ -898,11 +905,11 @@
 						
 							<a href="https://pythonacademy.com.br/blog/introducao-a-programacao-orientada-a-objetos-no-python">🔗 Programação Orientada a Objetos no Python: Introdução</a>
 						
-							<a href="https://pythonacademy.com.br/blog/estruturas-condicionais-no-python">🔗 Estruturas Condicionais no Python</a>
-						
 					</div>
 					
 					<div class="post-column">
+						
+							<a href="https://pythonacademy.com.br/blog/estruturas-condicionais-no-python">🔗 Estruturas Condicionais no Python</a>
 						
 							<a href="https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python">🔗 Operadores Aritméticos e Lógicos em Python</a>
 						

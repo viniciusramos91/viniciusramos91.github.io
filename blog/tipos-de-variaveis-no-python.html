@@ -20,6 +20,9 @@
 
 <title>Tipos de Variáveis no Python</title>
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">		
+<link rel="apple-touch-icon" href="/assets/img/favicon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#636e72">
 <link rel="alternate" type="application/rss+xml" href="https://pythonacademy.com.br/feed.xml">
 
 <!-- Open Graph -->
@@ -39,8 +42,8 @@
 
 <meta property="article:author" content="Guilherme Euzébio">
 <meta property="article:section" content="Tecnologia">    
-<meta property="article:published_time" content="2021-06-19">
-<meta property="article:modified_time" content="2026-05-30">
+<meta property="article:published_time" content="2021-06-19T00:00:00-03:00">
+<meta property="article:modified_time" content="2026-05-30T00:00:00-03:00">
 
 <!-- General -->
 <meta itemprop="description" name="description" content="Guia de tipos: int, float, str, bool, list, tuple, dict, set, None, type(), conversão de tipos (int(), str()), mutabilidade, casos práticos. Nesse post vamos ver os tipos de variáveis que a linguagem Python nos disponibiliza para utilizar em nossos programas.">		
@@ -49,12 +52,12 @@
 
 <!-- Twitter cards -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@https://twitter.com/PythonAcademyBR">
+<meta name="twitter:site" content="@PythonAcademyBR">
 <meta name="twitter:title" content="Tipos de Variáveis no Python">
 <meta name="twitter:description" content="Guia de tipos: int, float, str, bool, list, tuple, dict, set, None, type(), conversão de tipos (int(), str()), mutabilidade, casos práticos. Nesse post vamos ver os tipos de variáveis que a linguagem Python nos disponibiliza para utilizar em nossos programas.">
-<meta name="twitter:image:src" content="https://pythonacademy.com.br/assets/posts/variables/thumbnail.png">
+<meta name="twitter:image" content="https://pythonacademy.com.br/assets/posts/variables/thumbnail.png">
 
-<meta name="twitter:creator" content="@https://twitter.com/PythonAcademyBR">
+<meta name="twitter:creator" content="@PythonAcademyBR">
 
 <script type="application/ld+json">
 {
@@ -72,11 +75,7 @@
             "height": 152,
             "width": 152
         },
-        "sameAs": [
-            "https://www.linkedin.com/in/guilhermeeuzebio",
-            "https://github.com/guilhermeeuzebio",
-            "https://stackoverflow.com/users/9475099/guilherme-euzebio"
-        ]
+        "sameAs": ["https://www.linkedin.com/in/guilhermeeuzebio","https://github.com/guilhermeeuzebio","https://stackoverflow.com/users/9475099/guilherme-euzebio"]
     },
     "publisher": {
         "@type": "Organization",
@@ -242,7 +241,7 @@
 				</div>
 			</nav>
 		</header>
-		<div class="main-container">
+		<main class="main-container">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
 					<div class="post-banner-content" style="background: linear-gradient(180deg, #070707 60%, #636e7229 100%);">						
@@ -282,7 +281,7 @@
 									<p class="text-left">
 										Guilherme Euzébio
 										<span class="text-gradient">•</span>
-										<time datetime="2021-06-19" pubdate>19/06/2021</time>
+										<time datetime="2021-06-19">19/06/2021</time>
 										
 										<br>
 										<small style="color: #FFF7">
@@ -401,7 +400,7 @@
 
 <h2 id="o-que-são-tipos-de-dados-em-python">O que são tipos de dados em Python?</h2>
 
-<p>Os <strong>tipos de dados em Python</strong> são as categorias que classificam um valor e definem o que é possível fazer com ele — por exemplo, <code class="language-plaintext highlighter-rouge">int</code> para números inteiros, <code class="language-plaintext highlighter-rouge">str</code> para texto e <code class="language-plaintext highlighter-rouge">list</code> para coleções. Em Python o tipo pertence ao <strong>objeto</strong>, não à variável: a variável é apenas um nome (uma referência) que aponta para um objeto na memória.</p>
+<p>Os <strong>tipos de dados em Python</strong> são as categorias que classificam um valor e definem o que é possível fazer com ele - por exemplo, <code class="language-plaintext highlighter-rouge">int</code> para números inteiros, <code class="language-plaintext highlighter-rouge">str</code> para texto e <code class="language-plaintext highlighter-rouge">list</code> para coleções. Em Python o tipo pertence ao <strong>objeto</strong>, não à variável: a variável é apenas um nome (uma referência) que aponta para um objeto na memória.</p>
 
 <p>Isso é fundamental para entender a chamada <strong>tipagem dinâmica</strong>: a mesma variável pode apontar para objetos de tipos diferentes ao longo do programa, porque quem carrega o tipo é o objeto, não o nome.</p>
 
@@ -541,7 +540,7 @@
 
 <h2 id="tipo-inteiro-int">Tipo Inteiro (<code class="language-plaintext highlighter-rouge">int</code>)</h2>
 
-<p>O tipo <code class="language-plaintext highlighter-rouge">int</code> representa <strong>números inteiros</strong> em Python — valores numéricos sem componente decimal, que podem ser positivos, negativos ou zero.</p>
+<p>O tipo <code class="language-plaintext highlighter-rouge">int</code> representa <strong>números inteiros</strong> em Python - valores numéricos sem componente decimal, que podem ser positivos, negativos ou zero.</p>
 
 <p>Por ser inteiro, é o tipo usado para um número que pode ser escrito sem casas decimais, podendo ter ou não sinal, isto é: ser positivo ou negativo.</p>
 
@@ -718,12 +717,12 @@
 </tr></tbody></table></code></pre></figure>
 
 <blockquote>
-  <p><img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20"> <strong>Curiosidade:</strong> em Python, <code class="language-plaintext highlighter-rouge">bool</code> é uma <strong>subclasse de <code class="language-plaintext highlighter-rouge">int</code></strong>. Na prática, <code class="language-plaintext highlighter-rouge">True</code> vale <code class="language-plaintext highlighter-rouge">1</code> e <code class="language-plaintext highlighter-rouge">False</code> vale <code class="language-plaintext highlighter-rouge">0</code>, então <code class="language-plaintext highlighter-rouge">True == 1</code> é <code class="language-plaintext highlighter-rouge">True</code> e <code class="language-plaintext highlighter-rouge">isinstance(True, int)</code> retorna <code class="language-plaintext highlighter-rouge">True</code> — por isso é possível até somar booleanos (<code class="language-plaintext highlighter-rouge">True + True</code> resulta em <code class="language-plaintext highlighter-rouge">2</code>).</p>
+  <p><img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20"> <strong>Curiosidade:</strong> em Python, <code class="language-plaintext highlighter-rouge">bool</code> é uma <strong>subclasse de <code class="language-plaintext highlighter-rouge">int</code></strong>. Na prática, <code class="language-plaintext highlighter-rouge">True</code> vale <code class="language-plaintext highlighter-rouge">1</code> e <code class="language-plaintext highlighter-rouge">False</code> vale <code class="language-plaintext highlighter-rouge">0</code>, então <code class="language-plaintext highlighter-rouge">True == 1</code> é <code class="language-plaintext highlighter-rouge">True</code> e <code class="language-plaintext highlighter-rouge">isinstance(True, int)</code> retorna <code class="language-plaintext highlighter-rouge">True</code> - por isso é possível até somar booleanos (<code class="language-plaintext highlighter-rouge">True + True</code> resulta em <code class="language-plaintext highlighter-rouge">2</code>).</p>
 </blockquote>
 
 <h2 id="listas-list">Listas (<code class="language-plaintext highlighter-rouge">list</code>)</h2>
 
-<p>A <code class="language-plaintext highlighter-rouge">list</code> é uma coleção <strong>ordenada e mutável</strong> de elementos em Python — ou seja, mantém a ordem de inserção e pode ser alterada (adicionar, remover ou trocar itens) depois de criada. É um dos tipos mais importantes e <strong>muito</strong> utilizados no dia a dia do desenvolvedor Python!</p>
+<p>A <code class="language-plaintext highlighter-rouge">list</code> é uma coleção <strong>ordenada e mutável</strong> de elementos em Python - ou seja, mantém a ordem de inserção e pode ser alterada (adicionar, remover ou trocar itens) depois de criada. É um dos tipos mais importantes e <strong>muito</strong> utilizados no dia a dia do desenvolvedor Python!</p>
 
 <p>Listas agrupam um conjunto de elementos variados, podendo conter: inteiros, floats, strings, outras listas e outros tipos.</p>
 
@@ -853,7 +852,7 @@
 
 <p>Sua forma de definição é diferente da lista: utilizamos parênteses, também separando os elementos por vírgula.</p>
 
-<p>A diferença para a Lista é justamente a imutabilidade — após a definição, uma Tupla <strong>não pode ter seus itens alterados</strong>, o que a torna ideal para dados que não devem mudar.</p>
+<p>A diferença para a Lista é justamente a imutabilidade - após a definição, uma Tupla <strong>não pode ter seus itens alterados</strong>, o que a torna ideal para dados que não devem mudar.</p>
 
 <p>Vamos ver alguns exemplos:</p>
 
@@ -909,7 +908,7 @@ TypeError: 'tuple' object does not support item assignment
 
 <h2 id="dicionários-dict">Dicionários (<code class="language-plaintext highlighter-rouge">dict</code>)</h2>
 
-<p>O <code class="language-plaintext highlighter-rouge">dict</code> é uma coleção <strong>mutável</strong> que organiza dados em pares de <strong>chave e valor</strong> — em vez de acessar elementos por posição, você os acessa pela chave. É um dos tipos mais flexíveis do Python.</p>
+<p>O <code class="language-plaintext highlighter-rouge">dict</code> é uma coleção <strong>mutável</strong> que organiza dados em pares de <strong>chave e valor</strong> - em vez de acessar elementos por posição, você os acessa pela chave. É um dos tipos mais flexíveis do Python.</p>
 
 <p>Eles são utilizados para agrupar elementos através da estrutura de chave e valor, onde a chave é o primeiro elemento, seguido por dois pontos e pelo valor.</p>
 
@@ -1031,7 +1030,7 @@ TypeError: 'tuple' object does not support item assignment
 
 <h2 id="conjuntos-set-e-frozenset">Conjuntos (<code class="language-plaintext highlighter-rouge">set</code> e <code class="language-plaintext highlighter-rouge">frozenset</code>)</h2>
 
-<p>O <code class="language-plaintext highlighter-rouge">set</code> é uma coleção <strong>não ordenada</strong> de elementos <strong>únicos</strong> em Python — ou seja, não garante ordem e <strong>não aceita itens repetidos</strong>, descartando automaticamente as duplicatas. É definido com chaves (<code class="language-plaintext highlighter-rouge">{ }</code>), assim como o dicionário, mas sem o par chave-valor.</p>
+<p>O <code class="language-plaintext highlighter-rouge">set</code> é uma coleção <strong>não ordenada</strong> de elementos <strong>únicos</strong> em Python - ou seja, não garante ordem e <strong>não aceita itens repetidos</strong>, descartando automaticamente as duplicatas. É definido com chaves (<code class="language-plaintext highlighter-rouge">{ }</code>), assim como o dicionário, mas sem o par chave-valor.</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -1089,7 +1088,7 @@ TypeError: 'tuple' object does not support item assignment
 
 <h2 id="nulo-none">Nulo (<code class="language-plaintext highlighter-rouge">None</code>)</h2>
 
-<p>O <code class="language-plaintext highlighter-rouge">None</code> representa a <strong>ausência de valor</strong> em Python e é o único valor do tipo <code class="language-plaintext highlighter-rouge">NoneType</code>. É usado para indicar que uma variável existe, mas ainda não possui um valor significativo — e é o que uma função retorna quando não tem um <code class="language-plaintext highlighter-rouge">return</code> explícito.</p>
+<p>O <code class="language-plaintext highlighter-rouge">None</code> representa a <strong>ausência de valor</strong> em Python e é o único valor do tipo <code class="language-plaintext highlighter-rouge">NoneType</code>. É usado para indicar que uma variável existe, mas ainda não possui um valor significativo - e é o que uma função retorna quando não tem um <code class="language-plaintext highlighter-rouge">return</code> explícito.</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -1140,7 +1139,7 @@ None
 
 <h2 id="como-mudar-o-tipo-de-uma-variável">Como mudar o tipo de uma variável</h2>
 
-<p>Para mudar o tipo de uma variável em Python, use as funções de conversão embutidas, como <code class="language-plaintext highlighter-rouge">int()</code>, <code class="language-plaintext highlighter-rouge">float()</code>, <code class="language-plaintext highlighter-rouge">str()</code> e <code class="language-plaintext highlighter-rouge">bool()</code>, passando o valor a ser convertido. Esse processo é chamado de <em>casting</em> e é muito simples — uma das vantagens de uma linguagem dinamicamente tipada.</p>
+<p>Para mudar o tipo de uma variável em Python, use as funções de conversão embutidas, como <code class="language-plaintext highlighter-rouge">int()</code>, <code class="language-plaintext highlighter-rouge">float()</code>, <code class="language-plaintext highlighter-rouge">str()</code> e <code class="language-plaintext highlighter-rouge">bool()</code>, passando o valor a ser convertido. Esse processo é chamado de <em>casting</em> e é muito simples - uma das vantagens de uma linguagem dinamicamente tipada.</p>
 
 <p>Abaixo veremos exemplos de como converter entre os tipos mais comuns.</p>
 
@@ -1337,7 +1336,7 @@ TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
 
 <h2 class="no_toc" id="conclusão">Conclusão</h2>
 
-<p>Espero que esse post tenha te ajudado a entender melhor os diversos tipos que o Python nos disponibiliza — de <code class="language-plaintext highlighter-rouge">int</code>, <code class="language-plaintext highlighter-rouge">float</code> e <code class="language-plaintext highlighter-rouge">str</code> a <code class="language-plaintext highlighter-rouge">list</code>, <code class="language-plaintext highlighter-rouge">tuple</code>, <code class="language-plaintext highlighter-rouge">dict</code>, <code class="language-plaintext highlighter-rouge">set</code> e <code class="language-plaintext highlighter-rouge">None</code> — além de fixar dois conceitos importantes: em Python o <strong>tipo pertence ao objeto</strong> (e não à variável) e cada tipo é <strong>mutável ou imutável</strong>.</p>
+<p>Espero que esse post tenha te ajudado a entender melhor os diversos tipos que o Python nos disponibiliza - de <code class="language-plaintext highlighter-rouge">int</code>, <code class="language-plaintext highlighter-rouge">float</code> e <code class="language-plaintext highlighter-rouge">str</code> a <code class="language-plaintext highlighter-rouge">list</code>, <code class="language-plaintext highlighter-rouge">tuple</code>, <code class="language-plaintext highlighter-rouge">dict</code>, <code class="language-plaintext highlighter-rouge">set</code> e <code class="language-plaintext highlighter-rouge">None</code> - além de fixar dois conceitos importantes: em Python o <strong>tipo pertence ao objeto</strong> (e não à variável) e cada tipo é <strong>mutável ou imutável</strong>.</p>
 
 
 	
@@ -1396,10 +1395,10 @@ TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
 													Por Guilherme Euzébio
 												</span>
 	
-												<b>em <time datetime="2021-06-19" pubdate>19/06/2021</time></b>
+												<b>em <time datetime="2021-06-19">19/06/2021</time></b>
 											</p>
 		
-											<p class="short-description">Com grandes poderes vêm grandes responsabilidades – Stan Lee</p>
+											<p class="short-description">Com grandes poderes vêm grandes responsabilidades - Stan Lee</p>
 	
 											
 											<p style="margin-bottom: 0">
@@ -1433,8 +1432,8 @@ TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
 						</div>
 					</div>	
 				</div>	
-			</section>								
-		</div>	
+			</section>
+		</main>
 
 		<div class="end-post-banner">
 			<img alt="Jornada Python" class="jp-logo lazyload" data-src="/assets/img/jp-logo-banner-final.png">
@@ -1548,6 +1547,8 @@ TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
 				<div class="suggested-posts">
 					<div class="post-column">
 						
+							<a href="https://pythonacademy.com.br/blog/rag-na-pratica-em-python">🔗 RAG na Prática: um Chatbot que Responde com Base nos Seus Documentos</a>
+						
 							<a href="https://pythonacademy.com.br/blog/claude-opus-4-8-e-o-modo-ultracode">🔗 Claude Opus 4.8 e o modo Ultracode: o que muda pra quem programa em Python</a>
 						
 							<a href="https://pythonacademy.com.br/blog/por-que-criei-o-ebookr-ai">🔗 Por que criei o Ebookr.ai: A dor de criar ebooks profissionais com Word e Google Docs</a>
@@ -1616,11 +1617,11 @@ TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
 						
 							<a href="https://pythonacademy.com.br/blog/o-painel-admin-do-django">🔗 O que é e como usar o Painel Administrativo do Django (Python)</a>
 						
-							<a href="https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django">🔗 Os principais comandos do manage.py do Django (Python)</a>
-						
 					</div>
 					
 					<div class="post-column">
+						
+							<a href="https://pythonacademy.com.br/blog/os-principais-comandos-do-manage-py-do-django">🔗 Os principais comandos do manage.py do Django (Python)</a>
 						
 							<a href="https://pythonacademy.com.br/blog/seu-primeiro-projeto-django-em-15-minutos">🔗 Seu primeiro projeto Django em 15 minutos</a>
 						
@@ -1690,11 +1691,11 @@ TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'int'
 						
 							<a href="https://pythonacademy.com.br/blog/introducao-a-programacao-orientada-a-objetos-no-python">🔗 Programação Orientada a Objetos no Python: Introdução</a>
 						
-							<a href="https://pythonacademy.com.br/blog/estruturas-condicionais-no-python">🔗 Estruturas Condicionais no Python</a>
-						
 					</div>
 					
 					<div class="post-column">
+						
+							<a href="https://pythonacademy.com.br/blog/estruturas-condicionais-no-python">🔗 Estruturas Condicionais no Python</a>
 						
 							<a href="https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python">🔗 Operadores Aritméticos e Lógicos em Python</a>
 						
