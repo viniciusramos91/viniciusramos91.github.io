@@ -610,7 +610,7 @@ body#post-body {
                         border: 1px solid #191d21;
 
                         th {
-                            padding: 4px 12px;
+                            padding: 12px;
                         }
                     }                    
                 }
@@ -621,7 +621,7 @@ body#post-body {
 
                         td {
                             padding: 8px 16px;
-                            font-size: 90%;
+                            font-size: 80%;
                         }
                     }                    
                 }
@@ -2267,5 +2267,72 @@ body#post-body {
         &:hover {
             transform: scale(1.035);
         }
+    }
+}
+
+/* ===== Tabelas de conteúdo (markdown) =====
+   Escopo em "> table": pega só tabelas do conteúdo. As tabelas do Rouge
+   (blocos de código com linenos) ficam aninhadas em figure.highlight /
+   .highlighter-rouge, então NÃO são atingidas por este seletor. */
+.blog-post-content > table {
+    width: 100%;
+    margin: 2rem 0;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    padding: 0 !important;
+
+    thead th {
+        background: #1b1f24;
+        color: #fff;
+        font-weight: 700;
+        padding: 0.95rem 1rem;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        white-space: nowrap;
+    }
+
+    tbody td {
+        padding: 0.8rem 1rem;
+        color: #cfd6dd;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+
+        &:first-child {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        strong {
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+
+    tbody tr:nth-child(even) td {
+        background: rgba(255, 255, 255, 0.035);
+    }
+
+    tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+    tbody tr {
+        transition: background 0.15s ease;
+
+        &:hover td {
+            background: rgba(255, 255, 255, 0.05);
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-post-content > table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
     }
 }

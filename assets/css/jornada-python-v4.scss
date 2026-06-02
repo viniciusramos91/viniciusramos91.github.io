@@ -324,6 +324,9 @@ button.new-cta {
     background: linear-gradient(105deg, #463c77 0%, #b51582 20%, #ff0547 38%, #ff5c49 52%, #ffa715 82%, #fff6d5 82%, #1071b8 100%);
     width: 100%;
     position: relative;
+    min-height: 46px; // reserva altura -> evita layout shift (CLS) quando a fonte carrega
+    display: flex;
+    align-items: center;
 
     .grid {
         background-image: url("/assets/img/grid-bg.png");
@@ -373,6 +376,7 @@ button.new-cta {
 
     @media(max-width: 768px) {
         padding: 4px;
+        min-height: 34px;
         p {
             font-size: 0.7rem;
         }
@@ -1454,10 +1458,9 @@ section#methodology {
                 border-radius: 8px;
                 
                 .accordion {
-                    height: 580px;
-                    overflow-y: scroll;
+                    overflow: visible;
                     position: relative;
-                    padding: 10px 10px 85px 10px;
+                    padding: 10px 10px 20px 10px;
                     border-radius: 0px;
                     
                     &::-webkit-scrollbar {
@@ -1480,9 +1483,8 @@ section#methodology {
                     padding: 0;
 
                     .accordion {
-                        height: 400px;
                         padding: 10px;
-                    }                    
+                    }
                 }
             }
         }
@@ -1525,15 +1527,46 @@ section#instructor {
     position: relative;
 
     .instructor {
-        background: #171717;
-        padding: 42px;
+        display: flex;
+        align-items: stretch;
+        background: #11151b;
+        padding: 0;
         width: 100%;
-        max-width: 700px;
-        position: absolute;
-        left: 45vw;
-        border-radius: 8px;
-        top: 3vh;
+        max-width: 900px;
+        position: relative;
+        margin: 0 auto 2.5rem;
+        border: 1px solid rgba(181, 222, 255, .1215686275);
+        border-radius: 0px;
         box-shadow: 0px 6px 24px rgba(0, 0, 0, 35%);
+        overflow: hidden;
+
+        .instructor-photo-col {
+            flex-shrink: 0;
+            width: 260px;
+            align-self: stretch;
+            padding: 4rem 0;
+            border-right: 1px solid rgba(181, 222, 255, .1215686275);
+
+            img.instructor-photo {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .instructor-body {
+            flex: 1;
+            min-width: 0;
+            padding: 42px;
+        }
+
+        img.companies-worked {
+            display: block;
+            width: 100%;
+            max-width: 560px;
+            margin: 1.25rem 0;
+        }
 
         p:not(.heading-intro) {
             font-size: 1.2rem;
@@ -1542,6 +1575,21 @@ section#instructor {
 
         h2 {
             font-size: 2.5rem;
+        }
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+
+            .instructor-photo-col {
+                width: 100%;
+                padding: 2rem;
+                border-right: none;
+                border-bottom: 1px solid rgba(181, 222, 255, .1215686275);
+
+                img.instructor-photo { height: auto; }
+            }
+
+            .instructor-body { padding: 28px; }
         }
     }
 }
@@ -2181,4 +2229,327 @@ footer {
     0%   { transform: rotate(-15deg) translateY(0) }
     50%  { transform: rotate(5deg) translateY(15px) }
     100% { transform: rotate(-15deg) translateY(0) }
+}
+
+/* ============================================================ */
+/* CTA fixo no mobile - recupera o usuário mobile (48,9% bounce, 81s, sem CTA persistente) */
+/* ============================================================ */
+#sticky-cta {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1050;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 16px;
+    background: rgba(7, 7, 7, 0.96);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.45);
+
+    .sticky-cta-price {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.15;
+
+        .from {
+            font-size: 0.72rem;
+            color: #b4bdc9;
+        }
+
+        .value {
+            font-size: 1rem;
+            color: #fff;
+
+            b {
+                color: #1b91ed;
+            }
+        }
+    }
+
+    a {
+        flex: 0 0 auto;
+        background: #1b91ed;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 12px 22px;
+        border-radius: 8px;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+}
+
+/* espaço para o CTA fixo não cobrir o rodapé no mobile */
+@media (max-width: 767.98px) {
+    footer {
+        padding-bottom: 90px;
+    }
+}
+
+/* ============================================================ */
+/* FACTS BAR - números citáveis (GEO / E-E-A-T)                 */
+/* ============================================================ */
+section#facts {
+    padding: 2.5rem 0;
+    background: #0a0d11;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+
+    .facts-bar {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 1.5rem;
+
+        li {
+            flex: 1 1 140px;
+            text-align: center;
+
+            b {
+                display: block;
+                font-family: 'Chakra Petch', sans-serif;
+                font-size: 2rem;
+                line-height: 1.1;
+            }
+
+            span {
+                display: block;
+                color: var(--gray);
+                font-size: 0.85rem;
+                margin-top: 0.25rem;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        padding: 1.75rem 0;
+
+        .facts-bar {
+            gap: 1rem 0.5rem;
+
+            li {
+                flex: 1 1 40%;
+
+                b { font-size: 1.5rem; }
+            }
+        }
+    }
+}
+
+/* ============================================================ */
+/* FIT-CHECK - "para quem é / para quem NÃO é"                  */
+/* ============================================================ */
+.fit-check {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1.5rem 0 1rem;
+
+    .fit-col {
+        flex: 1;
+        background: #11151b;
+        border: 1px solid rgba(181, 222, 255, .1215686275);
+        border-radius: 0px;
+        padding: 28px;
+        border-top: 4px solid;
+
+        .heading-3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                position: relative;
+                padding-left: 1.75rem;
+                margin-bottom: 0.75rem;
+                color: var(--gray);
+
+                &::before {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .fit-yes {
+        border-top-color: #3d9aeb;
+
+        ul li::before { content: "\2713"; color: #3d9aeb; }
+    }
+
+    .fit-no {
+        border-top-color: #ff5c49;
+
+        ul li::before { content: "\2717"; color: #ff5c49; }
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+/* ============================================================ */
+/* COMPARISON TABLE - desarma "aprendo de graça no YouTube"     */
+/* ============================================================ */
+section#comparison {
+    padding: 5rem 0;
+
+    .comparison-table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #0f1216;
+        border-radius: 8px;
+        overflow: hidden;
+
+        th, td {
+            padding: 16px 18px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+        }
+
+        thead th {
+            font-family: 'Chakra Petch', sans-serif;
+            color: var(--white);
+            font-size: 1rem;
+
+            small {
+                display: block;
+                font-family: 'Inter', sans-serif;
+                font-weight: 400;
+                color: var(--gray);
+                font-size: 0.72rem;
+            }
+
+            &.jornada {
+                background: rgba(61, 154, 235, 0.12);
+                color: #3d9aeb;
+            }
+        }
+
+        td.feature, th.feature {
+            text-align: left;
+            color: #d6dde6;
+            font-size: 0.95rem;
+            font-weight: 400;
+        }
+
+        td.free {
+            color: #8a93a0;
+        }
+
+        td.jornada {
+            color: #fff;
+            font-weight: bold;
+            background: rgba(61, 154, 235, 0.06);
+        }
+
+        tbody tr:last-child td {
+            border-bottom: 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        padding: 3rem 0;
+
+        .comparison-table {
+            th, td { padding: 10px 8px; font-size: 0.8rem; }
+            td.feature { font-size: 0.8rem; }
+            thead th { font-size: 0.85rem; }
+        }
+    }
+}
+
+/* ============================================================ */
+/* CTA FINAL (após FAQ)                                         */
+/* ============================================================ */
+section#final-cta {
+    padding: 4rem 0 5rem;
+    text-align: center;
+}
+
+/* Coluna intro da ementa fica fixa enquanto a ementa (longa) rola ao lado */
+section#methodology {
+    .ementa-intro {
+        @media (min-width: 769px) {
+            position: sticky;
+            top: 1.5rem;
+            align-self: flex-start;
+        }
+    }
+}
+
+/* Terceira coluna da tabela comparativa: "Aprender com IA" (neutra) */
+section#comparison .comparison-table td.ai {
+    color: #8a93a0;
+}
+
+/* ============================================================ */
+/* GRID DE DEPOIMENTOS (texto real transcrito da Hotmart)       */
+/* ============================================================ */
+.testimonials-grid {
+    column-count: 3;
+    column-gap: 1.25rem;
+
+    @media (max-width: 992px) { column-count: 2; }
+    @media (max-width: 576px) { column-count: 1; }
+
+    .t-card {
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+        background: #11151b;
+        border: 1px solid rgba(181, 222, 255, .1215686275);
+        border-radius: 0px;
+        padding: 22px;
+        margin: 0 0 1.25rem;
+
+        .t-stars {
+            color: #f6a82e;
+            font-size: 1rem;
+            letter-spacing: 2px;
+            margin-bottom: 0.6rem;
+        }
+
+        blockquote {
+            margin: 0 0 1rem;
+            color: #d6dde6;
+            font-size: 0.95rem;
+            line-height: 1.55;
+        }
+
+        figcaption {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 0.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.07);
+            padding-top: 0.75rem;
+
+            .t-name {
+                color: #fff;
+                font-weight: 700;
+            }
+
+            .t-date {
+                color: #7c8694;
+                font-size: 0.78rem;
+                white-space: nowrap;
+            }
+        }
+    }
 }
