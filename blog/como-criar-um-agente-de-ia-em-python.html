@@ -18,11 +18,11 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1">		
 
-<title>O que são Funções Lambda no Python</title>
+<title>Como Criar um Agente de IA em Python (do Zero ao Framework)</title>
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">		
 <link rel="apple-touch-icon" href="/assets/img/favicon.png">
 <link rel="manifest" href="/site.webmanifest">
-<meta name="theme-color" content="#222f3e">
+<meta name="theme-color" content="#4f46e5">
 <link rel="alternate" type="application/rss+xml" href="https://pythonacademy.com.br/feed.xml">
 
 <!-- Open Graph -->
@@ -30,32 +30,32 @@
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Python Academy">
 <meta property="og:type" content="article">
-<meta property="og:title" content="O que são Funções Lambda no Python">
-<meta property="og:url" content="https://pythonacademy.com.br/blog/funcoes-lambda-no-python">
-<meta property="og:description" content="Guia completo de Funções Lambda em Python: sintaxe, casos de uso reais (sort, filter, map, max/min), quando usar funções anônimas e quando evitar complexidade.">
-<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/funcoes-map-filter/thumbnail.png">
-<meta property="og:image:secure_url" content="https://pythonacademy.com.br/assets/posts/funcoes-map-filter/thumbnail.png">
-<meta property="og:image:alt" content="O que são Funções Lambda no Python">
+<meta property="og:title" content="Como Criar um Agente de IA em Python (do Zero ao Framework)">
+<meta property="og:url" content="https://pythonacademy.com.br/blog/como-criar-um-agente-de-ia-em-python">
+<meta property="og:description" content="Crie um agente de IA em Python do zero: entenda o loop de raciocínio, implemente tool calling na mão e depois com LangGraph. Tutorial prático.">
+<meta property="og:image" content="https://pythonacademy.com.br/assets/posts/como-criar-um-agente-de-ia/thumbnail.png">
+<meta property="og:image:secure_url" content="https://pythonacademy.com.br/assets/posts/como-criar-um-agente-de-ia/thumbnail.png">
+<meta property="og:image:alt" content="Como Criar um Agente de IA em Python (do Zero ao Framework)">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
 <meta property="article:author" content="Vinícius Ramos">
 <meta property="article:section" content="Tecnologia">    
-<meta property="article:published_time" content="2023-01-10T00:00:00-03:00">
-<meta property="article:modified_time" content="2025-12-10T00:00:00-03:00">
+<meta property="article:published_time" content="2026-06-03T00:00:00-03:00">
+<meta property="article:modified_time" content="2026-06-03T00:00:00-03:00">
 
 <!-- General -->
-<meta itemprop="description" name="description" content="Guia completo de Funções Lambda em Python: sintaxe, casos de uso reais (sort, filter, map, max/min), quando usar funções anônimas e quando evitar complexidade.">		
-<meta name="title" content="O que são Funções Lambda no Python">
-<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/funcoes-map-filter/thumbnail.png">
+<meta itemprop="description" name="description" content="Crie um agente de IA em Python do zero: entenda o loop de raciocínio, implemente tool calling na mão e depois com LangGraph. Tutorial prático.">		
+<meta name="title" content="Como Criar um Agente de IA em Python (do Zero ao Framework)">
+<meta itemprop="image" content="https://pythonacademy.com.br/assets/posts/como-criar-um-agente-de-ia/thumbnail.png">
 
 <!-- Twitter cards -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@PythonAcademyBR">
-<meta name="twitter:title" content="O que são Funções Lambda no Python">
-<meta name="twitter:description" content="Guia completo de Funções Lambda em Python: sintaxe, casos de uso reais (sort, filter, map, max/min), quando usar funções anônimas e quando evitar complexidade.">
-<meta name="twitter:image" content="https://pythonacademy.com.br/assets/posts/funcoes-map-filter/thumbnail.png">
+<meta name="twitter:title" content="Como Criar um Agente de IA em Python (do Zero ao Framework)">
+<meta name="twitter:description" content="Crie um agente de IA em Python do zero: entenda o loop de raciocínio, implemente tool calling na mão e depois com LangGraph. Tutorial prático.">
+<meta name="twitter:image" content="https://pythonacademy.com.br/assets/posts/como-criar-um-agente-de-ia/thumbnail.png">
 
 <meta name="twitter:creator" content="@PythonAcademyBR">
 
@@ -63,7 +63,7 @@
 {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "proficiencyLevel": "intermediate",
+    "proficiencyLevel": "advanced",
     "dependencies": "Python 3.x",
     "author": {
         "@type": "Person",
@@ -88,23 +88,23 @@
           "height": 630
         }
     },
-    "dateModified": "2025-12-10T00:00:00-03:00",
-    "datePublished": "2023-01-10T00:00:00-03:00",
-    "description": "Guia completo de Funções Lambda em Python: sintaxe, casos de uso reais (sort, filter, map, max/min), quando usar funções anônimas e quando evitar complexidade.",
-    "headline": "O que são Funções Lambda no Python",
-    "wordCount": 2323,
+    "dateModified": "2026-06-03T00:00:00-03:00",
+    "datePublished": "2026-06-03T00:00:00-03:00",
+    "description": "Crie um agente de IA em Python do zero: entenda o loop de raciocínio, implemente tool calling na mão e depois com LangGraph. Tutorial prático.",
+    "headline": "Como Criar um Agente de IA em Python (do Zero ao Framework)",
+    "wordCount": 4524,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://pythonacademy.com.br/blog/funcoes-lambda-no-python"
+        "@id": "https://pythonacademy.com.br/blog/como-criar-um-agente-de-ia-em-python"
     },
-    "url": "https://pythonacademy.com.br/blog/funcoes-lambda-no-python",
-    "thumbnailUrl": "https://pythonacademy.com.br/assets/posts/funcoes-map-filter/thumbnail.png",
+    "url": "https://pythonacademy.com.br/blog/como-criar-um-agente-de-ia-em-python",
+    "thumbnailUrl": "https://pythonacademy.com.br/assets/posts/como-criar-um-agente-de-ia/thumbnail.png",
     "image": {
         "@type": "ImageObject",
-        "url": "https://pythonacademy.com.br/assets/posts/funcoes-map-filter/thumbnail.png",
+        "url": "https://pythonacademy.com.br/assets/posts/como-criar-um-agente-de-ia/thumbnail.png",
         "width": 1200,
         "height": 630,
-        "caption": "O que são Funções Lambda no Python"
+        "caption": "Como Criar um Agente de IA em Python (do Zero ao Framework)"
     }
 }
 </script>
@@ -118,7 +118,7 @@
     "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pythonacademy.com.br/" },
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://pythonacademy.com.br/blog/" },
-        { "@type": "ListItem", "position": 3, "name": "O que são Funções Lambda no Python", "item": "https://pythonacademy.com.br/blog/funcoes-lambda-no-python" }
+        { "@type": "ListItem", "position": 3, "name": "Como criar um agente de IA em Python (do loop manual ao framework)", "item": "https://pythonacademy.com.br/blog/como-criar-um-agente-de-ia-em-python" }
     ]
 }
 </script>
@@ -173,7 +173,7 @@
 </style>
 
 <!-- Canonical URL -->
-<link rel="canonical" href="https://pythonacademy.com.br/blog/funcoes-lambda-no-python">			
+<link rel="canonical" href="https://pythonacademy.com.br/blog/como-criar-um-agente-de-ia-em-python">			
 
 		<!-- Assets -->
 		
@@ -211,7 +211,7 @@
 		<main class="main-container">
 			<section class="post-banner">	
 				<div class="post-banner-wrapper">
-					<div class="post-banner-content" style="background: linear-gradient(180deg, #070707 60%, #222f3e29 100%);">						
+					<div class="post-banner-content" style="background: linear-gradient(180deg, #070707 60%, #4f46e529 100%);">						
 						<div class="container">	
 							<div id="breadcrumbs">
     
@@ -222,16 +222,18 @@
       
     
       
-        / O que são Funções Lambda no Python
+        / Como criar um agente de IA em Python (do loop manual ao framework)
       
     
 </div>
 							
 							
 							<h1 class="blog-post-title font-shadow">
-								O que são Funções Lambda no Python
+								Como criar um agente de IA em Python (do loop manual ao framework)
 							</h1>
 
+							
+							
 							
 							
 							
@@ -248,11 +250,11 @@
 									<p class="text-left">
 										Vinícius Ramos
 										<span class="text-gradient">•</span>
-										<time datetime="2023-01-10">10/01/2023</time>
+										<time datetime="2026-06-03">03/06/2026</time>
 										
 										<br>
 										<small style="color: #FFF7">
-											<b>Atualizado em:</b> <time datetime="2025-12-10">10/12/2025</time>
+											<b>Atualizado em:</b> <time datetime="2026-06-03">03/06/2026</time>
 										</small>
 										
 									</p>
@@ -333,240 +335,188 @@
 				<div class="container post-container">
 					<div class="blog-post-content">					
 						
-						<p><a href="https://pythonacademy.com.br/assets/posts/funcoes-map-filter/Python_Academy_Funcoes_Lambda_No_Python.pdf" download="" class="pdf-download-widget" style="text-decoration: none; border: 0;">
-    <img alt="Download do Artigo" width="100%" data-src="/assets/img/download-pdf-widget.webp" class="lazyload">
-</a></p>
+						
+<p>Salve salve, Pythonista! <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"></p>
 
-<blockquote>
-  <p>✅ <strong>Atualizado para Python 3.13</strong> (Dezembro 2025)
-Conteúdo enriquecido com casos de uso do mundo real e análise de quando usar vs funções normais.</p>
-</blockquote>
+<p>Você já reparou que o ChatGPT sabe te explicar qualquer coisa, mas não consegue <em>fazer</em> nada por você? Ele não checa a cotação do dólar de hoje, não consulta o seu banco de dados, não roda um cálculo de verdade. Ele só prevê texto. Quando a tarefa exige <strong>agir no mundo</strong> - buscar um dado, chamar uma API, decidir o próximo passo - o modelo sozinho não dá conta.</p>
 
-<p>Salve salve Pythonista!</p>
+<p>É aí que entram os <strong>agentes de IA</strong>: o tema mais quente de 2026 e a evolução natural de quem já brinca com LLMs. Um agente pega aquele mesmo modelo de linguagem e o coloca para <em>decidir e usar ferramentas em um loop</em>, até concluir a tarefa.</p>
 
-<p><strong>Funções lambda</strong> são uma ferramenta elegante do Python que permite criar <strong>funções anônimas</strong> (sem nome) de forma concisa. São ideais para operações <strong>simples e únicas</strong> onde uma função completa seria excessiva.</p>
+<p>Neste artigo você vai entender o que é um agente de verdade (sem hype) e construir um, em Python, de duas formas: primeiro <strong>na mão</strong>, com um loop cru, para enxergar o mecanismo por dentro; depois com um <strong>framework</strong> (LangGraph), para ver quanto trabalho ele te poupa.</p>
 
-<p>Neste guia, você vai aprender:</p>
-<ul>
-  <li>✅ Sintaxe e criação de funções lambda</li>
-  <li>✅ <strong>Casos de uso reais</strong> (sort, filter, map, max/min)</li>
-  <li>✅ Lambda vs funções normais (def)</li>
-  <li>✅ Quando usar e quando <strong>NÃO usar</strong> lambdas</li>
-</ul>
-
-<h2 class="no_toc" id="vá-direto-ao-assunto">Vá direto ao assunto…</h2>
+<h2 class="no_toc" id="vá-direto-ao-assunto">Vá Direto ao Assunto…</h2>
 
 <ul id="markdown-toc">
-  <li><a href="#como-criar-fun%C3%A7%C3%B5es-lambda" id="markdown-toc-como-criar-funções-lambda">Como criar Funções lambda</a></li>
-  <li><a href="#usando-fun%C3%A7%C3%B5es-lambda-com-map-filter-e-reduce" id="markdown-toc-usando-funções-lambda-com-map-filter-e-reduce">Usando funções lambda com <code class="language-plaintext highlighter-rouge">map</code>, <code class="language-plaintext highlighter-rouge">filter</code> e <code class="language-plaintext highlighter-rouge">reduce</code></a></li>
-  <li><a href="#casos-de-uso-do-mundo-real" id="markdown-toc-casos-de-uso-do-mundo-real">Casos de Uso do Mundo Real</a></li>
-  <li><a href="#lambda-vs-fun%C3%A7%C3%B5es-normais-def" id="markdown-toc-lambda-vs-funções-normais-def">Lambda vs Funções Normais (def)</a></li>
+  <li><a href="#o-que-%C3%A9-um-agente-de-ia" id="markdown-toc-o-que-é-um-agente-de-ia">O que é um agente de IA?</a></li>
+  <li><a href="#agente-chatbot-ou-chain-qual-a-diferen%C3%A7a" id="markdown-toc-agente-chatbot-ou-chain-qual-a-diferença">Agente, chatbot ou chain: qual a diferença?</a></li>
+  <li><a href="#como-um-agente-funciona-por-baixo-dos-panos" id="markdown-toc-como-um-agente-funciona-por-baixo-dos-panos">Como um agente funciona por baixo dos panos</a></li>
+  <li><a href="#preparando-o-ambiente" id="markdown-toc-preparando-o-ambiente">Preparando o ambiente</a></li>
+  <li><a href="#construindo-um-agente-do-zero-sem-framework" id="markdown-toc-construindo-um-agente-do-zero-sem-framework">Construindo um agente do zero (sem framework)</a></li>
+  <li><a href="#o-mesmo-agente-com-um-framework-langgraph" id="markdown-toc-o-mesmo-agente-com-um-framework-langgraph">O mesmo agente com um framework (LangGraph)</a></li>
+  <li><a href="#dando-ferramentas-melhores-ao-seu-agente" id="markdown-toc-dando-ferramentas-melhores-ao-seu-agente">Dando ferramentas melhores ao seu agente</a></li>
+  <li><a href="#quando-n%C3%A3o-usar-um-agente-e-usar-um-prompt-simples" id="markdown-toc-quando-não-usar-um-agente-e-usar-um-prompt-simples">Quando NÃO usar um agente (e usar um prompt simples)</a></li>
+  <li><a href="#perguntas-frequentes-faq" id="markdown-toc-perguntas-frequentes-faq">Perguntas frequentes (FAQ)</a></li>
+  <li><a href="#conclus%C3%A3o" id="markdown-toc-conclusão">Conclusão</a></li>
 </ul>
 
-<h2 id="como-criar-funções-lambda">Como criar Funções lambda</h2>
+<h2 id="o-que-é-um-agente-de-ia">O que é um agente de IA?</h2>
 
-<p>Uma função lambda é criada usando a palavra-chave <code class="language-plaintext highlighter-rouge">lambda</code>, seguida de um ou mais <strong>argumentos</strong>, e uma <strong>expressão</strong>:</p>
-<ul>
-  <li>
-<strong>argumentos</strong> são os dados de entrada que esta função irá receber</li>
-  <li>
-<strong>expressão</strong> é o código que será executado quando a função lambda for chamada.</li>
-</ul>
+<p><strong>Um agente de IA é um LLM acoplado a um conjunto de ferramentas e a um loop de raciocínio: em vez de só responder, o modelo decide sozinho quais ações executar, observa o resultado de cada uma e repete o ciclo até concluir a tarefa.</strong> A diferença para um chatbot comum é essa autonomia - o agente escolhe <em>o que fazer</em>, não apenas <em>o que dizer</em>.</p>
 
-<p>Sua sintaxe básica é a seguinte:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="k">lambda</span> <span class="p">{</span><span class="n">argumentos</span><span class="p">}:</span> <span class="p">{</span><span class="n">expressão</span><span class="p">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Veja o exemplo abaixo:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="code"><pre><span class="n">soma</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
-<span class="nf">print</span><span class="p">(</span><span class="nf">soma</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Nela:</p>
-<ul>
-  <li>Os <strong>argumentos</strong> são 2: <code class="language-plaintext highlighter-rouge">x</code> e <code class="language-plaintext highlighter-rouge">y</code>
-</li>
-  <li>A <strong>expressão</strong> a ser executada: <code class="language-plaintext highlighter-rouge">x + y</code>
-</li>
-</ul>
-
-<p>A saída do código acima será o resultado de <code class="language-plaintext highlighter-rouge">soma(2, 3)</code>:</p>
-
-<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>5
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>Podemos armazenar a função lambda em uma variável, como no exemplo acima, ou chamá-la diretamente:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre><span class="nf">print</span><span class="p">((</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">)(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>E a saída será a mesma.</p>
-
-<p>Note o conjunto de parentêses para criação da função e outro para os argumentos.</p>
-
-<p>Dessa forma a função lambda está sendo criada e já chamada!</p>
-
-<p><em><strong>Está curtindo esse conteúdo?</strong></em> <img class="emoji" title=":thumbsup:" alt=":thumbsup:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20"></p>
-
-<p><em><strong>Que tal receber 30 dias de conteúdo direto na sua Caixa de Entrada?</strong></em></p>
-
-<div class="sib-form">
-    <div id="sib-form-container" class="sib-form-container">
-        <div id="error-message" class="sib-form-message-panel" style='font-size:16px; text-align:left; font-family:"Helvetica", sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;'>
-            <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
-                <span class="sib-form-message-panel__inner-text">
-                    Sua assinatura não pôde ser validada.
-                </span>
-            </div>
-        </div>
-        <div></div>
-        <div id="success-message" class="sib-form-message-panel" style='font-size:16px; text-align:left; font-family:"Helvetica", sans-serif; color:#085229; background-color:#e7faf0; border-radius:3px; border-color:#13ce66;'>
-            <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
-                <span class="sib-form-message-panel__inner-text">
-                    Você fez sua assinatura com sucesso.
-                </span>
-            </div>
-        </div>
-        <div></div>
-        <div id="sib-container" class="sib-container--large sib-container--vertical">
-            <div class="sib-image">
-                <img alt="" data-src="/assets/img/30-dias-de-python-imagem.webp" class="lazyload">
-            </div>
-            <div class="sib-form">
-                <form id="sib-form" method="POST" action="https://653dd21e.sibforms.com/serve/MUIFAOzeo_26583zDlkX06IVSEfLdy2lldPMQQ-buaMms6wV0AH6ta0dXKf1PQ1ClMB3at_fUWWxfNE6vzFxtInp0_xOfNt0O3BAdoxKB1-G9rVjspES-wNfJTgLaImy2C42dzVUsVYyyldeFoxH3ZZHfUxELi8KiyyZHQ4jfdP0XBahExHE0yvo77Xna4KcrzC855BOW04GONpS" data-type="subscription">
-                    <div class="sib-form-block">
-                        <img class="logo lazyload" width="380px" alt="Logo" title="Logo" loading="lazy" data-src="/assets/img/30-dias-de-python.png">
-                    </div>
-                    <div class="sib-form-block">
-                        <div class="sib-text-form-block">
-                            <p>Assine as PyDicas e receba 30 dias do melhor conteúdo Python na sua Caixa de Entrada: <strong class="text-gradient">direto e sem enrolação</strong>!</p>
-                        </div>
-                    </div>
-                    <div class="sib-input sib-form-block">
-                        <div class="form__entry entry_block">
-                            <div class="form__label-row ">
-                                <label class="entry__label" for="NOME" data-required="*">Seu nome</label>
-                                
-                                <div class="entry__field">
-                                    <input class="input " maxlength="200" type="text" id="NOME" name="NOME" autocomplete="off" placeholder="NOME" data-required="true" required="">
-                                </div>
-                            </div>
-                            
-                            <label class="entry__error entry__error--primary"></label>
-                        </div>
-                    </div>
-                    <div class="sib-input sib-form-block">
-                        <div class="form__entry entry_block">
-                            <div class="form__label-row ">
-                                <label class="entry__label" for="EMAIL" data-required="*">Seu e-mail</label>
-                                
-                                <div class="entry__field">
-                                    <input class="input " type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="EMAIL" data-required="true" required="">
-                                </div>
-                            </div>
-                            
-                            <label class="entry__error entry__error--primary" style='font-size:16px; text-align:left; font-family:"Helvetica", sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;'></label>
-                        </div>
-                    </div>
-                    <div class="sib-captcha sib-form-block">
-                        <div class="form__entry entry_block">
-                            <div class="form__label-row ">
-                                <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LfMcvMoAAAAANV_uBYuVh_2VMogRuQaupzsRRQV" data-callback="handleCaptchaResponse" style="direction:ltr"></div>
-                            </div>
-                            <label class="entry__error entry__error--primary" style='font-size:16px; text-align:left; font-family:"Helvetica", sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;'>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="sib-form-block" style="margin: 0;">
-                        <button class="new-cta sib-form-block__button-with-loader" form="sib-form" type="submit" style="width: 100%;">
-                            <svg class="sib-hide-loader-icon" style="display: none;"></svg>
-                            <a>ASSINAR PYDICAS</a>
-                        </button>
-                    </div>
-                    
-                    <input type="text" name="email_address_check" value="" class="input--hidden">
-                    <input type="hidden" name="locale" value="pt">
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="circle yellow"></div>
-    <div class="circle blue"></div>
-</div>
-
-<h2 id="usando-funções-lambda-com-map-filter-e-reduce">Usando funções lambda com <code class="language-plaintext highlighter-rouge">map</code>, <code class="language-plaintext highlighter-rouge">filter</code> e <code class="language-plaintext highlighter-rouge">reduce</code>
-</h2>
-
-<p>Uma das principais utilidades das funções lambda é quando elas são usadas em conjunto com as funções <code class="language-plaintext highlighter-rouge">map</code>, <code class="language-plaintext highlighter-rouge">filter</code> e <code class="language-plaintext highlighter-rouge">reduce</code> (agora no pacote <code class="language-plaintext highlighter-rouge">functools</code>).</p>
+<p>Pense na fórmula:</p>
 
 <blockquote>
-  <p>Ainda não domina a utilização das funções <code class="language-plaintext highlighter-rouge">map</code> e <code class="language-plaintext highlighter-rouge">filter</code>? Então não perca tempo e aprenda essas duas funções incríveis <strong>AGORA</strong> <a href="https://pythonacademy.com.br/blog/as-funcoes-map-e-filter-no-python" target="_blank">clicando aqui para ler esse artigo completão!</a></p>
+  <p><strong>Agente = LLM (o cérebro) + ferramentas (as mãos) + um loop (a iniciativa).</strong></p>
 </blockquote>
 
-<p>Veja o exemplo abaixo, onde usamos a função <code class="language-plaintext highlighter-rouge">map</code> para aplicar uma função lambda que eleva cada elemento de uma lista ao quadrado:</p>
+<p>O LLM continua sendo um previsor de texto. A mágica está em dar a ele ações que pode chamar (uma busca, um cálculo, uma consulta a banco) e um laço de repetição que deixa o modelo encadear essas ações. Se você já viu o <a href="https://pythonacademy.com.br/blog/claude-opus-4-8-e-o-modo-ultracode" target="_blank">Claude Code ou o modo ultracode</a> resolvendo uma tarefa de programação sozinho, viu um agente em ação - ele lê arquivos, roda comandos, observa a saída e segue.</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="code"><pre><span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+<h2 id="agente-chatbot-ou-chain-qual-a-diferença">Agente, chatbot ou chain: qual a diferença?</h2>
 
-<span class="nf">print</span><span class="p">(</span><span class="nf">list</span><span class="p">(</span><span class="nf">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">**</span> <span class="mi">2</span><span class="p">,</span> <span class="n">lista</span><span class="p">)))</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
+<p>Esse é o ponto que mais confunde quem está começando. Nem todo uso de LLM é um agente. Vale separar:</p>
 
-<p>E a saída será:</p>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Abordagem</th>
+      <th style="text-align: left">O LLM decide as ações?</th>
+      <th style="text-align: left">Usa ferramentas?</th>
+      <th style="text-align: left">Exemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Chamada única</td>
+      <td style="text-align: left">Não</td>
+      <td style="text-align: left">Não</td>
+      <td style="text-align: left">Resumir um texto colado</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Chain (fluxo fixo)</td>
+      <td style="text-align: left">Não - caminho pré-definido</td>
+      <td style="text-align: left">Sim, em ordem fixa</td>
+      <td style="text-align: left">Traduzir e <em>depois</em> resumir</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Agente</strong></td>
+      <td style="text-align: left"><strong>Sim - decide em loop</strong></td>
+      <td style="text-align: left"><strong>Sim, escolhe quais e quando</strong></td>
+      <td style="text-align: left">“Resolva X” e ele se vira</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Uma <em>chain</em> (corrente) é um fluxo que <strong>você</strong> desenhou: passo 1, depois 2, depois 3, sempre na mesma ordem. É exatamente o que vimos no artigo sobre <a href="https://pythonacademy.com.br/blog/o-que-e-e-como-funciona-o-langchain" target="_blank">o que é e como funciona o LangChain</a>. Já um <strong>agente</strong> recebe um objetivo e descobre o caminho sozinho, em tempo de execução. Quando o problema tem passos previsíveis, uma chain basta (e é mais barata). Quando o caminho depende do que for surgindo, você precisa de um agente.</p>
+
+<h2 id="como-um-agente-funciona-por-baixo-dos-panos">Como um agente funciona por baixo dos panos</h2>
+
+<p>Todo agente, por mais sofisticado que pareça, gira em torno do mesmo ciclo. Ele recebe a tarefa e repete estes passos:</p>
 
 <figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>[1, 4, 9, 16]
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<p>No exemplo abaixo,usamos a função <code class="language-plaintext highlighter-rouge">filter</code> para retornar apenas os números pares de uma lista:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
 2
 3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
 </pre></td>
-<td class="code"><pre><span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
-
-<span class="nf">print</span><span class="p">(</span><span class="nf">list</span><span class="p">(</span><span class="nf">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="n">lista</span><span class="p">)))</span>
+<td class="code"><pre>1. pergunta do usuário
+        |
+        v
+2. o LLM pensa e decide:  responder agora  OU  usar uma ferramenta
+        |
+        v   (escolheu uma ferramenta)
+3. o código executa a ferramenta (busca, cálculo, API...)
+        |
+        v
+4. o resultado da ferramenta volta para o LLM como nova informação
+        |
+        +--&gt; repete os passos 2 a 4 até o LLM decidir que já pode responder
+        |
+        v
+5. resposta final
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Gerando a saída:</p>
+<p>Esse padrão - <strong>pensar, agir, observar, repetir</strong> - é conhecido como ciclo <em>ReAct</em> (de <em>Reasoning + Acting</em>). É a espinha dorsal de praticamente todo agente, do mais simples ao mais complexo. As peças que o compõem:</p>
 
-<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Peça</th>
+      <th style="text-align: left">Papel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">LLM (o cérebro)</td>
+      <td style="text-align: left">Decide o próximo passo e quando parar</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Ferramentas (<em>tools</em>)</td>
+      <td style="text-align: left">Ações que o LLM pode executar: buscar, calcular, chamar uma API</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Loop de raciocínio</td>
+      <td style="text-align: left">Repete pensar -&gt; agir -&gt; observar até concluir</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Memória</td>
+      <td style="text-align: left">O histórico de mensagens que dá contexto entre um passo e outro</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Condição de parada</td>
+      <td style="text-align: left">Limite de iterações ou “sem mais ferramentas”, para não rodar para sempre</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>O elo que liga o LLM às ferramentas tem nome: <strong>tool calling</strong> (ou <em>function calling</em>). Em vez de devolver texto, o modelo devolve um pedido estruturado - “execute a ferramenta <code class="language-plaintext highlighter-rouge">cotacao</code> com o argumento <code class="language-plaintext highlighter-rouge">USD</code>” - e o seu código se encarrega de rodar a função e devolver o resultado. É isso que vamos implementar agora.</p>
+
+<h2 id="preparando-o-ambiente">Preparando o ambiente</h2>
+
+<p>Para o agente “na mão” precisamos só da biblioteca <code class="language-plaintext highlighter-rouge">openai</code>, a mesma que usamos no artigo de <a href="https://pythonacademy.com.br/blog/rag-na-pratica-em-python" target="_blank">RAG na prática</a> e no de <a href="https://pythonacademy.com.br/blog/como-integrar-o-chatgpt-em-seu-codigo-python" target="_blank">integração do ChatGPT com Python</a>:</p>
+
+<blockquote>
+  <p><em>Se ainda não trabalha com ambientes isolados, vale ler <a href="https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais" target="_blank">este artigo sobre virtualenv</a> antes - mantém cada projeto com suas próprias dependências.</em></p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 </pre></td>
-<td class="code"><pre>[2, 4, 6, 8, 10]
+<td class="code"><pre>pip <span class="nb">install </span>openai
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
-<p>Por fim, veja o exemplo a seguir, onde usamos a função <code class="language-plaintext highlighter-rouge">reduce</code> para somar todos os elementos de uma lista:</p>
+<p>Configure sua chave da OpenAI como variável de ambiente:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre><span class="nb">export </span><span class="nv">OPENAI_API_KEY</span><span class="o">=</span><span class="s2">"sua-chave-aqui"</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<blockquote>
+  <p>Prefere não pagar API? Dá para rodar tudo com modelos locais via Ollama, contanto que o modelo suporte <em>tool calling</em>. A lógica do agente é exatamente a mesma.</p>
+</blockquote>
+
+<h2 id="construindo-um-agente-do-zero-sem-framework">Construindo um agente do zero (sem framework)</h2>
+
+<p>Vamos montar um agente que responde a perguntas como <em>“Tenho 250 dólares, quanto é isso em reais hoje?”</em>. Repare que essa pergunta sozinha derruba um LLM puro: ele não sabe a cotação de hoje e é péssimo em conta. Nosso agente vai resolver em dois passos: <strong>buscar a cotação</strong> e depois <strong>calcular</strong>.</p>
+
+<h3 id="passo-1-as-ferramentas">Passo 1: as ferramentas</h3>
+
+<p>Uma ferramenta é só uma função Python comum. Vamos criar duas:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -574,25 +524,433 @@ Conteúdo enriquecido com casos de uso do mundo real e análise de quando usar v
 3
 4
 5
+6
+7
+8
+9
+10
+11
+12
 </pre></td>
-<td class="code"><pre><span class="kn">from</span> <span class="n">functools</span> <span class="kn">import</span> <span class="nb">reduce</span>
+<td class="code"><pre><span class="n">COTACOES</span> <span class="o">=</span> <span class="p">{</span><span class="sh">"</span><span class="s">USD</span><span class="sh">"</span><span class="p">:</span> <span class="mf">5.40</span><span class="p">,</span> <span class="sh">"</span><span class="s">EUR</span><span class="sh">"</span><span class="p">:</span> <span class="mf">5.85</span><span class="p">}</span>
 
-<span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+<span class="k">def</span> <span class="nf">cotacao</span><span class="p">(</span><span class="n">moeda</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sh">"""</span><span class="s">Retorna a cotação de uma moeda estrangeira em reais (BRL).</span><span class="sh">"""</span>
+    <span class="n">valor</span> <span class="o">=</span> <span class="n">COTACOES</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="n">moeda</span><span class="p">.</span><span class="nf">upper</span><span class="p">())</span>
+    <span class="k">if</span> <span class="n">valor</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="sh">"</span><span class="s">Moeda </span><span class="sh">'</span><span class="si">{</span><span class="n">moeda</span><span class="si">}</span><span class="sh">'</span><span class="s"> não encontrada.</span><span class="sh">"</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="sh">"</span><span class="s">1 </span><span class="si">{</span><span class="n">moeda</span><span class="p">.</span><span class="nf">upper</span><span class="p">()</span><span class="si">}</span><span class="s"> = </span><span class="si">{</span><span class="n">valor</span><span class="si">}</span><span class="s"> BRL</span><span class="sh">"</span>
 
-<span class="nf">print</span><span class="p">(</span><span class="nf">reduce</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">,</span> <span class="n">lista</span><span class="p">))</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="code"><pre>15
+<span class="k">def</span> <span class="nf">calcular</span><span class="p">(</span><span class="n">expressao</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sh">"""</span><span class="s">Avalia uma expressão aritmética e devolve o resultado.</span><span class="sh">"""</span>
+    <span class="k">return</span> <span class="nf">str</span><span class="p">(</span><span class="nf">eval</span><span class="p">(</span><span class="n">expressao</span><span class="p">))</span>
 </pre></td>
 </tr></tbody></table></code></pre></figure>
 
 <blockquote>
-  <p><img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20"> Criei o <strong><a href="https://ebookr.ai">Ebookr.ai</a></strong>, uma plataforma que usa IA para gerar ebooks profissionais sobre qualquer tema - com capa gerada por IA, infográficos automáticos e exportação em PDF. Confere!</p>
+  <p><img class="emoji" title=":warning:" alt=":warning:" src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png" height="20" width="20"> <strong>Cuidado com o <code class="language-plaintext highlighter-rouge">eval</code>.</strong> Usamos aqui por simplicidade, mas <code class="language-plaintext highlighter-rouge">eval</code> em texto vindo de um LLM é uma porta aberta para código malicioso. Em produção, troque por um avaliador seguro (a biblioteca <code class="language-plaintext highlighter-rouge">simpleeval</code>, por exemplo). Tratar ferramentas como código não confiável é o tipo de cuidado que separa um protótipo de um sistema sério.</p>
 </blockquote>
+
+<p>Agora descrevemos essas funções para o modelo no formato que a OpenAI espera. É esse “cardápio” que o LLM lê para decidir o que chamar:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+</pre></td>
+<td class="code"><pre><span class="n">FERRAMENTAS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="sh">"</span><span class="s">type</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">function</span><span class="sh">"</span><span class="p">,</span>
+        <span class="sh">"</span><span class="s">function</span><span class="sh">"</span><span class="p">:</span> <span class="p">{</span>
+            <span class="sh">"</span><span class="s">name</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">cotacao</span><span class="sh">"</span><span class="p">,</span>
+            <span class="sh">"</span><span class="s">description</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Retorna a cotação atual de uma moeda estrangeira em reais.</span><span class="sh">"</span><span class="p">,</span>
+            <span class="sh">"</span><span class="s">parameters</span><span class="sh">"</span><span class="p">:</span> <span class="p">{</span>
+                <span class="sh">"</span><span class="s">type</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">object</span><span class="sh">"</span><span class="p">,</span>
+                <span class="sh">"</span><span class="s">properties</span><span class="sh">"</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="sh">"</span><span class="s">moeda</span><span class="sh">"</span><span class="p">:</span> <span class="p">{</span><span class="sh">"</span><span class="s">type</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">string</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">description</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Código, ex: USD, EUR</span><span class="sh">"</span><span class="p">},</span>
+                <span class="p">},</span>
+                <span class="sh">"</span><span class="s">required</span><span class="sh">"</span><span class="p">:</span> <span class="p">[</span><span class="sh">"</span><span class="s">moeda</span><span class="sh">"</span><span class="p">],</span>
+            <span class="p">},</span>
+        <span class="p">},</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="sh">"</span><span class="s">type</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">function</span><span class="sh">"</span><span class="p">,</span>
+        <span class="sh">"</span><span class="s">function</span><span class="sh">"</span><span class="p">:</span> <span class="p">{</span>
+            <span class="sh">"</span><span class="s">name</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">calcular</span><span class="sh">"</span><span class="p">,</span>
+            <span class="sh">"</span><span class="s">description</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Avalia uma expressão aritmética, ex: 250 * 5.40</span><span class="sh">"</span><span class="p">,</span>
+            <span class="sh">"</span><span class="s">parameters</span><span class="sh">"</span><span class="p">:</span> <span class="p">{</span>
+                <span class="sh">"</span><span class="s">type</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">object</span><span class="sh">"</span><span class="p">,</span>
+                <span class="sh">"</span><span class="s">properties</span><span class="sh">"</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="sh">"</span><span class="s">expressao</span><span class="sh">"</span><span class="p">:</span> <span class="p">{</span><span class="sh">"</span><span class="s">type</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">string</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">description</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Expressão a calcular</span><span class="sh">"</span><span class="p">},</span>
+                <span class="p">},</span>
+                <span class="sh">"</span><span class="s">required</span><span class="sh">"</span><span class="p">:</span> <span class="p">[</span><span class="sh">"</span><span class="s">expressao</span><span class="sh">"</span><span class="p">],</span>
+            <span class="p">},</span>
+        <span class="p">},</span>
+    <span class="p">},</span>
+<span class="p">]</span>
+
+<span class="c1"># Mapa nome -&gt; função, para o loop saber qual chamar.
+</span><span class="n">DISPONIVEIS</span> <span class="o">=</span> <span class="p">{</span><span class="sh">"</span><span class="s">cotacao</span><span class="sh">"</span><span class="p">:</span> <span class="n">cotacao</span><span class="p">,</span> <span class="sh">"</span><span class="s">calcular</span><span class="sh">"</span><span class="p">:</span> <span class="n">calcular</span><span class="p">}</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<h3 id="passo-2-o-loop-de-raciocínio">Passo 2: o loop de raciocínio</h3>
+
+<p>Aqui mora o coração do agente. O loop chama o modelo; se ele pedir uma ferramenta, executamos e devolvemos o resultado; se ele responder direto, terminamos. O <code class="language-plaintext highlighter-rouge">max_iteracoes</code> é a nossa condição de parada - sem ela, um agente pode girar para sempre (e queimar créditos):</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+</pre></td>
+<td class="code"><pre><span class="kn">import</span> <span class="n">json</span>
+<span class="kn">from</span> <span class="n">openai</span> <span class="kn">import</span> <span class="n">OpenAI</span>
+
+<span class="n">cliente</span> <span class="o">=</span> <span class="nc">OpenAI</span><span class="p">()</span>  <span class="c1"># lê a chave de OPENAI_API_KEY automaticamente
+</span>
+<span class="k">def</span> <span class="nf">agente</span><span class="p">(</span><span class="n">pergunta</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">max_iteracoes</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">5</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">mensagens</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="p">{</span><span class="sh">"</span><span class="s">role</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">system</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">content</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Você é um assistente que usa ferramentas quando precisa.</span><span class="sh">"</span><span class="p">},</span>
+        <span class="p">{</span><span class="sh">"</span><span class="s">role</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">user</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">content</span><span class="sh">"</span><span class="p">:</span> <span class="n">pergunta</span><span class="p">},</span>
+    <span class="p">]</span>
+
+    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">max_iteracoes</span><span class="p">):</span>
+        <span class="n">resposta</span> <span class="o">=</span> <span class="n">cliente</span><span class="p">.</span><span class="n">chat</span><span class="p">.</span><span class="n">completions</span><span class="p">.</span><span class="nf">create</span><span class="p">(</span>
+            <span class="n">model</span><span class="o">=</span><span class="sh">"</span><span class="s">gpt-4o-mini</span><span class="sh">"</span><span class="p">,</span>
+            <span class="n">messages</span><span class="o">=</span><span class="n">mensagens</span><span class="p">,</span>
+            <span class="n">tools</span><span class="o">=</span><span class="n">FERRAMENTAS</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="n">resposta</span><span class="p">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">message</span>
+        <span class="n">mensagens</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>  <span class="c1"># guarda a decisão do modelo no histórico (memória)
+</span>
+        <span class="c1"># Sem pedido de ferramenta -&gt; o agente concluiu.
+</span>        <span class="k">if</span> <span class="ow">not</span> <span class="n">msg</span><span class="p">.</span><span class="n">tool_calls</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">msg</span><span class="p">.</span><span class="n">content</span>
+
+        <span class="c1"># Executa cada ferramenta pedida e devolve o resultado ao modelo.
+</span>        <span class="k">for</span> <span class="n">chamada</span> <span class="ow">in</span> <span class="n">msg</span><span class="p">.</span><span class="n">tool_calls</span><span class="p">:</span>
+            <span class="n">funcao</span> <span class="o">=</span> <span class="n">DISPONIVEIS</span><span class="p">[</span><span class="n">chamada</span><span class="p">.</span><span class="n">function</span><span class="p">.</span><span class="n">name</span><span class="p">]</span>
+            <span class="n">argumentos</span> <span class="o">=</span> <span class="n">json</span><span class="p">.</span><span class="nf">loads</span><span class="p">(</span><span class="n">chamada</span><span class="p">.</span><span class="n">function</span><span class="p">.</span><span class="n">arguments</span><span class="p">)</span>
+            <span class="n">resultado</span> <span class="o">=</span> <span class="nf">funcao</span><span class="p">(</span><span class="o">**</span><span class="n">argumentos</span><span class="p">)</span>
+            <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">  -&gt; </span><span class="si">{</span><span class="n">chamada</span><span class="p">.</span><span class="n">function</span><span class="p">.</span><span class="n">name</span><span class="si">}</span><span class="s">(</span><span class="si">{</span><span class="n">argumentos</span><span class="si">}</span><span class="s">)</span><span class="sh">"</span><span class="p">)</span>
+            <span class="n">mensagens</span><span class="p">.</span><span class="nf">append</span><span class="p">({</span>
+                <span class="sh">"</span><span class="s">role</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">tool</span><span class="sh">"</span><span class="p">,</span>
+                <span class="sh">"</span><span class="s">tool_call_id</span><span class="sh">"</span><span class="p">:</span> <span class="n">chamada</span><span class="p">.</span><span class="nb">id</span><span class="p">,</span>
+                <span class="sh">"</span><span class="s">content</span><span class="sh">"</span><span class="p">:</span> <span class="n">resultado</span><span class="p">,</span>
+            <span class="p">})</span>
+
+    <span class="k">return</span> <span class="sh">"</span><span class="s">Limite de iterações atingido sem resposta final.</span><span class="sh">"</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Repare na lista <code class="language-plaintext highlighter-rouge">mensagens</code>: ela <strong>é</strong> a memória do agente. Cada decisão do modelo e cada resultado de ferramenta são anexados ali, e o histórico inteiro volta ao modelo na iteração seguinte. É assim que ele “lembra” que já buscou a cotação na hora de calcular.</p>
+
+<h3 id="rodando-o-agente">Rodando o agente</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="code"><pre><span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="sh">"</span><span class="s">__main__</span><span class="sh">"</span><span class="p">:</span>
+    <span class="nf">print</span><span class="p">(</span><span class="nf">agente</span><span class="p">(</span><span class="sh">"</span><span class="s">Tenho 250 dólares. Quanto é isso em reais hoje?</span><span class="sh">"</span><span class="p">))</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>A saída é parecida com esta (as linhas com <code class="language-plaintext highlighter-rouge">-&gt;</code> são o nosso rastro mostrando o loop em ação):</p>
+
+<figure class="highlight terminal-output"><pre><code class="language-text" data-lang="text"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre>  -&gt; cotacao({'moeda': 'USD'})
+  -&gt; calcular({'expressao': '250 * 5.40'})
+Com 250 dólares você tem cerca de R$ 1.350,00 hoje, considerando a cotação de
+1 USD = 5,40 BRL.
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Veja o que aconteceu: o modelo percebeu que precisava da cotação, <strong>chamou a ferramenta <code class="language-plaintext highlighter-rouge">cotacao</code></strong>, recebeu <code class="language-plaintext highlighter-rouge">5.40</code>, concluiu que ainda faltava a conta, <strong>chamou <code class="language-plaintext highlighter-rouge">calcular</code></strong> com <code class="language-plaintext highlighter-rouge">250 * 5.40</code> e só então respondeu. Foram duas voltas no loop, duas ferramentas, uma decisão de parada - tudo orquestrado pelo próprio modelo. Isso é um agente.</p>
+
+<p>Construir essa base sólida em Python - de funções e estruturas de dados a integrações com IA como esta - é o que separa quem só copia código de quem entende o que está fazendo. É exatamente isso que ensinamos, do zero ao avançado, na <strong>Jornada Python</strong>:</p>
+
+<div class="jornada-python-in-post ">
+    <div class="course-banner">
+        <div class="bground-blur"></div>
+        
+        <div class="banner-inner">
+            <div class="bground-overlay"></div>
+            <div class="course-data">
+                <div class="course-information">
+                    <img alt="Jornada Python" width="120px" data-src="/assets/img/jornada-python/logo-jornada-python-navbar.webp" class="lazyload">
+
+                    <h3>
+                        Domine Python: A Linguagem da <span class="text-gradient">Inteligência Artificial</span>, do 
+                        <span class="text-gradient">Desenvolvimento Web</span> e das <span class="text-gradient">Carreiras do Futuro</span>.
+                    </h3>
+    
+                    <!-- <h3>Seja um Desenvolvedor Web <b class="font-yellow">Profissional</b> com Python e Django</h3> -->
+                    <p>
+                        A mais completa formação para você se tornar um <span>especialista em Python</span>, 
+                        pronto para construir <b class="font-white">desde aplicações web robustas com Django</b> até 
+                        <b class="font-white">projetos de Inteligência Artificial e Ciência de Dados</b>
+                        <span class="text-gradient" style="font-size: 3rem; line-height: 0;">.</span>
+                    </p>
+                    
+                    <button class="new-cta" style="width: 100%;">
+                        <a href="https://bit.ly/banner-jornada-python">
+                            Quero conhecer!
+                        </a>
+                    </button>
+    
+                    <div class="stars-container">
+                        <div class="stars">
+                            <svg class="filled" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 104 18"><g transform="translate(-160 -526)"><g transform="translate(64 308)"><g transform="translate(96 218)"><g><path d="M10.1.7L11.8 5c.2.4.5.6.9.7l4.5.3c.9.1 1.3 1.3.6 1.9L14.4 11c-.3.3-.4.7-.3 1.1l1 4.5c.2 1-.8 1.7-1.6 1.2l-3.9-2.4c-.3-.2-.8-.2-1.1 0l-3.9 2.4c-.8.5-1.8-.2-1.6-1.2l1-4.5c.1-.4 0-.8-.3-1.1L.4 8c-.7-.7-.4-1.9.6-2l4.5-.4c.4 0 .7-.3.9-.7L8.2.6c.3-.8 1.5-.8 1.9.1" class="st20"></path><path d="M31.5.7L33.3 5c.2.4.5.6.9.7l4.4.3c1 .1 1.4 1.3.6 2l-3.3 3c-.3.3-.4.7-.3 1.1l1 4.5c.2 1-.8 1.7-1.6 1.2l-3.9-2.4c-.3-.2-.8-.2-1.1 0l-3.9 2.4c-.8.5-1.8-.2-1.6-1.2l1-4.5c.1-.4 0-.8-.3-1.1l-3.4-3c-.7-.6-.3-1.9.6-1.9l4.5-.4c.4 0 .7-.3.9-.7L29.6.7c.3-.9 1.6-.9 1.9 0" class="st20"></path><path d="M53 .7L54.7 5c.2.4.5.6.9.7l4.5.3c.9.1 1.3 1.3.6 2l-3.4 3c-.3.3-.4.7-.3 1.1l1 4.5c.2 1-.8 1.7-1.6 1.2l-3.9-2.4c-.3-.2-.8-.2-1.1 0l-3.9 2.4c-.8.5-1.8-.2-1.6-1.2l1-4.5c.1-.4 0-.8-.3-1.1l-3.3-3c-.7-.7-.3-1.9.6-2l4.5-.4c.4 0 .7-.3.9-.7L51 .7c.4-.9 1.6-.9 2 0" class="st20"></path><path d="M74.4.7L76.2 5c.2.4.5.6.9.7l4.5.3c.9.1 1.3 1.3.6 1.9L78.8 11c-.3.3-.4.7-.3 1.1l1 4.5c.2 1-.8 1.7-1.6 1.2L74 15.4c-.3-.2-.8-.2-1.1 0L69 17.8c-.8.5-1.8-.2-1.6-1.2l1-4.5c.1-.4 0-.8-.3-1.1l-3.3-3c-.8-.7-.4-1.9.6-2l4.5-.4c.4 0 .7-.3.9-.7L72.6.6c.2-.8 1.5-.8 1.8.1" class="st20"></path><path d="M95.9.7L97.7 5c.2.4.5.6.9.7l4.4.3c.9.1 1.3 1.3.6 1.9l-3.4 3.1c-.3.3-.4.7-.3 1.1l1 4.5c.2 1-.8 1.7-1.6 1.2l-3.9-2.4c-.3-.2-.8-.2-1.1 0l-3.9 2.4c-.8.5-1.8-.2-1.6-1.2l1-4.5c.1-.4 0-.8-.3-1.1l-3.3-3c-.7-.6-.3-1.9.6-1.9l4.5-.4c.4 0 .7-.3.9-.7L94 .7c.3-.9 1.5-.9 1.9 0" class="st20"></path></g><g><path d="M10.1.7L11.8 5c.2.4.5.6.9.7l4.5.3c.9.1 1.3 1.3.6 1.9L14.4 11c-.3.3-.4.7-.3 1.1l1 4.5c.2 1-.8 1.7-1.6 1.2l-3.9-2.4c-.3-.2-.8-.2-1.1 0l-3.9 2.4c-.8.5-1.8-.2-1.6-1.2l1-4.5c.1-.4 0-.8-.3-1.1L.4 8c-.7-.7-.4-1.9.6-2l4.5-.4c.4 0 .7-.3.9-.7L8.2.6c.3-.8 1.5-.8 1.9.1" class="st20"></path><path d="M31.5.7L33.3 5c.2.4.5.6.9.7l4.4.3c1 .1 1.4 1.3.6 2l-3.3 3c-.3.3-.4.7-.3 1.1l1 4.5c.2 1-.8 1.7-1.6 1.2l-3.9-2.4c-.3-.2-.8-.2-1.1 0l-3.9 2.4c-.8.5-1.8-.2-1.6-1.2l1-4.5c.1-.4 0-.8-.3-1.1l-3.4-3c-.7-.6-.3-1.9.6-1.9l4.5-.4c.4 0 .7-.3.9-.7L29.6.7c.3-.9 1.6-.9 1.9 0" class="st20"></path><path d="M53 .7L54.7 5c.2.4.5.6.9.7l4.5.3c.9.1 1.3 1.3.6 2l-3.4 3c-.3.3-.4.7-.3 1.1l1 4.5c.2 1-.8 1.7-1.6 1.2l-3.9-2.4c-.3-.2-.8-.2-1.1 0l-3.9 2.4c-.8.5-1.8-.2-1.6-1.2l1-4.5c.1-.4 0-.8-.3-1.1l-3.3-3c-.7-.7-.3-1.9.6-2l4.5-.4c.4 0 .7-.3.9-.7L51 .7c.4-.9 1.6-.9 2 0" class="st20"></path><path d="M74.4.7L76.2 5c.2.4.5.6.9.7l4.5.3c.9.1 1.3 1.3.6 1.9L78.8 11c-.3.3-.4.7-.3 1.1l1 4.5c.2 1-.8 1.7-1.6 1.2L74 15.4c-.3-.2-.8-.2-1.1 0L69 17.8c-.8.5-1.8-.2-1.6-1.2l1-4.5c.1-.4 0-.8-.3-1.1l-3.3-3c-.8-.7-.4-1.9.6-2l4.5-.4c.4 0 .7-.3.9-.7L72.6.6c.2-.8 1.5-.8 1.8.1" class="st20"></path><path d="M95.9.7L97.7 5c.2.4.5.6.9.7l4.4.3c.9.1 1.3 1.3.6 1.9l-3.4 3.1c-.3.3-.4.7-.3 1.1l1 4.5c.2 1-.8 1.7-1.6 1.2l-3.9-2.4c-.3-.2-.8-.2-1.1 0l-3.9 2.4c-.8.5-1.8-.2-1.6-1.2l1-4.5c.1-.4 0-.8-.3-1.1l-3.3-3c-.7-.6-.3-1.9.6-1.9l4.5-.4c.4 0 .7-.3.9-.7L94 .7c.3-.9 1.5-.9 1.9 0" class="st20"></path></g></g></g></g></svg>                                    
+                        </div>
+                        <span class="reviews">Nota <span class="font-blue">4,9 de 5</span> na Hotmart</span>
+                        <span class="reviews-subheadline"><i>O curso de Python <b class="font-white">mais bem avaliado da Hotmart</b>!</i></span>
+                    </div>
+                </div>
+    
+                <div class="course-image">
+                    <img alt="Telas" width="325px" data-src="/assets/img/screens-jp.png" class="lazyload">
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+
+<h2 id="o-mesmo-agente-com-um-framework-langgraph">O mesmo agente com um framework (LangGraph)</h2>
+
+<p>O loop acima é ótimo para entender o mecanismo, mas em um projeto real você não vai querer reescrever (e manter) todo aquele encanamento: histórico, <em>parsing</em> de argumentos, paralelismo, <em>streaming</em>, persistência. É para isso que servem os frameworks de agentes.</p>
+
+<p>O <strong>LangGraph</strong> - o irmão do <a href="https://pythonacademy.com.br/blog/o-que-e-e-como-funciona-o-langchain" target="_blank">LangChain</a> feito justamente para orquestrar agentes - resume tudo o que escrevemos a poucas linhas. Instale as dependências:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="code"><pre>pip <span class="nb">install </span>langgraph langchain-openai
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>E o agente inteiro vira isto:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+</pre></td>
+<td class="code"><pre><span class="kn">from</span> <span class="n">langchain_core.tools</span> <span class="kn">import</span> <span class="n">tool</span>
+<span class="kn">from</span> <span class="n">langchain_openai</span> <span class="kn">import</span> <span class="n">ChatOpenAI</span>
+<span class="kn">from</span> <span class="n">langgraph.prebuilt</span> <span class="kn">import</span> <span class="n">create_react_agent</span>
+
+<span class="nd">@tool</span>
+<span class="k">def</span> <span class="nf">cotacao</span><span class="p">(</span><span class="n">moeda</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sh">"""</span><span class="s">Retorna a cotação de uma moeda estrangeira em reais (BRL).</span><span class="sh">"""</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="sh">"</span><span class="s">1 </span><span class="si">{</span><span class="n">moeda</span><span class="p">.</span><span class="nf">upper</span><span class="p">()</span><span class="si">}</span><span class="s"> = </span><span class="si">{</span><span class="n">COTACOES</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="n">moeda</span><span class="p">.</span><span class="nf">upper</span><span class="p">(),</span> <span class="sh">'</span><span class="s">?</span><span class="sh">'</span><span class="p">)</span><span class="si">}</span><span class="s"> BRL</span><span class="sh">"</span>
+
+<span class="nd">@tool</span>
+<span class="k">def</span> <span class="nf">calcular</span><span class="p">(</span><span class="n">expressao</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sh">"""</span><span class="s">Avalia uma expressão aritmética.</span><span class="sh">"""</span>
+    <span class="k">return</span> <span class="nf">str</span><span class="p">(</span><span class="nf">eval</span><span class="p">(</span><span class="n">expressao</span><span class="p">))</span>
+
+<span class="n">modelo</span> <span class="o">=</span> <span class="nc">ChatOpenAI</span><span class="p">(</span><span class="n">model</span><span class="o">=</span><span class="sh">"</span><span class="s">gpt-4o-mini</span><span class="sh">"</span><span class="p">,</span> <span class="n">temperature</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">agente</span> <span class="o">=</span> <span class="nf">create_react_agent</span><span class="p">(</span><span class="n">modelo</span><span class="p">,</span> <span class="n">tools</span><span class="o">=</span><span class="p">[</span><span class="n">cotacao</span><span class="p">,</span> <span class="n">calcular</span><span class="p">])</span>
+
+<span class="n">resposta</span> <span class="o">=</span> <span class="n">agente</span><span class="p">.</span><span class="nf">invoke</span><span class="p">(</span>
+    <span class="p">{</span><span class="sh">"</span><span class="s">messages</span><span class="sh">"</span><span class="p">:</span> <span class="p">[(</span><span class="sh">"</span><span class="s">user</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">Tenho 250 dólares. Quanto é isso em reais hoje?</span><span class="sh">"</span><span class="p">)]}</span>
+<span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">resposta</span><span class="p">[</span><span class="sh">"</span><span class="s">messages</span><span class="sh">"</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">].</span><span class="n">content</span><span class="p">)</span>
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>O <code class="language-plaintext highlighter-rouge">create_react_agent</code> constrói, internamente, <strong>o mesmo loop ReAct</strong> que fizemos na mão - só que com memória, controle de iterações, tratamento de erros e <em>streaming</em> já resolvidos. O decorador <code class="language-plaintext highlighter-rouge">@tool</code> substitui aquele “cardápio” JSON gigante: o LangGraph lê a assinatura e a <em>docstring</em> da função para montar a descrição sozinho.</p>
+
+<h3 id="loop-manual-ou-framework-qual-escolher">Loop manual ou framework: qual escolher?</h3>
+
+<p>Os dois caminhos levam ao mesmo agente. A escolha é de contexto:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Critério</th>
+      <th style="text-align: left">Loop manual</th>
+      <th style="text-align: left">Framework (LangGraph)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Linhas de código</td>
+      <td style="text-align: left">~40</td>
+      <td style="text-align: left">~6</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Controle</td>
+      <td style="text-align: left">total, você vê cada passo</td>
+      <td style="text-align: left">abstraído</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Aprendizado</td>
+      <td style="text-align: left">entende o mecanismo</td>
+      <td style="text-align: left">precisa aprender a API</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Memória e persistência</td>
+      <td style="text-align: left">você implementa</td>
+      <td style="text-align: left">embutida (<em>checkpoints</em>)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Streaming, retries, paralelismo</td>
+      <td style="text-align: left">manual</td>
+      <td style="text-align: left">embutidos</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Melhor para</td>
+      <td style="text-align: left">aprender, casos simples, controle fino</td>
+      <td style="text-align: left">produção e agentes complexos</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p><strong>E a “diferença entre LangChain e LangGraph”?</strong> O LangChain te dá os blocos (modelos, <em>prompts</em>, integrações, chains de fluxo fixo). O LangGraph orquestra esses blocos como um <strong>grafo com estado e ciclos</strong> - exatamente o que um loop de agente precisa. Para chains lineares, LangChain; para agentes que decidem em loop, LangGraph.</p>
+</blockquote>
+
+<h2 id="dando-ferramentas-melhores-ao-seu-agente">Dando ferramentas melhores ao seu agente</h2>
+
+<p>Um agente só é tão útil quanto as ferramentas que você dá a ele. A partir do esqueleto acima, dá para evoluir em várias direções:</p>
+
+<ul>
+  <li>
+<strong>Saída estruturada e validada:</strong> em vez de devolver texto solto, faça as ferramentas retornarem dados validados com <a href="https://pythonacademy.com.br/blog/introducao-ao-pydantic-validacao-e-modelagem-de-dados-simplificada-com-python" target="_blank">Pydantic</a>. Isso reduz erros de <em>parsing</em> e deixa o agente muito mais confiável.</li>
+  <li>
+<strong>Conhecimento próprio (RAG):</strong> transforme uma busca no <a href="https://pythonacademy.com.br/blog/rag-na-pratica-em-python" target="_blank">seu RAG</a> em uma ferramenta. Aí o agente decide <em>quando</em> consultar os seus documentos, em vez de fazer isso sempre.</li>
+  <li>
+<strong>Ferramentas padronizadas (MCP):</strong> o <a href="https://pythonacademy.com.br/blog/o-que-e-mcp-model-context-protocol" target="_blank">Model Context Protocol (MCP)</a> é um padrão para expor ferramentas a agentes de forma reaproveitável - você escreve a ferramenta uma vez e qualquer agente compatível a usa.</li>
+</ul>
+
+<h2 id="quando-não-usar-um-agente-e-usar-um-prompt-simples">Quando NÃO usar um agente (e usar um prompt simples)</h2>
+
+<p>Agente é poderoso, mas tem custo: cada volta no loop é uma chamada de API a mais (mais lento, mais caro) e mais imprevisível. Não vale a pena quando:</p>
+
+<ul>
+  <li>
+<strong>A tarefa tem passos fixos.</strong> Se você já sabe a sequência exata, uma <a href="https://pythonacademy.com.br/blog/o-que-e-e-como-funciona-o-langchain" target="_blank">chain</a> ou até uma chamada única ao LLM resolve - sem o overhead de deixar o modelo “decidir”.</li>
+  <li>
+<strong>Não há ferramentas envolvidas.</strong> Resumir, traduzir ou classificar um texto não precisa de agente nenhum. É só um <em>prompt</em>.</li>
+  <li>
+<strong>Você precisa de previsibilidade total.</strong> Quanto mais autonomia o agente tem, mais difícil é garantir que ele faça sempre a mesma coisa. Para fluxos críticos e auditáveis, código tradicional ganha.</li>
+  <li>
+<strong>Latência e custo importam muito.</strong> Um agente que dá cinco voltas no loop custa (e demora) cinco vezes uma chamada simples.</li>
+</ul>
+
+<p>A regra de ouro: <strong>comece com o mais simples que resolve</strong> (prompt -&gt; chain -&gt; agente) e só suba de nível quando o problema realmente exigir autonomia.</p>
+
+<h2 id="perguntas-frequentes-faq">Perguntas frequentes (FAQ)</h2>
+
+<h3 id="qual-a-diferença-entre-langchain-e-langgraph">Qual a diferença entre LangChain e LangGraph?</h3>
+<p>O LangChain oferece os blocos de construção (modelos, <em>prompts</em>, integrações e chains de fluxo fixo). O LangGraph é feito para orquestrar agentes: representa o fluxo como um grafo com estado e ciclos, que é o que um loop de raciocínio precisa. Para sequências lineares, use LangChain; para agentes que decidem em loop, LangGraph.</p>
+
+<h3 id="preciso-de-um-framework-para-criar-um-agente-de-ia-em-python">Preciso de um framework para criar um agente de IA em Python?</h3>
+<p>Não. Como mostramos, um agente é, na essência, um LLM com <em>tool calling</em> dentro de um <code class="language-plaintext highlighter-rouge">while</code>. Dá para fazer só com a biblioteca <code class="language-plaintext highlighter-rouge">openai</code>. O framework compensa em produção, quando você quer memória persistente, <em>streaming</em>, paralelismo e tratamento de erros prontos.</p>
+
+<h3 id="qual-modelo-usar-para-um-agente">Qual modelo usar para um agente?</h3>
+<p>Qualquer um com bom suporte a <em>tool calling</em>: GPT-4o e GPT-4o-mini, Claude, Gemini ou modelos locais via Ollama que aceitem ferramentas. Para agentes que encadeiam muitos passos, um modelo mais capaz erra menos a decisão de qual ferramenta chamar e economiza voltas no loop.</p>
+
+<h3 id="um-agente-de-ia-é-seguro-ele-executa-código-sozinho">Um agente de IA é seguro? Ele executa código sozinho?</h3>
+<p>O agente só executa as ferramentas que <strong>você</strong> define - ele não roda nada além disso. O risco mora nas ferramentas: dar a ele um <code class="language-plaintext highlighter-rouge">eval</code>, acesso ao shell ou ao sistema de arquivos sem limites é perigoso, porque a entrada é gerada por um LLM. Valide os argumentos, restrinja permissões e, quando possível, rode em um <em>sandbox</em>.</p>
+
+<h3 id="qual-a-diferença-entre-um-agente-e-um-chatbot-comum">Qual a diferença entre um agente e um chatbot comum?</h3>
+<p>Um chatbot devolve texto. Um agente decide ações, usa ferramentas e repete esse ciclo até concluir uma tarefa concreta - como buscar um dado e fazer um cálculo com ele. O agente age; o chatbot apenas conversa.</p>
+
+<h2 id="conclusão">Conclusão</h2>
+
+<p>Você acabou de construir um <strong>agente de IA funcional</strong> das duas formas que importam: na mão, para entender que por baixo do hype existe só um LLM, ferramentas e um loop; e com LangGraph, para ver como um framework empacota tudo isso em poucas linhas. Esse mesmo esqueleto - trocando as duas funções de exemplo por ferramentas de verdade - é o que move desde assistentes de código até sistemas autônomos de produção.</p>
+
+<p>É exatamente esse tipo de arquitetura que está por trás do <strong><a href="https://ebookr.ai">Ebookr.ai</a></strong>, minha plataforma que gera ebooks profissionais com IA: por dentro, é um sistema de agentes que planejam, pesquisam e escrevem em etapas, cada um com suas ferramentas. Se quer ver agentes aplicados de verdade, em escala, dá uma conferida:</p>
 
 <style>
     .ebookr-banner-in-post {
@@ -676,257 +1034,58 @@ Conteúdo enriquecido com casos de uso do mundo real e análise de quando usar v
     </div>    
 </div>
 
-<h2 id="casos-de-uso-do-mundo-real">Casos de Uso do Mundo Real</h2>
+<p>E você, qual ferramenta vai plugar no seu primeiro agente? <strong>Conta aqui nos comentários!</strong> <img class="emoji" title=":point_down:" alt=":point_down:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png" height="20" width="20"></p>
 
-<p>Vamos ver onde lambdas são úteis na prática:</p>
+<p>Nos vemos no próximo artigo! <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20"></p>
 
-<h3 id="1-ordenar-listas-complexas">1. Ordenar Listas Complexas</h3>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-</pre></td>
-<td class="code"><pre><span class="c1"># Ordenar lista de dicionários por chave
-</span><span class="n">users</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="p">{</span><span class="sh">'</span><span class="s">name</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">Alice</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">age</span><span class="sh">'</span><span class="p">:</span> <span class="mi">30</span><span class="p">},</span>
-    <span class="p">{</span><span class="sh">'</span><span class="s">name</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">Bob</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">age</span><span class="sh">'</span><span class="p">:</span> <span class="mi">25</span><span class="p">},</span>
-    <span class="p">{</span><span class="sh">'</span><span class="s">name</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">Charlie</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">age</span><span class="sh">'</span><span class="p">:</span> <span class="mi">35</span><span class="p">}</span>
-<span class="p">]</span>
-
-<span class="c1"># Ordenar por idade
-</span><span class="n">sorted_by_age</span> <span class="o">=</span> <span class="nf">sorted</span><span class="p">(</span><span class="n">users</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">u</span><span class="p">:</span> <span class="n">u</span><span class="p">[</span><span class="sh">'</span><span class="s">age</span><span class="sh">'</span><span class="p">])</span>
-<span class="c1"># [{'name': 'Bob', 'age': 25}, ...]
-</span>
-<span class="c1"># Ordenar por nome
-</span><span class="n">sorted_by_name</span> <span class="o">=</span> <span class="nf">sorted</span><span class="p">(</span><span class="n">users</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">u</span><span class="p">:</span> <span class="n">u</span><span class="p">[</span><span class="sh">'</span><span class="s">name</span><span class="sh">'</span><span class="p">])</span>
-<span class="c1"># [{'name': 'Alice', ...}, ...]
-</span>
-<span class="c1"># Ordenar por múltiplos critérios (idade desc, nome asc)
-</span><span class="n">sorted_users</span> <span class="o">=</span> <span class="nf">sorted</span><span class="p">(</span><span class="n">users</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">u</span><span class="p">:</span> <span class="p">(</span><span class="o">-</span><span class="n">u</span><span class="p">[</span><span class="sh">'</span><span class="s">age</span><span class="sh">'</span><span class="p">],</span> <span class="n">u</span><span class="p">[</span><span class="sh">'</span><span class="s">name</span><span class="sh">'</span><span class="p">]))</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<h3 id="2-encontrar-máximomínimo-customizado">2. Encontrar Máximo/Mínimo Customizado</h3>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td>
-<td class="code"><pre><span class="n">products</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="p">{</span><span class="sh">'</span><span class="s">name</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">Notebook</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">price</span><span class="sh">'</span><span class="p">:</span> <span class="mi">2500</span><span class="p">,</span> <span class="sh">'</span><span class="s">stock</span><span class="sh">'</span><span class="p">:</span> <span class="mi">10</span><span class="p">},</span>
-    <span class="p">{</span><span class="sh">'</span><span class="s">name</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">Mouse</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">price</span><span class="sh">'</span><span class="p">:</span> <span class="mi">50</span><span class="p">,</span> <span class="sh">'</span><span class="s">stock</span><span class="sh">'</span><span class="p">:</span> <span class="mi">100</span><span class="p">},</span>
-    <span class="p">{</span><span class="sh">'</span><span class="s">name</span><span class="sh">'</span><span class="p">:</span> <span class="sh">'</span><span class="s">Teclado</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">price</span><span class="sh">'</span><span class="p">:</span> <span class="mi">150</span><span class="p">,</span> <span class="sh">'</span><span class="s">stock</span><span class="sh">'</span><span class="p">:</span> <span class="mi">50</span><span class="p">}</span>
-<span class="p">]</span>
-
-<span class="c1"># Produto mais caro
-</span><span class="n">most_expensive</span> <span class="o">=</span> <span class="nf">max</span><span class="p">(</span><span class="n">products</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">p</span><span class="p">:</span> <span class="n">p</span><span class="p">[</span><span class="sh">'</span><span class="s">price</span><span class="sh">'</span><span class="p">])</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">most_expensive</span><span class="p">)</span>  <span class="c1"># {'name': 'Notebook', 'price': 2500, ...}
-</span>
-<span class="c1"># Produto com menor estoque
-</span><span class="n">lowest_stock</span> <span class="o">=</span> <span class="nf">min</span><span class="p">(</span><span class="n">products</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">p</span><span class="p">:</span> <span class="n">p</span><span class="p">[</span><span class="sh">'</span><span class="s">stock</span><span class="sh">'</span><span class="p">])</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">lowest_stock</span><span class="p">)</span>  <span class="c1"># {'name': 'Notebook', 'stock': 10, ...}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<h3 id="3-filtrar-e-transformar-dados">3. Filtrar e Transformar Dados</h3>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td>
-<td class="code"><pre><span class="c1"># Filtrar números pares e elevar ao quadrado
-</span><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
-
-<span class="c1"># Com lambda
-</span><span class="n">evens_squared</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="nf">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span> <span class="nf">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)))</span>
-<span class="c1"># [4, 16, 36]
-</span>
-<span class="c1"># Equivalente com list comprehension (mais legível)
-</span><span class="n">evens_squared</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">numbers</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<h3 id="4-funções-de-alta-ordem">4. Funções de Alta Ordem</h3>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td>
-<td class="code"><pre><span class="c1"># Criar funções multiplicadoras
-</span><span class="k">def</span> <span class="nf">make_multiplier</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="k">return</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">n</span>
-
-<span class="n">double</span> <span class="o">=</span> <span class="nf">make_multiplier</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-<span class="n">triple</span> <span class="o">=</span> <span class="nf">make_multiplier</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
-
-<span class="nf">print</span><span class="p">(</span><span class="nf">double</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>  <span class="c1"># 10
-</span><span class="nf">print</span><span class="p">(</span><span class="nf">triple</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>  <span class="c1"># 15</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<h2 id="lambda-vs-funções-normais-def">Lambda vs Funções Normais (def)</h2>
-
-<h3 id="quando-usar-lambda">Quando Usar Lambda:</h3>
-
-<p>✅ <strong>Operações simples e únicas</strong></p>
-<ul>
-  <li>key em <code class="language-plaintext highlighter-rouge">sorted()</code>, <code class="language-plaintext highlighter-rouge">max()</code>, <code class="language-plaintext highlighter-rouge">min()</code>
-</li>
-  <li>Callback simples</li>
-</ul>
-
-<p>✅ <strong>Expressão de uma linha</strong></p>
-<ul>
-  <li>Sem lógica condicional complexa</li>
-  <li>Fácil de entender</li>
-</ul>
-
-<p>✅ <strong>Usado uma vez</strong></p>
-<ul>
-  <li>Não será reutilizado</li>
-</ul>
-
-<h3 id="quando-usar-def-função-normal">Quando Usar def (Função Normal):</h3>
-
-<p>✅ <strong>Lógica complexa</strong></p>
-<ul>
-  <li>Múltiplas linhas</li>
-  <li>Condições if/else aninhadas</li>
-</ul>
-
-<p>✅ <strong>Reutilização</strong></p>
-<ul>
-  <li>Usada em vários lugares</li>
-  <li>Precisa de nome descritivo</li>
-</ul>
-
-<p>✅ <strong>Docstring necessária</strong></p>
-<ul>
-  <li>Precisa documentação</li>
-  <li>API pública</li>
-</ul>
-
-<h3 id="exemplos-de-quando-não-usar-lambda">Exemplos de Quando NÃO Usar Lambda:</h3>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-</pre></td>
-<td class="code"><pre><span class="c1"># ❌ RUIM: Lambda complexa (ilegível)
-</span><span class="n">calculate</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="o">-</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="k">if</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="mi">0</span>
-
-<span class="c1"># ✅ BOM: Função normal (legível)
-</span><span class="k">def</span> <span class="nf">calculate</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-    <span class="sh">"""</span><span class="s">Calcula quadrado com sinal</span><span class="sh">"""</span>
-    <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span>
-    <span class="k">elif</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="o">-</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span>
-    <span class="k">return</span> <span class="mi">0</span>
-
-<span class="c1"># ❌ RUIM: Lambda reutilizada (sem nome descritivo)
-</span><span class="n">process_data</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">data</span><span class="p">:</span> <span class="p">[</span><span class="n">x</span><span class="p">.</span><span class="nf">strip</span><span class="p">().</span><span class="nf">upper</span><span class="p">()</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">data</span><span class="p">]</span>
-<span class="n">result1</span> <span class="o">=</span> <span class="nf">process_data</span><span class="p">(</span><span class="n">data1</span><span class="p">)</span>
-<span class="n">result2</span> <span class="o">=</span> <span class="nf">process_data</span><span class="p">(</span><span class="n">data2</span><span class="p">)</span>
-
-<span class="c1"># ✅ BOM: Função nomeada (clareza)
-</span><span class="k">def</span> <span class="nf">normalize_data</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
-    <span class="sh">"""</span><span class="s">Normaliza dados: remove espaços e converte para maiúsculas</span><span class="sh">"""</span>
-    <span class="k">return</span> <span class="p">[</span><span class="n">x</span><span class="p">.</span><span class="nf">strip</span><span class="p">().</span><span class="nf">upper</span><span class="p">()</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">data</span><span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-<h2 class="no_toc" id="conclusão">Conclusão</h2>
-
-<p>Neste guia completo sobre <strong>Funções Lambda</strong>, você aprendeu:</p>
-
-<p>✅ <strong>Sintaxe lambda</strong> - Funções anônimas de uma linha
-✅ <strong>Casos de uso reais</strong> - sort, filter, map, max/min
-✅ <strong>Lambda vs def</strong> - Quando usar cada uma
-✅ <strong>Quando NÃO usar</strong> - Complexidade e reutilização</p>
-
-<p><strong>Principais lições:</strong></p>
-<ul>
-  <li>Lambdas são ideais para <strong>operações simples e únicas</strong>
-</li>
-  <li>Perfeitas como <strong>key em sorted()</strong> e callbacks</li>
-  <li>Use <strong>def</strong> quando lógica é <strong>complexa</strong> ou <strong>reutilizada</strong>
-</li>
-  <li>Lambdas NÃO têm <strong>docstrings</strong> ou <strong>nomes descritivos</strong>
-</li>
-  <li>
-<strong>Legibilidade &gt; concisão</strong> - se está confuso, use def</li>
-</ul>
-
-<p><strong>Próximos passos:</strong></p>
-<ul>
-  <li>Pratique com <code class="language-plaintext highlighter-rouge">sorted()</code>, <code class="language-plaintext highlighter-rouge">max()</code>, <code class="language-plaintext highlighter-rouge">min()</code>
-</li>
-  <li>Explore <code class="language-plaintext highlighter-rouge">functools.partial</code> para alternativa a lambdas</li>
-  <li>Combine com <code class="language-plaintext highlighter-rouge">map()</code>, <code class="language-plaintext highlighter-rouge">filter()</code> (mas list comprehension é mais Pythônico)</li>
-  <li>Estude funções de alta ordem</li>
-</ul>
-
-<p>Agora que você domina funções lambda, experimente usá-las em seus próprios projetos e veja como elas podem simplificar seu código!</p>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Qual a diferença entre LangChain e LangGraph?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O LangChain oferece os blocos de construção (modelos, prompts, integrações e chains de fluxo fixo). O LangGraph é feito para orquestrar agentes: representa o fluxo como um grafo com estado e ciclos, que é o que um loop de raciocínio precisa. Para sequências lineares, use LangChain; para agentes que decidem em loop, LangGraph."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso de um framework para criar um agente de IA em Python?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não. Um agente é, na essência, um LLM com tool calling dentro de um while. Dá para fazer só com a biblioteca openai. O framework compensa em produção, quando você quer memória persistente, streaming, paralelismo e tratamento de erros prontos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qual modelo usar para um agente de IA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Qualquer um com bom suporte a tool calling: GPT-4o e GPT-4o-mini, Claude, Gemini ou modelos locais via Ollama que aceitem ferramentas. Para agentes que encadeiam muitos passos, um modelo mais capaz erra menos a decisão de qual ferramenta chamar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Um agente de IA é seguro? Ele executa código sozinho?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O agente só executa as ferramentas que você define, nada além disso. O risco mora nas ferramentas: dar a ele um eval, acesso ao shell ou ao sistema de arquivos sem limites é perigoso, porque a entrada é gerada por um LLM. Valide os argumentos, restrinja permissões e, quando possível, rode em um sandbox."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qual a diferença entre um agente e um chatbot comum?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Um chatbot devolve texto. Um agente decide ações, usa ferramentas e repete esse ciclo até concluir uma tarefa concreta, como buscar um dado e fazer um cálculo com ele. O agente age; o chatbot apenas conversa."
+      }
+    }
+  ]
+}
+</script>
 
 
 	
@@ -949,7 +1108,7 @@ Conteúdo enriquecido com casos de uso do mundo real e análise de quando usar v
 													Por Vinícius Ramos
 												</span>
 	
-												<b>em <time datetime="2023-01-10">10/01/2023</time></b>
+												<b>em <time datetime="2026-06-03">03/06/2026</time></b>
 											</p>
 		
 											<p class="short-description">Engenheiro de Computação pela UnB com especialização em Inteligência Artificial. Sr. Software Engineer com 10+ anos de experiência desenvolvendo sistemas críticos em Python e Django. Atuei no Banco do Brasil liderando equipes para monitoramento de mainframe, trabalhei como desenvolvedor sênior em projetos forenses para a Polícia Federal, e atualmente sou engenheiro de software na Labcorp (Estados Unidos), desenvolvendo soluções escaláveis para testes genéticos. Fundador da Python Academy, compartilhando conhecimento técnico com a comunidade brasileira desde 2018.</p>
@@ -1013,25 +1172,25 @@ Conteúdo enriquecido com casos de uso do mundo real e análise de quando usar v
 
 				<ul>									
 					<li>
-						<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/funcoes-lambda-no-python','Compartilhe no Facebook','width=600,height=400')" class="facebook-item" title="Facebook">
+						<a rel="nofollow" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://pythonacademy.com.br/blog/como-criar-um-agente-de-ia-em-python','Compartilhe no Facebook','width=600,height=400')" class="facebook-item" title="Facebook">
 							<img src="/assets/img/icone-facebook-50.png" alt="Facebook" loading="lazy" width="24px" height="24px">
 						</a>
 					</li>
 					
 					<li>							
-						<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/funcoes-lambda-no-python&related=PythonAcademyBR&text=&quot;O que são Funções Lambda no Python&quot; por Vinícius Ramos','Compartilhe no Twitter','width=600,height=400')" class="twitter-item" target="_blank" title="Twitter">
+						<a rel="nofollow" href="javascript:window.open('https://twitter.com/share?url=https://pythonacademy.com.br/blog/como-criar-um-agente-de-ia-em-python&related=PythonAcademyBR&text=&quot;Como Criar um Agente de IA em Python (do Zero ao Framework)&quot; por Vinícius Ramos','Compartilhe no Twitter','width=600,height=400')" class="twitter-item" target="_blank" title="Twitter">
 							<img src="/assets/img/icone-twitter-50.png" alt="Twitter" loading="lazy" width="24px" height="24px">
 						</a>
 					</li>
 	
 					<li>
-						<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/funcoes-lambda-no-python" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/funcoes-lambda-no-python" data-action="share/whatsapp/share" title="Whatsapp">
+						<a rel="nofollow" href="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/como-criar-um-agente-de-ia-em-python" target="_blank" class="whatsapp-item" data-link="https://api.whatsapp.com/send?text=https://pythonacademy.com.br/blog/como-criar-um-agente-de-ia-em-python" data-action="share/whatsapp/share" title="Whatsapp">
 							<img src="/assets/img/icone-whatsapp-50.png" alt="Whatsapp" loading="lazy" width="24px" height="24px">
 						</a>
 					</li>
 	
 					<li>
-						<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=O que são Funções Lambda no Python&amp;body=https://pythonacademy.com.br/blog/funcoes-lambda-no-python&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item" title="Email">
+						<a href="https://mail.google.com/mail?view=cm&amp;fs=1&amp;su=Como Criar um Agente de IA em Python (do Zero ao Framework)&amp;body=https://pythonacademy.com.br/blog/como-criar-um-agente-de-ia-em-python&amp;ui=2&amp;tf=1" target="_blank" class="gmail-item" title="Email">
 							<img src="/assets/img/icone-email-50.png" alt="Email" loading="lazy" width="24px" height="24px">
 						</a>
 					</li>						
