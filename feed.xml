@@ -6,10 +6,25 @@
     <link>https://pythonacademy.com.br/</link>
     <language>pt-BR</language>
     <atom:link href="https://pythonacademy.com.br/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Jun 2026 21:27:02 -0300</pubDate>
-    <lastBuildDate>Mon, 08 Jun 2026 21:27:02 -0300</lastBuildDate>
+    <pubDate>Tue, 09 Jun 2026 18:46:42 -0300</pubDate>
+    <lastBuildDate>Tue, 09 Jun 2026 18:46:42 -0300</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     
+    
+    <item>
+        <title>Claude Fable 5 e Mythos 5: a nova geração de IA da Anthropic</title>
+        <description>Claude Fable 5 e Mythos 5: o que são os novos modelos da Anthropic, preço, salvaguardas e o que muda na API pra quem programa em Python.</description>
+        <pubDate>Tue, 09 Jun 2026 00:00:00 -0300</pubDate>
+        <link>https://pythonacademy.com.br/blog/claude-fable-5-e-mythos-5</link>
+        <guid isPermaLink="true">https://pythonacademy.com.br/blog/claude-fable-5-e-mythos-5</guid>
+        <dc:creator>Vinícius Ramos</dc:creator>
+        <category>python</category>
+        <category>desenvolvimento</category>
+        <category>software</category>
+        <category>programação</category>
+        <category>ia</category>
+        <category>artigo</category>
+    </item>
     
     <item>
         <title>Como Criar um Agente de IA em Python (do Zero ao Framework)</title>
@@ -282,20 +297,6 @@
         <pubDate>Sat, 15 Feb 2025 00:00:00 -0300</pubDate>
         <link>https://pythonacademy.com.br/blog/pydantic-e-tipos-avancados</link>
         <guid isPermaLink="true">https://pythonacademy.com.br/blog/pydantic-e-tipos-avancados</guid>
-        <dc:creator>Vinícius Ramos</dc:creator>
-        <category>python</category>
-        <category>desenvolvimento</category>
-        <category>software</category>
-        <category>programação</category>
-        <category>tutorial</category>
-    </item>
-    
-    <item>
-        <title>Trabalhando com Estruturas Complexas no Pydantic</title>
-        <description>Neste artigo, veremos como o Pydantic lida com modelos aninhados, permitindo representar relações entre dados em Python. Vamos explorar como o Pydantic lida com listas, dicionários e estruturas JSON complexas.</description>
-        <pubDate>Sun, 19 Jan 2025 00:00:00 -0300</pubDate>
-        <link>https://pythonacademy.com.br/blog/modelos-complexos-no-pydantic</link>
-        <guid isPermaLink="true">https://pythonacademy.com.br/blog/modelos-complexos-no-pydantic</guid>
         <dc:creator>Vinícius Ramos</dc:creator>
         <category>python</category>
         <category>desenvolvimento</category>
