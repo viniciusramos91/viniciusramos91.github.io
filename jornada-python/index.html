@@ -51,7 +51,14 @@
 
     
     			
-    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RCM66P903H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RCM66P903H');
+</script>
+
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -2967,15 +2974,26 @@
         
         AOS.init();
 
-        // Rastreia cliques em CTAs -> checkout Hotmart. Consumido pelo GTM (trigger Custom Event "cta_click" -> GA4 begin_checkout + Meta InitiateCheckout).
+        // Rastreia cliques em CTAs -> checkout Hotmart.
+        // GA4 begin_checkout vai DIRETO via gtag (o container GTM nao tem mais tag GA4).
+        // O push de cta_click no dataLayer fica para Google Ads / Meta consumirem via GTM.
         document.querySelectorAll('a[href*="pay.hotmart.com"]').forEach(function (link) {
             link.addEventListener('click', function () {
+                var ctaLocation = link.getAttribute('data-cta') || (link.textContent || '').trim().slice(0, 60);
                 window.dataLayer = window.dataLayer || [];
                 window.dataLayer.push({
                     event: 'cta_click',
-                    cta_location: link.getAttribute('data-cta') || (link.textContent || '').trim().slice(0, 60),
+                    cta_location: ctaLocation,
                     cta_url: link.href
                 });
+                // GA4 begin_checkout direto, independente do GTM (gtag definido em google-analytics.html, so em producao)
+                if (typeof gtag === 'function') {
+                    gtag('event', 'begin_checkout', {
+                        currency: 'BRL',
+                        cta_location: ctaLocation,
+                        items: [{ item_id: 'jornada-python', item_name: 'Jornada Python' }]
+                    });
+                }
             });
         });
 
